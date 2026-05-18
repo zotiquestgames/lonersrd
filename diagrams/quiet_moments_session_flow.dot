@@ -1,0 +1,46 @@
+digraph quiet_moments_session_flow {
+    label = "SESSION FLOW";
+    labelloc="t";
+    fontname="Permanent Marker";
+    node [shape="rect", fontname="Permanent Marker", fontsize=12];
+    edge [fontname="Permanent Marker", fontsize=12];
+    bgcolor=white;
+    dpi=300;
+
+    ctx [label="SET CONTEXT\nSEASON · WEEKLY · MONTHLY\nROLL ENERGY + WEATHER\nMARK COMFORT ROUTINES"];
+    Frame [label="FRAME SCENE\nPLACE · TIME · PURPOSE"];
+    NextScene [label="NEED DIRECTION?\n1–3 CONTEMPLATIVE\n4–5 SOCIAL · 6 MEANWHILE"];
+    Modifiers [label="GATHER MODIFIERS\nTAGS · ENERGY · SEASON · WEATHER · ROUTINE"];
+    Ask [label="OUTCOME UNCERTAIN?\nASK THE ORACLE"];
+    outcome [label="INTERPRET RESULT\nYES / NO + AND / BUT"];
+    Doubles [label="DOUBLES?\nADD 1 TO TWIST COUNTER"];
+    Twist3 [label="TWIST COUNTER AT 3?"];
+    Twist [label="TRIGGER TWIST\nROLL SUBJECT + ACTION"];
+    ConflictQ [label="IS THIS A CONFLICT?"];
+    ConflictMode [label="CHOOSE METHOD\nSINGLE QUESTION\nSERIES OF QUESTIONS\nHARM & LUCK"];
+    Resolve [label="RESOLVE CONFLICT"];
+    Maintain [label="MAINTAIN RHYTHMS\nENERGY · DEBT · MOMENTUM"];
+    Close [label="CLOSE SCENE\nUPDATE NOTES"];
+    NextRoll [label="ANOTHER SCENE?"];
+    End [label="END SESSION\nADD OR MODIFY A TRAIT"];
+
+    ctx -> Frame;
+    Frame -> NextScene [style=dotted];
+    NextScene -> Frame [style=dotted, label="informs"];
+    Frame -> Modifiers;
+    Modifiers -> Ask;
+    Ask -> outcome [label="Yes"];
+    Ask -> outcome [label="No"];
+    outcome -> Doubles;
+    Doubles -> Twist3 [label="Yes"];
+    Doubles -> ConflictQ [label="No", style=dashed];
+    Twist3 -> Twist [label="Yes"];
+    Twist -> ConflictQ;
+    Twist3 -> ConflictQ [label="No"];
+    ConflictQ -> ConflictMode [label="Yes"];
+    ConflictQ -> Maintain [label="No"];
+    ConflictMode -> Resolve -> Maintain;
+    Maintain -> Close -> NextRoll;
+    NextRoll -> Frame [label="Yes"];
+    NextRoll -> End [label="No"];
+}

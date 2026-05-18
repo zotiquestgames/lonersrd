@@ -1,0 +1,32 @@
+digraph cinematic_stunt_framework {
+    label = "THE STUNT FRAMEWORK";
+    labelloc="t";
+    fontname="Permanent Marker";
+    bgcolor=white;
+    dpi=300;
+    node [shape="rect", fontname="Permanent Marker", fontsize=12];
+    edge [fontname="Permanent Marker", fontsize=12];
+
+    step1  [label="STEP 1\nDESCRIBE\nTHE STUNT"];
+    step2  [label="STEP 2\nASSESS ADV\nOR DISADV"];
+    step3  [label="STEP 3\nROLL THE\nORACLE"];
+    step4  [label="STEP 4\nRESOLVE\nRESULT"];
+
+    yes_and [label="YES, AND...\nSucceed +\nextra advantage"];
+    yes     [label="YES\nSucceed\ncleanly"];
+    yes_but [label="YES, BUT...\nSucceed +\ncomplication"];
+    no_but  [label="NO, BUT...\nFail +\npositive twist\nTake 1 Luck"];
+    no      [label="NO\nFail cleanly\nTake 2 Luck"];
+    no_and  [label="NO, AND...\nFail +\nescalation\nTake 3 Luck"];
+
+    step1 -> step2;
+    step2 -> step3;
+    step3 -> step4;
+
+    step4 -> yes_and [label="Yes, and"];
+    step4 -> yes     [label="Yes"];
+    step4 -> yes_but [label="Yes, but"];
+    step4 -> no_but  [label="No, but"];
+    step4 -> no      [label="No"];
+    step4 -> no_and  [label="No, and"];
+}
