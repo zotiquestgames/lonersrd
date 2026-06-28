@@ -1,0 +1,30 @@
+digraph cinematic_chase_framework {
+    label = "CHASE FRAMEWORK";
+    labelloc="t";
+    fontname="Permanent Marker";
+    bgcolor=white;
+    dpi=300;
+    node [shape="rect", fontname="Permanent Marker", fontsize=12];
+    edge [fontname="Permanent Marker", fontsize=12];
+
+    q1 [label="Q1: CAN YOU\nGET AWAY?"];
+    q2 [label="Q2: DO THEY\nCLOSE IN?"];
+    q3 [label="Q3: ESCAPE\nOR CAUGHT?"];
+
+    ahead    [label="AHEAD\nChase continues"];
+    closer   [label="CLOSER\nThings get\ndesperate"];
+    escape   [label="ESCAPE\nFreedom"];
+    caught   [label="CAUGHT\nNow what?"];
+
+    complication [label="COMPLICATION\nEnvironment\nshifts", style=dotted];
+
+    q1 -> ahead       [label="Yes"];
+    q1 -> complication [label="No, but"];
+    q1 -> q2          [label="No"];
+    ahead -> q2;
+    q2 -> closer      [label="Yes"];
+    q2 -> q3          [label="No"];
+    closer -> q3;
+    q3 -> escape      [label="Yes"];
+    q3 -> caught      [label="No"];
+}

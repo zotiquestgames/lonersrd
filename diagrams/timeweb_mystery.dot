@@ -1,0 +1,25 @@
+digraph timeweb_mystery {
+    label = "THE HYBRID SURREALIST MYSTERY";
+    labelloc="t";
+    fontname="Permanent Marker";
+    rankdir=LR;
+    node [fontname="Permanent Marker", fontsize=12];
+    edge [fontname="Permanent Marker", fontsize=12];
+
+    F1 [label="F1\nTHE MISSING PERSON\nWANTS TO STAY LOST", shape="rectangle"];
+    F2 [label="F2\nDETECTIVE WITNESSES\nOWN ARREST", shape="rectangle"];
+    C1 [label="C1\nFIRST DAY", shape="circle", style="filled", fillcolor="black", fontcolor="white"];
+    C2 [label="C2\nNEW DISTRICT", shape="circle", style="filled", fillcolor="black", fontcolor="white"];
+    L1 [label="L1\n✶\nTOTAL SURVEILLANCE", shape="circle"];
+    L2 [label="L2\n✶✶\nMIRROR WORLD", shape="circle"];
+
+    {rank=same; F1; C1}
+    {rank=same; F2; C2}
+    F1 -> C1 [dir="none", style="dotted"];
+    F2 -> C2 [dir="none", style="dotted"];
+    C1 -> C1 [label="↺ x2", constraint=false, style="dashed"];
+    C1 -> C2;
+    C2 -> C2 [label="↺ x1", constraint=false, style="dashed"];
+    C2 -> L1 [style="dashed"];
+    L1 -> L2 [style="dashed"];
+}
