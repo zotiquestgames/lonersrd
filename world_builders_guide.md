@@ -1,3 +1,31 @@
+---
+title: "Loner: World Builder’s Guide"
+author: "Roberto Bisceglie"
+date: last-modified
+version: 3.0
+lang: en
+format:
+  html: {}
+  typst:
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    fontsize: 11pt
+    tbl-colwidths: auto
+    template: _extensions/typst-template.typ
+    font-paths: _extensions/fonts
+    template-partials:
+      - _extensions/typst-show.typ
+  odt:
+    toc: true
+  epub:
+    toc: true
+  docx:
+    toc: true
+  gfm:
+    toc: false
+---
+
 # Loner: World Builder’s Guide
 
 *Loner* invites you to tell stories in worlds of your own design. You might be drawing inspiration from a familiar setting or inventing something entirely original—either way, this guide equips you with tools to build vivid, reactive environments where characters breathe and events unfold naturally through solo play.

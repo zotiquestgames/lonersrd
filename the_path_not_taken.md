@@ -1,3 +1,32 @@
+---
+title: "Loner: The Path Not Taken"
+subtitle: "Two modes of temporal play for solo storytelling: looping fates and irrevocable leaps."
+author: "Roberto Bisceglie"
+date: last-modified
+version: 3.0
+lang: en
+format:
+  html: {}
+  typst:
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    fontsize: 11pt
+    tbl-colwidths: auto
+    template: _extensions/typst-template.typ
+    font-paths: _extensions/fonts
+    template-partials:
+      - _extensions/typst-show.typ
+  odt:
+    toc: true
+  epub:
+    toc: true
+  docx:
+    toc: true
+  gfm:
+    toc: false
+---
+
 # Loner: The Path Not Taken
 
 *Two modes of temporal play for solo storytelling: looping fates and irrevocable leaps.*
@@ -334,7 +363,7 @@ You can use both modes in the same game. The two procedures are compatible; the 
 
 **Checkpoints inside Leap Nodes**
 
-You can declare a Loop Checkpoint while inside a Leap Node. Label it **C#@L#** on the Time-Web (e.g., *C2@L1* means the second Checkpoint, set within Leap Node 1). When the loop resets, you return to that position *within the Leap Node*—not to the main timeline.
+You can declare a Loop Checkpoint while inside a Leap Node. Label it **C#\@L#** on the Time-Web (e.g., *C2\@L1* means the second Checkpoint, set within Leap Node 1). When the loop resets, you return to that position *within the Leap Node*—not to the main timeline.
 
 **Wear tags persist across Leaps**
 
@@ -390,7 +419,7 @@ Connect the nodes with directional lines to show how time moves:
 
 > Example:
 >
-> ![Basic Time-Web example](../../docs/diagrams/timeweb_example.png)
+> ![Basic Time-Web example](diagrams/timeweb_example.png)
 
 #### Other Markings
 
@@ -426,7 +455,7 @@ Below are three example Time-Web sketches from different styles of play. These a
 
 #### Example 1: Loop-Heavy Game
 
-![Loop-Heavy Game Time-Web](../../docs/diagrams/timeweb_loop_heavy.png)
+![Loop-Heavy Game Time-Web](diagrams/timeweb_loop_heavy.png)
 
 * *C1* looped 3 times before pushing to *C2*
 * Fixed Point *F1* declared early (e.g., “The reactor explodes”)
@@ -434,7 +463,7 @@ Below are three example Time-Web sketches from different styles of play. These a
 
 #### Example 2: Leap-Heavy Game
 
-![Leap-Heavy Game Time-Web](../../docs/diagrams/timeweb_leap_heavy.png)
+![Leap-Heavy Game Time-Web](diagrams/timeweb_leap_heavy.png)
 
 * Started from *C1*, leaped three times
 * Each Leap Node accumulates ✶ as Fixed Point is resisted
@@ -442,7 +471,7 @@ Below are three example Time-Web sketches from different styles of play. These a
 
 #### Example 3: Hybrid Game
 
-![Hybrid Game Time-Web](../../docs/diagrams/timeweb_hybrid.png)
+![Hybrid Game Time-Web](diagrams/timeweb_hybrid.png)
 
 * Early loops at *C1*, then pushed to *C2*
 * From *C2*, two leaps occur
@@ -800,7 +829,7 @@ These three sample Time-Webs show how to map your story when using *The Path Not
 
 **Time-Web Sketch:**
 
-![The Looping Assassin Time-Web](../../docs/diagrams/timeweb_assassin.png)
+![The Looping Assassin Time-Web](diagrams/timeweb_assassin.png)
 
 **Details:**
 
@@ -818,7 +847,7 @@ These three sample Time-Webs show how to map your story when using *The Path Not
 
 **Time-Web Sketch:**
 
-![The Leaping Outcast Time-Web](../../docs/diagrams/timeweb_outcast.png)
+![The Leaping Outcast Time-Web](diagrams/timeweb_outcast.png)
 
 **Details:**
 
@@ -836,7 +865,7 @@ These three sample Time-Webs show how to map your story when using *The Path Not
 
 **Time-Web Sketch:**
 
-![The Hybrid Surrealist Mystery Time-Web](../../docs/diagrams/timeweb_mystery.png)
+![The Hybrid Surrealist Mystery Time-Web](diagrams/timeweb_mystery.png)
 
 **Details:**
 

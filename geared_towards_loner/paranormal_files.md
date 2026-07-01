@@ -1,3 +1,31 @@
+---
+title: "Loner: Paranormal Files"
+author: "Roberto Bisceglie"
+date: last-modified
+version: 3.0
+lang: en
+format:
+  html: {}
+  typst:
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    fontsize: 11pt
+    tbl-colwidths: auto
+    template: ../_extensions/typst-template.typ
+    font-paths: ../_extensions/fonts
+    template-partials:
+      - ../_extensions/typst-show.typ
+  odt:
+    toc: true
+  epub:
+    toc: true
+  docx:
+    toc: true
+  gfm:
+    toc: false
+---
+
 # **Loner: Paranormal Files**  
 
 ***Loner: Paranormal Files*** is a solo tabletop RPG adventure set in a world where secret organizations investigate, contain, and sometimes battle the unexplained. From reality-warping anomalies to cryptic artifacts and otherworldly entities, you step into the role of an investigator navigating a shadowy world of conspiracies, classified incidents, and unsettling truths.  

@@ -1,0 +1,47 @@
+# Quarto output and cache
+/.quarto/
+/_site/
+
+# Multi-format exports rendered next to source (PDF/DOCX/ODT/EPUB/GFM)
+*.pdf
+*.docx
+*.odt
+*.epub
+*.typ
+*-gfm.md
+!_extensions/**/*.typ
+
+# Render-ready content pages are generated from content/ by
+# scripts/sync_content.py (see project: pre-render: in _quarto.yml).
+# content/ is the tracked source of truth -- these are build output.
+/loner-3e.md
+/loner-2e.md
+/loner-1e.md
+/companion.md
+/character_builders_guide.md
+/world_builders_guide.md
+/the_path_not_taken.md
+/cinematic_action.md
+/urban_fantasy.md
+/adventure_packs/*.md
+/adventure_packs_2e/*.md
+/geared_towards_loner/*.md
+/_sidebar-auto.yml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+**/*.quarto_ipynb

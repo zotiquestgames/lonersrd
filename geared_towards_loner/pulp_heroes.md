@@ -1,3 +1,31 @@
+---
+title: "Loner: Pulp Heroes"
+author: "Roberto Bisceglie"
+date: last-modified
+version: 3.0
+lang: en
+format:
+  html: {}
+  typst:
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    fontsize: 11pt
+    tbl-colwidths: auto
+    template: ../_extensions/typst-template.typ
+    font-paths: ../_extensions/fonts
+    template-partials:
+      - ../_extensions/typst-show.typ
+  odt:
+    toc: true
+  epub:
+    toc: true
+  docx:
+    toc: true
+  gfm:
+    toc: false
+---
+
 # Loner: Pulp Heroes
 
 ***Loner: Pulp Heroes*** is a solo tabletop RPG adventure set in the shadow-drenched streets and smoke-choked cities of the 1930s, where masked vigilantes wage a relentless war against crime and corruption.

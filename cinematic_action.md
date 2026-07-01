@@ -1,3 +1,31 @@
+---
+title: "Loner: Cinematic Action"
+author: "Roberto Bisceglie"
+date: last-modified
+version: 3.0
+lang: en
+format:
+  html: {}
+  typst:
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    fontsize: 11pt
+    tbl-colwidths: auto
+    template: _extensions/typst-template.typ
+    font-paths: _extensions/fonts
+    template-partials:
+      - _extensions/typst-show.typ
+  odt:
+    toc: true
+  epub:
+    toc: true
+  docx:
+    toc: true
+  gfm:
+    toc: false
+---
+
 # Loner: Cinematic Action
 
 ## Introduction
@@ -346,7 +374,7 @@ She could accept the consequence, or spend 1 AP to avoid it. She spends 1 AP (no
 
 ### Action Points: Quick Reference
 
-![](../../docs/diagrams/cinematic_ap_spending.png)
+![](diagrams/cinematic_ap_spending.png)
 
 | Action                | Cost            | What It Does                                                           |
 |-----------------------|-----------------|------------------------------------------------------------------------|
@@ -474,7 +502,7 @@ Each phase uses the method that fits.
 
 ### Making the Choice: A Decision Tree
 
-![](../../docs/diagrams/cinematic_conflict_resolution.png)
+![](diagrams/cinematic_conflict_resolution.png)
 
 ```
 Is the conflict brief or obviously one-sided?
@@ -692,7 +720,7 @@ The **description** elevates it to a stunt. The **risk and reward** are higher. 
 
 ### The Stunt Framework at a Glance
 
-![](../../docs/diagrams/cinematic_stunt_framework.png)
+![](diagrams/cinematic_stunt_framework.png)
 
 ### Quick Stunt Checklist
 
@@ -856,7 +884,7 @@ When distance reaches "Caught," the chase ends. Unless you use an AP for "Do the
 
 ### Chase Quick Reference
 
-![](../../docs/diagrams/cinematic_chase_framework.png)
+![](diagrams/cinematic_chase_framework.png)
 
 | Question                  | Purpose                                      |
 |---------------------------|----------------------------------------------|
@@ -984,7 +1012,7 @@ Repeat this cycle 3-4 times per session. Each cycle should escalate slightly in 
 
 ### The Action Cycle
 
-![](../../docs/diagrams/cinematic_action_cycle.png)
+![](diagrams/cinematic_action_cycle.png)
 
 ### Quick Momentum Checklist
 

@@ -1,3 +1,31 @@
+---
+title: "Kwaidan!"
+author: "Roberto Bisceglie"
+date: last-modified
+version: 3.0
+lang: en
+format:
+  html: {}
+  typst:
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    fontsize: 11pt
+    tbl-colwidths: auto
+    template: ../_extensions/typst-template.typ
+    font-paths: ../_extensions/fonts
+    template-partials:
+      - ../_extensions/typst-show.typ
+  odt:
+    toc: true
+  epub:
+    toc: true
+  docx:
+    toc: true
+  gfm:
+    toc: false
+---
+
 # Kwaidan!
 
 Hey there, fellow adventurers! So, you might be wondering what this whole "Kwaidan" thing is, right? Well, get ready to step into a world of Japanese folklore like no other. Kwaidan is all about immersing yourself in a realm where ghosts, demons, and all sorts of mysterious creatures roam free. And guess what? It's a perfect match for our Loner Adventure Pack. Let me break it down for you.

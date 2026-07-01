@@ -1,3 +1,31 @@
+---
+title: "The Shattered Reach"
+author: "Roberto Bisceglie"
+date: last-modified
+version: 3.0
+lang: en
+format:
+  html: {}
+  typst:
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    fontsize: 11pt
+    tbl-colwidths: auto
+    template: ../_extensions/typst-template.typ
+    font-paths: ../_extensions/fonts
+    template-partials:
+      - ../_extensions/typst-show.typ
+  odt:
+    toc: true
+  epub:
+    toc: true
+  docx:
+    toc: true
+  gfm:
+    toc: false
+---
+
 # The Shattered Reach
 
 ***The Shattered Reach*** is a solo tabletop RPG set in a sector where humanity's fractured factions fight each other while something far older watches and waits. You are one person in one ship: a deserter, a freelance runner, a scavenger who found something in the Outer Reaches that won't let you go. The factions want you working for them. The Predecessors left warnings no one fully understands. And the Elder Dominion does not announce itself; it seeps in.
@@ -1042,7 +1070,7 @@ The Quaternary Sector is a vast, complex region of space, orbiting a stable quat
 
 The geography of the sector is physical, political, cultural, and narrative. From the gleaming capitals of the **Core Worlds** to the lawless expanses of the **Contested Zone** and the mysterious **Outer Reaches**, the sector offers countless opportunities for exploration and storytelling.
 
-![Quaternary Sector's Schematic Map](/quaternary_sector_map.svg)
+![Quaternary Sector's Schematic Map](quaternary_sector_map.svg)
 
 ### **Regions of the Quaternary Sector**  
 
