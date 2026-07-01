@@ -390,7 +390,7 @@ Connect the nodes with directional lines to show how time moves:
 
 > Example:
 >
-> ![Basic Time-Web example](../../docs/diagrams/timeweb_example.png)
+> ![Basic Time-Web example](../diagrams/timeweb_example.png)
 
 #### Other Markings
 
@@ -426,7 +426,7 @@ Below are three example Time-Web sketches from different styles of play. These a
 
 #### Example 1: Loop-Heavy Game
 
-![Loop-Heavy Game Time-Web](../../docs/diagrams/timeweb_loop_heavy.png)
+![Loop-Heavy Game Time-Web](../diagrams/timeweb_loop_heavy.png)
 
 * *C1* looped 3 times before pushing to *C2*
 * Fixed Point *F1* declared early (e.g., “The reactor explodes”)
@@ -434,7 +434,7 @@ Below are three example Time-Web sketches from different styles of play. These a
 
 #### Example 2: Leap-Heavy Game
 
-![Leap-Heavy Game Time-Web](../../docs/diagrams/timeweb_leap_heavy.png)
+![Leap-Heavy Game Time-Web](../diagrams/timeweb_leap_heavy.png)
 
 * Started from *C1*, leaped three times
 * Each Leap Node accumulates ✶ as Fixed Point is resisted
@@ -442,7 +442,7 @@ Below are three example Time-Web sketches from different styles of play. These a
 
 #### Example 3: Hybrid Game
 
-![Hybrid Game Time-Web](../../docs/diagrams/timeweb_hybrid.png)
+![Hybrid Game Time-Web](../diagrams/timeweb_hybrid.png)
 
 * Early loops at *C1*, then pushed to *C2*
 * From *C2*, two leaps occur
@@ -800,7 +800,7 @@ These three sample Time-Webs show how to map your story when using *The Path Not
 
 **Time-Web Sketch:**
 
-![The Looping Assassin Time-Web](../../docs/diagrams/timeweb_assassin.png)
+![The Looping Assassin Time-Web](../diagrams/timeweb_assassin.png)
 
 **Details:**
 
@@ -818,7 +818,7 @@ These three sample Time-Webs show how to map your story when using *The Path Not
 
 **Time-Web Sketch:**
 
-![The Leaping Outcast Time-Web](../../docs/diagrams/timeweb_outcast.png)
+![The Leaping Outcast Time-Web](../diagrams/timeweb_outcast.png)
 
 **Details:**
 
@@ -836,7 +836,7 @@ These three sample Time-Webs show how to map your story when using *The Path Not
 
 **Time-Web Sketch:**
 
-![The Hybrid Surrealist Mystery Time-Web](../../docs/diagrams/timeweb_mystery.png)
+![The Hybrid Surrealist Mystery Time-Web](../diagrams/timeweb_mystery.png)
 
 **Details:**
 

@@ -1,0 +1,30 @@
+name: Publish Website
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      # The publish action runs "quarto publish gh-pages" under the hood.
+      # This compiles the website and all defined alternative formats (like Typst PDF, EPUB, Word, OpenDocument, GFM)
+      # into the _site/ output directory and deploys it to the gh-pages branch.
+      - name: Publish to GitHub Pages
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

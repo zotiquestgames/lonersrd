@@ -1,3 +1,31 @@
+---
+title: "Loner: Steel & Sorcery"
+author: "Roberto Bisceglie"
+date: last-modified
+version: 3.0
+lang: en
+format:
+  html: {}
+  typst:
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    fontsize: 11pt
+    tbl-colwidths: auto
+    template: ../_extensions/typst-template.typ
+    font-paths: ../_extensions/fonts
+    template-partials:
+      - ../_extensions/typst-show.typ
+  odt:
+    toc: true
+  epub:
+    toc: true
+  docx:
+    toc: true
+  gfm:
+    toc: false
+---
+
 # Loner: Steel & Sorcery
 
 ***Loner: Steel & Sorcery*** is a solo tabletop RPG adventure set in a dark, gritty world where ancient ruins, corrupt cities, and wild frontiers are the backdrop for tales of survival, revenge, and treasure-hunting. The setting is steeped in mythological inspiration, drawing from pseudo-medieval and ancient cultures, where magic is rare, dangerous, and often feared.

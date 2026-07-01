@@ -1,3 +1,31 @@
+---
+title: "Pulp Adventures"
+author: "Roberto Bisceglie"
+date: last-modified
+version: 3.0
+lang: en
+format:
+  html: {}
+  typst:
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    fontsize: 11pt
+    tbl-colwidths: auto
+    template: ../_extensions/typst-template.typ
+    font-paths: ../_extensions/fonts
+    template-partials:
+      - ../_extensions/typst-show.typ
+  odt:
+    toc: true
+  epub:
+    toc: true
+  docx:
+    toc: true
+  gfm:
+    toc: false
+---
+
 # Pulp Adventures
 
 ***Pulp Adventures*** is a solo tabletop RPG adventure set in a vibrant, action-packed world inspired by early 20th-century pulp fiction. Dive into thrilling escapades across exotic locales, facing larger-than-life heroes, formidable villains, and supernatural perils.

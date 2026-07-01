@@ -1,0 +1,52 @@
+/*-- scss:defaults --*/
+
+// Trade dress fonts (mirror typst-template.typ)
+$font-family-sans-serif: "Raleway", sans-serif;
+$font-family-base:        "Montserrat", sans-serif;
+$headings-font-family:    "Raleway", sans-serif;
+$headings-font-weight:    800;
+$font-weight-base:        500;
+
+// Black navigation bars
+$navbar-bg: #000000;
+$navbar-fg: #ffffff;
+
+/*-- scss:rules --*/
+
+// Navbar inherits body font in Bootstrap — override explicitly
+.navbar,
+.navbar .nav-link,
+.navbar-brand {
+  font-family: "Raleway", sans-serif;
+}
+
+// Document title: Takota (matches PDF cover)
+.quarto-title h1,
+h1.title {
+  font-family: "Takota", sans-serif;
+  font-weight: normal;
+}
+
+// Subtitle: Raleway Black
+.quarto-title .subtitle,
+p.subtitle {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+}
+
+// Headings: Raleway Black (h1) / Extra Bold (h2, h3) / Bold (h4)
+h1 { font-family: "Raleway", sans-serif; font-weight: 900; }
+h2, h3 { font-family: "Raleway", sans-serif; font-weight: 800; }
+h4 { font-family: "Raleway", sans-serif; font-weight: 700; }
+
+// Footer mirrors navbar
+.nav-footer {
+  background-color: #000000;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Raleway", sans-serif;
+
+  a {
+    color: rgba(255, 255, 255, 0.7);
+    &:hover { color: #ffffff; }
+  }
+}

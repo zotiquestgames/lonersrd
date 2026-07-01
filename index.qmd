@@ -1,0 +1,80 @@
+---
+pagetitle: "Loner — Another Solo RPG"
+description: "A minimalist solo role-playing game."
+page-layout: full
+sidebar: false
+format:
+  html:
+    toc: false
+format-links: false
+---
+
+::: {.text-center .py-5}
+# [Loner]{style="font-family: 'Takota', sans-serif; font-weight: normal; font-size: 2em; line-height: 1;"}
+
+## [Another Solo RPG]{style="font-family: 'Raleway', sans-serif; font-weight: 900;"}
+
+© 2021-2026 Roberto Bisceglie
+:::
+
+::: {.text-center .py-3}
+> *Tonight your playgroup couldn't get together and you're dying to play?*
+> *Or you may not even have a group or maybe you don't even want to have one!*
+> *Good news: solo roleplaying is possible!*
+:::
+
+**Loner** is a minimalist solo game that will allow you to have amazing adventures in any genre and setting with two pairs of dice and only your imagination as the limit!
+
+Based on [Freeform Universal](https://www.perilplanet.com/freeform-universal/), this revised second edition is the result of player feedback and is designed to introduce even the neophyte to solo RPG.
+
+Complete with tips, diagrams and examples, you can dive into endless worlds of adventure in a few minutes.
+
+Explore them with your Protagonist through the Oracle-led emergent narrative and be amazed by the unexpected twists and turns.
+
+---
+
+Loner is a product of [**Zotiquest Games**](https://zotiquestgames.com)
+
+## Web SRD
+
+::: {.grid .gap-4 .py-4}
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card .p-4 .h-100 .shadow-sm}
+#### Core Rules
+
+The complete text of *Loner*, free and in full.
+
+[Read the Core Rules](core/loner-3e.md){.btn .btn-outline-primary .mt-3}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card .p-4 .h-100 .shadow-sm}
+#### Adventure Packs
+
+Light-weight settings to kick-start your game in a genre of your choice. See the sidebar for the full list.
+
+[Browse Adventure Packs](adventure_packs/AP01_fantasy.md){.btn .btn-outline-primary .mt-3}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card .p-4 .h-100 .shadow-sm}
+#### Geared Towards Loner
+
+Self-contained games built on *Loner*, each with its own adventure world. See the sidebar for the full list.
+
+[Browse Geared Towards Loner Games](geared_towards_loner/kwaidan_revised.md){.btn .btn-outline-primary .mt-3}
+:::
+:::
+
+:::
+
+## License
+
+I strongly support the open source ethos.
+
+**Loner** is based on some materials released under a Creative Commons license and likewise is distributed under a **CC-BY-SA-4.0** license: use it, hack it, make your own edition!
+
+The more we spread this logic of sharing and reciprocity the more widespread and free our hobby will become.
