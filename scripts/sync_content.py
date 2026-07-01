@@ -15,7 +15,9 @@ matter, font-paths, typst template wiring, or navigation below -- those are
 re-derived every time this script runs. In particular, a new file dropped
 into a known collection folder (see COLLECTIONS below) automatically gets a
 sidebar entry (appended after the curated, hand-ordered items) instead of
-being an orphan page.
+being an orphan page. Relative diagrams/ image paths are also normalized
+per-file depth (see normalize_diagram_paths) since upstream's source keeps
+reintroducing whatever variant is wrong for a given file's location.
 
 Runs automatically as a Quarto project pre-render step (see _quarto.yml),
 so everything is fresh before `quarto render` / `preview` / `publish`.
@@ -190,6 +192,20 @@ format:
 H1_RE = re.compile(r"^#\s+(.+?)\s*$", re.MULTILINE)
 FRONTMATTER_BLOCK_RE = re.compile(r"^---\n.*?\n---\n+", re.DOTALL)
 
+# diagrams/ always lives at the repo root, but the private repo's source
+# content is inconsistent about the relative path to it (bare "diagrams/",
+# "../diagrams/", "../../diagrams/", or the old pre-restructure
+# "../../docs/diagrams/") -- and every automated sync from upstream keeps
+# reintroducing whichever one is wrong for a given file's depth. Normalize
+# it here so the site can't break on this again regardless of what
+# upstream ships.
+DIAGRAMS_PATH_RE = re.compile(r"(?:\.\./)*(?:docs/)?diagrams/")
+
+
+def normalize_diagram_paths(body, depth):
+    correct_prefix = "../" * depth + "diagrams/"
+    return DIAGRAMS_PATH_RE.sub(correct_prefix, body)
+
 
 def strip_frontmatter(text):
     return FRONTMATTER_BLOCK_RE.sub("", text, count=1)
@@ -335,11 +351,12 @@ def main():
         if not src.exists():
             print(f"WARN missing content/{rel}, skipping")
             continue
+        depth = len(Path(rel).parts) - 1
         body = strip_frontmatter(src.read_text(encoding="utf-8"))
+        body = normalize_diagram_paths(body, depth)
         title = title_for(rel)
         _, subtitle = frontmatter_for(rel)
         subtitle_line = f'\nsubtitle: "{subtitle}"' if subtitle else ""
-        depth = len(Path(rel).parts) - 1
         prefix = "../" * depth
 
         fm = FRONTMATTER_TMPL.format(
