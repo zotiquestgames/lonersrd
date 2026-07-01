@@ -180,7 +180,7 @@ Each time you reset and the Loop Counter increases, roll **1d6**. Apply the resu
 | --- | --------------------- | ----------------------------------------------------------------------------------------- |
 | 1–2 | **Temporal Migraine** | Your next scene after a reset is played at **Disadvantage**.                              |
 | 3–4 | **Déjà-Flare**        | The next **tie** result on the Oracle counts as a **Twist + “Memory Bleed”**.             |
-| 5   | **Ghost Echo**        | You glimpse another version of yourself. Add a tag to the Time-Web: *“Echo-Self @ node”*. |
+| 5   | **Ghost Echo**        | You glimpse another version of yourself. Add a tag to the Time-Web: *“Echo-Self \@ node”*. |
 | 6   | **Loop Mastery**      | Choose one piece of learned information. Add it permanently to the **Persist List**.      |
 
 ### Removing Wear & Tear Tags
@@ -390,7 +390,7 @@ Connect the nodes with directional lines to show how time moves:
 
 > Example:
 >
-> ![Basic Time-Web example](diagrams/timeweb_example.png)
+> ![Basic Time-Web example](../diagrams/timeweb_example.png)
 
 #### Other Markings
 
@@ -426,7 +426,7 @@ Below are three example Time-Web sketches from different styles of play. These a
 
 #### Example 1: Loop-Heavy Game
 
-![Loop-Heavy Game Time-Web](diagrams/timeweb_loop_heavy.png)
+![Loop-Heavy Game Time-Web](../diagrams/timeweb_loop_heavy.png)
 
 * *C1* looped 3 times before pushing to *C2*
 * Fixed Point *F1* declared early (e.g., “The reactor explodes”)
@@ -434,7 +434,7 @@ Below are three example Time-Web sketches from different styles of play. These a
 
 #### Example 2: Leap-Heavy Game
 
-![Leap-Heavy Game Time-Web](diagrams/timeweb_leap_heavy.png)
+![Leap-Heavy Game Time-Web](../diagrams/timeweb_leap_heavy.png)
 
 * Started from *C1*, leaped three times
 * Each Leap Node accumulates ✶ as Fixed Point is resisted
@@ -442,7 +442,7 @@ Below are three example Time-Web sketches from different styles of play. These a
 
 #### Example 3: Hybrid Game
 
-![Hybrid Game Time-Web](diagrams/timeweb_hybrid.png)
+![Hybrid Game Time-Web](../diagrams/timeweb_hybrid.png)
 
 * Early loops at *C1*, then pushed to *C2*
 * From *C2*, two leaps occur
@@ -495,7 +495,7 @@ Use this procedure when a Leap meaningfully rewrites who the character was: a Se
 
 Mark any major changes with an Echo-Self note on the Time-Web:
 
-> **Echo-Self @ \[node]**
+> **Echo-Self \@ \[node]**
 
 This records that a different version of yourself exists at that point. They may reappear as an NPC later.
 
@@ -629,7 +629,7 @@ Role drift can also be triggered by:
 
 When a character appears in multiple timelines, use clear labeling rather than separate tracking systems. A slight change (one or two altered tags) can be handled by updating the existing Relationship Matrix entry. A dramatic change—different backstory, opposing goals, no memory of you—warrants a new entry.
 
-Label versions using timeline references: *Zara (original)*, *Zara @ L3*, *Tom @ C2* vs. *Tom @ L1*. On the Time-Web, note which node each version belongs to.
+Label versions using timeline references: *Zara (original)*, *Zara \@ L3*, *Tom \@ C2* vs. *Tom \@ L1*. On the Time-Web, note which node each version belongs to.
 
 > Example: In C2, Tom is a loyal assistant (*Reliable*, *Worried for you*). In L1, Tom is a corporate agent (*Cold*, *Reporting to someone else*). Two entries. One core identity beneath both.
 
@@ -800,7 +800,7 @@ These three sample Time-Webs show how to map your story when using *The Path Not
 
 **Time-Web Sketch:**
 
-![The Looping Assassin Time-Web](diagrams/timeweb_assassin.png)
+![The Looping Assassin Time-Web](../diagrams/timeweb_assassin.png)
 
 **Details:**
 
@@ -818,7 +818,7 @@ These three sample Time-Webs show how to map your story when using *The Path Not
 
 **Time-Web Sketch:**
 
-![The Leaping Outcast Time-Web](diagrams/timeweb_outcast.png)
+![The Leaping Outcast Time-Web](../diagrams/timeweb_outcast.png)
 
 **Details:**
 
@@ -836,7 +836,7 @@ These three sample Time-Webs show how to map your story when using *The Path Not
 
 **Time-Web Sketch:**
 
-![The Hybrid Surrealist Mystery Time-Web](diagrams/timeweb_mystery.png)
+![The Hybrid Surrealist Mystery Time-Web](../diagrams/timeweb_mystery.png)
 
 **Details:**
 

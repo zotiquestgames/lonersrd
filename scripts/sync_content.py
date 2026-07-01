@@ -1,12 +1,16 @@
 """
 Regenerates, from the raw source-of-truth files under content/:
-  1. the front-mattered, render-ready .md files at the repo root
+  1. the front-mattered, render-ready .md files at the repo root (mirroring
+     content/'s folder structure exactly)
   2. _sidebar-auto.yml, the website.sidebar nav (merged into _quarto.yml via
      metadata-files)
+  3. diagrams/ at the repo root, copied straight from content/diagrams/
 
 Why this exists: content/ is the target of an external sync (a GitHub Action
-in the private zotiquestgames/loner repo copies its docs/ folder here). That
-sync only ever touches content/**, so it can never destroy the Quarto front
+in the private zotiquestgames/loner repo copies its docs/ folder here, one
+folder per section: core/, adventure_packs/, geared_towards_loner/, each
+with its own legacy/ subfolder where applicable, plus diagrams/). That sync
+only ever touches content/**, so it can never destroy the Quarto front
 matter, font-paths, typst template wiring, or navigation below -- those are
 re-derived every time this script runs. In particular, a new file dropped
 into a known collection folder (see COLLECTIONS below) automatically gets a
@@ -20,12 +24,14 @@ Adding a brand-new top-level section (e.g. a future "Monster Manual"):
   1. Add one entry to COLLECTIONS below (folder, section title, optional
      curated order/legacy subsection). Sections are pure expand/collapse
      togglers in the sidebar -- no hub/landing page needed.
-  2. Add one glob line to `project.render` in _quarto.yml, e.g.
-     "monster_manual/*.md" (Quarto reads that list before pre-render runs,
-     so a brand-new folder can't be discovered automatically there).
+  2. Add one or two glob lines to `project.render` in _quarto.yml, e.g.
+     "monster_manual/*.md" and "monster_manual/legacy/*.md" (Quarto reads
+     that list before pre-render runs, so a brand-new folder can't be
+     discovered automatically there).
 That's it -- frontmatter and the sidebar section are then fully derived.
 """
 import re
+import shutil
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -34,29 +40,34 @@ CONTENT = ROOT / "content"
 AUTHOR = "Roberto Bisceglie"
 VERSION = "3.0"
 
-# Fixed, hand-authored SRD documents -- not folder-driven collections, just
-# individually named books. (title, subtitle) per rel path; title=None means
-# derive from the file's first H1.
-SRD_DOCS = {
-    "loner-3e.md": (None, None),
-    "loner-2e.md": ("Loner - Core Rules 2nd Edition (Legacy)", None),
-    "loner-1e.md": ("Loner - Core Rules 1st Edition (Legacy)", None),
-    "companion.md": (None, None),
-    "character_builders_guide.md": (None, None),
-    "world_builders_guide.md": (None, None),
-    "the_path_not_taken.md": (
-        None,
-        "Two modes of temporal play for solo storytelling: looping fates and irrevocable leaps.",
-    ),
-    "cinematic_action.md": (None, None),
-    "urban_fantasy.md": (None, None),
-}
-
 # One entry per top-level, folder-driven sidebar section. Files present in
 # content/<folder>/ but not listed in "curated" are auto-appended (sorted by
 # filename, title derived from H1) -- this is what makes newly-synced files
 # show up in nav without editing this file.
 COLLECTIONS = [
+    {
+        "folder": "core",
+        "section": "SRD",
+        "curated": [
+            ("loner-3e.md", "Core Rules 3e"),
+            ("loner_companion.md", "Companion"),
+            ("character_builders_guide.md", "Character Builder's Guide"),
+            ("world_builders_guide.md", "World Builder's Guide"),
+            ("the_path_not_taken.md", "The Path Not Taken"),
+            ("cinematic_action.md", "Cinematic Action"),
+        ],
+        # "For Kids" lives in geared_towards_loner/, not core/, but belongs
+        # in this section's nav.
+        "extra_entries": [("geared_towards_loner/tales_and_tumbles.md", "For Kids")],
+        "legacy": {
+            "folder": "core/legacy",
+            "section": "Legacy Core Rules",
+            "curated": [
+                ("loner-1e.md", "Core Rules 1e (legacy)"),
+                ("loner-2e.md", "Core Rules 2e (legacy)"),
+            ],
+        },
+    },
     {
         "folder": "adventure_packs",
         "section": "Adventure Packs",
@@ -75,7 +86,7 @@ COLLECTIONS = [
             ("AP12_cyberpunk.md", "Cyberpunk Adventure Pack"),
         ],
         "legacy": {
-            "folder": "adventure_packs_2e",
+            "folder": "adventure_packs/legacy",
             "section": "Adventure Packs (Legacy 2e)",
             "curated": [
                 ("AP01_fantasy.md", "Fantasy Adventure Pack"),
@@ -91,16 +102,17 @@ COLLECTIONS = [
                 ("AP11_western.md", "Western Adventure Pack"),
                 ("AP12_cyberpunk.md", "Cyberpunk Adventure Pack"),
             ],
-            "extra_entries": [("geared_towards_loner/kwaidan.md", "Kwaidan!")],
+            # Cross-references geared_towards_loner/legacy/'s own Kwaidan!
+            # entry -- no separate copy, just an extra sidebar link.
+            "extra_entries": [("geared_towards_loner/legacy/kwaidan.md", "Kwaidan!")],
         },
     },
     {
         "folder": "geared_towards_loner",
         "section": "Geared Towards Loner games",
-        # tales_and_tumbles.md is placed under SRD ("For Kids") and
-        # kwaidan.md under the legacy subsection -- skip them here so
-        # they aren't duplicated as "newcomers".
-        "skip": {"tales_and_tumbles.md", "kwaidan.md"},
+        # tales_and_tumbles.md is placed under SRD ("For Kids") -- skip it
+        # here so it isn't duplicated as a "newcomer".
+        "skip": {"tales_and_tumbles.md"},
         "curated": [
             ("kwaidan_revised.md", "Kwaidan! (Revised)"),
             ("cog_compass.md", "Cog & Compass"),
@@ -116,27 +128,33 @@ COLLECTIONS = [
             ("pulp_heroes.md", "Pulp Heroes!"),
             ("the_shattered_reach.md", "The Shattered Reach"),
             ("galaxy_drifter.md", "Galaxy Drifter"),
+            ("urban_fantasy.md", "Urban Fantasy"),
             ("norse_saga.md", "Norse Saga"),
             ("cthulhu.md", "Cthulhu"),
             ("paranormal_files.md", "Paranormal Files"),
         ],
-        # urban_fantasy.md lives at the repo root (synced separately, see
-        # SRD_DOCS), not inside content/geared_towards_loner/, but belongs
-        # in this section's nav.
-        "extra_entries": [("urban_fantasy.md", "Urban Fantasy")],
         "legacy": {
+            "folder": "geared_towards_loner/legacy",
             "section": "Geared Towards Loner games (Legacy)",
-            "extra_entries": [("geared_towards_loner/kwaidan.md", "Kwaidan!")],
+            "curated": [
+                ("kwaidan.md", "Kwaidan!"),
+            ],
         },
     },
 ]
 
-# Document title overrides, independent of sidebar labels (most pages derive
-# their title from their own H1, which is usually what you want -- this is
-# only for the rare page whose H1 doesn't match its real title, e.g. an
-# "Introduction" H1 on the first page of a book).
-TITLE_OVERRIDES = {
-    "geared_towards_loner/mech_requiem.md": "Loner: Mech Requiem",
+# Document title/subtitle overrides, independent of sidebar labels (most
+# pages derive their title from their own H1, which is usually what you
+# want -- this is only for pages whose H1 doesn't match their real title,
+# or that need a subtitle).
+DOC_OVERRIDES = {
+    "core/legacy/loner-1e.md": ("Loner - Core Rules 1st Edition (Legacy)", None),
+    "core/legacy/loner-2e.md": ("Loner - Core Rules 2nd Edition (Legacy)", None),
+    "core/the_path_not_taken.md": (
+        None,
+        "Two modes of temporal play for solo storytelling: looping fates and irrevocable leaps.",
+    ),
+    "geared_towards_loner/mech_requiem.md": ("Loner: Mech Requiem", None),
 }
 
 FRONTMATTER_TMPL = """---
@@ -184,9 +202,7 @@ def clean_title(raw):
 def frontmatter_for(rel):
     """(title, subtitle) for a document's own front matter -- independent of
     its sidebar label. title=None means derive from the file's H1."""
-    if rel in SRD_DOCS:
-        return SRD_DOCS[rel]
-    return (TITLE_OVERRIDES.get(rel), None)
+    return DOC_OVERRIDES.get(rel, (None, None))
 
 
 def title_for(rel):
@@ -203,8 +219,9 @@ def title_for(rel):
 
 def all_synced_files():
     """rel paths (under content/, mirrored at repo root) for every file this
-    script manages: SRD docs plus everything in each COLLECTIONS folder."""
-    rels = list(SRD_DOCS)
+    script manages: everything in each COLLECTIONS folder (and its legacy
+    subfolder, if any)."""
+    rels = []
     for coll in COLLECTIONS:
         for section in (coll, coll.get("legacy") or {}):
             folder = section.get("folder")
@@ -254,14 +271,12 @@ def collection_tree_node(coll):
 
     legacy = coll.get("legacy")
     if legacy:
-        legacy_contents = []
-        if legacy.get("folder"):
-            legacy_contents += [
-                {"href": rel, "text": text}
-                for rel, text in collection_entries(
-                    legacy["folder"], legacy.get("curated", []), legacy.get("skip", set())
-                )
-            ]
+        legacy_contents = [
+            {"href": rel, "text": text}
+            for rel, text in collection_entries(
+                legacy["folder"], legacy.get("curated", []), legacy.get("skip", set())
+            )
+        ]
         legacy_contents += [{"href": rel, "text": text} for rel, text in legacy.get("extra_entries", [])]
         contents.append({"section": legacy["section"], "contents": legacy_contents})
 
@@ -269,33 +284,49 @@ def collection_tree_node(coll):
 
 
 def generate_sidebar():
-    tree = [
-        {
-            "section": "SRD",
-            "contents": [
-                {"href": "loner-3e.md", "text": "Core Rules 3e"},
-                {"href": "companion.md", "text": "Companion"},
-                {"href": "character_builders_guide.md", "text": "Character Builder's Guide"},
-                {"href": "world_builders_guide.md", "text": "World Builder's Guide"},
-                {"href": "the_path_not_taken.md", "text": "The Path Not Taken"},
-                {"href": "cinematic_action.md", "text": "Cinematic Action"},
-                {"href": "geared_towards_loner/tales_and_tumbles.md", "text": "For Kids"},
-                {
-                    "section": "Legacy Core Rules",
-                    "contents": [
-                        {"href": "loner-1e.md", "text": "Core Rules 1e (legacy)"},
-                        {"href": "loner-2e.md", "text": "Core Rules 2e (legacy)"},
-                    ],
-                },
-            ],
-        },
-    ]
-    tree += [collection_tree_node(coll) for coll in COLLECTIONS]
-
+    tree = [collection_tree_node(coll) for coll in COLLECTIONS]
     lines = ["website:", "  sidebar:", "    style: docked", "    collapse-level: 1", "    contents:"]
     lines += dump_contents(tree, 3)
     (ROOT / "_sidebar-auto.yml").write_text("\n".join(lines) + "\n", encoding="utf-8")
     print("OK  _sidebar-auto.yml")
+
+
+def sync_dir_verbatim(rel_dir):
+    """Copies a content/<rel_dir>/ tree to <rel_dir>/ at the repo root as-is
+    (no front matter) -- used for diagrams/ and for non-.md assets (images
+    etc.) sitting alongside a collection's documents."""
+    src_dir = CONTENT / rel_dir
+    if not src_dir.exists():
+        return
+    dest_dir = ROOT / rel_dir
+    dest_dir.mkdir(parents=True, exist_ok=True)
+    for src in src_dir.rglob("*"):
+        if src.is_dir() or src.name.startswith("."):
+            continue
+        rel = src.relative_to(src_dir)
+        dest = dest_dir / rel
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(src, dest)
+
+
+def sync_collection_assets():
+    """Non-.md files (images etc.) sitting directly in a collection folder
+    (not diagrams/, which is handled separately) -- copied through verbatim,
+    same folder, so relative references from the .md files keep working."""
+    for coll in COLLECTIONS:
+        for section in (coll, coll.get("legacy") or {}):
+            folder = section.get("folder")
+            if not folder:
+                continue
+            src_dir = CONTENT / folder
+            if not src_dir.is_dir():
+                continue
+            dest_dir = ROOT / folder
+            for src in src_dir.iterdir():
+                if src.is_dir() or src.suffix == ".md" or src.name.startswith("."):
+                    continue
+                dest_dir.mkdir(parents=True, exist_ok=True)
+                shutil.copyfile(src, dest_dir / src.name)
 
 
 def main():
@@ -319,6 +350,8 @@ def main():
         dest.write_text(fm + body, encoding="utf-8")
         print(f"OK  {rel}")
 
+    sync_dir_verbatim("diagrams")
+    sync_collection_assets()
     generate_sidebar()
 
 

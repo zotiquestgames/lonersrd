@@ -16,21 +16,15 @@
 !_extensions/**/*.typ
 /site_libs/
 
-# Render-ready content pages are generated from content/ by
+# Render-ready content pages (and diagrams/) are generated from content/ by
 # scripts/sync_content.py (see project: pre-render: in _quarto.yml).
 # content/ is the tracked source of truth -- these are build output.
-/loner-3e.md
-/loner-2e.md
-/loner-1e.md
-/companion.md
-/character_builders_guide.md
-/world_builders_guide.md
-/the_path_not_taken.md
-/cinematic_action.md
-/urban_fantasy.md
+/core/
 /adventure_packs/*.md
-/adventure_packs_2e/*.md
+/adventure_packs/legacy/
 /geared_towards_loner/*.md
+/geared_towards_loner/legacy/
+/diagrams/
 /_sidebar-auto.yml
 
 # Jupyter Notebook checkpoints

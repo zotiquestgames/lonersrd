@@ -45,7 +45,7 @@ Loner is a product of [**Zotiquest Games**](https://zotiquestgames.com)
 
 The complete text of *Loner*, free and in full.
 
-[Read the Core Rules](loner-3e.md){.btn .btn-outline-primary .mt-3}
+[Read the Core Rules](core/loner-3e.md){.btn .btn-outline-primary .mt-3}
 :::
 :::
 
