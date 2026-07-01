@@ -1,10 +1,12 @@
 <!-- _navbar.md -->
 - [**Home**](http://loner.zotiquestgames.com)
 - **SRD**
-  - [Core Rules 3e](loner-en)
+  - [Core Rules 3e](loner-3e)
   - [Companion](companion)
   - [Character Builder's Guide](character_builders_guide.md)
   - [World Builder's Guide](world_builders_guide.md)
+  - [The Path Not Taken](the_path_not_taken.md)
+  - [Cinematic Action](cinematic_action.md.md)
   - [For Kids](geared_towards_loner\tales_and_tumbles.md)
   - [Adventure Packs](adventure-packs)
     - [Fantasy Adventure Pack](adventure_packs/AP01_fantasy.md)
@@ -34,11 +36,13 @@
     - [Pulp Heroes!](geared_towards_loner/pulp_heroes.md)
     - [The Shattered Reach](geared_towards_loner/the_shattered_reach.md)
     - [Galaxy Drifter](geared_towards_loner/galaxy_drifter.md)
+    - [Urban Fantasy](geared_towards_loner/urban_fantasy.md)
     - [Norse Saga](geared_towards_loner/norse_saga.md)
+    - [Cthulhu](geared_towards_loner/cthulhu.md)
   - **Legacy Core Rules**
     - [Core Rules 1e (legacy)](loner-1e)
     - [Core Rules 2e (legacy)](loner-2e)
-  - **Adventure Packs (2e)**
+  - **Adventure Packs (Legacy 2e)**
     - [Fantasy Adventure Pack](adventure_packs_2e/AP01_fantasy.md)
     - [Space Sci-Fi Adventure Pack](adventure_packs_2e/AP02_space.md)
     - [Superheroes Adventure Pack](adventure_packs_2e/AP03_superheroes.md.md)
