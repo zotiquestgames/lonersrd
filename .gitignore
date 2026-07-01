@@ -2,14 +2,19 @@
 /.quarto/
 /_site/
 
-# Multi-format exports rendered next to source (PDF/DOCX/ODT/EPUB/GFM)
+# Multi-format exports rendered next to source (PDF/DOCX/ODT/EPUB/GFM/HTML).
+# `quarto preview`, in particular, serves rendered HTML from next to the
+# source instead of from _site/ -- these are always build output, never
+# tracked source.
 *.pdf
 *.docx
 *.odt
 *.epub
 *.typ
+*.html
 *-gfm.md
 !_extensions/**/*.typ
+/site_libs/
 
 # Render-ready content pages are generated from content/ by
 # scripts/sync_content.py (see project: pre-render: in _quarto.yml).
