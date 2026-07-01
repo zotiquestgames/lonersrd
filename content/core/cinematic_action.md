@@ -346,7 +346,7 @@ She could accept the consequence, or spend 1 AP to avoid it. She spends 1 AP (no
 
 ### Action Points: Quick Reference
 
-![](../diagrams/cinematic_ap_spending.png)
+![](../../docs/diagrams/cinematic_ap_spending.png)
 
 | Action                | Cost            | What It Does                                                           |
 |-----------------------|-----------------|------------------------------------------------------------------------|
@@ -474,7 +474,7 @@ Each phase uses the method that fits.
 
 ### Making the Choice: A Decision Tree
 
-![](../diagrams/cinematic_conflict_resolution.png)
+![](../../docs/diagrams/cinematic_conflict_resolution.png)
 
 ```
 Is the conflict brief or obviously one-sided?
@@ -692,7 +692,7 @@ The **description** elevates it to a stunt. The **risk and reward** are higher. 
 
 ### The Stunt Framework at a Glance
 
-![](../diagrams/cinematic_stunt_framework.png)
+![](../../docs/diagrams/cinematic_stunt_framework.png)
 
 ### Quick Stunt Checklist
 
@@ -856,7 +856,7 @@ When distance reaches "Caught," the chase ends. Unless you use an AP for "Do the
 
 ### Chase Quick Reference
 
-![](../diagrams/cinematic_chase_framework.png)
+![](../../docs/diagrams/cinematic_chase_framework.png)
 
 | Question                  | Purpose                                      |
 |---------------------------|----------------------------------------------|
@@ -984,7 +984,7 @@ Repeat this cycle 3-4 times per session. Each cycle should escalate slightly in 
 
 ### The Action Cycle
 
-![](../diagrams/cinematic_action_cycle.png)
+![](../../docs/diagrams/cinematic_action_cycle.png)
 
 ### Quick Momentum Checklist
 

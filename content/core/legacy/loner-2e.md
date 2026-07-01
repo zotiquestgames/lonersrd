@@ -121,7 +121,7 @@ If you find it difficult to answer any or all of the questions, the following ta
 > **Obstacle?** Time  
 > Tobias Wethern took Zahra under his wing when her parents died. That's why she can't say no to him now. Tobias wants Zahra to steal a datapad from the Leton Corporation's subsidiary. He doesn't know precisely where it is stored, but that in 24 hours it will be taken from the company's security corps to be transferred to another location.
 
-![](../../diagrams/get_started.png)
+![](diagrams/get_started.png)
 
 ## Keep The Action In Motion
 
@@ -135,7 +135,7 @@ In *Loner* at each scene:
 
 This sequence will come to you naturally after some practice. Use it as a guideline the first few times.
 
-![](../../diagrams/scene_breakdown.png)
+![](diagrams/scene_breakdown.png)
 
 ## Identify Your Expectations
 The Protagonist's traits characterize their behavior within the fictional world and suggest the possible actions they takes in the situational context of the scene.
@@ -182,7 +182,7 @@ Consider tags **intuitively and not quantitatively**, using the context of the s
 **Example**
 > You ask, "Does Zahra hack the datapad?" You roll one Chance Die and two Risk Die, as Zahra does not have any advantage in hacking and the datapad is the mission goal, compromising it would cause the mission to fail. You get (5) [3] [4]. You discard the lower Risk Die [3] and keep (5) and [4]. You obtain a **Yes** and add a **And** since they are both 4 or higher.
 
-![](../../diagrams/consulting_oracle.png)
+![](diagrams/consulting_oracle.png)
 
 ## Interpreting the Oracle
 
@@ -235,7 +235,7 @@ Conflicts can be resolved in different ways depending on preferences and context
 2. Ask a series of closed questions to resolve current single actions.
 3. Use the rules of Harm & Luck below.
 
-![](../../diagrams/conflicts.png)
+![](diagrams/conflicts.png)
 
 Note that the Twist Counter **does not apply** to Harm & Luck. Instead, it is used regularly if the Conflict is handled with closed questions.
 

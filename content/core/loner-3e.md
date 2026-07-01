@@ -331,7 +331,7 @@ Both methods serve **different play styles**, but together they create a **stron
 
 Once you’ve set up the **first scene**, start playing! The Oracle will guide what happens next, shaping the twists and surprises along the way.  
 
-![](../diagrams/get_started.png)
+![](diagrams/get_started.png)
 
 ## Keep the Action in Motion  
 
@@ -349,7 +349,7 @@ Every scene follows a natural rhythm:
 
 At first, you may want to follow this structure deliberately, but with practice, it will become second nature   — allowing the story to flow naturally.  
 
-![](../diagrams/scene_breakdown.png)
+![](diagrams/scene_breakdown.png)
 
 ## Identify Your Expectations  
 
@@ -509,7 +509,7 @@ Zahra is attempting to **hack a secure corporate databank** to retrieve **classi
 ✅ **Encourages situational storytelling** – Instead of stacking numbers, Tags describe why a situation is easy or difficult.  
 ✅ **Prevents excessive stacking** – One strong Advantage or Disadvantage is enough to shift the outcome.  
 
-![](../diagrams/consulting_oracle.png)
+![](diagrams/consulting_oracle.png)
 
 ## Interpreting the Oracle  
 
@@ -721,7 +721,7 @@ There are three approaches to resolving conflicts, depending on how much detail 
 
 ⚠️ **The Twist Counter does NOT apply to Harm & Luck!** The Oracle still drives unexpected outcomes, but Luck-based conflicts rely on direct dice rolls.  
 
-![](../diagrams/conflicts.png)
+![](diagrams/conflicts.png)
 
 ### Resolving Conflicts by Key Actions  
 
