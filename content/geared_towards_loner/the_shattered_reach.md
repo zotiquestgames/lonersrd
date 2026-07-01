@@ -1042,7 +1042,7 @@ The Quaternary Sector is a vast, complex region of space, orbiting a stable quat
 
 The geography of the sector is physical, political, cultural, and narrative. From the gleaming capitals of the **Core Worlds** to the lawless expanses of the **Contested Zone** and the mysterious **Outer Reaches**, the sector offers countless opportunities for exploration and storytelling.
 
-![Quaternary Sector's Schematic Map](/quaternary_sector_map.svg)
+![Quaternary Sector's Schematic Map](../diagrams/quaternary_sector_map.svg)
 
 ### **Regions of the Quaternary Sector**  
 
