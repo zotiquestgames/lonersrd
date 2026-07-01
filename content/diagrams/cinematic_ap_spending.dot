@@ -1,0 +1,23 @@
+digraph cinematic_ap_spending {
+    label = "ACTION POINTS: WHEN TO SPEND";
+    labelloc="t";
+    fontname="Permanent Marker";
+    bgcolor=white;
+    dpi=300;
+    node [shape="rect", fontname="Permanent Marker", fontsize=12];
+    edge [fontname="Permanent Marker", fontsize=12];
+
+    situation [label="WHAT DO\nYOU NEED?"];
+
+    gain_adv   [label="GAIN ADVANTAGE\n1 AP\nShift odds\nbefore the roll"];
+    cancel     [label="CANCEL FAILURE\n1 AP\nReroll a No\nresult"];
+    avoid      [label="AVOID CONSEQUENCE\n1 AP\nNegate a\ncomplication"];
+    impossible [label="DO THE IMPOSSIBLE\n1 AP\nRoll for what\nnarrative denies"];
+    push       [label="PUSH YOURSELF\n0 AP\nReset to 3 AP\nPay a cost"];
+
+    situation -> gain_adv   [label="Want\nbetter odds"];
+    situation -> cancel     [label="Oracle\nsaid No"];
+    situation -> avoid      [label="Yes, but...\noccurred"];
+    situation -> impossible [label="Attempt\nseems denied"];
+    situation -> push       [label="AP at\nzero"];
+}
