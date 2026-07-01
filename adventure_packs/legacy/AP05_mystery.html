@@ -1,0 +1,2045 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Roberto Bisceglie">
+<meta name="dcterms.date" content="2026-07-01">
+
+<title>Mystery Adventure Pack – Loner SRD</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-d37705bb3a21d8331654a8d3f48f58ba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-87bbd3402671c853dcbde7c40b26e08b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-d37705bb3a21d8331654a8d3f48f58ba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&amp;family=Raleway:wght@700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+  @import url('https://fonts.cdnfonts.com/css/takota');
+</style>
+
+
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Loner SRD</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../../core/loner-3e.html" aria-current="page"> 
+<span class="menu-text">Core Rules</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../adventure_packs/AP01_fantasy.html"> 
+<span class="menu-text">Adventure Packs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../geared_towards_loner/kwaidan_revised.html"> 
+<span class="menu-text">Geared Towards Loner</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/zotiquestgames/lonersrd"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../adventure_packs/AP01_fantasy.html">Adventure Packs</a></li><li class="breadcrumb-item"><a href="../../adventure_packs/legacy/AP01_fantasy.html">Adventure Packs (Legacy 2e)</a></li><li class="breadcrumb-item"><a href="../../adventure_packs/legacy/AP05_mystery.html">Mystery Adventure Pack</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+ <span class="menu-text">SRD</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/loner-3e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 3e</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/loner_companion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Companion</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/character_builders_guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Character Builder’s Guide</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/world_builders_guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">World Builder’s Guide</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/the_path_not_taken.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Path Not Taken</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/cinematic_action.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cinematic Action</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/tales_and_tumbles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">For Kids</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Legacy Core Rules</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/legacy/loner-1e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 1e (legacy)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/legacy/loner-2e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 2e (legacy)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Adventure Packs</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP01_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fantasy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP02_space.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Space Sci-Fi Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP03_superheroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Superheroes Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP04_crime.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Crime Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP05_mystery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mystery Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP06_horror.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Horror Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP07_action_adventure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Action Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP08_spy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP09_postapoc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Post-Apocalyptic Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP10_pirates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pirates Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP11_western.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Western Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP12_cyberpunk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cyberpunk Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">Adventure Packs (Legacy 2e)</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP01_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fantasy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP02_space.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Space Sci-Fi Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP03_superheroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Superheroes Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP04_crime.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Crime Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP05_mystery.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Mystery Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP06_horror.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Horror Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP07_action_adventure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Action Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP08_spy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP09_postapoc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Post-Apocalyptic Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP10_pirates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pirates Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP11_western.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Western Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP12_cyberpunk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cyberpunk Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/legacy/kwaidan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan!</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">Geared Towards Loner games</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/kwaidan_revised.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan! (Revised)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/cog_compass.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cog &amp; Compass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/mech_requiem.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mech: Requiem</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/legends_of_camelot.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Legends of Camelot</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/pulp_adventures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pulp Adventures!</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/steel_and_sorcery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Steel &amp; Sorcery</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/dungeoneer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dungeoneer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/spacer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spacer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/arabian_nights_adventures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Arabian Nights Adventures</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/cozy_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cozy Fantasy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/savage_blades_of_xylandra.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Savage Blades of Xylandra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/pulp_heroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pulp Heroes!</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/the_shattered_reach.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Shattered Reach</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/galaxy_drifter.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Galaxy Drifter</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/urban_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Urban Fantasy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/norse_saga.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Norse Saga</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/cthulhu.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cthulhu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/paranormal_files.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Paranormal Files</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+ <span class="menu-text">Geared Towards Loner games (Legacy)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/legacy/kwaidan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan!</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#mystery-adventure-pack" id="toc-mystery-adventure-pack" class="nav-link active" data-scroll-target="#mystery-adventure-pack">Mystery Adventure Pack</a>
+  <ul class="collapse">
+  <li><a href="#setting-information" id="toc-setting-information" class="nav-link" data-scroll-target="#setting-information">Setting Information</a></li>
+  <li><a href="#character-traits" id="toc-character-traits" class="nav-link" data-scroll-target="#character-traits">Character Traits</a>
+  <ul class="collapse">
+  <li><a href="#concepts" id="toc-concepts" class="nav-link" data-scroll-target="#concepts">Concepts</a></li>
+  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills</a></li>
+  <li><a href="#frailties" id="toc-frailties" class="nav-link" data-scroll-target="#frailties">Frailties</a></li>
+  <li><a href="#gear" id="toc-gear" class="nav-link" data-scroll-target="#gear">Gear</a></li>
+  </ul></li>
+  <li><a href="#special-rules" id="toc-special-rules" class="nav-link" data-scroll-target="#special-rules">Special Rules</a>
+  <ul class="collapse">
+  <li><a href="#clues" id="toc-clues" class="nav-link" data-scroll-target="#clues">Clues</a></li>
+  <li><a href="#interrogation" id="toc-interrogation" class="nav-link" data-scroll-target="#interrogation">Interrogation</a></li>
+  <li><a href="#alibis" id="toc-alibis" class="nav-link" data-scroll-target="#alibis">Alibis</a></li>
+  <li><a href="#evidence" id="toc-evidence" class="nav-link" data-scroll-target="#evidence">Evidence</a></li>
+  </ul></li>
+  <li><a href="#factions" id="toc-factions" class="nav-link" data-scroll-target="#factions">Factions</a>
+  <ul class="collapse">
+  <li><a href="#the-detectives" id="toc-the-detectives" class="nav-link" data-scroll-target="#the-detectives">The Detectives</a></li>
+  <li><a href="#the-criminals" id="toc-the-criminals" class="nav-link" data-scroll-target="#the-criminals">The Criminals</a></li>
+  <li><a href="#the-politicians" id="toc-the-politicians" class="nav-link" data-scroll-target="#the-politicians">The Politicians</a></li>
+  <li><a href="#the-journalists" id="toc-the-journalists" class="nav-link" data-scroll-target="#the-journalists">The Journalists</a></li>
+  <li><a href="#the-scientists" id="toc-the-scientists" class="nav-link" data-scroll-target="#the-scientists">The Scientists</a></li>
+  <li><a href="#the-spiritualists" id="toc-the-spiritualists" class="nav-link" data-scroll-target="#the-spiritualists">The Spiritualists</a></li>
+  </ul></li>
+  <li><a href="#npcs" id="toc-npcs" class="nav-link" data-scroll-target="#npcs">NPCs</a>
+  <ul class="collapse">
+  <li><a href="#captain-augustus-blackwood" id="toc-captain-augustus-blackwood" class="nav-link" data-scroll-target="#captain-augustus-blackwood">Captain Augustus Blackwood</a></li>
+  <li><a href="#miss-prudence-fairfax" id="toc-miss-prudence-fairfax" class="nav-link" data-scroll-target="#miss-prudence-fairfax">Miss Prudence Fairfax</a></li>
+  <li><a href="#dr.-theodore-marlowe" id="toc-dr.-theodore-marlowe" class="nav-link" data-scroll-target="#dr.-theodore-marlowe">Dr.&nbsp;Theodore Marlowe</a></li>
+  <li><a href="#ivy-addams" id="toc-ivy-addams" class="nav-link" data-scroll-target="#ivy-addams">Ivy Addams</a></li>
+  <li><a href="#mr.-jeremy-bentley" id="toc-mr.-jeremy-bentley" class="nav-link" data-scroll-target="#mr.-jeremy-bentley">Mr.&nbsp;Jeremy Bentley</a></li>
+  <li><a href="#miss-margaret-sterling" id="toc-miss-margaret-sterling" class="nav-link" data-scroll-target="#miss-margaret-sterling">Miss Margaret Sterling</a></li>
+  </ul></li>
+  <li><a href="#foes" id="toc-foes" class="nav-link" data-scroll-target="#foes">Foes</a>
+  <ul class="collapse">
+  <li><a href="#the-con-artist" id="toc-the-con-artist" class="nav-link" data-scroll-target="#the-con-artist">The Con Artist</a></li>
+  <li><a href="#the-smuggler" id="toc-the-smuggler" class="nav-link" data-scroll-target="#the-smuggler">The Smuggler</a></li>
+  <li><a href="#the-thief" id="toc-the-thief" class="nav-link" data-scroll-target="#the-thief">The Thief</a></li>
+  <li><a href="#the-forger" id="toc-the-forger" class="nav-link" data-scroll-target="#the-forger">The Forger</a></li>
+  <li><a href="#the-blackmailer" id="toc-the-blackmailer" class="nav-link" data-scroll-target="#the-blackmailer">The Blackmailer</a></li>
+  <li><a href="#the-counterfeiter" id="toc-the-counterfeiter" class="nav-link" data-scroll-target="#the-counterfeiter">The Counterfeiter</a></li>
+  </ul></li>
+  <li><a href="#locations" id="toc-locations" class="nav-link" data-scroll-target="#locations">Locations</a>
+  <ul class="collapse">
+  <li><a href="#the-rusty-anchor" id="toc-the-rusty-anchor" class="nav-link" data-scroll-target="#the-rusty-anchor">The Rusty Anchor</a></li>
+  <li><a href="#the-grand-opera-house" id="toc-the-grand-opera-house" class="nav-link" data-scroll-target="#the-grand-opera-house">The Grand Opera House</a></li>
+  <li><a href="#the-black-rose-club" id="toc-the-black-rose-club" class="nav-link" data-scroll-target="#the-black-rose-club">The Black Rose Club</a></li>
+  <li><a href="#the-ironworks-factory" id="toc-the-ironworks-factory" class="nav-link" data-scroll-target="#the-ironworks-factory">The Ironworks Factory</a></li>
+  <li><a href="#the-university" id="toc-the-university" class="nav-link" data-scroll-target="#the-university">The University</a></li>
+  <li><a href="#the-majestic-hotel" id="toc-the-majestic-hotel" class="nav-link" data-scroll-target="#the-majestic-hotel">The Majestic Hotel</a></li>
+  </ul></li>
+  <li><a href="#adventure-seeds" id="toc-adventure-seeds" class="nav-link" data-scroll-target="#adventure-seeds">Adventure Seeds</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/zotiquestgames/lonersrd/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="AP05_mystery.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="AP05_mystery.odt"><i class="bi bi-file"></i>OpenOffice</a></li><li><a href="AP05_mystery.epub"><i class="bi bi-file"></i>ePub</a></li><li><a href="AP05_mystery-gfm.md"><i class="bi bi-file-code"></i>Github (GFM)</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../adventure_packs/AP01_fantasy.html">Adventure Packs</a></li><li class="breadcrumb-item"><a href="../../adventure_packs/legacy/AP01_fantasy.html">Adventure Packs (Legacy 2e)</a></li><li class="breadcrumb-item"><a href="../../adventure_packs/legacy/AP05_mystery.html">Mystery Adventure Pack</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Mystery Adventure Pack</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Roberto Bisceglie </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 1, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="mystery-adventure-pack" class="level1">
+<h1>Mystery Adventure Pack</h1>
+<section id="setting-information" class="level2">
+<h2 class="anchored" data-anchor-id="setting-information">Setting Information</h2>
+<ul>
+<li>The time period is Late 19th - Early 20th century, during the golden age of detective fiction</li>
+<li>The location is Victorian England, with a focus on London and its criminal underworld</li>
+<li>The main historical event is the Industrial Revolution, which brought new advancements and technologies but also social and economic changes that affected society.</li>
+<li>Emphasis on detective stories, scientific investigation, and reasoning. The works of Arthur Conan Doyle and other contemporary writers heavily influenced the genre.</li>
+<li>Themes are: crime, mystery, suspense, and deduction, with a focus on the psychological and moral aspects of the detective and their pursuit of justice.</li>
+</ul>
+</section>
+<section id="character-traits" class="level2">
+<h2 class="anchored" data-anchor-id="character-traits">Character Traits</h2>
+<section id="concepts" class="level3">
+<h3 class="anchored" data-anchor-id="concepts">Concepts</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 13%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 21%">
+<col style="width: 15%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>D66</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Brilliant Detective</td>
+<td>Cunning Sleuth</td>
+<td>Mysterious Investigator</td>
+<td>Observant Inspector</td>
+<td>Intuitive Enigma</td>
+<td>Eccentric Detective</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Methodical Sleuth</td>
+<td>Astute Investigator</td>
+<td>Sharp-Witted Inspector</td>
+<td>Tenacious Sleuth</td>
+<td>Perceptive Detective</td>
+<td>Analytical Investigator</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Savvy Inspector</td>
+<td>Resourceful Sleuth</td>
+<td>Mastermind Detective</td>
+<td>Unorthodox Investigator</td>
+<td>Wise Inspector</td>
+<td>Insightful Sleuth</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Deductive Detective</td>
+<td>Inquisitive Investigator</td>
+<td>Seasoned Inspector</td>
+<td>Sharp-Eyed Sleuth</td>
+<td>Brilliant Mind Detective</td>
+<td>Streetwise Investigator</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Determined Inspector</td>
+<td>Keen-Eared Sleuth</td>
+<td>Calculating Detective</td>
+<td>Brilliant Strategist Investigator</td>
+<td>Fearless Inspector</td>
+<td>Quick-Thinking Sleuth</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Charismatic Detective</td>
+<td>Trustworthy Investigator</td>
+<td>Discerning Inspector</td>
+<td>Fearless Sleuth</td>
+<td>Rational Detective</td>
+<td>Diligent Investigator</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="skills" class="level3">
+<h3 class="anchored" data-anchor-id="skills">Skills</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 14%">
+<col style="width: 18%">
+<col style="width: 16%">
+<col style="width: 14%">
+<col style="width: 15%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>D66</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Deductive reasoning</td>
+<td>Observant eye</td>
+<td>Crime analysis</td>
+<td>Sharp memory</td>
+<td>Forensic knowledge</td>
+<td>Effective interrogation</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Profiling suspects</td>
+<td>Surveillance expertise</td>
+<td>Code breaking</td>
+<td>Research proficiency</td>
+<td>Photography skills</td>
+<td>Disguise mastery</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Psychological insight</td>
+<td>Combat training</td>
+<td>Lock picking</td>
+<td>Firearms proficiency</td>
+<td>Persuasive negotiation</td>
+<td>Legal knowledge</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Tracking abilities</td>
+<td>Fingerprint analysis</td>
+<td>Eavesdropping expertise</td>
+<td>Safe cracking</td>
+<td>Lie detection</td>
+<td>Martial arts</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Poison knowledge</td>
+<td>Ballistics analysis</td>
+<td>Witness interviewing</td>
+<td>Crime reconstruction</td>
+<td>Handwriting analysis</td>
+<td>Document forgery detection</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Lip reading</td>
+<td>Criminal network knowledge</td>
+<td>Logic puzzle solving</td>
+<td>Memory enhancement</td>
+<td>Navigation skills</td>
+<td>Stealth and concealment</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="frailties" class="level3">
+<h3 class="anchored" data-anchor-id="frailties">Frailties</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 2%">
+<col style="width: 16%">
+<col style="width: 20%">
+<col style="width: 13%">
+<col style="width: 17%">
+<col style="width: 13%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>D66</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Chronic migraines</td>
+<td>Fear of the dark</td>
+<td>Persistent nightmares</td>
+<td>Substance addiction</td>
+<td>Overwhelming guilt</td>
+<td>Social awkwardness</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>PTSD from past cases</td>
+<td>Chronic insomnia</td>
+<td>Fear of enclosed spaces</td>
+<td>Grief from a personal loss</td>
+<td>Moral dilemma struggles</td>
+<td>Chronic pain from an old injury</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Fear of heights</td>
+<td>Imposter syndrome</td>
+<td>Deep-rooted cynicism</td>
+<td>Claustrophobia</td>
+<td>Paralyzing fear of failure</td>
+<td>Family secrets haunting them</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Fear of firearms</td>
+<td>Haunted by a past mistake</td>
+<td>Inability to trust others</td>
+<td>Chronic illness</td>
+<td>Fear of water</td>
+<td>Recklessness in pursuing justice</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Obsessive-compulsive tendencies</td>
+<td>Insecurity about their detective skills</td>
+<td>Anxiety in social settings</td>
+<td>Fear of public speaking</td>
+<td>Superstitious beliefs</td>
+<td>Emotional detachment</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Fear of animals</td>
+<td>Lack of empathy</td>
+<td>Impaired hearing</td>
+<td>Paranoia and distrust of authority</td>
+<td>Fear of the supernatural</td>
+<td>Inability to let go of a case.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="gear" class="level3">
+<h3 class="anchored" data-anchor-id="gear">Gear</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 2%">
+<col style="width: 14%">
+<col style="width: 12%">
+<col style="width: 19%">
+<col style="width: 18%">
+<col style="width: 15%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>D66</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Detective’s magnifying glass</td>
+<td>Pocket watch</td>
+<td>Fountain pen</td>
+<td>Detective’s notebook</td>
+<td>Evidence collection kit</td>
+<td>Flashlight</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Lock picking tools</td>
+<td>Disguise kit</td>
+<td>Detective’s trench coat</td>
+<td>Hidden camera</td>
+<td>Microphone and listening device</td>
+<td>Detective’s hat</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Forensic fingerprinting kit</td>
+<td>Wiretapping equipment</td>
+<td>Camera with tripod</td>
+<td>Forensic chemistry kit</td>
+<td>Detective’s walking cane</td>
+<td>Evidence evidence bags and labels</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Crime scene tape</td>
+<td>Telescope</td>
+<td>Morse code device</td>
+<td>Invisible ink and decoding tools</td>
+<td>Cryptography handbook</td>
+<td>Portable darkroom</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Detective’s briefcase</td>
+<td>Forensic anthropology kit</td>
+<td>Sketching and drawing supplies</td>
+<td>Portable typewriter</td>
+<td>Surveillance binoculars</td>
+<td>Breathalyzer</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Polygraph machine</td>
+<td>Lie detection kit</td>
+<td>Portable phonograph and recording discs</td>
+<td>Detective’s badge and identification</td>
+<td>Portable fingerprinting kit</td>
+<td>Forensic ballistics analysis kit</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="special-rules" class="level2">
+<h2 class="anchored" data-anchor-id="special-rules">Special Rules</h2>
+<section id="clues" class="level3">
+<h3 class="anchored" data-anchor-id="clues">Clues</h3>
+<p>To uncover the mystery, characters will need to gather information and piece together clues. The resolution of actions related to discovering clues will be through a closed question with the following range of possible answers: - <strong>“No, and..”</strong>: The protagonist fails to discover any information or clues. - <strong>“No”</strong>: The protagonist discovers a small piece of information or clue, but it’s not particularly useful. - <strong>“No, but…”</strong>: The protagonist discovers a piece of information or clue, but it reveals a misleading or false lead. - <strong>“Yes, but…”</strong>: The protagonist discovers a piece of information or clue, but it requires further investigation or verification. - <strong>“Yes”</strong>: The protagonist discovers a useful piece of information or clue that helps to progress the investigation. - <strong>“Yes, and…”</strong>: The protagonist discovers multiple pieces of information or clues that significantly advance the investigation.</p>
+</section>
+<section id="interrogation" class="level3">
+<h3 class="anchored" data-anchor-id="interrogation">Interrogation</h3>
+<p>To gather information from suspects and witnesses, characters will engage in interrogations. The resolution of actions related to questioning individuals will be through a closed question with the following range of possible answers: - <strong>“No, and..”</strong>: The protagonist’s line of questioning is ineffective and the suspect or witness refuses to cooperate. - <strong>“No”</strong>: The protagonist’s line of questioning is ineffective and the suspect or witness provides limited or unhelpful information. - <strong>“No, but…”</strong>: The protagonist’s line of questioning reveals a misleading or false lead. - <strong>“Yes, but…”</strong>: The protagonist’s line of questioning elicits useful information, but the suspect or witness is evasive or uncooperative. - <strong>“Yes”</strong>: The protagonist’s line of questioning elicits useful information from the suspect or witness. - <strong>“Yes, and…”</strong>: The protagonist’s line of questioning elicits multiple pieces of useful information from the suspect or witness.</p>
+</section>
+<section id="alibis" class="level3">
+<h3 class="anchored" data-anchor-id="alibis">Alibis</h3>
+<p>To determine the whereabouts of suspects, characters will need to verify and question their alibis. The resolution of actions related to verifying alibis will be through a closed question with the following range of possible answers: - <strong>“No, and..”</strong>: The protagonist is unable to verify or question the alibi and it remains unconfirmed. - <strong>“No”</strong>: The protagonist is unable to verify or question the alibi, but it doesn’t appear to be significant. - <strong>“No, but…”</strong>: The protagonist is unable to verify or question the alibi, but it leads to a false lead. - <strong>“Yes, but…”</strong>: The protagonist is able to verify or question the alibi, but it raises additional questions or suspicions. - <strong>“Yes”</strong>: The protagonist is able to verify or question the alibi and it appears to be credible. - <strong>“Yes, and…”</strong>: The protagonist is able to verify or question the alibi and it provides additional information that helps to advance the investigation.</p>
+</section>
+<section id="evidence" class="level3">
+<h3 class="anchored" data-anchor-id="evidence">Evidence</h3>
+<p>To uncover the truth, characters will need to gather and examine physical evidence. The resolution of actions related to discovering and examining evidence will be through a closed question with the following range of possible answers: - <strong>“No, and..”</strong>: The protagonist fails to gather or examine any physical evidence. - <strong>“No”</strong>: The protagonist gathers or examines a small piece of physical evidence, but it’s not particularly useful. - <strong>“No, but…”</strong>: The protagonist gathers or examines a piece of physical evidence, but it reveals a misleading or false lead. - <strong>“Yes, but…”</strong>: The protagonist gathers or examines a piece of physical evidence, but it requires further analysis or verification. - <strong>“Yes”</strong>: The protagonist gathers or examines a useful piece of physical evidence that helps to progress the investigation. - <strong>“Yes, and…”</strong>: The protagonist gathers or examines multiple pieces of physical evidence that significantly advance the investigation.</p>
+</section>
+</section>
+<section id="factions" class="level2">
+<h2 class="anchored" data-anchor-id="factions">Factions</h2>
+<section id="the-detectives" class="level3">
+<h3 class="anchored" data-anchor-id="the-detectives">The Detectives</h3>
+<ul>
+<li><strong>Concept</strong>: Investigative Minds</li>
+<li><strong>Skills</strong>: Observation, Deduction</li>
+<li><strong>Frailty</strong>: Pride</li>
+<li><strong>Gear</strong>: Magnifying Glass, Notepad</li>
+<li><strong>Goal</strong>: To solve mysteries and bring criminals to justice</li>
+<li><strong>Motive:</strong> To uphold justice and protect the innocent</li>
+<li><strong>Nemesis:</strong> Clever criminals and corrupt politicians</li>
+</ul>
+</section>
+<section id="the-criminals" class="level3">
+<h3 class="anchored" data-anchor-id="the-criminals">The Criminals</h3>
+<ul>
+<li><strong>Concept</strong>: Masterminds</li>
+<li><strong>Skills</strong>: Deception, Street Smarts</li>
+<li><strong>Frailty</strong>: Greed</li>
+<li><strong>Gear</strong>: Lock Picks, Switchblade</li>
+<li><strong>Goal</strong>: To commit crimes and profit from them</li>
+<li><strong>Motive:</strong> To gain wealth and power</li>
+<li><strong>Nemesis:</strong> detectives and law enforcement</li>
+</ul>
+</section>
+<section id="the-politicians" class="level3">
+<h3 class="anchored" data-anchor-id="the-politicians">The Politicians</h3>
+<ul>
+<li><strong>Concept</strong>: Corrupt Officials</li>
+<li><strong>Skills</strong>: Manipulation, Networking</li>
+<li><strong>Frailty</strong>: Greed</li>
+<li><strong>Gear</strong>: Briefcase, Business Card</li>
+<li><strong>Goal</strong>: To maintain power and wealth</li>
+<li><strong>Motive:</strong> To further their personal interests</li>
+<li><strong>Nemesis:</strong> honest politicians and investigative journalists</li>
+</ul>
+</section>
+<section id="the-journalists" class="level3">
+<h3 class="anchored" data-anchor-id="the-journalists">The Journalists</h3>
+<ul>
+<li><strong>Concept</strong>: Nosy Reporters</li>
+<li><strong>Skills</strong>: Investigation, Persuasion</li>
+<li><strong>Frailty</strong>: Impulsiveness</li>
+<li><strong>Gear</strong>: Pocket Watch, Notebook</li>
+<li><strong>Goal</strong>: To uncover the truth and report on it</li>
+<li><strong>Motive:</strong> To expose corruption and injustices</li>
+<li><strong>Nemesis:</strong> corrupt politicians and powerful businessmen</li>
+</ul>
+</section>
+<section id="the-scientists" class="level3">
+<h3 class="anchored" data-anchor-id="the-scientists">The Scientists</h3>
+<ul>
+<li><strong>Concept</strong>: Scientific Sleuths</li>
+<li><strong>Skills</strong>: Analysis, Experimentation</li>
+<li><strong>Frailty</strong>: Obsessiveness</li>
+<li><strong>Gear</strong>: Microscope, Test Tubes</li>
+<li><strong>Goal</strong>: To use science to solve mysteries</li>
+<li><strong>Motive:</strong> To advance knowledge and understanding</li>
+<li><strong>Nemesis:</strong> criminals who use science for their own purposes</li>
+</ul>
+</section>
+<section id="the-spiritualists" class="level3">
+<h3 class="anchored" data-anchor-id="the-spiritualists">The Spiritualists</h3>
+<ul>
+<li><strong>Concept</strong>: Mysterious Mediums</li>
+<li><strong>Skills</strong>: Intuition, Clairvoyance</li>
+<li><strong>Frailty</strong>: Naiveness</li>
+<li><strong>Gear</strong>: Tarot Cards, Crystal Ball</li>
+<li><strong>Goal</strong>: To use their spiritual abilities to solve mysteries</li>
+<li><strong>Motive:</strong> To help the innocent and bring closure to the bereaved</li>
+<li><strong>Nemesis:</strong> skeptics and debunkers who doubt their abilities.</li>
+</ul>
+</section>
+</section>
+<section id="npcs" class="level2">
+<h2 class="anchored" data-anchor-id="npcs">NPCs</h2>
+<section id="captain-augustus-blackwood" class="level3">
+<h3 class="anchored" data-anchor-id="captain-augustus-blackwood">Captain Augustus Blackwood</h3>
+<ul>
+<li><strong>Concept</strong>: Disgraced Detective</li>
+<li><strong>Skills</strong>: Sleuthing, Marksmanship</li>
+<li><strong>Frailty</strong>: Alcoholism</li>
+<li><strong>Gear</strong>: Flask, Revolver</li>
+<li><strong>Goal</strong>: Redemption</li>
+<li><strong>Motive:</strong> To clear his name and restore his reputation</li>
+<li><strong>Nemesis:</strong> Corrupt Police Chief</li>
+</ul>
+</section>
+<section id="miss-prudence-fairfax" class="level3">
+<h3 class="anchored" data-anchor-id="miss-prudence-fairfax">Miss Prudence Fairfax</h3>
+<ul>
+<li><strong>Concept</strong>: Elegant Reporter</li>
+<li><strong>Skills</strong>: Observation, Persuasion</li>
+<li><strong>Frailty</strong>: Vanity</li>
+<li><strong>Gear</strong>: Notebook, Pocket Mirror</li>
+<li><strong>Goal</strong>: Scoop of a Lifetime</li>
+<li><strong>Motive:</strong> To uncover the truth behind a major news story and secure her place in the industry</li>
+<li><strong>Nemesis:</strong> Intimidating Editor</li>
+</ul>
+</section>
+<section id="dr.-theodore-marlowe" class="level3">
+<h3 class="anchored" data-anchor-id="dr.-theodore-marlowe">Dr.&nbsp;Theodore Marlowe</h3>
+<ul>
+<li><strong>Concept</strong>: Eccentric Pathologist</li>
+<li><strong>Skills</strong>: Medical Science, deduction</li>
+<li><strong>Frailty</strong>: Paranoia</li>
+<li><strong>Gear</strong>: Scalpel, Chemical Kit</li>
+<li><strong>Goal</strong>: Scientific Discovery</li>
+<li><strong>Motive:</strong> To uncover the truth about a series of mysterious deaths and make a breakthrough in his field</li>
+<li><strong>Nemesis:</strong> Suspicious Colleagues</li>
+</ul>
+</section>
+<section id="ivy-addams" class="level3">
+<h3 class="anchored" data-anchor-id="ivy-addams">Ivy Addams</h3>
+<ul>
+<li><strong>Concept</strong>: Whispers in the Wind</li>
+<li><strong>Skills</strong>: Infiltration, Street Smarts</li>
+<li><strong>Frailty</strong>: Gambling Addiction</li>
+<li><strong>Gear</strong>: Lockpicks, Dice</li>
+<li><strong>Goal</strong>: Freedom</li>
+<li><strong>Motive:</strong> To clear her name and avoid arrest for a crime she did not commit</li>
+<li><strong>Nemesis:</strong> Vengeful Detective</li>
+</ul>
+</section>
+<section id="mr.-jeremy-bentley" class="level3">
+<h3 class="anchored" data-anchor-id="mr.-jeremy-bentley">Mr.&nbsp;Jeremy Bentley</h3>
+<ul>
+<li><strong>Concept</strong>: Wealthy Socialite</li>
+<li><strong>Skills</strong>: Finance, Seduction</li>
+<li><strong>Frailty</strong>: Arrogance</li>
+<li><strong>Gear</strong>: Wallet, Cigarette Case</li>
+<li><strong>Goal</strong>: Power</li>
+<li><strong>Motive:</strong> To increase his influence and control in the upper echelons of society</li>
+<li><strong>Nemesis:</strong> Envious Rival</li>
+</ul>
+</section>
+<section id="miss-margaret-sterling" class="level3">
+<h3 class="anchored" data-anchor-id="miss-margaret-sterling">Miss Margaret Sterling</h3>
+<ul>
+<li><strong>Concept</strong>: Fierce Suffragette</li>
+<li><strong>Skills</strong>: Oratory, Tactics</li>
+<li><strong>Frailty</strong>: Impulsiveness</li>
+<li><strong>Gear</strong>: Pamphlets, Pocket Watch</li>
+<li><strong>Goal</strong>: Women’s Rights</li>
+<li><strong>Motive:</strong> To fight for women’s rights and equality in a male-dominated society</li>
+<li><strong>Nemesis:</strong> Conservative Politician</li>
+</ul>
+</section>
+</section>
+<section id="foes" class="level2">
+<h2 class="anchored" data-anchor-id="foes">Foes</h2>
+<section id="the-con-artist" class="level3">
+<h3 class="anchored" data-anchor-id="the-con-artist">The Con Artist</h3>
+<ul>
+<li><strong>Concept</strong>: Deceptive Salesman</li>
+<li><strong>Skills</strong>: Persuasion, Disguise</li>
+<li><strong>Frailty</strong>: Greed</li>
+<li><strong>Gear</strong>: Fake ID, False Evidence</li>
+<li><strong>Goal</strong>: To defraud victims</li>
+<li><strong>Motive:</strong> Financial gain</li>
+<li><strong>Nemesis:</strong> Detective</li>
+</ul>
+</section>
+<section id="the-smuggler" class="level3">
+<h3 class="anchored" data-anchor-id="the-smuggler">The Smuggler</h3>
+<ul>
+<li><strong>Concept</strong>: Underground Trader</li>
+<li><strong>Skills</strong>: Stealth, Negotiation</li>
+<li><strong>Frailty</strong>: Fear of Capture</li>
+<li><strong>Gear</strong>: Hidden Compartment, Forged Papers</li>
+<li><strong>Goal</strong>: To profit from illegal goods trade</li>
+<li><strong>Motive:</strong> Financial gain</li>
+<li><strong>Nemesis:</strong> Customs Officer</li>
+</ul>
+</section>
+<section id="the-thief" class="level3">
+<h3 class="anchored" data-anchor-id="the-thief">The Thief</h3>
+<ul>
+<li><strong>Concept</strong>: Skilled Burglar</li>
+<li><strong>Skills</strong>: Lockpicking, Escape Artist</li>
+<li><strong>Frailty</strong>: Arrogance</li>
+<li><strong>Gear</strong>: Lock picks, Grappling Hook</li>
+<li><strong>Goal</strong>: To steal valuable items</li>
+<li><strong>Motive:</strong> Personal gain</li>
+<li><strong>Nemesis:</strong> Private Investigator</li>
+</ul>
+</section>
+<section id="the-forger" class="level3">
+<h3 class="anchored" data-anchor-id="the-forger">The Forger</h3>
+<ul>
+<li><strong>Concept</strong>: Deceptive Artist</li>
+<li><strong>Skills</strong>: Mimicry, Forgery</li>
+<li><strong>Frailty</strong>: Vanity</li>
+<li><strong>Gear</strong>: Forged Documents, Imitation Materials</li>
+<li><strong>Goal</strong>: To sell fake goods and pass them off as real</li>
+<li><strong>Motive:</strong> Financial gain</li>
+<li><strong>Nemesis:</strong> Art Investigator</li>
+</ul>
+</section>
+<section id="the-blackmailer" class="level3">
+<h3 class="anchored" data-anchor-id="the-blackmailer">The Blackmailer</h3>
+<ul>
+<li><strong>Concept</strong>: Extortionist</li>
+<li><strong>Skills</strong>: Intimidation, Research</li>
+<li><strong>Frailty</strong>: Cowardice</li>
+<li><strong>Gear</strong>: Hidden Recording Device, Threatening Letters</li>
+<li><strong>Goal</strong>: To extort money from victims</li>
+<li><strong>Motive:</strong> Financial gain</li>
+<li><strong>Nemesis:</strong> Detective</li>
+</ul>
+</section>
+<section id="the-counterfeiter" class="level3">
+<h3 class="anchored" data-anchor-id="the-counterfeiter">The Counterfeiter</h3>
+<ul>
+<li><strong>Concept</strong>: Duplicitous Printer</li>
+<li><strong>Skills</strong>: Printing, Concealment</li>
+<li><strong>Frailty</strong>: Paranoid</li>
+<li><strong>Gear</strong>: Counterfeit Money, Inks and Paints</li>
+<li><strong>Goal</strong>: To produce and distribute fake currency</li>
+<li><strong>Motive:</strong> Financial gain</li>
+<li><strong>Nemesis:</strong> Treasury Agent</li>
+</ul>
+</section>
+</section>
+<section id="locations" class="level2">
+<h2 class="anchored" data-anchor-id="locations">Locations</h2>
+<section id="the-rusty-anchor" class="level3">
+<h3 class="anchored" data-anchor-id="the-rusty-anchor">The Rusty Anchor</h3>
+<ul>
+<li>A run-down tavern near the docks, known for its rough clientele and seedy reputation.</li>
+<li>Possible encounters: Drunken Sailor, Smuggler, Undercover Detective</li>
+</ul>
+</section>
+<section id="the-grand-opera-house" class="level3">
+<h3 class="anchored" data-anchor-id="the-grand-opera-house">The Grand Opera House</h3>
+<ul>
+<li>A grand, opulent theater that is the pride of the city. It hosts a variety of plays, operas, and ballets.</li>
+<li>Possible encounters: Egotistical Actor, Wealthy Benefactor, Opera Singer</li>
+</ul>
+</section>
+<section id="the-black-rose-club" class="level3">
+<h3 class="anchored" data-anchor-id="the-black-rose-club">The Black Rose Club</h3>
+<ul>
+<li>A notorious speakeasy, located in the heart of the city’s red light district.</li>
+<li>Possible encounters: Bootlegger, Jazz Musician, Flapper</li>
+</ul>
+</section>
+<section id="the-ironworks-factory" class="level3">
+<h3 class="anchored" data-anchor-id="the-ironworks-factory">The Ironworks Factory</h3>
+<ul>
+<li>A large, industrial factory that produces various metal goods. It is known for its long hours, low pay, and dangerous working conditions.</li>
+<li>Possible encounters: Labor Union Organizer, Factory Manager, Injured Worker</li>
+</ul>
+</section>
+<section id="the-university" class="level3">
+<h3 class="anchored" data-anchor-id="the-university">The University</h3>
+<ul>
+<li>A prestigious institution of higher learning, with a focus on science, medicine, and the arts.</li>
+<li>Possible encounters: Professor, Graduate Student, Nobel Prize Winner</li>
+</ul>
+</section>
+<section id="the-majestic-hotel" class="level3">
+<h3 class="anchored" data-anchor-id="the-majestic-hotel">The Majestic Hotel</h3>
+<ul>
+<li>A luxurious hotel that caters to the wealthy and famous. It is known for its opulent decor and excellent service.</li>
+<li>Possible encounters: Hotel Manager, Rich Tourist, Society Matron</li>
+</ul>
+</section>
+</section>
+<section id="adventure-seeds" class="level2">
+<h2 class="anchored" data-anchor-id="adventure-seeds">Adventure Seeds</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 1%">
+<col style="width: 98%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>D66</th>
+<th>Adventure</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>11</td>
+<td>A mysterious death occurs in a prominent gentleman’s club, and the protagonist must interview members and search for clues to uncover the truth.</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>The protagonist is hired by a wealthy industrialist to retrieve a valuable artifact that was stolen from his home.</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>A series of bizarre burglaries have taken place across the city, and the protagonist must track down the culprit before they strike again.</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>A young woman has disappeared from a prestigious boarding school, and the protagonist must navigate the school’s hierarchy to uncover the truth behind her disappearance.</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>A wealthy socialite is being blackmailed, and the protagonist is hired to discover who is behind the threats and put a stop to them.</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>A string of deadly fires have broken out across the city, and the protagonist must work with the fire department to determine the cause and prevent any further destruction.</td>
+</tr>
+<tr class="odd">
+<td>21</td>
+<td>A priceless painting has gone missing from a local museum, and the protagonist must navigate the complex web of collectors, curators, and art dealers to recover the stolen artwork.</td>
+</tr>
+<tr class="even">
+<td>22</td>
+<td>A corrupt police officer is suspected of taking bribes and covering up crimes, and the protagonist must gather evidence to bring the truth to light.</td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td>A wealthy businessman is receiving threatening letters, and the protagonist must determine who is behind the threats and why.</td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td>A string of murders has taken place in a high-end neighborhood, and the protagonist must work with the police to track down the killer.</td>
+</tr>
+<tr class="odd">
+<td>25</td>
+<td>A powerful politician is being blackmailed, and the protagonist is hired to uncover the truth and put a stop to the extortion.</td>
+</tr>
+<tr class="even">
+<td>26</td>
+<td>A wealthy heiress has gone missing, and the protagonist must search for clues and follow leads to find her before it’s too late.</td>
+</tr>
+<tr class="odd">
+<td>31</td>
+<td>A string of jewel thefts have taken place at high-society events, and the protagonist must work with the local authorities to track down the thief.</td>
+</tr>
+<tr class="even">
+<td>32</td>
+<td>A wealthy philanthropist is being threatened, and the protagonist is hired to discover who is behind the threats and protect their client.</td>
+</tr>
+<tr class="odd">
+<td>33</td>
+<td>A serial killer is on the loose, and the protagonist must work with the police to track down the murderer and bring them to justice.</td>
+</tr>
+<tr class="even">
+<td>34</td>
+<td>A group of wealthy investors are being targeted by a clever con artist, and the protagonist must expose the fraud and protect their clients.</td>
+</tr>
+<tr class="odd">
+<td>35</td>
+<td>A wealthy collector is being blackmailed over a valuable artifact, and the protagonist must uncover the truth behind the extortion and protect their client.</td>
+</tr>
+<tr class="even">
+<td>36</td>
+<td>A powerful judge is receiving threatening letters, and the protagonist must determine who is behind the threats and why.</td>
+</tr>
+<tr class="odd">
+<td>41</td>
+<td>A wealthy shipping magnate is being extorted over a valuable shipment, and the protagonist must work with the shipping company to uncover the truth and put a stop to the crime.</td>
+</tr>
+<tr class="even">
+<td>42</td>
+<td>A prominent scientist is being threatened, and the protagonist must determine who is behind the threats and why.</td>
+</tr>
+<tr class="odd">
+<td>43</td>
+<td>A wealthy banker is being blackmailed, and the protagonist must work with the bank to uncover the truth behind the extortion.</td>
+</tr>
+<tr class="even">
+<td>44</td>
+<td>A string of diamond thefts have taken place across the city, and the protagonist must track down the thief and recover the stolen gems.</td>
+</tr>
+<tr class="odd">
+<td>45</td>
+<td>A wealthy politician is being threatened, and the protagonist must determine who is behind the threats and why.</td>
+</tr>
+<tr class="even">
+<td>46</td>
+<td>A wealthy industrialist is being extorted over a valuable patent, and the protagonist must uncover the truth behind the crime and protect their client.</td>
+</tr>
+<tr class="odd">
+<td>51</td>
+<td>A string of art thefts have taken place across the city, and the protagonist must work with the local authorities to track down the thief and recover the stolen artwork.</td>
+</tr>
+<tr class="even">
+<td>52</td>
+<td>A wealthy socialite is found murdered in their penthouse apartment and the investigation leads the detectives to an underground gambling ring.</td>
+</tr>
+<tr class="odd">
+<td>53</td>
+<td>A string of burglaries hits the city’s wealthy residents, and the detectives must track down the elusive thief before they strike again.</td>
+</tr>
+<tr class="even">
+<td>54</td>
+<td>A series of strange disappearances in the city’s poorest neighborhood prompts the detectives to dig deeper into the area’s criminal underworld.</td>
+</tr>
+<tr class="odd">
+<td>55</td>
+<td>A young woman is found dead in the park and the detectives must navigate the conflicting testimonies of her friends and family to find the killer.</td>
+</tr>
+<tr class="even">
+<td>56</td>
+<td>A famous painter’s latest work is stolen from a prestigious art museum, and the detectives must navigate the treacherous world of art theft to retrieve it.</td>
+</tr>
+<tr class="odd">
+<td>61</td>
+<td>The protagonist is called to a remote estate to investigate a mysterious death, and discover a web of secrets and deceit among the wealthy and powerful residents.</td>
+</tr>
+<tr class="even">
+<td>62</td>
+<td>A scientist’s groundbreaking discovery is stolen and the detectives must race against time to retrieve it before it falls into the wrong hands.</td>
+</tr>
+<tr class="odd">
+<td>63</td>
+<td>The protagonist is tasked with investigating a series of strange disappearances at a prestigious university, and uncover a sinister plot to exploit students.</td>
+</tr>
+<tr class="even">
+<td>64</td>
+<td>The protagonist is called to a wealthy neighborhood to investigate a break-in at a high-security mansion, and find themselves in the middle of a dangerous power struggle.</td>
+</tr>
+<tr class="odd">
+<td>65</td>
+<td>A notorious gang leader is murdered in prison and the detectives must navigate the treacherous world of organized crime to find the killer.</td>
+</tr>
+<tr class="even">
+<td>66</td>
+<td>A young woman is found dead in the city’s harbor, and the detectives must follow the trail of evidence to uncover the truth about</td>
+</tr>
+</tbody>
+</table>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var sidebar = document.getElementById("quarto-margin-sidebar");
+  var formats = document.querySelector(".quarto-alternate-formats");
+  if (sidebar && formats) {
+    sidebar.insertBefore(formats, sidebar.firstChild);
+  }
+
+  // Rename "Typst" label to "PDF"
+  document.querySelectorAll(".quarto-alternate-formats a").forEach(function (a) {
+    a.childNodes.forEach(function (node) {
+      if (node.nodeType === Node.TEXT_NODE && node.textContent.trim() === "Typst") {
+        node.textContent = "PDF";
+      }
+    });
+  });
+});
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/zotiquestgames\.github\.io\/lonersrd\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2021-2026 <a href="https://zotiquestgames.com">Roberto Bisceglie</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/zotiquestgames/lonersrd/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

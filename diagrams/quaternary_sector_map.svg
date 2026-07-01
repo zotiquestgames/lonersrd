@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1000 720"
+   width="1000"
+   height="720"
+   version="1.1"
+   id="svg268"
+   sodipodi:docname="quaternary_sector_map.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs272" />
+  <sodipodi:namedview
+     id="namedview270"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="1.1513889"
+     inkscape:cx="538.04584"
+     inkscape:cy="343.06393"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg268" />
+  <!-- Background -->
+  <rect
+     width="1000"
+     height="720"
+     fill="white"
+     id="rect2" />
+  <!-- Outer border (double) -->
+  <rect
+     x="12"
+     y="12"
+     width="976"
+     height="696"
+     fill="none"
+     stroke="black"
+     stroke-width="2"
+     id="rect4" />
+  <rect
+     x="17"
+     y="17"
+     width="966"
+     height="686"
+     fill="none"
+     stroke="black"
+     stroke-width="0.5"
+     id="rect6" />
+  <!-- ===== TITLE ===== -->
+  <text
+     x="500"
+     y="47"
+     text-anchor="middle"
+     font-family="Arial,sans-serif"
+     font-size="22"
+     font-weight="bold"
+     letter-spacing="4"
+     id="text8">THE QUATERNARY SECTOR</text>
+  <line
+     x1="185"
+     y1="56"
+     x2="815"
+     y2="56"
+     stroke="black"
+     stroke-width="1"
+     id="line10" />
+  <text
+     x="500"
+     y="70"
+     text-anchor="middle"
+     font-family="Arial,sans-serif"
+     font-size="10"
+     font-style="italic"
+     letter-spacing="1"
+     id="text12">Schematic Political Map  ·  Year 3500 CE</text>
+  <!-- ===== REGION BOUNDARIES ===== -->
+  <!-- Core Worlds -->
+  <ellipse
+     cx="228"
+     cy="368"
+     rx="164"
+     ry="208"
+     fill="none"
+     stroke="black"
+     stroke-width="1.8"
+     stroke-dasharray="10,4"
+     id="ellipse14" />
+  <!-- Frontier -->
+  <ellipse
+     cx="707"
+     cy="362"
+     rx="164"
+     ry="208"
+     fill="none"
+     stroke="black"
+     stroke-width="1.8"
+     stroke-dasharray="10,4"
+     id="ellipse16" />
+  <!-- Contested Zone (central corridor) -->
+  <rect
+     x="402"
+     y="126"
+     width="194"
+     height="476"
+     fill="none"
+     stroke="black"
+     stroke-width="1"
+     stroke-dasharray="5,5"
+     id="rect18" />
+  <!-- ===== REGION LABELS ===== -->
+  <text
+     x="228"
+     y="104"
+     text-anchor="middle"
+     font-family="Arial,sans-serif"
+     font-size="13"
+     font-weight="bold"
+     letter-spacing="2"
+     id="text20">CORE WORLDS</text>
+  <text
+     x="499"
+     y="143"
+     text-anchor="middle"
+     font-family="Arial,sans-serif"
+     font-size="11"
+     font-weight="bold"
+     letter-spacing="1"
+     id="text22">CONTESTED ZONE</text>
+  <text
+     x="707"
+     y="104"
+     text-anchor="middle"
+     font-family="Arial,sans-serif"
+     font-size="13"
+     font-weight="bold"
+     letter-spacing="2"
+     id="text24">FRONTIER</text>
+  <!-- Outer Reaches labels (corner and peripheral) -->
+  <text
+     x="88"
+     y="630"
+     font-family="Arial,sans-serif"
+     font-size="10"
+     font-style="italic"
+     letter-spacing="2"
+     id="text26">OUTER REACHES</text>
+  <text
+     x="810"
+     y="630"
+     font-family="Arial,sans-serif"
+     font-size="10"
+     font-style="italic"
+     letter-spacing="2"
+     id="text28">OUTER REACHES</text>
+  <text
+     x="40"
+     y="115"
+     font-family="Arial,sans-serif"
+     font-size="9"
+     font-style="italic"
+     id="text30">Outer Reaches</text>
+  <text
+     x="840"
+     y="115"
+     font-family="Arial,sans-serif"
+     font-size="9"
+     font-style="italic"
+     id="text32">Outer Reaches</text>
+  <!-- ===== STARS ===== -->
+  <!-- Vaelora (G2V, Sun-like, largest) -->
+  <circle
+     cx="192"
+     cy="328"
+     r="11"
+     fill="black"
+     id="circle34" />
+  <text
+     x="192"
+     y="315"
+     text-anchor="middle"
+     font-family="Arial,sans-serif"
+     font-size="10"
+     font-style="italic"
+     id="text36">Vaelora</text>
+  <!-- Oron (K3V, orange dwarf, smaller) -->
+  <circle
+     cx="258"
+     cy="366"
+     r="7"
+     fill="black"
+     id="circle38" />
+  <text
+     x="273"
+     y="362"
+     font-family="Arial,sans-serif"
+     font-size="9"
+     font-style="italic"
+     id="text40">Oron</text>
+  <!-- Vaelora-Oron binary link -->
+  <line
+     x1="203"
+     y1="335"
+     x2="251"
+     y2="359"
+     stroke="black"
+     stroke-width="0.8"
+     stroke-dasharray="3,2"
+     id="line42" />
+  <!-- Nyris (M1V, red dwarf, small) -->
+  <circle
+     cx="668"
+     cy="308"
+     r="6"
+     fill="black"
+     id="circle44" />
+  <text
+     x="668"
+     y="298"
+     text-anchor="middle"
+     font-family="Arial,sans-serif"
+     font-size="9"
+     font-style="italic"
+     id="text46">Nyris</text>
+  <!-- Zephos (F6V, bright yellow-white) -->
+  <circle
+     cx="737"
+     cy="348"
+     r="9"
+     fill="black"
+     id="circle48" />
+  <text
+     x="752"
+     y="345"
+     font-family="Arial,sans-serif"
+     font-size="10"
+     font-style="italic"
+     id="text50">Zephos</text>
+  <!-- Nyris-Zephos binary link -->
+  <line
+     x1="674"
+     y1="313"
+     x2="729"
+     y2="340"
+     stroke="black"
+     stroke-width="0.8"
+     stroke-dasharray="3,2"
+     id="line52" />
+  <!-- Schematic 60 AU separation between binary pairs -->
+  <line
+     x1="218"
+     y1="347"
+     x2="695"
+     y2="328"
+     stroke="black"
+     stroke-width="0.3"
+     stroke-dasharray="2,14"
+     id="line54" />
+  <!-- ===== VAELORA-ORON SYSTEM: CORE WORLDS ===== -->
+  <!-- Solari Prime (Concordat capital) -->
+  <circle
+     cx="122"
+     cy="230"
+     r="7"
+     fill="black"
+     id="circle56" />
+  <text
+     x="125.69119"
+     y="245.92401"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="10px"
+     font-weight="bold"
+     id="text58">SOLARI PRIME</text>
+  <text
+     x="125.03981"
+     y="254.9023"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="8px"
+     font-style="italic"
+     id="text60">Concordat Capital</text>
+  <!-- Solari's Moon (research facility) -->
+  <circle
+     cx="141"
+     cy="215"
+     r="3"
+     fill="black"
+     id="circle62" />
+  <text
+     x="144.74306"
+     y="214.30278"
+     font-family="Arial, sans-serif"
+     font-size="7px"
+     font-style="italic"
+     id="text64">Solari's Moon</text>
+  <!-- Heliostation-7 (orbital shipyard, diamond) -->
+  <polygon
+     points="242,182 255,199 242,216 229,199"
+     fill="black"
+     id="polygon66" />
+  <text
+     x="260"
+     y="195"
+     font-family="Arial,sans-serif"
+     font-size="9"
+     font-weight="bold"
+     id="text68">HELIOSTATION-7</text>
+  <text
+     x="260"
+     y="207"
+     font-family="Arial,sans-serif"
+     font-size="7"
+     font-style="italic"
+     id="text70">Concordat Fleet Shipyard</text>
+  <!-- Auraxis (agricultural world) -->
+  <circle
+     cx="143"
+     cy="445"
+     r="6"
+     fill="black"
+     id="circle72" />
+  <text
+     x="143"
+     y="434"
+     text-anchor="middle"
+     font-family="Arial,sans-serif"
+     font-size="10"
+     font-weight="bold"
+     id="text74">AURAXIS</text>
+  <text
+     x="143"
+     y="458"
+     text-anchor="middle"
+     font-family="Arial,sans-serif"
+     font-size="8"
+     font-style="italic"
+     id="text76">Agricultural</text>
+  <!-- Caldora Majoris (gas giant, outer Vaelora-Oron) -->
+  <circle
+     cx="333"
+     cy="272"
+     r="14"
+     fill="none"
+     stroke="black"
+     stroke-width="2.5"
+     id="circle78" />
+  <ellipse
+     cx="333"
+     cy="272"
+     rx="21"
+     ry="6"
+     fill="none"
+     stroke="black"
+     stroke-width="1.5"
+     id="ellipse80" />
+  <text
+     x="333.9212"
+     y="295.53284"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     id="text82">CALDORA MAJORIS</text>
+  <!-- Lirin's Rest (moon of Caldora Majoris) -->
+  <circle
+     cx="357"
+     cy="256"
+     r="3"
+     fill="black"
+     id="circle84" />
+  <text
+     x="362"
+     y="254"
+     font-family="Arial,sans-serif"
+     font-size="7"
+     id="text86">Lirin's Rest</text>
+  <!-- Oros-VI (moon of Caldora Majoris) -->
+  <circle
+     cx="359"
+     cy="276"
+     r="3"
+     fill="black"
+     id="circle88" />
+  <text
+     x="364"
+     y="274"
+     font-family="Arial,sans-serif"
+     font-size="7"
+     id="text90">Oros-VI</text>
+  <!-- Caldora Minor (outer cold world) -->
+  <circle
+     cx="315"
+     cy="400"
+     r="5"
+     fill="black"
+     id="circle92" />
+  <text
+     x="315"
+     y="390"
+     text-anchor="middle"
+     font-family="Arial,sans-serif"
+     font-size="9"
+     id="text94">Caldora Minor</text>
+  <!-- ===== CONTESTED ZONE ===== -->
+  <!-- The Nexus (major neutral station, filled square) -->
+  <rect
+     x="458"
+     y="174"
+     width="24"
+     height="24"
+     fill="black"
+     id="rect96" />
+  <text
+     x="470"
+     y="169"
+     text-anchor="middle"
+     font-family="Arial,sans-serif"
+     font-size="12"
+     font-weight="bold"
+     letter-spacing="1"
+     id="text98">THE NEXUS</text>
+  <text
+     x="470"
+     y="212"
+     text-anchor="middle"
+     font-family="Arial,sans-serif"
+     font-size="8"
+     font-style="italic"
+     id="text100">Neutral Trade Station</text>
+  <!-- Redshift Station (smuggling hub, diamond) -->
+  <polygon
+     points="454,270 467,286 454,302 441,286"
+     fill="black"
+     id="polygon102" />
+  <text
+     x="473"
+     y="288"
+     font-family="Arial,sans-serif"
+     font-size="9"
+     id="text104">Redshift Station</text>
+  <!-- Asteroid Cluster 473-Gamma (cluster of dots) -->
+  <circle
+     cx="460"
+     cy="368"
+     r="3"
+     fill="black"
+     id="circle106" />
+  <circle
+     cx="470"
+     cy="360"
+     r="2"
+     fill="black"
+     id="circle108" />
+  <circle
+     cx="453"
+     cy="375"
+     r="2.5"
+     fill="black"
+     id="circle110" />
+  <circle
+     cx="478"
+     cy="370"
+     r="2"
+     fill="black"
+     id="circle112" />
+  <circle
+     cx="468"
+     cy="380"
+     r="2.5"
+     fill="black"
+     id="circle114" />
+  <text
+     x="484"
+     y="371"
+     font-family="Arial,sans-serif"
+     font-size="8"
+     id="text116">Asteroid Cluster</text>
+  <text
+     x="484"
+     y="381"
+     font-family="Arial,sans-serif"
+     font-size="8"
+     id="text118">473-Gamma</text>
+  <!-- Drake's Divide (treacherous asteroid field, scattered dots) -->
+  <circle
+     cx="410"
+     cy="462"
+     r="2.5"
+     fill="black"
+     id="circle120" />
+  <circle
+     cx="423"
+     cy="456"
+     r="2"
+     fill="black"
+     id="circle122" />
+  <circle
+     cx="436"
+     cy="464"
+     r="2.5"
+     fill="black"
+     id="circle124" />
+  <circle
+     cx="449"
+     cy="458"
+     r="2"
+     fill="black"
+     id="circle126" />
+  <circle
+     cx="462"
+     cy="466"
+     r="2.5"
+     fill="black"
+     id="circle128" />
+  <circle
+     cx="475"
+     cy="460"
+     r="2"
+     fill="black"
+     id="circle130" />
+  <circle
+     cx="488"
+     cy="468"
+     r="2"
+     fill="black"
+     id="circle132" />
+  <text
+     x="449"
+     y="483"
+     text-anchor="middle"
+     font-family="Arial,sans-serif"
+     font-size="9"
+     font-style="italic"
+     id="text134">Drake's Divide</text>
+  <!-- ===== NYRIS-ZEPHOS SYSTEM: FRONTIER ===== -->
+  <!-- Gamma Nexus (volcanic, Nyris inner planet) -->
+  <circle
+     cx="614"
+     cy="260"
+     r="5"
+     fill="black"
+     id="circle136" />
+  <text
+     x="614"
+     y="249"
+     text-anchor="middle"
+     font-family="Arial,sans-serif"
+     font-size="10"
+     font-weight="bold"
+     id="text138">GAMMA NEXUS</text>
+  <text
+     x="614"
+     y="272"
+     text-anchor="middle"
+     font-family="Arial,sans-serif"
+     font-size="8"
+     font-style="italic"
+     id="text140">Volcanic</text>
+  <!-- Wraith Node (tidally locked, Nyris) -->
+  <circle
+     cx="656"
+     cy="355"
+     r="4"
+     fill="black"
+     id="circle142" />
+  <text
+     x="663"
+     y="352"
+     font-family="Arial,sans-serif"
+     font-size="9"
+     id="text144">Wraith Node</text>
+  <!-- Caldera-9 (industrial, high-gravity) -->
+  <circle
+     cx="632"
+     cy="418"
+     r="6"
+     fill="black"
+     id="circle146" />
+  <text
+     x="632"
+     y="407"
+     text-anchor="middle"
+     font-family="Arial,sans-serif"
+     font-size="10"
+     font-weight="bold"
+     id="text148">CALDERA-9</text>
+  <text
+     x="632"
+     y="431"
+     text-anchor="middle"
+     font-family="Arial,sans-serif"
+     font-size="8"
+     font-style="italic"
+     id="text150">Industrial / High-G</text>
+  <!-- Sable-3 (desert, black market artifacts) -->
+  <circle
+     cx="672"
+     cy="465"
+     r="5"
+     fill="black"
+     id="circle152" />
+  <text
+     x="672"
+     y="454"
+     text-anchor="middle"
+     font-family="Arial,sans-serif"
+     font-size="10"
+     font-weight="bold"
+     id="text154">SABLE-3</text>
+  <text
+     x="672"
+     y="477"
+     text-anchor="middle"
+     font-family="Arial,sans-serif"
+     font-size="8"
+     font-style="italic"
+     id="text156">Desert / Black Market</text>
+  <!-- Calibra Delta (cold outer world, Nyris) -->
+  <circle
+     cx="600"
+     cy="484"
+     r="4"
+     fill="black"
+     id="circle158" />
+  <text
+     x="600"
+     y="473"
+     text-anchor="middle"
+     font-family="Arial,sans-serif"
+     font-size="9"
+     id="text160">Calibra Delta</text>
+  <!-- Haven's Refuge (struggling terraformed colony, Zephos inner) -->
+  <circle
+     cx="770"
+     cy="218"
+     r="5"
+     fill="black"
+     id="circle162" />
+  <text
+     x="770"
+     y="207"
+     text-anchor="middle"
+     font-family="Arial,sans-serif"
+     font-size="10"
+     font-weight="bold"
+     id="text164">HAVEN'S REFUGE</text>
+  <text
+     x="770"
+     y="230"
+     text-anchor="middle"
+     font-family="Arial,sans-serif"
+     font-size="8"
+     font-style="italic"
+     id="text166">Terraformed Colony</text>
+  <!-- Glintspire (habitable, Zephos inner) -->
+  <circle
+     cx="793"
+     cy="272"
+     r="5"
+     fill="black"
+     id="circle168" />
+  <text
+     x="802"
+     y="269"
+     font-family="Arial,sans-serif"
+     font-size="9"
+     font-weight="bold"
+     id="text170">Glintspire</text>
+  <!-- Chrysalix (gas giant, Zephos outer) -->
+  <circle
+     cx="800"
+     cy="362"
+     r="13"
+     fill="none"
+     stroke="black"
+     stroke-width="2.5"
+     id="circle172" />
+  <ellipse
+     cx="800"
+     cy="362"
+     rx="20"
+     ry="6"
+     fill="none"
+     stroke="black"
+     stroke-width="1.5"
+     id="ellipse174" />
+  <text
+     x="800"
+     y="383.99759"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     id="text176">CHRYSALIX</text>
+  <!-- Krynn (moon of Chrysalix) -->
+  <circle
+     cx="823"
+     cy="350"
+     r="3"
+     fill="black"
+     id="circle178" />
+  <text
+     x="828"
+     y="348"
+     font-family="Arial,sans-serif"
+     font-size="7"
+     id="text180">Krynn</text>
+  <!-- Shard-27 (moon of Chrysalix) -->
+  <circle
+     cx="825"
+     cy="367"
+     r="3"
+     fill="black"
+     id="circle182" />
+  <text
+     x="830"
+     y="365"
+     font-family="Arial,sans-serif"
+     font-size="7"
+     id="text184">Shard-27</text>
+  <!-- ===== OUTER REACHES ===== -->
+  <!-- Crysalis-4 (Predecessor evacuation site, frozen moon, open circle) -->
+  <circle
+     cx="880"
+     cy="186"
+     r="5"
+     fill="none"
+     stroke="black"
+     stroke-width="1.8"
+     id="circle186" />
+  <text
+     x="888"
+     y="184"
+     font-family="Arial,sans-serif"
+     font-size="8"
+     id="text188">Crysalis-4</text>
+  <text
+     x="888"
+     y="194"
+     font-family="Arial,sans-serif"
+     font-size="7"
+     font-style="italic"
+     id="text190">Predecessor Site</text>
+  <!-- Haven's Rest (frozen outer planet, Zephos) -->
+  <circle
+     cx="867"
+     cy="244"
+     r="4"
+     fill="none"
+     stroke="black"
+     stroke-width="1.5"
+     id="circle192" />
+  <text
+     x="874"
+     y="242"
+     font-family="Arial,sans-serif"
+     font-size="8"
+     id="text194">Haven's Rest</text>
+  <!-- Obsidian Core (dark world, Zephos outer) -->
+  <circle
+     cx="873"
+     cy="315"
+     r="5"
+     fill="black"
+     id="circle196" />
+  <text
+     x="881"
+     y="313"
+     font-family="Arial,sans-serif"
+     font-size="9"
+     id="text198">Obsidian Core</text>
+  <!-- The Obsidian Spire (alien structure, dead world, open triangle) -->
+  <polygon
+     points="881,432 871,457 891,457"
+     fill="none"
+     stroke="black"
+     stroke-width="1.8"
+     id="polygon200" />
+  <text
+     x="871"
+     y="467"
+     font-family="Arial,sans-serif"
+     font-size="8"
+     font-style="italic"
+     id="text202">The Obsidian Spire</text>
+  <!-- Wraith Nebula (gas cloud, Dominion activity) -->
+  <ellipse
+     cx="840"
+     cy="517"
+     rx="48"
+     ry="22"
+     fill="none"
+     stroke="black"
+     stroke-width="1.2"
+     stroke-dasharray="4,3"
+     id="ellipse204" />
+  <text
+     x="840"
+     y="533"
+     text-anchor="middle"
+     font-family="Arial,sans-serif"
+     font-size="9"
+     font-style="italic"
+     id="text206">Wraith Nebula</text>
+  <!-- The Starlight Abyss (mysterious void, outer reaches left) -->
+  <circle
+     cx="82"
+     cy="553"
+     r="30"
+     fill="none"
+     stroke="black"
+     stroke-width="1.2"
+     stroke-dasharray="3,5"
+     id="circle208" />
+  <text
+     x="82"
+     y="592"
+     text-anchor="middle"
+     font-family="Arial,sans-serif"
+     font-size="9"
+     font-style="italic"
+     id="text210">The Starlight Abyss</text>
+  <!-- ===== LEGEND ===== -->
+  <rect
+     x="20"
+     y="614"
+     width="302"
+     height="88"
+     fill="white"
+     stroke="black"
+     stroke-width="1.2"
+     id="rect212" />
+  <text
+     x="171"
+     y="631"
+     text-anchor="middle"
+     font-family="Arial,sans-serif"
+     font-size="11"
+     font-weight="bold"
+     letter-spacing="2"
+     id="text214">LEGEND</text>
+  <!-- Row 1: Star, World, Moon -->
+  <circle
+     cx="42"
+     cy="648"
+     r="9"
+     fill="black"
+     id="circle216" />
+  <text
+     x="57"
+     y="652"
+     font-family="Arial,sans-serif"
+     font-size="9"
+     id="text218">Star</text>
+  <circle
+     cx="128"
+     cy="648"
+     r="5"
+     fill="#000000"
+     id="circle220" />
+  <text
+     x="138"
+     y="652"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     id="text222">World / Planet</text>
+  <circle
+     cx="226"
+     cy="648"
+     r="3"
+     fill="#000000"
+     id="circle224" />
+  <text
+     x="234"
+     y="652"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     id="text226">Moon</text>
+  <!-- Row 2: Gas Giant, Outpost/Colony, Station -->
+  <circle
+     cx="42"
+     cy="668"
+     r="9"
+     fill="none"
+     stroke="black"
+     stroke-width="2"
+     id="circle228" />
+  <text
+     x="57"
+     y="672"
+     font-family="Arial,sans-serif"
+     font-size="9"
+     id="text230">Gas Giant</text>
+  <circle
+     cx="128"
+     cy="668"
+     r="5"
+     fill="none"
+     stroke="#000000"
+     stroke-width="1.5"
+     id="circle232" />
+  <text
+     x="138"
+     y="672"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     id="text234">Outpost / Colony</text>
+  <polygon
+     points="210,662 218,672 210,682 202,672 "
+     fill="#000000"
+     id="polygon236"
+     transform="translate(16)" />
+  <text
+     x="240"
+     y="675"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     id="text238">Station</text>
+  <!-- Row 3: Major Station, Alien Ruin, Nebula -->
+  <rect
+     x="33"
+     y="682"
+     width="16"
+     height="16"
+     fill="black"
+     id="rect240" />
+  <text
+     x="57"
+     y="693"
+     font-family="Arial,sans-serif"
+     font-size="9"
+     id="text242">Major Station</text>
+  <polygon
+     points="104,697 112,682 120,697 "
+     fill="none"
+     stroke="#000000"
+     stroke-width="1.5"
+     id="polygon244"
+     transform="translate(16)" />
+  <text
+     x="142"
+     y="693"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     id="text246">Alien Structure</text>
+  <ellipse
+     cx="230"
+     cy="692"
+     rx="12"
+     ry="6"
+     fill="none"
+     stroke="#000000"
+     stroke-width="1"
+     stroke-dasharray="3, 2"
+     id="ellipse248" />
+  <text
+     x="247"
+     y="695"
+     font-family="Arial, sans-serif"
+     font-size="9px"
+     id="text250">Nebula</text>
+  <!-- ===== COMPASS ROSE ===== -->
+  <g
+     transform="translate(946, 654)"
+     id="g266">
+    <line
+       x1="0"
+       y1="-22"
+       x2="0"
+       y2="22"
+       stroke="black"
+       stroke-width="1.5"
+       id="line252" />
+    <line
+       x1="-22"
+       y1="0"
+       x2="22"
+       y2="0"
+       stroke="black"
+       stroke-width="1.5"
+       id="line254" />
+    <!-- North arrowhead (filled) -->
+    <polygon
+       points="0,-22 -5,-13 5,-13"
+       fill="black"
+       id="polygon256" />
+    <!-- South tick -->
+    <polygon
+       points="0,22 -4,14 4,14"
+       fill="none"
+       stroke="black"
+       stroke-width="1"
+       id="polygon258" />
+    <!-- West tick -->
+    <polygon
+       points="-22,0 -14,-4 -14,4"
+       fill="none"
+       stroke="black"
+       stroke-width="1"
+       id="polygon260" />
+    <!-- East tick -->
+    <polygon
+       points="22,0 14,-4 14,4"
+       fill="none"
+       stroke="black"
+       stroke-width="1"
+       id="polygon262" />
+    <text
+       x="0"
+       y="-26"
+       text-anchor="middle"
+       font-family="Arial,sans-serif"
+       font-size="12"
+       font-weight="bold"
+       id="text264">N</text>
+  </g>
+</svg>

@@ -1,0 +1,3651 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Roberto Bisceglie">
+<meta name="dcterms.date" content="2026-07-01">
+
+<title>Loner: Character Builder’s Guide – Loner SRD</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-d37705bb3a21d8331654a8d3f48f58ba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-87bbd3402671c853dcbde7c40b26e08b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-d37705bb3a21d8331654a8d3f48f58ba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&amp;family=Raleway:wght@700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+  @import url('https://fonts.cdnfonts.com/css/takota');
+</style>
+
+
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Loner SRD</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../core/loner-3e.html" aria-current="page"> 
+<span class="menu-text">Core Rules</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../adventure_packs/AP01_fantasy.html"> 
+<span class="menu-text">Adventure Packs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../geared_towards_loner/kwaidan_revised.html"> 
+<span class="menu-text">Geared Towards Loner</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/zotiquestgames/lonersrd"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../core/loner-3e.html">SRD</a></li><li class="breadcrumb-item"><a href="../core/character_builders_guide.html">Character Builder’s Guide</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">SRD</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/loner-3e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 3e</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/loner_companion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Companion</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/character_builders_guide.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Character Builder’s Guide</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/world_builders_guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">World Builder’s Guide</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/the_path_not_taken.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Path Not Taken</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/cinematic_action.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cinematic Action</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/tales_and_tumbles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">For Kids</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Legacy Core Rules</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/legacy/loner-1e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 1e (legacy)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/legacy/loner-2e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 2e (legacy)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Adventure Packs</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP01_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fantasy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP02_space.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Space Sci-Fi Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP03_superheroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Superheroes Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP04_crime.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Crime Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP05_mystery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mystery Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP06_horror.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Horror Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP07_action_adventure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Action Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP08_spy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP09_postapoc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Post-Apocalyptic Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP10_pirates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pirates Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP11_western.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Western Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP12_cyberpunk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cyberpunk Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Adventure Packs (Legacy 2e)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP01_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fantasy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP02_space.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Space Sci-Fi Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP03_superheroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Superheroes Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP04_crime.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Crime Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP05_mystery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mystery Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP06_horror.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Horror Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP07_action_adventure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Action Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP08_spy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP09_postapoc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Post-Apocalyptic Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP10_pirates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pirates Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP11_western.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Western Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP12_cyberpunk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cyberpunk Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/legacy/kwaidan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan!</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">Geared Towards Loner games</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/kwaidan_revised.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan! (Revised)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/cog_compass.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cog &amp; Compass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/mech_requiem.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mech: Requiem</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/legends_of_camelot.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Legends of Camelot</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/pulp_adventures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pulp Adventures!</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/steel_and_sorcery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Steel &amp; Sorcery</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/dungeoneer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dungeoneer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/spacer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spacer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/arabian_nights_adventures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Arabian Nights Adventures</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/cozy_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cozy Fantasy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/savage_blades_of_xylandra.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Savage Blades of Xylandra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/pulp_heroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pulp Heroes!</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/the_shattered_reach.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Shattered Reach</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/galaxy_drifter.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Galaxy Drifter</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/urban_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Urban Fantasy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/norse_saga.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Norse Saga</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/cthulhu.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cthulhu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/paranormal_files.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Paranormal Files</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+ <span class="menu-text">Geared Towards Loner games (Legacy)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/legacy/kwaidan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan!</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#loner-character-builders-guide" id="toc-loner-character-builders-guide" class="nav-link active" data-scroll-target="#loner-character-builders-guide">Loner: Character Builder’s Guide</a>
+  <ul class="collapse">
+  <li><a href="#introduction-why-this-book" id="toc-introduction-why-this-book" class="nav-link" data-scroll-target="#introduction-why-this-book">Introduction – Why This Book?</a>
+  <ul class="collapse">
+  <li><a href="#what-it-is" id="toc-what-it-is" class="nav-link" data-scroll-target="#what-it-is">What It Is</a></li>
+  <li><a href="#what-it-isnt" id="toc-what-it-isnt" class="nav-link" data-scroll-target="#what-it-isnt">What It Isn’t</a></li>
+  <li><a href="#how-to-use-this-book" id="toc-how-to-use-this-book" class="nav-link" data-scroll-target="#how-to-use-this-book">How to Use This Book</a></li>
+  <li><a href="#a-note-on-memory-self-and-solitude" id="toc-a-note-on-memory-self-and-solitude" class="nav-link" data-scroll-target="#a-note-on-memory-self-and-solitude">A Note on Memory, Self, and Solitude</a></li>
+  </ul></li>
+  <li><a href="#playing-with-identity" id="toc-playing-with-identity" class="nav-link" data-scroll-target="#playing-with-identity">Playing with Identity</a>
+  <ul class="collapse">
+  <li><a href="#identity-is-emergent" id="toc-identity-is-emergent" class="nav-link" data-scroll-target="#identity-is-emergent">Identity Is Emergent</a></li>
+  <li><a href="#tags-as-identity-markers" id="toc-tags-as-identity-markers" class="nav-link" data-scroll-target="#tags-as-identity-markers">Tags as Identity Markers</a></li>
+  <li><a href="#the-core-three-concept-goal-nemesis" id="toc-the-core-three-concept-goal-nemesis" class="nav-link" data-scroll-target="#the-core-three-concept-goal-nemesis">The Core Three: Concept, Goal, Nemesis</a></li>
+  <li><a href="#concept" id="toc-concept" class="nav-link" data-scroll-target="#concept">1. Concept</a></li>
+  <li><a href="#goal" id="toc-goal" class="nav-link" data-scroll-target="#goal">2. Goal</a></li>
+  <li><a href="#nemesis" id="toc-nemesis" class="nav-link" data-scroll-target="#nemesis">3. Nemesis</a></li>
+  <li><a href="#fragmentation-and-contradiction" id="toc-fragmentation-and-contradiction" class="nav-link" data-scroll-target="#fragmentation-and-contradiction">Fragmentation and Contradiction</a></li>
+  </ul></li>
+  <li><a href="#the-lifepath-engine" id="toc-the-lifepath-engine" class="nav-link" data-scroll-target="#the-lifepath-engine">The Lifepath Engine</a>
+  <ul class="collapse">
+  <li><a href="#how-it-works" id="toc-how-it-works" class="nav-link" data-scroll-target="#how-it-works">How It Works</a></li>
+  <li><a href="#table-index" id="toc-table-index" class="nav-link" data-scroll-target="#table-index">Table Index</a></li>
+  <li><a href="#lifepath-table-origins-d66" id="toc-lifepath-table-origins-d66" class="nav-link" data-scroll-target="#lifepath-table-origins-d66">Lifepath Table: Origins (d66)</a></li>
+  <li><a href="#lifepath-table-formative-events-d66" id="toc-lifepath-table-formative-events-d66" class="nav-link" data-scroll-target="#lifepath-table-formative-events-d66">Lifepath Table: Formative Events (d66)</a></li>
+  <li><a href="#lifepath-table-key-relationships-d66" id="toc-lifepath-table-key-relationships-d66" class="nav-link" data-scroll-target="#lifepath-table-key-relationships-d66">Lifepath Table: Key Relationships (d66)</a></li>
+  <li><a href="#lifepath-table-defining-loss-d66" id="toc-lifepath-table-defining-loss-d66" class="nav-link" data-scroll-target="#lifepath-table-defining-loss-d66">Lifepath Table: Defining Loss (d66)</a></li>
+  <li><a href="#lifepath-table-what-changed-you-d66" id="toc-lifepath-table-what-changed-you-d66" class="nav-link" data-scroll-target="#lifepath-table-what-changed-you-d66">Lifepath Table: What Changed You (d66)</a></li>
+  <li><a href="#lifepath-table-a-memory-that-may-be-false-d66" id="toc-lifepath-table-a-memory-that-may-be-false-d66" class="nav-link" data-scroll-target="#lifepath-table-a-memory-that-may-be-false-d66">Lifepath Table: A Memory That May Be False (d66)</a></li>
+  <li><a href="#lifepath-table-something-you-cant-let-go-d66" id="toc-lifepath-table-something-you-cant-let-go-d66" class="nav-link" data-scroll-target="#lifepath-table-something-you-cant-let-go-d66">Lifepath Table: Something You Can’t Let Go (d66)</a></li>
+  <li><a href="#using-lifepaths-in-play" id="toc-using-lifepaths-in-play" class="nav-link" data-scroll-target="#using-lifepaths-in-play">Using Lifepaths in Play</a></li>
+  </ul></li>
+  <li><a href="#the-relationship-matrix" id="toc-the-relationship-matrix" class="nav-link" data-scroll-target="#the-relationship-matrix">The Relationship Matrix</a>
+  <ul class="collapse">
+  <li><a href="#people-as-threads" id="toc-people-as-threads" class="nav-link" data-scroll-target="#people-as-threads">People as Threads</a></li>
+  <li><a href="#roles" id="toc-roles" class="nav-link" data-scroll-target="#roles">Roles</a></li>
+  <li><a href="#tags-that-define-the-bond" id="toc-tags-that-define-the-bond" class="nav-link" data-scroll-target="#tags-that-define-the-bond">Tags That Define the Bond</a></li>
+  <li><a href="#sample-relationship-entry" id="toc-sample-relationship-entry" class="nav-link" data-scroll-target="#sample-relationship-entry">Sample Relationship Entry</a></li>
+  <li><a href="#drift-mutation" id="toc-drift-mutation" class="nav-link" data-scroll-target="#drift-mutation">Drift &amp; Mutation</a></li>
+  <li><a href="#echoes-and-returns" id="toc-echoes-and-returns" class="nav-link" data-scroll-target="#echoes-and-returns">Echoes and Returns</a></li>
+  <li><a href="#sample-web" id="toc-sample-web" class="nav-link" data-scroll-target="#sample-web">Sample Web</a></li>
+  </ul></li>
+  <li><a href="#memory-flashbacks" id="toc-memory-flashbacks" class="nav-link" data-scroll-target="#memory-flashbacks">Memory &amp; Flashbacks</a>
+  <ul class="collapse">
+  <li><a href="#when-to-use-a-flashback" id="toc-when-to-use-a-flashback" class="nav-link" data-scroll-target="#when-to-use-a-flashback">When to Use a Flashback</a></li>
+  <li><a href="#flashback-format" id="toc-flashback-format" class="nav-link" data-scroll-target="#flashback-format">Flashback Format</a></li>
+  <li><a href="#memory-triggers-d6" id="toc-memory-triggers-d6" class="nav-link" data-scroll-target="#memory-triggers-d6">Memory Triggers (d6)</a></li>
+  <li><a href="#unreliable-memory" id="toc-unreliable-memory" class="nav-link" data-scroll-target="#unreliable-memory">Unreliable Memory</a></li>
+  <li><a href="#using-flashbacks-in-play" id="toc-using-flashbacks-in-play" class="nav-link" data-scroll-target="#using-flashbacks-in-play">Using Flashbacks in Play</a></li>
+  <li><a href="#optional-false-memory-table-d6" id="toc-optional-false-memory-table-d6" class="nav-link" data-scroll-target="#optional-false-memory-table-d6">Optional: False Memory Table (d6)</a></li>
+  </ul></li>
+  <li><a href="#interpersonal-scene-frames" id="toc-interpersonal-scene-frames" class="nav-link" data-scroll-target="#interpersonal-scene-frames">Interpersonal Scene Frames</a>
+  <ul class="collapse">
+  <li><a href="#what-is-a-scene-frame" id="toc-what-is-a-scene-frame" class="nav-link" data-scroll-target="#what-is-a-scene-frame">What Is a Scene Frame?</a></li>
+  <li><a href="#confessions-d6" id="toc-confessions-d6" class="nav-link" data-scroll-target="#confessions-d6">Confessions (d6)</a></li>
+  <li><a href="#confrontations-d6" id="toc-confrontations-d6" class="nav-link" data-scroll-target="#confrontations-d6">Confrontations (d6)</a></li>
+  <li><a href="#bonds-deepening-d6" id="toc-bonds-deepening-d6" class="nav-link" data-scroll-target="#bonds-deepening-d6">Bonds Deepening (d6)</a></li>
+  <li><a href="#betrayals-unfolding-d6" id="toc-betrayals-unfolding-d6" class="nav-link" data-scroll-target="#betrayals-unfolding-d6">Betrayals Unfolding (d6)</a></li>
+  <li><a href="#injecting-a-relationship-scene-without-derailing-play" id="toc-injecting-a-relationship-scene-without-derailing-play" class="nav-link" data-scroll-target="#injecting-a-relationship-scene-without-derailing-play">Injecting a Relationship Scene Without Derailing Play</a></li>
+  <li><a href="#genre-variations-optional" id="toc-genre-variations-optional" class="nav-link" data-scroll-target="#genre-variations-optional">Genre Variations (Optional)</a></li>
+  </ul></li>
+  <li><a href="#evolving-bonds-in-solo-play" id="toc-evolving-bonds-in-solo-play" class="nav-link" data-scroll-target="#evolving-bonds-in-solo-play">Evolving Bonds in Solo Play</a>
+  <ul class="collapse">
+  <li><a href="#measuring-growth" id="toc-measuring-growth" class="nav-link" data-scroll-target="#measuring-growth">Measuring Growth</a></li>
+  <li><a href="#relationship-arcs" id="toc-relationship-arcs" class="nav-link" data-scroll-target="#relationship-arcs">Relationship Arcs</a></li>
+  <li><a href="#npc-arcs-as-solo-subplots" id="toc-npc-arcs-as-solo-subplots" class="nav-link" data-scroll-target="#npc-arcs-as-solo-subplots">NPC Arcs as Solo Subplots</a></li>
+  <li><a href="#thematic-arc-templates" id="toc-thematic-arc-templates" class="nav-link" data-scroll-target="#thematic-arc-templates">Thematic Arc Templates</a></li>
+  </ul></li>
+  <li><a href="#the-npc-depth-generator" id="toc-the-npc-depth-generator" class="nav-link" data-scroll-target="#the-npc-depth-generator">The NPC Depth Generator</a>
+  <ul class="collapse">
+  <li><a href="#quick-npc-recipe" id="toc-quick-npc-recipe" class="nav-link" data-scroll-target="#quick-npc-recipe">Quick NPC Recipe</a></li>
+  <li><a href="#npc-archetype-categories" id="toc-npc-archetype-categories" class="nav-link" data-scroll-target="#npc-archetype-categories">NPC Archetype Categories</a></li>
+  <li><a href="#what-they-want-d6-table" id="toc-what-they-want-d6-table" class="nav-link" data-scroll-target="#what-they-want-d6-table">What They Want (d6 Table)</a></li>
+  <li><a href="#bonus-minimal-npc-sheet" id="toc-bonus-minimal-npc-sheet" class="nav-link" data-scroll-target="#bonus-minimal-npc-sheet">Bonus: Minimal NPC Sheet</a></li>
+  </ul></li>
+  <li><a href="#evolving-the-self" id="toc-evolving-the-self" class="nav-link" data-scroll-target="#evolving-the-self">Evolving the Self</a>
+  <ul class="collapse">
+  <li><a href="#when-to-revisit-your-concept" id="toc-when-to-revisit-your-concept" class="nav-link" data-scroll-target="#when-to-revisit-your-concept">When to Revisit Your Concept</a></li>
+  <li><a href="#changing-other-tags" id="toc-changing-other-tags" class="nav-link" data-scroll-target="#changing-other-tags">Changing Other Tags</a></li>
+  <li><a href="#identity-checkpoints" id="toc-identity-checkpoints" class="nav-link" data-scroll-target="#identity-checkpoints">Identity Checkpoints</a></li>
+  <li><a href="#fragments-tracing-the-shift" id="toc-fragments-tracing-the-shift" class="nav-link" data-scroll-target="#fragments-tracing-the-shift">Fragments: Tracing the Shift</a></li>
+  </ul></li>
+  <li><a href="#visual-tools-appendix" id="toc-visual-tools-appendix" class="nav-link" data-scroll-target="#visual-tools-appendix">Visual Tools &amp; Appendix</a>
+  <ul class="collapse">
+  <li><a href="#relationship-map-template" id="toc-relationship-map-template" class="nav-link" data-scroll-target="#relationship-map-template">Relationship Map Template</a></li>
+  <li><a href="#character-web-diagram" id="toc-character-web-diagram" class="nav-link" data-scroll-target="#character-web-diagram">Character Web Diagram</a></li>
+  <li><a href="#lifepath-sheet" id="toc-lifepath-sheet" class="nav-link" data-scroll-target="#lifepath-sheet">Lifepath Sheet</a></li>
+  <li><a href="#evolution-wheel" id="toc-evolution-wheel" class="nav-link" data-scroll-target="#evolution-wheel">Evolution Wheel</a></li>
+  </ul></li>
+  <li><a href="#license" id="toc-license" class="nav-link" data-scroll-target="#license">License</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/zotiquestgames/lonersrd/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="character_builders_guide.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="character_builders_guide.odt"><i class="bi bi-file"></i>OpenOffice</a></li><li><a href="character_builders_guide.epub"><i class="bi bi-file"></i>ePub</a></li><li><a href="character_builders_guide-gfm.md"><i class="bi bi-file-code"></i>Github (GFM)</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../core/loner-3e.html">SRD</a></li><li class="breadcrumb-item"><a href="../core/character_builders_guide.html">Character Builder’s Guide</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Loner: Character Builder’s Guide</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Roberto Bisceglie </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 1, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="loner-character-builders-guide" class="level1">
+<h1>Loner: Character Builder’s Guide</h1>
+<section id="introduction-why-this-book" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-why-this-book">Introduction – Why This Book?</h2>
+<p>This is not a system expansion. It’s a mirror.</p>
+<p><strong><em>Character Builder’s Guide</em></strong> is a framework for exploring how your character grows, fragments, remembers, and forgets—without abandoning the minimalist clarity of <em>Loner</em>. It’s a toolset to enrich solo play through evolving identity, relational drama, and emergent selfhood. You don’t need this book to play <em>Loner</em>. But if your stories are starting to ask deeper questions—<em>why did I do that? who was I to them? what did I lose, and who have I become?</em>—then this is the book you’ve been playing toward.</p>
+<p>There are no new mechanics here. Just new patterns for interpreting the same questions.</p>
+<p>You won’t track health or stats. You’ll track shifts in emotion, memory, bonds, and betrayal. You’ll roll to find out how your mentor betrayed you—or whether the memory is real at all. You’ll let your relationship with your nemesis change with time, and maybe even fold into something else entirely.</p>
+<p>This book adds no numbers to <em>Loner</em>. It adds gravity.</p>
+<section id="what-it-is" class="level3">
+<h3 class="anchored" data-anchor-id="what-it-is">What It Is</h3>
+<p>This supplement offers:</p>
+<ul>
+<li>Lifepath generators that build characters across lost years, scarred events, and scattered identities.</li>
+<li>Tools for creating and evolving meaningful relationships with NPCs—without requiring journaling or extensive prep.</li>
+<li>Flashback, memory, and hallucination systems to enrich the inner life of your protagonist.</li>
+<li>Frameworks for changing your character’s identity over time, tied to their choices, regrets, and the people they meet.</li>
+<li>New uses of the Oracle to answer not just “What happens?” but “What does this mean to me?”</li>
+</ul>
+<p>It is genre-agnostic, like <em>Loner</em> itself. Whether you’re a haunted astronaut, a drifter in a ghost-infested desert, or an ex-cultist unraveling conspiracies, these tools give emotional weight to your fiction-first experience.</p>
+</section>
+<section id="what-it-isnt" class="level3">
+<h3 class="anchored" data-anchor-id="what-it-isnt">What It Isn’t</h3>
+<p>This is not a solo journaling game. It doesn’t ask you to write letters or narrate long internal monologues. It works entirely within the “tags and dice” structure of <em>Loner</em>, expanding it sideways, not upward.</p>
+<p>It also doesn’t fix a problem. <em>Loner</em> works fine as-is. But this gives you more knobs to turn when the story needs a shift in tone—from tactical, to tragic; from goal-driven, to self-reckoning.</p>
+<p>It’s not about romance. That’s an option, not a default. Relationships here are political, painful, redemptive, antagonistic, or strange. They may deepen, sour, or reveal old secrets—but they’re never mandatory.</p>
+</section>
+<section id="how-to-use-this-book" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-use-this-book">How to Use This Book</h3>
+<p>There’s no strict order. The chapters are modular. Use what fits the tone of your current story.</p>
+<ul>
+<li>Want a backstory that unfolds as you go? Use the Lifepath Tables alongside flashback prompts.</li>
+<li>Need help fleshing out companions, rivals, or lost loves? Use the Relationship Matrix and NPC Generator.</li>
+<li>Want your character to change and evolve? Use the Identity Shifts and Concept Rewrites section.</li>
+<li>Feeling like your story needs more emotional stakes? Drop in an Interpersonal Scene Frame between missions.</li>
+</ul>
+<p>Each chapter includes examples and optional diagrams. There are no rules you must follow—just patterns you can adopt, if they help the story say more.</p>
+</section>
+<section id="a-note-on-memory-self-and-solitude" class="level3">
+<h3 class="anchored" data-anchor-id="a-note-on-memory-self-and-solitude">A Note on Memory, Self, and Solitude</h3>
+<p>Solo roleplaying is a strange kind of intimacy. You’re not performing for an audience. You’re uncovering something you didn’t know you’d written.</p>
+<p>Often, what emerges isn’t plot. It’s pattern. Emotional echoes. Themes that show up over and over, in new disguises. This book leans into that strangeness.</p>
+<p>We invite you to treat identity not as fixed, but as layered. Not as “who you are,” but as a tangle of who you’ve been, who you’ve left behind, and who others think you are. In <em>Loner</em>, your character is what they do. In <em>Character Builder’s Guide</em>, they are also what they’ve lost—and what they remember wrong.</p>
+<p>This is solo play as self-archaeology.</p>
+<p>Let’s begin.</p>
+</section>
+</section>
+<section id="playing-with-identity" class="level2">
+<h2 class="anchored" data-anchor-id="playing-with-identity">Playing with Identity</h2>
+<p>In <em>Loner</em>, you don’t write a backstory—you <strong>build it through play</strong>. But what happens when the character changes? What if the tag that once defined them doesn’t fit anymore? What if the person who began the story would no longer recognize the person living it?</p>
+<p>This chapter offers a framework for treating identity not as a static entry on your character sheet, but as a <strong>living, shifting part of the fiction</strong>. You’ll learn how to let characters evolve, fracture, contradict themselves, and leave parts behind—just like people do.</p>
+<section id="identity-is-emergent" class="level3">
+<h3 class="anchored" data-anchor-id="identity-is-emergent">Identity Is Emergent</h3>
+<p>In traditional games, identity is usually pre-written: a neat backstory, a defined personality, and a list of traits that rarely change. In solo play, especially in <em>Loner</em>, <strong>identity unfolds</strong>. It is revealed in moments of doubt, in flashbacks, in the way your protagonist reacts to impossible choices.</p>
+<p><strong>Identity in <em>Loner</em> is not what you write before play. It’s what the story reveals about who the character has been, and who they’re becoming.</strong></p>
+<p>That’s why we treat identity as:</p>
+<ul>
+<li><strong>Layered</strong> — Characters contain contradictions. One tag might clash with another. That’s the point.</li>
+<li><strong>Mutable</strong> — You can evolve, alter, or discard traits as your character changes.</li>
+<li><strong>Revealed</strong> — Some parts of the character may only emerge later: a buried trauma, a repressed memory, a forgotten name.</li>
+<li><strong>Incongruent</strong> — Characters are not always consistent. They lie to themselves. They surprise themselves. Play with that.</li>
+</ul>
+</section>
+<section id="tags-as-identity-markers" class="level3">
+<h3 class="anchored" data-anchor-id="tags-as-identity-markers">Tags as Identity Markers</h3>
+<p>In <em>Loner</em>, tags are the heart of everything. Concept, Skills, Frailty, Gear, Goal, Motive, Nemesis—these are not stats. They are <strong>identity markers</strong>.</p>
+<p>Each tag tells you something about how the character sees the world, or how the world sees them. But tags are <strong>not permanent</strong>. A tag can become obsolete. A concept can become a lie. A nemesis can become a friend—or vice versa.</p>
+<p>Here’s how you can treat identity tags over time:</p>
+<ul>
+<li><strong>Refine a tag</strong>: Change “Mercenary” to “Regretful Mercenary” or “Disillusioned Veteran.”</li>
+<li><strong>Transform a tag</strong>: Turn “Skilled Pilot” into “One-Eyed Crash Survivor” after a major event.</li>
+<li><strong>Replace a tag</strong>: Swap “Hardened Skeptic” for “Shaken Believer” when the evidence is too much to deny.</li>
+<li><strong>Cross out a tag</strong>: If something no longer fits, strike it. Let absence mean something.</li>
+</ul>
+<p>Use the margins of your character sheet. Draw a line through old tags. Date changes. Add scribbled notes. Make the sheet a record of the character’s <strong>becoming</strong>, not just their beginning.</p>
+</section>
+<section id="the-core-three-concept-goal-nemesis" class="level3">
+<h3 class="anchored" data-anchor-id="the-core-three-concept-goal-nemesis">The Core Three: Concept, Goal, Nemesis</h3>
+<p>These three tags are the <strong>spine of identity</strong>. They shape how your character acts, what drives them, and what stands in their way.</p>
+<p>But they, too, can evolve.</p>
+</section>
+<section id="concept" class="level3">
+<h3 class="anchored" data-anchor-id="concept">1. Concept</h3>
+<p>This is who the character believes they are—or wants to be. If your actions start to contradict your concept, that’s a sign something has shifted. When your concept no longer matches your behavior, rewrite it.</p>
+<blockquote class="blockquote">
+<p>Example: <em>“Witty Street Cat”</em> becomes <em>“Burned Informant”</em> after a betrayal, and finally <em>“Reluctant Martyr”</em> by the end.</p>
+</blockquote>
+</section>
+<section id="goal" class="level3">
+<h3 class="anchored" data-anchor-id="goal">2. Goal</h3>
+<p>Goals change. The goal that started your journey might be completed, abandoned, or rendered impossible. When that happens, ask: <em>What matters to me now?</em> Update the Goal tag. Let it reflect the <strong>next chapter</strong>, not the first.</p>
+</section>
+<section id="nemesis" class="level3">
+<h3 class="anchored" data-anchor-id="nemesis">3. Nemesis</h3>
+<p>Not all nemeses stay enemies. Some fade. Some die. Some become something else. Track how this relationship changes. Rewrite or transform the tag if their role in the story shifts.</p>
+<blockquote class="blockquote">
+<p>Example: “The Cleanser Unit” starts as <em>Nemesis</em>, but after an Oracle twist and a truce, you update them to <em>Ambiguous Ally</em> with the note: “Still dangerous.”</p>
+</blockquote>
+</section>
+<section id="fragmentation-and-contradiction" class="level3">
+<h3 class="anchored" data-anchor-id="fragmentation-and-contradiction">Fragmentation and Contradiction</h3>
+<p>Characters are not coherent. They are not finished. Especially not in solo play.</p>
+<p>Your character may:</p>
+<ul>
+<li>Contradict their tags</li>
+<li>Deny their motive</li>
+<li>Lie about their past</li>
+<li>Remember things that aren’t true</li>
+</ul>
+<p>All of that is fair game.</p>
+<p>Identity in <em>Character Builder’s Guide</em> is a mosaic of half-truths and flashbacks, of lived experience and invented meaning. You are encouraged to let your protagonist be <strong>unreliable, evolving, and emotionally raw</strong>.</p>
+<blockquote class="blockquote">
+<p>You’re not playing an archetype. You’re watching someone slowly become one—only to outgrow it.</p>
+</blockquote>
+</section>
+</section>
+<section id="the-lifepath-engine" class="level2">
+<h2 class="anchored" data-anchor-id="the-lifepath-engine">The Lifepath Engine</h2>
+<p>Backstories in <em>Loner</em> aren’t required—but they do emerge.</p>
+<p>The Lifepath Engine gives you tools to generate that backstory not as a tidy summary, but as a series of <strong>evocative fragments</strong>, <strong>unreliable memories</strong>, and <strong>emotional echoes</strong>. You’ll build the self like an archaeologist: out of scattered clues, patterns, and half-buried truths.</p>
+<p>You can use this at character creation or mid-game, weaving lifepath fragments into scenes through flashbacks or revelations. Every lifepath result is a <strong>narrative seed</strong>, not a rule.</p>
+<section id="how-it-works" class="level3">
+<h3 class="anchored" data-anchor-id="how-it-works">How It Works</h3>
+<p>You roll on a series of d66 tables. Each table gives you a prompt—an event, feeling, relationship, or scar.</p>
+<p>You don’t write a biography. You collect fragments.</p>
+<p>For each result, you can:</p>
+<ul>
+<li>Write a short note on your character sheet.</li>
+<li>Create a new <strong>tag</strong> (a Skill, Frailty, Gear, Concept detail, or even Nemesis).</li>
+<li>Leave it dangling, unresolved—something to explore later.</li>
+<li>Re-roll or reinterpret freely. These are poetic or symbolic prompts, not constraints.</li>
+</ul>
+<p>You don’t need to roll on every table. Use as many as feel useful. You can add entries mid-game as you play out flashbacks.</p>
+</section>
+<section id="table-index" class="level3">
+<h3 class="anchored" data-anchor-id="table-index">Table Index</h3>
+<ul>
+<li><strong>Origins</strong> – Where you came from, metaphorically or literally.</li>
+<li><strong>Formative Events</strong> – What shaped you early.</li>
+<li><strong>Key Relationships</strong> – A person or bond that still haunts or defines you.</li>
+<li><strong>Defining Loss</strong> – What you lost that left a hole.</li>
+<li><strong>What Changed You</strong> – The pivotal moment of break, shift, or awakening.</li>
+<li><strong>A Memory That May Be False</strong> – Truth is flexible. Let memory play tricks.</li>
+<li><strong>Something You Can’t Let Go</strong> – Obsession, guilt, or unfinished business.</li>
+</ul>
+<p>Each table contains 36 results, rolled with d66. Let’s begin with the first:</p>
+</section>
+<section id="lifepath-table-origins-d66" class="level3">
+<h3 class="anchored" data-anchor-id="lifepath-table-origins-d66">Lifepath Table: Origins (d66)</h3>
+<p><strong>Where did you begin, before you began?</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>d66</th>
+<th>Origin</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>11</td>
+<td>Raised in a forgotten place no map records.</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Born during a storm that destroyed half your town.</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>Left on a threshold with a mark on your wrist.</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>Grew up underground, with filtered air and no sky.</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>Raised in a traveling group that vanished without explanation.</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>Born into silence—no one spoke until you did.</td>
+</tr>
+<tr class="odd">
+<td>21</td>
+<td>Raised by someone who wasn’t human (or wasn’t anymore).</td>
+</tr>
+<tr class="even">
+<td>22</td>
+<td>Found inside an abandoned research facility.</td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td>Born with a different name than the one you now use.</td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td>Raised among believers in something long disproved.</td>
+</tr>
+<tr class="odd">
+<td>25</td>
+<td>Your hometown disappeared. No one else remembers it existed.</td>
+</tr>
+<tr class="even">
+<td>26</td>
+<td>The first sound you heard was static.</td>
+</tr>
+<tr class="odd">
+<td>31</td>
+<td>You were an experiment.</td>
+</tr>
+<tr class="even">
+<td>32</td>
+<td>Grew up knowing you’d never belong.</td>
+</tr>
+<tr class="odd">
+<td>33</td>
+<td>Born to die for someone else’s purpose.</td>
+</tr>
+<tr class="even">
+<td>34</td>
+<td>You have a sibling no one talks about.</td>
+</tr>
+<tr class="odd">
+<td>35</td>
+<td>Your family was erased from official records.</td>
+</tr>
+<tr class="even">
+<td>36</td>
+<td>You were born after you died (technically).</td>
+</tr>
+<tr class="odd">
+<td>41</td>
+<td>Found floating, healthy, in a sealed chamber.</td>
+</tr>
+<tr class="even">
+<td>42</td>
+<td>Grew up near something people weren’t supposed to see.</td>
+</tr>
+<tr class="odd">
+<td>43</td>
+<td>Your birth was part of a ritual. You don’t know which part.</td>
+</tr>
+<tr class="even">
+<td>44</td>
+<td>No one remembers you as a child.</td>
+</tr>
+<tr class="odd">
+<td>45</td>
+<td>You were raised in simulations. Reality came later.</td>
+</tr>
+<tr class="even">
+<td>46</td>
+<td>Everyone you grew up with is now missing.</td>
+</tr>
+<tr class="odd">
+<td>51</td>
+<td>You remember two childhoods. You don’t know which is real.</td>
+</tr>
+<tr class="even">
+<td>52</td>
+<td>The sun didn’t rise the day you were born.</td>
+</tr>
+<tr class="odd">
+<td>53</td>
+<td>You never learned your native language.</td>
+</tr>
+<tr class="even">
+<td>54</td>
+<td>You had a different body, once.</td>
+</tr>
+<tr class="odd">
+<td>55</td>
+<td>You were always watched. Still are.</td>
+</tr>
+<tr class="even">
+<td>56</td>
+<td>Raised with others, like you. You’re the only one left.</td>
+</tr>
+<tr class="odd">
+<td>61</td>
+<td>You escaped. From what, you still won’t say.</td>
+</tr>
+<tr class="even">
+<td>62</td>
+<td>Adopted by those who hated you. You learned to hide.</td>
+</tr>
+<tr class="odd">
+<td>63</td>
+<td>Born under a false identity. You still don’t know the truth.</td>
+</tr>
+<tr class="even">
+<td>64</td>
+<td>You were never born. You just were.</td>
+</tr>
+<tr class="odd">
+<td>65</td>
+<td>You arrived through a threshold no one else could see.</td>
+</tr>
+<tr class="even">
+<td>66</td>
+<td>You shouldn’t exist. But here you are.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="lifepath-table-formative-events-d66" class="level3">
+<h3 class="anchored" data-anchor-id="lifepath-table-formative-events-d66">Lifepath Table: Formative Events (d66)</h3>
+<p><strong>What shaped you before you had a choice?</strong> These are the moments that left marks—some visible, some not.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 95%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>d66</th>
+<th>Formative Event</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>11</td>
+<td>Witnessed someone disappear mid-sentence.</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Survived a fire that no one else remembers.</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>Lived through a silent epidemic. You never got sick.</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>Your name was used in a classified incident report.</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>Spent a year somewhere time doesn’t work right.</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>Discovered a sealed room no one could explain.</td>
+</tr>
+<tr class="odd">
+<td>21</td>
+<td>Were the only one to return from an expedition.</td>
+</tr>
+<tr class="even">
+<td>22</td>
+<td>Spoke a word you weren’t supposed to know. Everything changed.</td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td>Found an object that shouldn’t exist. Kept it.</td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td>Someone trusted you with their last words. You never repeated them.</td>
+</tr>
+<tr class="odd">
+<td>25</td>
+<td>Were caught in a lie that rewrote your life.</td>
+</tr>
+<tr class="even">
+<td>26</td>
+<td>You ran. No one chased you. But you ran.</td>
+</tr>
+<tr class="odd">
+<td>31</td>
+<td>A machine said something only you understood.</td>
+</tr>
+<tr class="even">
+<td>32</td>
+<td>Were interrogated about something you hadn’t done—yet.</td>
+</tr>
+<tr class="odd">
+<td>33</td>
+<td>You saw the sky change. You still don’t know why.</td>
+</tr>
+<tr class="even">
+<td>34</td>
+<td>Spent months living under another name. Then forgot your own.</td>
+</tr>
+<tr class="odd">
+<td>35</td>
+<td>Watched something die, then get back up.</td>
+</tr>
+<tr class="even">
+<td>36</td>
+<td>Entered a place everyone said didn’t exist. Left a part of you there.</td>
+</tr>
+<tr class="odd">
+<td>41</td>
+<td>Took someone else’s place. No one noticed.</td>
+</tr>
+<tr class="even">
+<td>42</td>
+<td>Were trained for something they claimed would never happen. It did.</td>
+</tr>
+<tr class="odd">
+<td>43</td>
+<td>Found a message written in your own handwriting. It warned you.</td>
+</tr>
+<tr class="even">
+<td>44</td>
+<td>Helped someone bury something that couldn’t die.</td>
+</tr>
+<tr class="odd">
+<td>45</td>
+<td>Lost time during a family trip. No one else remembers.</td>
+</tr>
+<tr class="even">
+<td>46</td>
+<td>Were accused of something terrible—and they were right.</td>
+</tr>
+<tr class="odd">
+<td>51</td>
+<td>You were chosen for something. Still don’t know what.</td>
+</tr>
+<tr class="even">
+<td>52</td>
+<td>You vanished for three days. Returned with new scars.</td>
+</tr>
+<tr class="odd">
+<td>53</td>
+<td>Overheard something on the radio that changed your life.</td>
+</tr>
+<tr class="even">
+<td>54</td>
+<td>Lied under oath. It saved lives.</td>
+</tr>
+<tr class="odd">
+<td>55</td>
+<td>You followed someone who didn’t know you existed. They disappeared.</td>
+</tr>
+<tr class="even">
+<td>56</td>
+<td>Saw a photo of yourself in an old case file—dated before your birth.</td>
+</tr>
+<tr class="odd">
+<td>61</td>
+<td>Became someone’s secret.</td>
+</tr>
+<tr class="even">
+<td>62</td>
+<td>Delivered something you were told never to open. You opened it.</td>
+</tr>
+<tr class="odd">
+<td>63</td>
+<td>Heard a sound no one else could hear. Still do.</td>
+</tr>
+<tr class="even">
+<td>64</td>
+<td>Found your own handwriting carved in stone. It was ancient.</td>
+</tr>
+<tr class="odd">
+<td>65</td>
+<td>Helped someone forget who they were. Sometimes you wish you hadn’t.</td>
+</tr>
+<tr class="even">
+<td>66</td>
+<td>You made a choice. Everything since has been fallout.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="lifepath-table-key-relationships-d66" class="level3">
+<h3 class="anchored" data-anchor-id="lifepath-table-key-relationships-d66">Lifepath Table: Key Relationships (d66)</h3>
+<p><strong>Who shaped you, hurt you, saved you—or vanished without a trace?</strong> This person may be alive, dead, missing, or never real to begin with. They might return.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 96%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>d66</th>
+<th>Key Relationship</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>11</td>
+<td>Someone raised you, but never told you their name.</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>You betrayed someone who trusted you completely.</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>You had a twin. No one else remembers them.</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>An older sibling disappeared. You still wear their ID.</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>You made a promise to someone who vanished the next day.</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>You were in love once. You never saw their face.</td>
+</tr>
+<tr class="odd">
+<td>21</td>
+<td>A mentor taught you everything. Then erased themselves from your life.</td>
+</tr>
+<tr class="even">
+<td>22</td>
+<td>Someone gave you a secret. You’ve never shared it.</td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td>You buried someone who died twice.</td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td>Someone called you “parent” once. It wasn’t a child.</td>
+</tr>
+<tr class="odd">
+<td>25</td>
+<td>You met someone who claimed to be your future self. You didn’t believe them.</td>
+</tr>
+<tr class="even">
+<td>26</td>
+<td>You killed someone. Sometimes you dream they forgave you.</td>
+</tr>
+<tr class="odd">
+<td>31</td>
+<td>You were someone’s scapegoat. You played the part too well.</td>
+</tr>
+<tr class="even">
+<td>32</td>
+<td>You watched someone walk into something they couldn’t return from.</td>
+</tr>
+<tr class="odd">
+<td>33</td>
+<td>A partner saved your life. You never thanked them.</td>
+</tr>
+<tr class="even">
+<td>34</td>
+<td>You cared for someone who was never meant to exist.</td>
+</tr>
+<tr class="odd">
+<td>35</td>
+<td>You were part of a trio. One turned, one died.</td>
+</tr>
+<tr class="even">
+<td>36</td>
+<td>Someone needed you. You left. You still hear them call.</td>
+</tr>
+<tr class="odd">
+<td>41</td>
+<td>Someone vanished, leaving only a recorded message: your name, repeated.</td>
+</tr>
+<tr class="even">
+<td>42</td>
+<td>You once trusted someone who doesn’t even remember you now.</td>
+</tr>
+<tr class="odd">
+<td>43</td>
+<td>Someone wore your face, lived your life. You never found them.</td>
+</tr>
+<tr class="even">
+<td>44</td>
+<td>A stranger once took a bullet for you. You never learned why.</td>
+</tr>
+<tr class="odd">
+<td>45</td>
+<td>You believed in someone. They destroyed everything.</td>
+</tr>
+<tr class="even">
+<td>46</td>
+<td>Someone knows what you did—and keeps you alive anyway.</td>
+</tr>
+<tr class="odd">
+<td>51</td>
+<td>You lost someone, then found them again. They weren’t the same.</td>
+</tr>
+<tr class="even">
+<td>52</td>
+<td>Someone’s waiting for you to come home. You never will.</td>
+</tr>
+<tr class="odd">
+<td>53</td>
+<td>Someone saved you once. You owe them something you can’t give.</td>
+</tr>
+<tr class="even">
+<td>54</td>
+<td>You saw someone die. Then met them again years later. They don’t remember you.</td>
+</tr>
+<tr class="odd">
+<td>55</td>
+<td>Someone warned you about what you would become. You laughed. You’re not laughing now.</td>
+</tr>
+<tr class="even">
+<td>56</td>
+<td>A voice on the radio calls you by a name no one else uses.</td>
+</tr>
+<tr class="odd">
+<td>61</td>
+<td>Someone remembers a version of your life that isn’t yours.</td>
+</tr>
+<tr class="even">
+<td>62</td>
+<td>You failed someone you loved. The world blamed them.</td>
+</tr>
+<tr class="odd">
+<td>63</td>
+<td>You erased someone from existence. Sometimes, they almost come back.</td>
+</tr>
+<tr class="even">
+<td>64</td>
+<td>Someone’s file ends where yours begins. The redacted parts overlap.</td>
+</tr>
+<tr class="odd">
+<td>65</td>
+<td>You were made to forget someone. It didn’t work.</td>
+</tr>
+<tr class="even">
+<td>66</td>
+<td>Someone’s waiting for your story to end. Then they’ll return.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="lifepath-table-defining-loss-d66" class="level3">
+<h3 class="anchored" data-anchor-id="lifepath-table-defining-loss-d66">Lifepath Table: Defining Loss (d66)</h3>
+<p><strong>What did you lose that still defines you?</strong> A person, a belief, a piece of yourself, or something stranger. The wound hasn’t closed.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 95%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>d66</th>
+<th>Defining Loss</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>11</td>
+<td>You lost your name. The one you use now is borrowed.</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>You lost time—months, maybe years. No one will tell you how.</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>You lost someone who depended on you. You weren’t there.</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>You lost a place that once felt like home. It no longer exists.</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>You lost the ability to feel something—pain, joy, cold, fear.</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>You lost a language. You still understand it when dreaming.</td>
+</tr>
+<tr class="odd">
+<td>21</td>
+<td>You lost a sibling, but not to death. To belief.</td>
+</tr>
+<tr class="even">
+<td>22</td>
+<td>You lost the only thing that proved you were ever there.</td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td>You lost a chance to forgive someone who asked too late.</td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td>You lost your voice. It came back wrong.</td>
+</tr>
+<tr class="odd">
+<td>25</td>
+<td>You lost your mentor in a classified event. Their file is sealed.</td>
+</tr>
+<tr class="even">
+<td>26</td>
+<td>You lost someone you never got to meet. Their absence shaped you.</td>
+</tr>
+<tr class="odd">
+<td>31</td>
+<td>You lost a memory that everyone else still has.</td>
+</tr>
+<tr class="even">
+<td>32</td>
+<td>You lost a future. The life you were meant to live.</td>
+</tr>
+<tr class="odd">
+<td>33</td>
+<td>You lost your reflection for several weeks. No one believed you.</td>
+</tr>
+<tr class="even">
+<td>34</td>
+<td>You lost your faith, but still follow its rituals.</td>
+</tr>
+<tr class="odd">
+<td>35</td>
+<td>You lost a recording that proved the impossible.</td>
+</tr>
+<tr class="even">
+<td>36</td>
+<td>You lost your purpose. You’re still searching for a replacement.</td>
+</tr>
+<tr class="odd">
+<td>41</td>
+<td>You lost control. It cost lives.</td>
+</tr>
+<tr class="even">
+<td>42</td>
+<td>You lost someone to an anomaly. There was no body.</td>
+</tr>
+<tr class="odd">
+<td>43</td>
+<td>You lost access to something that used to speak to you.</td>
+</tr>
+<tr class="even">
+<td>44</td>
+<td>You lost a memory on purpose. It’s starting to leak back.</td>
+</tr>
+<tr class="odd">
+<td>45</td>
+<td>You lost someone you loved to your own ambition.</td>
+</tr>
+<tr class="even">
+<td>46</td>
+<td>You lost your freedom—legally, spiritually, or metaphysically.</td>
+</tr>
+<tr class="odd">
+<td>51</td>
+<td>You lost a whole identity. It may still be active.</td>
+</tr>
+<tr class="even">
+<td>52</td>
+<td>You lost the thing that made you human. Or think you did.</td>
+</tr>
+<tr class="odd">
+<td>53</td>
+<td>You lost a group, a crew, a family. You made it out.</td>
+</tr>
+<tr class="even">
+<td>54</td>
+<td>You lost something inside you. Now something else is there.</td>
+</tr>
+<tr class="odd">
+<td>55</td>
+<td>You lost your humanity to survive something worse.</td>
+</tr>
+<tr class="even">
+<td>56</td>
+<td>You lost hope. It hasn’t returned, but you keep moving.</td>
+</tr>
+<tr class="odd">
+<td>61</td>
+<td>You lost an artifact you weren’t supposed to have.</td>
+</tr>
+<tr class="even">
+<td>62</td>
+<td>You lost someone during extraction. You never looked back.</td>
+</tr>
+<tr class="odd">
+<td>63</td>
+<td>You lost part of your mind. It might have found another host.</td>
+</tr>
+<tr class="even">
+<td>64</td>
+<td>You lost your immunity. You were resistant—until you weren’t.</td>
+</tr>
+<tr class="odd">
+<td>65</td>
+<td>You lost your story. Someone else is living it.</td>
+</tr>
+<tr class="even">
+<td>66</td>
+<td>You lost everything. And then it started again.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="lifepath-table-what-changed-you-d66" class="level3">
+<h3 class="anchored" data-anchor-id="lifepath-table-what-changed-you-d66">Lifepath Table: What Changed You (d66)</h3>
+<p><strong>There was a before. Then there was an after.</strong> This is the turning point—the event that altered your trajectory forever.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 96%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>d66</th>
+<th>What Changed You</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>11</td>
+<td>You saw something move where nothing should exist.</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>You touched something that responded like it knew you.</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>You killed someone who smiled as they died.</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>You were shown a secret that reshaped your memory.</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>You spoke words not meant for humans—and they understood you.</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>You were left behind in a place that shouldn’t have existed.</td>
+</tr>
+<tr class="odd">
+<td>21</td>
+<td>You survived exposure to something that changed your DNA.</td>
+</tr>
+<tr class="even">
+<td>22</td>
+<td>You entered a classified site and came out a different person.</td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td>You read a file that shouldn’t have been accessible.</td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td>You watched someone you trust be rewritten in front of you.</td>
+</tr>
+<tr class="odd">
+<td>25</td>
+<td>You used a device no one admitted existed.</td>
+</tr>
+<tr class="even">
+<td>26</td>
+<td>You destroyed something you’d been trained to protect.</td>
+</tr>
+<tr class="odd">
+<td>31</td>
+<td>You crossed into somewhere. It wasn’t another country.</td>
+</tr>
+<tr class="even">
+<td>32</td>
+<td>You were rescued—but not by any known force.</td>
+</tr>
+<tr class="odd">
+<td>33</td>
+<td>You received a transmission that’s still being decrypted.</td>
+</tr>
+<tr class="even">
+<td>34</td>
+<td>You failed to contain something. It still follows you.</td>
+</tr>
+<tr class="odd">
+<td>35</td>
+<td>You saw your own death, and then woke up.</td>
+</tr>
+<tr class="even">
+<td>36</td>
+<td>You were part of a cover-up. The truth got out anyway.</td>
+</tr>
+<tr class="odd">
+<td>41</td>
+<td>You walked away from a mission no one survived. Including you.</td>
+</tr>
+<tr class="even">
+<td>42</td>
+<td>You heard someone calling your name through a sealed vault door.</td>
+</tr>
+<tr class="odd">
+<td>43</td>
+<td>You met someone who claimed to remember your future.</td>
+</tr>
+<tr class="even">
+<td>44</td>
+<td>You experienced a full memory of someone else’s life.</td>
+</tr>
+<tr class="odd">
+<td>45</td>
+<td>You were exposed to an object that’s now classified as lost.</td>
+</tr>
+<tr class="even">
+<td>46</td>
+<td>You encountered an entity that <em>chose</em> to let you live.</td>
+</tr>
+<tr class="odd">
+<td>51</td>
+<td>You watched a creature mimic your body perfectly.</td>
+</tr>
+<tr class="even">
+<td>52</td>
+<td>You touched a mirror that didn’t reflect you.</td>
+</tr>
+<tr class="odd">
+<td>53</td>
+<td>You experienced a time fracture. Your scars don’t match your story.</td>
+</tr>
+<tr class="even">
+<td>54</td>
+<td>You heard your own voice giving orders you never issued.</td>
+</tr>
+<tr class="odd">
+<td>55</td>
+<td>You destroyed evidence of something you now regret forgetting.</td>
+</tr>
+<tr class="even">
+<td>56</td>
+<td>You were supposed to die. Something intervened.</td>
+</tr>
+<tr class="odd">
+<td>61</td>
+<td>You stopped believing the official story. Then you became part of it.</td>
+</tr>
+<tr class="even">
+<td>62</td>
+<td>You witnessed reality fracture—and no one else reacted.</td>
+</tr>
+<tr class="odd">
+<td>63</td>
+<td>You went under for a procedure. The person who woke up wasn’t fully you.</td>
+</tr>
+<tr class="even">
+<td>64</td>
+<td>You were recorded saying things you never said.</td>
+</tr>
+<tr class="odd">
+<td>65</td>
+<td>You walked away from a loyalty you once swore by.</td>
+</tr>
+<tr class="even">
+<td>66</td>
+<td>You looked into the dark—and it looked back.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="lifepath-table-a-memory-that-may-be-false-d66" class="level3">
+<h3 class="anchored" data-anchor-id="lifepath-table-a-memory-that-may-be-false-d66">Lifepath Table: A Memory That May Be False (d66)</h3>
+<p><strong>You remember it. Vividly. Clearly. Too clearly.</strong> But something’s off. Maybe it didn’t happen. Maybe it did—but not to you.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 96%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>d66</th>
+<th>Memory That May Be False</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>11</td>
+<td>You remember your own funeral. Someone cried. You think it was you.</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>You remember holding a newborn. You never had a child.</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>You remember flying without a vehicle. The air felt like glass.</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>You remember being experimented on. But not by humans.</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>You remember a building that doesn’t exist on any map.</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>You remember a name no one else will say aloud.</td>
+</tr>
+<tr class="odd">
+<td>21</td>
+<td>You remember watching Earth from orbit. You’ve never left the ground.</td>
+</tr>
+<tr class="even">
+<td>22</td>
+<td>You remember loving someone who doesn’t appear in any records.</td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td>You remember a day that keeps replaying, slightly different each time.</td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td>You remember burning something that begged to be spared.</td>
+</tr>
+<tr class="odd">
+<td>25</td>
+<td>You remember a countdown. You don’t know what it was for.</td>
+</tr>
+<tr class="even">
+<td>26</td>
+<td>You remember being two people at once. Neither of them you.</td>
+</tr>
+<tr class="odd">
+<td>31</td>
+<td>You remember a childhood in a place that couldn’t exist.</td>
+</tr>
+<tr class="even">
+<td>32</td>
+<td>You remember whispering something that caused a blackout.</td>
+</tr>
+<tr class="odd">
+<td>33</td>
+<td>You remember an entire conversation with your nemesis. You’ve never met.</td>
+</tr>
+<tr class="even">
+<td>34</td>
+<td>You remember dying. Then waking up somewhere else.</td>
+</tr>
+<tr class="odd">
+<td>35</td>
+<td>You remember someone else’s dream—and it changed you.</td>
+</tr>
+<tr class="even">
+<td>36</td>
+<td>You remember a door that should not have opened.</td>
+</tr>
+<tr class="odd">
+<td>41</td>
+<td>You remember setting fire to something sacred.</td>
+</tr>
+<tr class="even">
+<td>42</td>
+<td>You remember a cold voice calling you by a forgotten title.</td>
+</tr>
+<tr class="odd">
+<td>43</td>
+<td>You remember being erased, but no one else does.</td>
+</tr>
+<tr class="even">
+<td>44</td>
+<td>You remember living in a place with a second sun.</td>
+</tr>
+<tr class="odd">
+<td>45</td>
+<td>You remember being part of an organization you never joined.</td>
+</tr>
+<tr class="even">
+<td>46</td>
+<td>You remember giving a warning you’re now trying to understand.</td>
+</tr>
+<tr class="odd">
+<td>51</td>
+<td>You remember a rescue that ended before it began.</td>
+</tr>
+<tr class="even">
+<td>52</td>
+<td>You remember being followed by someone who claimed to be your child.</td>
+</tr>
+<tr class="odd">
+<td>53</td>
+<td>You remember something buried alive. It thanked you.</td>
+</tr>
+<tr class="even">
+<td>54</td>
+<td>You remember carrying something alive in your chest.</td>
+</tr>
+<tr class="odd">
+<td>55</td>
+<td>You remember an oath. You still feel bound to it.</td>
+</tr>
+<tr class="even">
+<td>56</td>
+<td>You remember someone else’s memories—better than your own.</td>
+</tr>
+<tr class="odd">
+<td>61</td>
+<td>You remember a place that spoke to you. Now it’s silent.</td>
+</tr>
+<tr class="even">
+<td>62</td>
+<td>You remember tearing out pages from your own mind.</td>
+</tr>
+<tr class="odd">
+<td>63</td>
+<td>You remember a presence in the mirror—smiling.</td>
+</tr>
+<tr class="even">
+<td>64</td>
+<td>You remember a team that never existed. You miss them.</td>
+</tr>
+<tr class="odd">
+<td>65</td>
+<td>You remember killing someone you’ve never met.</td>
+</tr>
+<tr class="even">
+<td>66</td>
+<td>You remember everything. That’s what scares you.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="lifepath-table-something-you-cant-let-go-d66" class="level3">
+<h3 class="anchored" data-anchor-id="lifepath-table-something-you-cant-let-go-d66">Lifepath Table: Something You Can’t Let Go (d66)</h3>
+<p><strong>A weight you carry. A thread you keep pulling. A shadow that refuses to fade.</strong> This is your anchor—or your chain.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 95%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>d66</th>
+<th>Something You Can’t Let Go</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>11</td>
+<td>A photo that shouldn’t exist—but does.</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>The last words someone said to you. You replay them constantly.</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>A question that’s never been answered—and maybe shouldn’t be.</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>A dream that feels more real than waking life.</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>A sealed envelope you refuse to open. You already know what’s inside.</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>A voice you keep hearing in certain frequencies.</td>
+</tr>
+<tr class="odd">
+<td>21</td>
+<td>A task you never finished. You’re not even sure what it was.</td>
+</tr>
+<tr class="even">
+<td>22</td>
+<td>A badge you no longer have clearance to use.</td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td>A feeling you’re being watched—by someone who knows you intimately.</td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td>A location that appears in every case, even if it shouldn’t.</td>
+</tr>
+<tr class="odd">
+<td>25</td>
+<td>A phrase you can’t stop writing. Over and over.</td>
+</tr>
+<tr class="even">
+<td>26</td>
+<td>A face you sketch without knowing who it belongs to.</td>
+</tr>
+<tr class="odd">
+<td>31</td>
+<td>A truth you buried so well even you forgot it. Until now.</td>
+</tr>
+<tr class="even">
+<td>32</td>
+<td>A message you deleted years ago—but it keeps showing up again.</td>
+</tr>
+<tr class="odd">
+<td>33</td>
+<td>A recurring pattern in anomalous events that no one else sees.</td>
+</tr>
+<tr class="even">
+<td>34</td>
+<td>A former ally’s file. You check it monthly. Just in case.</td>
+</tr>
+<tr class="odd">
+<td>35</td>
+<td>A countdown. You don’t know when it started.</td>
+</tr>
+<tr class="even">
+<td>36</td>
+<td>An apology you never got to say.</td>
+</tr>
+<tr class="odd">
+<td>41</td>
+<td>A mark on your skin you can’t explain—but recognize.</td>
+</tr>
+<tr class="even">
+<td>42</td>
+<td>A memory of someone’s death. Except they’re still alive.</td>
+</tr>
+<tr class="odd">
+<td>43</td>
+<td>A story that doesn’t add up. Especially the parts you told.</td>
+</tr>
+<tr class="even">
+<td>44</td>
+<td>A dream of light—followed by total silence.</td>
+</tr>
+<tr class="odd">
+<td>45</td>
+<td>A whisper in a foreign tongue. You now understand it.</td>
+</tr>
+<tr class="even">
+<td>46</td>
+<td>A failed mission you revisit in sleep, trying to get it right.</td>
+</tr>
+<tr class="odd">
+<td>51</td>
+<td>A file you shouldn’t have accessed. You kept a copy.</td>
+</tr>
+<tr class="even">
+<td>52</td>
+<td>An artifact you hid from your own team. It calls to you.</td>
+</tr>
+<tr class="odd">
+<td>53</td>
+<td>A warning etched into your gear, in your handwriting.</td>
+</tr>
+<tr class="even">
+<td>54</td>
+<td>An event no one else recalls—but you’re sure you weren’t alone.</td>
+</tr>
+<tr class="odd">
+<td>55</td>
+<td>A child’s drawing you found in an abandoned site. It shows your face.</td>
+</tr>
+<tr class="even">
+<td>56</td>
+<td>A name you keep seeing—on gravestones, terminals, walls.</td>
+</tr>
+<tr class="odd">
+<td>61</td>
+<td>A sequence of numbers that feels like a code. Or a countdown.</td>
+</tr>
+<tr class="even">
+<td>62</td>
+<td>A scar that glows in certain light.</td>
+</tr>
+<tr class="odd">
+<td>63</td>
+<td>A feeling you failed the world—but it hasn’t noticed yet.</td>
+</tr>
+<tr class="even">
+<td>64</td>
+<td>A whisper you answered once. It hasn’t stopped.</td>
+</tr>
+<tr class="odd">
+<td>65</td>
+<td>A key you can’t identify—but are sure is important.</td>
+</tr>
+<tr class="even">
+<td>66</td>
+<td>The possibility that none of this is real—and you’re the proof.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="using-lifepaths-in-play" class="level3">
+<h3 class="anchored" data-anchor-id="using-lifepaths-in-play">Using Lifepaths in Play</h3>
+<p>The tables are just the beginning. The real power of Lifepaths comes when you bring them into scenes—not as exposition, but as emotional fuel, unexpected echoes, or hidden weights that suddenly surface.</p>
+<p>These aren’t backstory entries. They’re <strong>loaded memories</strong>, waiting to be triggered.</p>
+<section id="flashbacks" class="level4">
+<h4 class="anchored" data-anchor-id="flashbacks">Flashbacks</h4>
+<p>When something in the present reflects a past wound, bond, or moment of transformation, you can flash back to a Lifepath result.</p>
+<p>Use flashbacks when:</p>
+<ul>
+<li>You’re hesitating at a crucial decision.</li>
+<li>A situation feels strangely familiar.</li>
+<li>An NPC evokes something buried.</li>
+<li>You’re looking for emotional contrast or texture.</li>
+</ul>
+<p><strong>How to flash back:</strong></p>
+<ol type="1">
+<li>Choose or roll a Lifepath entry.</li>
+<li>Describe a quick memory—vivid, immediate, a sensory detail or a short exchange.</li>
+<li>Let it color your current choices or framing.</li>
+</ol>
+<p>You can also ask the Oracle: <strong>“Is this memory accurate?”</strong> Let the answer bend the scene. A <em>false memory</em> can be just as impactful as a real one.</p>
+</section>
+<section id="creating-tags-from-fragments" class="level4">
+<h4 class="anchored" data-anchor-id="creating-tags-from-fragments">Creating Tags from Fragments</h4>
+<p>A Lifepath entry can evolve into a new <strong>tag</strong> at any time. Use this when a memory becomes central to how you act.</p>
+<p>You can turn a result into:</p>
+<ul>
+<li>A <strong>Skill</strong> (<em>“Survived something that broke others”</em> → <em>Nerve of Steel</em>)</li>
+<li>A <strong>Frailty</strong> (<em>“You remember dying”</em> → <em>Detached from Reality</em>)</li>
+<li>A <strong>Gear</strong> (<em>“You kept a file you weren’t meant to read”</em> → <em>Redacted Dossier</em>)</li>
+<li>A <strong>Nemesis</strong> (<em>“A partner saved your life. You never thanked them.”</em> → <em>Agent Hall, betrayed ally</em>)</li>
+<li>A tweak to your <strong>Concept</strong> or <strong>Goal</strong>.</li>
+</ul>
+<p>There’s no timing rule. Let the fiction decide. Tags emerge when memories harden into identity.</p>
+</section>
+<section id="scene-seeds" class="level4">
+<h4 class="anchored" data-anchor-id="scene-seeds">Scene Seeds</h4>
+<p>You can use a Lifepath entry to <strong>frame a new scene</strong>—especially Quiet or Meanwhile scenes.</p>
+<p>Pick a memory, and:</p>
+<ul>
+<li>Revisit it through hallucination, dream, or repressed recall.</li>
+<li>Introduce its consequences into the present.</li>
+<li>Let it parallel the current action with eerie symmetry.</li>
+<li>Use it to justify a contact, flaw, or habit you hadn’t explained before.</li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>Example</strong>: You roll <em>“You failed someone you loved. The world blamed them.”</em> A scene opens with you watching news footage of someone being accused of treason. It’s not them. But they look like the person you lost.</p>
+</blockquote>
+</section>
+<section id="emotional-weight-in-oracle-rolls" class="level4">
+<h4 class="anchored" data-anchor-id="emotional-weight-in-oracle-rolls">Emotional Weight in Oracle Rolls</h4>
+<p>A Lifepath memory can influence <strong>Advantage or Disadvantage</strong> in a scene.</p>
+<ul>
+<li>If the memory empowers, clarifies, or strengthens your resolve → <strong>Advantage</strong>.</li>
+<li>If it rattles you, casts doubt, or clouds your intent → <strong>Disadvantage</strong>.</li>
+</ul>
+<p>This doesn’t have to be systemized. Trust your gut. If it <em>feels</em> like the memory tilts the odds, let it.</p>
+</section>
+<section id="foreshadowing-twists" class="level4">
+<h4 class="anchored" data-anchor-id="foreshadowing-twists">Foreshadowing &amp; Twists</h4>
+<p>You can treat certain entries as <strong>quiet bombs</strong>, waiting to go off. A Lifepath entry might:</p>
+<ul>
+<li>Return in the form of a person, item, or phrase.</li>
+<li>Be inverted (the lost sibling comes back, but not right).</li>
+<li>Become a future Twist seed (<em>“You lost your name”</em> → <em>An entity begins calling you by it</em>).</li>
+</ul>
+<p>When a Twist triggers (via the Oracle), look to your Lifepath fragments. You’ve already planted the shadows.</p>
+</section>
+<section id="when-to-let-go" class="level4">
+<h4 class="anchored" data-anchor-id="when-to-let-go">When to Let Go</h4>
+<p>Some fragments lose power. That’s okay.</p>
+<p>You can:</p>
+<ul>
+<li>Cross them out, noting <em>resolved</em>, <em>forgotten</em>, or <em>burned</em>.</li>
+<li>Let them fade until someone else reminds you.</li>
+<li>Re-roll, layering memory over memory.</li>
+</ul>
+<p>Just like real history, not everything stays meaningful. But sometimes, it comes back.</p>
+</section>
+</section>
+</section>
+<section id="the-relationship-matrix" class="level2">
+<h2 class="anchored" data-anchor-id="the-relationship-matrix">The Relationship Matrix</h2>
+<p>Solo stories thrive on tension—and tension needs people. Not just strangers and monsters, but the ones who know you. The ones who shaped you. The ones who won’t let you go.</p>
+<p>This chapter gives you a structure for building and tracking meaningful relationships over time. No stats. No mechanics. Just a <strong>web of names, roles, and emotional tags</strong>—a living memory map of your character’s past and present connections.</p>
+<p>These aren’t background NPCs. They’re unfinished business.</p>
+<section id="people-as-threads" class="level3">
+<h3 class="anchored" data-anchor-id="people-as-threads">People as Threads</h3>
+<p>Every major character your protagonist interacts with can be recorded as a <strong>thread</strong>—a short entry that defines:</p>
+<ul>
+<li><strong>Who they are</strong> (a name and a brief descriptor)</li>
+<li><strong>What role they play</strong></li>
+<li><strong>What emotional or thematic tags define your bond</strong></li>
+</ul>
+<p>This is a minimalist character record—but it holds weight. These people return. They shape how you act. Sometimes, they break you.</p>
+</section>
+<section id="roles" class="level3">
+<h3 class="anchored" data-anchor-id="roles">Roles</h3>
+<p>Each person in the matrix begins with a <strong>role</strong>. Roles aren’t permanent—they drift. But they shape how the relationship feels <em>now</em>.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 83%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Role</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Ally</strong></td>
+<td>Supports you, shares your mission or cares for you.</td>
+</tr>
+<tr class="even">
+<td><strong>Rival</strong></td>
+<td>Competes with you, challenges your skills or beliefs.</td>
+</tr>
+<tr class="odd">
+<td><strong>Nemesis</strong></td>
+<td>Seeks to undermine or destroy you. Your reflection in a cracked mirror.</td>
+</tr>
+<tr class="even">
+<td><strong>Lost</strong></td>
+<td>Gone, missing, presumed dead—or simply unreachable.</td>
+</tr>
+<tr class="odd">
+<td><strong>Ambivalent</strong></td>
+<td>Complicated. Neither friend nor foe. Maybe both.</td>
+</tr>
+<tr class="even">
+<td><strong>Symbolic</strong></td>
+<td>Represents something bigger: a faith, a regret, a future you won’t reach.</td>
+</tr>
+</tbody>
+</table>
+<p>You can shift roles anytime fiction supports it. A Nemesis can become an Ally. A Symbol can become a threat.</p>
+</section>
+<section id="tags-that-define-the-bond" class="level3">
+<h3 class="anchored" data-anchor-id="tags-that-define-the-bond">Tags That Define the Bond</h3>
+<p>Each relationship carries 1–3 <strong>tags</strong> that describe the bond.</p>
+<p>These can be:</p>
+<ul>
+<li><strong>Emotional</strong> (<em>unspoken guilt, jealous admiration, old flame</em>)</li>
+<li><strong>Situational</strong> (<em>owed a favor, witnessed your worst moment, betrayed once</em>)</li>
+<li><strong>Narrative</strong> (<em>knows your secret, believed the prophecy, left behind in the breach</em>)</li>
+</ul>
+<p>You can create tags when you:</p>
+<ul>
+<li>Introduce a new contact.</li>
+<li>Re-encounter someone from your past.</li>
+<li>Flash back to a memory.</li>
+<li>Feel the bond shift.</li>
+</ul>
+<p><strong>Tags evolve</strong>. Add new ones. Cross out old ones. Watch the web tangle.</p>
+</section>
+<section id="sample-relationship-entry" class="level3">
+<h3 class="anchored" data-anchor-id="sample-relationship-entry">Sample Relationship Entry</h3>
+<pre><code>**Name**: Sel Varn  
+**Role**: Rival → Ally  
+**Tags**: shared a past mission / knows your weakness / never forgave you  </code></pre>
+<p>You met Sel during a failed containment op. You were both blamed. She went silent. You’ve seen her file flagged as “Active, Unaffiliated.” Then she showed up again—this time with backup.</p>
+<p>What now?</p>
+</section>
+<section id="drift-mutation" class="level3">
+<h3 class="anchored" data-anchor-id="drift-mutation">Drift &amp; Mutation</h3>
+<p>People change. Roles shift.</p>
+<p>At any point in play, you can reassign a role or evolve a tag—especially after:</p>
+<ul>
+<li>A major decision involving them.</li>
+<li>A scene where the relationship is tested.</li>
+<li>A twist that alters how you see them.</li>
+<li>A memory that contradicts what you thought was true.</li>
+</ul>
+<p>You can ask the Oracle: <strong>“Has our relationship changed?”</strong> Let the dice complicate things. Maybe it hasn’t. Maybe it has in a way you didn’t expect.</p>
+</section>
+<section id="echoes-and-returns" class="level3">
+<h3 class="anchored" data-anchor-id="echoes-and-returns">Echoes and Returns</h3>
+<p>Relationships don’t stay in the past. People return:</p>
+<ul>
+<li>In dreams</li>
+<li>Through intercepted messages</li>
+<li>As enemies on a new case</li>
+<li>In someone else’s words or face</li>
+</ul>
+<p>Use the <strong>Twist</strong> mechanic to trigger a return:</p>
+<ul>
+<li><em>A third party appears?</em> It’s them.</li>
+<li><em>An emotional event changes the goal?</em> It’s tied to them.</li>
+</ul>
+<p>Each time they return, update the matrix. Let the web evolve.</p>
+</section>
+<section id="sample-web" class="level3">
+<h3 class="anchored" data-anchor-id="sample-web">Sample Web</h3>
+<p>(Imagine this diagram as interconnected nodes)</p>
+<pre><code>[YOU]
+  |
+  |—&gt; Sel Varn (Rival → Ally) — knows your secret
+  |
+  |—&gt; Agent Ro (Lost) — buried at Site K
+  |
+  |—&gt; Ezra (Ambivalent) — said they’d come back
+  |
+  |—&gt; “Father” Malek (Symbolic) — represents your shame
+  |
+  |—&gt; Nemesis: The Cleanser — thinks you're a threat to containment</code></pre>
+<p>This is your past, reaching out. This is your future, cracking.</p>
+</section>
+</section>
+<section id="memory-flashbacks" class="level2">
+<h2 class="anchored" data-anchor-id="memory-flashbacks">Memory &amp; Flashbacks</h2>
+<p>The past isn’t gone. It just waits for the right moment to resurface.</p>
+<p>In <em>Loner</em>, you’re always moving forward—but who you were still matters. Flashbacks give you a way to return to key moments: to understand your motives, reveal buried truths, or introduce unreliability into the narrative.</p>
+<p>Memories aren’t passive. They interrupt. They demand attention. Sometimes they lie.</p>
+<section id="when-to-use-a-flashback" class="level3">
+<h3 class="anchored" data-anchor-id="when-to-use-a-flashback">When to Use a Flashback</h3>
+<p>You can flash back whenever:</p>
+<ul>
+<li>A decision echoes something unresolved.</li>
+<li>A place, sound, or NPC triggers déjà vu.</li>
+<li>You need to justify a tag, trait, or fear.</li>
+<li>You want to explore what shaped your current action.</li>
+</ul>
+<p>There are no rules for this. Just instinct. Let the fiction suggest: <em>What do I remember right now, and why?</em></p>
+</section>
+<section id="flashback-format" class="level3">
+<h3 class="anchored" data-anchor-id="flashback-format">Flashback Format</h3>
+<p>Flashbacks don’t need to be long.</p>
+<ul>
+<li>1–3 sentences is enough: a voice, a scene, a single striking detail.</li>
+<li>Focus on <strong>emotion and tension</strong>, not exposition.</li>
+<li>You can narrate them out loud, jot them on your character sheet, or just say “I remember…”</li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>Example</strong>: You hesitate before shooting. You flash back to a child’s voice: “You promised you wouldn’t be like them.”</p>
+</blockquote>
+</section>
+<section id="memory-triggers-d6" class="level3">
+<h3 class="anchored" data-anchor-id="memory-triggers-d6">Memory Triggers (d6)</h3>
+<p>When you want a flashback but don’t know what, roll 1d6:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 2%">
+<col style="width: 97%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>d6</th>
+<th>Trigger</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>A sound echoes something long forgotten.</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>A phrase or face feels familiar—but wrong.</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>A smell puts you somewhere you swore you’d never go back to.</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>You act without thinking—and realize you’ve done this before.</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>A scar itches. The memory returns in pieces.</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>You see yourself, just for a moment, doing something you never did.</td>
+</tr>
+</tbody>
+</table>
+<p>Pair with a Lifepath entry, or invent freely. These are <strong>snapshots</strong>, not monologues.</p>
+</section>
+<section id="unreliable-memory" class="level3">
+<h3 class="anchored" data-anchor-id="unreliable-memory">Unreliable Memory</h3>
+<p>Not all memories are true. Some are:</p>
+<ul>
+<li><strong>Edited</strong> (changed by trauma, time, or manipulation)</li>
+<li><strong>Symbolic</strong> (representing something real, but not literally)</li>
+<li><strong>Implanted</strong> (by others—or by your own survival instinct)</li>
+</ul>
+<p>You can always ask:</p>
+<p><strong>“Is this memory accurate?”</strong> Roll the Oracle.</p>
+<ul>
+<li><strong>Yes</strong> → It happened. It still matters.</li>
+<li><strong>Yes, but…</strong> → It happened, but not the way you thought.</li>
+<li><strong>No</strong> → It’s false. You were wrong.</li>
+<li><strong>No, and…</strong> → Someone made you remember it this way. Why?</li>
+</ul>
+<p>This isn’t just color. It can change how you treat allies, trust evidence, or reframe your goals.</p>
+</section>
+<section id="using-flashbacks-in-play" class="level3">
+<h3 class="anchored" data-anchor-id="using-flashbacks-in-play">Using Flashbacks in Play</h3>
+<p>Flashbacks can:</p>
+<ul>
+<li>Justify or evolve a tag.</li>
+<li>Shift your stance toward an NPC.</li>
+<li>Add emotional cost to a success.</li>
+<li>Reshape your Concept or Frailty.</li>
+<li>Trigger a Twist (especially at 3+ on the Twist Counter).</li>
+</ul>
+<p>They’re not mandatory. But when used well, they make solo play feel <em>haunted</em>—in the best way.</p>
+</section>
+<section id="optional-false-memory-table-d6" class="level3">
+<h3 class="anchored" data-anchor-id="optional-false-memory-table-d6">Optional: False Memory Table (d6)</h3>
+<p>If the Oracle says a memory is false, you can roll to interpret how:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>d6</th>
+<th>What’s Wrong With It</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>It’s someone else’s memory, imprinted on you.</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>You were made to believe it—for your own good.</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>It’s symbolic—standing in for something far worse.</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>You wanted it to be true, so you made it real.</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>It was altered—edited by technology, ritual, or trauma.</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>It never happened—but it’s happening now.</td>
+</tr>
+</tbody>
+</table>
+<p>Let the new truth ripple outward. Update the Relationship Matrix. Shift your tags. Ask what else might be false.</p>
+</section>
+</section>
+<section id="interpersonal-scene-frames" class="level2">
+<h2 class="anchored" data-anchor-id="interpersonal-scene-frames">Interpersonal Scene Frames</h2>
+<p>Not every scene has to be about the mission.</p>
+<p>Sometimes, the most memorable moments come when the action pauses—when someone says too much, or not enough; when an old wound reopens; when the past finally catches up.</p>
+<p><strong>Interpersonal Scene Frames</strong> help you drop in emotionally charged scenes during or between missions. They deepen relationships, test loyalties, and let the silence speak louder than the gunfire.</p>
+<section id="what-is-a-scene-frame" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-a-scene-frame">What Is a Scene Frame?</h3>
+<p>A <strong>scene frame</strong> is a prompt that says: <strong>“Something personal happens here.”</strong></p>
+<p>It might be:</p>
+<ul>
+<li>A confrontation you’ve been avoiding.</li>
+<li>An unexpected confession.</li>
+<li>A moment of quiet vulnerability.</li>
+<li>A betrayal in progress.</li>
+</ul>
+<p>Frames can be inserted:</p>
+<ul>
+<li>At the start or end of a scene.</li>
+<li>As an unexpected twist mid-action.</li>
+<li>In downtime or transit.</li>
+<li>During a Twist result (especially for <em>emotional event</em> outcomes).</li>
+</ul>
+<p>You can choose or roll from the tables below.</p>
+</section>
+<section id="confessions-d6" class="level3">
+<h3 class="anchored" data-anchor-id="confessions-d6">Confessions (d6)</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 2%">
+<col style="width: 97%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>d6</th>
+<th>Frame</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>They tell you something they were never supposed to admit.</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>You confess something no one else has heard.</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>An NPC confesses—then asks if you believe them.</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>A memory you’ve been hiding slips out under pressure.</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Someone mistakes you for someone you used to be—and you play along.</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>You say what you’ve been rehearsing for years. Too late.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="confrontations-d6" class="level3">
+<h3 class="anchored" data-anchor-id="confrontations-d6">Confrontations (d6)</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>d6</th>
+<th>Frame</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>They accuse you of something you did. Or didn’t do.</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>You confront someone who wronged you. They’re not sorry.</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>You’re forced to choose sides—and someone notices.</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>An ally demands answers. You don’t have them.</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Someone lashes out. The words cut deeper than intended.</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>The person you blame finally shows up. And they’re changed.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="bonds-deepening-d6" class="level3">
+<h3 class="anchored" data-anchor-id="bonds-deepening-d6">Bonds Deepening (d6)</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>d6</th>
+<th>Frame</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>You save someone—and see who they really are.</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>They offer you trust. More than you deserve.</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>You share something you never told anyone.</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>A shared silence becomes something more.</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>They remember something about you that you forgot.</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>You realize you’re willing to risk something for them.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="betrayals-unfolding-d6" class="level3">
+<h3 class="anchored" data-anchor-id="betrayals-unfolding-d6">Betrayals Unfolding (d6)</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>d6</th>
+<th>Frame</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>They lie—and you realize it halfway through.</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>You were never supposed to hear that. But you did.</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Someone you’ve protected turns you in.</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>They knew all along. About the mission. About you.</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>You walk into a trap—and recognize the bait.</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>You catch yourself betraying them. And you keep going.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="injecting-a-relationship-scene-without-derailing-play" class="level3">
+<h3 class="anchored" data-anchor-id="injecting-a-relationship-scene-without-derailing-play">Injecting a Relationship Scene Without Derailing Play</h3>
+<p>You can insert a Relationship Frame:</p>
+<ul>
+<li><strong>Before</strong> a high-stakes scene → raise the emotional cost.</li>
+<li><strong>During</strong> a scene → mid-mission dialogue, passive-aggressive silence, confession under fire.</li>
+<li><strong>After</strong> a scene → as fallout, relief, or quiet reflection.</li>
+</ul>
+<p><strong>Keep it short and sharp.</strong> A single line of dialogue can shift the whole arc.</p>
+<p>Use these frames to:</p>
+<ul>
+<li>Reinforce or challenge your relationship tags.</li>
+<li>Shift Roles in the Relationship Matrix (Ally → Rival, etc.).</li>
+<li>Set up flashbacks or foreshadowing.</li>
+<li>Add weight to future betrayals or sacrifices.</li>
+</ul>
+</section>
+<section id="genre-variations-optional" class="level3">
+<h3 class="anchored" data-anchor-id="genre-variations-optional">Genre Variations (Optional)</h3>
+<p>You can tilt these frames to match the tone of your world:</p>
+<section id="spy-fiction" class="level4">
+<h4 class="anchored" data-anchor-id="spy-fiction"><em>Spy Fiction</em></h4>
+<ul>
+<li>“She’s not supposed to be alive, but she’s here.”</li>
+<li>“The voice on the comm is familiar. Too familiar.”</li>
+</ul>
+</section>
+<section id="cosmic-horror" class="level4">
+<h4 class="anchored" data-anchor-id="cosmic-horror"><em>Cosmic Horror</em></h4>
+<ul>
+<li>“He says you were with him in the rift. You weren’t.”</li>
+<li>“You can’t tell if they’re still human. Or if you are.”</li>
+</ul>
+</section>
+<section id="fantasy" class="level4">
+<h4 class="anchored" data-anchor-id="fantasy"><em>Fantasy</em></h4>
+<ul>
+<li>“The tattoo matches yours. From a ritual you never completed.”</li>
+<li>“He speaks your name in an old tongue. You remember it.”</li>
+</ul>
+</section>
+<section id="sci-fi" class="level4">
+<h4 class="anchored" data-anchor-id="sci-fi"><em>Sci-Fi</em></h4>
+<ul>
+<li>“She claims to be your clone. You don’t believe her. Yet.”</li>
+<li>“The AI refers to a shared memory you didn’t input.”</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="evolving-bonds-in-solo-play" class="level2">
+<h2 class="anchored" data-anchor-id="evolving-bonds-in-solo-play">Evolving Bonds in Solo Play</h2>
+<p>In solo play, relationships are memory traces—until they change.</p>
+<p>A single ally can carry an entire subplot. A bitter rival can become a tragic echo. A long-lost love can return twisted, unknowable, or just… tired. These arcs don’t unfold automatically. They react to the weight of scenes, choices, and silence.</p>
+<p>This chapter gives you tools to shape that emotional evolution—turning static tags into <strong>living drama</strong>.</p>
+<section id="measuring-growth" class="level3">
+<h3 class="anchored" data-anchor-id="measuring-growth">Measuring Growth</h3>
+<p>You don’t need points, meters, or trust levels. Growth happens when:</p>
+<ul>
+<li>A tag no longer fits.</li>
+<li>A role feels out of date.</li>
+<li>A character returns changed—or you do.</li>
+<li>A memory is reframed or disproven.</li>
+</ul>
+<p>Let those moments prompt a rewrite.</p>
+<p><strong>Update the Relationship Matrix</strong>:</p>
+<ul>
+<li>Shift a Role (Rival → Ally, Nemesis → Lost).</li>
+<li>Strike through a tag. Add a new one.</li>
+<li>Annotate dates or key events.</li>
+</ul>
+<p>Your matrix should look <strong>tangled, overwritten, alive</strong>.</p>
+</section>
+<section id="relationship-arcs" class="level3">
+<h3 class="anchored" data-anchor-id="relationship-arcs">Relationship Arcs</h3>
+<p>Relationships don’t need to stay fixed. Use the tables below to morph the bond after key story beats.</p>
+<section id="reconciliation-d6" class="level4">
+<h4 class="anchored" data-anchor-id="reconciliation-d6">Reconciliation (d6)</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>d6</th>
+<th>What Changed</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>You saved them. They didn’t expect it.</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>You apologized. Even if they didn’t.</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>You confessed what really happened.</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>A shared enemy brought you together.</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>They admitted they were wrong.</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Neither of you spoke. But it was enough.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="regret-d6" class="level4">
+<h4 class="anchored" data-anchor-id="regret-d6">Regret (d6)</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>d6</th>
+<th>What Hurts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>You told the truth too late.</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>You watched them walk away. You let them.</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>They believed you. They shouldn’t have.</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>You broke something they never replaced.</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>You never said what mattered.</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>You chose the mission. They paid for it.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="betrayal-d6" class="level4">
+<h4 class="anchored" data-anchor-id="betrayal-d6">Betrayal (d6)</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>d6</th>
+<th>How It Broke</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>They used your trust to get what they wanted.</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>You lied—and they knew it.</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>You reached out. They recoiled.</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>They played both sides. You were the cost.</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>You hesitated. They didn’t.</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>They knew the truth, and let you suffer.</td>
+</tr>
+</tbody>
+</table>
+<p>Use these after scenes with emotional weight. Let the result inform the new <strong>tags</strong>, <strong>tone</strong>, and future flashbacks.</p>
+</section>
+</section>
+<section id="npc-arcs-as-solo-subplots" class="level3">
+<h3 class="anchored" data-anchor-id="npc-arcs-as-solo-subplots">NPC Arcs as Solo Subplots</h3>
+<p>Every major NPC can carry a full arc—even if they never appear again.</p>
+<p>You can build arcs from:</p>
+<ul>
+<li>One early encounter + three echoes</li>
+<li>Lifepath memories + current choices</li>
+<li>A twist + unresolved tension</li>
+</ul>
+<section id="example-arc" class="level4">
+<h4 class="anchored" data-anchor-id="example-arc">Example Arc:</h4>
+<p><strong>Agent Ro (Ally → Lost → Symbolic)</strong></p>
+<ul>
+<li>Mission 1: Trusted mentor, silent type.</li>
+<li>Mission 2: Goes missing in the breach.</li>
+<li>Flashback: He once said, “Don’t come looking.”</li>
+<li>Later: You find his badge sealed in a paradox vault.</li>
+<li>Final Tag: <em>Still watching / Never left / Part of the breach</em></li>
+</ul>
+</section>
+</section>
+<section id="thematic-arc-templates" class="level3">
+<h3 class="anchored" data-anchor-id="thematic-arc-templates">Thematic Arc Templates</h3>
+<p>You can use these as mini-frameworks for roleplay across multiple scenes:</p>
+<section id="mentor-student" class="level4">
+<h4 class="anchored" data-anchor-id="mentor-student">Mentor / Student</h4>
+<p>Start as trusted guide and eager follower. Shift when one surpasses the other—or when faith fails.</p>
+<blockquote class="blockquote">
+<p>Scene Beat: The student knows something the mentor is afraid to face.</p>
+</blockquote>
+</section>
+<section id="rival-friend" class="level4">
+<h4 class="anchored" data-anchor-id="rival-friend">Rival / Friend</h4>
+<p>Compete, clash, admire, push each other further. Ends in victory, collapse, or uneasy respect.</p>
+<blockquote class="blockquote">
+<p>Scene Beat: One saves the other without claiming credit.</p>
+</blockquote>
+</section>
+<section id="exile-homecoming" class="level4">
+<h4 class="anchored" data-anchor-id="exile-homecoming">Exile / Homecoming</h4>
+<p>Someone once cast out or left behind. Return creates rupture or healing.</p>
+<blockquote class="blockquote">
+<p>Scene Beat: You pretend not to recognize each other. You both know.</p>
+</blockquote>
+</section>
+<section id="stranger-mirror" class="level4">
+<h4 class="anchored" data-anchor-id="stranger-mirror">Stranger / Mirror</h4>
+<p>They appear as a blank slate. Later, you realize they reflect you—before, after, or never.</p>
+<blockquote class="blockquote">
+<p>Scene Beat: They say something only you were supposed to know.</p>
+</blockquote>
+<p>Relationships in solo play aren’t tracked. They’re <strong>remembered</strong>, <strong>rewritten</strong>, and <strong>resurfaced</strong>—until something breaks, or bonds, or both.</p>
+</section>
+</section>
+</section>
+<section id="the-npc-depth-generator" class="level2">
+<h2 class="anchored" data-anchor-id="the-npc-depth-generator">The NPC Depth Generator</h2>
+<p>Not every NPC matters. But the ones who do? They shape your journey—sometimes more than you do.</p>
+<p>This chapter gives you tools to build emotionally charged, narratively potent NPCs fast. No stats. No blocks. Just tags, roles, and intent.</p>
+<p>These aren’t just people. They’re friction. They’re memory. They’re the story pulling you sideways.</p>
+<section id="quick-npc-recipe" class="level3">
+<h3 class="anchored" data-anchor-id="quick-npc-recipe">Quick NPC Recipe</h3>
+<p>Every NPC needs just four elements:</p>
+<ul>
+<li><strong>Name</strong> – evocative, memorable, or deliberately vague.</li>
+<li><strong>Concept</strong> – 3–5 words: role, tone, history.</li>
+<li><strong>Tags</strong> – 1–3 emotional, situational, or thematic descriptors.</li>
+<li><strong>Want</strong> – what they want from you. Not abstract—personal.</li>
+</ul>
+<p>You can write them in one line:</p>
+<blockquote class="blockquote">
+<p><strong>Ezra Vale</strong> – former field partner, surgically calm, deeply compromised <em>Tags</em>: buried past / trusts you too much / haunted by something <em>Wants</em>: redemption or silence</p>
+</blockquote>
+</section>
+<section id="npc-archetype-categories" class="level3">
+<h3 class="anchored" data-anchor-id="npc-archetype-categories">NPC Archetype Categories</h3>
+<p>Use these as starting points or lenses. Each comes with typical themes and tensions.</p>
+<section id="companion" class="level4">
+<h4 class="anchored" data-anchor-id="companion"><strong>Companion</strong></h4>
+<ul>
+<li>Fights beside you, or follows at a distance.</li>
+<li>Can be a partner, assistant, child, synthetic, dog.</li>
+<li>May leave or die or betray you—or stick it out.</li>
+</ul>
+<blockquote class="blockquote">
+<p><em>Tags</em>: loyal to a fault / owes you / hiding a wound <em>Wants</em>: survival, guidance, to matter</p>
+</blockquote>
+</section>
+<section id="antagonist" class="level4">
+<h4 class="anchored" data-anchor-id="antagonist"><strong>Antagonist</strong></h4>
+<ul>
+<li>Doesn’t just oppose you—opposes your way of doing things.</li>
+<li>May be righteous, even justified.</li>
+<li>Could know you better than you know yourself.</li>
+</ul>
+<blockquote class="blockquote">
+<p><em>Tags</em>: mirrors your flaws / cold precision / personal vendetta <em>Wants</em>: to prove you wrong, to see you fall</p>
+</blockquote>
+</section>
+<section id="authority" class="level4">
+<h4 class="anchored" data-anchor-id="authority"><strong>Authority</strong></h4>
+<ul>
+<li>Has power over your mission, movement, or memory.</li>
+<li>May issue orders, revoke access, or offer impossible choices.</li>
+<li>Can shift to ally, rival, or symbol.</li>
+</ul>
+<blockquote class="blockquote">
+<p><em>Tags</em>: by the book / manipulative / has a file on you <em>Wants</em>: control, loyalty, silence</p>
+</blockquote>
+</section>
+<section id="shadow-self" class="level4">
+<h4 class="anchored" data-anchor-id="shadow-self"><strong>Shadow Self</strong></h4>
+<ul>
+<li>You, if you’d chosen differently.</li>
+<li>Embodies a path you fear, desire, or try to forget.</li>
+<li>Shows up at the worst time—or the most honest.</li>
+</ul>
+<blockquote class="blockquote">
+<p><em>Tags</em>: same skillset / opposite motive / unpredictable <em>Wants</em>: to confront you, become you, break the mirror</p>
+</blockquote>
+</section>
+<section id="ghost" class="level4">
+<h4 class="anchored" data-anchor-id="ghost"><strong>Ghost</strong></h4>
+<ul>
+<li>May be dead. Or just lost.</li>
+<li>Appears in flashbacks, echoes, hallucinations.</li>
+<li>Still shaping you. Especially when you pretend they’re not.</li>
+</ul>
+<blockquote class="blockquote">
+<p><em>Tags</em>: unfinished business / voice in your ear / no closure <em>Wants</em>: forgiveness, release, return</p>
+</blockquote>
+</section>
+<section id="mirror" class="level4">
+<h4 class="anchored" data-anchor-id="mirror"><strong>Mirror</strong></h4>
+<ul>
+<li>A stranger who understands too much.</li>
+<li>Reflects a truth you’re trying to ignore.</li>
+<li>May be harmless. May not be real.</li>
+</ul>
+<blockquote class="blockquote">
+<p><em>Tags</em>: eerie resemblance / too familiar / unknowable <em>Wants</em>: contact, empathy, an answer</p>
+</blockquote>
+</section>
+</section>
+<section id="what-they-want-d6-table" class="level3">
+<h3 class="anchored" data-anchor-id="what-they-want-d6-table">What They Want (d6 Table)</h3>
+<p>When in doubt, roll to define the NPC’s core drive in relation to the protagonist.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>d6</th>
+<th>They Want…</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>The truth—from you, about you, or hidden inside you.</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Redemption—for themselves or for what you did.</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Destruction—of you, or what you represent.</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Connection—they need something only you can give.</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Control—they want you as an asset, pawn, or project.</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Closure—they’re here to finish what started long ago.</td>
+</tr>
+</tbody>
+</table>
+<p>This <strong>want</strong> shapes every scene they’re in.</p>
+</section>
+<section id="bonus-minimal-npc-sheet" class="level3">
+<h3 class="anchored" data-anchor-id="bonus-minimal-npc-sheet">Bonus: Minimal NPC Sheet</h3>
+<pre><code>**Name**:  
+**Concept**:  
+**Role**: (Companion, Nemesis, etc.)  
+**Tags**:  
+**Want**:  
+**Bond to You**: (What they know, what they remember, what they regret)</code></pre>
+<p>Takes 60 seconds. Fuels hours of play.</p>
+</section>
+</section>
+<section id="evolving-the-self" class="level2">
+<h2 class="anchored" data-anchor-id="evolving-the-self">Evolving the Self</h2>
+<p>Who you start as is not who you’ll stay.</p>
+<p>In <em>Loner</em>, identity isn’t fixed. It’s negotiated. Each scene tests your concept, each memory adds tension, and every tag is a question waiting to change its answer.</p>
+<p>This chapter gives you tools to revise, reframe, and reshape your protagonist—not as a reward, but as a consequence.</p>
+<section id="when-to-revisit-your-concept" class="level3">
+<h3 class="anchored" data-anchor-id="when-to-revisit-your-concept">When to Revisit Your Concept</h3>
+<p>Your <strong>Concept</strong> is the most powerful tag you have. It says: <strong>This is who I am.</strong></p>
+<p>But people change. When the story forces a shift, don’t hesitate to rewrite:</p>
+<ul>
+<li>After a betrayal you didn’t expect.</li>
+<li>After your Goal or Nemesis resolves—or mutates.</li>
+<li>After a flashback reframes your origin.</li>
+<li>After you make a choice your old self wouldn’t have.</li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>Original</strong>: “Reluctant Hunter” <strong>After Arc</strong>: “Burned Agent, Still Hunting” <strong>Later</strong>: “Willing Monster”</p>
+</blockquote>
+<p>Update the Concept when the old one becomes dishonest—or worse, irrelevant.</p>
+</section>
+<section id="changing-other-tags" class="level3">
+<h3 class="anchored" data-anchor-id="changing-other-tags">Changing Other Tags</h3>
+<p>Any tag—Skill, Frailty, Gear, Goal, Nemesis—can change when:</p>
+<ul>
+<li>A relationship flips (Rival → Ally).</li>
+<li>A memory breaks open or is proven false.</li>
+<li>You gain new scars, truths, or tools.</li>
+<li>The old tag becomes dead weight.</li>
+</ul>
+<section id="how-to-change-a-tag" class="level4">
+<h4 class="anchored" data-anchor-id="how-to-change-a-tag">How to Change a Tag:</h4>
+<ul>
+<li><strong>Strike it</strong>: Cross it out. Note the moment. Leave it as ghost text.</li>
+<li><strong>Rewrite it</strong>: Evolve the wording into something more true.</li>
+<li><strong>Replace it</strong>: Remove it entirely. Add something new.</li>
+</ul>
+<blockquote class="blockquote">
+<p><em>Skill: “Sharpshooter” → “Shaking Hands”</em> <em>Frailty: “Trusts the Wrong People” → “No One Left to Trust”</em> *Gear: “Redacted Dossier” → <em>Burned File, Memorized Pages</em></p>
+</blockquote>
+<p>Don’t wait for permission. Let the fiction demand the rewrite.</p>
+</section>
+</section>
+<section id="identity-checkpoints" class="level3">
+<h3 class="anchored" data-anchor-id="identity-checkpoints">Identity Checkpoints</h3>
+<p>These are moments when something inside you shifts.</p>
+<p>Trigger an <strong>Identity Checkpoint</strong> when:</p>
+<ul>
+<li>You achieve or abandon your Goal.</li>
+<li>You forgive (or fail to).</li>
+<li>You break a personal rule.</li>
+<li>You accept a truth you’ve denied.</li>
+<li>You lose or reclaim a tag that defined you.</li>
+</ul>
+<p>At each Checkpoint, pause. Reflect. Then ask:</p>
+<ul>
+<li>What part of me just died?</li>
+<li>What part of me was just born?</li>
+<li>What tag needs to change to reflect this?</li>
+</ul>
+<p>You may rewrite multiple tags at once—or just sit with the tension.</p>
+</section>
+<section id="fragments-tracing-the-shift" class="level3">
+<h3 class="anchored" data-anchor-id="fragments-tracing-the-shift">Fragments: Tracing the Shift</h3>
+<p>When you evolve, write a <strong>Fragment</strong>—a short reflection of the new self.</p>
+<p>A Fragment can be:</p>
+<ul>
+<li>A sentence you hear in your head.</li>
+<li>A memory, now seen differently.</li>
+<li>A single line of internal narration.</li>
+<li>A name you no longer answer to.</li>
+</ul>
+<blockquote class="blockquote">
+<p><em>“She called me a hero. I didn’t correct her.”</em> <em>“There’s blood on the badge now. It feels earned.”</em> <em>“This time, I didn’t flinch.”</em></p>
+</blockquote>
+<p>Fragments aren’t journal entries. They’re story scars.</p>
+<p>Collect them in a side margin or on a separate page. They chart the person you’ve become.</p>
+<p>Your character isn’t a build. They’re a fracture pattern. Keep breaking. Keep rewriting.</p>
+</section>
+</section>
+<section id="visual-tools-appendix" class="level2">
+<h2 class="anchored" data-anchor-id="visual-tools-appendix">Visual Tools &amp; Appendix</h2>
+<p>Not everything needs to be written in long form. Some truths are best diagrammed, mapped, or drawn in the margins.</p>
+<p>This chapter gives you printable tools to track identity, relationships, memory, and growth—the kind that accumulates like scars.</p>
+<p>Use these pages however you want. Print them, sketch over them, crumple and rewrite. These aren’t records. They’re <em>evidence</em>.</p>
+<p><em>Loner</em> is minimalist by design. But the space around your character can be full of threads, maps, stains, patterns. These tools help you see the shape of the story as it emerges— —and sometimes, as it fractures.</p>
+<section id="relationship-map-template" class="level3">
+<h3 class="anchored" data-anchor-id="relationship-map-template">Relationship Map Template</h3>
+<p>A simple radial layout:</p>
+<pre><code>         [LOST]
+            |
+[SYMBOLIC]–[YOU]–[NEMESIS]
+            |
+     [ALLY]–[RIVAL]</code></pre>
+<p>Each spoke is a Role. Each node contains: Name, 1–2 tags, optional notes.</p>
+<p>Update arrows as roles shift. Circle names when they’re active in a current scene. Cross them when bonds break.</p>
+</section>
+<section id="character-web-diagram" class="level3">
+<h3 class="anchored" data-anchor-id="character-web-diagram">Character Web Diagram</h3>
+<p>Draw your protagonist in the center. Surround them with:</p>
+<ul>
+<li><strong>Lifepath fragments</strong></li>
+<li><strong>Tag mutations</strong></li>
+<li><strong>Flashback anchors</strong></li>
+<li><strong>Ongoing Threads</strong></li>
+</ul>
+<p>Use lines to link elements with cause/effect:</p>
+<blockquote class="blockquote">
+<p><em>“You lost her → Changed Concept → New Frailty: Unspoken Guilt”</em></p>
+</blockquote>
+<p>Treat this like a detective’s conspiracy board—only it’s about you.</p>
+</section>
+<section id="lifepath-sheet" class="level3">
+<h3 class="anchored" data-anchor-id="lifepath-sheet">Lifepath Sheet</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 6%">
+<col style="width: 65%">
+<col style="width: 17%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Type</th>
+<th>Fragment</th>
+<th>Tag (Optional)</th>
+<th>Flashback?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Origin</td>
+<td>“Raised in a place no map records”</td>
+<td><em>Ghost Childhood</em></td>
+<td>✅</td>
+</tr>
+<tr class="even">
+<td>Event</td>
+<td>“Watched someone walk into something they couldn’t return from”</td>
+<td>—</td>
+<td>✅</td>
+</tr>
+<tr class="odd">
+<td>Loss</td>
+<td>“Lost a memory on purpose”</td>
+<td><em>Erased Name</em></td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p>Keep it loose. Add notes, symbols, or timelines. Fragments you resolve can be struck through. False memories can be flagged: <code>(?)</code></p>
+</section>
+<section id="evolution-wheel" class="level3">
+<h3 class="anchored" data-anchor-id="evolution-wheel">Evolution Wheel</h3>
+<p>A circular tracker with 6 segments:</p>
+<ul>
+<li>Concept</li>
+<li>Goal</li>
+<li>Nemesis</li>
+<li>Frailty</li>
+<li>Identity Checkpoints</li>
+<li>Fragments</li>
+</ul>
+<p>Write current entries in each segment. When something changes, draw a ring outward and log the new version. Each ring = one major character evolution.</p>
+<p>Use lines/arrows to show how one shift caused another.</p>
+</section>
+</section>
+<section id="license" class="level2">
+<h2 class="anchored" data-anchor-id="license">License</h2>
+<p>Loner: Character Builder’s Guide</p>
+<p>© 2025 Roberto Bisceglie</p>
+<p>This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var sidebar = document.getElementById("quarto-margin-sidebar");
+  var formats = document.querySelector(".quarto-alternate-formats");
+  if (sidebar && formats) {
+    sidebar.insertBefore(formats, sidebar.firstChild);
+  }
+
+  // Rename "Typst" label to "PDF"
+  document.querySelectorAll(".quarto-alternate-formats a").forEach(function (a) {
+    a.childNodes.forEach(function (node) {
+      if (node.nodeType === Node.TEXT_NODE && node.textContent.trim() === "Typst") {
+        node.textContent = "PDF";
+      }
+    });
+  });
+});
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/zotiquestgames\.github\.io\/lonersrd\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2021-2026 <a href="https://zotiquestgames.com">Roberto Bisceglie</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/zotiquestgames/lonersrd/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

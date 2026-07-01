@@ -1,0 +1,2516 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Roberto Bisceglie">
+<meta name="dcterms.date" content="2026-07-01">
+
+<title>Loner - Core Rules 2nd Edition (Legacy) – Loner SRD</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-d37705bb3a21d8331654a8d3f48f58ba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-87bbd3402671c853dcbde7c40b26e08b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-d37705bb3a21d8331654a8d3f48f58ba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&amp;family=Raleway:wght@700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+  @import url('https://fonts.cdnfonts.com/css/takota');
+</style>
+
+
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Loner SRD</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../../core/loner-3e.html" aria-current="page"> 
+<span class="menu-text">Core Rules</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../adventure_packs/AP01_fantasy.html"> 
+<span class="menu-text">Adventure Packs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../geared_towards_loner/kwaidan_revised.html"> 
+<span class="menu-text">Geared Towards Loner</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/zotiquestgames/lonersrd"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../core/loner-3e.html">SRD</a></li><li class="breadcrumb-item"><a href="../../core/legacy/loner-1e.html">Legacy Core Rules</a></li><li class="breadcrumb-item"><a href="../../core/legacy/loner-2e.html">Core Rules 2e (legacy)</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">SRD</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/loner-3e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 3e</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/loner_companion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Companion</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/character_builders_guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Character Builder’s Guide</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/world_builders_guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">World Builder’s Guide</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/the_path_not_taken.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Path Not Taken</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/cinematic_action.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cinematic Action</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/tales_and_tumbles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">For Kids</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Legacy Core Rules</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/legacy/loner-1e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 1e (legacy)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/legacy/loner-2e.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Core Rules 2e (legacy)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Adventure Packs</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP01_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fantasy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP02_space.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Space Sci-Fi Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP03_superheroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Superheroes Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP04_crime.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Crime Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP05_mystery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mystery Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP06_horror.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Horror Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP07_action_adventure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Action Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP08_spy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP09_postapoc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Post-Apocalyptic Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP10_pirates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pirates Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP11_western.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Western Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP12_cyberpunk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cyberpunk Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Adventure Packs (Legacy 2e)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP01_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fantasy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP02_space.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Space Sci-Fi Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP03_superheroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Superheroes Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP04_crime.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Crime Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP05_mystery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mystery Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP06_horror.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Horror Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP07_action_adventure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Action Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP08_spy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP09_postapoc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Post-Apocalyptic Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP10_pirates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pirates Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP11_western.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Western Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP12_cyberpunk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cyberpunk Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/legacy/kwaidan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan!</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">Geared Towards Loner games</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/kwaidan_revised.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan! (Revised)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/cog_compass.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cog &amp; Compass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/mech_requiem.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mech: Requiem</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/legends_of_camelot.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Legends of Camelot</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/pulp_adventures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pulp Adventures!</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/steel_and_sorcery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Steel &amp; Sorcery</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/dungeoneer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dungeoneer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/spacer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spacer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/arabian_nights_adventures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Arabian Nights Adventures</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/cozy_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cozy Fantasy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/savage_blades_of_xylandra.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Savage Blades of Xylandra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/pulp_heroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pulp Heroes!</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/the_shattered_reach.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Shattered Reach</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/galaxy_drifter.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Galaxy Drifter</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/urban_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Urban Fantasy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/norse_saga.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Norse Saga</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/cthulhu.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cthulhu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/paranormal_files.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Paranormal Files</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+ <span class="menu-text">Geared Towards Loner games (Legacy)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/legacy/kwaidan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan!</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#loner---core-rules-2nd-edition" id="toc-loner---core-rules-2nd-edition" class="nav-link active" data-scroll-target="#loner---core-rules-2nd-edition">Loner - Core Rules 2nd Edition</a>
+  <ul class="collapse">
+  <li><a href="#what-is-loner" id="toc-what-is-loner" class="nav-link" data-scroll-target="#what-is-loner">What is Loner?</a></li>
+  <li><a href="#what-is-a-role-playing-game-rpg" id="toc-what-is-a-role-playing-game-rpg" class="nav-link" data-scroll-target="#what-is-a-role-playing-game-rpg">What is a Role Playing Game (RPG)?</a></li>
+  <li><a href="#what-is-a-solo-rpg" id="toc-what-is-a-solo-rpg" class="nav-link" data-scroll-target="#what-is-a-solo-rpg">What is a Solo RPG?</a></li>
+  <li><a href="#safety-tools" id="toc-safety-tools" class="nav-link" data-scroll-target="#safety-tools">Safety Tools</a></li>
+  <li><a href="#minimum-requirements" id="toc-minimum-requirements" class="nav-link" data-scroll-target="#minimum-requirements">Minimum Requirements</a></li>
+  <li><a href="#choose-a-genre-or-setting" id="toc-choose-a-genre-or-setting" class="nav-link" data-scroll-target="#choose-a-genre-or-setting">Choose a genre or setting</a></li>
+  <li><a href="#make-your-protagonist" id="toc-make-your-protagonist" class="nav-link" data-scroll-target="#make-your-protagonist">Make Your Protagonist</a></li>
+  <li><a href="#everything-is-a-character" id="toc-everything-is-a-character" class="nav-link" data-scroll-target="#everything-is-a-character">Everything is a Character!</a></li>
+  <li><a href="#descriptive-tags" id="toc-descriptive-tags" class="nav-link" data-scroll-target="#descriptive-tags">Descriptive Tags</a></li>
+  <li><a href="#before-the-adventure" id="toc-before-the-adventure" class="nav-link" data-scroll-target="#before-the-adventure">Before the Adventure</a></li>
+  <li><a href="#start-your-game" id="toc-start-your-game" class="nav-link" data-scroll-target="#start-your-game">Start Your Game</a></li>
+  <li><a href="#keep-the-action-in-motion" id="toc-keep-the-action-in-motion" class="nav-link" data-scroll-target="#keep-the-action-in-motion">Keep The Action In Motion</a></li>
+  <li><a href="#identify-your-expectations" id="toc-identify-your-expectations" class="nav-link" data-scroll-target="#identify-your-expectations">Identify Your Expectations</a></li>
+  <li><a href="#consulting-the-oracle" id="toc-consulting-the-oracle" class="nav-link" data-scroll-target="#consulting-the-oracle">Consulting the Oracle</a></li>
+  <li><a href="#advantage-and-disadvantage" id="toc-advantage-and-disadvantage" class="nav-link" data-scroll-target="#advantage-and-disadvantage">Advantage and Disadvantage</a></li>
+  <li><a href="#interpreting-the-oracle" id="toc-interpreting-the-oracle" class="nav-link" data-scroll-target="#interpreting-the-oracle">Interpreting the Oracle</a></li>
+  <li><a href="#sibylline-responses" id="toc-sibylline-responses" class="nav-link" data-scroll-target="#sibylline-responses">Sibylline Responses</a></li>
+  <li><a href="#twist-counter" id="toc-twist-counter" class="nav-link" data-scroll-target="#twist-counter">Twist Counter</a></li>
+  <li><a href="#determine-the-twist" id="toc-determine-the-twist" class="nav-link" data-scroll-target="#determine-the-twist">Determine the Twist</a></li>
+  <li><a href="#conflicts" id="toc-conflicts" class="nav-link" data-scroll-target="#conflicts">Conflicts</a></li>
+  <li><a href="#harm-luck" id="toc-harm-luck" class="nav-link" data-scroll-target="#harm-luck">Harm &amp; Luck</a></li>
+  <li><a href="#determine-the-mood-of-the-next-scene" id="toc-determine-the-mood-of-the-next-scene" class="nav-link" data-scroll-target="#determine-the-mood-of-the-next-scene">Determine the mood of the next scene</a></li>
+  <li><a href="#open-ended-question-or-get-inspired" id="toc-open-ended-question-or-get-inspired" class="nav-link" data-scroll-target="#open-ended-question-or-get-inspired">Open-Ended Question or Get Inspired</a></li>
+  <li><a href="#when-the-story-ends" id="toc-when-the-story-ends" class="nav-link" data-scroll-target="#when-the-story-ends">When the story ends</a></li>
+  <li><a href="#loner-together" id="toc-loner-together" class="nav-link" data-scroll-target="#loner-together">Loner Together</a></li>
+  <li><a href="#the-adventure-maker" id="toc-the-adventure-maker" class="nav-link" data-scroll-target="#the-adventure-maker">The Adventure Maker</a>
+  <ul class="collapse">
+  <li><a href="#table-1-settings" id="toc-table-1-settings" class="nav-link" data-scroll-target="#table-1-settings">Table 1: Settings</a></li>
+  <li><a href="#table-2-tones" id="toc-table-2-tones" class="nav-link" data-scroll-target="#table-2-tones">Table 2: Tones</a></li>
+  <li><a href="#table-3-things" id="toc-table-3-things" class="nav-link" data-scroll-target="#table-3-things">Table 3: Things</a></li>
+  <li><a href="#table-4-actions" id="toc-table-4-actions" class="nav-link" data-scroll-target="#table-4-actions">Table 4: Actions</a></li>
+  <li><a href="#table-5-oppositions" id="toc-table-5-oppositions" class="nav-link" data-scroll-target="#table-5-oppositions">Table 5: Oppositions</a></li>
+  </ul></li>
+  <li><a href="#credits" id="toc-credits" class="nav-link" data-scroll-target="#credits">Credits</a></li>
+  <li><a href="#license" id="toc-license" class="nav-link" data-scroll-target="#license">License</a></li>
+  <li><a href="#frequently-asked-questions" id="toc-frequently-asked-questions" class="nav-link" data-scroll-target="#frequently-asked-questions">Frequently Asked Questions</a>
+  <ul class="collapse">
+  <li><a href="#does-luck-represent-the-characters-hit-points" id="toc-does-luck-represent-the-characters-hit-points" class="nav-link" data-scroll-target="#does-luck-represent-the-characters-hit-points">Does Luck represent the character’s Hit Points?</a></li>
+  <li><a href="#is-it-possible-to-tune-a-conflict-by-adjusting-luck-points" id="toc-is-it-possible-to-tune-a-conflict-by-adjusting-luck-points" class="nav-link" data-scroll-target="#is-it-possible-to-tune-a-conflict-by-adjusting-luck-points">Is it possible to tune a conflict by adjusting Luck points?</a></li>
+  <li><a href="#how-does-conflict-take-place-against-multiple-opponents" id="toc-how-does-conflict-take-place-against-multiple-opponents" class="nav-link" data-scroll-target="#how-does-conflict-take-place-against-multiple-opponents">How does conflict take place against multiple opponents?</a></li>
+  <li><a href="#what-is-the-difference-between-starting-with-a-dramatic-scene-and-setting-up-an-adventure-frame" id="toc-what-is-the-difference-between-starting-with-a-dramatic-scene-and-setting-up-an-adventure-frame" class="nav-link" data-scroll-target="#what-is-the-difference-between-starting-with-a-dramatic-scene-and-setting-up-an-adventure-frame">What is the difference between starting with a dramatic scene and setting up an “adventure frame”?</a></li>
+  <li><a href="#what-is-meant-by-ask-a-closed-question-to-solve-each-action-as-an-alternative-to-harm-luck-rules" id="toc-what-is-meant-by-ask-a-closed-question-to-solve-each-action-as-an-alternative-to-harm-luck-rules" class="nav-link" data-scroll-target="#what-is-meant-by-ask-a-closed-question-to-solve-each-action-as-an-alternative-to-harm-luck-rules">What is meant by “ask a closed question to solve each action” as an alternative to “Harm &amp; Luck” rules?</a></li>
+  <li><a href="#is-it-possible-to-roll-three-or-more-chance-or-risk-dice-on-the-roll" id="toc-is-it-possible-to-roll-three-or-more-chance-or-risk-dice-on-the-roll" class="nav-link" data-scroll-target="#is-it-possible-to-roll-three-or-more-chance-or-risk-dice-on-the-roll">Is it possible to roll three or more Chance or Risk dice on the roll?</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/zotiquestgames/lonersrd/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="loner-2e.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="loner-2e.odt"><i class="bi bi-file"></i>OpenOffice</a></li><li><a href="loner-2e.epub"><i class="bi bi-file"></i>ePub</a></li><li><a href="loner-2e-gfm.md"><i class="bi bi-file-code"></i>Github (GFM)</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../core/loner-3e.html">SRD</a></li><li class="breadcrumb-item"><a href="../../core/legacy/loner-1e.html">Legacy Core Rules</a></li><li class="breadcrumb-item"><a href="../../core/legacy/loner-2e.html">Core Rules 2e (legacy)</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Loner - Core Rules 2nd Edition (Legacy)</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Roberto Bisceglie </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 1, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="loner---core-rules-2nd-edition" class="level1">
+<h1>Loner - Core Rules 2nd Edition</h1>
+<section id="what-is-loner" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-loner">What is Loner?</h2>
+<p><strong><em>Loner</em></strong> is a minimalist Solo Role Playing Game designed to be played with only one character (the Protagonist). You’ll guide them through the story that will unravel during the game, asking closed questions to an Oracle which will help you overturn your expectations. Every now and then you will be surprised with an unexpected twist!</p>
+<p><em>Loner</em> follows the following design principles: 1. <strong>Portable</strong>: to play you will need a few common (six-sided) dice and writing materials. Anything else is optional and not essential. 2. <strong>Rules-Light</strong>: the game relies on a few rules and only one solving mechanic, easy to learn and eventually to memorize. 3. <strong>Tag-based</strong>: characters and situations are defined only by qualitative descriptors and no quantitative characteristics. 4. <strong>Generic</strong>: you can play anything, yet the game is not universal. It is designed for quick resolutions, without tactical depth or simulationist ambitions.</p>
+</section>
+<section id="what-is-a-role-playing-game-rpg" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-a-role-playing-game-rpg">What is a Role Playing Game (RPG)?</h2>
+<p>A role-playing game (RPG) is a type of game in which players assume the roles of fictional characters and act out their actions and decisions within a narrative or imaginary setting. The outcome of these actions and decisions is often determined by a set of rules and game mechanics, such as dice rolls or statistical attributes of the characters. Players may also collaborate to create a shared story or narrative through their characters’ actions and interactions.</p>
+</section>
+<section id="what-is-a-solo-rpg" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-a-solo-rpg">What is a Solo RPG?</h2>
+<p>In a solo RPG a single player takes on the roles of one or more characters, while also simultaneously managing some elements of the game world. These games typically involve the use of a rule system and game mechanics to determine the outcome of actions taken by the player-controlled characters. Unlike a gamebook (such as the Fighting Fantasy, Lone Wolf, and Tunnels &amp; Trolls series) a solo RPG is not a form of interactive, forked narrative in which outcomes are pre-determined and limited by the author’s choices.</p>
+<p>Through the interaction of player, oracle, tools, and prompts, the character’s actions will build an <strong>emergent narrative</strong> within whose boundaries anything can be attempted, without predetermined limits.</p>
+</section>
+<section id="safety-tools" class="level2">
+<h2 class="anchored" data-anchor-id="safety-tools">Safety Tools</h2>
+<p>You will play alone, but be sure to play in an environment that is comfortable for you, without overexerting yourself, and reserve the option to stop as soon as you feel uncomfortable for any reason, physical or emotional. Don’t be afraid to tackle new themes, but do so in full awareness of your boundaries.</p>
+</section>
+<section id="minimum-requirements" class="level2">
+<h2 class="anchored" data-anchor-id="minimum-requirements">Minimum Requirements</h2>
+<p>To play <em>Loner</em> you will need: - <strong>4 six sided dice</strong> (also known as d6s): two pairs of different colors - <strong>Paper and writing tools</strong>: at least a sheet of scrap paper and and pencil, but index cards or sticky notes are a fine addition - <strong>Character sheet</strong>: you may use the provided sheet at the back or a simple index card. - <strong>Notebook</strong>: <em>Loner</em> is not a solo journaling game, you can easily play it in the “theater of mind”. But you can keep track of you game if you feel the need!</p>
+</section>
+<section id="choose-a-genre-or-setting" class="level2">
+<h2 class="anchored" data-anchor-id="choose-a-genre-or-setting">Choose a genre or setting</h2>
+<p>A Loner adventure takes place in a well-defined imagery that you will have to choose from: your favorite TV series, a book saga you are reading, an RPG setting you like, a genre you are familiar with or instead want to start exploring.</p>
+<p>You can also consult lists of tropes (google them) to generate randomly and then choose!</p>
+<p>Or you can use the Adventure Packs found in the second part of the volume.</p>
+<p>You can also generate the character first, based on randomly chosen tropes, and once it is defined, you can follow the genre that emerged at this stage.</p>
+</section>
+<section id="make-your-protagonist" class="level2">
+<h2 class="anchored" data-anchor-id="make-your-protagonist">Make Your Protagonist</h2>
+<p>Once the setting is established, now is the time to create your Protagonist.</p>
+<p>Your Protagonist is described by some fixed traits:</p>
+<ul>
+<li><strong>Name</strong>: The name should be iconic and consistent with the tone and setting of the story.</li>
+<li><strong>Concept</strong>: A concise description of the character’s profession, background, and abilities. The best are adjective-name pairings, like <em>“Venturous Smuggler”</em> or <em>“Child Prodigy”</em>.</li>
+<li><strong>Skills</strong> (x2): Abilities not necessarily character-specific but not characteristics common to all. <em>“Smart”</em> is not a skill, <em>“Engine Whisperer”</em> is.</li>
+<li><strong>Frailty</strong>: Something that could potentially get in the way of the character, either physically, mentally, or socially.</li>
+<li><strong>Gear</strong> (x2): Particular equipment supplied to the character in coherence with the setting. Everyday items are taken for granted and do not fall under this trait.</li>
+<li><strong>Goal</strong>: The long-term objective.</li>
+<li><strong>Motive</strong>: What drives the pursuit of the goal.</li>
+<li><strong>Nemesis</strong>: A person or organization that hinders the protagonist. It can emerge during the first game sessions, it may or may or not be the direct antagonist of the story, ready to appear to make life even more difficult</li>
+<li><strong>Luck</strong>: The measure of a character’s ability to avoid ill fortune or an inauspicious outcome. It applies only in Conflicts and automatically recharges when they end. Luck starts and caps at 6.</li>
+</ul>
+<p><strong>Example</strong> &gt; <strong>Zahra Nakajima</strong> Witty Street Cat. Streetwise, Nimble, Merciful.<br>
+&gt; Knife, Low O2 Supplement.<br>
+&gt; She wants to obtain unknown technology to save her planet from atmosphere collapse.<br>
+&gt; <strong>Nemesis</strong>: The Naturalist Order<br>
+&gt; <strong>Luck</strong>: 6</p>
+</section>
+<section id="everything-is-a-character" class="level2">
+<h2 class="anchored" data-anchor-id="everything-is-a-character">Everything is a Character!</h2>
+<p>In <em>Loner</em> Non-Playing Characters (NPCs), Foes, Organizations, Monsters, and even relevant objects like vehicles are characters too!</p>
+<ul>
+<li><strong>Living Character</strong> follow the same rules of generation as the Protagonist.</li>
+<li><strong>Non-Living Characters</strong>, instead, do not have a goal, a motive, nor a nemesis.</li>
+</ul>
+<p><strong>Example</strong> &gt; <strong>The Century Skylark</strong> Spacecraft in bad shape. Hyperjump Drive, Camouflage Circuits, Midlife Courier.<br>
+&gt; Shields, Turrets.<br>
+&gt; <strong>Luck</strong>: 6.</p>
+</section>
+<section id="descriptive-tags" class="level2">
+<h2 class="anchored" data-anchor-id="descriptive-tags">Descriptive Tags</h2>
+<p>Tags are descriptive words or phrases that could be identify anything in the game world. They fall roughly into the following categories: - <strong>Character Traits</strong>: as seen above, they describe a character’s skills and flaws, their goal and motive. - <strong>Details</strong>: features of an environment or scene that might change as a result of an action. - <strong>Conditions</strong>: are physical, mental or social effects that impact the way a character behaves or attempts actions.</p>
+<p>Tags determine if there are sufficient prerequisites in the scene for <a href="#advantage-and-disadvantage">Advantage or Disadvantage</a>. They are qualitative representations. <strong>They are not quantitative measures</strong>.</p>
+</section>
+<section id="before-the-adventure" class="level2">
+<h2 class="anchored" data-anchor-id="before-the-adventure">Before the Adventure</h2>
+<p>You can start directly to play your adventure, but it may be worthwhile to make an extra effort.</p>
+<p>By defining your Protagonist’s Nemesis you have already identified an <strong>NPC</strong>! Write down their sheet and keep it aside.</p>
+<p>Think about whether your Protagonist has allies or friends and throw down their sheets as well.</p>
+<p>Jot down these NPCs in a list, which you will consult when they need to be recalled as a result of a <a href="#determine-the-twist">Twist</a>.</p>
+<p>Also, it might be useful to jot down interesting <strong>Locations</strong> that serve as settings for your Protagonist and keep a list of major <strong>Events</strong> that happen during the game.</p>
+</section>
+<section id="start-your-game" class="level2">
+<h2 class="anchored" data-anchor-id="start-your-game">Start Your Game</h2>
+<p>To begin an adventure in Loner you will need to determine the initial scene:</p>
+<ol type="1">
+<li>You might think of a dramatic situation and start the game in the middle of an action scene. This will push events forward, allowing you to build the story as you go.</li>
+<li>Otherwise, if you prefer to define a framework for the adventure you can answer the classic questions, Who? What, Why? Where? How? Add also an Obstacle to overcome.</li>
+</ol>
+<p>If you find it difficult to answer any or all of the questions, the following table provides prompts on which to build your adventure.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 2%">
+<col style="width: 15%">
+<col style="width: 13%">
+<col style="width: 14%">
+<col style="width: 13%">
+<col style="width: 19%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">D6</th>
+<th style="text-align: center;">Who?<br>The proposer</th>
+<th style="text-align: center;">What?<br>The mission</th>
+<th style="text-align: center;">Why?<br>The incentive</th>
+<th style="text-align: center;">Where?<br>The target</th>
+<th style="text-align: center;">How?<br>The seed</th>
+<th style="text-align: center;">Obstacle?<br>The complication</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Authority</td>
+<td style="text-align: center;">Rescue</td>
+<td style="text-align: center;">Help</td>
+<td style="text-align: center;">Person</td>
+<td style="text-align: center;">Casual encounter</td>
+<td style="text-align: center;">Opposition</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Organization</td>
+<td style="text-align: center;">Protection</td>
+<td style="text-align: center;">Fortune</td>
+<td style="text-align: center;">Group</td>
+<td style="text-align: center;">Old acquaintance</td>
+<td style="text-align: center;">Deception</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Ally (friend, relative)</td>
+<td style="text-align: center;">Exploit</td>
+<td style="text-align: center;">Coercion</td>
+<td style="text-align: center;">Treasure</td>
+<td style="text-align: center;">Rumors</td>
+<td style="text-align: center;">Environment</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">Mentor</td>
+<td style="text-align: center;">Explore</td>
+<td style="text-align: center;">Impulse</td>
+<td style="text-align: center;">Location</td>
+<td style="text-align: center;">Capture</td>
+<td style="text-align: center;">Disguise</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">Help-seeker</td>
+<td style="text-align: center;">Escape</td>
+<td style="text-align: center;">Ambition</td>
+<td style="text-align: center;">McGuffin</td>
+<td style="text-align: center;">Mishap</td>
+<td style="text-align: center;">Time</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">Blackmailer</td>
+<td style="text-align: center;">Pursuit</td>
+<td style="text-align: center;">Revenge</td>
+<td style="text-align: center;">Confession</td>
+<td style="text-align: center;">Object (map, journal, letter)</td>
+<td style="text-align: center;">Space</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example</strong><br>
+&gt; <strong>Who?</strong> Mentor<br>
+&gt; <strong>What?</strong> Exploit<br>
+&gt; <strong>Why?</strong> Help<br>
+&gt; <strong>Where?</strong> McGuffin<br>
+&gt; <strong>How?</strong> Rumors<br>
+&gt; <strong>Obstacle?</strong> Time<br>
+&gt; Tobias Wethern took Zahra under his wing when her parents died. That’s why she can’t say no to him now. Tobias wants Zahra to steal a datapad from the Leton Corporation’s subsidiary. He doesn’t know precisely where it is stored, but that in 24 hours it will be taken from the company’s security corps to be transferred to another location.</p>
+<p><img src="../../diagrams/get_started.png" class="img-fluid"></p>
+</section>
+<section id="keep-the-action-in-motion" class="level2">
+<h2 class="anchored" data-anchor-id="keep-the-action-in-motion">Keep The Action In Motion</h2>
+<p>A game in <em>Loner</em> is a succession of scenes. A scene is a unit of time in which a certain action takes place in pursuit of a certain short-term goal.</p>
+<p>In <em>Loner</em> at each scene: 1. <strong>Identify what you expect from the scene</strong>. Compared to traits, goal, and motivation determine the Protagonist’s action. What might be the reaction of the game world? 2. <strong>Test your expectations</strong>. When you are uncertain (or overconfident) about the reaction to your actions, <a href="#consulting-the-oracle">ask the Oracle</a> a closed question (answer is Yes or No), considering the tags involved to determine if there is an <a href="#advantage-and-disadvantage">Advantage or Disadvantage</a>. 3. <strong>Interpret the result</strong>. Is the Oracle’s answer in line with your expectations? If not, in the context in which the scene takes place, how should an answer that subverts them be considered?</p>
+<p>This sequence will come to you naturally after some practice. Use it as a guideline the first few times.</p>
+<p><img src="../../diagrams/scene_breakdown.png" class="img-fluid"></p>
+</section>
+<section id="identify-your-expectations" class="level2">
+<h2 class="anchored" data-anchor-id="identify-your-expectations">Identify Your Expectations</h2>
+<p>The Protagonist’s traits characterize their behavior within the fictional world and suggest the possible actions they takes in the situational context of the scene.</p>
+<p>Based on this, you can expect the world to react in the most logical way, and you will formulate a question that tests this expectation.</p>
+<p>An expectation does not necessarily automatically lead to a question, which you need to ask only when there are concrete risks or you want to be amazed. In other cases, simply let events happen.</p>
+<p><strong>Example</strong><br>
+&gt; Zahra sneaks into the Leton Corporation subsidiary. The expectation is that the place will be well guarded during the day and less so at night. To escape an inevitable head-on collision, Zahra decides to act at night and enter through the ventilation ductsYou don’t expect there to be an alarm but maybe it’s worth asking the question!</p>
+</section>
+<section id="consulting-the-oracle" class="level2">
+<h2 class="anchored" data-anchor-id="consulting-the-oracle">Consulting the Oracle</h2>
+<p>When you need to test your expectations you’ll ask the Oracle a closed question.</p>
+<p>You’ll need 2d6 in one color (<strong>Chance Dice</strong>), and 2d6 in another (<strong>Risk Dice</strong>).</p>
+<p>To resolve a closed question, roll one <strong>Chance Die</strong> and one <strong>Risk Die</strong>: - If the Chance Die is highest, the answer is <strong>Yes</strong>. - If the Risk Die is highest, the answer is <strong>No</strong>. - If both are low (3 or less), add a <strong>but…</strong>. - If both are high (4 or more), add an <strong>and…</strong>. - If both are equal, the answer is <strong>Yes, but…</strong>. Add a point to the <strong><a href="#twist-counter">Twist Counter</a></strong>.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Dice Value</th>
+<th style="text-align: center;">Chance Die &gt; Risk Die</th>
+<th style="text-align: center;">Risk Die &gt; Chance Die</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Both &lt; 4</td>
+<td style="text-align: center;">Yes, but…</td>
+<td style="text-align: center;">No, but…</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Both &gt; 3</td>
+<td style="text-align: center;">Yes, and…</td>
+<td style="text-align: center;">No, and…</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Mismatched</td>
+<td style="text-align: center;">Yes</td>
+<td style="text-align: center;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Equal</td>
+<td style="text-align: center;">Add 1 to the Twist Counter</td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example</strong> &gt; You ask, “Does Zahra manage to force the hatch?” You roll one Chance Die and one Risk Die and get (5) [4]). The answer is <strong>Yes</strong>, because the Chance Die is higher. You also add <strong>And</strong>, because both rolls are 4 or higher. If the Risk Die had come up as [3], it would have been a plain <strong>Yes</strong> instead.</p>
+</section>
+<section id="advantage-and-disadvantage" class="level2">
+<h2 class="anchored" data-anchor-id="advantage-and-disadvantage">Advantage and Disadvantage</h2>
+<p>If circumstances or positive tags grant an advantage, add a <strong>Chance Die</strong> to the roll. Otherwise, when hindrances or negative tag cause a disadvantage, add a <strong>Risk Die</strong>. In both cases keep only the higher die of the added type when you check the roll.</p>
+<p>Consider tags <strong>intuitively and not quantitatively</strong>, using the context of the situation at play. It is important to keep the flow of play fast and not accounting for advantages and disadvantages numerically!</p>
+<p><strong>Example</strong> &gt; You ask, “Does Zahra hack the datapad?” You roll one Chance Die and two Risk Die, as Zahra does not have any advantage in hacking and the datapad is the mission goal, compromising it would cause the mission to fail. You get (5) [3] [4]. You discard the lower Risk Die [3] and keep (5) and [4]. You obtain a <strong>Yes</strong> and add a <strong>And</strong> since they are both 4 or higher.</p>
+<p><img src="../../diagrams/consulting_oracle.png" class="img-fluid"></p>
+</section>
+<section id="interpreting-the-oracle" class="level2">
+<h2 class="anchored" data-anchor-id="interpreting-the-oracle">Interpreting the Oracle</h2>
+<p>Always interpret the Oracle’s answer in relation to the context of the game situation:</p>
+<ul>
+<li>Answers without modifiers are straightforward answers without uncertainty. They are also the least interesting to continue the story.</li>
+<li>Answers with modifiers (but…/and…), on the other hand, require you to make the effort to identify what new situation triggered the consultation.</li>
+</ul>
+<p><strong>Example</strong><br>
+&gt; The datapad is hacked <em>and…</em> the information contained is not just about illicit activities of the Leton Corporation… There is more!</p>
+</section>
+<section id="sibylline-responses" class="level2">
+<h2 class="anchored" data-anchor-id="sibylline-responses">Sibylline Responses</h2>
+<p>The Oracle might sometimes give answers that don’t make sense in the context of the scene. Don’t be tempted to detail the answer with too many questions in sequence. Three questions should be sufficient. If you’re still stuck, try using an open-ended question to unlock yourself or interpret the answer as “Yes, But…” and move the story forward.</p>
+</section>
+<section id="twist-counter" class="level2">
+<h2 class="anchored" data-anchor-id="twist-counter">Twist Counter</h2>
+<p>The Twist Counter is a measure of the rising tension in the narrative. At the beginning is set to 0. Every time a double throw (dice are equal) happens, add 1 to the Counter. If the Counter is below three, consider the answer as “<strong>Yes, but…</strong>”. Otherwise a <strong>Twist</strong> happens and resets the Counter.</p>
+<p><strong>Example</strong> &gt; You ask if the datapad contains sensitive data about Wethern’s illicit activities. You roll (4) [4]. The answers is “Yes, but…”. Zahra finds a note about a scapegoat to frame for the theft. Could it be her? &gt; You also add 1 to the Twist Counter. But the counter was already at 2, so also a twist happens! The counter resets to 0.</p>
+</section>
+<section id="determine-the-twist" class="level2">
+<h2 class="anchored" data-anchor-id="determine-the-twist">Determine the Twist</h2>
+<p>Roll 2d6 and consult the following Twist Table to determine what kind of twist happens.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">D6</th>
+<th style="text-align: center;">Subject</th>
+<th style="text-align: center;">Action</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">A third party</td>
+<td style="text-align: center;">Appears</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">The hero</td>
+<td style="text-align: center;">Alters the location</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">An encounter</td>
+<td style="text-align: center;">Helps the hero</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">A physical event</td>
+<td style="text-align: center;">Hinders the hero</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">An emotional event</td>
+<td style="text-align: center;">Changes the goal</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">An object</td>
+<td style="text-align: center;">Ends the scene</td>
+</tr>
+</tbody>
+</table>
+<p>Interpret the two-word sentence in the context of the current scene. Twists will keep the plot and events going in unexpected ways.</p>
+<blockquote class="blockquote">
+<p>Now Zahra knows the content of the datapad, but you roll 1 and 5 on the Twist Table “<em>A third party</em>”, “<em>Changes the goal</em>”. An agent of the Leton Corporation appears before Zahra with a proposal….</p>
+</blockquote>
+</section>
+<section id="conflicts" class="level2">
+<h2 class="anchored" data-anchor-id="conflicts">Conflicts</h2>
+<p>A <em>Conflict</em> is any situation in which opponents clash, attacking, defending, or wearing each other down in order to win. This applies both in a practical and metaphorical sense.</p>
+<p>So, a Conflict is not only limited to combat (or fighting) in the strict sense but also to competitive situations (such as contests, duels, verbal confrontations, etc.) in which two or more characters (including vehicles, of course!) compete.</p>
+<p>Conflicts can be resolved in different ways depending on preferences and context: 1. Ask a single closed question. The Oracle’s answer determines the outcome of the conflict. 2. Ask a series of closed questions to resolve current single actions. 3. Use the rules of Harm &amp; Luck below.</p>
+<p><img src="../../diagrams/conflicts.png" class="img-fluid"></p>
+<p>Note that the Twist Counter <strong>does not apply</strong> to Harm &amp; Luck. Instead, it is used regularly if the Conflict is handled with closed questions.</p>
+</section>
+<section id="harm-luck" class="level2">
+<h2 class="anchored" data-anchor-id="harm-luck">Harm &amp; Luck</h2>
+<p>If the conflict is resolved by applying damage to the Luck trait, roll the dice to determine whether the protagonist causes damage to the opponent or suffers damage due to counterattack or failed defense. The rolls are player facing only.</p>
+<p>The damage reduces the Luck of the target, whether protagonist or NPC. When the Luck runs out, the character has lost the conflict.</p>
+<p>The final outcome depends on the context. Do you get caught? Are you seriously injured? You may even die if that fits the narrative.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 75%">
+<col style="width: 9%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Answer</th>
+<th>Do you get what you want?</th>
+<th>Harm</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Yes, and…</td>
+<td>You get what you want, and something else.</td>
+<td>Cause 3</td>
+</tr>
+<tr class="even">
+<td>Yes…</td>
+<td>You get what you want.</td>
+<td>Cause 2</td>
+</tr>
+<tr class="odd">
+<td>Yes, but…</td>
+<td>You get what you want, but at a cost.</td>
+<td>Cause 1</td>
+</tr>
+<tr class="even">
+<td>No, but…</td>
+<td>You don’t get what you want, but it’s not a total loss.</td>
+<td>Take 1</td>
+</tr>
+<tr class="odd">
+<td>No…</td>
+<td>You don’t get what you were after.</td>
+<td>Take 2</td>
+</tr>
+<tr class="even">
+<td>No, and…</td>
+<td>You don’t get what you want, and things get worse.</td>
+<td>Take 3</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example</strong> &gt; Zahra confronts a thug in an alley. He is “Martial Artist”, “Hand-to-Hand Combat”, “Feline” and “Short”. Zahra tries to hit him with the knife, you throw (5) (6) [4] (“<strong>Yes, And…</strong>”, causing a Luck loss of 3 to the thug). The thug throws a roundhouse kick at Zahra (roll (3) (2) [2], “<strong>Yes, but…</strong>”, causing a Luck loss of 1 to Zahra). Who will win?</p>
+</section>
+<section id="determine-the-mood-of-the-next-scene" class="level2">
+<h2 class="anchored" data-anchor-id="determine-the-mood-of-the-next-scene">Determine the mood of the next scene</h2>
+<p>At the end of the current scene sometimes you will be clear about the direction to take, other times you may need to determine the general mood of the next one. In this case roll 1d6 and consult the following table:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">D6</th>
+<th style="text-align: center;">Next Scene</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1-3</td>
+<td style="text-align: center;">Dramatic scene</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4-5</td>
+<td style="text-align: center;">Quiet Scene</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">Meanwhile…</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>A <strong>dramatic scene</strong> does not break the tension of the previous scene but carries it further forward, introducing further obstacles or difficulties.</li>
+<li>During a <strong>quiet scene</strong> there is time to take a breath, to heal, to make plans for the next steps and to deepen relationships.</li>
+<li>A <strong>meanwhile scene</strong> takes place somewhere else, other than where the hero is. It cuts to villains or other plot-important characters.</li>
+</ul>
+<p><strong>Example</strong> &gt; Zahra accepts the proposal, you now roll for the next scene: 6, <em>Meanwhile scene</em>. In the following scene, Tobias Wethern hires a hit man to kill Zahra…</p>
+</section>
+<section id="open-ended-question-or-get-inspired" class="level2">
+<h2 class="anchored" data-anchor-id="open-ended-question-or-get-inspired">Open-Ended Question or Get Inspired</h2>
+<p>To answer an Open-Ended question, roll 1d6 once on each of the following tables (roll at least a verb and a noun, adjectives are optional).</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Verbs</th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;">3</th>
+<th style="text-align: center;">4</th>
+<th style="text-align: center;">5</th>
+<th style="text-align: center;">6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">inject</td>
+<td style="text-align: center;">pass</td>
+<td style="text-align: center;">own</td>
+<td style="text-align: center;">divide</td>
+<td style="text-align: center;">bury</td>
+<td style="text-align: center;">borrow</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">continue</td>
+<td style="text-align: center;">learn</td>
+<td style="text-align: center;">ask</td>
+<td style="text-align: center;">multiply</td>
+<td style="text-align: center;">receive</td>
+<td style="text-align: center;">imagine</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">develop</td>
+<td style="text-align: center;">behave</td>
+<td style="text-align: center;">replace</td>
+<td style="text-align: center;">damage</td>
+<td style="text-align: center;">collect</td>
+<td style="text-align: center;">turn</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">share</td>
+<td style="text-align: center;">hand</td>
+<td style="text-align: center;">play</td>
+<td style="text-align: center;">explain</td>
+<td style="text-align: center;">improve</td>
+<td style="text-align: center;">cough</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">face</td>
+<td style="text-align: center;">expand</td>
+<td style="text-align: center;">found</td>
+<td style="text-align: center;">gather</td>
+<td style="text-align: center;">prefer</td>
+<td style="text-align: center;">belong</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">trip</td>
+<td style="text-align: center;">want</td>
+<td style="text-align: center;">miss</td>
+<td style="text-align: center;">dry</td>
+<td style="text-align: center;">employ</td>
+<td style="text-align: center;">destroy</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 14%">
+<col style="width: 16%">
+<col style="width: 12%">
+<col style="width: 16%">
+<col style="width: 14%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Adjectives</th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;">3</th>
+<th style="text-align: center;">4</th>
+<th style="text-align: center;">5</th>
+<th style="text-align: center;">6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">frequent</td>
+<td style="text-align: center;">faulty</td>
+<td style="text-align: center;">obscene</td>
+<td style="text-align: center;">scarce</td>
+<td style="text-align: center;">rigid</td>
+<td style="text-align: center;">long-term</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">ethereal</td>
+<td style="text-align: center;">sophisticated</td>
+<td style="text-align: center;">rightful</td>
+<td style="text-align: center;">knowledgeable</td>
+<td style="text-align: center;">astonishing</td>
+<td style="text-align: center;">ordinary</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">descriptive</td>
+<td style="text-align: center;">insidious</td>
+<td style="text-align: center;">poor</td>
+<td style="text-align: center;">proud</td>
+<td style="text-align: center;">reflective</td>
+<td style="text-align: center;">amusing</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">silky</td>
+<td style="text-align: center;">worthless</td>
+<td style="text-align: center;">fixed</td>
+<td style="text-align: center;">loose</td>
+<td style="text-align: center;">willing</td>
+<td style="text-align: center;">cold</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">quiet</td>
+<td style="text-align: center;">stormy</td>
+<td style="text-align: center;">spooky</td>
+<td style="text-align: center;">delirious</td>
+<td style="text-align: center;">innate</td>
+<td style="text-align: center;">late</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">magnificent</td>
+<td style="text-align: center;">arrogant</td>
+<td style="text-align: center;">unhealthy</td>
+<td style="text-align: center;">enormous</td>
+<td style="text-align: center;">truculent</td>
+<td style="text-align: center;">charming</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 18%">
+<col style="width: 13%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 16%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Nouns</th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;">3</th>
+<th style="text-align: center;">4</th>
+<th style="text-align: center;">5</th>
+<th style="text-align: center;">6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">cause</td>
+<td style="text-align: center;">stage</td>
+<td style="text-align: center;">change</td>
+<td style="text-align: center;">verse</td>
+<td style="text-align: center;">thrill</td>
+<td style="text-align: center;">spot</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">front</td>
+<td style="text-align: center;">event</td>
+<td style="text-align: center;">home</td>
+<td style="text-align: center;">bag</td>
+<td style="text-align: center;">measure</td>
+<td style="text-align: center;">birth</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">prose</td>
+<td style="text-align: center;">motion</td>
+<td style="text-align: center;">trade</td>
+<td style="text-align: center;">memory</td>
+<td style="text-align: center;">chance</td>
+<td style="text-align: center;">drop</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">instrument</td>
+<td style="text-align: center;">friend</td>
+<td style="text-align: center;">talk</td>
+<td style="text-align: center;">liquid</td>
+<td style="text-align: center;">fact</td>
+<td style="text-align: center;">price</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">word</td>
+<td style="text-align: center;">morning</td>
+<td style="text-align: center;">edge</td>
+<td style="text-align: center;">room</td>
+<td style="text-align: center;">system</td>
+<td style="text-align: center;">camp</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">key</td>
+<td style="text-align: center;">income</td>
+<td style="text-align: center;">use</td>
+<td style="text-align: center;">humor</td>
+<td style="text-align: center;">statement</td>
+<td style="text-align: center;">argument</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example</strong> &gt; You ask: “Does Zahra have friends to ask for help against the hit man?”. You roll 24 and 32: <em>multiply motion</em>. Zahra needs to move quickly to reach Melina Reade, a hacker with contacts in the underworld who might be able to help her!</p>
+</section>
+<section id="when-the-story-ends" class="level2">
+<h2 class="anchored" data-anchor-id="when-the-story-ends">When the story ends</h2>
+<p>At the end of the adventure you may add another trait to the character. It is better that this is related to how the story just ended and can be either a Skill, Gear, a new Frailty, or even a new Nemesis! You can also modify an existing trait to better represent an enhanced expertise.</p>
+<p>Also update the list of <strong>NPCs</strong>, <strong>Locations</strong>, and <strong>Events</strong> that may show up again in future adventures.</p>
+<p><strong>Example</strong> &gt; Zahra secures the datapad in the hands of the authorities, framing both Wethern and the Leton Corporation. Wethern is arrested, but she has gained a powerful enemy working against the Corporation. She gains “Wannabe Hacker” to her skills. Maybe Melina can mentor her!</p>
+</section>
+<section id="loner-together" class="level2">
+<h2 class="anchored" data-anchor-id="loner-together">Loner Together</h2>
+<p>Loner’s rules are designed for a single player controlling one character. However being derivative of a multiplayer game (Freeform Universal) no one prevents you from using them for group play as well, if you insist on doing so.</p>
+<p>It is then possible to play in the following modes: 1. <strong>without a game master</strong>: you play as in solo mode, each person controls their own character and asks questions to the Oracle in solo play. The Oracle’s answers and the game world’s reactions are interpreted by the player who asks the current question. Facilitator functions (moderating the flow of play and possibly settling disputes between players, as well as reminding players of the rules) can be taken on by a single player at the table, or they can be rotated. Questions pertaining to the entire group of character can be concerted. 2. <strong>with a game master</strong>: they always pull only the players questioning the Oracle as in the solitary, no-master mode. The master takes charge of interpreting the answer and presenting the reactions of the game world. He also assumes the functions of a facilitator.</p>
+<p>Keep in mind that as much as Loner can be played in groups, I strongly recommend that you use Freeform Universal for this need.</p>
+</section>
+<section id="the-adventure-maker" class="level2">
+<h2 class="anchored" data-anchor-id="the-adventure-maker">The Adventure Maker</h2>
+<p>Sometimes you may lack the inspiration to think of a game setting, or you want to experiment with one you have never thought of. The tables below are designed to instantly generate an unpredictable setting for you to explore with a game.</p>
+<p>To generate a setting: 1. Roll on the Settings table 2. Roll on the Tones table 3. Roll two times on one Things table of your choice</p>
+<p>To generate a premise of adventure: 1. Roll on the Opposition table 2. Roll two times on Actions table and on a Things tables</p>
+<p>Note that the adventure premise is not the initial scene prompt, only the framework within which it takes place.</p>
+<section id="table-1-settings" class="level3">
+<h3 class="anchored" data-anchor-id="table-1-settings">Table 1: Settings</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 1%">
+<col style="width: 19%">
+<col style="width: 12%">
+<col style="width: 13%">
+<col style="width: 18%">
+<col style="width: 18%">
+<col style="width: 14%">
+<col style="width: 1%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Post-Apocalyptic Wasteland</td>
+<td>High Fantasy Kingdom</td>
+<td>Medieval War and Intrigue</td>
+<td>Cyberpunk Megacorporation</td>
+<td>Futuristic Space Colony</td>
+<td>Supernatural Noir City</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Alternate History</td>
+<td>Pirate-Filled Seas</td>
+<td>Wild West Frontier</td>
+<td>Dark Fantasy Realm</td>
+<td>Futuristic Dystopian City</td>
+<td>Ancient Greek Mythology</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Space Opera Adventure</td>
+<td>Samurai-Era Japan</td>
+<td>Zombie Survival</td>
+<td>Superhero Metropolis</td>
+<td>Cold War Espionage</td>
+<td>Modern Crime Syndicate</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Magic School for Young Mages</td>
+<td>Horror-Filled Asylum</td>
+<td>Epic Fantasy Quest</td>
+<td>Cybernetic Organisms and Androids</td>
+<td>Lovecraftian Cosmic Horrors</td>
+<td>Sword and Sorcery Adventure</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Urban Fantasy Underworld</td>
+<td>Abandoned Space Station</td>
+<td>Colonial America</td>
+<td>Mythical Creatures and Legends</td>
+<td>Martial Arts Action</td>
+<td>Horror-Stricken Carnival</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Underwater Adventure and Exploration</td>
+<td>Jungle-Covered Planet</td>
+<td>Steampunk Victorian Era</td>
+<td>Time Travel Paradoxes</td>
+<td>Intergalactic Starfighter Battles</td>
+<td>Survival in a Savage Land</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="table-2-tones" class="level3">
+<h3 class="anchored" data-anchor-id="table-2-tones">Table 2: Tones</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 37%">
+<col style="width: 27%">
+<col style="width: 31%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1-2</th>
+<th>3-4</th>
+<th>5-6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Dark and brooding</td>
+<td>Lighthearted and humorous</td>
+<td>Gritty and realistic</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Epic and grandiose</td>
+<td>Suspenseful and thrilling</td>
+<td>Mysterious and enigmatic</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Action-packed and adventurous</td>
+<td>Romantic and whimsical</td>
+<td>Horror-filled and terrifying</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Technologically advanced and sleek</td>
+<td>Grungy and dirty</td>
+<td>Gothic and ominous</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Surreal and dreamlike</td>
+<td>Futuristic and dystopian</td>
+<td>Nostalgic and timeless</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Eerie and paranormal</td>
+<td>Martial and disciplined</td>
+<td>Gracious and elegant</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="table-3-things" class="level3">
+<h3 class="anchored" data-anchor-id="table-3-things">Table 3: Things</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 16%">
+<col style="width: 15%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;">3</th>
+<th style="text-align: center;">4</th>
+<th style="text-align: center;">5</th>
+<th style="text-align: center;">6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Magic</td>
+<td style="text-align: center;">Monsters</td>
+<td style="text-align: center;">Ancient relics</td>
+<td style="text-align: center;">Medieval castle</td>
+<td style="text-align: center;">Futuristic technology</td>
+<td style="text-align: center;">Spaceship</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Ancient ruins</td>
+<td style="text-align: center;">Forbidden knowledge</td>
+<td style="text-align: center;">Secret society</td>
+<td style="text-align: center;">Dangerous quest</td>
+<td style="text-align: center;">Band of adventurers</td>
+<td style="text-align: center;">Unseen forces</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Hidden treasure</td>
+<td style="text-align: center;">Dark magic</td>
+<td style="text-align: center;">Mystical creatures</td>
+<td style="text-align: center;">Supernatural powers</td>
+<td style="text-align: center;">Epic battle</td>
+<td style="text-align: center;">Intriguing plot</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">Suspicious characters</td>
+<td style="text-align: center;">War-torn land</td>
+<td style="text-align: center;">Dangerous wilderness</td>
+<td style="text-align: center;">Political intrigue</td>
+<td style="text-align: center;">World domination</td>
+<td style="text-align: center;">Suspenseful journey</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">Dark secrets</td>
+<td style="text-align: center;">Forbidden love</td>
+<td style="text-align: center;">Intense conflict</td>
+<td style="text-align: center;">Death-defying stunts</td>
+<td style="text-align: center;">Powerful artifacts</td>
+<td style="text-align: center;">Epic journeys</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">Unpredictable twists</td>
+<td style="text-align: center;">Dynamic characters</td>
+<td style="text-align: center;">Different factions</td>
+<td style="text-align: center;">Vast empires</td>
+<td style="text-align: center;">Epic heroes</td>
+<td style="text-align: center;">Legendary creatures</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 17%">
+<col style="width: 16%">
+<col style="width: 15%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;">3</th>
+<th style="text-align: center;">4</th>
+<th style="text-align: center;">5</th>
+<th style="text-align: center;">6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Post-apocalyptic wasteland</td>
+<td style="text-align: center;">Steampunk cityscape</td>
+<td style="text-align: center;">Dragon-infested skies</td>
+<td style="text-align: center;">Haunted mansion</td>
+<td style="text-align: center;">Futuristic metropolis</td>
+<td style="text-align: center;">Intergalactic trade routes</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Lost city of gold</td>
+<td style="text-align: center;">Artificial intelligence</td>
+<td style="text-align: center;">Pirate’s cove</td>
+<td style="text-align: center;">Time-travel paradox</td>
+<td style="text-align: center;">Espionage</td>
+<td style="text-align: center;">Extraterrestrial beings</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Underwater kingdom</td>
+<td style="text-align: center;">Epic sea voyage</td>
+<td style="text-align: center;">Superheroic powers</td>
+<td style="text-align: center;">Time loops</td>
+<td style="text-align: center;">Alternate realities</td>
+<td style="text-align: center;">Virtual reality simulation</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">Intriguing mystery</td>
+<td style="text-align: center;">Mutant uprising</td>
+<td style="text-align: center;">Advanced biotechnology</td>
+<td style="text-align: center;">Futuristic society</td>
+<td style="text-align: center;">Alternate history</td>
+<td style="text-align: center;">Cyberpunk dystopia</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">Extensive lore</td>
+<td style="text-align: center;">Unstoppable virus</td>
+<td style="text-align: center;">Enchanted forest</td>
+<td style="text-align: center;">The unknown frontiers</td>
+<td style="text-align: center;">Advanced robotics</td>
+<td style="text-align: center;">Secrets of the universe</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">End of the world scenarios</td>
+<td style="text-align: center;">Telekinetic abilities</td>
+<td style="text-align: center;">Futuristic weapons</td>
+<td style="text-align: center;">Dimension hopping</td>
+<td style="text-align: center;">Techno-sorcery</td>
+<td style="text-align: center;">Superpowered conflict</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 16%">
+<col style="width: 13%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 15%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;">3</th>
+<th style="text-align: center;">4</th>
+<th style="text-align: center;">5</th>
+<th style="text-align: center;">6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Lost civilization</td>
+<td style="text-align: center;">Decaying metropolis</td>
+<td style="text-align: center;">Gothic horror</td>
+<td style="text-align: center;">Wild west frontier</td>
+<td style="text-align: center;">Futuristic cyberwarfare</td>
+<td style="text-align: center;">Space exploration</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Political uprising</td>
+<td style="text-align: center;">Artificial lifeforms</td>
+<td style="text-align: center;">Mercenaries and assassins</td>
+<td style="text-align: center;">Time-traveling adventures</td>
+<td style="text-align: center;">Espionage mission</td>
+<td style="text-align: center;">Alien invasion</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Underwater adventure</td>
+<td style="text-align: center;">Epic siege</td>
+<td style="text-align: center;">Magical abilities</td>
+<td style="text-align: center;">Time anomalies</td>
+<td style="text-align: center;">Alternate timeline</td>
+<td style="text-align: center;">Virtual reality nightmare</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">Intriguing conspiracy</td>
+<td style="text-align: center;">Mutant insurgency</td>
+<td style="text-align: center;">Cybernetic enhancements</td>
+<td style="text-align: center;">Futuristic utopia</td>
+<td style="text-align: center;">Historical reimagining</td>
+<td style="text-align: center;">Cyberpunk rebellion</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">Extensive world-building</td>
+<td style="text-align: center;">Unstoppable monster</td>
+<td style="text-align: center;">Enchanted kingdom</td>
+<td style="text-align: center;">The final frontier</td>
+<td style="text-align: center;">Robotic revolution</td>
+<td style="text-align: center;">Secrets of the ancients</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">End of the era scenarios</td>
+<td style="text-align: center;">Psionic abilities</td>
+<td style="text-align: center;">Futuristic battlefields</td>
+<td style="text-align: center;">Interdimensional portals</td>
+<td style="text-align: center;">Technomancy</td>
+<td style="text-align: center;">Superpowered diplomacy</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="table-4-actions" class="level3">
+<h3 class="anchored" data-anchor-id="table-4-actions">Table 4: Actions</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 18%">
+<col style="width: 14%">
+<col style="width: 16%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;">3</th>
+<th style="text-align: center;">4</th>
+<th style="text-align: center;">5</th>
+<th style="text-align: center;">6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Cast</td>
+<td style="text-align: center;">Battle</td>
+<td style="text-align: center;">Free</td>
+<td style="text-align: center;">Explore</td>
+<td style="text-align: center;">Upgrade</td>
+<td style="text-align: center;">Pilot</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Decipher</td>
+<td style="text-align: center;">Seek</td>
+<td style="text-align: center;">Infiltrate</td>
+<td style="text-align: center;">Complete</td>
+<td style="text-align: center;">Join</td>
+<td style="text-align: center;">Uncover</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Find</td>
+<td style="text-align: center;">Master</td>
+<td style="text-align: center;">Tame</td>
+<td style="text-align: center;">Harness</td>
+<td style="text-align: center;">Win</td>
+<td style="text-align: center;">Unravel</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">Interrogate</td>
+<td style="text-align: center;">Navigate</td>
+<td style="text-align: center;">Survive</td>
+<td style="text-align: center;">Influence</td>
+<td style="text-align: center;">Overthrow</td>
+<td style="text-align: center;">Endure</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">Guess</td>
+<td style="text-align: center;">Pursue</td>
+<td style="text-align: center;">Resolve</td>
+<td style="text-align: center;">Perform</td>
+<td style="text-align: center;">Acquire</td>
+<td style="text-align: center;">Embark</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">Anticipate</td>
+<td style="text-align: center;">Develop</td>
+<td style="text-align: center;">Ally</td>
+<td style="text-align: center;">Expand</td>
+<td style="text-align: center;">Become</td>
+<td style="text-align: center;">Slay</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="table-5-oppositions" class="level3">
+<h3 class="anchored" data-anchor-id="table-5-oppositions">Table 5: Oppositions</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 18%">
+<col style="width: 16%">
+<col style="width: 15%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;">3</th>
+<th style="text-align: center;">4</th>
+<th style="text-align: center;">5</th>
+<th style="text-align: center;">6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Dark wizards</td>
+<td style="text-align: center;">Savage beasts</td>
+<td style="text-align: center;">Malevolent spirits</td>
+<td style="text-align: center;">Arrogant noblemen</td>
+<td style="text-align: center;">Dangerous traps</td>
+<td style="text-align: center;">Ruthless bandits</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Undead armies</td>
+<td style="text-align: center;">Corrupt politicians</td>
+<td style="text-align: center;">Sinister organizations</td>
+<td style="text-align: center;">Vicious monsters</td>
+<td style="text-align: center;">Treacherous terrain</td>
+<td style="text-align: center;">Despotic rulers</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Powerful artifacts</td>
+<td style="text-align: center;">Merciless assassins</td>
+<td style="text-align: center;">Dangerous creatures</td>
+<td style="text-align: center;">Ancient curses</td>
+<td style="text-align: center;">Complex puzzles</td>
+<td style="text-align: center;">Powerful spells</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">Ruthless mercenaries</td>
+<td style="text-align: center;">Dark forces</td>
+<td style="text-align: center;">Terrible secrets</td>
+<td style="text-align: center;">Insidious plots</td>
+<td style="text-align: center;">Vicious predators</td>
+<td style="text-align: center;">Unforgiving elements</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">Lethal poison</td>
+<td style="text-align: center;">Ancient prophecies</td>
+<td style="text-align: center;">Irresistible temptations</td>
+<td style="text-align: center;">Powerful enchantments</td>
+<td style="text-align: center;">Ruthless warlords</td>
+<td style="text-align: center;">Unseen dangers</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">Terrible curses</td>
+<td style="text-align: center;">Devious traps</td>
+<td style="text-align: center;">Sinister conspiracies</td>
+<td style="text-align: center;">Dangerous illusions</td>
+<td style="text-align: center;">Malevolent entities</td>
+<td style="text-align: center;">Ruthless factions</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="credits" class="level2">
+<h2 class="anchored" data-anchor-id="credits">Credits</h2>
+<ul>
+<li><a href="https://gravenutterance.itch.io/recluse">Recluse Engine</a> (CC BY 4.0) by Graven Utterance and Tiny Solitary Soldier Oracle for the main resolution and scene mechanics.</li>
+<li><a href="https://www.perilplanet.com/freeform-universal/">Freeform Universal Roleplaying Game</a> (CC BY 4.0) by Nathan Russell as an inspiration of the whole game and the character traits.</li>
+<li>Harm mechanics are from <a href="https://chaosmeister.itch.io/6-q-system">6Q System</a> (CC BY 4.0) by Marcus Burggraf.</li>
+<li>Tana Pigeon for <a href="https://www.wordmillgames.com/mythic.html">Mythic</a> and clarifying for me the mechanisms of expectation and testing.</li>
+<li>S. John Ross for <a href="https://www.risusrpg.com/">Risus</a> and to have taught me the beauty of clichés and that not all conflicts are combat.</li>
+<li>The Adventure Maker setup is inspired from <em>The Instant Game</em> by Animalball Partners (2007). None of its content is used here.</li>
+</ul>
+<p>With deepest thanks to : - Shane Conner for proof reading and revision of the text of the First Edition. - the Italian solo player community for their constant support and drive to improve the game.</p>
+</section>
+<section id="license" class="level2">
+<h2 class="anchored" data-anchor-id="license">License</h2>
+<p>Loner v.2.3</p>
+<ol start="200" type="I">
+<li>2023 Roberto Bisceglie</li>
+</ol>
+<p>This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.</p>
+</section>
+<section id="frequently-asked-questions" class="level2">
+<h2 class="anchored" data-anchor-id="frequently-asked-questions">Frequently Asked Questions</h2>
+<section id="does-luck-represent-the-characters-hit-points" class="level3">
+<h3 class="anchored" data-anchor-id="does-luck-represent-the-characters-hit-points">Does Luck represent the character’s Hit Points?</h3>
+<p>No, Luck represents a character’s ability to escape adverse fate; it does not measure the physical ability to avoid or absorb damage.</p>
+<p>This is why all characters in the game have exactly six Luck points: in the face of fate they are all equal!</p>
+<p>By using Luck in a conflict you introduce a finite degree of uncertainty: when either side’s points are exhausted the conflict is definitely ended against it.</p>
+<p>This is just one way to introduce a turn-based conflict into a game based entirely on the Oracle, but always remember that there are two other modes of resolution: single-question sequence conflict and single-action resolution using the Oracle.</p>
+</section>
+<section id="is-it-possible-to-tune-a-conflict-by-adjusting-luck-points" class="level3">
+<h3 class="anchored" data-anchor-id="is-it-possible-to-tune-a-conflict-by-adjusting-luck-points">Is it possible to tune a conflict by adjusting Luck points?</h3>
+<p>There is nothing in the game mechanics that prevents you from using less or more Luck points to define a character. If you want to calibrate an encounter in this way, you certainly can.</p>
+<p>Just keep in mind that you are in fact deciding that character is unlucky or particularly lucky; you are not assigning him or her any physical prowess or increased stamina!</p>
+<p>I suggest you embrace Luck for what it is and approach the conflict with sportsmanship!</p>
+</section>
+<section id="how-does-conflict-take-place-against-multiple-opponents" class="level3">
+<h3 class="anchored" data-anchor-id="how-does-conflict-take-place-against-multiple-opponents">How does conflict take place against multiple opponents?</h3>
+<p>It depends primarily on the context of the situation at hand, but one possible technique is to treat a roster of opponents as a single “character,” taking into account their characteristics such as Concept and Skill. Also keep in mind that a possible Fragility of such a character may be precisely their “numbers”: the more members of a roster, the more difficult it is to coordinate actions!</p>
+</section>
+<section id="what-is-the-difference-between-starting-with-a-dramatic-scene-and-setting-up-an-adventure-frame" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-the-difference-between-starting-with-a-dramatic-scene-and-setting-up-an-adventure-frame">What is the difference between starting with a dramatic scene and setting up an “adventure frame”?</h3>
+<p>Think of the “frame” as a randomly generated mission using the classic <a href="https://en.wikipedia.org/wiki/Five_Ws">5 W Rule</a> modified so that the “When” is replaced by a “How” and adding the Obstacle. This method provides a circumstantial premise that can trigger your imagination by already having mission objectives and principals in mind.</p>
+<p>Beginning with a dramatic scene is an old trick borrowed from fiction and film and often used by solo role-playing: it is easier to take your lead from a dynamic situation than from a static one.</p>
+<p>Think of the opening scene of <em>Raiders of the Lost Ark</em>: Indiana Jones ventures into the temple of the golden idol and must overcome traps and puzzles. The mystery and tension are palpable and the character’s every move is a risk. How equally effective would it have been to see Indiana Jones sitting in his living room consulting a book?</p>
+<p>A quiet opening scene is not in itself inadvisable, but it provides far fewer cues on which to hook one’s expectation, that is, fewer elements on which to question the oracle and keep the action moving forward.</p>
+<p>Premise (or “frame”) and “dramatic opening scene” are obviously not mutually exclusive, but they can also be used alternatively to kick-start the adventure.</p>
+</section>
+<section id="what-is-meant-by-ask-a-closed-question-to-solve-each-action-as-an-alternative-to-harm-luck-rules" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-meant-by-ask-a-closed-question-to-solve-each-action-as-an-alternative-to-harm-luck-rules">What is meant by “ask a closed question to solve each action” as an alternative to “Harm &amp; Luck” rules?</h3>
+<p>It is an intermediate mode between using a single question question to resolve the entire conflict and using the more “playful” mechanics of classic point combat.</p>
+<p>Literally every action is resolved by questioning the oracle. For example, your protagonist engages in a firefight in an abandoned chemical factory by asking the following sequence of questions:</p>
+<ul>
+<li>“Can I take cover behind the wall?” Yes, but. <em>your line of fire is not clean, you have disadvantage</em></li>
+<li>“I aim at the opponent, I can get the first shot in” No, but… <em>you disrupt his line of fire giving you advantage on the next shot</em></li>
+<li>“I shoot the slag container over the opponent, do I get in?” Yes, and… <em>slag hits him full on knocking him out</em></li>
+</ul>
+<p>It is a more free-form mode, but also more unpredictable in outcomes.</p>
+</section>
+<section id="is-it-possible-to-roll-three-or-more-chance-or-risk-dice-on-the-roll" class="level3">
+<h3 class="anchored" data-anchor-id="is-it-possible-to-roll-three-or-more-chance-or-risk-dice-on-the-roll">Is it possible to roll three or more Chance or Risk dice on the roll?</h3>
+<p>No, Loner is limited to a maximum of two Chance Dice or two Risk Dice per roll if an Advantage or Disadvantage comes into play.</p>
+<p>If multiple positive or negative tags (including those derived from character traits and situational ones, as well as equipment) incur in a situation, these do not result in additional dice.</p>
+<p>Similarly, the co-presence of one positive and one negative tag in the scene cancels each other out.</p>
+<p>In summary: - One or more positive tags net of negative ones: you roll with Advantage, two Chance Dice and one Risk Dice. - One or more negative tags net of positive ones: you roll with Disadvantage, two Risk Dice and one Chance Dice. - Positive and negative tags counterbalance (cancel) each other: you roll one Chance Die and one Risk Die.</p>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var sidebar = document.getElementById("quarto-margin-sidebar");
+  var formats = document.querySelector(".quarto-alternate-formats");
+  if (sidebar && formats) {
+    sidebar.insertBefore(formats, sidebar.firstChild);
+  }
+
+  // Rename "Typst" label to "PDF"
+  document.querySelectorAll(".quarto-alternate-formats a").forEach(function (a) {
+    a.childNodes.forEach(function (node) {
+      if (node.nodeType === Node.TEXT_NODE && node.textContent.trim() === "Typst") {
+        node.textContent = "PDF";
+      }
+    });
+  });
+});
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/zotiquestgames\.github\.io\/lonersrd\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2021-2026 <a href="https://zotiquestgames.com">Roberto Bisceglie</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/zotiquestgames/lonersrd/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

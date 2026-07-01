@@ -1,0 +1,2681 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Roberto Bisceglie">
+<meta name="dcterms.date" content="2026-07-01">
+
+<title>Loner: Cinematic Action – Loner SRD</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-d37705bb3a21d8331654a8d3f48f58ba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-87bbd3402671c853dcbde7c40b26e08b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-d37705bb3a21d8331654a8d3f48f58ba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&amp;family=Raleway:wght@700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+  @import url('https://fonts.cdnfonts.com/css/takota');
+</style>
+
+
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Loner SRD</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../core/loner-3e.html" aria-current="page"> 
+<span class="menu-text">Core Rules</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../adventure_packs/AP01_fantasy.html"> 
+<span class="menu-text">Adventure Packs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../geared_towards_loner/kwaidan_revised.html"> 
+<span class="menu-text">Geared Towards Loner</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/zotiquestgames/lonersrd"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../core/loner-3e.html">SRD</a></li><li class="breadcrumb-item"><a href="../core/cinematic_action.html">Cinematic Action</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">SRD</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/loner-3e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 3e</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/loner_companion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Companion</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/character_builders_guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Character Builder’s Guide</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/world_builders_guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">World Builder’s Guide</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/the_path_not_taken.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Path Not Taken</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/cinematic_action.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Cinematic Action</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/tales_and_tumbles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">For Kids</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Legacy Core Rules</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/legacy/loner-1e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 1e (legacy)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/legacy/loner-2e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 2e (legacy)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Adventure Packs</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP01_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fantasy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP02_space.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Space Sci-Fi Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP03_superheroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Superheroes Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP04_crime.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Crime Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP05_mystery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mystery Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP06_horror.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Horror Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP07_action_adventure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Action Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP08_spy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP09_postapoc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Post-Apocalyptic Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP10_pirates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pirates Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP11_western.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Western Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP12_cyberpunk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cyberpunk Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Adventure Packs (Legacy 2e)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP01_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fantasy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP02_space.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Space Sci-Fi Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP03_superheroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Superheroes Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP04_crime.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Crime Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP05_mystery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mystery Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP06_horror.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Horror Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP07_action_adventure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Action Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP08_spy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP09_postapoc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Post-Apocalyptic Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP10_pirates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pirates Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP11_western.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Western Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP12_cyberpunk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cyberpunk Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/legacy/kwaidan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan!</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">Geared Towards Loner games</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/kwaidan_revised.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan! (Revised)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/cog_compass.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cog &amp; Compass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/mech_requiem.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mech: Requiem</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/legends_of_camelot.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Legends of Camelot</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/pulp_adventures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pulp Adventures!</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/steel_and_sorcery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Steel &amp; Sorcery</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/dungeoneer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dungeoneer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/spacer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spacer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/arabian_nights_adventures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Arabian Nights Adventures</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/cozy_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cozy Fantasy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/savage_blades_of_xylandra.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Savage Blades of Xylandra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/pulp_heroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pulp Heroes!</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/the_shattered_reach.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Shattered Reach</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/galaxy_drifter.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Galaxy Drifter</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/urban_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Urban Fantasy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/norse_saga.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Norse Saga</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/cthulhu.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cthulhu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/paranormal_files.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Paranormal Files</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+ <span class="menu-text">Geared Towards Loner games (Legacy)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/legacy/kwaidan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan!</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#loner-cinematic-action" id="toc-loner-cinematic-action" class="nav-link active" data-scroll-target="#loner-cinematic-action">Loner: Cinematic Action</a>
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a>
+  <ul class="collapse">
+  <li><a href="#what-this-book-offers" id="toc-what-this-book-offers" class="nav-link" data-scroll-target="#what-this-book-offers">What This Book Offers</a></li>
+  <li><a href="#what-this-book-is-not" id="toc-what-this-book-is-not" class="nav-link" data-scroll-target="#what-this-book-is-not">What This Book Is NOT</a></li>
+  <li><a href="#how-to-use-this-book" id="toc-how-to-use-this-book" class="nav-link" data-scroll-target="#how-to-use-this-book">How to Use This Book</a></li>
+  <li><a href="#a-note-on-cinematic-license" id="toc-a-note-on-cinematic-license" class="nav-link" data-scroll-target="#a-note-on-cinematic-license">A Note on Cinematic License</a></li>
+  </ul></li>
+  <li><a href="#the-action-philosophy" id="toc-the-action-philosophy" class="nav-link" data-scroll-target="#the-action-philosophy">The Action Philosophy</a>
+  <ul class="collapse">
+  <li><a href="#what-makes-action-cinematic" id="toc-what-makes-action-cinematic" class="nav-link" data-scroll-target="#what-makes-action-cinematic">What Makes Action Cinematic?</a></li>
+  <li><a href="#cinematic-vs.-tactical" id="toc-cinematic-vs.-tactical" class="nav-link" data-scroll-target="#cinematic-vs.-tactical">Cinematic vs.&nbsp;Tactical</a></li>
+  <li><a href="#how-to-maintain-loners-minimalism-while-adding-action" id="toc-how-to-maintain-loners-minimalism-while-adding-action" class="nav-link" data-scroll-target="#how-to-maintain-loners-minimalism-while-adding-action">How to Maintain Loner’s Minimalism While Adding Action</a></li>
+  <li><a href="#when-to-use-these-mechanics-vs.-core-loner" id="toc-when-to-use-these-mechanics-vs.-core-loner" class="nav-link" data-scroll-target="#when-to-use-these-mechanics-vs.-core-loner">When to Use These Mechanics vs.&nbsp;Core Loner</a></li>
+  <li><a href="#setting-agnostic-action" id="toc-setting-agnostic-action" class="nav-link" data-scroll-target="#setting-agnostic-action">Setting-Agnostic Action</a></li>
+  <li><a href="#the-oracle-still-drives-everything" id="toc-the-oracle-still-drives-everything" class="nav-link" data-scroll-target="#the-oracle-still-drives-everything">The Oracle Still Drives Everything</a></li>
+  <li><a href="#ready" id="toc-ready" class="nav-link" data-scroll-target="#ready">Ready?</a></li>
+  </ul></li>
+  <li><a href="#action-points-system-deep-dive" id="toc-action-points-system-deep-dive" class="nav-link" data-scroll-target="#action-points-system-deep-dive">Action Points System Deep Dive</a>
+  <ul class="collapse">
+  <li><a href="#what-are-action-points" id="toc-what-are-action-points" class="nav-link" data-scroll-target="#what-are-action-points">What Are Action Points?</a></li>
+  <li><a href="#the-four-ways-to-spend-action-points" id="toc-the-four-ways-to-spend-action-points" class="nav-link" data-scroll-target="#the-four-ways-to-spend-action-points">The Four Ways to Spend Action Points</a></li>
+  <li><a href="#push-yourself-recovery-once-per-adventure" id="toc-push-yourself-recovery-once-per-adventure" class="nav-link" data-scroll-target="#push-yourself-recovery-once-per-adventure">Push Yourself: Recovery Once Per Adventure</a></li>
+  <li><a href="#why-these-trade-offs-matter" id="toc-why-these-trade-offs-matter" class="nav-link" data-scroll-target="#why-these-trade-offs-matter">Why These Trade-Offs Matter</a></li>
+  <li><a href="#examples-spending-action-points-in-play" id="toc-examples-spending-action-points-in-play" class="nav-link" data-scroll-target="#examples-spending-action-points-in-play">Examples: Spending Action Points in Play</a></li>
+  <li><a href="#action-points-quick-reference" id="toc-action-points-quick-reference" class="nav-link" data-scroll-target="#action-points-quick-reference">Action Points: Quick Reference</a></li>
+  <li><a href="#design-insight-why-action-points-work" id="toc-design-insight-why-action-points-work" class="nav-link" data-scroll-target="#design-insight-why-action-points-work">Design Insight: Why Action Points Work</a></li>
+  </ul></li>
+  <li><a href="#conflict-resolution-methods" id="toc-conflict-resolution-methods" class="nav-link" data-scroll-target="#conflict-resolution-methods">Conflict Resolution Methods</a>
+  <ul class="collapse">
+  <li><a href="#the-five-resolution-methods" id="toc-the-five-resolution-methods" class="nav-link" data-scroll-target="#the-five-resolution-methods">The Five Resolution Methods</a></li>
+  <li><a href="#making-the-choice-a-decision-tree" id="toc-making-the-choice-a-decision-tree" class="nav-link" data-scroll-target="#making-the-choice-a-decision-tree">Making the Choice: A Decision Tree</a></li>
+  <li><a href="#combining-methods-action-points-harm-luck" id="toc-combining-methods-action-points-harm-luck" class="nav-link" data-scroll-target="#combining-methods-action-points-harm-luck">Combining Methods: Action Points + Harm &amp; Luck</a></li>
+  <li><a href="#when-luck-runs-out" id="toc-when-luck-runs-out" class="nav-link" data-scroll-target="#when-luck-runs-out">When Luck Runs Out</a></li>
+  <li><a href="#quick-decision-guide" id="toc-quick-decision-guide" class="nav-link" data-scroll-target="#quick-decision-guide">Quick Decision Guide</a></li>
+  </ul></li>
+  <li><a href="#the-stunt-system" id="toc-the-stunt-system" class="nav-link" data-scroll-target="#the-stunt-system">The Stunt System</a>
+  <ul class="collapse">
+  <li><a href="#what-makes-a-stunt" id="toc-what-makes-a-stunt" class="nav-link" data-scroll-target="#what-makes-a-stunt">What Makes a Stunt?</a></li>
+  <li><a href="#the-stunt-framework" id="toc-the-stunt-framework" class="nav-link" data-scroll-target="#the-stunt-framework">The Stunt Framework</a></li>
+  <li><a href="#stunt-examples-across-genres" id="toc-stunt-examples-across-genres" class="nav-link" data-scroll-target="#stunt-examples-across-genres">Stunt Examples Across Genres</a></li>
+  <li><a href="#risk-reward-the-stunt-gamble" id="toc-risk-reward-the-stunt-gamble" class="nav-link" data-scroll-target="#risk-reward-the-stunt-gamble">Risk &amp; Reward: The Stunt Gamble</a></li>
+  <li><a href="#failed-stunts-and-consequences" id="toc-failed-stunts-and-consequences" class="nav-link" data-scroll-target="#failed-stunts-and-consequences">Failed Stunts and Consequences</a></li>
+  <li><a href="#stunt-vs.-regular-action" id="toc-stunt-vs.-regular-action" class="nav-link" data-scroll-target="#stunt-vs.-regular-action">Stunt vs.&nbsp;Regular Action</a></li>
+  <li><a href="#the-stunt-framework-at-a-glance" id="toc-the-stunt-framework-at-a-glance" class="nav-link" data-scroll-target="#the-stunt-framework-at-a-glance">The Stunt Framework at a Glance</a></li>
+  <li><a href="#quick-stunt-checklist" id="toc-quick-stunt-checklist" class="nav-link" data-scroll-target="#quick-stunt-checklist">Quick Stunt Checklist</a></li>
+  </ul></li>
+  <li><a href="#chases-pursuits" id="toc-chases-pursuits" class="nav-link" data-scroll-target="#chases-pursuits">Chases &amp; Pursuits</a>
+  <ul class="collapse">
+  <li><a href="#the-chase-framework-lightweight" id="toc-the-chase-framework-lightweight" class="nav-link" data-scroll-target="#the-chase-framework-lightweight">The Chase Framework (Lightweight)</a></li>
+  <li><a href="#making-chases-interesting-add-complications" id="toc-making-chases-interesting-add-complications" class="nav-link" data-scroll-target="#making-chases-interesting-add-complications">Making Chases Interesting: Add Complications</a></li>
+  <li><a href="#chase-examples" id="toc-chase-examples" class="nav-link" data-scroll-target="#chase-examples">Chase Examples</a></li>
+  <li><a href="#using-action-points-in-chases" id="toc-using-action-points-in-chases" class="nav-link" data-scroll-target="#using-action-points-in-chases">Using Action Points in Chases</a></li>
+  <li><a href="#optional-loose-distance-tracking" id="toc-optional-loose-distance-tracking" class="nav-link" data-scroll-target="#optional-loose-distance-tracking">Optional: Loose Distance Tracking</a></li>
+  <li><a href="#chase-quick-reference" id="toc-chase-quick-reference" class="nav-link" data-scroll-target="#chase-quick-reference">Chase Quick Reference</a></li>
+  </ul></li>
+  <li><a href="#momentum-pacing" id="toc-momentum-pacing" class="nav-link" data-scroll-target="#momentum-pacing">Momentum &amp; Pacing</a>
+  <ul class="collapse">
+  <li><a href="#what-is-cinematic-momentum" id="toc-what-is-cinematic-momentum" class="nav-link" data-scroll-target="#what-is-cinematic-momentum">What Is Cinematic Momentum?</a></li>
+  <li><a href="#twist-counter-as-automatic-pacing-engine" id="toc-twist-counter-as-automatic-pacing-engine" class="nav-link" data-scroll-target="#twist-counter-as-automatic-pacing-engine">Twist Counter as Automatic Pacing Engine</a></li>
+  <li><a href="#optional-intensity-tracking" id="toc-optional-intensity-tracking" class="nav-link" data-scroll-target="#optional-intensity-tracking">Optional: Intensity Tracking</a></li>
+  <li><a href="#pacing-guidelines" id="toc-pacing-guidelines" class="nav-link" data-scroll-target="#pacing-guidelines">Pacing Guidelines</a></li>
+  <li><a href="#multi-scene-action-arcs" id="toc-multi-scene-action-arcs" class="nav-link" data-scroll-target="#multi-scene-action-arcs">Multi-Scene Action Arcs</a></li>
+  <li><a href="#when-to-break-momentum-and-why" id="toc-when-to-break-momentum-and-why" class="nav-link" data-scroll-target="#when-to-break-momentum-and-why">When to Break Momentum (And Why)</a></li>
+  <li><a href="#the-cycle-action-consequence-reflection-next-action" id="toc-the-cycle-action-consequence-reflection-next-action" class="nav-link" data-scroll-target="#the-cycle-action-consequence-reflection-next-action">The Cycle: Action → Consequence → Reflection → Next Action</a></li>
+  <li><a href="#the-action-cycle" id="toc-the-action-cycle" class="nav-link" data-scroll-target="#the-action-cycle">The Action Cycle</a></li>
+  <li><a href="#quick-momentum-checklist" id="toc-quick-momentum-checklist" class="nav-link" data-scroll-target="#quick-momentum-checklist">Quick Momentum Checklist</a></li>
+  </ul></li>
+  <li><a href="#character-tags-for-action" id="toc-character-tags-for-action" class="nav-link" data-scroll-target="#character-tags-for-action">Character Tags for Action</a>
+  <ul class="collapse">
+  <li><a href="#action-oriented-concepts" id="toc-action-oriented-concepts" class="nav-link" data-scroll-target="#action-oriented-concepts">Action-Oriented Concepts</a></li>
+  <li><a href="#skills-for-action" id="toc-skills-for-action" class="nav-link" data-scroll-target="#skills-for-action">Skills for Action</a></li>
+  <li><a href="#frailties-that-matter-in-action" id="toc-frailties-that-matter-in-action" class="nav-link" data-scroll-target="#frailties-that-matter-in-action">Frailties That Matter in Action</a></li>
+  <li><a href="#gear-for-action" id="toc-gear-for-action" class="nav-link" data-scroll-target="#gear-for-action">Gear for Action</a></li>
+  <li><a href="#combining-tags-for-action-synergy" id="toc-combining-tags-for-action-synergy" class="nav-link" data-scroll-target="#combining-tags-for-action-synergy">Combining Tags for Action Synergy</a></li>
+  <li><a href="#evolution-through-action" id="toc-evolution-through-action" class="nav-link" data-scroll-target="#evolution-through-action">Evolution Through Action</a></li>
+  <li><a href="#tag-quick-reference" id="toc-tag-quick-reference" class="nav-link" data-scroll-target="#tag-quick-reference">Tag Quick Reference</a></li>
+  </ul></li>
+  <li><a href="#action-across-genres" id="toc-action-across-genres" class="nav-link" data-scroll-target="#action-across-genres">Action Across Genres</a>
+  <ul class="collapse">
+  <li><a href="#kung-fu-martial-arts-1" id="toc-kung-fu-martial-arts-1" class="nav-link" data-scroll-target="#kung-fu-martial-arts-1">Kung Fu / Martial Arts</a></li>
+  <li><a href="#superhero-1" id="toc-superhero-1" class="nav-link" data-scroll-target="#superhero-1">Superhero</a></li>
+  <li><a href="#spy-tactical-1" id="toc-spy-tactical-1" class="nav-link" data-scroll-target="#spy-tactical-1">Spy / Tactical</a></li>
+  <li><a href="#heist-criminal-1" id="toc-heist-criminal-1" class="nav-link" data-scroll-target="#heist-criminal-1">Heist / Criminal</a></li>
+  <li><a href="#post-apocalyptic" id="toc-post-apocalyptic" class="nav-link" data-scroll-target="#post-apocalyptic">Post-Apocalyptic</a></li>
+  <li><a href="#fantasy-combat" id="toc-fantasy-combat" class="nav-link" data-scroll-target="#fantasy-combat">Fantasy Combat</a></li>
+  <li><a href="#sci-fi-action" id="toc-sci-fi-action" class="nav-link" data-scroll-target="#sci-fi-action">Sci-Fi Action</a></li>
+  <li><a href="#genre-modifier-table" id="toc-genre-modifier-table" class="nav-link" data-scroll-target="#genre-modifier-table">Genre Modifier Table</a></li>
+  </ul></li>
+  <li><a href="#appendix-a-quick-reference" id="toc-appendix-a-quick-reference" class="nav-link" data-scroll-target="#appendix-a-quick-reference">Appendix A: Quick Reference</a>
+  <ul class="collapse">
+  <li><a href="#action-points-cheat-sheet" id="toc-action-points-cheat-sheet" class="nav-link" data-scroll-target="#action-points-cheat-sheet">Action Points Cheat Sheet</a></li>
+  <li><a href="#stunt-framework-one-pager" id="toc-stunt-framework-one-pager" class="nav-link" data-scroll-target="#stunt-framework-one-pager">Stunt Framework One-Pager</a></li>
+  <li><a href="#chase-quick-resolution" id="toc-chase-quick-resolution" class="nav-link" data-scroll-target="#chase-quick-resolution">Chase Quick Resolution</a></li>
+  <li><a href="#conflict-resolution-decision-tree" id="toc-conflict-resolution-decision-tree" class="nav-link" data-scroll-target="#conflict-resolution-decision-tree">Conflict Resolution Decision Tree</a></li>
+  <li><a href="#momentum-intensity-track" id="toc-momentum-intensity-track" class="nav-link" data-scroll-target="#momentum-intensity-track">Momentum Intensity Track</a></li>
+  <li><a href="#oracle-result-luck-damage" id="toc-oracle-result-luck-damage" class="nav-link" data-scroll-target="#oracle-result-luck-damage">Oracle Result → Luck Damage</a></li>
+  <li><a href="#example-full-action-scene" id="toc-example-full-action-scene" class="nav-link" data-scroll-target="#example-full-action-scene">Example: Full Action Scene</a></li>
+  </ul></li>
+  <li><a href="#license" id="toc-license" class="nav-link" data-scroll-target="#license">License</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/zotiquestgames/lonersrd/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="cinematic_action.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="cinematic_action.odt"><i class="bi bi-file"></i>OpenOffice</a></li><li><a href="cinematic_action.epub"><i class="bi bi-file"></i>ePub</a></li><li><a href="cinematic_action-gfm.md"><i class="bi bi-file-code"></i>Github (GFM)</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../core/loner-3e.html">SRD</a></li><li class="breadcrumb-item"><a href="../core/cinematic_action.html">Cinematic Action</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Loner: Cinematic Action</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Roberto Bisceglie </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 1, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="loner-cinematic-action" class="level1">
+<h1>Loner: Cinematic Action</h1>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>You know that moment in a movie? The hero slides under a closing door, tumbles forward, springs to their feet, and launches into a kick that breaks three ribs and sends an enemy sprawling backward through a window. No physics, no hesitation, just pure cinematic magic.</p>
+<p>That’s what this book is about.</p>
+<p><em>Loner</em> is already an incredible system for solo RPG storytelling. The Oracle drives unpredictable narratives, tags let you describe anything without crunching numbers, and the minimalist approach keeps friction out of your fiction. But <em>Loner</em> is agnostic about tone. You can play it tense and tactical, slow and contemplative, or anything in between.</p>
+<p><strong>This companion guide</strong> is for when you want to play <em>Loner</em> at full cinematic throttle, where your protagonist leaps between rooftops, pulls off impossible stunts, and bends the laws of physics through sheer determination and style. It’s for kung fu flicks, superhero spectacles, heist capers, and over-the-top action fantasies. It’s for the moments where you ask: <em>“Can I do that?”</em> And the answer is: <em>“Hell yeah, roll and find out.”</em></p>
+<p>None of these mechanics are mandatory. If the Oracle gives you a result that makes the scene better by ignoring the AP rules, ignore them. If a stunt should obviously succeed, let it succeed. The systems here are defaults, not laws.</p>
+<section id="what-this-book-offers" class="level3">
+<h3 class="anchored" data-anchor-id="what-this-book-offers">What This Book Offers</h3>
+<p><strong>Action Points</strong> – A resource pool (3 per conflict) that lets you spend points for cinematic moments: gaining advantage, canceling failures, avoiding consequences, or attempting the impossible. Recovery comes once per adventure through the <em>Push Yourself</em> mechanic.</p>
+<p><strong>The Stunt System</strong> – A framework for character-defined, creative actions that push the boundaries of what’s “realistic.” Describe your stunt, roll the Oracle, and if you succeed, you win <em>spectacularly</em>.</p>
+<p><strong>Enhanced Conflict Resolution</strong> – Multiple approaches to fights, chases, and showdowns: single-roll quick resolutions, action-by-action breakdowns, or full attrition-based tracking with Harm &amp; Luck. Choose the level of detail that fits your moment.</p>
+<p><strong>Chase Mechanics</strong> – Lightweight rules for pursuits that stay story-focused instead of getting bogged down in distance tracking. A few Oracle questions determine if you escape, get caught, or take an unexpected turn.</p>
+<p><strong>Momentum &amp; Pacing</strong> – Tools for building cinematic tension through escalation, using your Twist Counter strategically, and knowing when to slam the brakes for a quiet moment of recovery.</p>
+<p><strong>Genre Adaptations</strong> – How these systems shift across kung fu, superhero, spy thrillers, heists, and more.</p>
+</section>
+<section id="what-this-book-is-not" class="level3">
+<h3 class="anchored" data-anchor-id="what-this-book-is-not">What This Book Is NOT</h3>
+<p>This is not a replacement for <em>Loner</em>’s core rules. Everything in this guide is <strong>optional</strong>. You bolt it on when you want action to feel more cinematic. The core Oracle, the tag system, the minimalist approach: all of it stays exactly the same.</p>
+<p>It’s also not a detailed tactical combat system. If you want grid-based positioning and turn order and armor class calculations, this isn’t your book. This is about <strong>narrative action</strong>, where the story moves fast, the stakes are high, and physics is negotiable.</p>
+<p>Finally, it’s not about group play. These rules are designed for solo storytelling. Some elements could be adapted for groups, but we’re not going there.</p>
+</section>
+<section id="how-to-use-this-book" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-use-this-book">How to Use This Book</h3>
+<p>There’s no strict reading order. Each chapter is mostly self-contained:</p>
+<ul>
+<li>Want to add <strong>Action Points</strong> to any game? Jump to Chapter 2.</li>
+<li>Need <strong>Stunt rules</strong> but nothing else? Chapter 4.</li>
+<li>Want to understand <strong>cinematic philosophy</strong>? Chapter 1 sets the tone.</li>
+<li>Planning a <strong>kung fu game</strong>? Chapter 8 has genre-specific tweaks.</li>
+</ul>
+<p>You can mix and match. Use Action Points but skip the formal Chase mechanics. Use Stunts but handle conflicts with core Loner rules. The system is flexible. Make it yours.</p>
+</section>
+<section id="a-note-on-cinematic-license" class="level3">
+<h3 class="anchored" data-anchor-id="a-note-on-cinematic-license">A Note on Cinematic License</h3>
+<p>This book is built on a simple philosophy: <strong>If it makes for a good story, it’s allowed.</strong></p>
+<p>Real physics? Optional. Exhaustion mechanics? Not here. Fallible protagonists who make mistakes? Sure, but the Oracle decides, not probability. In cinematic action, the protagonist is the star, and the world bends around their choices, skills, and determination.</p>
+<p>That doesn’t mean consequences disappear. It means consequences feel <em>dramatic</em>. You’re not worried about resource management; you’re worried about whether you’ll make it out alive, keep your cover, save the hostage, or survive what’s coming next.</p>
+<p>Let’s build some cinematic magic.</p>
+</section>
+</section>
+<section id="the-action-philosophy" class="level2">
+<h2 class="anchored" data-anchor-id="the-action-philosophy">The Action Philosophy</h2>
+<p>Before we talk mechanics, let’s talk philosophy.</p>
+<p><em>Loner</em> works because it gets out of your way. The rules are simple enough that they disappear, letting you focus on the story. When you add Action Points and Stunts and chase mechanics, we’re not trying to make <em>Loner</em> complicated. We’re trying to make <strong>action feel cinematic</strong>.</p>
+<section id="what-makes-action-cinematic" class="level3">
+<h3 class="anchored" data-anchor-id="what-makes-action-cinematic">What Makes Action Cinematic?</h3>
+<p>Cinematic action has specific qualities:</p>
+<p><strong>1. The protagonist always has options.</strong></p>
+<p>In a tight fight, your character doesn’t just “roll to hit.” They can try a risky stunt, burn an Action Point to gain advantage, or accept a consequence to achieve something impossible.</p>
+<p><strong>2. Physics is in service of the story.</strong></p>
+<p>Your protagonist slips through a closing security door, tumbles across a glass table, and lands on their feet firing. This violates every law of physics. Nobody cares. It <em>looks cool</em> and moves the story forward.</p>
+<p><strong>3. Failure creates new complications, not dead ends.</strong></p>
+<p>When your stunt fails, the scene escalates. An alarm triggers. An unexpected enemy shows up. The environment collapses differently than expected. Failure doesn’t stop the story; it <em>twists</em> it.</p>
+<p><strong>4. Style matters as much as success.</strong></p>
+<p>Your protagonist can accomplish the same goal ten different ways. But how they do it, with style, swagger, clever thinking, or sheer determination, is what makes the story memorable. <em>Loner</em> cares about this because it cares about narrative.</p>
+<p><strong>5. Momentum builds across scenes.</strong></p>
+<p>Action doesn’t exist in isolation. One victory feeds into the next challenge. A failed escape leads to capture, which leads to an interrogation, which leads to a dramatic reveal. Momentum builds, tension escalates, and the story accelerates.</p>
+</section>
+<section id="cinematic-vs.-tactical" class="level3">
+<h3 class="anchored" data-anchor-id="cinematic-vs.-tactical">Cinematic vs.&nbsp;Tactical</h3>
+<p>Let’s be clear about the difference.</p>
+<p><strong>Tactical action</strong> cares about positions on a grid, armor class, hit points, and turn order. It’s strategic: can you outmaneuver your enemy? Do you have the right equipment? What’s your formation?</p>
+<p><strong>Cinematic action</strong> cares about narrative and consequence. What <em>should</em> happen next? How does your choice affect the story? What makes for the best scene?</p>
+<p>This guide focuses on <strong>cinematic action</strong>. That doesn’t mean there are no tactics; there absolutely are. But tactics serve the narrative, not the other way around.</p>
+<p>The Oracle still decides outcomes. You still use tags to describe advantages and disadvantages. You still roll dice to resolve uncertainty. The difference is that everything is framed around <em>what makes a good action scene</em>, not <em>what’s mechanically optimal</em>.</p>
+</section>
+<section id="how-to-maintain-loners-minimalism-while-adding-action" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-maintain-loners-minimalism-while-adding-action">How to Maintain Loner’s Minimalism While Adding Action</h3>
+<p><em>Loner</em> is minimalist by design. Four six-sided dice, paper, pencil, tags, Oracle. That’s all. Adding action mechanics could bloat this. We’re not letting it.</p>
+<p>Here’s how we keep it lean:</p>
+<p><strong>Every mechanic serves story, not simulation.</strong> Action Points aren’t resource management; they’re narrative permission. You have 3 AP per conflict because 3 is enough to force real choices without feeling overwhelming.</p>
+<p><strong>Mechanics use existing tools.</strong> We’re not inventing new subsystems. Action Points interact with Advantage/Disadvantage. Stunts use the Oracle. Chases use Oracle questions. You already know how to play; we’re just giving you new ways to use the same tools.</p>
+<p><strong>No math beyond d6 rolls.</strong> You never track numbers beyond the d6 you’re rolling. Luck is still 1-6. AP is still 1-3. Distance in a chase is still narrative (“close,” “distant”). No calculation, no bookkeeping.</p>
+<p><strong>Optional is the key word.</strong> Don’t like Action Points? Don’t use them. Stunts feel gimmicky? Skip them. Play with just chases, or just Momentum pacing, or none of it. Everything here is bolt-on.</p>
+</section>
+<section id="when-to-use-these-mechanics-vs.-core-loner" class="level3">
+<h3 class="anchored" data-anchor-id="when-to-use-these-mechanics-vs.-core-loner">When to Use These Mechanics vs.&nbsp;Core Loner</h3>
+<p>Here’s a quick guide:</p>
+<p><strong>Use core Loner rules (no action mechanics) when:</strong></p>
+<ul>
+<li>The conflict is brief or already decided.</li>
+<li>You want a quick resolution and narrative result.</li>
+<li>The scene is emotionally driven, not action-driven.</li>
+<li>You’re playing a slower, more contemplative tone.</li>
+</ul>
+<p><strong>Use Action Points when:</strong></p>
+<ul>
+<li>You want cinematic, multi-round action.</li>
+<li>Your protagonist has resources to spend on dramatic moments.</li>
+<li>You want to choose when to go all-in.</li>
+</ul>
+<p><strong>Use Stunts when:</strong></p>
+<ul>
+<li>Your protagonist has a creative idea.</li>
+<li>They’re trying something that shouldn’t work but might.</li>
+<li>The description matters as much as the outcome.</li>
+</ul>
+<p><strong>Use Harm &amp; Luck when:</strong></p>
+<ul>
+<li>The conflict is <strong>extended</strong> and <strong>high-stakes</strong>.</li>
+<li>You want to track attrition and escalating danger.</li>
+<li>Enemies have their own Luck pool and stakes rise as both sides lose points.</li>
+</ul>
+<p><strong>Use Chase mechanics when:</strong></p>
+<ul>
+<li>Someone is pursuing someone else.</li>
+<li>Escape, evasion, or capture is the core tension.</li>
+<li>The environment plays an active role.</li>
+</ul>
+</section>
+<section id="setting-agnostic-action" class="level3">
+<h3 class="anchored" data-anchor-id="setting-agnostic-action">Setting-Agnostic Action</h3>
+<p>This guide works across any setting where action makes sense:</p>
+<p><strong>Fantasy:</strong> Dragon riders jousting in the sky. Sword duels on crumbling bridges. Wizards launching spells while dodging arrows.</p>
+<p><strong>Sci-Fi:</strong> Space station chases through zero-gravity. Hacking while under fire. Mech battles in city streets.</p>
+<p><strong>Superhero:</strong> Rooftop chases across a city. Powers clashing in impossible ways. Time limits before the bomb goes off.</p>
+<p><strong>Spy/Tactical:</strong> Gunfights through crowded streets. Undercover infiltrations with complications. Car chases on winding roads.</p>
+<p><strong>Kung Fu:</strong> Every fight is a stunt festival. Physics-defying martial arts. Enemies are obstacles to overcome creatively.</p>
+<p><strong>Heist:</strong> The plan goes sideways. Improvisation under pressure. Alarms, guards, and last-second pivots.</p>
+<p>The mechanics stay the same; only the <strong>flavor</strong> changes. An Action Point spent for Advantage in a sword duel works exactly the same as an Action Point spent during a spaceship dogfight. A Stunt in a martial arts film follows the same Oracle roll as a Stunt during a heist escape.</p>
+</section>
+<section id="the-oracle-still-drives-everything" class="level3">
+<h3 class="anchored" data-anchor-id="the-oracle-still-drives-everything">The Oracle Still Drives Everything</h3>
+<p>Here’s the most important thing: <strong>the Oracle is still in charge.</strong></p>
+<p>When you roll Action Points and Stunts and Chases, the Oracle answers. Success isn’t guaranteed because you’re creative or because the movie would look cool. You roll. The Oracle decides. Reality, this story’s reality, is determined by randomness and narrative sense in equal measure.</p>
+<p>This keeps the game <strong>emergent</strong>. You can’t guarantee your stunt succeeds. You can’t buy your way past consequences with AP. You’re negotiating with the Oracle, and sometimes the Oracle says <em>no</em>.</p>
+<p>That’s where the tension lives.</p>
+</section>
+<section id="ready" class="level3">
+<h3 class="anchored" data-anchor-id="ready">Ready?</h3>
+<p>If you’ve read this far, you’re ready. You understand that we’re not replacing <em>Loner</em>; we’re amplifying it toward cinematic action. We’re keeping the minimalism, respecting the Oracle, and focusing on story.</p>
+<p>Let’s get into the mechanics.</p>
+</section>
+</section>
+<section id="action-points-system-deep-dive" class="level2">
+<h2 class="anchored" data-anchor-id="action-points-system-deep-dive">Action Points System Deep Dive</h2>
+<section id="what-are-action-points" class="level3">
+<h3 class="anchored" data-anchor-id="what-are-action-points">What Are Action Points?</h3>
+<p>Action Points (or AP) are narrative resources. They represent moments of cinematic determination: when your protagonist decides to go all-in, bend luck in their favor, or attempt something that should be impossible.</p>
+<p>You get <strong>3 Action Points per conflict</strong>. They don’t refresh during a conflict; you spend them down. Once all 3 are gone, you play the rest of the conflict without them. Each conflict gives you a fresh 3 AP pool.</p>
+</section>
+<section id="the-four-ways-to-spend-action-points" class="level3">
+<h3 class="anchored" data-anchor-id="the-four-ways-to-spend-action-points">The Four Ways to Spend Action Points</h3>
+<section id="option-1-gain-advantage-1-ap" class="level4">
+<h4 class="anchored" data-anchor-id="option-1-gain-advantage-1-ap"><strong>Option 1: Gain Advantage (1 AP)</strong></h4>
+<p>Spend 1 AP to add an extra Chance die to your next Oracle roll.</p>
+<p>Instead of rolling 1 Chance die and 1 Risk die, you roll 2 Chance dice and 1 Risk die (then keep the highest Chance die). This shifts the odds in your favor without guaranteeing success.</p>
+<p><strong>When to use this:</strong> You want better odds on something important. You’re about to roll for a crucial stunt, a negotiation, or avoiding a trap. The 50/50 isn’t good enough; you need the edge.</p>
+<p><strong>Tag Cap interaction:</strong> The core rules cap the dice pool at 2 Chance dice or 2 Risk dice maximum, regardless of how many tags apply. If you already have Advantage from tags (already rolling 2 Chance, 1 Risk), spending 1 AP for Advantage adds nothing. In that case, use the AP to cancel an active Disadvantage instead: the AP spend neutralizes one source of Disadvantage rather than adding a die. If no Disadvantage is active either, save the AP.</p>
+<p><strong>Example:</strong> Zahra is attempting to hack a security terminal with an alarm system. She asks the Oracle: <em>“Do I get past the security before it alerts?”</em> The situation is tough (Disadvantage from unfamiliar system), but she spends 1 AP for Advantage. She rolls 2 Chance dice and 1 Risk die (keeping highest Chance). This balances out the Disadvantage, giving her better odds.</p>
+</section>
+<section id="option-2-cancel-a-failure-1-ap" class="level4">
+<h4 class="anchored" data-anchor-id="option-2-cancel-a-failure-1-ap"><strong>Option 2: Cancel a Failure (1 AP)</strong></h4>
+<p>Spend 1 AP to reroll an Oracle result that came up as a “No.”</p>
+<p>You asked the Oracle a yes/no question, it came up “No” (or “No, but…” or “No, and…”), and you’re not happy with it. Spend 1 AP to immediately reroll that same question. The new result replaces the old one, and you <em>must</em> accept it, good or bad.</p>
+<p><strong>When to use this:</strong> You’re desperate. A failure here has major consequences, and you’re burning a resource to fight fate. Or you weren’t ready for the outcome and need a second chance to process the scene.</p>
+<p><strong>Important:</strong> This isn’t “cancel the consequence.” You’re rerolling the Oracle itself. If the new roll is still “No,” that’s your answer now. You committed.</p>
+<p><strong>Example:</strong> Zahra is attempting a rooftop jump between buildings in heavy rain. The Oracle says “No, and…” (she misses the jump and falls). Zahra spends 1 AP to reroll: <em>“Do I make the jump?”</em> New roll: “Yes, but…” (she makes it, but her hand slips on the landing). Much better.</p>
+</section>
+<section id="option-3-avoid-a-consequence-1-ap" class="level4">
+<h4 class="anchored" data-anchor-id="option-3-avoid-a-consequence-1-ap"><strong>Option 3: Avoid a Consequence (1 AP)</strong></h4>
+<p>Spend 1 AP to negate a narrative consequence.</p>
+<p>You succeeded (or failed), and as part of the resolution, a complication emerged. Your weapon jams. You triggered an alarm. You got spotted by a witness. An NPC enemy shows up. Spend 1 AP to erase that consequence from the scene.</p>
+<p><strong>When to use this:</strong> The consequence is worse than losing. You’d rather accept the base success/failure than deal with the new problem it creates.</p>
+<p><strong>Example:</strong> Zahra escapes a building complex (success!), but her escape route is blocked by security (consequence). She spends 1 AP to avoid the consequence: the guards don’t show up, or they’re distracted, or she finds an alternate route. She escapes clean.</p>
+</section>
+<section id="option-4-do-the-impossible-1-ap" class="level4">
+<h4 class="anchored" data-anchor-id="option-4-do-the-impossible-1-ap"><strong>Option 4: Do the Impossible (1 AP)</strong></h4>
+<p>Spend 1 AP to attempt something that should automatically fail.</p>
+<p>You want to do something narrative-breaking. Jump a motorcycle across a canyon. Dive off a building and grab a rope. Fight two opponents at once while protecting a hostage. Something that in a normal scene would get a flat “no.”</p>
+<p>Spend 1 AP, describe what you’re attempting, and roll the Oracle.</p>
+<p><strong>But here’s the cost:</strong> If you attempt the impossible, you <em>must</em> pay a narrative cost, regardless of success or failure. Something about your character, the scene, or the world changes as a consequence of this audacious act.</p>
+<p>That cost is <strong>yours to narrate</strong>. Examples:</p>
+<ul>
+<li>You gain a <strong>new Frailty</strong> (<em>Exhausted</em>, <em>Wounded</em>, <em>Noticed by Enemies</em>).</li>
+<li>You <strong>burn a Tag</strong> temporarily (<em>that cool skill is strained and unreliable now</em>).</li>
+<li><strong>Circumstances escalate</strong> (<em>the guards go on high alert</em>, <em>your cover is compromised</em>, <em>the building starts collapsing</em>).</li>
+</ul>
+<p><strong>How to choose the cost:</strong> If the attempt risks your body or identity, take a Frailty. If it strains a specific capability you relied on, burn a Tag. If the act itself changes the world around you, escalate circumstances. When in doubt, escalate; it keeps the story moving.</p>
+<p><strong>Do the Impossible vs.&nbsp;Stunts:</strong> A Stunt is a creative action you describe with flair; it doesn’t cost AP, and any action can be a Stunt. Do the Impossible is an AP spend that grants you the right to <em>roll</em> for something the narrative would otherwise automatically deny. You can combine them: describe a Stunt and spend 1 AP to attempt it as an impossible act. When you do, both the stunt’s Oracle roll and the AP’s narrative cost apply.</p>
+<p><strong>When to use this:</strong> When you want to be the action hero. When you want that cinematic moment. When the story <em>needs</em> the impossible attempt, even if it might fail.</p>
+<p><strong>Example:</strong> Zahra is pinned by enemy fire. She wants to grab, against all odds, a pendant off a table across the room without getting shot. The situation is hopeless, but she spends 1 AP to attempt the impossible. She rolls against the Oracle. Success? She gets the pendant, but she takes a hit (Frailty: <em>Bleeding</em>). Failure? She doesn’t get the pendant and gets hit worse (<em>Wounded</em> becomes <em>Severely Wounded</em>). Either way, the attempt itself carries cost.</p>
+</section>
+</section>
+<section id="push-yourself-recovery-once-per-adventure" class="level3">
+<h3 class="anchored" data-anchor-id="push-yourself-recovery-once-per-adventure">Push Yourself: Recovery Once Per Adventure</h3>
+<p>Once per adventure, you can spend your <strong>Push Yourself</strong> moment to recover 3 Action Points in the middle of a conflict. An adventure is a single story arc: one mission, one job, one investigation. When in doubt, treat it as one session of play. If an arc spans multiple sessions, Push Yourself resets at the start of each new session.</p>
+<p>But it’s not free. When you Push Yourself, you choose <strong>one</strong> of these consequences:</p>
+<section id="option-a-take-a-serious-consequence" class="level4">
+<h4 class="anchored" data-anchor-id="option-a-take-a-serious-consequence"><strong>Option A: Take a Serious Consequence</strong></h4>
+<p>Something genuinely bad happens. Not a minor complication; something with real narrative weight.</p>
+<p>You’re caught off-guard and take damage (gain a permanent Trait). You trigger a trap that wasn’t supposed to be there. An NPC betrays you. An entire group of enemies arrives. The building collapses around you.</p>
+<p>After choosing this consequence, you reset to 3 AP and can continue the conflict.</p>
+</section>
+<section id="option-b-burn-a-tag" class="level4">
+<h4 class="anchored" data-anchor-id="option-b-burn-a-tag"><strong>Option B: Burn a Tag</strong></h4>
+<p>Temporarily or permanently remove one of your core identity tags.</p>
+<p>Your Skill becomes unavailable (<em>that training is locked up, you can’t access it right now</em>). Your Gear breaks or gets left behind. Your Concept shifts (<em>“Cunning” becomes “Desperate”</em>). Your Frailty worsens.</p>
+<p>After burning the tag, you reset to 3 AP.</p>
+</section>
+<section id="option-c-escalate-the-situation" class="level4">
+<h4 class="anchored" data-anchor-id="option-c-escalate-the-situation"><strong>Option C: Escalate the Situation</strong></h4>
+<p>Make the conflict harder, more dangerous, or more complex.</p>
+<p>The one enemy becomes three enemies. The time limit shrinks. The environment becomes hostile. A subplot suddenly crashes into the main conflict. Something that was manageable becomes overwhelming.</p>
+<p>You reset to 3 AP, but now you’re playing on hard mode.</p>
+</section>
+</section>
+<section id="why-these-trade-offs-matter" class="level3">
+<h3 class="anchored" data-anchor-id="why-these-trade-offs-matter">Why These Trade-Offs Matter</h3>
+<p><strong>Push Yourself recovers 3 AP, but the cost is real.</strong> You get 3 more Action Points in the middle of a conflict. That’s huge. But the cost ensures it’s a <em>choice</em>, not a free pass.</p>
+<p>If taking a serious consequence is worth it, you take it. If burning a tag costs you more than the AP gains you, you accept losing the conflict. If escalating the situation makes the fight unwinnable, you have to ask: is getting those AP worth it?</p>
+<p>That’s the tension. That’s the tension: choosing when to go all-in and what you’re willing to sacrifice.</p>
+</section>
+<section id="examples-spending-action-points-in-play" class="level3">
+<h3 class="anchored" data-anchor-id="examples-spending-action-points-in-play">Examples: Spending Action Points in Play</h3>
+<section id="example-1-the-heist-infiltration" class="level4">
+<h4 class="anchored" data-anchor-id="example-1-the-heist-infiltration"><strong>Example 1: The Heist Infiltration</strong></h4>
+<p>Zahra is sneaking through a corporate facility. She’s made it three rooms in without triggering an alarm. Now she’s at the main server room, but there’s a guard checkpoint between her and the door.</p>
+<p>She asks the Oracle: <em>“Can I slip past the guard unnoticed?”</em></p>
+<p><strong>Roll:</strong> Chance die (3), Risk die (4). Result: “No” (Risk is higher).</p>
+<p>She doesn’t like this. The mission depends on reaching the server. She has three options:</p>
+<p><strong>Option 1 (Cancel Failure):</strong> Spend 1 AP, reroll the same question.</p>
+<p>New roll: Chance die (5), Risk die (2). Result: “Yes” (she gets past).</p>
+<p>She moves forward, but she’s used 1 of 3 AP.</p>
+<p>Or…</p>
+<p><strong>Option 2 (Do the Impossible):</strong> Spend 1 AP, describe something wild.</p>
+<blockquote class="blockquote">
+<p>“I wait until the guard is distracted, then I run straight at him, vault over his desk, and do a forward roll into the server room while he’s still processing what’s happening.”</p>
+</blockquote>
+<p>She rolls: Chance (4), Risk (3). Result: “Yes, but…” (she succeeds, but the guard sees her; consequence).</p>
+<p>Then she spends 1 AP to avoid the consequence: the guard’s radio is broken, or he hesitates, or something else prevents the alarm. She’s in the server room, clean, but she’s used 2 AP and a consequence-avoidance.</p>
+</section>
+<section id="example-2-a-duel-gone-wrong" class="level4">
+<h4 class="anchored" data-anchor-id="example-2-a-duel-gone-wrong"><strong>Example 2: A Duel Gone Wrong</strong></h4>
+<p>Zahra is fighting a skilled opponent. They’ve traded blows for several rounds. Zahra’s hurt (has taken Luck damage), and her opponent still looks strong.</p>
+<p>She’s on her third round of the fight. She has only 1 AP left (she spent 2 in earlier moments). The Oracle determines that her opponent is about to land a serious hit.</p>
+<p>She could accept it: take the Luck loss, and keep fighting. Or she could get creative:</p>
+<p><strong>Option (Do the Impossible with Push Yourself):</strong> <em>“I throw sand in his eyes, grab the chandelier above us, and swing across the room while he’s blinded, getting distance and repositioning.”</em></p>
+<p>The Oracle determines this needs a roll. She rolls: Chance (2), Risk (5). Result: “No, and…” (not only does it fail, but he anticipates her move and closes the distance faster).</p>
+<p>But this “Do the Impossible” moment hits her hard. She decides to trigger <strong>Push Yourself</strong>:</p>
+<p>She chooses <strong>Escalate the Situation:</strong> His reinforcements arrive just as her distraction fails. Now she’s facing three opponents instead of one.</p>
+<p>She resets to 3 AP, but the fight just became a lot harder.</p>
+</section>
+<section id="example-3-a-chase" class="level4">
+<h4 class="anchored" data-anchor-id="example-3-a-chase"><strong>Example 3: A Chase</strong></h4>
+<p>Zahra is fleeing on foot through a crowded market. An enemy is chasing her. She has 2 AP remaining.</p>
+<p>She sees an opportunity: a rope hanging from a canopy, a vendor’s stall to jump over, a fountain to run through. She wants to attempt a cinematic escape, something that will look cool and might give her distance.</p>
+<p>She describes a stunt: <em>“I grab the rope, swing over the vendor stall, and drop behind the fountain. The angle means he loses sight of me for a moment.”</em></p>
+<p>Oracle roll for the stunt: Chance (4), Risk (4). Result: “Yes, but…” (she does it, but she lands hard; consequence: minor injury).</p>
+<p>She could accept the consequence, or spend 1 AP to avoid it. She spends 1 AP (now at 1 AP remaining). She’s further ahead, no injury, but her AP is almost gone.</p>
+</section>
+</section>
+<section id="action-points-quick-reference" class="level3">
+<h3 class="anchored" data-anchor-id="action-points-quick-reference">Action Points: Quick Reference</h3>
+<p><img src="../diagrams/cinematic_ap_spending.png" class="img-fluid"></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 15%">
+<col style="width: 64%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Action</th>
+<th>Cost</th>
+<th>What It Does</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Gain Advantage</strong></td>
+<td>1 AP</td>
+<td>Roll 2 Chance dice, 1 Risk die; keep highest Chance</td>
+</tr>
+<tr class="even">
+<td><strong>Cancel a Failure</strong></td>
+<td>1 AP</td>
+<td>Reroll a “No” result on the same Oracle question</td>
+</tr>
+<tr class="odd">
+<td><strong>Avoid Consequence</strong></td>
+<td>1 AP</td>
+<td>Erase a narrative complication from a success/failure</td>
+</tr>
+<tr class="even">
+<td><strong>Do the Impossible</strong></td>
+<td>1 AP</td>
+<td>Roll for something that should auto-fail; pay narrative cost</td>
+</tr>
+<tr class="odd">
+<td><strong>Push Yourself</strong></td>
+<td>1 use/adventure</td>
+<td>Recover 3 AP, but choose: serious consequence, burn a tag, or escalate</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="design-insight-why-action-points-work" class="level3">
+<h3 class="anchored" data-anchor-id="design-insight-why-action-points-work">Design Insight: Why Action Points Work</h3>
+<p>Action Points work because they solve a specific problem: <strong>cinematic uncertainty.</strong></p>
+<p>In a regular <em>Loner</em> conflict, you roll the Oracle and accept the result. “No” happens. Sometimes it’s narratively perfect. Sometimes it sucks. You move on.</p>
+<p>But in action stories, that randomness can feel anticlimactic. Your hero attempts something cool and the Oracle says <em>no</em>. Your stunt fails. Your escape is thwarted.</p>
+<p>Action Points let you say: <em>“This moment matters. I’m willing to pay for it.”</em></p>
+<p>You’re not guaranteed success; the Oracle still rolls, and you might fail anyway. But you have a tool for moments that deserve a second roll, a better outcome, or the chance to be impossible.</p>
+<p>And because you only have 3 per conflict, every AP matters. You can’t spam them. You have to choose: is this moment worth it? Do I use this resource here, or do I save it for the big moment coming up?</p>
+<p>That’s the constraint that makes every AP spend a real decision.</p>
+</section>
+</section>
+<section id="conflict-resolution-methods" class="level2">
+<h2 class="anchored" data-anchor-id="conflict-resolution-methods">Conflict Resolution Methods</h2>
+<p>A conflict in <em>Loner</em> can be resolved in many ways. The level of detail, the systems you use, and the pacing all depend on <strong>what the scene needs</strong>.</p>
+<p>This chapter gives you a decision tree for choosing the right approach.</p>
+<section id="the-five-resolution-methods" class="level3">
+<h3 class="anchored" data-anchor-id="the-five-resolution-methods">The Five Resolution Methods</h3>
+<section id="method-1-single-oracle-question-lightning-fast" class="level4">
+<h4 class="anchored" data-anchor-id="method-1-single-oracle-question-lightning-fast"><strong>Method 1: Single Oracle Question (Lightning Fast)</strong></h4>
+<p>Ask <strong>one</strong> closed question about the entire conflict and resolve it in a single roll.</p>
+<p><em>“Do I win this fight?”</em> / <em>“Can I escape before they catch me?”</em> / <em>“Does my disguise hold up?”</em></p>
+<p>Oracle rolls. You get a yes/no (with modifiers). Scene resolved. Move on.</p>
+<p><strong>When to use:</strong> The conflict isn’t the focus of the scene. You’re more interested in the consequence than the action itself. You want to move the story forward without dwelling on combat mechanics. The conflict is brief or one-sided.</p>
+<p><strong>Example:</strong> Zahra is cornered by three guards. She doesn’t want a drawn-out fight. She asks: <em>“Can I intimidate them into standing down?”</em> Oracle says “No, but…” They don’t back off, but one of them hesitates, creating an opening. She runs. Conflict done in one roll.</p>
+</section>
+<section id="method-2-action-by-action-moderate-detail" class="level4">
+<h4 class="anchored" data-anchor-id="method-2-action-by-action-moderate-detail"><strong>Method 2: Action-by-Action (Moderate Detail)</strong></h4>
+<p>Instead of one big question, break the conflict into <strong>individual actions</strong>. Each action is its own Oracle roll.</p>
+<p>You describe what you do. You roll. The Oracle answers. Your opponent (or circumstance) reacts. You describe your next action. Repeat until the conflict reaches a natural end.</p>
+<p><strong>When to use:</strong> The conflict is important but not prolonged. You want to see how it unfolds, action by action. There’s uncertainty and tension, but you’re not tracking every hit or injury.</p>
+<p><strong>Example:</strong></p>
+<p><em>“I try to disarm the guard.”</em> Oracle: Yes, but… (I disarm him, but he shouts for backup)</p>
+<p><em>“I kick him toward the stairs.”</em> Oracle: No, but… (He resists, but I gain position)</p>
+<p><em>“I move toward the exit.”</em> Oracle: Yes, and… (I reach the door and spot a second guard approaching)</p>
+<p>Each action is a question. Each roll informs the next. The scene unfolds dynamically.</p>
+</section>
+<section id="method-3-harm-luck-tracking-extended-detailed" class="level4">
+<h4 class="anchored" data-anchor-id="method-3-harm-luck-tracking-extended-detailed"><strong>Method 3: Harm &amp; Luck Tracking (Extended, Detailed)</strong></h4>
+<p>You’re tracking <strong>Luck loss</strong>. Both you and your opponent have 6 Luck. Whoever reaches 0 loses the conflict.</p>
+<p>Each Oracle roll determines how much Luck damage happens:</p>
+<ul>
+<li><strong>Yes, and…</strong> = Deal 3 Luck damage</li>
+<li><strong>Yes…</strong> = Deal 2 Luck damage</li>
+<li><strong>Yes, but…</strong> = Deal 1 Luck damage</li>
+<li><strong>No, but…</strong> = Take 1 Luck damage</li>
+<li><strong>No…</strong> = Take 2 Luck damage</li>
+<li><strong>No, and…</strong> = Take 3 Luck damage</li>
+</ul>
+<p>You continue rolling until one combatant reaches 0 Luck. The conflict ends, and you interpret what reaching 0 means (captured, knocked out, forced to retreat, etc.).</p>
+<p><strong>Setting enemy Luck:</strong> All enemies start at 6 Luck, same as the protagonist. Threat level comes from tags, not pool size. A minion with no relevant tags means most of your rolls have Advantage; a boss with strong tags means most of yours have Disadvantage. The pool is the same. The difficulty isn’t.</p>
+<p><strong>Multiple enemies:</strong> Treat a group of similar enemies as one unit sharing a single 6-Luck pool. Treat named or distinct enemies as individual combatants. You decide which enemy your actions target; enemies act as a unit against you.</p>
+<p><strong>Boss phases (optional):</strong> For final antagonists or named enemies who shouldn’t fall in a single exchange, use phases. When the boss reaches 0 Luck, they don’t fall — they escalate. Reset their Luck to 6 and add or intensify one of their tags to reflect the new phase (<em>Cornered and Desperate</em>, <em>Revealing True Power</em>, <em>Calling Reinforcements</em>). Each phase makes the fight harder. Use 2–3 phases for a climactic confrontation; one phase for a strong named rival.</p>
+<p><strong>When to use:</strong> The fight is central to the scene. There’s real danger and attrition. You want to feel the danger mount as both sides take damage. The opponent is a true threat.</p>
+<p><strong>When NOT to use:</strong> The fight is obviously one-sided. The scene doesn’t need prolonged tension.</p>
+<p><strong>Example:</strong> Zahra vs.&nbsp;a skilled rival in a proper duel.</p>
+<p>Zahra: 6 Luck / Rival: 6 Luck</p>
+<p><em>“Do I land a solid hit?”</em> Oracle: Yes, but… (I hit, but he anticipated and counters) → Zahra deals 1 damage (Rival now 5)</p>
+<p><em>“Does his counterattack connect?”</em> Oracle: Yes, and… (hits hard and presses advantage) → Zahra takes 3 damage (Zahra now 3)</p>
+<p>The fight escalates. Every round, Luck ticks down. The tension builds because both sides are getting hurt.</p>
+</section>
+<section id="method-4-stunt-based-cinematic-oracle-driven" class="level4">
+<h4 class="anchored" data-anchor-id="method-4-stunt-based-cinematic-oracle-driven"><strong>Method 4: Stunt-Based (Cinematic, Oracle-Driven)</strong></h4>
+<p>You describe a <strong>stunt</strong>, a creative, over-the-top action. You roll the Oracle. If you succeed, the stunt works and grants narrative advantage. If you fail, you lose Luck or trigger a consequence.</p>
+<p>Stunts are the playground of Action Points + Harm &amp; Luck. You’re using all three systems together: describing cool actions, rolling the Oracle, and tracking Luck loss.</p>
+<p><strong>When to use:</strong> You want cinematic action where creativity is rewarded. You’re using Action Points to gain advantage or avoid consequences. The stunt itself is as important as the outcome.</p>
+<p><strong>Chapter 4 (The Stunt System) goes into detail here.</strong></p>
+</section>
+<section id="method-5-hybrid-mixing-methods" class="level4">
+<h4 class="anchored" data-anchor-id="method-5-hybrid-mixing-methods"><strong>Method 5: Hybrid (Mixing Methods)</strong></h4>
+<p>You might use different methods in the same conflict.</p>
+<p>Start with <strong>action-by-action</strong> questions to build tension. Once a clear threat emerges, switch to <strong>Harm &amp; Luck tracking</strong>. Mid-fight, describe a <strong>stunt</strong> and roll for it. If things look bad, ask a single <strong>oracle question</strong> to see if you can escape.</p>
+<p><strong>When to use:</strong> Extended, complex conflicts with multiple phases. The conflict has natural stages (chase, fight, escape) that each need different resolution styles.</p>
+<p><strong>Example:</strong> Zahra infiltrates a building, gets spotted, runs, gets chased, fights her pursuers, and attempts a desperate escape.</p>
+<ol type="1">
+<li>Infiltration = action-by-action</li>
+<li>Chase = simple oracle questions + stunt (the jump)</li>
+<li>Fight = Harm &amp; Luck tracking</li>
+<li>Escape = stunt attempt</li>
+</ol>
+<p>Each phase uses the method that fits.</p>
+</section>
+</section>
+<section id="making-the-choice-a-decision-tree" class="level3">
+<h3 class="anchored" data-anchor-id="making-the-choice-a-decision-tree">Making the Choice: A Decision Tree</h3>
+<p><img src="../diagrams/cinematic_conflict_resolution.png" class="img-fluid"></p>
+<pre><code>Is the conflict brief or obviously one-sided?
+├─ YES → Use Single Oracle Question
+└─ NO → Is the conflict the focus of this scene?
+    ├─ NO → Use Single Oracle Question
+    └─ YES → Is it cinematic action with stunts?
+        ├─ YES → Use Stunt-Based (with Harm &amp; Luck)
+        └─ NO → Does it need detailed tracking?
+            ├─ YES → Use Harm &amp; Luck Tracking
+            └─ NO → Use Action-by-Action</code></pre>
+</section>
+<section id="combining-methods-action-points-harm-luck" class="level3">
+<h3 class="anchored" data-anchor-id="combining-methods-action-points-harm-luck">Combining Methods: Action Points + Harm &amp; Luck</h3>
+<p>Remember: <strong>you use both systems together</strong> in extended conflicts.</p>
+<ul>
+<li><strong>Action Points</strong> let you gain advantage, avoid consequences, cancel failures, or attempt the impossible.</li>
+<li><strong>Harm &amp; Luck</strong> tracks damage and tells you when the conflict is over.</li>
+</ul>
+<p>In a single fight, you might:</p>
+<ol type="1">
+<li>Spend 1 AP for Advantage on an important roll</li>
+<li>Roll the Oracle for a stunt</li>
+<li>Track Luck loss from the result</li>
+<li>Use “Avoid Consequence” AP to negate a complication</li>
+<li>Eventually lose all Luck and lose the conflict</li>
+</ol>
+<p>Both systems are <strong>active the entire time</strong>.</p>
+</section>
+<section id="when-luck-runs-out" class="level3">
+<h3 class="anchored" data-anchor-id="when-luck-runs-out">When Luck Runs Out</h3>
+<p>Reaching 0 Luck doesn’t automatically mean death. It means <strong>the conflict is decided</strong>, and the story must interpret what that means.</p>
+<p><strong>In a fight:</strong> You’re knocked out, disarmed, pinned, or forced to retreat.</p>
+<p><strong>In a chase:</strong> You’re caught, cornered, or lose the target.</p>
+<p><strong>In a negotiation:</strong> You’re talked down, convinced to back off, or forced into agreement.</p>
+<p><strong>In a heist:</strong> You trigger an alarm, get spotted, or your cover is blown.</p>
+<p>The <strong>Oracle and narrative</strong> determine the exact consequence.</p>
+</section>
+<section id="quick-decision-guide" class="level3">
+<h3 class="anchored" data-anchor-id="quick-decision-guide">Quick Decision Guide</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 32%">
+<col style="width: 26%">
+<col style="width: 41%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Conflict Type</th>
+<th>Best Method</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Brief, one-sided</td>
+<td>Single Oracle Question</td>
+<td>Fast resolution</td>
+</tr>
+<tr class="even">
+<td>Important but not prolonged</td>
+<td>Action-by-Action</td>
+<td>Scene unfolds action by action</td>
+</tr>
+<tr class="odd">
+<td>Extended, high-stakes</td>
+<td>Harm &amp; Luck</td>
+<td>Tension through attrition</td>
+</tr>
+<tr class="even">
+<td>Creative, cinematic</td>
+<td>Stunt-Based</td>
+<td>Style + Oracle</td>
+</tr>
+<tr class="odd">
+<td>Multi-phase complex</td>
+<td>Hybrid</td>
+<td>Different stages, different methods</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="the-stunt-system" class="level2">
+<h2 class="anchored" data-anchor-id="the-stunt-system">The Stunt System</h2>
+<p>A <strong>stunt</strong> is a character-defined creative action, something cinematic, bold, or unexpected that pushes the boundaries of “realistic.”</p>
+<p>Stunts are the heart of cinematic action. They’re where your protagonist does things that <em>shouldn’t work but might</em>.</p>
+<section id="what-makes-a-stunt" class="level3">
+<h3 class="anchored" data-anchor-id="what-makes-a-stunt">What Makes a Stunt?</h3>
+<p>A stunt has these qualities:</p>
+<p><strong>1. It’s described first.</strong></p>
+<p>Before you roll, you <em>describe</em> what you’re doing. Not “I attack,” but <em>“I throw a punch at his face while simultaneously kicking the table leg to make him stumble.”</em> Detail matters. Creativity matters.</p>
+<p><strong>2. It has clear stakes.</strong></p>
+<p>If it succeeds, something good happens: you gain advantage, bypass an obstacle, or achieve something impossible. If it fails, there’s a real cost (Luck loss, consequence, escalation).</p>
+<p><strong>3. It requires an Oracle roll.</strong></p>
+<p>You always roll to determine if the stunt works. No auto-success. The Oracle decides.</p>
+<p><strong>4. Success grants narrative benefit beyond normal success.</strong></p>
+<p>A normal success might let you win a fight. A successful stunt lets you win <em>with style</em>: gaining position, disarming an opponent, impressing an NPC, or creating a new opportunity.</p>
+</section>
+<section id="the-stunt-framework" class="level3">
+<h3 class="anchored" data-anchor-id="the-stunt-framework">The Stunt Framework</h3>
+<section id="step-1-describe-the-stunt" class="level4">
+<h4 class="anchored" data-anchor-id="step-1-describe-the-stunt"><strong>Step 1: Describe the Stunt</strong></h4>
+<p>You describe what you’re doing. Be specific. Be visual.</p>
+<p>❌ <em>“I do a move.”</em> ✅ <em>“I leap off the railing, plant my feet on a barrel mid-fall, and spring sideways onto the moving cargo train.”</em></p>
+<p>The description doesn’t affect the roll (the Oracle doesn’t care how cool it is). But it affects how you narrate success or failure. A cool description deserves cool interpretation.</p>
+<p><strong>Quick test:</strong> If your action has more than one moving part, or if the style of execution matters as much as whether it succeeds, treat it as a Stunt. Single-part actions (<em>“Do I hit him?”</em>) are regular Oracle rolls. Multi-part or style-dependent actions are Stunts.</p>
+<p><strong>Stunts don’t cost AP.</strong> You can attempt any creative action for free. Spend 1 AP (Do the Impossible) only when the action would be denied outright before a roll; the narrative itself says “that can’t happen.” If there’s any reasonable chance it could happen, it’s just a Stunt.</p>
+</section>
+<section id="step-2-assess-advantagedisadvantage" class="level4">
+<h4 class="anchored" data-anchor-id="step-2-assess-advantagedisadvantage"><strong>Step 2: Assess Advantage/Disadvantage</strong></h4>
+<p>Based on your tags and the situation, does the stunt have Advantage or Disadvantage?</p>
+<ul>
+<li><strong>Advantage:</strong> You have a relevant tag, the environment helps, or you’ve set it up well.</li>
+<li><strong>Disadvantage:</strong> The situation opposes you, you lack relevant tags, or you’re improvising.</li>
+<li><strong>Neutral:</strong> Even stakes.</li>
+</ul>
+<p>Remember: you can spend 1 AP to gain Advantage if you want to shift the odds.</p>
+</section>
+<section id="step-3-roll-the-oracle" class="level4">
+<h4 class="anchored" data-anchor-id="step-3-roll-the-oracle"><strong>Step 3: Roll the Oracle</strong></h4>
+<p>Ask a closed question about whether the stunt succeeds: <em>“Does my stunt work?”</em> / <em>“Can I land this move?”</em> / <em>“Do I successfully escape across the rooftops?”</em></p>
+<p>Roll 1 Chance die, 1 Risk die (adjust for Advantage/Disadvantage).</p>
+</section>
+<section id="step-4-resolve-based-on-result" class="level4">
+<h4 class="anchored" data-anchor-id="step-4-resolve-based-on-result"><strong>Step 4: Resolve Based on Result</strong></h4>
+<p><strong>“Yes, and…”</strong> Your stunt succeeds spectacularly. You accomplish the goal and gain <strong>extra advantage</strong>. You disarm your opponent <em>and</em> position yourself for a follow-up. You escape <em>and</em> steal something valuable. You impress the NPC <em>and</em> they offer help.</p>
+<p>Cost: None (beyond spending AP if you used it).</p>
+<p><strong>“Yes…”</strong> Your stunt works exactly as described. You achieve the goal cleanly.</p>
+<p>Cost: None (beyond spending AP).</p>
+<p><strong>“Yes, but…”</strong> Your stunt succeeds, but with a complication. You cross the gap, but you’re wounded. You dodge the attack, but you’re off-balance. You distract the guard, but he calls for backup.</p>
+<p>Cost: You can spend 1 AP to avoid the consequence, or accept it as part of the success.</p>
+<p><strong>“No, but…”</strong> Your stunt fails, but something positive happens anyway. You can’t disarm him, but you do create distance. You fall, but you grab a ledge. You’re detected, but you spot an alternate route.</p>
+<p>Cost: You can pivot to the positive outcome or accept a failure. Take 1 Luck damage.</p>
+<p><strong>“No…”</strong> Your stunt fails cleanly. What you attempted doesn’t work.</p>
+<p>Cost: Take 2 Luck damage.</p>
+<p><strong>“No, and…”</strong> Your stunt fails spectacularly. Not only does it not work; things get worse. You fail to dodge and get hit hard. You slip and fall. You trigger an alarm. Your cover is blown.</p>
+<p>Cost: Take 3 Luck damage, and the situation escalates.</p>
+<p><strong>Note on Luck damage:</strong> These values align with the Harm &amp; Luck damage table in Chapter 3. When you’re using Harm &amp; Luck tracking and Stunts together, which is the default for extended cinematic conflicts, use these values consistently. When resolving a stunt without Harm &amp; Luck tracking (narrative-only resolution), treat Luck loss as a narrative consequence: take the damage as described, but interpret it as narrative setback rather than tracking it toward 0.</p>
+</section>
+</section>
+<section id="stunt-examples-across-genres" class="level3">
+<h3 class="anchored" data-anchor-id="stunt-examples-across-genres">Stunt Examples Across Genres</h3>
+<section id="kung-fu-martial-arts" class="level4">
+<h4 class="anchored" data-anchor-id="kung-fu-martial-arts"><strong>Kung Fu / Martial Arts</strong></h4>
+<p><em>“I drop beneath his incoming strike and sweep his legs while simultaneously launching an upward palm strike.”</em> Roll vs.&nbsp;Oracle. Success = you trip him and land the hit. Failure = you commit to the move and he counters.</p>
+<p><em>“I run up the side of a building, flip off the roof, and land behind my opponent.”</em> Success = you’re behind him with positional advantage. Failure = you land, but you’re off-balance.</p>
+</section>
+<section id="superhero" class="level4">
+<h4 class="anchored" data-anchor-id="superhero"><strong>Superhero</strong></h4>
+<p><em>“I use my telekinesis to lift three bystanders out of harm’s way while simultaneously throwing a car at the villain.”</em> Success = both actions work. Failure = you can only do one, or the car barely connects.</p>
+<p><em>“I race ahead of the collapse to grab the child and run toward the safe zone.”</em> Success = you get them out. Failure = you get them out but you’re injured.</p>
+</section>
+<section id="spy-tactical" class="level4">
+<h4 class="anchored" data-anchor-id="spy-tactical"><strong>Spy / Tactical</strong></h4>
+<p><em>“I disable the security camera while simultaneously cutting the laser grid with a mirror.”</em> Success = both actions work undetected. Failure = one works, but you’re spotted.</p>
+<p><em>“I trick the guard into looking away, then slip past him and upload the virus to the terminal.”</em> Success = perfect execution. Failure = you upload the virus, but he notices you.</p>
+</section>
+<section id="heist-criminal" class="level4">
+<h4 class="anchored" data-anchor-id="heist-criminal"><strong>Heist / Criminal</strong></h4>
+<p><em>“I swap the artifact with a convincing replica while the guard is distracted, then plant the replica in their office.”</em> Success = they don’t realize the swap. Failure = they realize it later, giving you a window to escape.</p>
+</section>
+<section id="fantasy" class="level4">
+<h4 class="anchored" data-anchor-id="fantasy"><strong>Fantasy</strong></h4>
+<p><em>“I cast a fireball at the enemy mage while simultaneously dodging their ice spell and using my sword to block the demon’s attack.”</em> Success = all three actions work. Failure = you do two of them, but one gets through.</p>
+</section>
+</section>
+<section id="risk-reward-the-stunt-gamble" class="level3">
+<h3 class="anchored" data-anchor-id="risk-reward-the-stunt-gamble">Risk &amp; Reward: The Stunt Gamble</h3>
+<p>Stunts are risky. You might fail. That’s the point.</p>
+<p>But they’re also <strong>rewarding</strong>. Success feels earned, and failure feels dramatic rather than punishing.</p>
+<p>This is why stunts are perfect for cinematic action. They’re not “optimized”; they’re <strong>ambitious</strong>. You’re doing something cool that carries genuine risk.</p>
+<p><strong>If you want guaranteed success</strong>, don’t describe a stunt. Use the standard Oracle roll. Ask a normal question. Stunts are for when you want to <strong>take a chance on something awesome</strong>.</p>
+</section>
+<section id="failed-stunts-and-consequences" class="level3">
+<h3 class="anchored" data-anchor-id="failed-stunts-and-consequences">Failed Stunts and Consequences</h3>
+<p>When a stunt fails, something should change in the scene.</p>
+<p>Don’t let failure be boring. Make it <strong>dramatic</strong>.</p>
+<p><strong>“No” failure:</strong> You fail to disarm him. Now he’s in position to attack. (Cost: lose Luck)</p>
+<p><strong>“No, and…” failure:</strong> You fail to disarm him <em>and</em> he counterattacks hard. (Cost: lose 2-3 Luck)</p>
+<p><strong>Escalation failure:</strong> You attempt a risky stunt in front of guards. It fails. They open fire. (Cost: Luck loss + new obstacle)</p>
+<p>The failure itself becomes the next scene.</p>
+</section>
+<section id="stunt-vs.-regular-action" class="level3">
+<h3 class="anchored" data-anchor-id="stunt-vs.-regular-action">Stunt vs.&nbsp;Regular Action</h3>
+<p><strong>What’s the difference between a stunt and a regular Oracle roll?</strong></p>
+<p><strong>Regular action:</strong> <em>“Do I hit him with my sword?”</em> Oracle decides.</p>
+<p><strong>Stunt:</strong> <em>“I feint left, roll right, and come up under his guard with an upward slash while spinning to avoid his parry.”</em> Oracle decides, but success grants narrative advantage.</p>
+<p>The <strong>description</strong> elevates it to a stunt. The <strong>risk and reward</strong> are higher. Failure hurts more, but success feels better.</p>
+</section>
+<section id="the-stunt-framework-at-a-glance" class="level3">
+<h3 class="anchored" data-anchor-id="the-stunt-framework-at-a-glance">The Stunt Framework at a Glance</h3>
+<p><img src="../diagrams/cinematic_stunt_framework.png" class="img-fluid"></p>
+</section>
+<section id="quick-stunt-checklist" class="level3">
+<h3 class="anchored" data-anchor-id="quick-stunt-checklist">Quick Stunt Checklist</h3>
+<ul class="task-list">
+<li><label><input type="checkbox">Describe the action with detail and flair</label></li>
+<li><label><input type="checkbox">Determine Advantage/Disadvantage based on tags</label></li>
+<li><label><input type="checkbox">Ask Oracle: does the stunt work?</label></li>
+<li><label><input type="checkbox">Roll the dice</label></li>
+<li><label><input type="checkbox">Interpret the result and narrate the consequence</label></li>
+<li><label><input type="checkbox">Track Luck loss if applicable</label></li>
+</ul>
+</section>
+</section>
+<section id="chases-pursuits" class="level2">
+<h2 class="anchored" data-anchor-id="chases-pursuits">Chases &amp; Pursuits</h2>
+<p>Chases are action distilled to its purest form: <strong>one party pursuing another</strong>.</p>
+<p>Unlike fights (which are about overpowering an opponent) or heists (which are about planning and execution), chases are about <strong>momentum, environment, and decisive moments</strong>.</p>
+<section id="the-chase-framework-lightweight" class="level3">
+<h3 class="anchored" data-anchor-id="the-chase-framework-lightweight">The Chase Framework (Lightweight)</h3>
+<p>A chase is resolved through <strong>2-3 Oracle questions</strong> that determine the overall outcome.</p>
+<p>That’s it. No distance tracking, no round-by-round mechanics. Just narrative questions that build toward escape or capture.</p>
+<section id="question-1-can-you-get-away" class="level4">
+<h4 class="anchored" data-anchor-id="question-1-can-you-get-away"><strong>Question 1: Can You Get Away?</strong></h4>
+<p>The pursuer closes in. You need to gain distance, find an obstacle, or use the environment to your advantage.</p>
+<p>Ask the Oracle: <em>“Can I [evasion action] and gain distance?”</em></p>
+<p>Examples:</p>
+<ul>
+<li><em>“Can I cut through the market and lose them in the crowd?”</em></li>
+<li><em>“Can I vault off this bridge onto a moving boat?”</em></li>
+<li><em>“Can I hide in the forest and wait for them to pass?”</em></li>
+</ul>
+<p><strong>Yes/and/but:</strong> You gain distance. The chase continues, but you’re ahead.</p>
+<p><strong>No/but/and:</strong> You don’t gain distance, but something changes (an obstacle appears, they get closer, the environment shifts).</p>
+</section>
+<section id="question-2-do-they-close-in" class="level4">
+<h4 class="anchored" data-anchor-id="question-2-do-they-close-in"><strong>Question 2: Do They Close In?</strong></h4>
+<p>The pursuer is trying to catch you. They’re using their own skills and advantages.</p>
+<p>Ask the Oracle: <em>“Do they [pursuit action] and catch me?”</em></p>
+<p>Examples:</p>
+<ul>
+<li><em>“Do they anticipate my route and cut me off?”</em></li>
+<li><em>“Do they signal reinforcements to block my path?”</em></li>
+<li><em>“Do they maintain pace despite the obstacles?”</em></li>
+</ul>
+<p><strong>Yes:</strong> They close in. Things get desperate.</p>
+<p><strong>No:</strong> They fall back. You’re gaining ground.</p>
+</section>
+<section id="question-3-do-i-escape-get-caught" class="level4">
+<h4 class="anchored" data-anchor-id="question-3-do-i-escape-get-caught"><strong>Question 3: Do I Escape / Get Caught?</strong></h4>
+<p>The final moment. One last push.</p>
+<p>Ask the Oracle: <em>“Do I [final action] and escape?”</em> or <em>“Do they catch me?”</em></p>
+<p><strong>Yes:</strong> You escape. Freedom.</p>
+<p><strong>No:</strong> You’re caught. Now what?</p>
+</section>
+</section>
+<section id="making-chases-interesting-add-complications" class="level3">
+<h3 class="anchored" data-anchor-id="making-chases-interesting-add-complications">Making Chases Interesting: Add Complications</h3>
+<p>Chases aren’t just about distance. They’re about <strong>environment, stakes, and creative solutions</strong>.</p>
+<p>Add complications to make chases cinematic:</p>
+<section id="environmental-hazards" class="level4">
+<h4 class="anchored" data-anchor-id="environmental-hazards"><strong>Environmental Hazards</strong></h4>
+<p><em>“Can I jump this gap?”</em> / <em>“Does the bridge collapse as I cross?”</em> / <em>“Can I navigate the rooftops in heavy rain?”</em></p>
+<p>The environment is an active opponent, not just scenery.</p>
+</section>
+<section id="obstacles-barriers" class="level4">
+<h4 class="anchored" data-anchor-id="obstacles-barriers"><strong>Obstacles &amp; Barriers</strong></h4>
+<p>Guards, walls, locked doors, traffic, crowds: things that slow you down or force you to choose a path.</p>
+<p>Ask: <em>“Can I find a way past [obstacle] without losing time?”</em></p>
+</section>
+<section id="decision-points" class="level4">
+<h4 class="anchored" data-anchor-id="decision-points"><strong>Decision Points</strong></h4>
+<p>Sometimes a chase isn’t about pure speed. It’s about <strong>choosing the right path</strong>.</p>
+<p><em>“Do I know a shortcut through the old tunnels?”</em> / <em>“Can I convince the shopkeeper to hide me?”</em></p>
+</section>
+<section id="stakes-escalation" class="level4">
+<h4 class="anchored" data-anchor-id="stakes-escalation"><strong>Stakes Escalation</strong></h4>
+<p>A basic chase is boring. A chase where your cover is blown, or someone is chasing after a hostage, or the building is collapsing: that’s interesting.</p>
+<p>Each time the Oracle says “no,” escalate what’s at stake.</p>
+</section>
+</section>
+<section id="chase-examples" class="level3">
+<h3 class="anchored" data-anchor-id="chase-examples">Chase Examples</h3>
+<section id="urban-rooftop-chase" class="level4">
+<h4 class="anchored" data-anchor-id="urban-rooftop-chase"><strong>Urban Rooftop Chase</strong></h4>
+<p>Zahra is spotted by guards. She runs. They pursue.</p>
+<p><strong>Q1:</strong> <em>“Can I use the rooftops to get distance?”</em> Oracle: Yes, but… (I gain distance, but I’m visible to snipers)</p>
+<p><strong>Q2:</strong> <em>“Do the snipers track me and get a clear shot?”</em> Oracle: No, but… (they miss, but they call in coordinates)</p>
+<p><strong>Q3:</strong> <em>“Can I reach the safe house before reinforcements arrive?”</em> Oracle: Yes, and… (I get there, and I spot an extra exit I didn’t know about)</p>
+<p>Chase complete. Zahra escapes.</p>
+</section>
+<section id="vehicle-chase-space" class="level4">
+<h4 class="anchored" data-anchor-id="vehicle-chase-space"><strong>Vehicle Chase (Space)</strong></h4>
+<p>Zahra’s ship is being pursued by pirates.</p>
+<p><strong>Q1:</strong> <em>“Can I jump to hyperspace before they get in range?”</em> Oracle: No, and… (my hyperspace drive is offline, AND they’re getting closer)</p>
+<p><strong>Q2:</strong> <em>“Can I disable their weapons with a risky maneuver?”</em> Oracle: Yes, but… (I disable them, but I damage my own shields)</p>
+<p><strong>Q3:</strong> <em>“Can I make the jump to hyperspace now?”</em> Oracle: Yes (I escape)</p>
+</section>
+<section id="on-foot-chase-crowded-market" class="level4">
+<h4 class="anchored" data-anchor-id="on-foot-chase-crowded-market"><strong>On-Foot Chase (Crowded Market)</strong></h4>
+<p>Zahra is fleeing with stolen goods. Bounty hunters are chasing her.</p>
+<p><strong>Q1:</strong> <em>“Can I use the market crowd to lose them?”</em> Oracle: Yes (I blend in and get distance)</p>
+<p><strong>Q2:</strong> <em>“Do they spot me again?”</em> Oracle: No, but… (they don’t spot me, but a dog starts barking at me, drawing attention)</p>
+<p><strong>Q3:</strong> <em>“Can I make it to my contact’s shop?”</em> Oracle: Yes, and… (I make it, and the contact helps me hide)</p>
+</section>
+</section>
+<section id="using-action-points-in-chases" class="level3">
+<h3 class="anchored" data-anchor-id="using-action-points-in-chases">Using Action Points in Chases</h3>
+<p>You have <strong>3 Action Points</strong> during a chase, just like any conflict. Because chases resolve in fewer rolls than fights, AP is proportionally more powerful here. Treat each AP spend as a high-value decision; you likely won’t use all three.</p>
+<p><strong>Spend 1 AP for Advantage</strong> on an escape Oracle roll.</p>
+<p><strong>Spend 1 AP to avoid a consequence</strong> (you escape but your contact gets spotted; spend AP to prevent it).</p>
+<p><strong>Spend 1 AP to do the impossible</strong> (jump a gap that’s too wide, make a turn that shouldn’t be possible, find a hidden exit).</p>
+<p><strong>Push Yourself</strong> mid-chase to recover AP if the situation escalates.</p>
+<p>Example: Zahra is down to 1 AP. The Oracle says she’s being cornered. She pushes herself (Escalate the Situation): <em>“More guards arrive, but I get 3 AP back to attempt one more desperate escape.”</em></p>
+</section>
+<section id="optional-loose-distance-tracking" class="level3">
+<h3 class="anchored" data-anchor-id="optional-loose-distance-tracking">Optional: Loose Distance Tracking</h3>
+<p>If you want slightly more structure without full tactical mechanics, track <strong>distance</strong> loosely:</p>
+<ul>
+<li><strong>Distant:</strong> They’re far behind. You have breathing room.</li>
+<li><strong>Close:</strong> They’re behind you, but you have options.</li>
+<li><strong>Caught:</strong> They’ve got you. Unless you do something dramatic, you’re caught.</li>
+</ul>
+<p>Each Oracle roll moves the distance:</p>
+<ul>
+<li><strong>Yes:</strong> Distance increases (you’re pulling away)</li>
+<li><strong>Yes, but:</strong> Distance stays the same (stalemate)</li>
+<li><strong>No:</strong> Distance decreases (they’re gaining)</li>
+<li><strong>No, and:</strong> Distance decreases significantly (they’re right on you)</li>
+</ul>
+<p>When distance reaches “Caught,” the chase ends. Unless you use an AP for “Do the Impossible” and escalate, you’re captured.</p>
+<p><strong>AP and the Distance Track:</strong> Spending 1 AP for Advantage on a chase roll shifts distance one step in your favor regardless of the Oracle result; you gain ground even on a “No.” This differs from how Advantage works in fights (where it improves the roll’s probability but doesn’t guarantee an outcome). The difference is intentional: chases resolve in 2–3 rolls instead of many, so a probabilistic bonus would rarely matter. The guaranteed step keeps AP meaningful at chase tempo. Spending 1 AP for Do the Impossible immediately moves distance to Distant, but you must pay the narrative cost and still roll to see if further complications arise.</p>
+</section>
+<section id="chase-quick-reference" class="level3">
+<h3 class="anchored" data-anchor-id="chase-quick-reference">Chase Quick Reference</h3>
+<p><img src="../diagrams/cinematic_chase_framework.png" class="img-fluid"></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 36%">
+<col style="width: 63%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Question</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Can I gain distance?</td>
+<td>You act. Do you escape the immediate threat?</td>
+</tr>
+<tr class="even">
+<td>Do they close in?</td>
+<td>They act. Are they catching up?</td>
+</tr>
+<tr class="odd">
+<td>Do I escape / get caught?</td>
+<td>Final moment. What’s the outcome?</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="momentum-pacing" class="level2">
+<h2 class="anchored" data-anchor-id="momentum-pacing">Momentum &amp; Pacing</h2>
+<p>Cinematic action builds tension across scenes.</p>
+<p>Momentum is the sense that events are accelerating, stakes are rising, and the protagonist is hurtling toward a climax. It’s what makes you want to keep playing “just one more scene.”</p>
+<p>This chapter covers tools for building and maintaining momentum.</p>
+<section id="what-is-cinematic-momentum" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-cinematic-momentum">What Is Cinematic Momentum?</h3>
+<p>Momentum has these qualities:</p>
+<p><strong>1. Escalation.</strong> Each scene raises the stakes slightly. Problems get bigger. Opposition gets tougher. Time becomes tighter.</p>
+<p><strong>2. Rhythm.</strong> Action scenes alternate with quieter character moments. Too much non-stop action feels exhausting. The contrast makes intense moments <em>feel</em> intense.</p>
+<p><strong>3. Inevitability.</strong> The protagonist moves toward a confrontation. Not because it’s forced, but because the story pulls them that way.</p>
+<p><strong>4. Choice.</strong> Momentum isn’t about railroading. It’s about the protagonist making choices that <em>propel them forward</em>, even if the direction surprises them.</p>
+</section>
+<section id="twist-counter-as-automatic-pacing-engine" class="level3">
+<h3 class="anchored" data-anchor-id="twist-counter-as-automatic-pacing-engine">Twist Counter as Automatic Pacing Engine</h3>
+<p>Remember the <strong>Twist Counter</strong>? Every time you roll doubles, you add 1 to the counter. At 3, a Twist occurs and resets the counter.</p>
+<p><strong>Note:</strong> The Twist Counter does not apply during Harm &amp; Luck conflicts. In extended fights tracked by Luck loss, intensity is driven by attrition, not the Twist Counter. This pacing engine applies to all other scenes.</p>
+<p>Let the Twist Counter determine how intensity shifts between scenes automatically:</p>
+<ul>
+<li>A Twist that fires during a <strong>High</strong>-intensity scene escalates: the next scene begins at High intensity. Things don’t calm down; they compound.</li>
+<li>A Twist that fires during a <strong>Low</strong>-intensity scene locks in the quiet: the next scene also begins at Low. The story is breathing, and the Twist deepens that rather than disrupting it.</li>
+<li>A Twist during a <strong>Medium</strong> scene pushes to High. The buildup breaks open.</li>
+</ul>
+<p>You don’t need to decide what the Twist means for pacing; the intensity tier at the moment it fires tells you.</p>
+</section>
+<section id="optional-intensity-tracking" class="level3">
+<h3 class="anchored" data-anchor-id="optional-intensity-tracking">Optional: Intensity Tracking</h3>
+<p>If you want explicit control over momentum, track <strong>scene intensity</strong>:</p>
+<ul>
+<li><strong>Low</strong> = Quiet moments, exploration, planning</li>
+<li><strong>Medium</strong> = Light action, tension, minor conflicts</li>
+<li><strong>High</strong> = Major action, high stakes, extended conflicts</li>
+</ul>
+<p>At the start of each scene, establish the intensity. Then, let your Oracle rolls and choices guide how intensity shifts:</p>
+<ul>
+<li><strong>Success (“Yes”)</strong> can maintain or increase intensity.</li>
+<li><strong>Failure (“No”)</strong> often escalates intensity (things get worse).</li>
+<li>A new <strong>Twist</strong> shifts intensity according to the rules above.</li>
+</ul>
+<p><strong>Hard rule:</strong> After three consecutive High scenes, the next scene must be Low or Medium. No exceptions. Action without contrast becomes noise; the intensity stops registering.</p>
+</section>
+<section id="pacing-guidelines" class="level3">
+<h3 class="anchored" data-anchor-id="pacing-guidelines">Pacing Guidelines</h3>
+<p><strong>Fast Pacing (Escalation Phase):</strong></p>
+<ul>
+<li>Shorter scenes (2-4 Oracle questions each)</li>
+<li>More frequent Twists</li>
+<li>Less downtime between conflicts</li>
+<li>Higher-stakes rolls</li>
+<li>Action Points spent frequently</li>
+</ul>
+<p><strong>Slow Pacing (Quiet Phase):</strong></p>
+<ul>
+<li>Longer scenes (character moments, exploration, planning)</li>
+<li>Fewer Oracle rolls</li>
+<li>More description and narrative</li>
+<li>Time for reflection</li>
+</ul>
+<p><strong>Mixed Pacing (Realistic):</strong></p>
+<ul>
+<li>Alternate between intensity levels</li>
+<li>Use Twists to interrupt quiet moments</li>
+<li>Let characters catch their breath between action beats</li>
+</ul>
+</section>
+<section id="multi-scene-action-arcs" class="level3">
+<h3 class="anchored" data-anchor-id="multi-scene-action-arcs">Multi-Scene Action Arcs</h3>
+<p>An <strong>action arc</strong> is a sequence of related scenes building toward a confrontation.</p>
+<p>Example: Zahra’s infiltration of the facility</p>
+<p><strong>Scene 1 (Setup):</strong> Zahra approaches the building. [Low momentum]</p>
+<p><strong>Scene 2 (Inciting Incident):</strong> She’s spotted by a patrol. [Medium momentum]</p>
+<p><strong>Scene 3 (Escalation):</strong> Chase through the facility. [High momentum]</p>
+<p><strong>Scene 4 (Escalation):</strong> She fights guards to reach the server room. [High momentum]</p>
+<p><strong>Scene 5 (Climax):</strong> Final confrontation with the facility director. [High momentum]</p>
+<p><strong>Scene 6 (Resolution):</strong> Zahra escapes with the data. [Momentum falls]</p>
+<p><strong>Scene 7 (Decompression):</strong> She meets her contact and processes what happened. [Low momentum, sets up next arc]</p>
+<p>Each scene builds on the last. Momentum rises, peaks, and falls naturally.</p>
+</section>
+<section id="when-to-break-momentum-and-why" class="level3">
+<h3 class="anchored" data-anchor-id="when-to-break-momentum-and-why">When to Break Momentum (And Why)</h3>
+<p>Sometimes you <strong>want</strong> momentum to drop. This serves the story:</p>
+<p><strong>Character Moments:</strong> Zahra reflects on what she’s done. How did she feel about betraying her mentor? What’s the cost of her choices?</p>
+<p><strong>Gathering Resources:</strong> She meets her contact, gets new gear, plans the next move.</p>
+<p><strong>Building Relationships:</strong> An ally reveals something important. A rival shows unexpected humanity.</p>
+<p>These moments are <strong>essential</strong>. Without them, action feels empty. With them, action has <em>weight</em>.</p>
+</section>
+<section id="the-cycle-action-consequence-reflection-next-action" class="level3">
+<h3 class="anchored" data-anchor-id="the-cycle-action-consequence-reflection-next-action">The Cycle: Action → Consequence → Reflection → Next Action</h3>
+<p>A healthy session follows this rhythm:</p>
+<ol type="1">
+<li><strong>Action</strong>: Something happens. A fight, a chase, a heist.</li>
+<li><strong>Consequence</strong>: The action has effects. The protagonist is hurt. An ally betrays them. The situation escalates.</li>
+<li><strong>Reflection</strong>: A quiet moment to process. Zahra tends her wounds. She mourns a loss. She plans the next move.</li>
+<li><strong>Next Action</strong>: Momentum builds again. The protagonist moves forward into the next challenge.</li>
+</ol>
+<p>Repeat this cycle 3-4 times per session. Each cycle should escalate slightly in stakes.</p>
+</section>
+<section id="the-action-cycle" class="level3">
+<h3 class="anchored" data-anchor-id="the-action-cycle">The Action Cycle</h3>
+<p><img src="../diagrams/cinematic_action_cycle.png" class="img-fluid"></p>
+</section>
+<section id="quick-momentum-checklist" class="level3">
+<h3 class="anchored" data-anchor-id="quick-momentum-checklist">Quick Momentum Checklist</h3>
+<ul class="task-list">
+<li><label><input type="checkbox">Is this scene higher or lower intensity than the last one?</label></li>
+<li><label><input type="checkbox">Have I had a quiet moment in the last 2-3 scenes?</label></li>
+<li><label><input type="checkbox">Are the Oracle rolls pushing the story forward?</label></li>
+<li><label><input type="checkbox">Is the protagonist making choices that drive the story?</label></li>
+<li><label><input type="checkbox">Does the next scene feel inevitable or surprising?</label></li>
+<li><label><input type="checkbox">Am I using Twists to escalate, or do they feel random?</label></li>
+</ul>
+</section>
+</section>
+<section id="character-tags-for-action" class="level2">
+<h2 class="anchored" data-anchor-id="character-tags-for-action">Character Tags for Action</h2>
+<p>Tags are the heart of <em>Loner</em>. They describe who your character is. In action games, certain tags shine brighter than others.</p>
+<p>This chapter suggests action-specific tags and how they interact with action mechanics.</p>
+<section id="action-oriented-concepts" class="level3">
+<h3 class="anchored" data-anchor-id="action-oriented-concepts">Action-Oriented Concepts</h3>
+<p>Your concept should hint at your character’s <strong>action specialty</strong>:</p>
+<p>❌ <em>“Strong Fighter”</em> – Too generic</p>
+<p>✅ <em>“Bullet-Time Acrobat”</em> – Suggests parkour, evasion, precision ✅ <em>“Unbreakable Mercenary”</em> – Suggests resilience, direct confrontation ✅ <em>“Adaptive Survivor”</em> – Suggests improvisation, creative solutions</p>
+<p>The concept frames how your character approaches action.</p>
+</section>
+<section id="skills-for-action" class="level3">
+<h3 class="anchored" data-anchor-id="skills-for-action">Skills for Action</h3>
+<p>Action-oriented skills grant narrative permission for specific types of action:</p>
+<section id="movement-positioning" class="level4">
+<h4 class="anchored" data-anchor-id="movement-positioning"><strong>Movement &amp; Positioning</strong></h4>
+<ul>
+<li><em>Parkour Master</em> – Run, jump, climb with confidence</li>
+<li><em>Shadow Walker</em> – Move unseen, slip through gaps</li>
+<li><em>Free Runner</em> – Navigate environments impossibly</li>
+<li><em>Acrobatic Precision</em> – Land difficult physical feats</li>
+</ul>
+</section>
+<section id="weaponry-combat" class="level4">
+<h4 class="anchored" data-anchor-id="weaponry-combat"><strong>Weaponry &amp; Combat</strong></h4>
+<ul>
+<li><em>Dual-Blade Mastery</em> – Fight with two weapons in tandem</li>
+<li><em>Weapon Improviser</em> – Fight with anything at hand</li>
+<li><em>Marksman’s Eye</em> – Ranged attacks with confidence</li>
+<li><em>Martial Artist</em> – Hand-to-hand combat expertise</li>
+</ul>
+</section>
+<section id="deception-infiltration" class="level4">
+<h4 class="anchored" data-anchor-id="deception-infiltration"><strong>Deception &amp; Infiltration</strong></h4>
+<ul>
+<li><em>Master Disguise</em> – Impersonate others convincingly</li>
+<li><em>Lock Picker</em> – Open anything</li>
+<li><em>Hacking Fingers</em> – Break into systems</li>
+<li><em>Infiltration Expert</em> – Slip past security</li>
+</ul>
+</section>
+<section id="resilience-recovery" class="level4">
+<h4 class="anchored" data-anchor-id="resilience-recovery"><strong>Resilience &amp; Recovery</strong></h4>
+<ul>
+<li><em>Pain Tolerance</em> – Ignore or push through injury</li>
+<li><em>Quick Healing</em> – Recover faster than expected</li>
+<li><em>Adrenaline Rush</em> – Perform better under pressure</li>
+<li><em>Nerve of Steel</em> – Stay calm in chaos</li>
+</ul>
+</section>
+<section id="improvisation-creativity" class="level4">
+<h4 class="anchored" data-anchor-id="improvisation-creativity"><strong>Improvisation &amp; Creativity</strong></h4>
+<ul>
+<li><em>Clever Improvisations</em> – Solve problems creatively</li>
+<li><em>Environmental Master</em> – Use surroundings as weapons</li>
+<li><em>Last-Moment Thinking</em> – Come up with plans on the fly</li>
+<li><em>Stunt Specialist</em> – Pull off impossible actions</li>
+</ul>
+<p>Remember: <strong>Skills aren’t bonuses.</strong> They grant narrative permission. You don’t add +2 to a roll because of a skill. Instead, the skill lets you <em>attempt</em> things others can’t.</p>
+</section>
+</section>
+<section id="frailties-that-matter-in-action" class="level3">
+<h3 class="anchored" data-anchor-id="frailties-that-matter-in-action">Frailties That Matter in Action</h3>
+<p>A frailty should create <strong>interesting obstacles</strong>, not just penalties.</p>
+<p>✅ <em>“Haunted by a Past Betrayal”</em> – Complicates relationships, doesn’t directly hurt combat</p>
+<p>❌ <em>“-2 to all Strength checks”</em> – Too mechanical</p>
+<p>Action-friendly frailties:</p>
+<ul>
+<li><em>Wanted by [Organization]</em> – Creates external pressure</li>
+<li><em>Protective of Innocents</em> – Forces you to make hard choices</li>
+<li><em>Afraid of [Specific Threat]</em> – Creates internal conflict</li>
+<li><em>Debt to a Dangerous Person</em> – Creates narrative hooks</li>
+<li><em>Old Injury That Acts Up</em> – Adds consequence, not mechanic</li>
+<li><em>Driven to Recklessness</em> – Pushes you toward risky stunts</li>
+<li><em>Code Against [Type of Target]</em> – Limits options in interesting ways</li>
+</ul>
+</section>
+<section id="gear-for-action" class="level3">
+<h3 class="anchored" data-anchor-id="gear-for-action">Gear for Action</h3>
+<p>Gear is specialized equipment. In action games, gear should enable cinematic moments:</p>
+<p>✅ <em>“Combat Boots That Never Fail”</em> – For parkour, chases ✅ <em>“Modular Weapon System”</em> – For adaptability ✅ <em>“Grappling Hook”</em> – For creative escapes ✅ <em>“Encrypted Communicator”</em> – For coordination</p>
+<p>❌ <em>“Sword +1”</em> – Too mechanical</p>
+<p>Gear shouldn’t feel like a modifier. It should feel like a <strong>tool that opens options</strong>.</p>
+</section>
+<section id="combining-tags-for-action-synergy" class="level3">
+<h3 class="anchored" data-anchor-id="combining-tags-for-action-synergy">Combining Tags for Action Synergy</h3>
+<p>The best action characters have tags that <strong>work together</strong>:</p>
+<section id="example-the-impossible-acrobat" class="level4">
+<h4 class="anchored" data-anchor-id="example-the-impossible-acrobat"><strong>Example: The Impossible Acrobat</strong></h4>
+<ul>
+<li>Concept: <em>Gravity-Defying Parkour Master</em></li>
+<li>Skills: <em>Free Running</em>, <em>Combat Acrobatics</em></li>
+<li>Frailty: <em>Addicted to the Adrenaline</em></li>
+<li>Gear: <em>Grappling Hooks</em>, <em>Reinforced Climbing Gloves</em></li>
+</ul>
+<p>This character is built for chases, escapes, and stunts involving movement.</p>
+</section>
+<section id="example-the-tactical-operative" class="level4">
+<h4 class="anchored" data-anchor-id="example-the-tactical-operative"><strong>Example: The Tactical Operative</strong></h4>
+<ul>
+<li>Concept: <em>Calculating Special Ops Agent</em></li>
+<li>Skills: <em>Tactical Analysis</em>, <em>Precision Marksmanship</em></li>
+<li>Frailty: <em>Haunted by Collateral Damage</em></li>
+<li>Gear: <em>Military-Grade Rifle</em>, <em>Tactical Radio</em></li>
+</ul>
+<p>This character excels at planned operations and ranged conflicts.</p>
+</section>
+<section id="example-the-improviser" class="level4">
+<h4 class="anchored" data-anchor-id="example-the-improviser"><strong>Example: The Improviser</strong></h4>
+<ul>
+<li>Concept: <em>Unorthodox Problem Solver</em></li>
+<li>Skills: <em>Clever Improvisation</em>, <em>Environmental Master</em></li>
+<li>Frailty: <em>Never Thinks Before Acting</em></li>
+<li>Gear: <em>Lockpick Set</em>, <em>Duct Tape (Really Good Duct Tape)</em></li>
+</ul>
+<p>This character thrives on creative stunts and last-minute solutions.</p>
+</section>
+</section>
+<section id="evolution-through-action" class="level3">
+<h3 class="anchored" data-anchor-id="evolution-through-action">Evolution Through Action</h3>
+<p>Tags <strong>change as you play</strong>.</p>
+<p>After a major stunt succeeds, you might evolve a skill: <em>“Free Runner”</em> becomes <em>“Legendary Free Runner”</em> or <em>“Free Runner (But at a Cost)”</em>.</p>
+<p>After a frailty comes into play, you might refine it: <em>“Addicted to Adrenaline”</em> becomes <em>“Addicted to Adrenaline (Which Led to Betrayal)”</em>.</p>
+<p>Let your character grow through action.</p>
+</section>
+<section id="tag-quick-reference" class="level3">
+<h3 class="anchored" data-anchor-id="tag-quick-reference">Tag Quick Reference</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 76%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Category</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Concepts</strong></td>
+<td>Unbreakable Mercenary, Bullet-Time Acrobat, Adaptive Survivor</td>
+</tr>
+<tr class="even">
+<td><strong>Movement Skills</strong></td>
+<td>Free Runner, Shadow Walker, Parkour Master, Acrobatic Precision</td>
+</tr>
+<tr class="odd">
+<td><strong>Combat Skills</strong></td>
+<td>Dual-Blade Master, Martial Artist, Marksman’s Eye, Weapon Improviser</td>
+</tr>
+<tr class="even">
+<td><strong>Infiltration Skills</strong></td>
+<td>Master Disguise, Hacking Fingers, Lock Picker, Infiltration Expert</td>
+</tr>
+<tr class="odd">
+<td><strong>Resilience Skills</strong></td>
+<td>Pain Tolerance, Quick Healing, Adrenaline Rush, Nerve of Steel</td>
+</tr>
+<tr class="even">
+<td><strong>Improvisation Skills</strong></td>
+<td>Clever Improvisation, Environmental Master, Last-Moment Thinking, Stunt Specialist</td>
+</tr>
+<tr class="odd">
+<td><strong>Action Frailties</strong></td>
+<td>Wanted by Organization, Protective of Innocents, Old Injury, Code Against Type</td>
+</tr>
+<tr class="even">
+<td><strong>Action Gear</strong></td>
+<td>Grappling Hooks, Combat Boots, Modular Weapons, Encrypted Communicator</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="action-across-genres" class="level2">
+<h2 class="anchored" data-anchor-id="action-across-genres">Action Across Genres</h2>
+<p>Cinematic action looks different depending on the genre. This chapter shows how to adapt the mechanics to different settings.</p>
+<section id="kung-fu-martial-arts-1" class="level3">
+<h3 class="anchored" data-anchor-id="kung-fu-martial-arts-1">Kung Fu / Martial Arts</h3>
+<p><strong>Core Theme:</strong> Hand-to-hand mastery, physics-defying moves, honor codes.</p>
+<p><strong>Stunts:</strong> Go wild. Wall-running, mid-air catches, fighting multiple enemies simultaneously, throwing opponents through objects.</p>
+<p><strong>Action Points:</strong> Use liberally. In kung fu, every fight should feel like a choreographed dance of impossible moments.</p>
+<p><strong>Harm &amp; Luck:</strong> Track aggressively. In martial arts films, both combatants take visible damage, but the hero always gets back up.</p>
+<p><strong>Example Concepts:</strong></p>
+<ul>
+<li><em>Disciplined Kung Fu Master</em></li>
+<li><em>Reckless Street Fighter</em></li>
+<li><em>Zen Warrior</em></li>
+</ul>
+<p><strong>Example Skills:</strong></p>
+<ul>
+<li><em>Pressure Point Mastery</em></li>
+<li><em>Impossible Agility</em></li>
+<li><em>Chi Meditation</em></li>
+<li><em>Weapon Form Expertise</em></li>
+</ul>
+<p><strong>In Play:</strong> Describe a Stunt nearly every exchange; the genre demands it. Spend AP freely for Do the Impossible; physics-defying moments are the point, not the exception. Saving AP “for later” in a Kung Fu scene usually means you missed the cinematic beat. When both sides hit 3 Luck, that’s your signal for a dramatic finishing exchange.</p>
+</section>
+<section id="superhero-1" class="level3">
+<h3 class="anchored" data-anchor-id="superhero-1">Superhero</h3>
+<p><strong>Core Theme:</strong> Powers as storytelling tools, impossible feats, larger-than-life stakes.</p>
+<p><strong>Stunts:</strong> Essential. Flying, super-strength feats, reality-bending moments.</p>
+<p><strong>Action Points:</strong> Use for “Do the Impossible” heavily. Superheroes exist in the impossible space.</p>
+<p><strong>Harm &amp; Luck:</strong> Low stakes on single fights (most enemies are minions), but high stakes on boss fights.</p>
+<p><strong>Example Concepts:</strong></p>
+<ul>
+<li><em>Speed-Powered Maverick</em></li>
+<li><em>Kinetic Powerhouse</em></li>
+<li><em>Time-Manipulating Strategist</em></li>
+</ul>
+<p><strong>Example Skills:</strong></p>
+<ul>
+<li><em>Superhuman Reflexes</em></li>
+<li><em>Power Amplification</em></li>
+<li><em>Collateral Damage Mitigation</em></li>
+<li><em>Leadership Under Fire</em></li>
+</ul>
+<p><strong>In Play:</strong> Minion fights need no AP and often no Harm &amp; Luck; resolve them with a single Oracle question and move on. Save all three AP for the boss confrontation where every choice matters. Bosses should use 2–3 phases; each reset escalates their tags and raises the stakes. The gap between minion and boss comes from tags and phases, not from pool size.</p>
+</section>
+<section id="spy-tactical-1" class="level3">
+<h3 class="anchored" data-anchor-id="spy-tactical-1">Spy / Tactical</h3>
+<p><strong>Core Theme:</strong> Planning, precision, coordination, espionage.</p>
+<p><strong>Stunts:</strong> Less flashy, more clever. Disabling alarms, extracting targets, outmaneuvering enemies.</p>
+<p><strong>Action Points:</strong> Use for “Cancel a Failure” and “Avoid Consequence”: your plan almost works, but not quite.</p>
+<p><strong>Harm &amp; Luck:</strong> Depends on the scene. Tactical operations can be quick questions. Firefights use full Harm &amp; Luck.</p>
+<p><strong>Example Concepts:</strong></p>
+<ul>
+<li><em>Cold-Blooded Operative</em></li>
+<li><em>Tech-Savvy Infiltrator</em></li>
+<li><em>Improvisational Spy</em></li>
+</ul>
+<p><strong>Example Skills:</strong></p>
+<ul>
+<li><em>Covert Surveillance</em></li>
+<li><em>Exploit Weakness</em></li>
+<li><em>Tactical Coordination</em></li>
+<li><em>Escape Artist</em></li>
+</ul>
+<p><strong>In Play:</strong> Most stunts are clever rather than flashy: disabling a camera while slipping through a closing door, not flying kicks. Spend AP most often on Cancel Failure (the plan almost worked) and Avoid Consequence (the extraction succeeded but you weren’t seen). Reserve Do the Impossible for genuine last resorts, when your tags no longer cover what you’re attempting.</p>
+</section>
+<section id="heist-criminal-1" class="level3">
+<h3 class="anchored" data-anchor-id="heist-criminal-1">Heist / Criminal</h3>
+<p><strong>Core Theme:</strong> Planning, coordination, last-minute pivots.</p>
+<p><strong>Stunts:</strong> Creative problem-solving. Using unexpected assets, turning complications into opportunities.</p>
+<p><strong>Action Points:</strong> Use for “Do the Impossible”: the plan goes sideways and you need to improvise.</p>
+<p><strong>Harm &amp; Luck:</strong> Usually low-conflict (sneaking past guards, avoiding alarms). High-conflict if combat becomes necessary.</p>
+<p><strong>Example Concepts:</strong></p>
+<ul>
+<li><em>Brilliant Planner</em></li>
+<li><em>Improvisation Specialist</em></li>
+<li><em>Smooth Talker</em></li>
+</ul>
+<p><strong>Example Skills:</strong></p>
+<ul>
+<li><em>Plan Under Pressure</em></li>
+<li><em>Master of Disguise</em></li>
+<li><em>Social Engineering</em></li>
+<li><em>Lock Breaker</em></li>
+</ul>
+<p><strong>In Play:</strong> The plan breaks in the first scene; that’s expected. After that, every roll is improvisation. Use Do the Impossible when the improvisation reaches beyond what any of your tags could plausibly cover. Most heist conflicts resolve through action-by-action questions, not Harm &amp; Luck; combat means the job went badly wrong.</p>
+</section>
+<section id="post-apocalyptic" class="level3">
+<h3 class="anchored" data-anchor-id="post-apocalyptic">Post-Apocalyptic</h3>
+<p><strong>Core Theme:</strong> Survival, resource scarcity, dangers everywhere.</p>
+<p><strong>Stunts:</strong> Practical and desperate. Using broken equipment, finding routes through dangerous terrain.</p>
+<p><strong>Action Points:</strong> Use sparingly; resources are scarce, and the mechanic should reflect that.</p>
+<p><strong>Harm &amp; Luck:</strong> High value. Survival means every encounter is dangerous.</p>
+<p><strong>Example Concepts:</strong></p>
+<ul>
+<li><em>Hardened Survivor</em></li>
+<li><em>Scavenger Specialist</em></li>
+<li><em>Wasteland Navigator</em></li>
+</ul>
+<p><strong>Example Skills:</strong></p>
+<ul>
+<li><em>Resource Finder</em></li>
+<li><em>Threat Assessment</em></li>
+<li><em>Improvised Crafting</em></li>
+<li><em>Survival Instinct</em></li>
+</ul>
+<p><strong>In Play:</strong> Treat AP as scarce as ammunition. Spend one per session if you can help it; when you do, it should feel like a desperate last measure, not a cinematic flourish. Stunts should be practical and ugly: improvised weapons, cover from debris, routes through dangerous terrain. Harm &amp; Luck applies to nearly every encounter; nothing here is a minion.</p>
+</section>
+<section id="fantasy-combat" class="level3">
+<h3 class="anchored" data-anchor-id="fantasy-combat">Fantasy Combat</h3>
+<p><strong>Core Theme:</strong> Magic, melee weapons, epic scale.</p>
+<p><strong>Stunts:</strong> Spellcasting stunts, environmental magic, combining spells with physical combat.</p>
+<p><strong>Action Points:</strong> Standard use, but “Do the Impossible” often involves magic.</p>
+<p><strong>Harm &amp; Luck:</strong> Full tracking. Fantasy combats often involve epic duels.</p>
+<p><strong>Example Concepts:</strong></p>
+<ul>
+<li><em>Spellblade Warrior</em></li>
+<li><em>Arcane Trickster</em></li>
+<li><em>Battle Mage</em></li>
+</ul>
+<p><strong>Example Skills:</strong></p>
+<ul>
+<li><em>Spell Weaving</em></li>
+<li><em>Weapon Mastery</em></li>
+<li><em>Magical Reflexes</em></li>
+<li><em>Summoning Power</em></li>
+</ul>
+<p><strong>In Play:</strong> Use Harm &amp; Luck for all significant duels; fantasy combat earns its attrition. Stunts that combine magic and physical action are the genre’s signature; describe the interaction between your spell and your sword, not just one or the other. Do the Impossible most often involves pushing a power beyond its normal limits.</p>
+</section>
+<section id="sci-fi-action" class="level3">
+<h3 class="anchored" data-anchor-id="sci-fi-action">Sci-Fi Action</h3>
+<p><strong>Core Theme:</strong> Technology, scale, futuristic weapons.</p>
+<p><strong>Stunts:</strong> Hacking mid-combat, using technology creatively, vehicle combat.</p>
+<p><strong>Action Points:</strong> Standard, but tech stunts are common.</p>
+<p><strong>Harm &amp; Luck:</strong> Varies wildly. Space combat might be quick questions; ground combat might be full attrition.</p>
+<p><strong>Example Concepts:</strong></p>
+<ul>
+<li><em>Augmented Operative</em></li>
+<li><em>Rogue AI</em></li>
+<li><em>Tech Warrior</em></li>
+</ul>
+<p><strong>Example Skills:</strong></p>
+<ul>
+<li><em>Neural Interface Mastery</em></li>
+<li><em>Ship Combat Expertise</em></li>
+<li><em>Weapon Customization</em></li>
+<li><em>Hacking Under Fire</em></li>
+</ul>
+<p><strong>In Play:</strong> Technology creates Stunt opportunities at every turn; use environmental systems, hacking, augmentations, and vehicles as action elements, not just backdrop. Space combat resolves fastest as single Oracle questions; ground combat warrants Harm &amp; Luck. AP spending is standard, but tech-based Do the Impossible moments (overloading a system, forcing a ship out of hyperspace, cracking an AI’s defenses mid-fight) are the genre’s highlights.</p>
+</section>
+<section id="genre-modifier-table" class="level3">
+<h3 class="anchored" data-anchor-id="genre-modifier-table">Genre Modifier Table</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 22%">
+<col style="width: 18%">
+<col style="width: 31%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Genre</th>
+<th>Stunt Frequency</th>
+<th>AP Spending</th>
+<th>Harm &amp; Luck Use</th>
+<th>Tone</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Kung Fu</td>
+<td>Constant</td>
+<td>Aggressive</td>
+<td>Aggressive</td>
+<td>Balletic</td>
+</tr>
+<tr class="even">
+<td>Superhero</td>
+<td>Frequent</td>
+<td>Heavy “Impossible”</td>
+<td>Light (minions) / Heavy (bosses)</td>
+<td>Epic</td>
+</tr>
+<tr class="odd">
+<td>Spy</td>
+<td>Occasional</td>
+<td>“Cancel/Avoid”</td>
+<td>Situational</td>
+<td>Tense</td>
+</tr>
+<tr class="even">
+<td>Heist</td>
+<td>Occasional</td>
+<td>“Impossible”</td>
+<td>Light</td>
+<td>Clever</td>
+</tr>
+<tr class="odd">
+<td>Post-Apocalyptic</td>
+<td>Rare (resource-scarce)</td>
+<td>Sparingly</td>
+<td>Aggressive</td>
+<td>Gritty</td>
+</tr>
+<tr class="even">
+<td>Fantasy</td>
+<td>Frequent</td>
+<td>Standard</td>
+<td>Aggressive</td>
+<td>Mythic</td>
+</tr>
+<tr class="odd">
+<td>Sci-Fi</td>
+<td>Frequent</td>
+<td>Standard</td>
+<td>Situational</td>
+<td>High-Tech</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="appendix-a-quick-reference" class="level2">
+<h2 class="anchored" data-anchor-id="appendix-a-quick-reference">Appendix A: Quick Reference</h2>
+<section id="action-points-cheat-sheet" class="level3">
+<h3 class="anchored" data-anchor-id="action-points-cheat-sheet">Action Points Cheat Sheet</h3>
+<p><strong>3 per conflict, unrefreshing.</strong></p>
+<p><strong>Spending Options:</strong></p>
+<ul>
+<li><strong>Gain Advantage (1 AP):</strong> Roll 2 Chance, 1 Risk die; keep highest Chance</li>
+<li><strong>Cancel Failure (1 AP):</strong> Reroll an Oracle “No”</li>
+<li><strong>Avoid Consequence (1 AP):</strong> Erase a complication from success/failure</li>
+<li><strong>Do the Impossible (1 AP):</strong> Attempt something impossible; pay narrative cost</li>
+</ul>
+<p><strong>Push Yourself (once per adventure):</strong> Choose ONE: Serious Consequence / Burn a Tag / Escalate Situation → Recover 3 AP</p>
+</section>
+<section id="stunt-framework-one-pager" class="level3">
+<h3 class="anchored" data-anchor-id="stunt-framework-one-pager">Stunt Framework One-Pager</h3>
+<ol type="1">
+<li><strong>Describe</strong> the stunt with detail</li>
+<li><strong>Assess</strong> Advantage/Disadvantage</li>
+<li><strong>Roll</strong> Oracle: Does the stunt work?</li>
+<li><strong>Resolve</strong> based on result
+<ul>
+<li>Yes, and… = Success + advantage</li>
+<li>Yes = Clean success</li>
+<li>Yes, but… = Success + complication</li>
+<li>No, but… = Failure + silver lining</li>
+<li>No = Clean failure</li>
+<li>No, and… = Failure + escalation</li>
+</ul></li>
+<li><strong>Track</strong> Luck loss if applicable</li>
+</ol>
+</section>
+<section id="chase-quick-resolution" class="level3">
+<h3 class="anchored" data-anchor-id="chase-quick-resolution">Chase Quick Resolution</h3>
+<p><strong>Q1:</strong> Can I gain distance? <strong>Q2:</strong> Do they close in? <strong>Q3:</strong> Do I escape / get caught?</p>
+</section>
+<section id="conflict-resolution-decision-tree" class="level3">
+<h3 class="anchored" data-anchor-id="conflict-resolution-decision-tree">Conflict Resolution Decision Tree</h3>
+<pre><code>Brief/one-sided?
+├─ YES → Single Oracle Question
+└─ NO → Is it the focus?
+    ├─ NO → Single Oracle Question
+    └─ YES → Cinematic stunts?
+        ├─ YES → Stunt-Based
+        └─ NO → Extended fight?
+            ├─ YES → Harm &amp; Luck
+            └─ NO → Action-by-Action</code></pre>
+</section>
+<section id="momentum-intensity-track" class="level3">
+<h3 class="anchored" data-anchor-id="momentum-intensity-track">Momentum Intensity Track</h3>
+<pre><code>LOW ──────────────── MEDIUM ──────────────── HIGH
+(Quiet moments)    (Building action)      (Peak action)
+Planning            Minor conflicts       Major battles
+Character moments   Chases               Climactic confrontations
+Exploration         Moderate stakes      Life-or-death situations</code></pre>
+</section>
+<section id="oracle-result-luck-damage" class="level3">
+<h3 class="anchored" data-anchor-id="oracle-result-luck-damage">Oracle Result → Luck Damage</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Result</th>
+<th>Damage</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Yes, and…</td>
+<td>Deal 3 (target takes it)</td>
+</tr>
+<tr class="even">
+<td>Yes</td>
+<td>Deal 2</td>
+</tr>
+<tr class="odd">
+<td>Yes, but…</td>
+<td>Deal 1</td>
+</tr>
+<tr class="even">
+<td>No, but…</td>
+<td>Take 1</td>
+</tr>
+<tr class="odd">
+<td>No</td>
+<td>Take 2</td>
+</tr>
+<tr class="even">
+<td>No, and…</td>
+<td>Take 3</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="example-full-action-scene" class="level3">
+<h3 class="anchored" data-anchor-id="example-full-action-scene">Example: Full Action Scene</h3>
+<p><strong>Scene:</strong> Zahra infiltrates a facility to steal a data drive. She’s spotted.</p>
+<p><strong>Conflict Type Chosen:</strong> Hybrid (infiltration → chase → fight → escape)</p>
+<section id="phase-1-infiltration-action-by-action" class="level4">
+<h4 class="anchored" data-anchor-id="phase-1-infiltration-action-by-action"><strong>Phase 1: Infiltration (Action-by-Action)</strong></h4>
+<p><em>“Can I slip past the guard unnoticed?”</em> Oracle: Yes, but… (I pass, but he gets a radio call that makes him check the door)</p>
+<p><em>“Can I hide before he looks?”</em> Oracle: No, but… (He sees me, but I’m already running)</p>
+</section>
+<section id="phase-2-chase-lightweight" class="level4">
+<h4 class="anchored" data-anchor-id="phase-2-chase-lightweight"><strong>Phase 2: Chase (Lightweight)</strong></h4>
+<p><em>“Can I use the hallways to lose him?”</em> Oracle: Yes, and… (I get distance AND I spot the data room)</p>
+<p><em>“Do reinforcements cut me off?”</em> Oracle: No, but… (They don’t, but alarms start blaring)</p>
+<p><em>“Can I reach the data room and escape?”</em> Oracle: Yes, but… (I grab the drive, but guards are behind me)</p>
+</section>
+<section id="phase-3-fight-harm-luck" class="level4">
+<h4 class="anchored" data-anchor-id="phase-3-fight-harm-luck"><strong>Phase 3: Fight (Harm &amp; Luck)</strong></h4>
+<p>Zahra (6 Luck) vs.&nbsp;Two Guards (treated as one unit, 6 Luck shared)</p>
+<p><em>“Do I attack while they’re not expecting it?”</em> Oracle: Yes, and… → Zahra deals 3 damage (Guards: 1 Luck left)</p>
+<p><em>“Do they try to tackle me?”</em> Oracle: Yes → Zahra takes 2 damage (Zahra: 4 Luck)</p>
+<p>Zahra needs to break past them entirely, not just land a hit, but vault completely through two trained guards while carrying a data drive. That’s not plausible through skill alone: she spends 1 AP (Do the Impossible) and describes a Stunt: <em>“I plant my foot on the nearer guard’s knee, use him as a springboard, flip over both of them, and land running.”</em> Oracle: Yes, but… (she clears them, but takes a hit on the way through) AP narrative cost: Zahra gains the Frailty <em>Wounded</em>. She accepts both the consequence and the cost; she’s through, but bleeding.</p>
+</section>
+<section id="phase-4-escape-single-question" class="level4">
+<h4 class="anchored" data-anchor-id="phase-4-escape-single-question"><strong>Phase 4: Escape (Single Question)</strong></h4>
+<p><em>“Do I make it out with the drive?”</em> Oracle: Yes → Zahra escapes with the objective</p>
+<p><strong>Scene Complete.</strong> Momentum drops. Next scene is quiet (recovery, decompression).</p>
+</section>
+</section>
+</section>
+<section id="license" class="level2">
+<h2 class="anchored" data-anchor-id="license">License</h2>
+<p>Loner: Cinematic Action</p>
+<p>© 2026 Roberto Bisceglie</p>
+<p>This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <a href="http://creativecommons.org/licenses/by-sa/4.0/" class="uri">http://creativecommons.org/licenses/by-sa/4.0/</a> or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var sidebar = document.getElementById("quarto-margin-sidebar");
+  var formats = document.querySelector(".quarto-alternate-formats");
+  if (sidebar && formats) {
+    sidebar.insertBefore(formats, sidebar.firstChild);
+  }
+
+  // Rename "Typst" label to "PDF"
+  document.querySelectorAll(".quarto-alternate-formats a").forEach(function (a) {
+    a.childNodes.forEach(function (node) {
+      if (node.nodeType === Node.TEXT_NODE && node.textContent.trim() === "Typst") {
+        node.textContent = "PDF";
+      }
+    });
+  });
+});
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/zotiquestgames\.github\.io\/lonersrd\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2021-2026 <a href="https://zotiquestgames.com">Roberto Bisceglie</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/zotiquestgames/lonersrd/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

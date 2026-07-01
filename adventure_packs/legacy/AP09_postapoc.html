@@ -1,0 +1,2053 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Roberto Bisceglie">
+<meta name="dcterms.date" content="2026-07-01">
+
+<title>Post-Apocalyptic Adventure Pack – Loner SRD</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-d37705bb3a21d8331654a8d3f48f58ba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-87bbd3402671c853dcbde7c40b26e08b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-d37705bb3a21d8331654a8d3f48f58ba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&amp;family=Raleway:wght@700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+  @import url('https://fonts.cdnfonts.com/css/takota');
+</style>
+
+
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Loner SRD</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../../core/loner-3e.html" aria-current="page"> 
+<span class="menu-text">Core Rules</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../adventure_packs/AP01_fantasy.html"> 
+<span class="menu-text">Adventure Packs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../geared_towards_loner/kwaidan_revised.html"> 
+<span class="menu-text">Geared Towards Loner</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/zotiquestgames/lonersrd"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../adventure_packs/AP01_fantasy.html">Adventure Packs</a></li><li class="breadcrumb-item"><a href="../../adventure_packs/legacy/AP01_fantasy.html">Adventure Packs (Legacy 2e)</a></li><li class="breadcrumb-item"><a href="../../adventure_packs/legacy/AP09_postapoc.html">Post-Apocalyptic Adventure Pack</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+ <span class="menu-text">SRD</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/loner-3e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 3e</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/loner_companion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Companion</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/character_builders_guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Character Builder’s Guide</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/world_builders_guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">World Builder’s Guide</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/the_path_not_taken.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Path Not Taken</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/cinematic_action.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cinematic Action</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/tales_and_tumbles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">For Kids</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Legacy Core Rules</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/legacy/loner-1e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 1e (legacy)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/legacy/loner-2e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 2e (legacy)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Adventure Packs</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP01_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fantasy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP02_space.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Space Sci-Fi Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP03_superheroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Superheroes Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP04_crime.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Crime Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP05_mystery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mystery Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP06_horror.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Horror Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP07_action_adventure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Action Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP08_spy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP09_postapoc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Post-Apocalyptic Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP10_pirates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pirates Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP11_western.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Western Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP12_cyberpunk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cyberpunk Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">Adventure Packs (Legacy 2e)</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP01_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fantasy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP02_space.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Space Sci-Fi Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP03_superheroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Superheroes Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP04_crime.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Crime Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP05_mystery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mystery Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP06_horror.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Horror Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP07_action_adventure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Action Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP08_spy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP09_postapoc.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Post-Apocalyptic Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP10_pirates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pirates Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP11_western.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Western Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP12_cyberpunk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cyberpunk Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/legacy/kwaidan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan!</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">Geared Towards Loner games</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/kwaidan_revised.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan! (Revised)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/cog_compass.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cog &amp; Compass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/mech_requiem.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mech: Requiem</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/legends_of_camelot.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Legends of Camelot</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/pulp_adventures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pulp Adventures!</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/steel_and_sorcery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Steel &amp; Sorcery</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/dungeoneer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dungeoneer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/spacer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spacer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/arabian_nights_adventures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Arabian Nights Adventures</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/cozy_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cozy Fantasy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/savage_blades_of_xylandra.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Savage Blades of Xylandra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/pulp_heroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pulp Heroes!</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/the_shattered_reach.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Shattered Reach</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/galaxy_drifter.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Galaxy Drifter</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/urban_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Urban Fantasy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/norse_saga.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Norse Saga</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/cthulhu.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cthulhu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/paranormal_files.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Paranormal Files</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+ <span class="menu-text">Geared Towards Loner games (Legacy)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/legacy/kwaidan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan!</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#post-apocalyptic-adventure-pack" id="toc-post-apocalyptic-adventure-pack" class="nav-link active" data-scroll-target="#post-apocalyptic-adventure-pack">Post-Apocalyptic Adventure Pack</a>
+  <ul class="collapse">
+  <li><a href="#setting-information" id="toc-setting-information" class="nav-link" data-scroll-target="#setting-information">Setting Information</a></li>
+  <li><a href="#character-traits" id="toc-character-traits" class="nav-link" data-scroll-target="#character-traits">Character Traits</a>
+  <ul class="collapse">
+  <li><a href="#concepts" id="toc-concepts" class="nav-link" data-scroll-target="#concepts">Concepts</a></li>
+  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills</a></li>
+  <li><a href="#frailties" id="toc-frailties" class="nav-link" data-scroll-target="#frailties">Frailties</a></li>
+  <li><a href="#gear" id="toc-gear" class="nav-link" data-scroll-target="#gear">Gear</a></li>
+  </ul></li>
+  <li><a href="#special-rules" id="toc-special-rules" class="nav-link" data-scroll-target="#special-rules">Special Rules</a>
+  <ul class="collapse">
+  <li><a href="#radiation-exposure-and-effects" id="toc-radiation-exposure-and-effects" class="nav-link" data-scroll-target="#radiation-exposure-and-effects">Radiation Exposure and Effects</a></li>
+  <li><a href="#limited-resources-and-supplies" id="toc-limited-resources-and-supplies" class="nav-link" data-scroll-target="#limited-resources-and-supplies">Limited Resources and Supplies</a></li>
+  <li><a href="#faction-conflicts-and-diplomacy" id="toc-faction-conflicts-and-diplomacy" class="nav-link" data-scroll-target="#faction-conflicts-and-diplomacy">Faction Conflicts and Diplomacy</a></li>
+  </ul></li>
+  <li><a href="#factions" id="toc-factions" class="nav-link" data-scroll-target="#factions">Factions</a>
+  <ul class="collapse">
+  <li><a href="#the-reapers--concept-ruthless-scavengers" id="toc-the-reapers--concept-ruthless-scavengers" class="nav-link" data-scroll-target="#the-reapers--concept-ruthless-scavengers">The Reapers- <strong>Concept</strong>: Ruthless scavengers</a></li>
+  <li><a href="#the-enclave--concept-survivors-in-a-fortified-community" id="toc-the-enclave--concept-survivors-in-a-fortified-community" class="nav-link" data-scroll-target="#the-enclave--concept-survivors-in-a-fortified-community">The Enclave- <strong>Concept</strong>: Survivors in a fortified community</a></li>
+  <li><a href="#the-raiders--concept-lawless-bandits" id="toc-the-raiders--concept-lawless-bandits" class="nav-link" data-scroll-target="#the-raiders--concept-lawless-bandits">The Raiders- <strong>Concept</strong>: Lawless bandits</a></li>
+  <li><a href="#the-cult-of-the-new-dawn--concept-apocalyptic-zealots" id="toc-the-cult-of-the-new-dawn--concept-apocalyptic-zealots" class="nav-link" data-scroll-target="#the-cult-of-the-new-dawn--concept-apocalyptic-zealots">The Cult of the New Dawn- <strong>Concept</strong>: Apocalyptic zealots</a></li>
+  <li><a href="#the-scavengers-guild--concept-organized-scavengers" id="toc-the-scavengers-guild--concept-organized-scavengers" class="nav-link" data-scroll-target="#the-scavengers-guild--concept-organized-scavengers">The Scavengers’ Guild- <strong>Concept</strong>: Organized scavengers</a></li>
+  <li><a href="#the-followers-of-the-wastes--concept-environmentalists" id="toc-the-followers-of-the-wastes--concept-environmentalists" class="nav-link" data-scroll-target="#the-followers-of-the-wastes--concept-environmentalists">The Followers of the Wastes- <strong>Concept</strong>: Environmentalists</a></li>
+  </ul></li>
+  <li><a href="#npcs" id="toc-npcs" class="nav-link" data-scroll-target="#npcs">NPCs</a>
+  <ul class="collapse">
+  <li><a href="#doc-sullivan" id="toc-doc-sullivan" class="nav-link" data-scroll-target="#doc-sullivan">“Doc” Sullivan</a></li>
+  <li><a href="#crazy-eddie" id="toc-crazy-eddie" class="nav-link" data-scroll-target="#crazy-eddie">“Crazy” Eddie</a></li>
+  <li><a href="#whiskey-jack" id="toc-whiskey-jack" class="nav-link" data-scroll-target="#whiskey-jack">“Whiskey” Jack</a></li>
+  <li><a href="#red-roberts" id="toc-red-roberts" class="nav-link" data-scroll-target="#red-roberts">“Red” Roberts</a></li>
+  <li><a href="#slim-reynolds" id="toc-slim-reynolds" class="nav-link" data-scroll-target="#slim-reynolds">“Slim” Reynolds</a></li>
+  <li><a href="#gunner-jackson" id="toc-gunner-jackson" class="nav-link" data-scroll-target="#gunner-jackson">“Gunner” Jackson</a></li>
+  </ul></li>
+  <li><a href="#creatures" id="toc-creatures" class="nav-link" data-scroll-target="#creatures">Creatures</a>
+  <ul class="collapse">
+  <li><a href="#irradiated-coyote" id="toc-irradiated-coyote" class="nav-link" data-scroll-target="#irradiated-coyote">Irradiated Coyote</a></li>
+  <li><a href="#rustling-beetle" id="toc-rustling-beetle" class="nav-link" data-scroll-target="#rustling-beetle">Rustling Beetle</a></li>
+  <li><a href="#fungal-abomination" id="toc-fungal-abomination" class="nav-link" data-scroll-target="#fungal-abomination">Fungal Abomination</a></li>
+  <li><a href="#sludge-crawler" id="toc-sludge-crawler" class="nav-link" data-scroll-target="#sludge-crawler">Sludge Crawler</a></li>
+  <li><a href="#scrapyard-scorpion" id="toc-scrapyard-scorpion" class="nav-link" data-scroll-target="#scrapyard-scorpion">Scrapyard Scorpion</a></li>
+  <li><a href="#chattering-rat" id="toc-chattering-rat" class="nav-link" data-scroll-target="#chattering-rat">Chattering Rat</a></li>
+  </ul></li>
+  <li><a href="#locations" id="toc-locations" class="nav-link" data-scroll-target="#locations">Locations</a></li>
+  <li><a href="#abandoned-military-base" id="toc-abandoned-military-base" class="nav-link" data-scroll-target="#abandoned-military-base">Abandoned Military Base</a>
+  <ul class="collapse">
+  <li><a href="#oasis-springs" id="toc-oasis-springs" class="nav-link" data-scroll-target="#oasis-springs">Oasis Springs</a></li>
+  <li><a href="#the-iron-citadel" id="toc-the-iron-citadel" class="nav-link" data-scroll-target="#the-iron-citadel">The Iron Citadel</a></li>
+  <li><a href="#the-dead-zone" id="toc-the-dead-zone" class="nav-link" data-scroll-target="#the-dead-zone">The Dead Zone</a></li>
+  <li><a href="#the-underground-city" id="toc-the-underground-city" class="nav-link" data-scroll-target="#the-underground-city">The Underground City</a></li>
+  <li><a href="#the-red-forest" id="toc-the-red-forest" class="nav-link" data-scroll-target="#the-red-forest">The Red Forest</a></li>
+  </ul></li>
+  <li><a href="#adventure-seeds" id="toc-adventure-seeds" class="nav-link" data-scroll-target="#adventure-seeds">Adventure Seeds</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/zotiquestgames/lonersrd/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="AP09_postapoc.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="AP09_postapoc.odt"><i class="bi bi-file"></i>OpenOffice</a></li><li><a href="AP09_postapoc.epub"><i class="bi bi-file"></i>ePub</a></li><li><a href="AP09_postapoc-gfm.md"><i class="bi bi-file-code"></i>Github (GFM)</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../adventure_packs/AP01_fantasy.html">Adventure Packs</a></li><li class="breadcrumb-item"><a href="../../adventure_packs/legacy/AP01_fantasy.html">Adventure Packs (Legacy 2e)</a></li><li class="breadcrumb-item"><a href="../../adventure_packs/legacy/AP09_postapoc.html">Post-Apocalyptic Adventure Pack</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Post-Apocalyptic Adventure Pack</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Roberto Bisceglie </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 1, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="post-apocalyptic-adventure-pack" class="level1">
+<h1>Post-Apocalyptic Adventure Pack</h1>
+<section id="setting-information" class="level2">
+<h2 class="anchored" data-anchor-id="setting-information">Setting Information</h2>
+<ul>
+<li>This setting takes place 50 years after a catastrophic event.</li>
+<li>The location is North America, specifically the Midwest region of the United States.</li>
+<li>The cause of the Apocalypse was a sudden and massive solar flare caused widespread power outages and destroyed much of the world’s technology and infrastructure.</li>
+<li>The population has been drastically reduced, and many of the survivors have banded together in small communities to share resources and protect themselves from the dangers of the new world. Traditional societal structures have broken down, and new power structures have emerged. Bartering and trade have become the primary means of exchange, and the concept of ownership has been redefined.</li>
+<li>Resources are scarce, and the survivors must scavenge for food, water, and other necessities. Technology has regressed to pre-industrial levels, but some relics of the old world remain. The most valuable resources are fuel, medicine, and clean water.</li>
+</ul>
+</section>
+<section id="character-traits" class="level2">
+<h2 class="anchored" data-anchor-id="character-traits">Character Traits</h2>
+<section id="concepts" class="level3">
+<h3 class="anchored" data-anchor-id="concepts">Concepts</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 2%">
+<col style="width: 20%">
+<col style="width: 15%">
+<col style="width: 16%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Radiant Wanderer</td>
+<td>Savage Nomad</td>
+<td>Silent Sniper</td>
+<td>Ashen Outcast</td>
+<td>Feral Raider</td>
+<td>Cursed Shaman</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Mechanical Engineer</td>
+<td>Toxic Alchemist</td>
+<td>Shadowed Assassin</td>
+<td>Mutated Juggernaut</td>
+<td>Scavenging Tinkerer</td>
+<td>Lost Survivor</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Deserted Medic</td>
+<td>Ghostly Specter</td>
+<td>Ironclad Guardian</td>
+<td>Ravaged Bard</td>
+<td>Reckless Renegade</td>
+<td>Vengeful Ronin</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Cyborg Mercenary</td>
+<td>Stealthy Infiltrator</td>
+<td>Mysterious Oracle</td>
+<td>Mad Scientist</td>
+<td>Marauding Warlord</td>
+<td>Charismatic Trader</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Dystopian Cyberspace Hacker</td>
+<td>Enigmatic Druid</td>
+<td>Plague Doctor</td>
+<td>Unhinged Mechanic</td>
+<td>Arcane Gunslinger</td>
+<td>Weathered Tracker</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Ruthless Executioner</td>
+<td>Exiled Leader</td>
+<td>Relentless Survivalist</td>
+<td>Grim Reaper</td>
+<td>Cursed Knight</td>
+<td>Illusionist Trickster</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="skills" class="level3">
+<h3 class="anchored" data-anchor-id="skills">Skills</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 2%">
+<col style="width: 16%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Marksmanship</td>
+<td>Survival Instinct</td>
+<td>Scavenging</td>
+<td>Stealth</td>
+<td>Engineering</td>
+<td>Alchemy</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Melee Combat</td>
+<td>Archery</td>
+<td>Healing</td>
+<td>Leadership</td>
+<td>Hacking</td>
+<td>Trapping</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Navigation</td>
+<td>Negotiation</td>
+<td>Tracking</td>
+<td>Lockpicking</td>
+<td>Explosives</td>
+<td>Animal Handling</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Martial Arts</td>
+<td>Psychic Abilities</td>
+<td>Driving/Piloting</td>
+<td>Tactical Planning</td>
+<td>Snares and Traps</td>
+<td>Medicine</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Bardic Performance</td>
+<td>Demolitions</td>
+<td>Infiltration</td>
+<td>Cooking/Foraging</td>
+<td>Bartering</td>
+<td>Sabotage</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Herbalism</td>
+<td>Intimidation</td>
+<td>Espionage</td>
+<td>Shield Mastery</td>
+<td>Illusions</td>
+<td>Firearms Proficiency</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="frailties" class="level3">
+<h3 class="anchored" data-anchor-id="frailties">Frailties</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 2%">
+<col style="width: 11%">
+<col style="width: 19%">
+<col style="width: 11%">
+<col style="width: 28%">
+<col style="width: 12%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Paranoia</td>
+<td>Addiction</td>
+<td>Claustrophobia</td>
+<td>Recklessness</td>
+<td>Trust Issues</td>
+<td>Arrogance</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Cowardice</td>
+<td>Impulsiveness</td>
+<td>Greed</td>
+<td>Obsessive Compulsive Disorder (OCD)</td>
+<td>Amnesia</td>
+<td>Chronic Pain</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Insomnia</td>
+<td>Speech Impediment</td>
+<td>Gullibility</td>
+<td>Post-Traumatic Stress Disorder (PTSD)</td>
+<td>Pyromania</td>
+<td>Loneliness</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Fear of Water</td>
+<td>Technological Ineptitude</td>
+<td>Perfectionism</td>
+<td>Bloodlust</td>
+<td>Chronic Illness</td>
+<td>Imposter Syndrome</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Agoraphobia</td>
+<td>Gambler’s Addiction</td>
+<td>Hoarding</td>
+<td>Radiation Sickness</td>
+<td>Fear of Heights</td>
+<td>Vengefulness</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Superstition</td>
+<td>Deep-seated Guilt</td>
+<td>Social Anxiety</td>
+<td>Fragile Bones</td>
+<td>Motion Sickness</td>
+<td>Loss of Senses</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="gear" class="level3">
+<h3 class="anchored" data-anchor-id="gear">Gear</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 13%">
+<col style="width: 13%">
+<col style="width: 21%">
+<col style="width: 16%">
+<col style="width: 9%">
+<col style="width: 21%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Gas mask</td>
+<td>Crowbar</td>
+<td>Canteen</td>
+<td>Compass</td>
+<td>Sling</td>
+<td>Multitool</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Pistol</td>
+<td>Backpack</td>
+<td>Binoculars</td>
+<td>Leatherman</td>
+<td>Shovel</td>
+<td>Flashlight</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Shotgun</td>
+<td>Knife</td>
+<td>Machete</td>
+<td>Flare gun</td>
+<td>Rope</td>
+<td>Matches</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Sniper</td>
+<td>Net</td>
+<td>Hammer</td>
+<td>Gasoline</td>
+<td>Crow</td>
+<td>Hatchet</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Rifle</td>
+<td>Bandages</td>
+<td>Rations</td>
+<td>Water jug</td>
+<td>Spikes</td>
+<td>Grenades</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Crossbow</td>
+<td>Armor</td>
+<td>First aid kit</td>
+<td>Whistle</td>
+<td>Map</td>
+<td>Walkie-talkie</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="special-rules" class="level2">
+<h2 class="anchored" data-anchor-id="special-rules">Special Rules</h2>
+<section id="radiation-exposure-and-effects" class="level3">
+<h3 class="anchored" data-anchor-id="radiation-exposure-and-effects">Radiation Exposure and Effects</h3>
+<ul>
+<li>Whenever a character is exposed to radiation, the player must ask the Oracle to determine the level of exposure.</li>
+<li>Depending on the severity of the exposure, the character may suffer negative effects to their abilities or health.</li>
+<li>If a character receives treatment for radiation exposure, the player may roll again to determine the effectiveness of the treatment.</li>
+</ul>
+</section>
+<section id="limited-resources-and-supplies" class="level3">
+<h3 class="anchored" data-anchor-id="limited-resources-and-supplies">Limited Resources and Supplies</h3>
+<ul>
+<li>Characters must keep track of their supplies, including food, water, and ammunition.</li>
+<li>Whenever a character uses a resource, the player must ask the Oracle to determine if the resource is expended.</li>
+<li>If a character runs out of a particular resource, they may need to find more or come up with an alternative solution.</li>
+</ul>
+</section>
+<section id="faction-conflicts-and-diplomacy" class="level3">
+<h3 class="anchored" data-anchor-id="faction-conflicts-and-diplomacy">Faction Conflicts and Diplomacy</h3>
+<ul>
+<li>Characters may encounter different factions with their own agendas and goals.</li>
+<li>Whenever a character interacts with a faction, the player must ask the Oracle to determine the faction’s response.</li>
+<li>Depending on the faction’s disposition, they may be hostile, neutral, or friendly towards the character.</li>
+<li>The player may use skills and equipment to influence the faction’s response.</li>
+</ul>
+</section>
+</section>
+<section id="factions" class="level2">
+<h2 class="anchored" data-anchor-id="factions">Factions</h2>
+<section id="the-reapers--concept-ruthless-scavengers" class="level3">
+<h3 class="anchored" data-anchor-id="the-reapers--concept-ruthless-scavengers">The Reapers- <strong>Concept</strong>: Ruthless scavengers</h3>
+<ul>
+<li><strong>Skills</strong>: Scavenging, Intimidation</li>
+<li><strong>Frailty</strong>: Greed</li>
+<li><strong>Gear</strong>: Rusty machetes, scrap armor</li>
+<li><strong>Goal</strong>: To amass as much wealth as possible</li>
+<li><strong>Motive</strong>: Survival at all costs</li>
+<li><strong>Nemesis</strong>: The Enclave</li>
+</ul>
+</section>
+<section id="the-enclave--concept-survivors-in-a-fortified-community" class="level3">
+<h3 class="anchored" data-anchor-id="the-enclave--concept-survivors-in-a-fortified-community">The Enclave- <strong>Concept</strong>: Survivors in a fortified community</h3>
+<ul>
+<li><strong>Skills</strong>: Engineering, Leadership</li>
+<li><strong>Frailty</strong>: Arrogance</li>
+<li><strong>Gear</strong>: Reinforced walls, advanced weapons</li>
+<li><strong>Goal</strong>: To defend their community and rebuild society</li>
+<li><strong>Motive</strong>: Hope for the future</li>
+<li><strong>Nemesis</strong>: The Raiders</li>
+</ul>
+</section>
+<section id="the-raiders--concept-lawless-bandits" class="level3">
+<h3 class="anchored" data-anchor-id="the-raiders--concept-lawless-bandits">The Raiders- <strong>Concept</strong>: Lawless bandits</h3>
+<ul>
+<li><strong>Skills</strong>: Stealth, Firearms</li>
+<li><strong>Frailty</strong>: Impulsiveness</li>
+<li><strong>Gear</strong>: Motorcycle gangs, homemade explosives</li>
+<li><strong>Goal</strong>: To take what they want by force</li>
+<li><strong>Motive</strong>: Power and control</li>
+<li><strong>Nemesis</strong>: The Enclave</li>
+</ul>
+</section>
+<section id="the-cult-of-the-new-dawn--concept-apocalyptic-zealots" class="level3">
+<h3 class="anchored" data-anchor-id="the-cult-of-the-new-dawn--concept-apocalyptic-zealots">The Cult of the New Dawn- <strong>Concept</strong>: Apocalyptic zealots</h3>
+<ul>
+<li><strong>Skills</strong>: Religious knowledge, Persuasion</li>
+<li><strong>Frailty</strong>: Fanaticism</li>
+<li><strong>Gear</strong>: Robes, crude weapons</li>
+<li><strong>Goal</strong>: To usher in a new age of enlightenment</li>
+<li><strong>Motive</strong>: To find meaning in the apocalypse</li>
+<li><strong>Nemesis</strong>: The Enclave</li>
+</ul>
+</section>
+<section id="the-scavengers-guild--concept-organized-scavengers" class="level3">
+<h3 class="anchored" data-anchor-id="the-scavengers-guild--concept-organized-scavengers">The Scavengers’ Guild- <strong>Concept</strong>: Organized scavengers</h3>
+<ul>
+<li><strong>Skills</strong>: Negotiation, Resource management</li>
+<li><strong>Frailty</strong>: Greed</li>
+<li><strong>Gear</strong>: Maps, metal detectors</li>
+<li><strong>Goal</strong>: To dominate the scavenging trade</li>
+<li><strong>Motive</strong>: Profit and self-interest</li>
+<li><strong>Nemesis</strong>: The Enclave</li>
+</ul>
+</section>
+<section id="the-followers-of-the-wastes--concept-environmentalists" class="level3">
+<h3 class="anchored" data-anchor-id="the-followers-of-the-wastes--concept-environmentalists">The Followers of the Wastes- <strong>Concept</strong>: Environmentalists</h3>
+<ul>
+<li><strong>Skills</strong>: Survival, Medicine</li>
+<li><strong>Frailty</strong>: Naivety</li>
+<li><strong>Gear</strong>: Gas masks, Geiger counters</li>
+<li><strong>Goal</strong>: To heal the land and restore balance</li>
+<li><strong>Motive</strong>: To protect the natural world</li>
+<li><strong>Nemesis</strong>: The Raiders</li>
+</ul>
+</section>
+</section>
+<section id="npcs" class="level2">
+<h2 class="anchored" data-anchor-id="npcs">NPCs</h2>
+<section id="doc-sullivan" class="level3">
+<h3 class="anchored" data-anchor-id="doc-sullivan">“Doc” Sullivan</h3>
+<ul>
+<li><strong>Concept</strong>: Resourceful Medic</li>
+<li><strong>Skills</strong>: First Aid, Surgery</li>
+<li><strong>Frailty</strong>: Arrogant</li>
+<li><strong>Gear</strong>: Medical Supplies, Knife</li>
+<li><strong>Goal</strong>: Establish a Clinic</li>
+<li><strong>Motive</strong>: Help the Sick and Injured</li>
+<li><strong>Nemesis</strong>: Rival Medic “Sawbones” Mcgee</li>
+</ul>
+</section>
+<section id="crazy-eddie" class="level3">
+<h3 class="anchored" data-anchor-id="crazy-eddie">“Crazy” Eddie</h3>
+<ul>
+<li><strong>Concept</strong>: Demolitions Expert</li>
+<li><strong>Skills</strong>: Explosives, Engineering</li>
+<li><strong>Frailty</strong>: Reckless</li>
+<li><strong>Gear</strong>: Explosives, Grenades</li>
+<li><strong>Goal</strong>: Destroy the Dam</li>
+<li><strong>Motive</strong>: Seeking Revenge for Past Injustices</li>
+<li><strong>Nemesis</strong>: Town Sheriff “Big Jim” Dalton</li>
+</ul>
+</section>
+<section id="whiskey-jack" class="level3">
+<h3 class="anchored" data-anchor-id="whiskey-jack">“Whiskey” Jack</h3>
+<ul>
+<li><strong>Concept</strong>: Trader</li>
+<li><strong>Skills</strong>: Barter, Persuasion</li>
+<li><strong>Frailty</strong>: Alcoholic</li>
+<li><strong>Gear</strong>: Goods for Trading, Shotgun</li>
+<li><strong>Goal</strong>: Find a Safe Haven</li>
+<li><strong>Motive</strong>: Profit and Self-Preservation</li>
+<li><strong>Nemesis</strong>: Bandit Leader “Snake Eyes” Davis</li>
+</ul>
+</section>
+<section id="red-roberts" class="level3">
+<h3 class="anchored" data-anchor-id="red-roberts">“Red” Roberts</h3>
+<ul>
+<li><strong>Concept</strong>: Bounty Hunter</li>
+<li><strong>Skills</strong>: Tracking, Marksmanship</li>
+<li><strong>Frailty</strong>: Hot-Headed</li>
+<li><strong>Gear</strong>: Handgun, Handcuffs</li>
+<li><strong>Goal</strong>: Catch the Outlaws</li>
+<li><strong>Motive</strong>: Justice and Money</li>
+<li><strong>Nemesis</strong>: Wanted Outlaw “Black Bart” Johnson</li>
+</ul>
+</section>
+<section id="slim-reynolds" class="level3">
+<h3 class="anchored" data-anchor-id="slim-reynolds">“Slim” Reynolds</h3>
+<ul>
+<li><strong>Concept</strong>: Scavenger</li>
+<li><strong>Skills</strong>: Stealth, Survival</li>
+<li><strong>Frailty</strong>: Paranoid</li>
+<li><strong>Gear</strong>: Binoculars, Crowbar</li>
+<li><strong>Goal</strong>: Find the Lost Vault</li>
+<li><strong>Motive</strong>: Greed and Adventure</li>
+<li><strong>Nemesis</strong>: Raider Boss “Mad Dog” Smith</li>
+</ul>
+</section>
+<section id="gunner-jackson" class="level3">
+<h3 class="anchored" data-anchor-id="gunner-jackson">“Gunner” Jackson</h3>
+<ul>
+<li><strong>Concept</strong>: Mercenary</li>
+<li><strong>Skills</strong>: Heavy Weapons, Tactics</li>
+<li><strong>Frailty</strong>: Greedy</li>
+<li><strong>Gear</strong>: Minigun, Armor</li>
+<li><strong>Goal</strong>: Protect the Settlement</li>
+<li><strong>Motive</strong>: Payment and Glory</li>
+<li><strong>Nemesis</strong>: Mutant Warlord “Scorcher” Jones</li>
+</ul>
+</section>
+</section>
+<section id="creatures" class="level2">
+<h2 class="anchored" data-anchor-id="creatures">Creatures</h2>
+<section id="irradiated-coyote" class="level3">
+<h3 class="anchored" data-anchor-id="irradiated-coyote">Irradiated Coyote</h3>
+<ul>
+<li><strong>Concept</strong>: Mutated predator</li>
+<li><strong>Skills</strong>: Stealth, Agility</li>
+<li><strong>Frailty</strong>: Weak immune system</li>
+<li><strong>Gear</strong>: Sharp claws, heightened senses</li>
+<li><strong>Goal</strong>: Hunt and scavenge for food</li>
+<li><strong>Motive</strong>: Survival and reproduction</li>
+<li><strong>Nemesis</strong>: Hunters and larger predators</li>
+</ul>
+</section>
+<section id="rustling-beetle" class="level3">
+<h3 class="anchored" data-anchor-id="rustling-beetle">Rustling Beetle</h3>
+<ul>
+<li><strong>Concept</strong>: Metallic scavenger</li>
+<li><strong>Skills</strong>: Digging, Durability</li>
+<li><strong>Frailty</strong>: Slow movement</li>
+<li><strong>Gear</strong>: Rusty armor, sharp mandibles</li>
+<li><strong>Goal</strong>: Gather and consume metal scraps</li>
+<li><strong>Motive</strong>: Survival and expansion of territory</li>
+<li><strong>Nemesis</strong>: Rust storms and large predators</li>
+</ul>
+</section>
+<section id="fungal-abomination" class="level3">
+<h3 class="anchored" data-anchor-id="fungal-abomination">Fungal Abomination</h3>
+<ul>
+<li><strong>Concept</strong>: Mutated plant monster</li>
+<li><strong>Skills</strong>: Poison, Regeneration</li>
+<li><strong>Frailty</strong>: Slow movement</li>
+<li><strong>Gear</strong>: Spores, acidic sap</li>
+<li><strong>Goal</strong>: Spread and infect other organisms</li>
+<li><strong>Motive</strong>: Survival and proliferation</li>
+<li><strong>Nemesis</strong>: Fire and extreme cold</li>
+</ul>
+</section>
+<section id="sludge-crawler" class="level3">
+<h3 class="anchored" data-anchor-id="sludge-crawler">Sludge Crawler</h3>
+<ul>
+<li><strong>Concept</strong>: Toxic amphibian</li>
+<li><strong>Skills</strong>: Swimming, Poison</li>
+<li><strong>Frailty</strong>: Fragile skin</li>
+<li><strong>Gear</strong>: Slimy mucus, sharp teeth</li>
+<li><strong>Goal</strong>: Feed on small creatures and organic waste</li>
+<li><strong>Motive</strong>: Survival and reproduction</li>
+<li><strong>Nemesis</strong>: Large predators and pollution</li>
+</ul>
+</section>
+<section id="scrapyard-scorpion" class="level3">
+<h3 class="anchored" data-anchor-id="scrapyard-scorpion">Scrapyard Scorpion</h3>
+<ul>
+<li><strong>Concept</strong>: Mechanized arachnid</li>
+<li><strong>Skills</strong>: Armor, Scanning</li>
+<li><strong>Frailty</strong>: Electrical interference</li>
+<li><strong>Gear</strong>: Heavy pincers, metal exoskeleton</li>
+<li><strong>Goal</strong>: Collect and hoard valuable technology</li>
+<li><strong>Motive</strong>: Survival and collection</li>
+<li><strong>Nemesis</strong>: EMPs and other scavengers</li>
+</ul>
+</section>
+<section id="chattering-rat" class="level3">
+<h3 class="anchored" data-anchor-id="chattering-rat">Chattering Rat</h3>
+<ul>
+<li><strong>Concept</strong>: Unusually intelligent rodent</li>
+<li><strong>Skills</strong>: Stealth, Thievery</li>
+<li><strong>Frailty</strong>: Fragile bones</li>
+<li><strong>Gear</strong>: Sharp teeth, dexterous hands</li>
+<li><strong>Goal</strong>: Steal and hoard valuable resources</li>
+<li><strong>Motive</strong>: Survival and collection</li>
+<li><strong>Nemesis</strong>: Traps and larger predators</li>
+</ul>
+</section>
+</section>
+<section id="locations" class="level2">
+<h2 class="anchored" data-anchor-id="locations">Locations</h2>
+</section>
+<section id="abandoned-military-base" class="level2">
+<h2 class="anchored" data-anchor-id="abandoned-military-base">Abandoned Military Base</h2>
+<ul>
+<li>A former military installation that has been abandoned since the apocalypse.</li>
+<li>Contains weapons, ammunition, and other supplies that are highly sought after by survivors and factions.</li>
+<li>Possible encounters: Raiders, scavengers, military remnants</li>
+</ul>
+<section id="oasis-springs" class="level3">
+<h3 class="anchored" data-anchor-id="oasis-springs">Oasis Springs</h3>
+<ul>
+<li>A natural spring that has become a hub for trade and commerce.</li>
+<li>Surrounded by lush vegetation and fertile soil, providing a source of fresh produce.</li>
+<li>Possible encounters: Traders, farmers, water thieves</li>
+</ul>
+</section>
+<section id="the-iron-citadel" class="level3">
+<h3 class="anchored" data-anchor-id="the-iron-citadel">The Iron Citadel</h3>
+<ul>
+<li>A fortress built by a powerful faction to defend against outside threats.</li>
+<li>Heavily fortified with walls, watchtowers, and armed guards.</li>
+<li>Possible encounters: Faction soldiers, prisoners, mercenaries</li>
+</ul>
+</section>
+<section id="the-dead-zone" class="level3">
+<h3 class="anchored" data-anchor-id="the-dead-zone">The Dead Zone</h3>
+<ul>
+<li>An area of land that was heavily affected by the solar flare and is now completely barren and lifeless.</li>
+<li>Highly radioactive and dangerous to enter.</li>
+<li>Possible encounters: Mutated creatures, scavengers, cultists</li>
+</ul>
+</section>
+<section id="the-underground-city" class="level3">
+<h3 class="anchored" data-anchor-id="the-underground-city">The Underground City</h3>
+<ul>
+<li>A network of tunnels and caverns that was used by survivors to escape the chaos on the surface.</li>
+<li>Contains makeshift living quarters, workshops, and a black market.</li>
+<li>Possible encounters: Smugglers, traders, outcasts</li>
+</ul>
+</section>
+<section id="the-red-forest" class="level3">
+<h3 class="anchored" data-anchor-id="the-red-forest">The Red Forest</h3>
+<ul>
+<li>A forest that was stained red by the radioactive fallout from the solar flare.</li>
+<li>Contains mutated flora and fauna, as well as valuable resources.</li>
+<li>Possible encounters: Mutated creatures, scavengers, botanists</li>
+</ul>
+</section>
+</section>
+<section id="adventure-seeds" class="level2">
+<h2 class="anchored" data-anchor-id="adventure-seeds">Adventure Seeds</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 0%">
+<col style="width: 99%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>D66</th>
+<th>Adventure</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>11</td>
+<td>The Reapers have discovered a hidden cache of advanced technology within the Abandoned Military Base. They plan a raid to retrieve the valuable weapons, and the protagonist must either join or stop them.</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>“Doc” Sullivan needs the protagonist’s help to secure medical supplies from a dangerous area infested with Irradiated Coyotes. They must protect him while he gathers the necessary resources.</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>The Raiders have kidnapped a prominent member of the Scavengers’ Guild. The protagonist is tasked with negotiating a trade for their release or mounting a rescue mission.</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>The Cult of the New Dawn plans to contaminate Oasis Springs with toxic chemicals. The protagonist must prevent the poisoning and find evidence of the cult’s involvement.</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>“Crazy” Eddie intends to blow up the Dam, flooding the valley below. The protagonist must stop him before it’s too late, dealing with his explosive traps and followers along the way.</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>The Enclave has sent a distress signal from the Iron Citadel. The protagonist must investigate and discover if it’s a genuine emergency or a trap set by their enemies.</td>
+</tr>
+<tr class="odd">
+<td>21</td>
+<td>“Whiskey” Jack hires the protagonist as a bodyguard for a dangerous journey through the Dead Zone to deliver a rare artifact to a wealthy collector in a distant settlement.</td>
+</tr>
+<tr class="even">
+<td>22</td>
+<td>The Followers of the Wastes seek assistance in gathering rare herbs from the Red Forest to create a cure for a deadly disease plaguing their community.</td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td>The Scavengers’ Guild accuses a rival group of stealing their maps, leading to valuable resources. The protagonist must find the truth and recover the stolen goods.</td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td>“Red” Roberts has been tracking the elusive outlaw “Black Bart” Johnson. The protagonist must assist him in capturing or eliminating Johnson, navigating treacherous terrain and avoiding Johnson’s gang.</td>
+</tr>
+<tr class="odd">
+<td>25</td>
+<td>“Slim” Reynolds possesses a mysterious map hinting at the location of a legendary Vault rumored to contain vast riches. The protagonist accompanies him on a perilous journey to uncover the truth.</td>
+</tr>
+<tr class="even">
+<td>26</td>
+<td>The Enclave enlists the protagonist to defend Oasis Springs from a large-scale Raider attack. They must strategize defenses, recruit allies, and repel the invaders.</td>
+</tr>
+<tr class="odd">
+<td>31</td>
+<td>The Cult of the New Dawn has infiltrated the Underground City and plans to convert its inhabitants. The protagonist must expose the cultists and prevent their influence from spreading.</td>
+</tr>
+<tr class="even">
+<td>32</td>
+<td>A group of Irradiated Coyotes has established a den near a nearby settlement, posing a threat to the residents. The protagonist is hired to exterminate the pack and secure the area.</td>
+</tr>
+<tr class="odd">
+<td>33</td>
+<td>The Raiders are attempting to seize control of Oasis Springs’ fresh water supply. The protagonist must thwart their plans and ensure the precious resource remains accessible to all.</td>
+</tr>
+<tr class="even">
+<td>34</td>
+<td>The Scavengers’ Guild offers a lucrative contract to the protagonist to retrieve a rare piece of pre-apocalypse technology from within the Abandoned Military Base. They face numerous challenges, including hostile security systems.</td>
+</tr>
+<tr class="odd">
+<td>35</td>
+<td>The Followers of the Wastes need assistance in locating a hidden grove within the Red Forest, said to contain the last surviving sample of unmutated plant life.</td>
+</tr>
+<tr class="even">
+<td>36</td>
+<td>The Enclave suspects a traitor within their ranks and asks the protagonist to investigate. They must gather evidence and uncover the mole’s true allegiance.</td>
+</tr>
+<tr class="odd">
+<td>41</td>
+<td>“Doc” Sullivan’s clinic is under attack by a group of bandits seeking medical supplies. The protagonist must defend the clinic and its patients, utilizing their combat and healing skills.</td>
+</tr>
+<tr class="even">
+<td>42</td>
+<td>“Crazy” Eddie’s explosives accidentally trigger a collapse within the Dam, threatening to flood the nearby settlements. The protagonist has limited time to repair the damage and avert disaster.</td>
+</tr>
+<tr class="odd">
+<td>43</td>
+<td>The Raiders capture an important NPC who possesses crucial information about the Enclave’s defenses. The protagonist must infiltrate the Raider stronghold and rescue the captive before it’s too late.</td>
+</tr>
+<tr class="even">
+<td>44</td>
+<td>The Scavengers’ Guild hires the protagonist to negotiate a trade agreement with a distant community known for its valuable fuel reserves. They face treacherous desert terrain and potential ambushes along the way.</td>
+</tr>
+<tr class="odd">
+<td>45</td>
+<td>“Red” Roberts discovers a secret underground tunnel network used by the Raiders for smuggling operations. The protagonist joins him to sabotage the tunnels and disrupt the Raiders’ activities.</td>
+</tr>
+<tr class="even">
+<td>46</td>
+<td>The Cult of the New Dawn plans to unleash a massive mutated creature from the Dead Zone, intending to use it as a symbol of their power. The protagonist must find a way to neutralize the threat before chaos ensues.</td>
+</tr>
+<tr class="odd">
+<td>51</td>
+<td>The Enclave dispatches the protagonist to establish diplomatic relations with a nearby faction. They must navigate through hostile territory and negotiate a mutually beneficial alliance.</td>
+</tr>
+<tr class="even">
+<td>52</td>
+<td>“Slim” Reynolds stumbles upon a hidden entrance to an underground bunker within the Dead Zone. The protagonist accompanies him on a journey to explore the vault’s contents and face its challenges.</td>
+</tr>
+<tr class="odd">
+<td>53</td>
+<td>The Raiders target an important trade route passing through the Red Forest, disrupting vital supply lines. The protagonist must escort a convoy safely through the dangerous territory and eliminate the Raider threat.</td>
+</tr>
+<tr class="even">
+<td>54</td>
+<td>The Scavengers’ Guild uncovers a valuable artifact within the Abandoned Military Base. However, rival factions, including the Enclave, also lay claim to it. The protagonist must secure the artifact while navigating complex political dynamics.</td>
+</tr>
+<tr class="odd">
+<td>55</td>
+<td>The Followers of the Wastes discover a group of mutated creatures within the Red Forest that display signs of increased intelligence. The protagonist must investigate and determine if this poses a threat or an opportunity.</td>
+</tr>
+<tr class="even">
+<td>56</td>
+<td>The Enclave tasks the protagonist with retrieving advanced technology from an unexplored section of the Underground City, encountering hidden dangers and rival scavengers.</td>
+</tr>
+<tr class="odd">
+<td>61</td>
+<td>“Doc” Sullivan receives a distress call from a remote settlement plagued by a mysterious illness. The protagonist assists him in identifying the cause and finding a cure before it spreads to other communities.</td>
+</tr>
+<tr class="even">
+<td>62</td>
+<td>“Crazy” Eddie’s explosive expertise is needed to breach the defenses of a heavily fortified Raider compound. The protagonist accompanies him on a mission to eliminate the Raider threat once and for all.</td>
+</tr>
+<tr class="odd">
+<td>63</td>
+<td>“Whiskey” Jack’s past catches up with him as his former gang, led by “Snake Eyes” Davis, seeks revenge. The protagonist must defend Jack and his newfound allies in a desperate showdown.</td>
+</tr>
+<tr class="even">
+<td>64</td>
+<td>“Red” Roberts discovers evidence of a secret Enclave project involving illegal experimentation on mutated creatures. The protagonist aids him in gathering proof and exposing the project to the public.</td>
+</tr>
+<tr class="odd">
+<td>65</td>
+<td>The Raiders have kidnapped an important Enclave diplomat, threatening to execute them publicly. The protagonist must infiltrate the Raider camp and rescue the hostage while avoiding detection.</td>
+</tr>
+<tr class="even">
+<td>66</td>
+<td>The protagonist stumbles upon an ancient pre-apocalyptic research facility hidden within the Iron Citadel. They must navigate its treacherous corridors and unravel the mysteries left behind by its previous inhabitants.</td>
+</tr>
+</tbody>
+</table>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var sidebar = document.getElementById("quarto-margin-sidebar");
+  var formats = document.querySelector(".quarto-alternate-formats");
+  if (sidebar && formats) {
+    sidebar.insertBefore(formats, sidebar.firstChild);
+  }
+
+  // Rename "Typst" label to "PDF"
+  document.querySelectorAll(".quarto-alternate-formats a").forEach(function (a) {
+    a.childNodes.forEach(function (node) {
+      if (node.nodeType === Node.TEXT_NODE && node.textContent.trim() === "Typst") {
+        node.textContent = "PDF";
+      }
+    });
+  });
+});
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/zotiquestgames\.github\.io\/lonersrd\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2021-2026 <a href="https://zotiquestgames.com">Roberto Bisceglie</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/zotiquestgames/lonersrd/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

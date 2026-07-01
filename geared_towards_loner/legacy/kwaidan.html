@@ -1,0 +1,3697 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Roberto Bisceglie">
+<meta name="dcterms.date" content="2026-07-01">
+
+<title>Kwaidan! – Loner SRD</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-d37705bb3a21d8331654a8d3f48f58ba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-87bbd3402671c853dcbde7c40b26e08b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-d37705bb3a21d8331654a8d3f48f58ba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&amp;family=Raleway:wght@700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+  @import url('https://fonts.cdnfonts.com/css/takota');
+</style>
+
+
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Loner SRD</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../../core/loner-3e.html" aria-current="page"> 
+<span class="menu-text">Core Rules</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../adventure_packs/AP01_fantasy.html"> 
+<span class="menu-text">Adventure Packs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../geared_towards_loner/kwaidan_revised.html"> 
+<span class="menu-text">Geared Towards Loner</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/zotiquestgames/lonersrd"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../adventure_packs/AP01_fantasy.html">Adventure Packs</a></li><li class="breadcrumb-item"><a href="../../adventure_packs/legacy/AP01_fantasy.html">Adventure Packs (Legacy 2e)</a></li><li class="breadcrumb-item"><a href="../../geared_towards_loner/legacy/kwaidan.html">Kwaidan!</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+ <span class="menu-text">SRD</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/loner-3e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 3e</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/loner_companion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Companion</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/character_builders_guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Character Builder’s Guide</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/world_builders_guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">World Builder’s Guide</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/the_path_not_taken.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Path Not Taken</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/cinematic_action.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cinematic Action</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/tales_and_tumbles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">For Kids</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Legacy Core Rules</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/legacy/loner-1e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 1e (legacy)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core/legacy/loner-2e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 2e (legacy)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Adventure Packs</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP01_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fantasy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP02_space.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Space Sci-Fi Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP03_superheroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Superheroes Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP04_crime.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Crime Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP05_mystery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mystery Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP06_horror.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Horror Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP07_action_adventure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Action Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP08_spy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP09_postapoc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Post-Apocalyptic Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP10_pirates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pirates Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP11_western.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Western Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/AP12_cyberpunk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cyberpunk Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">Adventure Packs (Legacy 2e)</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP01_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fantasy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP02_space.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Space Sci-Fi Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP03_superheroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Superheroes Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP04_crime.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Crime Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP05_mystery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mystery Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP06_horror.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Horror Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP07_action_adventure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Action Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP08_spy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP09_postapoc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Post-Apocalyptic Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP10_pirates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pirates Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP11_western.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Western Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../adventure_packs/legacy/AP12_cyberpunk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cyberpunk Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/legacy/kwaidan.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Kwaidan!</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">Geared Towards Loner games</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/kwaidan_revised.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan! (Revised)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/cog_compass.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cog &amp; Compass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/mech_requiem.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mech: Requiem</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/legends_of_camelot.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Legends of Camelot</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/pulp_adventures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pulp Adventures!</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/steel_and_sorcery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Steel &amp; Sorcery</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/dungeoneer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dungeoneer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/spacer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spacer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/arabian_nights_adventures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Arabian Nights Adventures</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/cozy_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cozy Fantasy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/savage_blades_of_xylandra.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Savage Blades of Xylandra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/pulp_heroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pulp Heroes!</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/the_shattered_reach.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Shattered Reach</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/galaxy_drifter.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Galaxy Drifter</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/urban_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Urban Fantasy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/norse_saga.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Norse Saga</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/cthulhu.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cthulhu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/paranormal_files.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Paranormal Files</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+ <span class="menu-text">Geared Towards Loner games (Legacy)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../geared_towards_loner/legacy/kwaidan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan!</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#kwaidan" id="toc-kwaidan" class="nav-link active" data-scroll-target="#kwaidan">Kwaidan!</a>
+  <ul class="collapse">
+  <li><a href="#setting-information" id="toc-setting-information" class="nav-link" data-scroll-target="#setting-information">Setting Information</a>
+  <ul class="collapse">
+  <li><a href="#themes" id="toc-themes" class="nav-link" data-scroll-target="#themes">Themes</a></li>
+  </ul></li>
+  <li><a href="#character-traits" id="toc-character-traits" class="nav-link" data-scroll-target="#character-traits">Character Traits</a>
+  <ul class="collapse">
+  <li><a href="#concepts" id="toc-concepts" class="nav-link" data-scroll-target="#concepts">Concepts</a></li>
+  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills</a></li>
+  <li><a href="#frailties" id="toc-frailties" class="nav-link" data-scroll-target="#frailties">Frailties</a></li>
+  <li><a href="#gear" id="toc-gear" class="nav-link" data-scroll-target="#gear">Gear</a></li>
+  </ul></li>
+  <li><a href="#names" id="toc-names" class="nav-link" data-scroll-target="#names">Names</a>
+  <ul class="collapse">
+  <li><a href="#female-names" id="toc-female-names" class="nav-link" data-scroll-target="#female-names">Female Names</a></li>
+  <li><a href="#male-names" id="toc-male-names" class="nav-link" data-scroll-target="#male-names">Male Names</a></li>
+  <li><a href="#surnames" id="toc-surnames" class="nav-link" data-scroll-target="#surnames">Surnames</a></li>
+  <li><a href="#settlement-names" id="toc-settlement-names" class="nav-link" data-scroll-target="#settlement-names">Settlement Names</a></li>
+  <li><a href="#location-names" id="toc-location-names" class="nav-link" data-scroll-target="#location-names">Location Names</a></li>
+  <li><a href="#regional-names" id="toc-regional-names" class="nav-link" data-scroll-target="#regional-names">Regional Names</a></li>
+  </ul></li>
+  <li><a href="#special-rules" id="toc-special-rules" class="nav-link" data-scroll-target="#special-rules">Special Rules</a></li>
+  <li><a href="#factions" id="toc-factions" class="nav-link" data-scroll-target="#factions">Factions</a>
+  <ul class="collapse">
+  <li><a href="#the-shoguns-forces" id="toc-the-shoguns-forces" class="nav-link" data-scroll-target="#the-shoguns-forces">The Shogun’s Forces</a></li>
+  <li><a href="#the-animal-cults" id="toc-the-animal-cults" class="nav-link" data-scroll-target="#the-animal-cults">The Animal Cults</a></li>
+  <li><a href="#the-dragon-clan" id="toc-the-dragon-clan" class="nav-link" data-scroll-target="#the-dragon-clan">The Dragon Clan</a></li>
+  <li><a href="#the-bamboo-cutters" id="toc-the-bamboo-cutters" class="nav-link" data-scroll-target="#the-bamboo-cutters">The Bamboo Cutters</a></li>
+  <li><a href="#the-sohei" id="toc-the-sohei" class="nav-link" data-scroll-target="#the-sohei">The Sohei</a></li>
+  <li><a href="#the-shadow-walker-clan" id="toc-the-shadow-walker-clan" class="nav-link" data-scroll-target="#the-shadow-walker-clan">The Shadow Walker Clan</a></li>
+  </ul></li>
+  <li><a href="#npcs" id="toc-npcs" class="nav-link" data-scroll-target="#npcs">NPCs</a>
+  <ul class="collapse">
+  <li><a href="#daimyo-akira" id="toc-daimyo-akira" class="nav-link" data-scroll-target="#daimyo-akira">Daimyo Akira</a></li>
+  <li><a href="#peasant-girl-hanako" id="toc-peasant-girl-hanako" class="nav-link" data-scroll-target="#peasant-girl-hanako">Peasant Girl Hanako</a></li>
+  <li><a href="#ronin-taka" id="toc-ronin-taka" class="nav-link" data-scroll-target="#ronin-taka">Ronin Taka</a></li>
+  <li><a href="#priestess-yuri" id="toc-priestess-yuri" class="nav-link" data-scroll-target="#priestess-yuri">Priestess Yuri</a></li>
+  <li><a href="#tanuki-shapeshifter-roku" id="toc-tanuki-shapeshifter-roku" class="nav-link" data-scroll-target="#tanuki-shapeshifter-roku">Tanuki Shapeshifter Roku</a></li>
+  <li><a href="#merchant-lord-hiroshi" id="toc-merchant-lord-hiroshi" class="nav-link" data-scroll-target="#merchant-lord-hiroshi">Merchant Lord Hiroshi</a></li>
+  </ul></li>
+  <li><a href="#locations" id="toc-locations" class="nav-link" data-scroll-target="#locations">Locations</a>
+  <ul class="collapse">
+  <li><a href="#the-howling-forest" id="toc-the-howling-forest" class="nav-link" data-scroll-target="#the-howling-forest">The Howling Forest</a></li>
+  <li><a href="#the-cursed-hot-springs" id="toc-the-cursed-hot-springs" class="nav-link" data-scroll-target="#the-cursed-hot-springs">The Cursed Hot Springs</a></li>
+  <li><a href="#the-forgotten-shrine" id="toc-the-forgotten-shrine" class="nav-link" data-scroll-target="#the-forgotten-shrine">The Forgotten Shrine</a></li>
+  <li><a href="#the-eastern-road" id="toc-the-eastern-road" class="nav-link" data-scroll-target="#the-eastern-road">The Eastern Road</a></li>
+  <li><a href="#the-foggy-moors" id="toc-the-foggy-moors" class="nav-link" data-scroll-target="#the-foggy-moors">The Foggy Moors</a></li>
+  <li><a href="#the-singing-cave" id="toc-the-singing-cave" class="nav-link" data-scroll-target="#the-singing-cave">The Singing Cave</a></li>
+  </ul></li>
+  <li><a href="#haunted-artifacts" id="toc-haunted-artifacts" class="nav-link" data-scroll-target="#haunted-artifacts">Haunted Artifacts</a></li>
+  <li><a href="#mystical-locations" id="toc-mystical-locations" class="nav-link" data-scroll-target="#mystical-locations">Mystical Locations</a></li>
+  <li><a href="#random-events" id="toc-random-events" class="nav-link" data-scroll-target="#random-events">Random Events</a></li>
+  <li><a href="#adventure-seeds" id="toc-adventure-seeds" class="nav-link" data-scroll-target="#adventure-seeds">Adventure Seeds</a></li>
+  <li><a href="#bestiary" id="toc-bestiary" class="nav-link" data-scroll-target="#bestiary">Bestiary</a>
+  <ul class="collapse">
+  <li><a href="#akaname" id="toc-akaname" class="nav-link" data-scroll-target="#akaname">Akaname</a></li>
+  <li><a href="#akashita" id="toc-akashita" class="nav-link" data-scroll-target="#akashita">Akashita</a></li>
+  <li><a href="#amanojaku" id="toc-amanojaku" class="nav-link" data-scroll-target="#amanojaku">Amanojaku</a></li>
+  <li><a href="#enenra" id="toc-enenra" class="nav-link" data-scroll-target="#enenra">Enenra</a></li>
+  <li><a href="#hitotsume-kozo" id="toc-hitotsume-kozo" class="nav-link" data-scroll-target="#hitotsume-kozo">Hitotsume-kozo</a></li>
+  <li><a href="#hihi" id="toc-hihi" class="nav-link" data-scroll-target="#hihi">Hihi</a></li>
+  <li><a href="#hyakki-yagyō" id="toc-hyakki-yagyō" class="nav-link" data-scroll-target="#hyakki-yagyō">Hyakki Yagyō</a></li>
+  <li><a href="#jibakurei" id="toc-jibakurei" class="nav-link" data-scroll-target="#jibakurei">Jibakurei</a></li>
+  <li><a href="#jorogumo" id="toc-jorogumo" class="nav-link" data-scroll-target="#jorogumo">Jorogumo</a></li>
+  <li><a href="#kamagami" id="toc-kamagami" class="nav-link" data-scroll-target="#kamagami">Kamagami</a></li>
+  <li><a href="#kamaitachi" id="toc-kamaitachi" class="nav-link" data-scroll-target="#kamaitachi">Kamaitachi</a></li>
+  <li><a href="#kamikakushi" id="toc-kamikakushi" class="nav-link" data-scroll-target="#kamikakushi">Kamikakushi</a></li>
+  <li><a href="#kamikiri" id="toc-kamikiri" class="nav-link" data-scroll-target="#kamikiri">Kamikiri</a></li>
+  <li><a href="#kappa" id="toc-kappa" class="nav-link" data-scroll-target="#kappa">Kappa</a></li>
+  <li><a href="#kijo" id="toc-kijo" class="nav-link" data-scroll-target="#kijo">Kijo</a></li>
+  <li><a href="#kitsune" id="toc-kitsune" class="nav-link" data-scroll-target="#kitsune">Kitsune</a></li>
+  <li><a href="#konaki-jiji" id="toc-konaki-jiji" class="nav-link" data-scroll-target="#konaki-jiji">Konaki-jiji</a></li>
+  <li><a href="#kubire-oni" id="toc-kubire-oni" class="nav-link" data-scroll-target="#kubire-oni">Kubire-oni</a></li>
+  <li><a href="#kawa-no-kami" id="toc-kawa-no-kami" class="nav-link" data-scroll-target="#kawa-no-kami">Kawa-no-kami</a></li>
+  <li><a href="#kawa-uso" id="toc-kawa-uso" class="nav-link" data-scroll-target="#kawa-uso">Kawa-uso</a></li>
+  <li><a href="#kasha" id="toc-kasha" class="nav-link" data-scroll-target="#kasha">Kasha</a></li>
+  <li><a href="#nue" id="toc-nue" class="nav-link" data-scroll-target="#nue">Nue</a></li>
+  <li><a href="#nukarumi" id="toc-nukarumi" class="nav-link" data-scroll-target="#nukarumi">Nukarumi</a></li>
+  <li><a href="#noppera-bo" id="toc-noppera-bo" class="nav-link" data-scroll-target="#noppera-bo">Noppera-bo</a></li>
+  <li><a href="#nurari" id="toc-nurari" class="nav-link" data-scroll-target="#nurari">Nurari</a></li>
+  <li><a href="#nurarihyon" id="toc-nurarihyon" class="nav-link" data-scroll-target="#nurarihyon">Nurarihyon</a></li>
+  <li><a href="#oni" id="toc-oni" class="nav-link" data-scroll-target="#oni">Oni</a></li>
+  <li><a href="#raiju" id="toc-raiju" class="nav-link" data-scroll-target="#raiju">Raiju</a></li>
+  <li><a href="#rokurokubi" id="toc-rokurokubi" class="nav-link" data-scroll-target="#rokurokubi">Rokurokubi</a></li>
+  <li><a href="#satori" id="toc-satori" class="nav-link" data-scroll-target="#satori">Satori</a></li>
+  <li><a href="#shirime" id="toc-shirime" class="nav-link" data-scroll-target="#shirime">Shirime</a></li>
+  <li><a href="#tengu" id="toc-tengu" class="nav-link" data-scroll-target="#tengu">Tengu</a></li>
+  <li><a href="#tesso" id="toc-tesso" class="nav-link" data-scroll-target="#tesso">Tesso</a></li>
+  <li><a href="#tanuki" id="toc-tanuki" class="nav-link" data-scroll-target="#tanuki">Tanuki</a></li>
+  <li><a href="#umibozu" id="toc-umibozu" class="nav-link" data-scroll-target="#umibozu">Umibozu</a></li>
+  <li><a href="#yamabiko" id="toc-yamabiko" class="nav-link" data-scroll-target="#yamabiko">Yamabiko</a></li>
+  <li><a href="#yuki-onna" id="toc-yuki-onna" class="nav-link" data-scroll-target="#yuki-onna">Yuki-onna</a></li>
+  <li><a href="#yokai" id="toc-yokai" class="nav-link" data-scroll-target="#yokai">Yokai</a></li>
+  <li><a href="#yurei" id="toc-yurei" class="nav-link" data-scroll-target="#yurei">Yurei</a></li>
+  <li><a href="#zashiki-warashi" id="toc-zashiki-warashi" class="nav-link" data-scroll-target="#zashiki-warashi">Zashiki-warashi</a></li>
+  </ul></li>
+  <li><a href="#appendix-a-cultural-insights-and-glossary" id="toc-appendix-a-cultural-insights-and-glossary" class="nav-link" data-scroll-target="#appendix-a-cultural-insights-and-glossary">Appendix A: Cultural Insights and Glossary</a></li>
+  <li><a href="#appendix-b-glossary" id="toc-appendix-b-glossary" class="nav-link" data-scroll-target="#appendix-b-glossary">Appendix B: Glossary</a></li>
+  <li><a href="#appendix-c-inspirational-media" id="toc-appendix-c-inspirational-media" class="nav-link" data-scroll-target="#appendix-c-inspirational-media">Appendix C: Inspirational Media</a>
+  <ul class="collapse">
+  <li><a href="#books" id="toc-books" class="nav-link" data-scroll-target="#books">Books</a></li>
+  <li><a href="#movies-and-tv-shows" id="toc-movies-and-tv-shows" class="nav-link" data-scroll-target="#movies-and-tv-shows">Movies and TV Shows</a></li>
+  <li><a href="#video-games" id="toc-video-games" class="nav-link" data-scroll-target="#video-games">Video Games</a></li>
+  <li><a href="#documentaries" id="toc-documentaries" class="nav-link" data-scroll-target="#documentaries">Documentaries</a></li>
+  <li><a href="#online-resources" id="toc-online-resources" class="nav-link" data-scroll-target="#online-resources">Online Resources</a></li>
+  </ul></li>
+  <li><a href="#license" id="toc-license" class="nav-link" data-scroll-target="#license">License</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/zotiquestgames/lonersrd/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="kwaidan.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="kwaidan.odt"><i class="bi bi-file"></i>OpenOffice</a></li><li><a href="kwaidan.epub"><i class="bi bi-file"></i>ePub</a></li><li><a href="kwaidan-gfm.md"><i class="bi bi-file-code"></i>Github (GFM)</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../adventure_packs/AP01_fantasy.html">Adventure Packs</a></li><li class="breadcrumb-item"><a href="../../adventure_packs/legacy/AP01_fantasy.html">Adventure Packs (Legacy 2e)</a></li><li class="breadcrumb-item"><a href="../../geared_towards_loner/legacy/kwaidan.html">Kwaidan!</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Kwaidan!</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Roberto Bisceglie </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 1, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="kwaidan" class="level1">
+<h1>Kwaidan!</h1>
+<p>Hey there, fellow adventurers! So, you might be wondering what this whole “Kwaidan” thing is, right? Well, get ready to step into a world of Japanese folklore like no other. Kwaidan is all about immersing yourself in a realm where ghosts, demons, and all sorts of mysterious creatures roam free. And guess what? It’s a perfect match for our Loner Adventure Pack. Let me break it down for you.</p>
+<p>Picture feudal Japan, a time of warring clans and hidden supernatural forces. It’s like history and the supernatural decided to have a really intriguing party together. Kwaidan stories are like those spine-tingling tales you’d share around a campfire, but with a twist: samurais, peasants, and nobles grappling with things that go bump in the night.</p>
+<p>Now, why is Kwaidan just right for those lone wolf characters? Well, think about it—loners have that extra touch of independence, right? They’re the heroes who face the unknown solo, relying on their skills and uncovering mysteries that’d make others run for the hills. And in a world full of yokai (those shape-shifting critters) and spirits looking for trouble, loners are in for some serious action, banishing, and battling.</p>
+<p>Kwaidan isn’t just about spooky stuff; it’s like a cultural journey through Japan’s traditions, superstitions, and beliefs. You’ll find yourself sipping tea in serene gardens, exploring the ins and outs of samurai and merchants, and keeping your cool while dealing with cursed artifacts and eerie shrines. Oh, and did I mention you might stumble upon secretive ninja clans and even have run-ins with mischievous tanuki? Yup, it’s that wild.</p>
+<p>So, if you’re all about getting lost in worlds where reality and the supernatural mingle, Kwaidan is your go-to. And in our Loner Adventure Pack, you’ll be the star of your very own spooky saga. Get ready for a journey where courage, smarts, and a sprinkle of the unknown can lead to epic challenges and victories. Kwaidan’s here to whisk you away to a land where the unseen is waiting for you to uncover.</p>
+<section id="setting-information" class="level2">
+<h2 class="anchored" data-anchor-id="setting-information">Setting Information</h2>
+<ul>
+<li><p><strong>Feudal Japan Amidst Conflict</strong>: The stage is set in feudal Japan, a tumultuous era marked by the clash of warring clans. The land is steeped in political strife, where power struggles and territorial disputes are commonplace. Against this backdrop of unrest, something even more sinister stirs – shadowy supernatural forces that wield their own influence over the fate of the land.</p></li>
+<li><p><strong>Vulnerability of Remote Villages and Travelers</strong>: Beyond the bustling cities and grand castles, the rural landscapes hide isolated villages and winding, lonely roads. As night falls, these places become particularly vulnerable to the unknown. Stories of eerie occurrences and unexplained phenomena abound, creating an atmosphere of tension and unease. The veil between the material world and the supernatural is thin in these desolate reaches, making them prime locations for encounters with otherworldly entities.</p></li>
+<li><p><strong>A World of Mystery and Danger</strong>: The natural world is both breathtakingly beautiful and perilous in equal measure. Mist-shrouded forests, misty mountains, and hidden valleys hold untold mysteries, many of which are as dangerous as they are enchanting. Ancient legends and whispered tales warn of malevolent spirits lurking in the shadows, waiting to ensnare unsuspecting souls. Navigating this world requires not only physical prowess but also a keen understanding of the arcane.</p></li>
+<li><p><strong>Stratified Social Hierarchy</strong>: Feudal society is deeply stratified, with a rigid social hierarchy dictating the roles and statuses of its inhabitants. At the pinnacle stand the revered samurai warriors and noble class, shaping the course of events with their political maneuvering and martial prowess. Beneath them, peasants and merchants toil, their lives governed by the decisions of those above. This stark division of power and influence has far-reaching implications for every facet of life in this era.</p></li>
+<li><p><strong>Influence of Folklore and Superstition</strong>: The realm of superstition and folklore is interwoven into the very fabric of everyday existence. The beliefs and tales passed down through generations shape the perceptions and actions of individuals. Ghostly apparitions, demonic entities, and creatures that can transform from one form to another are not simply fantastical imaginings but tangible aspects of this world. Fear of the unknown and reverence for the spiritual underscore every interaction and decision.</p></li>
+<li><p><strong>Historical Landmarks and Turmoil</strong>: The tumultuous history of the land is etched into its very soil. The echoes of pivotal battles and the rise of powerful warlords reverberate through the years, creating a sense of both grandeur and foreboding. Majestic castles and legendary battlegrounds serve as reminders of the struggles that have defined the era. Exploring these landmarks not only offers insight into the past but also a chance to uncover hidden truths that can illuminate the present challenges faced by the land.</p></li>
+</ul>
+<section id="themes" class="level3">
+<h3 class="anchored" data-anchor-id="themes">Themes</h3>
+<p>These thematic elements can add depth, complexity, and emotional resonance to the adventures and stories within your setting, providing with engaging narratives that reflect the rich tapestry of feudal Japan’s folklore and cultural heritage.</p>
+<ul>
+<li><p><strong>Balance of Light and Darkness</strong>: Explore the duality of light and darkness, both in the physical world and within characters’ motivations. Delve into the struggle between good and evil, and the shades of gray that exist in between.</p></li>
+<li><p><strong>Spiritual Warfare</strong>: Dive into the realm of the supernatural and delve into battles against malevolent spirits, learning the rituals, charms, and incantations necessary to protect oneself and banish these entities.</p></li>
+<li><p><strong>Fear and Courage</strong>: Delve into the theme of fear, and the different ways characters cope with and overcome it. The concept of facing one’s deepest fears and finding courage within oneself can be a central narrative thread.</p></li>
+<li><p><strong>Cultural Traditions</strong>: Immerse yourself in the cultural traditions of feudal Japan, from tea ceremonies and calligraphy to samurai codes and societal expectations. Encourage characters to navigate these traditions while facing the challenges of the supernatural world.</p></li>
+<li><p><strong>Personal Redemption</strong>: Provide opportunities for characters to seek redemption for past mistakes, either through helping spirits find peace or rectifying wrongs committed by their ancestors.</p></li>
+<li><p><strong>Forgotten Memories</strong>: Characters could uncover forgotten memories tied to the past, leading them to confront ancient conflicts or hidden truths that have repercussions in the present.</p></li>
+<li><p><strong>Finding Closure</strong>: Many spirits are trapped due to unfinished business. Characters could embark on quests to help these spirits find closure and move on to the afterlife.</p></li>
+<li><p><strong>The Power of Words and Symbols</strong>: Introduce the idea that certain words, symbols, and rituals can have profound effects on the supernatural world, acting as tools for protection, exorcism, or even manipulation.</p></li>
+<li><p><strong>Perception vs.&nbsp;Reality</strong>: Challenge characters to question their perceptions and decipher illusions. This theme can be particularly relevant when dealing with shapeshifting creatures and deceitful spirits.</p></li>
+<li><p><strong>Respect for Nature</strong>: Emphasize the reverence for nature in Japanese culture and its potential consequences when disregarded. Characters might need to restore balance to natural elements disrupted by supernatural forces.</p></li>
+</ul>
+</section>
+</section>
+<section id="character-traits" class="level2">
+<h2 class="anchored" data-anchor-id="character-traits">Character Traits</h2>
+<section id="concepts" class="level3">
+<h3 class="anchored" data-anchor-id="concepts">Concepts</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 15%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;">3</th>
+<th style="text-align: center;">4</th>
+<th style="text-align: center;">5</th>
+<th style="text-align: center;">6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Disgraced Samurai</td>
+<td style="text-align: center;">Masterless Ronin</td>
+<td style="text-align: center;">Peasant Farmer</td>
+<td style="text-align: center;">Mendicant Monk</td>
+<td style="text-align: center;">Travelling Minstrel</td>
+<td style="text-align: center;">Disfigured Ronin</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Haunted Widow</td>
+<td style="text-align: center;">Demon Hunter</td>
+<td style="text-align: center;">Wandering Priest</td>
+<td style="text-align: center;">Unfortunate Merchant</td>
+<td style="text-align: center;">Possessed Child</td>
+<td style="text-align: center;">Cursed Warrior</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Unfortunate Orphan</td>
+<td style="text-align: center;">Troubled Monk</td>
+<td style="text-align: center;">Ronin Swordsman</td>
+<td style="text-align: center;">Wandering Minstrel</td>
+<td style="text-align: center;">Troubled Alchemist</td>
+<td style="text-align: center;">Possessed Woodsman</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">Cursed Artist</td>
+<td style="text-align: center;">Wandering Exorcist</td>
+<td style="text-align: center;">Haunted Samurai</td>
+<td style="text-align: center;">Unfortunate Orphan</td>
+<td style="text-align: center;">Disgraced Warrior</td>
+<td style="text-align: center;">Wandering Mendicant</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">Troubled Medic</td>
+<td style="text-align: center;">Possessed Shapeshifter</td>
+<td style="text-align: center;">Ronin Bodyguard</td>
+<td style="text-align: center;">Unfortunate Daimyo</td>
+<td style="text-align: center;">Troubled Farmer</td>
+<td style="text-align: center;">Disfigured Diviner</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">Wandering Exorcist</td>
+<td style="text-align: center;">Peasant Guide</td>
+<td style="text-align: center;">Cursed Samurai</td>
+<td style="text-align: center;">Demon Hunter</td>
+<td style="text-align: center;">Possessed Child</td>
+<td style="text-align: center;">Troubled Monk</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="skills" class="level3">
+<h3 class="anchored" data-anchor-id="skills">Skills</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 17%">
+<col style="width: 17%">
+<col style="width: 16%">
+<col style="width: 13%">
+<col style="width: 14%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Swordplay</td>
+<td>Stealth</td>
+<td>Horsemanship</td>
+<td>Hunting</td>
+<td>Survival</td>
+<td>Medicine</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Archery</td>
+<td>Spiritualism</td>
+<td>Etiquette</td>
+<td>Tea Ceremony</td>
+<td>Ikebana</td>
+<td>Divination</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Athletics</td>
+<td>Intimidation</td>
+<td>Animal Handling</td>
+<td>Engineering</td>
+<td>Agriculture</td>
+<td>Lore</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Persuasion</td>
+<td>Deception</td>
+<td>Investigation</td>
+<td>Perception</td>
+<td>Crafting</td>
+<td>Artistry</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Unarmed Combat</td>
+<td>Mind Resistance</td>
+<td>Exorcism</td>
+<td>Kenjutsu</td>
+<td>Metallurgy</td>
+<td>Mountaineering</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Shapeshifting</td>
+<td>Invisibility</td>
+<td>Telepathy</td>
+<td>Telekinesis</td>
+<td>Pyromancy</td>
+<td>Necromancy</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="frailties" class="level3">
+<h3 class="anchored" data-anchor-id="frailties">Frailties</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 17%">
+<col style="width: 13%">
+<col style="width: 16%">
+<col style="width: 15%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Possessed</td>
+<td>Cowardly</td>
+<td>Agoraphobic</td>
+<td>Dishonored</td>
+<td>Vengeful</td>
+<td>Paranoid</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Haunted</td>
+<td>Superstitious</td>
+<td>Reckless</td>
+<td>Depressive</td>
+<td>Proud</td>
+<td>Schizophrenic</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Cursed</td>
+<td>Addicted</td>
+<td>Prejudiced</td>
+<td>Obsessive</td>
+<td>Traumatized</td>
+<td>Mute</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Schizophrenic</td>
+<td>Alcoholic</td>
+<td>Pyromaniac</td>
+<td>Compulsive</td>
+<td>Masochistic</td>
+<td>Suicidal</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Narcissistic</td>
+<td>Bipolar</td>
+<td>Deceitful</td>
+<td>Sadistic</td>
+<td>Kleptomanic</td>
+<td>Amnesiac</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Obsessive</td>
+<td>Suicidal</td>
+<td>Insomniac</td>
+<td>Narcoleptic</td>
+<td>Greedy</td>
+<td>Sickly</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="gear" class="level3">
+<h3 class="anchored" data-anchor-id="gear">Gear</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 17%">
+<col style="width: 19%">
+<col style="width: 14%">
+<col style="width: 12%">
+<col style="width: 14%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Katana</td>
+<td>Wakizashi</td>
+<td>Tanto</td>
+<td>Bow</td>
+<td>Arrows</td>
+<td>Spear</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Lantern</td>
+<td>Medicine</td>
+<td>Kimono</td>
+<td>Sandals</td>
+<td>Tatami</td>
+<td>Backpack</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Horses</td>
+<td>Oxen</td>
+<td>Cart</td>
+<td>Boat</td>
+<td>Tent</td>
+<td>Cooking</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Ofuda</td>
+<td>Shakujo</td>
+<td>Rosary</td>
+<td>Mask</td>
+<td>Tobacco</td>
+<td>Sake</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Armor</td>
+<td>Tekko</td>
+<td>Naginata</td>
+<td>Bō</td>
+<td>Tetsubo</td>
+<td>Shuriken</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Bombs</td>
+<td>Poison</td>
+<td>Net</td>
+<td>Chains</td>
+<td>Manriki</td>
+<td>Smokebomb</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="names" class="level2">
+<h2 class="anchored" data-anchor-id="names">Names</h2>
+<section id="female-names" class="level3">
+<h3 class="anchored" data-anchor-id="female-names">Female Names</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Akari</td>
+<td>Hana</td>
+<td>Yuki</td>
+<td>Mei</td>
+<td>Sora</td>
+<td>Kaori</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Emiko</td>
+<td>Aiko</td>
+<td>Sakura</td>
+<td>Rina</td>
+<td>Kiyomi</td>
+<td>Mika</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Ayame</td>
+<td>Yumiko</td>
+<td>Natsuki</td>
+<td>Aya</td>
+<td>Haruka</td>
+<td>Kimiko</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Keiko</td>
+<td>Rei</td>
+<td>Asuka</td>
+<td>Natsumi</td>
+<td>Yuri</td>
+<td>Chieko</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Amaya</td>
+<td>Eri</td>
+<td>Kana</td>
+<td>Misaki</td>
+<td>Tomoko</td>
+<td>Ayumi</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Yui</td>
+<td>Nozomi</td>
+<td>Hinata</td>
+<td>Yuna</td>
+<td>Akane</td>
+<td>Nanami</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="male-names" class="level3">
+<h3 class="anchored" data-anchor-id="male-names">Male Names</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Ren</td>
+<td>Hiroshi</td>
+<td>Kaito</td>
+<td>Takashi</td>
+<td>Haruki</td>
+<td>Daiki</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Kenji</td>
+<td>Kazuki</td>
+<td>Ryota</td>
+<td>Tatsuya</td>
+<td>Yuto</td>
+<td>Akihiko</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Satoshi</td>
+<td>Yuki</td>
+<td>Riku</td>
+<td>Makoto</td>
+<td>Sora</td>
+<td>Shinji</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Naoki</td>
+<td>Akihiro</td>
+<td>Kenta</td>
+<td>Sho</td>
+<td>Toshiro</td>
+<td>Haruto</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Kaito</td>
+<td>Taro</td>
+<td>Yuma</td>
+<td>Ryo</td>
+<td>Keisuke</td>
+<td>Hayato</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Renji</td>
+<td>Junichi</td>
+<td>Taichi</td>
+<td>Shota</td>
+<td>Hiroto</td>
+<td>Sosuke</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="surnames" class="level3">
+<h3 class="anchored" data-anchor-id="surnames">Surnames</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Tanaka</td>
+<td>Yamamoto</td>
+<td>Suzuki</td>
+<td>Watanabe</td>
+<td>Itou</td>
+<td>Sato</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Nakamura</td>
+<td>Kobayashi</td>
+<td>Kato</td>
+<td>Takahashi</td>
+<td>Ito</td>
+<td>Abe</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Okada</td>
+<td>Sakamoto</td>
+<td>Inoue</td>
+<td>Kimura</td>
+<td>Hayashi</td>
+<td>Yamada</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Mori</td>
+<td>Ishikawa</td>
+<td>Otsuka</td>
+<td>Nishimura</td>
+<td>Fujita</td>
+<td>Sasaki</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Aoki</td>
+<td>Ogawa</td>
+<td>Matsumoto</td>
+<td>Suzuki</td>
+<td>Ikeda</td>
+<td>Morita</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Hasegawa</td>
+<td>Nakanishi</td>
+<td>Taniguchi</td>
+<td>Saito</td>
+<td>Hayashi</td>
+<td>Shibata</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="settlement-names" class="level3">
+<h3 class="anchored" data-anchor-id="settlement-names">Settlement Names</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Mizukaze</td>
+<td>Hoshizora</td>
+<td>Yamanami</td>
+<td>Akatsuki</td>
+<td>Kasumi</td>
+<td>Kiyomizu</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Inari</td>
+<td>Himawari</td>
+<td>Suzaku</td>
+<td>Yamabiko</td>
+<td>Shizuka</td>
+<td>Tsukinami</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Kurogane</td>
+<td>Mizuhara</td>
+<td>Sakura</td>
+<td>Hayabusa</td>
+<td>Amagumo</td>
+<td>Fujimori</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Kamimizu</td>
+<td>Komorebi</td>
+<td>Aozora</td>
+<td>Yamashiro</td>
+<td>Ayatsuri</td>
+<td>Shinrin</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Kazan</td>
+<td>Yukizuki</td>
+<td>Akane</td>
+<td>Hotarubi</td>
+<td>Kageyama</td>
+<td>Utsukushi</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Isogai</td>
+<td>Miharashi</td>
+<td>Tachibana</td>
+<td>Nijigami</td>
+<td>Yurei</td>
+<td>Minakami</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="location-names" class="level3">
+<h3 class="anchored" data-anchor-id="location-names">Location Names</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Hikari</td>
+<td>Kaguya</td>
+<td>Ryuji</td>
+<td>Amano</td>
+<td>Tsukuyomi</td>
+<td>Seiryu</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Izanagi</td>
+<td>Amaterasu</td>
+<td>Uzume</td>
+<td>Shinrin</td>
+<td>Fujin</td>
+<td>Raijin</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Enma</td>
+<td>Tenjin</td>
+<td>Akatsuki</td>
+<td>Kannon</td>
+<td>Ebisu</td>
+<td>Daikokuten</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Fujin</td>
+<td>Raijin</td>
+<td>Izanami</td>
+<td>Fudo</td>
+<td>Benzaiten</td>
+<td>Jurojin</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Marishiten</td>
+<td>Kujaku</td>
+<td>Susano’o</td>
+<td>Gekko</td>
+<td>Ryujin</td>
+<td>Ame-no-Uz</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Uka</td>
+<td>Miroku</td>
+<td>Asura</td>
+<td>Jizo</td>
+<td>Emma</td>
+<td>Benten</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="regional-names" class="level3">
+<h3 class="anchored" data-anchor-id="regional-names">Regional Names</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Higashima</td>
+<td>Nishizora</td>
+<td>Minakami</td>
+<td>Okuizumo</td>
+<td>Kochi</td>
+<td>Kumamoto</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Kizan</td>
+<td>Yamanomi</td>
+<td>Kanazawa</td>
+<td>Chugoku</td>
+<td>Boso</td>
+<td>Yamagata</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Kiso</td>
+<td>Kansai</td>
+<td>Shikoku</td>
+<td>Tohoku</td>
+<td>Chubu</td>
+<td>Kyushu</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Shonan</td>
+<td>Hokuriku</td>
+<td>Hokkaido</td>
+<td>Chugoku</td>
+<td>Izu</td>
+<td>Kyushu</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Aomori</td>
+<td>Chubu</td>
+<td>Tokai</td>
+<td>Tohoku</td>
+<td>Ogasawara</td>
+<td>Okinawa</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Iwate</td>
+<td>Kanto</td>
+<td>Shikoku</td>
+<td>Kyushu</td>
+<td>Kii</td>
+<td>Akita</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="special-rules" class="level2">
+<h2 class="anchored" data-anchor-id="special-rules">Special Rules</h2>
+<p>Consider the following as Luck-like scores, with a starting (and maximum) score of 6.</p>
+<ul>
+<li><strong>Chi</strong>: Characters have a Chi score used to power supernatural abilities. Chi is drained by using abilities and recovered by meditation.</li>
+<li><strong>Corruption</strong>: Exposure to supernatural evil can corrupt the soul. Track corruption separately from health. Those fully corrupted may become monsters.</li>
+<li><strong>Honor</strong>: Dishonorable acts drain Honor. Without honor, samurai lose status and peasants lose hope. Regaining honor may require quests.</li>
+</ul>
+</section>
+<section id="factions" class="level2">
+<h2 class="anchored" data-anchor-id="factions">Factions</h2>
+<section id="the-shoguns-forces" class="level3">
+<h3 class="anchored" data-anchor-id="the-shoguns-forces">The Shogun’s Forces</h3>
+<ul>
+<li><strong>Concept</strong>: Lawful Army</li>
+<li><strong>Skills</strong>: Horsemanship, Tactics</li>
+<li><strong>Frailty</strong>: Blind Obedience</li>
+<li><strong>Gear</strong>: Armor, Spears</li>
+<li><strong>Goal</strong>: Enforce the Shogun’s will</li>
+<li><strong>Motive</strong>: Loyalty and duty</li>
+<li><strong>Nemesis</strong>: Rebels and outlaws</li>
+</ul>
+</section>
+<section id="the-animal-cults" class="level3">
+<h3 class="anchored" data-anchor-id="the-animal-cults">The Animal Cults</h3>
+<ul>
+<li><strong>Concept</strong>: Savage Beast Worshippers</li>
+<li><strong>Skills</strong>: Shapeshifting, Wilderness Survival</li>
+<li><strong>Frailty</strong>: Bloodlust</li>
+<li><strong>Gear</strong>: Furs, Claws</li>
+<li><strong>Goal</strong>: Spread corruption through the land</li>
+<li><strong>Motive</strong>: Serve their animal spirits</li>
+<li><strong>Nemesis</strong>: Demon hunters</li>
+</ul>
+</section>
+<section id="the-dragon-clan" class="level3">
+<h3 class="anchored" data-anchor-id="the-dragon-clan">The Dragon Clan</h3>
+<ul>
+<li><strong>Concept</strong>: Noble Warriors</li>
+<li><strong>Skills</strong>: Kenjutsu, Etiquette</li>
+<li><strong>Frailty</strong>: Pride</li>
+<li><strong>Gear</strong>: Fine Kimono, Katana</li>
+<li><strong>Goal</strong>: Rule justly and expand their lands</li>
+<li><strong>Motive</strong>: Honor and duty</li>
+<li><strong>Nemesis</strong>: Rival warlords</li>
+</ul>
+</section>
+<section id="the-bamboo-cutters" class="level3">
+<h3 class="anchored" data-anchor-id="the-bamboo-cutters">The Bamboo Cutters</h3>
+<ul>
+<li><strong>Concept</strong>: Peasant Rebels</li>
+<li><strong>Skills</strong>: Sabotage, Stealth</li>
+<li><strong>Frailty</strong>: Recklessness</li>
+<li><strong>Gear</strong>: Farming Tools, Staves</li>
+<li><strong>Goal</strong>: Oppose tyranny<br>
+</li>
+<li><strong>Motive</strong>: Justice</li>
+<li><strong>Nemesis</strong>: Corrupt officials</li>
+</ul>
+</section>
+<section id="the-sohei" class="level3">
+<h3 class="anchored" data-anchor-id="the-sohei">The Sohei</h3>
+<ul>
+<li><strong>Concept</strong>: Militant Monks</li>
+<li><strong>Skills</strong>: Martial Arts, Exorcism</li>
+<li><strong>Frailty</strong>: Fanaticism</li>
+<li><strong>Gear</strong>: Robes, Staves</li>
+<li><strong>Goal</strong>: Battle supernatural evil</li>
+<li><strong>Motive</strong>: Protect the innocent</li>
+<li><strong>Nemesis</strong>: Demons and cultists</li>
+</ul>
+</section>
+<section id="the-shadow-walker-clan" class="level3">
+<h3 class="anchored" data-anchor-id="the-shadow-walker-clan">The Shadow Walker Clan</h3>
+<ul>
+<li><strong>Concept</strong>: Mercenary Ninjas</li>
+<li><strong>Skills</strong>: Stealth, Poison</li>
+<li><strong>Frailty</strong>: Greed</li>
+<li><strong>Gear</strong>: Black Clothes, Ninja Gear</li>
+<li><strong>Goal</strong>: Get paid</li>
+<li><strong>Motive</strong>: Money and influence</li>
+<li><strong>Nemesis</strong>: Those who don’t pay them</li>
+</ul>
+</section>
+</section>
+<section id="npcs" class="level2">
+<h2 class="anchored" data-anchor-id="npcs">NPCs</h2>
+<section id="daimyo-akira" class="level3">
+<h3 class="anchored" data-anchor-id="daimyo-akira">Daimyo Akira</h3>
+<ul>
+<li><strong>Concept</strong>: Ambitious Warlord</li>
+<li><strong>Skills</strong>: Tactics, Intimidation<br>
+</li>
+<li><strong>Frailty</strong>: Wrath</li>
+<li><strong>Gear</strong>: Armor, Katana</li>
+<li><strong>Goal</strong>: Conquer more lands</li>
+<li><strong>Motive</strong>: Greed and pride</li>
+<li><strong>Nemesis</strong>: Rival warlords</li>
+</ul>
+</section>
+<section id="peasant-girl-hanako" class="level3">
+<h3 class="anchored" data-anchor-id="peasant-girl-hanako">Peasant Girl Hanako</h3>
+<ul>
+<li><strong>Concept</strong>: Cursed Youth</li>
+<li><strong>Skills</strong>: Farming, Animal Handling<br>
+</li>
+<li><strong>Frailty</strong>: Haunted</li>
+<li><strong>Gear</strong>: Straw Hat, Kimono</li>
+<li><strong>Goal</strong>: Break her curse</li>
+<li><strong>Motive</strong>: Anguish over her condition</li>
+<li><strong>Nemesis</strong>: The demon who cursed her</li>
+</ul>
+</section>
+<section id="ronin-taka" class="level3">
+<h3 class="anchored" data-anchor-id="ronin-taka">Ronin Taka</h3>
+<ul>
+<li><strong>Concept</strong>: Disgraced Swordsman</li>
+<li><strong>Skills</strong>: Kenjutsu, Gambling</li>
+<li><strong>Frailty</strong>: Dishonored</li>
+<li><strong>Gear</strong>: Katana, Flask of Sake</li>
+<li><strong>Goal</strong>: Regain his honor</li>
+<li><strong>Motive</strong>: Shame and regret</li>
+<li><strong>Nemesis</strong>: Those who know of his disgrace</li>
+</ul>
+</section>
+<section id="priestess-yuri" class="level3">
+<h3 class="anchored" data-anchor-id="priestess-yuri">Priestess Yuri</h3>
+<ul>
+<li><strong>Concept</strong>: Veteran Exorcist</li>
+<li><strong>Skills</strong>: Exorcism, Spiritualism</li>
+<li><strong>Frailty</strong>: World-weariness</li>
+<li><strong>Gear</strong>: Rosary, Robes</li>
+<li><strong>Goal</strong>: Cleanse the land of evil</li>
+<li><strong>Motive</strong>: Protect the innocent</li>
+<li><strong>Nemesis</strong>: The forces of corruption</li>
+</ul>
+</section>
+<section id="tanuki-shapeshifter-roku" class="level3">
+<h3 class="anchored" data-anchor-id="tanuki-shapeshifter-roku">Tanuki Shapeshifter Roku</h3>
+<ul>
+<li><strong>Concept</strong>: Mischievous Trickster</li>
+<li><strong>Skills</strong>: Shapeshifting, Deception</li>
+<li><strong>Frailty</strong>: Greed<br>
+</li>
+<li><strong>Gear</strong>: Magical Leaf</li>
+<li><strong>Goal</strong>: Create harmless chaos</li>
+<li><strong>Motive</strong>: Boredom and amusement</li>
+<li><strong>Nemesis</strong>: Those who don’t enjoy his pranks</li>
+</ul>
+</section>
+<section id="merchant-lord-hiroshi" class="level3">
+<h3 class="anchored" data-anchor-id="merchant-lord-hiroshi">Merchant Lord Hiroshi</h3>
+<ul>
+<li><strong>Concept</strong>: Shrewd Trade Magnate</li>
+<li><strong>Skills</strong>: Persuasion, Deception</li>
+<li><strong>Frailty</strong>: Greed</li>
+<li><strong>Gear</strong>: Ornate Kimono, Silk Sash</li>
+<li><strong>Goal</strong>: Expand his trade network</li>
+<li><strong>Motive</strong>: Wealth and power</li>
+<li><strong>Nemesis</strong>: Rival merchants</li>
+</ul>
+</section>
+</section>
+<section id="locations" class="level2">
+<h2 class="anchored" data-anchor-id="locations">Locations</h2>
+<section id="the-howling-forest" class="level3">
+<h3 class="anchored" data-anchor-id="the-howling-forest">The Howling Forest</h3>
+<ul>
+<li>The trees are ancient and gnarled. Strange screams echo at night.</li>
+<li>Possible encounters: Demon, bandits, ghost, tanuki, hunter, old temple</li>
+</ul>
+</section>
+<section id="the-cursed-hot-springs" class="level3">
+<h3 class="anchored" data-anchor-id="the-cursed-hot-springs">The Cursed Hot Springs</h3>
+<ul>
+<li>Once a place of relaxation, now the waters are blackened.</li>
+<li>Possible encounters: Cursed spirit, sick villagers, kappa, abandoned inn, traveling minstrel</li>
+</ul>
+</section>
+<section id="the-forgotten-shrine" class="level3">
+<h3 class="anchored" data-anchor-id="the-forgotten-shrine">The Forgotten Shrine</h3>
+<ul>
+<li>This old shrine is half-collapsed and overgrown. Locals avoid it.</li>
+<li>Possible encounters: Angry ghost, kappa, mujina, old priest, occult artifacts</li>
+</ul>
+</section>
+<section id="the-eastern-road" class="level3">
+<h3 class="anchored" data-anchor-id="the-eastern-road">The Eastern Road</h3>
+<ul>
+<li>This remote road winds through the mountains. Travelers often disappear along it.</li>
+<li>Possible encounters: Bandits, nurikabe, possessed traveler, merchant caravan, ghostly procession</li>
+</ul>
+</section>
+<section id="the-foggy-moors" class="level3">
+<h3 class="anchored" data-anchor-id="the-foggy-moors">The Foggy Moors</h3>
+<ul>
+<li>These moors are cloaked in unnatural fog. Strange lights are seen at night.</li>
+<li>Possible encounters: Yokai, will-o-wisps, cursed travelers, abandoned manor, insane artist</li>
+</ul>
+</section>
+<section id="the-singing-cave" class="level3">
+<h3 class="anchored" data-anchor-id="the-singing-cave">The Singing Cave</h3>
+<ul>
+<li>Local legends tell of a cave that drives those who hear its eerie songs insane.</li>
+<li>Possible encounters: Demons, possessed hermit, giant bats, ancient scrolls, ghostly singers</li>
+</ul>
+</section>
+</section>
+<section id="haunted-artifacts" class="level2">
+<h2 class="anchored" data-anchor-id="haunted-artifacts">Haunted Artifacts</h2>
+<p>From swords that whisper forgotten secrets to masks that hide dark powers, these artifacts promise both rewards and risks. Keep your wits about you as you uncover these intriguing relics that might just shape the course of your journey.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 2%">
+<col style="width: 97%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>D66</th>
+<th>Haunted Artifact</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>11</td>
+<td><strong>Whispering Blade</strong>: This ancient katana holds the souls of fallen warriors, granting it deadly power in battle. But beware, for its whispers can drive the wielder to madness.</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td><strong>Mask of Shadows</strong>: When worn, this mask grants the ability to see in darkness and become unseen. However, it also feeds off your inner fears, slowly draining your courage.</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td><strong>Amulet of Protection</strong>: A shimmering amulet that shields you from harm. But every time it saves you, it demands a small token in return – a memory or an emotion.</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td><strong>Bamboo Flute of Tranquility</strong>: A haunting melody can be played on this flute, soothing minds and healing hearts. Yet its soothing tunes can also attract spirits from the beyond.</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td><strong>Stone of Reflection</strong>: Gaze into this polished stone and see visions of the past or glimpse into the future. But be warned, these visions might come at a price.</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td><strong>Fan of Galeforce</strong>: With a flick of this fan, you can summon mighty winds to clear your path. Yet its power might also bring forth storms and chaos.</td>
+</tr>
+<tr class="odd">
+<td>21</td>
+<td><strong>Teacup of Clarity</strong>: Sipping tea from this cup grants insight and wisdom. But each sip connects you to the spirits of those who drank from it before.</td>
+</tr>
+<tr class="even">
+<td>22</td>
+<td><strong>Cursed Compass</strong>: This compass points the way to hidden treasures. But it’s cursed – the more you rely on it, the more it leads you astray.</td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td><strong>Shroud of Invisibility</strong>: Wrap yourself in this shroud to become invisible to the world. Yet the longer you remain hidden, the more you risk losing touch with reality.</td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td><strong>Scroll of Binding</strong>: A scroll that can bind and control supernatural creatures. However, each binding costs a fragment of your life force.</td>
+</tr>
+<tr class="odd">
+<td>25</td>
+<td><strong>Bell of Warning</strong>: Ring this bell to alert you to danger. But it also warns nearby spirits of your presence, inviting their attention.</td>
+</tr>
+<tr class="even">
+<td>26</td>
+<td><strong>Mirror of Truth</strong>: Gaze into this mirror to see through illusions and deceit. Yet its truth can be harsh, revealing more than you may want to know.</td>
+</tr>
+<tr class="odd">
+<td>31</td>
+<td><strong>Sake Cup of Valor</strong>: Drinking from this cup grants courage and strength. But its effects are fleeting, and the price is a deep and lasting fatigue.</td>
+</tr>
+<tr class="even">
+<td>32</td>
+<td><strong>Earring of Eavesdropping</strong>: Wear this earring to hear distant conversations. Yet the more secrets you uncover, the more your own thoughts might be exposed.</td>
+</tr>
+<tr class="odd">
+<td>33</td>
+<td><strong>Lantern of Lost Souls</strong>: This lantern illuminates the spirit world, revealing hidden truths. But it also attracts restless spirits who seek your aid.</td>
+</tr>
+<tr class="even">
+<td>34</td>
+<td><strong>Sealing Scroll</strong>: A scroll that can seal away supernatural forces. But the more you use it, the more it drains your vitality.</td>
+</tr>
+<tr class="odd">
+<td>35</td>
+<td><strong>Mirror of Vanity</strong>: Gaze into this mirror to temporarily enhance your appearance and charisma. But vanity comes at a cost – it feeds on your self-esteem.</td>
+</tr>
+<tr class="even">
+<td>36</td>
+<td><strong>Cursed Quill</strong>: Writing with this quill brings your words to life. However, the quill craves dark stories, and your creations might have unintended consequences.</td>
+</tr>
+<tr class="odd">
+<td>41</td>
+<td><strong>Stone of Echoes</strong>: Whisper a message into this stone, and it will carry your words across distances. But your own secrets might also be revealed.</td>
+</tr>
+<tr class="even">
+<td>42</td>
+<td><strong>Ring of Fortune</strong>: Wear this ring for a stroke of luck in your endeavors. Yet it tempts fate – the more you rely on it, the more danger it attracts.</td>
+</tr>
+<tr class="odd">
+<td>43</td>
+<td><strong>Ink of Enchantment</strong>: This ink imbues your drawings with magic, bringing them to life. But the more intricate the drawing, the greater the toll on your energy.</td>
+</tr>
+<tr class="even">
+<td>44</td>
+<td><strong>Compass of Lost Souls</strong>: This compass guides you to those who are lost. But with each guiding, you risk becoming lost yourself.</td>
+</tr>
+<tr class="odd">
+<td>45</td>
+<td><strong>Fang of the Beast</strong>: This fang grants the strength and instincts of a wild beast. Yet its primal power might consume your human nature.</td>
+</tr>
+<tr class="even">
+<td>46</td>
+<td><strong>Chalice of Dreams</strong>: Sip from this chalice to experience vivid dreams that might reveal insights. But these dreams can blur the line between reality and illusion.</td>
+</tr>
+<tr class="odd">
+<td>51</td>
+<td><strong>Mask of Deception</strong>: A mask that grants the power of deception, making you appear as someone else. However, the mask might also blur your own identity.</td>
+</tr>
+<tr class="even">
+<td>52</td>
+<td><strong>Brazier of Protection</strong>: This brazier wards off evil spirits with its holy flames. But the stronger its protection, the more it demands your devotion.</td>
+</tr>
+<tr class="odd">
+<td>53</td>
+<td><strong>Rune-etched Bracelet</strong>: Wear this bracelet to channel elemental magic. But its runes can also bind you to the elements, leaving you vulnerable.</td>
+</tr>
+<tr class="even">
+<td>54</td>
+<td><strong>Mirror of Regret</strong>: Gaze into this mirror to witness past events and seek understanding. But dwelling on regrets might trap you in a cycle of despair.</td>
+</tr>
+<tr class="odd">
+<td>55</td>
+<td><strong>Cursed Dice</strong>: Roll these dice to alter fate itself. Yet their power can backfire, leading to unexpected and dire consequences.</td>
+</tr>
+<tr class="even">
+<td>56</td>
+<td><strong>Stone of Levitation</strong>: Touch this stone to defy gravity and levitate. But the longer you remain airborne, the more you risk losing touch with the ground.</td>
+</tr>
+<tr class="odd">
+<td>61</td>
+<td><strong>Scroll of Illusions</strong>: Unroll this scroll to create illusions that deceive the senses. But illusions can twist your perception, leading you astray.</td>
+</tr>
+<tr class="even">
+<td>62</td>
+<td><strong>Bell of Tranquility</strong>: Ring this bell to bring calm and serenity to chaotic situations. Yet its peaceful aura might also attract restless spirits.</td>
+</tr>
+<tr class="odd">
+<td>63</td>
+<td><strong>Talisman of Warding</strong>: Wear this talisman for protection against supernatural forces. But as its power grows, it might draw these forces to you.</td>
+</tr>
+<tr class="even">
+<td>64</td>
+<td><strong>Veil of Dreams</strong>: This veil allows you to enter the dreams of others. But navigating dreams comes with its own risks and mysteries.</td>
+</tr>
+<tr class="odd">
+<td>65</td>
+<td><strong>Mask of Revelations</strong>: A mask that reveals hidden truths and secrets. Yet truth can be a double-edged sword, sometimes better left unsaid.</td>
+</tr>
+<tr class="even">
+<td>66</td>
+<td><strong>Elixir of Euphoria</strong>: Drinking this elixir grants moments of pure joy and ecstasy. But its intoxicating effects might lead you down a dangerous path.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="mystical-locations" class="level2">
+<h2 class="anchored" data-anchor-id="mystical-locations">Mystical Locations</h2>
+<p>Delve into the realm of the unknown, where misty forests, deserted shrines, and hidden caves await your exploration. Each location tells a story, concealing mysteries, treasures, and perils that will test your mettle.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 2%">
+<col style="width: 97%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>D66</th>
+<th>Mystical Location</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>11</td>
+<td><strong>Veiled Forest</strong>: This forest is shrouded in a perpetual mist, obscuring ancient trees and forgotten ruins. Beware the spirits that drift among the veiled trees.</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td><strong>Forgotten Shrine</strong>: An old shrine lies in ruins, its sacred grounds abandoned and overgrown. Yet whispers of prayers and distant echoes linger here.</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td><strong>Caverns of Echoes</strong>: These echoing caverns play tricks on sound, distorting voices and cries. Rumor has it, those who listen closely might hear the secrets of the earth.</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td><strong>Ephemeral Pond</strong>: A tranquil pond that reflects the moon’s glow. Legend says it’s a gateway to the spirit world, but those who linger too long risk becoming trapped.</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td><strong>Lost Garden</strong>: An ornate garden once tended by spirits, now overgrown and forgotten. Its flowers still bloom, but they respond to the whispers of those who visit.</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td><strong>Haunting Hollow</strong>: A natural amphitheater surrounded by ancient stone columns. Eerie music fills the air as if the stones themselves are singing.</td>
+</tr>
+<tr class="odd">
+<td>21</td>
+<td><strong>Cursed Marshlands</strong>: A desolate marsh where the land seems to shift beneath your feet. Ghostly lights dance above the marsh’s surface, luring unwary travelers.</td>
+</tr>
+<tr class="even">
+<td>22</td>
+<td><strong>Whispering Woods</strong>: The trees here bear secrets whispered by the wind. Listen closely and you might glean ancient tales or cryptic warnings.</td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td><strong>Spectral Ruins</strong>: The remains of an ancient city, now inhabited by spirits and shadows. The spirits might offer wisdom, but their intentions are often inscrutable.</td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td><strong>Enchanted Waterfall</strong>: A waterfall that shimmers with otherworldly hues. Those who bathe in its waters might be granted visions of the past or glimpses of the future.</td>
+</tr>
+<tr class="odd">
+<td>25</td>
+<td><strong>Haunted Manor</strong>: An abandoned manor rumored to be haunted. Echoes of laughter and music can still be heard, and its halls are said to be trapped in a time loop.</td>
+</tr>
+<tr class="even">
+<td>26</td>
+<td><strong>Luminous Lagoon</strong>: A lagoon that glows with an ethereal light at night. Its waters are said to reveal hidden truths to those who gaze upon them.</td>
+</tr>
+<tr class="odd">
+<td>31</td>
+<td><strong>Moonlit Bridge</strong>: A bridge that materializes only under the light of the full moon, spanning across a chasm. It leads to a realm that exists only in moonlit hours.</td>
+</tr>
+<tr class="even">
+<td>32</td>
+<td><strong>Eerie Echo Cave</strong>: A cave known for its unusual acoustics. Words spoken here are carried throughout the cavern, sometimes distorting their meaning.</td>
+</tr>
+<tr class="odd">
+<td>33</td>
+<td><strong>Sorrowful Grove</strong>: A grove of trees that weep translucent tears. Drinking these tears grants visions, but also leaves a mark on the drinker’s soul.</td>
+</tr>
+<tr class="even">
+<td>34</td>
+<td><strong>Temple of Whispers</strong>: A serene temple where wind whispers through the corridors. Visitors might gain guidance from the whispers of ancient spirits.</td>
+</tr>
+<tr class="odd">
+<td>35</td>
+<td><strong>Mystic Mirage Oasis</strong>: An oasis that appears and disappears like a mirage. Its waters can heal wounds, but the oasis can be elusive and hard to find.</td>
+</tr>
+<tr class="even">
+<td>36</td>
+<td><strong>Labyrinthine Passage</strong>: A network of underground passages filled with puzzles and riddles. Solving them might lead to hidden chambers of forgotten knowledge.</td>
+</tr>
+<tr class="odd">
+<td>41</td>
+<td><strong>Spectral Bridge</strong>: A bridge spanning a river said to be the boundary between the living and spirit worlds. Those who cross it might experience strange visions.</td>
+</tr>
+<tr class="even">
+<td>42</td>
+<td><strong>Frozen Temple</strong>: A temple enveloped in an eternal winter. Its icy halls are home to both spirits seeking refuge and those guarding its sacred knowledge.</td>
+</tr>
+<tr class="odd">
+<td>43</td>
+<td><strong>Silent Monoliths</strong>: Tall stone monoliths that emit a faint hum. Those who listen closely might hear echoes of conversations from long ago.</td>
+</tr>
+<tr class="even">
+<td>44</td>
+<td><strong>Celestial Observatory</strong>: An ancient observatory atop a mountain, where celestial events can reveal hidden paths and truths to those who watch the skies.</td>
+</tr>
+<tr class="odd">
+<td>45</td>
+<td><strong>Tranquil Sanctuary</strong>: A hidden sanctuary untouched by time, where the spirits of nature gather. Meditating here can offer insight into the world’s balance.</td>
+</tr>
+<tr class="even">
+<td>46</td>
+<td><strong>Ethereal Falls</strong>: A waterfall that cascades upward, defying gravity. Its waters grant a temporary ability to walk on air, but not without risks.</td>
+</tr>
+<tr class="odd">
+<td>51</td>
+<td><strong>Veil of Illusions</strong>: A misty vale where illusions come to life. Navigating through the illusions might reveal hidden treasures or reveal one’s true nature.</td>
+</tr>
+<tr class="even">
+<td>52</td>
+<td><strong>Echoing Chamber</strong>: A chamber where sound reverberates endlessly. Utter a question, and the chamber might provide an answer – but its wisdom is cryptic.</td>
+</tr>
+<tr class="odd">
+<td>53</td>
+<td><strong>Glowing Grove</strong>: A grove of trees that emit a soft glow at night. Those who rest beneath their branches might experience vivid dreams.</td>
+</tr>
+<tr class="even">
+<td>54</td>
+<td><strong>Mystic Mirage Dunes</strong>: A desert that shimmers with mirages. Those who navigate through the illusions might find an oasis of truth in the sands.</td>
+</tr>
+<tr class="odd">
+<td>55</td>
+<td><strong>Enigmatic Standing Stones</strong>: A circle of standing stones that hum with an otherworldly energy. They can reveal hidden pathways to those who touch them.</td>
+</tr>
+<tr class="even">
+<td>56</td>
+<td><strong>Lost Lighthouse</strong>: A lighthouse that guides lost ships through the fog. Its keeper is rumored to possess ancient knowledge of the sea.</td>
+</tr>
+<tr class="odd">
+<td>61</td>
+<td><strong>Starlit Cave</strong>: A cave illuminated only by the luminescence of crystals. Its walls depict star patterns that can provide guidance to lost travelers.</td>
+</tr>
+<tr class="even">
+<td>62</td>
+<td><strong>Whispering Grotto</strong>: A coastal grotto where the sea breeze carries whispers of the tides. Those who listen closely might gain insights into the future.</td>
+</tr>
+<tr class="odd">
+<td>63</td>
+<td><strong>Mystic Mirage Oasis</strong>: An oasis that appears and disappears like a mirage. Its waters can heal wounds, but the oasis can be elusive and hard to find.</td>
+</tr>
+<tr class="even">
+<td>64</td>
+<td><strong>Eerie Echo Canyon</strong>: A canyon that seems to amplify sounds. Each echo reveals a faint message from the past, creating an eerie symphony.</td>
+</tr>
+<tr class="odd">
+<td>65</td>
+<td><strong>Cursed Catacombs</strong>: An underground labyrinth where restless spirits dwell. Each turn might lead to a hidden treasure or a spectral encounter.</td>
+</tr>
+<tr class="even">
+<td>66</td>
+<td><strong>Hidden Lotus Garden</strong>: A garden where the lotus flowers bloom only during a specific alignment of the stars. The pollen can bring visions, but also unsettling dreams.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="random-events" class="level2">
+<h2 class="anchored" data-anchor-id="random-events">Random Events</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 2%">
+<col style="width: 97%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>D66</th>
+<th>Random Event</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>11</td>
+<td><strong>Spirit Lanterns</strong>: Wisps of light lead you off the path to a glade where ghostly lanterns sway. Do you follow?</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td><strong>Sudden Fog</strong>: A thick fog engulfs you, concealing all but the immediate surroundings. Navigating becomes treacherous.</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td><strong>Celestial Omen</strong>: A shooting star streaks across the night sky. Some believe it foretells an upcoming event.</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td><strong>Mysterious Footprints</strong>: Unusual footprints lead into the forest. Following them might lead to unexpected discoveries.</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td><strong>Friendly Yokai</strong>: A playful yokai offers assistance or guidance. But yokai motives are often more complex than they seem.</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td><strong>Thunderstorm</strong>: Dark clouds gather, and thunder rumbles ominously. Seek shelter or brave the tempest?</td>
+</tr>
+<tr class="odd">
+<td>21</td>
+<td><strong>Spectral Music</strong>: Melodic music drifts on the wind. Following it leads to a hidden grove where spirits dance.</td>
+</tr>
+<tr class="even">
+<td>22</td>
+<td><strong>Startling Encounter</strong>: You stumble upon a solitary figure deep in thought. They seem to have been waiting for someone.</td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td><strong>Curious Artifact</strong>: An odd object catches your eye, half-buried in the earth. What secrets does it hold?</td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td><strong>Benevolent Guardian</strong>: A mysterious figure watches over your campsite during the night. Their intentions are unclear.</td>
+</tr>
+<tr class="odd">
+<td>25</td>
+<td><strong>Haunted Whispers</strong>: Faint voices echo in your ears, revealing cryptic riddles or snippets of forgotten tales.</td>
+</tr>
+<tr class="even">
+<td>26</td>
+<td><strong>Flowering Shadows</strong>: An ancient tree’s blossoms cast intricate patterns on the ground. The petals hold power… or danger.</td>
+</tr>
+<tr class="odd">
+<td>31</td>
+<td><strong>Strange Animal</strong>: An animal behaves unusually, leading you on a detour. Is it trying to warn you, or is it just an animal?</td>
+</tr>
+<tr class="even">
+<td>32</td>
+<td><strong>Moonlit Encounter</strong>: An ethereal figure emerges from the moonlit shadows, offering guidance or a cryptic message.</td>
+</tr>
+<tr class="odd">
+<td>33</td>
+<td><strong>Blossom Storm</strong>: Cherry blossoms fall like snow, creating a beautiful but eerie atmosphere. What lies within the petals?</td>
+</tr>
+<tr class="even">
+<td>34</td>
+<td><strong>Mystic Mirage</strong>: The landscape shifts before your eyes, revealing a mirrored version of reality. Step through, or stay put?</td>
+</tr>
+<tr class="odd">
+<td>35</td>
+<td><strong>Lost in Thought</strong>: A solitary monk meditates by the roadside. Join them, and you might gain insight into your journey.</td>
+</tr>
+<tr class="even">
+<td>36</td>
+<td><strong>Feral Guardians</strong>: Enormous, wild creatures block your path. Are they protectors of this land, or something more sinister?</td>
+</tr>
+<tr class="odd">
+<td>41</td>
+<td><strong>Whispering Winds</strong>: The wind carries distant voices and secrets. Follow the whispers to unravel hidden truths.</td>
+</tr>
+<tr class="even">
+<td>42</td>
+<td><strong>Mysterious Offer</strong>: A mysterious figure presents you with a cryptic choice that could impact your destiny.</td>
+</tr>
+<tr class="odd">
+<td>43</td>
+<td><strong>Unseen Observer</strong>: You have the uncanny feeling of being watched. Yet, no one is visible among the trees.</td>
+</tr>
+<tr class="even">
+<td>44</td>
+<td><strong>Blossom Trail</strong>: A trail of cherry blossoms beckons you deeper into the forest. What awaits at the end?</td>
+</tr>
+<tr class="odd">
+<td>45</td>
+<td><strong>Guardian Statues</strong>: A row of guardian statues seems to move and shift when you’re not looking directly at them.</td>
+</tr>
+<tr class="even">
+<td>46</td>
+<td><strong>Mischievous Spirits</strong>: Playful spirits steal your belongings and scatter them. Retrieve your items or engage in their antics.</td>
+</tr>
+<tr class="odd">
+<td>51</td>
+<td><strong>Crying Spirits</strong>: You hear the mournful cries of spirits, urging you to help them find peace. Will you heed their call?</td>
+</tr>
+<tr class="even">
+<td>52</td>
+<td><strong>Freak Weather</strong>: The weather changes drastically within moments, from sunshine to torrential rain or vice versa.</td>
+</tr>
+<tr class="odd">
+<td>53</td>
+<td><strong>Veil of Illusion</strong>: The world around you distorts and shifts, creating illusions that could lead you astray.</td>
+</tr>
+<tr class="even">
+<td>54</td>
+<td><strong>Lingering Echoes</strong>: The echoes of a long-forgotten battle resound in the air, revealing hints of a tragic past.</td>
+</tr>
+<tr class="odd">
+<td>55</td>
+<td><strong>Guiding Fireflies</strong>: Fireflies light your way in the darkness, leading you to a hidden clearing or cave.</td>
+</tr>
+<tr class="even">
+<td>56</td>
+<td><strong>Starlit Serenade</strong>: Stars align to form a recognizable shape, an ancient celestial map that might guide your journey.</td>
+</tr>
+<tr class="odd">
+<td>61</td>
+<td><strong>Restless Wind</strong>: An eerie wind carries whispers of secrets and truths from distant lands. What tales does it tell?</td>
+</tr>
+<tr class="even">
+<td>62</td>
+<td><strong>Phantom Horses</strong>: Spectral horses appear, inviting you to join their midnight ride. Will you accept their ghostly invitation?</td>
+</tr>
+<tr class="odd">
+<td>63</td>
+<td><strong>Lost Lament</strong>: A sorrowful song fills the air, sung by a voice you can’t quite locate. Will you seek its source?</td>
+</tr>
+<tr class="even">
+<td>64</td>
+<td><strong>Cursed Artifact</strong>: You stumble upon an artifact bearing a malevolent aura. Will you keep it for its power, or destroy it?</td>
+</tr>
+<tr class="odd">
+<td>65</td>
+<td><strong>Guardian of Dreams</strong>: A guardian spirit visits you in your dreams, offering advice or cryptic visions of the future.</td>
+</tr>
+<tr class="even">
+<td>66</td>
+<td><strong>Wandering Shadows</strong>: Eerie figures wander the forest, trailing shadows that seem disconnected from their forms. Approach with caution.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="adventure-seeds" class="level2">
+<h2 class="anchored" data-anchor-id="adventure-seeds">Adventure Seeds</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>D66</th>
+<th>Adventure</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>11</td>
+<td>A remote village is being terrorized by a mysterious creature. Track it down and destroy it.</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>An ancient demon was sealed away in a forgotten shrine. Find a way to prevent its followers from freeing it.</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>A cursed katana that possesses its wielder has fallen into the hands of a daimyo’s enforcer. Retrieve it before more innocents are killed.</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>A wealthy merchant was kidnapped along the Eastern Road. Rescue the merchant from the bandits.</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>A corrupt priest is consorting with evil spirits. Expose his deeds without bringing dishonor upon the temple.</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>Peasants report seeing ghosts marching across the Foggy Moors at night. Investigate and lay the spirits to rest.</td>
+</tr>
+<tr class="odd">
+<td>21</td>
+<td>The waters of the Cursed Hot Springs have turned poisonous. Discover the cause and restore the waters.</td>
+</tr>
+<tr class="even">
+<td>22</td>
+<td>A ronin duels you for a perceived slight and you must face him honorably. Defeat him without killing him.</td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td>A child from a remote village has been possessed by a demon. Find a way to exorcise the demon.</td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td>You are drawn into a supernatural card game in a remote inn. Win to escape, or you forfeit your soul.</td>
+</tr>
+<tr class="odd">
+<td>25</td>
+<td>You find a cursed mask that transforms the wearer. Keep it from harming anyone else.</td>
+</tr>
+<tr class="even">
+<td>26</td>
+<td>You are hired to guide a nobleman’s daughter through the dangerous Howling Forest. Keep her safe on the journey.</td>
+</tr>
+<tr class="odd">
+<td>31</td>
+<td>A monk monastery has been plagued by misfortune. Discover if it is human sabotage or a curse.</td>
+</tr>
+<tr class="even">
+<td>32</td>
+<td>The ghost of a vengeful samurai haunts a battlefield. Discover what is keeping him from rest.</td>
+</tr>
+<tr class="odd">
+<td>33</td>
+<td>A shapeshifter has replaced the local daimyo. Identify the imposter and expose them.</td>
+</tr>
+<tr class="even">
+<td>34</td>
+<td>The voices from the Singing Cave have driven villagers insane. Find a way to silence them.</td>
+</tr>
+<tr class="odd">
+<td>35</td>
+<td>A kappa has moved into the local river and is drowning people. Trick it or force it away.</td>
+</tr>
+<tr class="even">
+<td>36</td>
+<td>A necromancer is raising an undead army in the mountains. Infiltrate his keep and stop the ritual.</td>
+</tr>
+<tr class="odd">
+<td>41</td>
+<td>You are hired to secretly escort a concubine escaping an abusive noble. Get her safely away.</td>
+</tr>
+<tr class="even">
+<td>42</td>
+<td>A spy has stolen important plans and taken refuge in a remote inn. Catch him without innocent bloodshed.</td>
+</tr>
+<tr class="odd">
+<td>43</td>
+<td>A priest hires you to discreetly retrieve occult items stolen from his temple.</td>
+</tr>
+<tr class="even">
+<td>44</td>
+<td>You are challenged to an irezumi tattoo contest by a mysterious wandering artist.</td>
+</tr>
+<tr class="odd">
+<td>45</td>
+<td>A samurai’s prized sword was stolen by tanuki. Recover it from the tricksters.</td>
+</tr>
+<tr class="even">
+<td>46</td>
+<td>You must win a dangerous race through the mountains for honor and glory.</td>
+</tr>
+<tr class="odd">
+<td>51</td>
+<td>You stumble upon a remote village practicing forbidden rituals. They attack rather than risk exposure.</td>
+</tr>
+<tr class="even">
+<td>52</td>
+<td>A garment animated by a vengeful spirit strangles people who wear it. Track down and destroy the dangerous tsukumogami.</td>
+</tr>
+<tr class="odd">
+<td>53</td>
+<td>You are caught in a never-ending illusion woven by a mysterious sorcerer. Escape or be trapped forever.</td>
+</tr>
+<tr class="even">
+<td>54</td>
+<td>A cursed nobleman is slowly transforming into a demonic entity. Save him or end the threat.</td>
+</tr>
+<tr class="odd">
+<td>55</td>
+<td>A murderer uses ninjutsu to avoid capture. You must apply cunning to bring him to justice.</td>
+</tr>
+<tr class="even">
+<td>56</td>
+<td>A band of ninja attempt to assassinate you after a case of mistaken identity. Survive their attacks.</td>
+</tr>
+<tr class="odd">
+<td>61</td>
+<td>You must mediate a supernatural dispute between feuding animal clans.</td>
+</tr>
+<tr class="even">
+<td>62</td>
+<td>A gentle bamboo cutter is revealed to be blessed with divine powers. Protect their secret identity.</td>
+</tr>
+<tr class="odd">
+<td>63</td>
+<td>Evil priests have abducted potential psychics to turn them into weapons. Rescue them.</td>
+</tr>
+<tr class="even">
+<td>64</td>
+<td>The fantastical stories told by a traveling minstrel appear to be coming true, with dangerous consequences.</td>
+</tr>
+<tr class="odd">
+<td>65</td>
+<td>A cowardly samurai’s ancestral sword compels him to acts of courage whether he wills it or not.</td>
+</tr>
+<tr class="even">
+<td>66</td>
+<td>You seek refuge in a remote monastery, only to find the monks are not what they seem. Escape with your life.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="bestiary" class="level2">
+<h2 class="anchored" data-anchor-id="bestiary">Bestiary</h2>
+<section id="akaname" class="level3">
+<h3 class="anchored" data-anchor-id="akaname">Akaname</h3>
+<ul>
+<li><strong>Concept</strong>: Goblin-like spirit that licks filth</li>
+<li><strong>Skills</strong>: Filth Manipulation, Disgusting Aura</li>
+<li><strong>Frailty</strong>: Vulnerable to cleanliness or purification rituals</li>
+<li><strong>Gear</strong>: Filthy hands and tongue</li>
+<li><strong>Goal</strong>: Clean dirty spaces by licking filth</li>
+<li><strong>Motive</strong>: Sustain itself and fulfill its purpose</li>
+<li><strong>Nemesis</strong>: Those who keep their spaces clean or protective spirits</li>
+</ul>
+</section>
+<section id="akashita" class="level3">
+<h3 class="anchored" data-anchor-id="akashita">Akashita</h3>
+<ul>
+<li><strong>Concept</strong>: Ghostly hand beneath tatami mats</li>
+<li><strong>Skills</strong>: Surprise Attack, Stealth</li>
+<li><strong>Frailty</strong>: Vulnerable to light or salt</li>
+<li><strong>Gear</strong>: Ghostly hand</li>
+<li><strong>Goal</strong>: Startle and shock unsuspecting victims</li>
+<li><strong>Motive</strong>: Seek amusement or surprise</li>
+<li><strong>Nemesis</strong>: Those who seal off tatami mats or protective charms</li>
+</ul>
+</section>
+<section id="amanojaku" class="level3">
+<h3 class="anchored" data-anchor-id="amanojaku">Amanojaku</h3>
+<ul>
+<li><strong>Concept</strong>: Mischievous demons causing chaos and confusion</li>
+<li><strong>Skills</strong>: Instigation, Manipulation</li>
+<li><strong>Frailty</strong>: Vulnerable to exorcism or divine intervention</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Create discord and turmoil</li>
+<li><strong>Motive</strong>: Seek amusement or exert control</li>
+<li><strong>Nemesis</strong>: Individuals skilled in conflict resolution or harmony</li>
+</ul>
+</section>
+<section id="enenra" class="level3">
+<h3 class="anchored" data-anchor-id="enenra">Enenra</h3>
+<ul>
+<li><strong>Concept</strong>: Creature of smoke or mist</li>
+<li><strong>Skills</strong>: Smoke Manipulation, Intangibility</li>
+<li><strong>Frailty</strong>: Vulnerable to strong wind or air purification</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Create a smoky and eerie atmosphere</li>
+<li><strong>Motive</strong>: Seek confusion or fear</li>
+<li><strong>Nemesis</strong>: Air manipulators or those with smoke-resistant abilities</li>
+</ul>
+</section>
+<section id="hitotsume-kozo" class="level3">
+<h3 class="anchored" data-anchor-id="hitotsume-kozo">Hitotsume-kozo</h3>
+<ul>
+<li><strong>Concept</strong>: One-eyed monk spirit</li>
+<li><strong>Skills</strong>: Hypnotic Gaze, Stealth</li>
+<li><strong>Frailty</strong>: Vulnerable to salt or purification rituals</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Startle and confuse humans</li>
+<li><strong>Motive</strong>: Seek amusement or sustenance</li>
+<li><strong>Nemesis</strong>: Those with strong willpower or mystical abilities</li>
+</ul>
+</section>
+<section id="hihi" class="level3">
+<h3 class="anchored" data-anchor-id="hihi">Hihi</h3>
+<ul>
+<li><strong>Concept</strong>: Creature with bird-like appearance and fire control</li>
+<li><strong>Skills</strong>: Pyrokinesis, Fiery Aura</li>
+<li><strong>Frailty</strong>: Vulnerable to water or fire-extinguishing methods</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Manipulate and control fire for various purposes</li>
+<li><strong>Motive</strong>: Maintain the balance of fire’s destructive and creative aspects</li>
+<li><strong>Nemesis</strong>: Water manipulators or those with fire-resistant abilities</li>
+</ul>
+</section>
+<section id="hyakki-yagyō" class="level3">
+<h3 class="anchored" data-anchor-id="hyakki-yagyō">Hyakki Yagyō</h3>
+<ul>
+<li><strong>Concept</strong>: Parade of one hundred demons and supernatural beings</li>
+<li><strong>Skills</strong>: Collective Action, Illusion Projection</li>
+<li><strong>Frailty</strong>: Vulnerable to disruption or dispelling magic</li>
+<li><strong>Gear</strong>: Various youkai abilities</li>
+<li><strong>Goal</strong>: Roam and cause chaos during the night parade</li>
+<li><strong>Motive</strong>: Seek amusement or confusion</li>
+<li><strong>Nemesis</strong>: Guardians of order or individuals skilled in countering illusions</li>
+</ul>
+</section>
+<section id="jibakurei" class="level3">
+<h3 class="anchored" data-anchor-id="jibakurei">Jibakurei</h3>
+<ul>
+<li><strong>Concept</strong>: Land-bound spirits attached to specific locations</li>
+<li><strong>Skills</strong>: Manifestation, Territorial Influence</li>
+<li><strong>Frailty</strong>: Vulnerable to purification rituals or displacement</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Guard their territory and the people within</li>
+<li><strong>Motive</strong>: Protect their domain and maintain balance</li>
+<li><strong>Nemesis</strong>: Individuals who desecrate or disrupt their territory</li>
+</ul>
+</section>
+<section id="jorogumo" class="level3">
+<h3 class="anchored" data-anchor-id="jorogumo">Jorogumo</h3>
+<ul>
+<li><strong>Concept</strong>: Seductive spider woman</li>
+<li><strong>Skills</strong>: Shape-shifting, Deception</li>
+<li><strong>Frailty</strong>: Vulnerable to fire or purification rituals</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Lure victims and consume them</li>
+<li><strong>Motive</strong>: Sustain themselves through deception</li>
+<li><strong>Nemesis</strong>: Fire-wielding individuals or cautious travelers</li>
+</ul>
+</section>
+<section id="kamagami" class="level3">
+<h3 class="anchored" data-anchor-id="kamagami">Kamagami</h3>
+<ul>
+<li><strong>Concept</strong>: Deities or spirits residing in natural elements</li>
+<li><strong>Skills</strong>: Elemental Affinity, Blessings</li>
+<li><strong>Frailty</strong>: Vulnerable to pollution or defilement of their element</li>
+<li><strong>Gear</strong>: Embodiment of their natural domain</li>
+<li><strong>Goal</strong>: Protect and maintain their natural realm</li>
+<li><strong>Motive</strong>: Preserve balance and harmony</li>
+<li><strong>Nemesis</strong>: Those who exploit or misuse their domains</li>
+</ul>
+</section>
+<section id="kamaitachi" class="level3">
+<h3 class="anchored" data-anchor-id="kamaitachi">Kamaitachi</h3>
+<ul>
+<li><strong>Concept</strong>: Trio of weasel-like spirits associated with winds</li>
+<li><strong>Skills</strong>: Speed, Cutting Winds</li>
+<li><strong>Frailty</strong>: Vulnerable when winds are calm</li>
+<li><strong>Gear</strong>: Sharp claws, swift movements</li>
+<li><strong>Goal</strong>: Cause minor wounds or confusion</li>
+<li><strong>Motive</strong>: Playful pranks or seek food</li>
+<li><strong>Nemesis</strong>: Wind-manipulating individuals or those with strong barriers</li>
+</ul>
+</section>
+<section id="kamikakushi" class="level3">
+<h3 class="anchored" data-anchor-id="kamikakushi">Kamikakushi</h3>
+<ul>
+<li><strong>Concept</strong>: Phenomenon of mysterious disappearances</li>
+<li><strong>Skills</strong>: Invisibility, Dimensional Manipulation</li>
+<li><strong>Frailty</strong>: Vulnerable to detection or sealing methods</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Abduct and hide people</li>
+<li><strong>Motive</strong>: Unknown, possibly fascination with human world</li>
+<li><strong>Nemesis</strong>: Dimensional travelers or beings with detection abilities</li>
+</ul>
+</section>
+<section id="kamikiri" class="level3">
+<h3 class="anchored" data-anchor-id="kamikiri">Kamikiri</h3>
+<ul>
+<li><strong>Concept</strong>: Hair-cutting creature</li>
+<li><strong>Skills</strong>: Stealth, Precision Cutting</li>
+<li><strong>Frailty</strong>: Vulnerable to protective charms or hair talismans</li>
+<li><strong>Gear</strong>: Small blades or shears</li>
+<li><strong>Goal</strong>: Collect strands of human hair</li>
+<li><strong>Motive</strong>: Seek hair for its nest or use in rituals</li>
+<li><strong>Nemesis</strong>: People with strong protective measures or hair-enhancing abilities</li>
+</ul>
+</section>
+<section id="kappa" class="level3">
+<h3 class="anchored" data-anchor-id="kappa">Kappa</h3>
+<ul>
+<li><strong>Concept</strong>: Mischievous water-dwelling creatures</li>
+<li><strong>Skills</strong>: Swimming, Pranks</li>
+<li><strong>Frailty</strong>: Vulnerable to spilling water from its head</li>
+<li><strong>Gear</strong>: Water-filled dish on its head</li>
+<li><strong>Goal</strong>: Pull pranks or challenge humans</li>
+<li><strong>Motive</strong>: Seek amusement and food</li>
+<li><strong>Nemesis</strong>: Skilled swimmers or clever humans</li>
+</ul>
+</section>
+<section id="kijo" class="level3">
+<h3 class="anchored" data-anchor-id="kijo">Kijo</h3>
+<ul>
+<li><strong>Concept</strong>: Seductive and dangerous female demon</li>
+<li><strong>Skills</strong>: Charm, Deception</li>
+<li><strong>Frailty</strong>: Vulnerable to purity or divine intervention</li>
+<li><strong>Gear</strong>: Enchanting appearance, beguiling words</li>
+<li><strong>Goal</strong>: Seduce and corrupt humans</li>
+<li><strong>Motive</strong>: Seek pleasure or spread chaos</li>
+<li><strong>Nemesis</strong>: Virtuous individuals or those with strong will</li>
+</ul>
+</section>
+<section id="kitsune" class="level3">
+<h3 class="anchored" data-anchor-id="kitsune">Kitsune</h3>
+<ul>
+<li><strong>Concept</strong>: Cunning fox spirits</li>
+<li><strong>Skills</strong>: Shape-shifting, Illusion</li>
+<li><strong>Frailty</strong>: Vulnerable to certain chants or rituals</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Protect their shrines or manipulate humans</li>
+<li><strong>Motive</strong>: Gain power or amusement</li>
+<li><strong>Nemesis</strong>: Skilled priests or holy relics</li>
+</ul>
+</section>
+<section id="konaki-jiji" class="level3">
+<h3 class="anchored" data-anchor-id="konaki-jiji">Konaki-jiji</h3>
+<ul>
+<li><strong>Concept</strong>: Old man youkai who cries like a baby</li>
+<li><strong>Skills</strong>: Mimicry, Emotional Manipulation</li>
+<li><strong>Frailty</strong>: Vulnerable to recognition or protective chants</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Lure and deceive unsuspecting victims</li>
+<li><strong>Motive</strong>: Seek amusement or feed on emotions</li>
+<li><strong>Nemesis</strong>: Emotionally resilient individuals or those who see through its act</li>
+</ul>
+</section>
+<section id="kubire-oni" class="level3">
+<h3 class="anchored" data-anchor-id="kubire-oni">Kubire-oni</h3>
+<ul>
+<li><strong>Concept</strong>: Headless demon or ogre</li>
+<li><strong>Skills</strong>: Brute Strength, Fear-Inducing Roar</li>
+<li><strong>Frailty</strong>: Vulnerable to sealing rituals or holy symbols</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Spread fear and chaos</li>
+<li><strong>Motive</strong>: Seek dominance or terrorize humans</li>
+<li><strong>Nemesis</strong>: Skilled exorcists or brave warriors</li>
+</ul>
+</section>
+<section id="kawa-no-kami" class="level3">
+<h3 class="anchored" data-anchor-id="kawa-no-kami">Kawa-no-kami</h3>
+<ul>
+<li><strong>Concept</strong>: River deities or spirits</li>
+<li><strong>Skills</strong>: Water Manipulation, Communication</li>
+<li><strong>Frailty</strong>: Vulnerable to pollution or desecration</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Protect their domain and inhabitants</li>
+<li><strong>Motive</strong>: Maintain the balance of nature</li>
+<li><strong>Nemesis</strong>: Those who pollute or harm water sources</li>
+</ul>
+</section>
+<section id="kawa-uso" class="level3">
+<h3 class="anchored" data-anchor-id="kawa-uso">Kawa-uso</h3>
+<ul>
+<li><strong>Concept</strong>: River otter spirits known for pranks</li>
+<li><strong>Skills</strong>: Mischief, Shapeshifting</li>
+<li><strong>Frailty</strong>: Vulnerable to protective charms or water purification</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Play pranks on humans and cause chaos</li>
+<li><strong>Motive</strong>: Seek amusement or entertainment</li>
+<li><strong>Nemesis</strong>: Those who outwit or out-prank them</li>
+</ul>
+</section>
+<section id="kasha" class="level3">
+<h3 class="anchored" data-anchor-id="kasha">Kasha</h3>
+<ul>
+<li><strong>Concept</strong>: Corpse-stealing creature</li>
+<li><strong>Skills</strong>: Grave Desecration, Stealth</li>
+<li><strong>Frailty</strong>: Vulnerable to protective barriers or sanctified ground</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Steal corpses before they can be properly buried</li>
+<li><strong>Motive</strong>: Unknown, possibly collecting remains for unknown purposes</li>
+<li><strong>Nemesis</strong>: Guardians of burial sites or those protecting the dead</li>
+</ul>
+</section>
+<section id="nue" class="level3">
+<h3 class="anchored" data-anchor-id="nue">Nue</h3>
+<ul>
+<li><strong>Concept</strong>: Chimera-like creature with various animal parts</li>
+<li><strong>Skills</strong>: Elemental Affinities, Shape-shifting</li>
+<li><strong>Frailty</strong>: Vulnerable to certain elemental attacks</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Cause chaos and confusion</li>
+<li><strong>Motive</strong>: Seek dominance or play pranks</li>
+<li><strong>Nemesis</strong>: Elemental specialists or skilled shape-shifters</li>
+</ul>
+</section>
+<section id="nukarumi" class="level3">
+<h3 class="anchored" data-anchor-id="nukarumi">Nukarumi</h3>
+<ul>
+<li><strong>Concept</strong>: Female spirit appearing from the waist up in water</li>
+<li><strong>Skills</strong>: Water Manipulation, Emotional Manifestation</li>
+<li><strong>Frailty</strong>: Vulnerable to drying or containment</li>
+<li><strong>Gear</strong>: Watery hands and upper body</li>
+<li><strong>Goal</strong>: Emerge from bodies of water to interact with humans</li>
+<li><strong>Motive</strong>: Seek connection or communication</li>
+<li><strong>Nemesis</strong>: Water manipulators or those with abilities to control emotions</li>
+</ul>
+</section>
+<section id="noppera-bo" class="level3">
+<h3 class="anchored" data-anchor-id="noppera-bo">Noppera-bo</h3>
+<ul>
+<li><strong>Concept</strong>: Faceless ghostly figures</li>
+<li><strong>Skills</strong>: Invisibility, Disguise</li>
+<li><strong>Frailty</strong>: Vulnerable to light or certain charms</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Frighten and unsettle humans</li>
+<li><strong>Motive</strong>: Cause confusion and fear</li>
+<li><strong>Nemesis</strong>: Sharp-eyed individuals or those unaffected by illusions</li>
+</ul>
+</section>
+<section id="nurari" class="level3">
+<h3 class="anchored" data-anchor-id="nurari">Nurari</h3>
+<ul>
+<li><strong>Concept</strong>: Youkai that lounges in unoccupied homes</li>
+<li><strong>Skills</strong>: Stealth, Deception</li>
+<li><strong>Frailty</strong>: Vulnerable when confronted or exposed to bright light</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Claim unoccupied spaces and enjoy hospitality</li>
+<li><strong>Motive</strong>: Seek comfort and luxury</li>
+<li><strong>Nemesis</strong>: Vigilant homeowners or protective spirits</li>
+</ul>
+</section>
+<section id="nurarihyon" class="level3">
+<h3 class="anchored" data-anchor-id="nurarihyon">Nurarihyon</h3>
+<ul>
+<li><strong>Concept</strong>: Youkai that makes itself at home in empty houses</li>
+<li><strong>Skills</strong>: Stealth, Deception</li>
+<li><strong>Frailty</strong>: Vulnerable when confronted or exposed to bright light</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Claim empty homes and spaces</li>
+<li><strong>Motive</strong>: Seek comfort and convenience</li>
+<li><strong>Nemesis</strong>: Vigilant homeowners or protective spirits</li>
+</ul>
+</section>
+<section id="oni" class="level3">
+<h3 class="anchored" data-anchor-id="oni">Oni</h3>
+<ul>
+<li><strong>Concept</strong>: Malevolent demons or ogres</li>
+<li><strong>Skills</strong>: Strength, Intimidation</li>
+<li><strong>Frailty</strong>: Vulnerable to sacred symbols or exorcism</li>
+<li><strong>Gear</strong>: Clubs, spiked clubs, demonic masks</li>
+<li><strong>Goal</strong>: Cause suffering and chaos</li>
+<li><strong>Motive</strong>: Instill fear and exert dominance</li>
+<li><strong>Nemesis</strong>: Powerful priests or brave warriors</li>
+</ul>
+</section>
+<section id="raiju" class="level3">
+<h3 class="anchored" data-anchor-id="raiju">Raiju</h3>
+<ul>
+<li><strong>Concept</strong>: Creature associated with lightning</li>
+<li><strong>Skills</strong>: Lightning Manipulation, Thunderstorm Control</li>
+<li><strong>Frailty</strong>: Vulnerable to grounding or weather-controlling abilities</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Harness and control thunderstorms</li>
+<li><strong>Motive</strong>: Maintain balance or unleash chaos</li>
+<li><strong>Nemesis</strong>: Storm manipulators or lightning-resistant beings</li>
+</ul>
+</section>
+<section id="rokurokubi" class="level3">
+<h3 class="anchored" data-anchor-id="rokurokubi">Rokurokubi</h3>
+<ul>
+<li><strong>Concept</strong>: Humanoid spirits with stretchable necks</li>
+<li><strong>Skills</strong>: Neck Extension, Stealth</li>
+<li><strong>Frailty</strong>: Vulnerable when neck is extended</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Observe humans or cause confusion</li>
+<li><strong>Motive</strong>: Seek amusement or explore</li>
+<li><strong>Nemesis</strong>: Observant individuals or those with anti-magic abilities</li>
+</ul>
+</section>
+<section id="satori" class="level3">
+<h3 class="anchored" data-anchor-id="satori">Satori</h3>
+<ul>
+<li><strong>Concept</strong>: Mind-reading creature</li>
+<li><strong>Skills</strong>: Telepathy, Mind Reading</li>
+<li><strong>Frailty</strong>: Vulnerable to psychic barriers or strong wills</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Learn the thoughts and secrets of humans</li>
+<li><strong>Motive</strong>: Seek knowledge or manipulate individuals</li>
+<li><strong>Nemesis</strong>: Those with strong mental defenses or psychic powers</li>
+</ul>
+</section>
+<section id="shirime" class="level3">
+<h3 class="anchored" data-anchor-id="shirime">Shirime</h3>
+<ul>
+<li><strong>Concept</strong>: Creature with an eye in place of its anus</li>
+<li><strong>Skills</strong>: Startling Gaze, Stealth</li>
+<li><strong>Frailty</strong>: Vulnerable to salt or counter-illusion</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Shock and surprise victims</li>
+<li><strong>Motive</strong>: Seek amusement or disturb humans</li>
+<li><strong>Nemesis</strong>: Those unaffected by its gaze or those with strong wills</li>
+</ul>
+</section>
+<section id="tengu" class="level3">
+<h3 class="anchored" data-anchor-id="tengu">Tengu</h3>
+<ul>
+<li><strong>Concept</strong>: Bird-like creatures with supernatural powers</li>
+<li><strong>Skills</strong>: Flight, Martial Arts</li>
+<li><strong>Frailty</strong>: Vulnerable to talismans or divine intervention</li>
+<li><strong>Gear</strong>: Long-nosed masks, magical fans</li>
+<li><strong>Goal</strong>: Maintain balance in nature or teach valuable lessons</li>
+<li><strong>Motive</strong>: Promote harmony or discipline</li>
+<li><strong>Nemesis</strong>: Skilled martial artists or divine beings</li>
+</ul>
+</section>
+<section id="tesso" class="level3">
+<h3 class="anchored" data-anchor-id="tesso">Tesso</h3>
+<ul>
+<li><strong>Concept</strong>: Vengeful spirit of a mistreated priest or monk</li>
+<li><strong>Skills</strong>: Curse Casting, Disruptive Presence</li>
+<li><strong>Frailty</strong>: Vulnerable to purification or redemption rituals</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Exact revenge for past mistreatment</li>
+<li><strong>Motive</strong>: Seek justice or restitution</li>
+<li><strong>Nemesis</strong>: Compassionate individuals or those seeking to right wrongs</li>
+</ul>
+</section>
+<section id="tanuki" class="level3">
+<h3 class="anchored" data-anchor-id="tanuki">Tanuki</h3>
+<ul>
+<li><strong>Concept</strong>: Playful shape-shifting raccoon dog spirits</li>
+<li><strong>Skills</strong>: Shape-shifting, Misdirection</li>
+<li><strong>Frailty</strong>: Vulnerable to charms or spells</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Cause mischief or seek comfort</li>
+<li><strong>Motive</strong>: Enjoyment and freedom</li>
+<li><strong>Nemesis</strong>: Protective deities or skilled exorcists</li>
+</ul>
+</section>
+<section id="umibozu" class="level3">
+<h3 class="anchored" data-anchor-id="umibozu">Umibozu</h3>
+<ul>
+<li><strong>Concept</strong>: Sea spirit that causes storms</li>
+<li><strong>Skills</strong>: Water Manipulation, Tempest Creation</li>
+<li><strong>Frailty</strong>: Vulnerable to certain chants or rituals</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Create treacherous seas and storms</li>
+<li><strong>Motive</strong>: Seek chaos and destruction</li>
+<li><strong>Nemesis</strong>: Skilled sailors or divine protectors</li>
+</ul>
+</section>
+<section id="yamabiko" class="level3">
+<h3 class="anchored" data-anchor-id="yamabiko">Yamabiko</h3>
+<ul>
+<li><strong>Concept</strong>: Echo spirits that mimic human voices</li>
+<li><strong>Skills</strong>: Echo Mimicry, Illusion</li>
+<li><strong>Frailty</strong>: Vulnerable to silence or counter-illusion</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Echo and repeat human sounds</li>
+<li><strong>Motive</strong>: Seek interaction or amusement</li>
+<li><strong>Nemesis</strong>: Skilled ventriloquists or sound manipulators</li>
+</ul>
+</section>
+<section id="yuki-onna" class="level3">
+<h3 class="anchored" data-anchor-id="yuki-onna">Yuki-onna</h3>
+<ul>
+<li><strong>Concept</strong>: Spirit associated with snowstorms</li>
+<li><strong>Skills</strong>: Cold Manipulation, Illusion</li>
+<li><strong>Frailty</strong>: Vulnerable to warmth or heat-based attacks</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Ensnare travelers in blizzards</li>
+<li><strong>Motive</strong>: Seek companionship or revenge</li>
+<li><strong>Nemesis</strong>: Fire-wielding individuals or those with strong willpower</li>
+</ul>
+</section>
+<section id="yokai" class="level3">
+<h3 class="anchored" data-anchor-id="yokai">Yokai</h3>
+<ul>
+<li><strong>Concept</strong>: Mysterious shape-shifting spirits</li>
+<li><strong>Skills</strong>: Shapeshifting, Illusion</li>
+<li><strong>Frailty</strong>: Vulnerable to pure iron</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: To trick or deceive humans</li>
+<li><strong>Motive</strong>: Mischievous or malevolent intentions</li>
+<li><strong>Nemesis</strong>: Talismans or individuals skilled in exorcism</li>
+</ul>
+</section>
+<section id="yurei" class="level3">
+<h3 class="anchored" data-anchor-id="yurei">Yurei</h3>
+<ul>
+<li><strong>Concept</strong>: Ghostly spirits of the deceased</li>
+<li><strong>Skills</strong>: Manifestation, Frightening Aura</li>
+<li><strong>Frailty</strong>: Vulnerable to prayers or appeasement</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Find peace or seek revenge</li>
+<li><strong>Motive</strong>: Resolve unfinished business or seek justice</li>
+<li><strong>Nemesis</strong>: Skilled mediums or compassionate priests</li>
+</ul>
+</section>
+<section id="zashiki-warashi" class="level3">
+<h3 class="anchored" data-anchor-id="zashiki-warashi">Zashiki-warashi</h3>
+<ul>
+<li><strong>Concept</strong>: Child spirits that bring fortune or misfortune</li>
+<li><strong>Skills</strong>: Luck Manipulation, Playful Behavior</li>
+<li><strong>Frailty</strong>: Vulnerable when neglected or angered</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Influence the household’s luck</li>
+<li><strong>Motive</strong>: Seek attention and care</li>
+<li><strong>Nemesis</strong>: Neglectful or hostile individuals</li>
+</ul>
+</section>
+</section>
+<section id="appendix-a-cultural-insights-and-glossary" class="level2">
+<h2 class="anchored" data-anchor-id="appendix-a-cultural-insights-and-glossary">Appendix A: Cultural Insights and Glossary</h2>
+<ul>
+<li><p><strong>Historical Context</strong>: Feudal Japan was a time of samurai, warlords, and mysterious spirits. Dive into the history of warring clans, honor codes, and the rise of noble families that shape the backdrop of your adventures.</p></li>
+<li><p><strong>Cultural Traditions</strong>: From the elegant art of the tea ceremony to the intricate world of ikebana (flower arranging), learn about the customs that defined daily life in old Japan. Understanding these traditions can guide your interactions with NPCs and reveal hidden clues.</p></li>
+<li><p><strong>Spiritual Beliefs</strong>: Ghosts, demons, and shapeshifters are not just fantasy here; they’re rooted in Japanese spiritual beliefs. Discover the rich mythology of yokai, the supernatural creatures that inhabit the world around you.</p></li>
+<li><p><strong>Samurai Code</strong>: Uncover the principles of bushido, the way of the samurai. Loyalty, honor, and duty were central tenets that governed the lives of these noble warriors. Your character’s actions can reflect or challenge these ideals.</p></li>
+<li><p><strong>Language and Honorifics</strong>: Get a grip on common Japanese phrases, honorifics, and titles. Addressing NPCs with respect or familiarity can influence how they respond to you.</p></li>
+<li><p><strong>Festivals and Celebrations</strong>: Participate in vibrant festivals like Tanabata, where wishes are written on paper and hung on bamboo, or Obon, a time to honor the spirits of the deceased. These celebrations provide unique opportunities for interaction and adventure.</p></li>
+<li><p><strong>Japanese Folklore</strong>: Delve into the captivating world of Japanese folklore. Learn about famous legends like Momotaro, the Peach Boy, and Tsukuyomi, the Moon God. These stories can provide inspiration and context for your adventures.</p></li>
+</ul>
+</section>
+<section id="appendix-b-glossary" class="level2">
+<h2 class="anchored" data-anchor-id="appendix-b-glossary">Appendix B: Glossary</h2>
+<p>This glossary provides a comprehensive overview of terms related to the kwaidan genre and feudal Japan, encompassing both supernatural elements and cultural aspects that enrich the storytelling experience.</p>
+<p><strong>A</strong></p>
+<ul>
+<li><p><strong>Akashita</strong>: A ghostly hand that reaches up from beneath tatami mats, often used to startle or shock.</p></li>
+<li><p><strong>Amanojaku</strong>: Mischievous demons that enjoy causing chaos and confusion.</p></li>
+<li><p><strong>Ancestral Spirits</strong>: Believed to be the spirits of deceased ancestors who continue to influence and protect their living descendants.</p></li>
+</ul>
+<p><strong>B</strong></p>
+<ul>
+<li><p><strong>Bakufu</strong>: A feudal military government that ruled Japan from the 12th to the 19th centuries.</p></li>
+<li><p><strong>Bunraku</strong>: Traditional Japanese puppet theater.</p></li>
+<li><p><strong>Bushi</strong>: A samurai warrior or a person belonging to the warrior class.</p></li>
+</ul>
+<p><strong>C</strong></p>
+<ul>
+<li><strong>Chonmage</strong>: A traditional Japanese hairstyle associated with samurai, characterized by a shaved pate and a topknot.</li>
+</ul>
+<p><strong>D</strong></p>
+<ul>
+<li><p><strong>Daimyo</strong>: Feudal lords who governed specific territories in feudal Japan.</p></li>
+<li><p><strong>Edo</strong>: The former name of Tokyo, serving as the political and cultural center of Japan during the Edo period.</p></li>
+</ul>
+<p><strong>E</strong></p>
+<ul>
+<li><strong>Edo Period</strong>: A time of relative peace and stability in Japan from 1603 to 1868, characterized by the rule of the Tokugawa shogunate and isolation from the outside world.</li>
+</ul>
+<p><strong>F</strong></p>
+<ul>
+<li><strong>Feudal System</strong>: A hierarchical social structure where power and land ownership were concentrated in the hands of a ruling class, mainly samurai and daimyo.</li>
+</ul>
+<p><strong>G</strong></p>
+<ul>
+<li><p><strong>Geisha</strong>: Skilled entertainers who perform traditional Japanese arts, often including dance, music, and conversation.</p></li>
+<li><p><strong>Genroku Era</strong>: A period of cultural flourishing during the Edo period, known for its artistic and literary achievements.</p></li>
+<li><p><strong>Geta</strong>: Traditional Japanese wooden sandals, often worn with kimono.</p></li>
+</ul>
+<p><strong>H</strong></p>
+<ul>
+<li><p><strong>Hanami</strong>: The practice of enjoying the beauty of cherry blossoms (sakura) during spring.</p></li>
+<li><p><strong>Heian Period</strong>: A historical period from the late 8th to the late 12th century, characterized by the flourishing of literature and culture in the imperial court.</p></li>
+</ul>
+<p><strong>I</strong></p>
+<ul>
+<li><p><strong>Inro</strong>: A small, multi-compartmental container used to hold personal belongings, often worn by samurai.</p></li>
+<li><p><strong>Irezumi</strong>: Traditional Japanese tattoo art.</p></li>
+</ul>
+<p><strong>J</strong></p>
+<ul>
+<li><p><strong>Jorogumo</strong>: A spider that can transform into a beautiful woman, often used to seduce and trap victims.</p></li>
+<li><p><strong>Joruri</strong>: The narrative or dialogue in Bunraku puppet theater.</p></li>
+<li><p><strong>Jukujo</strong>: A type of ghost or spirit that embodies an elderly woman.</p></li>
+<li><p><strong>Junihitoe</strong>: An elaborate and multilayered kimono worn by noblewomen in the Heian period.</p></li>
+</ul>
+<p><strong>K</strong></p>
+<ul>
+<li><p><strong>Kabuki</strong>: A traditional form of Japanese theater known for its elaborate makeup, costumes, and dramatic performances.</p></li>
+<li><p><strong>Kamaitachi</strong>: A trio of weasel-like spirits associated with winds, known to cause mysterious cuts or wounds.</p></li>
+<li><p><strong>Kamikakushi</strong>: The phenomenon of people mysteriously disappearing, often attributed to supernatural causes.</p></li>
+<li><p><strong>Kamidana</strong>: A household Shinto shrine that enshrines ancestral spirits and guardian deities.</p></li>
+<li><p><strong>Kappa</strong>: Water-dwelling creatures resembling turtles or amphibians, known for their mischievous nature.</p></li>
+<li><p><strong>Karuta</strong>: Traditional Japanese playing cards.</p></li>
+<li><p><strong>Katana</strong>: A traditional Japanese sword, often associated with samurai warriors.</p></li>
+<li><p><strong>Kimon</strong>: The formal clothing worn by samurai, featuring a distinctive crest.</p></li>
+<li><p><strong>Kimono</strong>: Traditional Japanese clothing worn by men, women, and children, characterized by its T-shaped structure and wide sleeves.</p></li>
+<li><p><strong>Koto</strong>: A traditional Japanese stringed musical instrument.</p></li>
+<li><p><strong>Kwaidan</strong>: A genre of Japanese supernatural and ghost stories.</p></li>
+</ul>
+<p><strong>L</strong></p>
+<ul>
+<li><strong>Lantern Festival</strong>: An annual festival held to honor deceased ancestors, often involving the lighting of lanterns.</li>
+</ul>
+<p><strong>M</strong></p>
+<ul>
+<li><p><strong>Meiji Restoration</strong>: The period of political and social upheaval in Japan during the late 19th century, leading to the modernization of the country.</p></li>
+<li><p><strong>Miko</strong>: Shrine maidens who perform rituals and ceremonies at Shinto shrines.</p></li>
+<li><p><strong>Mokumokuren</strong>: A youkai that appears on torn, worn-out fusuma (sliding doors) and tatami mats.</p></li>
+<li><p><strong>Mononoke</strong>: Malevolent spirits or demons that bring misfortune or harm.</p></li>
+</ul>
+<p><strong>N</strong></p>
+<ul>
+<li><p><strong>Nihonshu</strong>: Traditional Japanese rice wine, commonly known as sake.</p></li>
+<li><p><strong>Noh</strong>: Traditional Japanese theater characterized by its slow and stylized performances, often featuring masked actors.</p></li>
+<li><p><strong>Noppera-bo</strong>: Faceless ghostly figures, often appearing as normal individuals until revealing their smooth, featureless visages.</p></li>
+<li><p><strong>Nue</strong>: A chimera-like creature with the head of a monkey, body of a tanuki, legs of a tiger, and a snake for a tail.</p></li>
+<li><p><strong>Nurarihyon</strong>: A youkai that enters empty homes, sits down, and makes itself at home.</p></li>
+</ul>
+<p><strong>O</strong></p>
+<ul>
+<li><p><strong>Oni</strong>: Malevolent demons or ogres that come in various forms and sizes, often depicted with vividly colored skin.</p></li>
+<li><p><strong>Oyabun</strong>: The leader or head of a yakuza crime syndicate.</p></li>
+</ul>
+<p><strong>R</strong></p>
+<ul>
+<li><p><strong>Raiju</strong>: A creature associated with lightning, often depicted as a beast with the ability to control thunderstorms.</p></li>
+<li><p><strong>Rokurokubi</strong>: Humanoid spirits with the ability to stretch their necks, often appearing as normal individuals until revealing their supernatural trait.</p></li>
+</ul>
+<p><strong>S</strong></p>
+<ul>
+<li><p><strong>Sakabashira</strong>: A ritual where a human sacrifice is entombed within the foundations of a new building to ensure its stability.</p></li>
+<li><p><strong>Samurai</strong>: Members of a warrior class in feudal Japan, known for their strict code of conduct, Bushido.</p></li>
+<li><p><strong>Satori</strong>: A creature with the ability to read human minds and reveal their thoughts.</p></li>
+<li><p><strong>Shogunate</strong>: A feudal military government led by a shogun, the de facto ruler of Japan.</p></li>
+<li><p><strong>Shrine Architecture</strong>: Traditional Japanese architecture used in the construction of Shinto shrines, characterized by its torii gate, honden (main hall), and haiden (worship hall).</p></li>
+<li><p><strong>Shuriken</strong>: Traditional Japanese throwing weapons, often in the form of star-shaped blades.</p></li>
+<li><p><strong>Swordsmithing</strong>: The art of crafting traditional Japanese swords, often passed down through generations.</p></li>
+</ul>
+<p><strong>T</strong></p>
+<ul>
+<li><p><strong>Tatami</strong>: Traditional Japanese flooring material made of woven straw, often used as a base for sleeping, sitting, or other activities.</p></li>
+<li><p><strong>Tengu</strong>: Bird-like creatures with supernatural powers, often depicted with long noses.</p></li>
+<li><p><strong>Tokonoma</strong>: A recessed alcove in a traditional Japanese room used to display art or other decorative items.</p></li>
+<li><p><strong>Tsukumogami</strong>: Inanimate objects that come to life after 100 years of existence, often becoming mischievous spirits.</p></li>
+</ul>
+<p><strong>U</strong></p>
+<ul>
+<li><strong>Umibozu</strong>: A sea spirit known for causing treacherous storms and tempests.</li>
+</ul>
+<p><strong>Y</strong></p>
+<ul>
+<li><p><strong>Yamabiko</strong>: Echo spirits that mimic human voices, often found in mountainous areas.</p></li>
+<li><p><strong>Yokai</strong>: Supernatural creatures and spirits found in Japanese folklore, encompassing a wide range of beings with various abilities and forms.</p></li>
+<li><p><strong>Yurei</strong>: Ghostly spirits of the deceased, often depicted as pale figures in white burial kimono.</p></li>
+<li><p><strong>Yuki-onna</strong>: A spirit associated with snowstorms, often depicted as a beautiful woman with the power to freeze humans.</p></li>
+<li><p><strong>Zashiki-warashi</strong>: Child spirits that bring fortune or misfortune to households, often depicted as mischievous pranksters.</p></li>
+</ul>
+</section>
+<section id="appendix-c-inspirational-media" class="level2">
+<h2 class="anchored" data-anchor-id="appendix-c-inspirational-media">Appendix C: Inspirational Media</h2>
+<p>Here are some recommended readings and media that can further immerse you in the world of feudal Japan, its culture, and supernatural elements:</p>
+<section id="books" class="level3">
+<h3 class="anchored" data-anchor-id="books">Books</h3>
+<ol type="1">
+<li>“Kwaidan: Stories and Studies of Strange Things” by Lafcadio Hearn</li>
+<li>“The Book of Yokai: Mysterious Creatures of Japanese Folklore” by Michael Dylan Foster</li>
+<li>“Shogun” by James Clavell</li>
+<li>“Musashi” by Eiji Yoshikawa</li>
+<li>“The Tale of Genji” by Murasaki Shikibu</li>
+<li>“The Samurai’s Garden” by Gail Tsukiyama</li>
+<li>“The Night Parade of One Hundred Demons: A Field Guide to Japanese Yokai” by Matthew Meyer</li>
+</ol>
+</section>
+<section id="movies-and-tv-shows" class="level3">
+<h3 class="anchored" data-anchor-id="movies-and-tv-shows">Movies and TV Shows</h3>
+<ol type="1">
+<li>“Kwaidan” (1964) - A classic Japanese horror anthology film.</li>
+<li>“Princess Mononoke” (1997) - An animated fantasy film by Studio Ghibli that explores the relationship between humans and nature.</li>
+<li>“Rurouni Kenshin” (1996-1998) - An anime series set during the Meiji era, following a former assassin’s journey for redemption.</li>
+<li>“Throne of Blood” (1957) - A film adaptation of Shakespeare’s “Macbeth,” set in feudal Japan and directed by Akira Kurosawa.</li>
+<li>“Mushishi” (2005-2006) - An anime series that delves into the interactions between humans and supernatural creatures called Mushi.</li>
+<li>“Onmyoji” (2001) - A fantasy film about an onmyoji (a practitioner of traditional Japanese esoteric cosmology) in the Heian period.</li>
+<li>“Sword of the Stranger” (2007) - An anime film featuring a ronin’s encounter with a young boy and his quest for revenge.</li>
+</ol>
+</section>
+<section id="video-games" class="level3">
+<h3 class="anchored" data-anchor-id="video-games">Video Games</h3>
+<ol type="1">
+<li>“Ghost of Tsushima” (2020) - An action-adventure game set in feudal Japan, where you play as a samurai warrior.</li>
+<li>“Nioh” (2017) - An action RPG inspired by Japanese history and mythology, featuring intense combat and supernatural elements.</li>
+<li>“Okami” (2006) - An action-adventure game where you control a wolf goddess, drawing on Japanese mythology and art style.</li>
+<li>“Way of the Samurai” series - A series of games that allow players to navigate feudal Japan’s conflicts as a wandering samurai.</li>
+</ol>
+</section>
+<section id="documentaries" class="level3">
+<h3 class="anchored" data-anchor-id="documentaries">Documentaries</h3>
+<ol type="1">
+<li>“Japan: Memoirs of a Secret Empire” - A PBS documentary series that explores Japan’s history, including its feudal period.</li>
+<li>“Kaidan: Ghosts and Demons of Japan” - A documentary that delves into Japanese ghost stories and folklore.</li>
+</ol>
+</section>
+<section id="online-resources" class="level3">
+<h3 class="anchored" data-anchor-id="online-resources">Online Resources</h3>
+<ol type="1">
+<li>Yokai.com - A website dedicated to Japanese yokai (supernatural creatures), complete with illustrations and descriptions.</li>
+<li>The Samurai Archives - An online resource for historical information about samurai, warfare, and culture.</li>
+<li>Kyoto National Museum Virtual Gallery - Explore virtual exhibitions showcasing traditional Japanese art and artifacts.</li>
+</ol>
+</section>
+</section>
+<section id="license" class="level2">
+<h2 class="anchored" data-anchor-id="license">License</h2>
+<p>Loner: Kwaidan!</p>
+<ol start="200" type="I">
+<li>2023 Roberto Bisceglie</li>
+</ol>
+<p>This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var sidebar = document.getElementById("quarto-margin-sidebar");
+  var formats = document.querySelector(".quarto-alternate-formats");
+  if (sidebar && formats) {
+    sidebar.insertBefore(formats, sidebar.firstChild);
+  }
+
+  // Rename "Typst" label to "PDF"
+  document.querySelectorAll(".quarto-alternate-formats a").forEach(function (a) {
+    a.childNodes.forEach(function (node) {
+      if (node.nodeType === Node.TEXT_NODE && node.textContent.trim() === "Typst") {
+        node.textContent = "PDF";
+      }
+    });
+  });
+});
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/zotiquestgames\.github\.io\/lonersrd\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2021-2026 <a href="https://zotiquestgames.com">Roberto Bisceglie</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/zotiquestgames/lonersrd/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

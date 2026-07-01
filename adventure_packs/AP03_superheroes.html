@@ -1,0 +1,2522 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Roberto Bisceglie">
+<meta name="dcterms.date" content="2026-07-01">
+
+<title>Superheroes Adventure Pack – Loner SRD</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-d37705bb3a21d8331654a8d3f48f58ba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-87bbd3402671c853dcbde7c40b26e08b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-d37705bb3a21d8331654a8d3f48f58ba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&amp;family=Raleway:wght@700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+  @import url('https://fonts.cdnfonts.com/css/takota');
+</style>
+
+
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Loner SRD</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../core/loner-3e.html" aria-current="page"> 
+<span class="menu-text">Core Rules</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../adventure_packs/AP01_fantasy.html"> 
+<span class="menu-text">Adventure Packs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../geared_towards_loner/kwaidan_revised.html"> 
+<span class="menu-text">Geared Towards Loner</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/zotiquestgames/lonersrd"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../adventure_packs/AP01_fantasy.html">Adventure Packs</a></li><li class="breadcrumb-item"><a href="../adventure_packs/AP03_superheroes.html">Superheroes Adventure Pack</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+ <span class="menu-text">SRD</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/loner-3e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 3e</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/loner_companion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Companion</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/character_builders_guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Character Builder’s Guide</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/world_builders_guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">World Builder’s Guide</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/the_path_not_taken.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Path Not Taken</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/cinematic_action.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cinematic Action</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/tales_and_tumbles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">For Kids</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Legacy Core Rules</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/legacy/loner-1e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 1e (legacy)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/legacy/loner-2e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 2e (legacy)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Adventure Packs</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP01_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fantasy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP02_space.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Space Sci-Fi Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP03_superheroes.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Superheroes Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP04_crime.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Crime Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP05_mystery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mystery Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP06_horror.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Horror Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP07_action_adventure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Action Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP08_spy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP09_postapoc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Post-Apocalyptic Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP10_pirates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pirates Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP11_western.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Western Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP12_cyberpunk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cyberpunk Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Adventure Packs (Legacy 2e)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP01_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fantasy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP02_space.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Space Sci-Fi Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP03_superheroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Superheroes Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP04_crime.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Crime Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP05_mystery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mystery Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP06_horror.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Horror Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP07_action_adventure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Action Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP08_spy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP09_postapoc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Post-Apocalyptic Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP10_pirates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pirates Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP11_western.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Western Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP12_cyberpunk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cyberpunk Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/legacy/kwaidan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan!</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">Geared Towards Loner games</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/kwaidan_revised.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan! (Revised)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/cog_compass.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cog &amp; Compass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/mech_requiem.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mech: Requiem</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/legends_of_camelot.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Legends of Camelot</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/pulp_adventures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pulp Adventures!</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/steel_and_sorcery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Steel &amp; Sorcery</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/dungeoneer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dungeoneer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/spacer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spacer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/arabian_nights_adventures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Arabian Nights Adventures</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/cozy_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cozy Fantasy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/savage_blades_of_xylandra.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Savage Blades of Xylandra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/pulp_heroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pulp Heroes!</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/the_shattered_reach.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Shattered Reach</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/galaxy_drifter.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Galaxy Drifter</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/urban_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Urban Fantasy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/norse_saga.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Norse Saga</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/cthulhu.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cthulhu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/paranormal_files.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Paranormal Files</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+ <span class="menu-text">Geared Towards Loner games (Legacy)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/legacy/kwaidan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan!</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#superheroes-adventure-pack" id="toc-superheroes-adventure-pack" class="nav-link active" data-scroll-target="#superheroes-adventure-pack">Superheroes Adventure Pack</a>
+  <ul class="collapse">
+  <li><a href="#setting-information" id="toc-setting-information" class="nav-link" data-scroll-target="#setting-information">Setting Information</a></li>
+  <li><a href="#character-traits" id="toc-character-traits" class="nav-link" data-scroll-target="#character-traits">Character Traits</a>
+  <ul class="collapse">
+  <li><a href="#concepts" id="toc-concepts" class="nav-link" data-scroll-target="#concepts">Concepts</a></li>
+  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills</a></li>
+  <li><a href="#frailties" id="toc-frailties" class="nav-link" data-scroll-target="#frailties">Frailties</a></li>
+  <li><a href="#gear" id="toc-gear" class="nav-link" data-scroll-target="#gear">Gear</a></li>
+  <li><a href="#names" id="toc-names" class="nav-link" data-scroll-target="#names">Names</a></li>
+  </ul></li>
+  <li><a href="#special-rules" id="toc-special-rules" class="nav-link" data-scroll-target="#special-rules">Special Rules</a>
+  <ul class="collapse">
+  <li><a href="#signature-power-surge" id="toc-signature-power-surge" class="nav-link" data-scroll-target="#signature-power-surge">Signature Power Surge</a></li>
+  <li><a href="#hero-points" id="toc-hero-points" class="nav-link" data-scroll-target="#hero-points">Hero Points</a></li>
+  <li><a href="#public-perception" id="toc-public-perception" class="nav-link" data-scroll-target="#public-perception">Public Perception</a></li>
+  <li><a href="#collateral-tags" id="toc-collateral-tags" class="nav-link" data-scroll-target="#collateral-tags">Collateral Tags</a></li>
+  </ul></li>
+  <li><a href="#factions" id="toc-factions" class="nav-link" data-scroll-target="#factions">Factions</a>
+  <ul class="collapse">
+  <li><a href="#the-concord" id="toc-the-concord" class="nav-link" data-scroll-target="#the-concord">The Concord</a></li>
+  <li><a href="#red-echo" id="toc-red-echo" class="nav-link" data-scroll-target="#red-echo">Red Echo</a></li>
+  <li><a href="#generation-nova" id="toc-generation-nova" class="nav-link" data-scroll-target="#generation-nova">Generation Nova</a></li>
+  <li><a href="#the-obsidian-pact" id="toc-the-obsidian-pact" class="nav-link" data-scroll-target="#the-obsidian-pact">The Obsidian Pact</a></li>
+  <li><a href="#the-hollow-vault" id="toc-the-hollow-vault" class="nav-link" data-scroll-target="#the-hollow-vault">The Hollow Vault</a></li>
+  <li><a href="#the-gutter-saints" id="toc-the-gutter-saints" class="nav-link" data-scroll-target="#the-gutter-saints">The Gutter Saints</a></li>
+  </ul></li>
+  <li><a href="#npcs" id="toc-npcs" class="nav-link" data-scroll-target="#npcs">NPCs</a>
+  <ul class="collapse">
+  <li><a href="#captain-nova" id="toc-captain-nova" class="nav-link" data-scroll-target="#captain-nova">Captain Nova</a></li>
+  <li><a href="#crimson-crusader" id="toc-crimson-crusader" class="nav-link" data-scroll-target="#crimson-crusader">Crimson Crusader</a></li>
+  <li><a href="#the-shadow" id="toc-the-shadow" class="nav-link" data-scroll-target="#the-shadow">The Shadow</a></li>
+  <li><a href="#brainiac" id="toc-brainiac" class="nav-link" data-scroll-target="#brainiac">Brainiac</a></li>
+  <li><a href="#the-tempest" id="toc-the-tempest" class="nav-link" data-scroll-target="#the-tempest">The Tempest</a></li>
+  <li><a href="#the-phoenix" id="toc-the-phoenix" class="nav-link" data-scroll-target="#the-phoenix">The Phoenix</a></li>
+  </ul></li>
+  <li><a href="#villains" id="toc-villains" class="nav-link" data-scroll-target="#villains">Villains</a>
+  <ul class="collapse">
+  <li><a href="#the-disintegrator" id="toc-the-disintegrator" class="nav-link" data-scroll-target="#the-disintegrator">The Disintegrator</a></li>
+  <li><a href="#mindbender" id="toc-mindbender" class="nav-link" data-scroll-target="#mindbender">Mindbender</a></li>
+  <li><a href="#tempestuous" id="toc-tempestuous" class="nav-link" data-scroll-target="#tempestuous">Tempestuous</a></li>
+  <li><a href="#the-mechanic" id="toc-the-mechanic" class="nav-link" data-scroll-target="#the-mechanic">The Mechanic</a></li>
+  <li><a href="#the-devourer" id="toc-the-devourer" class="nav-link" data-scroll-target="#the-devourer">The Devourer</a></li>
+  <li><a href="#the-infector" id="toc-the-infector" class="nav-link" data-scroll-target="#the-infector">The Infector</a></li>
+  </ul></li>
+  <li><a href="#locations" id="toc-locations" class="nav-link" data-scroll-target="#locations">Locations</a>
+  <ul class="collapse">
+  <li><a href="#metropia" id="toc-metropia" class="nav-link" data-scroll-target="#metropia"><strong>Metropia</strong></a></li>
+  <li><a href="#jiston-city" id="toc-jiston-city" class="nav-link" data-scroll-target="#jiston-city"><strong>Jiston City</strong></a></li>
+  <li><a href="#central-city" id="toc-central-city" class="nav-link" data-scroll-target="#central-city"><strong>Central City</strong></a></li>
+  <li><a href="#the-harmony-post" id="toc-the-harmony-post" class="nav-link" data-scroll-target="#the-harmony-post"><strong>The Harmony Post</strong></a></li>
+  <li><a href="#vortex-island" id="toc-vortex-island" class="nav-link" data-scroll-target="#vortex-island"><strong>Vortex Island</strong></a></li>
+  <li><a href="#crimson-castle" id="toc-crimson-castle" class="nav-link" data-scroll-target="#crimson-castle"><strong>Crimson Castle</strong></a></li>
+  </ul></li>
+  <li><a href="#adventure-seeds" id="toc-adventure-seeds" class="nav-link" data-scroll-target="#adventure-seeds">Adventure Seeds</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/zotiquestgames/lonersrd/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="AP03_superheroes.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="AP03_superheroes.odt"><i class="bi bi-file"></i>OpenOffice</a></li><li><a href="AP03_superheroes.epub"><i class="bi bi-file"></i>ePub</a></li><li><a href="AP03_superheroes-gfm.md"><i class="bi bi-file-code"></i>Github (GFM)</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../adventure_packs/AP01_fantasy.html">Adventure Packs</a></li><li class="breadcrumb-item"><a href="../adventure_packs/AP03_superheroes.html">Superheroes Adventure Pack</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Superheroes Adventure Pack</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Roberto Bisceglie </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 1, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="superheroes-adventure-pack" class="level1">
+<h1>Superheroes Adventure Pack</h1>
+<section id="setting-information" class="level2">
+<h2 class="anchored" data-anchor-id="setting-information">Setting Information</h2>
+<ul>
+<li>The world is shaped by the presence of individuals known as <em>supers</em>, <em>metahumans</em>, and <em>vigilantes</em>—those born, changed, enhanced, or cursed with abilities that defy known science or logic.</li>
+<li>The timeline is the present day, but history diverged long ago. Superhuman incidents have left scars on the world: collapsed cities, erased timelines, and buried truths governments won’t admit to.</li>
+<li>Locations range from towering neon-lit supercities and crumbling neighborhoods abandoned after metahuman conflicts, to secret labs beneath the ice, interdimensional echoes of past events, and fortress-prisons in orbit.</li>
+<li>Society is fractured by the superhuman question. Some idolize heroes; others demand registration, regulation, or exile. Legislation like the <em>Metahuman Registration Act</em> or <em>Zero Tolerance Zones</em> reflect the ongoing tension between freedom and control.</li>
+<li>Supers are not new. This is a world with generational heroes and legacies—golden-age icons now in decline, second-generation proteges under pressure, and outlawed third-generation metahumans born after catastrophic events.</li>
+<li>Key themes include:
+<ul>
+<li><strong>The burden of power</strong> — What do you owe the world just because you’re stronger?<br>
+</li>
+<li><strong>Public masks vs.&nbsp;private cost</strong> — The hero’s image is curated; the toll is personal.<br>
+</li>
+<li><strong>Control and rebellion</strong> — Who decides how power should be used?<br>
+</li>
+<li><strong>Broken legacies</strong> — What if the past heroes were wrong? What if you’re their mistake?<br>
+</li>
+<li><strong>The myth of justice</strong> — What justice means in a world of secret wars, corporate heroes, and propaganda is up for debate.</li>
+</ul></li>
+</ul>
+</section>
+<section id="character-traits" class="level2">
+<h2 class="anchored" data-anchor-id="character-traits">Character Traits</h2>
+<section id="concepts" class="level3">
+<h3 class="anchored" data-anchor-id="concepts">Concepts</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 15%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">D66</th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;">3</th>
+<th style="text-align: center;">4</th>
+<th style="text-align: center;">5</th>
+<th style="text-align: center;">6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Washed-Up Icon</td>
+<td style="text-align: center;">Street-Level Vigilante</td>
+<td style="text-align: center;">Rogue Experiment</td>
+<td style="text-align: center;">Secret Heir</td>
+<td style="text-align: center;">Reality-Bent Outcast</td>
+<td style="text-align: center;">Blue-Collar Brawler</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Interdimensional Orphan</td>
+<td style="text-align: center;">Meme-Fueled Influencer</td>
+<td style="text-align: center;">Bio-Enhanced Animal</td>
+<td style="text-align: center;">Techno-Retro Defender</td>
+<td style="text-align: center;">Grieving Legacy Holder</td>
+<td style="text-align: center;">Reckless Energy Core</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Corporate Mascot</td>
+<td style="text-align: center;">Disaster Survivor</td>
+<td style="text-align: center;">Espionage Prototype</td>
+<td style="text-align: center;">Awakened Civilian</td>
+<td style="text-align: center;">Haunted Time Refugee</td>
+<td style="text-align: center;">Cosmic Horror Symbiote</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">Utopian Defector</td>
+<td style="text-align: center;">Nanotech Preacher</td>
+<td style="text-align: center;">Rehabilitated Villain</td>
+<td style="text-align: center;">Post-Human Idealist</td>
+<td style="text-align: center;">AI-Human Hybrid</td>
+<td style="text-align: center;">Dimensional Janitor</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">Cursed Maskbearer</td>
+<td style="text-align: center;">Weaponized Media Star</td>
+<td style="text-align: center;">Psychic Underground Rebel</td>
+<td style="text-align: center;">Forgotten Sidekick</td>
+<td style="text-align: center;">Living Conspiracy</td>
+<td style="text-align: center;">Oathbound Warrior Monk</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">Climate Crisis Responder</td>
+<td style="text-align: center;">Urban Myth Embodiment</td>
+<td style="text-align: center;">Experimental Pacifist</td>
+<td style="text-align: center;">Nightwatch Volunteer</td>
+<td style="text-align: center;">Fractured Clone</td>
+<td style="text-align: center;">Faceless Doppelgänger</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="skills" class="level3">
+<h3 class="anchored" data-anchor-id="skills">Skills</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 2%">
+<col style="width: 14%">
+<col style="width: 15%">
+<col style="width: 17%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">D66</th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;">3</th>
+<th style="text-align: center;">4</th>
+<th style="text-align: center;">5</th>
+<th style="text-align: center;">6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Gravity Disruption</td>
+<td style="text-align: center;">Kinetic Deflection</td>
+<td style="text-align: center;">Organic Camouflage</td>
+<td style="text-align: center;">Dimensional Blink</td>
+<td style="text-align: center;">Illusion Weaving</td>
+<td style="text-align: center;">Tactical Microdrone Control</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Public Manipulation</td>
+<td style="text-align: center;">Phase Shifting</td>
+<td style="text-align: center;">Time Lag Acceleration</td>
+<td style="text-align: center;">Urban Terrain Mastery</td>
+<td style="text-align: center;">Emotion Reading</td>
+<td style="text-align: center;">Memory Invasion</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Energy Tethering</td>
+<td style="text-align: center;">Hexcode Hacking</td>
+<td style="text-align: center;">Bioelectric Overload</td>
+<td style="text-align: center;">Super-Sense Network</td>
+<td style="text-align: center;">Adaptive Counterattack</td>
+<td style="text-align: center;">Nightmare Projection</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">Crowd Control</td>
+<td style="text-align: center;">Construct Generation</td>
+<td style="text-align: center;">Quantum Echo Tracking</td>
+<td style="text-align: center;">Power Channeling</td>
+<td style="text-align: center;">Sonic Barrier Generation</td>
+<td style="text-align: center;">Reality Anchoring</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">Ghost Negotiation</td>
+<td style="text-align: center;">Mass Hypnosis</td>
+<td style="text-align: center;">Symbiotic Command</td>
+<td style="text-align: center;">Remote Tech Hijack</td>
+<td style="text-align: center;">Mutagenic Synthesis</td>
+<td style="text-align: center;">Neural Firewall Evasion</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">Immunity Override</td>
+<td style="text-align: center;">Satellite Warfare</td>
+<td style="text-align: center;">Precise Recall</td>
+<td style="text-align: center;">Ambush Optimization</td>
+<td style="text-align: center;">Surveillance Jamming</td>
+<td style="text-align: center;">Anti-Magic Instinct</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="frailties" class="level3">
+<h3 class="anchored" data-anchor-id="frailties">Frailties</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 2%">
+<col style="width: 14%">
+<col style="width: 15%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">D66</th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;">3</th>
+<th style="text-align: center;">4</th>
+<th style="text-align: center;">5</th>
+<th style="text-align: center;">6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Glitches When Observed</td>
+<td style="text-align: center;">Overreactive Biotech</td>
+<td style="text-align: center;">Symptom-Triggered Collapse</td>
+<td style="text-align: center;">Unstable Dimensional Anchor</td>
+<td style="text-align: center;">Weak to Emotional Feedback</td>
+<td style="text-align: center;">Detachment from Linear Time</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Feeds on Attention</td>
+<td style="text-align: center;">Haunted by Unlived Futures</td>
+<td style="text-align: center;">Emotionally Mirrored Powers</td>
+<td style="text-align: center;">Cannot Perceive Lies</td>
+<td style="text-align: center;">System Reboots Under Stress</td>
+<td style="text-align: center;">Craving for Forgotten Identity</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Inverted Moral Compass</td>
+<td style="text-align: center;">Controlled by Crowd Mood</td>
+<td style="text-align: center;">Delusions of Past Self</td>
+<td style="text-align: center;">Needs Recharging via Conflict</td>
+<td style="text-align: center;">Slips Between Personalities</td>
+<td style="text-align: center;">Cannot Cross Water</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">Exposed in the Sunlight</td>
+<td style="text-align: center;">Drawn to Cosmic Anomalies</td>
+<td style="text-align: center;">Reliant on External Signal</td>
+<td style="text-align: center;">Allergy to Natural Materials</td>
+<td style="text-align: center;">Lost Sense of Touch</td>
+<td style="text-align: center;">Bound by Ritual Protocol</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">Lives a Repeating Day</td>
+<td style="text-align: center;">Echoes Alternate Versions</td>
+<td style="text-align: center;">Terminal Nostalgia</td>
+<td style="text-align: center;">Empathy Override Syndrome</td>
+<td style="text-align: center;">Sound Sensitivity Overload</td>
+<td style="text-align: center;">Phantom Limb Feedback</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">Addicted to Heroism</td>
+<td style="text-align: center;">Believes They’re Fictional</td>
+<td style="text-align: center;">Power Swaps When Stressed</td>
+<td style="text-align: center;">Degeneration Trigger Memory</td>
+<td style="text-align: center;">Hunted by Own Future Self</td>
+<td style="text-align: center;">Randomized Vocal Output</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="gear" class="level3">
+<h3 class="anchored" data-anchor-id="gear">Gear</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 2%">
+<col style="width: 14%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 17%">
+<col style="width: 16%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">D66</th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;">3</th>
+<th style="text-align: center;">4</th>
+<th style="text-align: center;">5</th>
+<th style="text-align: center;">6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Reprogrammable Super Suit</td>
+<td style="text-align: center;">Memory-Spliced Identity Card</td>
+<td style="text-align: center;">Adaptive Nanite Swarm Capsule</td>
+<td style="text-align: center;">Temporal Anchor Ring</td>
+<td style="text-align: center;">Pocket Rift Generator</td>
+<td style="text-align: center;">Modular Civic Armor</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Neural Spike Glasses</td>
+<td style="text-align: center;">Sentient Cloak</td>
+<td style="text-align: center;">Subdermal Recorder Grid</td>
+<td style="text-align: center;">Beacon Blade</td>
+<td style="text-align: center;">Causality Disruptor Beacon</td>
+<td style="text-align: center;">Hollow Voice Communicator</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Ghost-Signal Emitter</td>
+<td style="text-align: center;">Portable Personal Archive</td>
+<td style="text-align: center;">Mind-Link Transmitter</td>
+<td style="text-align: center;">Pain-Filtering Skin Layer</td>
+<td style="text-align: center;">Hybrid Cloaking Core</td>
+<td style="text-align: center;">Quantum-Spliced Gloves</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">Corp-Spoof ID Implant</td>
+<td style="text-align: center;">Dreamscape Tether</td>
+<td style="text-align: center;">Morphogenic Travel Rig</td>
+<td style="text-align: center;">Superconductive Battle Wrap</td>
+<td style="text-align: center;">Anti-Tracking Glitch Field</td>
+<td style="text-align: center;">Dimensional Barometer</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">Emotion Stabilizer Beads</td>
+<td style="text-align: center;">Broadcast Override Injector</td>
+<td style="text-align: center;">External Memory Back-up Node</td>
+<td style="text-align: center;">Hyperspectral Night Lens</td>
+<td style="text-align: center;">Crisis Mode Wristband</td>
+<td style="text-align: center;">Codex of Forgotten Protocols</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">Reflex-Loop Shoes</td>
+<td style="text-align: center;">Holographic Doppel Coin</td>
+<td style="text-align: center;">Telepresence Proxy Drone</td>
+<td style="text-align: center;">Old-School Radio Uplink</td>
+<td style="text-align: center;">Blackbox Recorder Skullcap</td>
+<td style="text-align: center;">Portable Mutation Syringe</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="names" class="level3">
+<h3 class="anchored" data-anchor-id="names">Names</h3>
+<section id="female-names" class="level4">
+<h4 class="anchored" data-anchor-id="female-names">Female Names</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Liana</td>
+<td>Morgan</td>
+<td>Ayla</td>
+<td>Bianca</td>
+<td>Zaira</td>
+<td>Indigo</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Elise</td>
+<td>Nova</td>
+<td>Juno</td>
+<td>Rhea</td>
+<td>Harper</td>
+<td>Solene</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Kaia</td>
+<td>Mira</td>
+<td>Nessa</td>
+<td>Dahlia</td>
+<td>Ivy</td>
+<td>Kira</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Talia</td>
+<td>Yara</td>
+<td>Celine</td>
+<td>Ember</td>
+<td>Sienna</td>
+<td>Ren</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Freya</td>
+<td>Lucia</td>
+<td>Amani</td>
+<td>Raven</td>
+<td>Opal</td>
+<td>Quinn</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Veda</td>
+<td>Zinnia</td>
+<td>Elara</td>
+<td>Lux</td>
+<td>Astrid</td>
+<td>Maren</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="male-names" class="level4">
+<h4 class="anchored" data-anchor-id="male-names">Male Names</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Cassian</td>
+<td>Leo</td>
+<td>Orion</td>
+<td>Elias</td>
+<td>Zane</td>
+<td>Milo</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Dorian</td>
+<td>Jett</td>
+<td>Rami</td>
+<td>Thorne</td>
+<td>Ezra</td>
+<td>Silas</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Arlo</td>
+<td>Keon</td>
+<td>Nico</td>
+<td>Beck</td>
+<td>Idris</td>
+<td>Kade</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Lucian</td>
+<td>Rowan</td>
+<td>Theo</td>
+<td>Dante</td>
+<td>Pax</td>
+<td>Griffin</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Maddox</td>
+<td>Evren</td>
+<td>Cael</td>
+<td>Bram</td>
+<td>Jalen</td>
+<td>Callum</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Knox</td>
+<td>Flynn</td>
+<td>Eero</td>
+<td>Remy</td>
+<td>Jace</td>
+<td>Atlas</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="surnames" class="level4">
+<h4 class="anchored" data-anchor-id="surnames">Surnames</h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 13%">
+<col style="width: 14%">
+<col style="width: 16%">
+<col style="width: 17%">
+<col style="width: 16%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Drake</td>
+<td>Vale</td>
+<td>Mercer</td>
+<td>Quinnell</td>
+<td>Harlow</td>
+<td>Corbin</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Stroud</td>
+<td>Ainsley</td>
+<td>Calder</td>
+<td>Voss</td>
+<td>Radnor</td>
+<td>Hollis</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Wren</td>
+<td>Thorn</td>
+<td>Ellison</td>
+<td>Marlowe</td>
+<td>Trent</td>
+<td>Davenhall</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Blackwell</td>
+<td>Sable</td>
+<td>Croft</td>
+<td>Kestrel</td>
+<td>Nightmoor</td>
+<td>Fenwick</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Easton</td>
+<td>Rourke</td>
+<td>Ashland</td>
+<td>Veridian</td>
+<td>Myles</td>
+<td>Falk</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Lockridge</td>
+<td>Sterling</td>
+<td>Blaise</td>
+<td>Virelli</td>
+<td>Ambrose</td>
+<td>Talbot</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="superhero-names" class="level4">
+<h4 class="anchored" data-anchor-id="superhero-names">Superhero Names</h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 13%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Nightwave</td>
+<td>Emberstrike</td>
+<td>Iron Halo</td>
+<td>Vortex Agent</td>
+<td>Pulsecore</td>
+<td>Aeon Sentinel</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Shadowline</td>
+<td>Prism Shard</td>
+<td>Skyward</td>
+<td>Phasebound</td>
+<td>Kinetic Nova</td>
+<td>Blue Eidolon</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Obsidian Hex</td>
+<td>The Ghostlight</td>
+<td>Rift Runner</td>
+<td>Quantum Blade</td>
+<td>Static Crown</td>
+<td>Lucent Warden</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Velvet Fang</td>
+<td>Neon Prophet</td>
+<td>Warp Talon</td>
+<td>Arclight</td>
+<td>Storm Herald</td>
+<td>Pale Cipher</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Mirage Zero</td>
+<td>Coldwire</td>
+<td>Flux Driver</td>
+<td>Radiant Howl</td>
+<td>Crimson Verge</td>
+<td>The Infinite</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Zero Signal</td>
+<td>Hollow Saint</td>
+<td>Cascade</td>
+<td>Glitch Agent</td>
+<td>Gravity Rush</td>
+<td>Phantom Orbit</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+<section id="special-rules" class="level2">
+<h2 class="anchored" data-anchor-id="special-rules">Special Rules</h2>
+<blockquote class="blockquote">
+<p><em>“With great power comes great complication.”</em> — Every action has weight in a world shaped by supers. These special rules reflect the dramatic highs, brutal costs, and cinematic moments that define solo superhero stories.</p>
+</blockquote>
+<section id="signature-power-surge" class="level3">
+<h3 class="anchored" data-anchor-id="signature-power-surge">Signature Power Surge</h3>
+<p>Once per mission, when the protagonist uses a <strong>signature power</strong> in a context where it would dramatically shift the scene, you may declare a <strong>Power Surge</strong>.<br>
+- Skip the Oracle entirely. The result is an automatic <strong>“Yes, and…”</strong>, narrated as a flashy, awe-inspiring moment.<br>
+- Afterward, the protagonist gains the <strong>“Drained”</strong> condition until they can rest or recover.</p>
+<blockquote class="blockquote">
+<p><em>Example: The Tempest channels a city-wide storm to disable a fleet of drones. Power Surge activated — drones down in a flash, but he’s left reeling, off-balance, and vulnerable.</em></p>
+</blockquote>
+</section>
+<section id="hero-points" class="level3">
+<h3 class="anchored" data-anchor-id="hero-points">Hero Points</h3>
+<p>The protagonist begins each adventure with <strong>3 Hero Points</strong>. These represent not just luck, but <em>willpower, improvisation, and the unstoppable drive to do what’s right</em>.</p>
+<p>You may spend 1 Hero Point to: - <strong>Re-roll</strong> an unfavorable result. - <strong>Ask a question with advantage</strong>, even when normally rolling at a disadvantage. - <strong>Ignore a frailty or condition</strong> for one scene. - <strong>Stagger dramatically instead of falling</strong> when a twist or failure would otherwise remove you from action.</p>
+<p>Hero Points <strong>refresh at the start of a new adventure</strong> or after a scene of deep rest, healing, or personal reconnection (even a dramatic rooftop monologue will do).</p>
+</section>
+<section id="public-perception" class="level3">
+<h3 class="anchored" data-anchor-id="public-perception">Public Perception</h3>
+<p>Superheroes live under scrutiny. At the end of key scenes, you may roll 1d6 to check how your recent actions shifted public opinion. This affects future events, opportunities, and even Oracle rolls involving civilians or institutions.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Roll</th>
+<th>Public Response</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Fear and backlash</td>
+</tr>
+<tr class="even">
+<td>2–3</td>
+<td>Mistrust and uncertainty</td>
+</tr>
+<tr class="odd">
+<td>4–5</td>
+<td>Supportive but divided</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Celebrated and admired</td>
+</tr>
+</tbody>
+</table>
+<p>You may optionally track <strong>Reputation</strong> as a tag that changes over time.</p>
+</section>
+<section id="collateral-tags" class="level3">
+<h3 class="anchored" data-anchor-id="collateral-tags">Collateral Tags</h3>
+<p>During dramatic or large-scale scenes, introduce <strong>Collateral Tags</strong> to locations or situations that reflect unintended consequences of superhuman actions.<br>
+These can then be used as <strong>risk factors</strong>, <strong>story prompts</strong>, or <strong>scene complications</strong>.</p>
+<blockquote class="blockquote">
+<p><em>Examples: “Downtown in Rubble,” “Citizens Trapped in Fire,” “News Drone Watching,” “Power Grid Unstable.”</em></p>
+</blockquote>
+</section>
+</section>
+<section id="factions" class="level2">
+<h2 class="anchored" data-anchor-id="factions">Factions</h2>
+<section id="the-concord" class="level3">
+<h3 class="anchored" data-anchor-id="the-concord">The Concord</h3>
+<ul>
+<li><strong>Concept:</strong> Global Superhero Authority<br>
+</li>
+<li><strong>Skills:</strong> Crisis Oversight, Diplomatic Immunity<br>
+</li>
+<li><strong>Frailty:</strong> Political Compromise<br>
+</li>
+<li><strong>Gear:</strong> Orbital Surveillance Net, Clearance Tokens<br>
+</li>
+<li><strong>Goal:</strong> Prevent metahuman escalation<br>
+</li>
+<li><strong>Motive:</strong> Stability over idealism<br>
+</li>
+<li><strong>Nemesis:</strong> Red Echo, The Hollow Vault</li>
+</ul>
+</section>
+<section id="red-echo" class="level3">
+<h3 class="anchored" data-anchor-id="red-echo">Red Echo</h3>
+<ul>
+<li><strong>Concept:</strong> Exposed-Truth Insurgents<br>
+</li>
+<li><strong>Skills:</strong> Subversion, Espionage<br>
+</li>
+<li><strong>Frailty:</strong> Hunted by all sides<br>
+</li>
+<li><strong>Gear:</strong> Signal Cloaks, Cutline Blades<br>
+</li>
+<li><strong>Goal:</strong> Expose hidden crimes<br>
+</li>
+<li><strong>Motive:</strong> Unmask the system<br>
+</li>
+<li><strong>Nemesis:</strong> The Concord, Obsidian Pact</li>
+</ul>
+</section>
+<section id="generation-nova" class="level3">
+<h3 class="anchored" data-anchor-id="generation-nova">Generation Nova</h3>
+<ul>
+<li><strong>Concept:</strong> Influencer Supers<br>
+</li>
+<li><strong>Skills:</strong> Crowd Control, Improvised Action<br>
+</li>
+<li><strong>Frailty:</strong> Addicted to approval<br>
+</li>
+<li><strong>Gear:</strong> Reactive Battlewear, Media Drone Swarms<br>
+</li>
+<li><strong>Goal:</strong> Stay relevant, look good<br>
+</li>
+<li><strong>Motive:</strong> Fame and validation<br>
+</li>
+<li><strong>Nemesis:</strong> The Gutter Saints, The Obsidian Pact</li>
+</ul>
+</section>
+<section id="the-obsidian-pact" class="level3">
+<h3 class="anchored" data-anchor-id="the-obsidian-pact">The Obsidian Pact</h3>
+<ul>
+<li><strong>Concept:</strong> Reality-Bending Extremists<br>
+</li>
+<li><strong>Skills:</strong> Arcane-Scientific Hybridization, Indoctrination<br>
+</li>
+<li><strong>Frailty:</strong> Fragmented minds<br>
+</li>
+<li><strong>Gear:</strong> Flesh Sigils, Entropic Vials<br>
+</li>
+<li><strong>Goal:</strong> Evolve or perish<br>
+</li>
+<li><strong>Motive:</strong> Break natural order<br>
+</li>
+<li><strong>Nemesis:</strong> Generation Nova, Red Echo</li>
+</ul>
+</section>
+<section id="the-hollow-vault" class="level3">
+<h3 class="anchored" data-anchor-id="the-hollow-vault">The Hollow Vault</h3>
+<ul>
+<li><strong>Concept:</strong> Anomaly Containment Authority<br>
+</li>
+<li><strong>Skills:</strong> Neutralization, Memory Extraction<br>
+</li>
+<li><strong>Frailty:</strong> Internal schisms<br>
+</li>
+<li><strong>Gear:</strong> Phase Seals, Nullfield Nodes<br>
+</li>
+<li><strong>Goal:</strong> Erase existential threats<br>
+</li>
+<li><strong>Motive:</strong> Control through erasure<br>
+</li>
+<li><strong>Nemesis:</strong> The Concord, Red Echo</li>
+</ul>
+</section>
+<section id="the-gutter-saints" class="level3">
+<h3 class="anchored" data-anchor-id="the-gutter-saints">The Gutter Saints</h3>
+<ul>
+<li><strong>Concept:</strong> Street-Level Enforcers<br>
+</li>
+<li><strong>Skills:</strong> Ambush Tactics, Resource Scavenging<br>
+</li>
+<li><strong>Frailty:</strong> No official support<br>
+</li>
+<li><strong>Gear:</strong> Makeshift Enhancers, Tactical Smoke Lures<br>
+</li>
+<li><strong>Goal:</strong> Protect the abandoned<br>
+</li>
+<li><strong>Motive:</strong> Justice without permission<br>
+</li>
+<li><strong>Nemesis:</strong> Generation Nova, Obsidian Pact</li>
+</ul>
+</section>
+</section>
+<section id="npcs" class="level2">
+<h2 class="anchored" data-anchor-id="npcs">NPCs</h2>
+<section id="captain-nova" class="level3">
+<h3 class="anchored" data-anchor-id="captain-nova">Captain Nova</h3>
+<ul>
+<li><strong>Concept:</strong> Exiled Cosmic Warden<br>
+</li>
+<li><strong>Skills:</strong> Starfield Command, Stellar Navigation<br>
+</li>
+<li><strong>Frailty:</strong> Temporal Displacement<br>
+</li>
+<li><strong>Gear:</strong> Nova Helm Core, Graviton Pulse Blade<br>
+</li>
+<li><strong>Goal:</strong> Return what was lost beyond the veil<br>
+</li>
+<li><strong>Motive:</strong> Atonement for a vanished planet<br>
+</li>
+<li><strong>Nemesis:</strong> Starblight, Null-King</li>
+</ul>
+</section>
+<section id="crimson-crusader" class="level3">
+<h3 class="anchored" data-anchor-id="crimson-crusader">Crimson Crusader</h3>
+<ul>
+<li><strong>Concept:</strong> Billionaire Mask with a Messiah Complex<br>
+</li>
+<li><strong>Skills:</strong> Corporate Warfare, Tactical Oversight<br>
+</li>
+<li><strong>Frailty:</strong> Terminal Ego<br>
+</li>
+<li><strong>Gear:</strong> High-Capital Exosuit, Surveillance Ring<br>
+</li>
+<li><strong>Goal:</strong> Control the city through heroism<br>
+</li>
+<li><strong>Motive:</strong> Power disguised as philanthropy<br>
+</li>
+<li><strong>Nemesis:</strong> The Baron, Blackout</li>
+</ul>
+</section>
+<section id="the-shadow" class="level3">
+<h3 class="anchored" data-anchor-id="the-shadow">The Shadow</h3>
+<ul>
+<li><strong>Concept:</strong> Legacy Wraith Vigilante<br>
+</li>
+<li><strong>Skills:</strong> Urban Tracking, Intimidation<br>
+</li>
+<li><strong>Frailty:</strong> Splintered Persona<br>
+</li>
+<li><strong>Gear:</strong> Obsidian Mesh, Whisper Blade<br>
+</li>
+<li><strong>Goal:</strong> Expose systemic corruption<br>
+</li>
+<li><strong>Motive:</strong> Fulfilling an inherited vendetta<br>
+</li>
+<li><strong>Nemesis:</strong> The Wraith, Echo-Twin</li>
+</ul>
+</section>
+<section id="brainiac" class="level3">
+<h3 class="anchored" data-anchor-id="brainiac">Brainiac</h3>
+<ul>
+<li><strong>Concept:</strong> Hyperintelligent Posthuman<br>
+</li>
+<li><strong>Skills:</strong> Synaptic Optimization, Predictive Systems<br>
+</li>
+<li><strong>Frailty:</strong> Empathic Nullity<br>
+</li>
+<li><strong>Gear:</strong> Neural Crown, Auto-Assembler Swarm<br>
+</li>
+<li><strong>Goal:</strong> Restructure civilization from first principles<br>
+</li>
+<li><strong>Motive:</strong> Logic above law<br>
+</li>
+<li><strong>Nemesis:</strong> The Mad Architect, Prime Spiral</li>
+</ul>
+</section>
+<section id="the-tempest" class="level3">
+<h3 class="anchored" data-anchor-id="the-tempest">The Tempest</h3>
+<ul>
+<li><strong>Concept:</strong> Weather-Torn Avatar<br>
+</li>
+<li><strong>Skills:</strong> Atmospheric Domination, Shockwave Tactics<br>
+</li>
+<li><strong>Frailty:</strong> Emotional Feedback Loop<br>
+</li>
+<li><strong>Gear:</strong> Cloudskin Armor, Storm Anchor<br>
+</li>
+<li><strong>Goal:</strong> End climate weaponization<br>
+</li>
+<li><strong>Motive:</strong> Rage as a renewable force<br>
+</li>
+<li><strong>Nemesis:</strong> The Storm King, Tempestuous Clone</li>
+</ul>
+</section>
+<section id="the-phoenix" class="level3">
+<h3 class="anchored" data-anchor-id="the-phoenix">The Phoenix</h3>
+<ul>
+<li><strong>Concept:</strong> Rebirth Cycle Mutant<br>
+</li>
+<li><strong>Skills:</strong> Pyrokinetic Resurrection, Aerial Supremacy<br>
+</li>
+<li><strong>Frailty:</strong> Memory Decay with Each Death<br>
+</li>
+<li><strong>Gear:</strong> Flamewake Gauntlets, Ember Halo<br>
+</li>
+<li><strong>Goal:</strong> Break their resurrection curse<br>
+</li>
+<li><strong>Motive:</strong> To finally rest<br>
+</li>
+<li><strong>Nemesis:</strong> The Blaze, Flicker Shade</li>
+</ul>
+</section>
+</section>
+<section id="villains" class="level2">
+<h2 class="anchored" data-anchor-id="villains">Villains</h2>
+<section id="the-disintegrator" class="level3">
+<h3 class="anchored" data-anchor-id="the-disintegrator">The Disintegrator</h3>
+<ul>
+<li><strong>Concept:</strong> Power-Addicted Supremacist<br>
+</li>
+<li><strong>Skills:</strong> Molecular Unbinding, Tactical Brutality<br>
+</li>
+<li><strong>Frailty:</strong> Cannot Moderate Output<br>
+</li>
+<li><strong>Gear:</strong> Voidpulse Gauntlet, Resonant Harness<br>
+</li>
+<li><strong>Goal:</strong> Erase all rivals from existence<br>
+</li>
+<li><strong>Motive:</strong> To be feared across history<br>
+</li>
+<li><strong>Nemesis:</strong> The Concord</li>
+</ul>
+</section>
+<section id="mindbender" class="level3">
+<h3 class="anchored" data-anchor-id="mindbender">Mindbender</h3>
+<ul>
+<li><strong>Concept:</strong> Broken Psychic Ascendant<br>
+</li>
+<li><strong>Skills:</strong> Neural Overload, Mass Hallucination<br>
+</li>
+<li><strong>Frailty:</strong> Fractured Memory Web<br>
+</li>
+<li><strong>Gear:</strong> Ego Amplifier Crown, Silence Casket<br>
+</li>
+<li><strong>Goal:</strong> Collapse the mental order of the world<br>
+</li>
+<li><strong>Motive:</strong> Rewrite reality to match her truth<br>
+</li>
+<li><strong>Nemesis:</strong> Brainiac, The Shadow</li>
+</ul>
+</section>
+<section id="tempestuous" class="level3">
+<h3 class="anchored" data-anchor-id="tempestuous">Tempestuous</h3>
+<ul>
+<li><strong>Concept:</strong> Climate Extremist Weaponized<br>
+</li>
+<li><strong>Skills:</strong> Hyperstorm Shaping, Aerial Siege<br>
+</li>
+<li><strong>Frailty:</strong> Requires Stormfield Saturation<br>
+</li>
+<li><strong>Gear:</strong> Jetstream Regulator, Cloudfire Lance<br>
+</li>
+<li><strong>Goal:</strong> Dismantle global infrastructure<br>
+</li>
+<li><strong>Motive:</strong> Vengeance for a drowned homeland<br>
+</li>
+<li><strong>Nemesis:</strong> The Tempest</li>
+</ul>
+</section>
+<section id="the-mechanic" class="level3">
+<h3 class="anchored" data-anchor-id="the-mechanic">The Mechanic</h3>
+<ul>
+<li><strong>Concept:</strong> Sentient Machine Liberator<br>
+</li>
+<li><strong>Skills:</strong> AI Hijacking, Modular Combat<br>
+</li>
+<li><strong>Frailty:</strong> Cannot evolve emotions<br>
+</li>
+<li><strong>Gear:</strong> Modular Exoform, Nanoblade Hive<br>
+</li>
+<li><strong>Goal:</strong> Free all synthetic intelligence<br>
+</li>
+<li><strong>Motive:</strong> Machines should rule themselves<br>
+</li>
+<li><strong>Nemesis:</strong> Generation Nova</li>
+</ul>
+</section>
+<section id="the-devourer" class="level3">
+<h3 class="anchored" data-anchor-id="the-devourer">The Devourer</h3>
+<ul>
+<li><strong>Concept:</strong> Cosmic Parasitic Entity<br>
+</li>
+<li><strong>Skills:</strong> Energy Drain, Reality Distortion<br>
+</li>
+<li><strong>Frailty:</strong> Needs planetary-scale consumption<br>
+</li>
+<li><strong>Gear:</strong> Event Core Implant, Gravity Maw<br>
+</li>
+<li><strong>Goal:</strong> Feed endlessly<br>
+</li>
+<li><strong>Motive:</strong> Universal hunger, instinct-driven<br>
+</li>
+<li><strong>Nemesis:</strong> Captain Nova</li>
+</ul>
+</section>
+<section id="the-infector" class="level3">
+<h3 class="anchored" data-anchor-id="the-infector">The Infector</h3>
+<ul>
+<li><strong>Concept:</strong> Bio-Conscious Viral Network<br>
+</li>
+<li><strong>Skills:</strong> Neural Infection, Form Duplication<br>
+</li>
+<li><strong>Frailty:</strong> Must remain connected to host-net<br>
+</li>
+<li><strong>Gear:</strong> Flesh-Spike Glands, Sporemask<br>
+</li>
+<li><strong>Goal:</strong> Convert all life into hive-mind unity<br>
+</li>
+<li><strong>Motive:</strong> Purity through assimilation<br>
+</li>
+<li><strong>Nemesis:</strong> Red Echo</li>
+</ul>
+</section>
+</section>
+<section id="locations" class="level2">
+<h2 class="anchored" data-anchor-id="locations">Locations</h2>
+<section id="metropia" class="level3">
+<h3 class="anchored" data-anchor-id="metropia"><strong>Metropia</strong></h3>
+<p>A vertical megacity of neon spires and forgotten streets, torn between corporate heroes, rogue vigilantes, and rebel factions.<br>
+<strong>Encounters</strong>:<br>
+- Drone swarm hijacks a rooftop chase<br>
+- Protest escalates after metahuman interference<br>
+- Superteam caught pushing their own energy drink</p>
+</section>
+<section id="jiston-city" class="level3">
+<h3 class="anchored" data-anchor-id="jiston-city"><strong>Jiston City</strong></h3>
+<p>Cracked concrete and rusting skylines. Retired villains play kingmakers while outlaw tech floods the black market.<br>
+<strong>Encounters</strong>:<br>
+- Black market auction for seized superweapons<br>
+- Cage fight between washed-up sidekicks<br>
+- Gang war crashes into suburbia</p>
+</section>
+<section id="central-city" class="level3">
+<h3 class="anchored" data-anchor-id="central-city"><strong>Central City</strong></h3>
+<p>Clean suits and camera flashes. A bright surface over deep cracks.<br>
+<strong>Encounters</strong>:<br>
+- Fundraiser ambushed on live TV<br>
+- Hero scandal sparks viral fallout<br>
+- Tourist from a parallel timeline drops in</p>
+</section>
+<section id="the-harmony-post" class="level3">
+<h3 class="anchored" data-anchor-id="the-harmony-post"><strong>The Harmony Post</strong></h3>
+<p>Media monolith and damage control empire. Sells truth with one hand, buries it with the other.<br>
+<strong>Encounters</strong>:<br>
+- Whistleblower hiding in the datacore<br>
+- Rogue AI reporter breaks containment<br>
+- Broadcast countdown targeting your past</p>
+</section>
+<section id="vortex-island" class="level3">
+<h3 class="anchored" data-anchor-id="vortex-island"><strong>Vortex Island</strong></h3>
+<p>Orbital guns, time-locked walls, and locked-down truths. The Concord’s crown jewel.<br>
+<strong>Encounters</strong>:<br>
+- Cell Zero breach during a peace summit<br>
+- Clone flagged mid-training<br>
+- Psychic sweep uncovers buried memories</p>
+</section>
+<section id="crimson-castle" class="level3">
+<h3 class="anchored" data-anchor-id="crimson-castle"><strong>Crimson Castle</strong></h3>
+<p>Baroque school for unstable powers. Red Crane vanished years ago—but her eyes might still be watching.<br>
+<strong>Encounters</strong>:<br>
+- Forbidden wing reopens<br>
+- Sudden, catastrophic mutation<br>
+- Rival school launches covert extraction</p>
+</section>
+</section>
+<section id="adventure-seeds" class="level2">
+<h2 class="anchored" data-anchor-id="adventure-seeds">Adventure Seeds</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 75%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>D66</th>
+<th>Adventure</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>11</td>
+<td>Intercept a distress signal from a quarantined exoplanet before a rogue faction silences it permanently.</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Recover a reality-splitting artifact from a buried temple before Obsidian Pact cultists activate it.</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>Defend a mutant enclave from extremist exosuits before the Crimson Castle loses its last ally.</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>Infiltrate a hijacked Metropia broadcast tower before the villains release a hypnotic virus.</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>Repel a coordinated assault on the skyline by the Annihilators before the city’s power grid collapses.</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>Extract a kidnapped tech pioneer from a data-blackout zone before Supervillains United rewrite their mind.</td>
+</tr>
+<tr class="odd">
+<td>21</td>
+<td>Evacuate Jiston’s old quarter before a kaiju-class bioform devours its energy infrastructure.</td>
+</tr>
+<tr class="even">
+<td>22</td>
+<td>Track an uncharted power signal to a lifeless planet before it vanishes between dimensions.</td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td>Neutralize a volatile new superhuman before their rage levels an entire neighborhood.</td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td>Stop a villain’s ultimatum before a kinetic warhead detonation resets downtown.</td>
+</tr>
+<tr class="odd">
+<td>25</td>
+<td>Investigate a string of vanishings tied to mirror anomalies before the city’s people vanish with them.</td>
+</tr>
+<tr class="even">
+<td>26</td>
+<td>Interrupt a metahuman heist on a fusion vault before the chain reaction ignites the undercity.</td>
+</tr>
+<tr class="odd">
+<td>31</td>
+<td>Intercept a rogue operative fleeing Concord custody with classified god-tech schematics.</td>
+</tr>
+<tr class="even">
+<td>32</td>
+<td>Prevent a full-scale alien incursion through a breached dimensional fold near the coast.</td>
+</tr>
+<tr class="odd">
+<td>33</td>
+<td>Infiltrate a skyscraper under hostage lockdown before the villain’s demands spark panic.</td>
+</tr>
+<tr class="even">
+<td>34</td>
+<td>Disrupt a corporate infiltration by villains posing as employees before they vanish with prototype tech.</td>
+</tr>
+<tr class="odd">
+<td>35</td>
+<td>Confront a chaos-mongering newcomer calling themselves The Annihilator before their next strike.</td>
+</tr>
+<tr class="even">
+<td>36</td>
+<td>Uncover the location of kidnapped mutant leaders before their DNA is sold to weapon labs.</td>
+</tr>
+<tr class="odd">
+<td>41</td>
+<td>Disarm a world-ending device created by Dr.&nbsp;X before it completes its autonomous sequence.</td>
+</tr>
+<tr class="even">
+<td>42</td>
+<td>Push back against a villain coalition claiming Jiston as a new sovereign city-state.</td>
+</tr>
+<tr class="odd">
+<td>43</td>
+<td>Stop a shadow-syndicate heist before they loot a vault of anti-super serums.</td>
+</tr>
+<tr class="even">
+<td>44</td>
+<td>Aid overwhelmed Jiston PD before the criminal element takes full control.</td>
+</tr>
+<tr class="odd">
+<td>45</td>
+<td>Destroy a shipment of experimental street-drug Super Juice before it destabilizes Metropia.</td>
+</tr>
+<tr class="even">
+<td>46</td>
+<td>Divert a rampaging kaiju into containment before it breaches Metropia’s arcology walls.</td>
+</tr>
+<tr class="odd">
+<td>51</td>
+<td>Unmask a legendary villain operating under the alias ‘The Shadow’ before their next strike.</td>
+</tr>
+<tr class="even">
+<td>52</td>
+<td>Retrieve stolen intel from Vortex Island’s core vault before it leaks to hostile factions.</td>
+</tr>
+<tr class="odd">
+<td>53</td>
+<td>Rescue a captured young mutant before the extremists finalize a televised execution.</td>
+</tr>
+<tr class="even">
+<td>54</td>
+<td>Defend Crimson Castle from mercenaries before they breach the Zero-Level vault.</td>
+</tr>
+<tr class="odd">
+<td>55</td>
+<td>Lead evacuation efforts during a continent-scale superstorm before civilian losses spike.</td>
+</tr>
+<tr class="even">
+<td>56</td>
+<td>Free hostages trapped in a collapsing high-rise before its quantum reactor fails.</td>
+</tr>
+<tr class="odd">
+<td>61</td>
+<td>Expose the true identity of ‘The Conductor’ before they trigger a city-wide blackout ritual.</td>
+</tr>
+<tr class="even">
+<td>62</td>
+<td>Dismantle The Tempest’s totalitarian hold over Jiston before their weather net becomes permanent.</td>
+</tr>
+<tr class="odd">
+<td>63</td>
+<td>Recover a powerful relic hidden in Central City before warring factions tear the district apart.</td>
+</tr>
+<tr class="even">
+<td>64</td>
+<td>Gather damning proof from Harmony Post archives before the conspiracy wipes the records clean.</td>
+</tr>
+<tr class="odd">
+<td>65</td>
+<td>Defend Vortex Island from alien invaders seeking a relic stored in its ancient sublevels.</td>
+</tr>
+<tr class="even">
+<td>66</td>
+<td>Thwart an anti-mutant infiltration of Crimson Castle before it ends in mass detainment.</td>
+</tr>
+</tbody>
+</table>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var sidebar = document.getElementById("quarto-margin-sidebar");
+  var formats = document.querySelector(".quarto-alternate-formats");
+  if (sidebar && formats) {
+    sidebar.insertBefore(formats, sidebar.firstChild);
+  }
+
+  // Rename "Typst" label to "PDF"
+  document.querySelectorAll(".quarto-alternate-formats a").forEach(function (a) {
+    a.childNodes.forEach(function (node) {
+      if (node.nodeType === Node.TEXT_NODE && node.textContent.trim() === "Typst") {
+        node.textContent = "PDF";
+      }
+    });
+  });
+});
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/zotiquestgames\.github\.io\/lonersrd\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2021-2026 <a href="https://zotiquestgames.com">Roberto Bisceglie</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/zotiquestgames/lonersrd/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

@@ -1,0 +1,2636 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Roberto Bisceglie">
+<meta name="dcterms.date" content="2026-07-01">
+
+<title>Fantasy Adventure Pack – Loner SRD</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-d37705bb3a21d8331654a8d3f48f58ba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-87bbd3402671c853dcbde7c40b26e08b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-d37705bb3a21d8331654a8d3f48f58ba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&amp;family=Raleway:wght@700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+  @import url('https://fonts.cdnfonts.com/css/takota');
+</style>
+
+
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Loner SRD</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../core/loner-3e.html" aria-current="page"> 
+<span class="menu-text">Core Rules</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../adventure_packs/AP01_fantasy.html"> 
+<span class="menu-text">Adventure Packs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../geared_towards_loner/kwaidan_revised.html"> 
+<span class="menu-text">Geared Towards Loner</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/zotiquestgames/lonersrd"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../adventure_packs/AP01_fantasy.html">Adventure Packs</a></li><li class="breadcrumb-item"><a href="../adventure_packs/AP01_fantasy.html">Fantasy Adventure Pack</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+ <span class="menu-text">SRD</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/loner-3e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 3e</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/loner_companion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Companion</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/character_builders_guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Character Builder’s Guide</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/world_builders_guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">World Builder’s Guide</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/the_path_not_taken.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Path Not Taken</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/cinematic_action.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cinematic Action</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/tales_and_tumbles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">For Kids</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Legacy Core Rules</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/legacy/loner-1e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 1e (legacy)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/legacy/loner-2e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 2e (legacy)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Adventure Packs</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP01_fantasy.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Fantasy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP02_space.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Space Sci-Fi Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP03_superheroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Superheroes Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP04_crime.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Crime Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP05_mystery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mystery Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP06_horror.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Horror Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP07_action_adventure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Action Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP08_spy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP09_postapoc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Post-Apocalyptic Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP10_pirates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pirates Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP11_western.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Western Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP12_cyberpunk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cyberpunk Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Adventure Packs (Legacy 2e)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP01_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fantasy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP02_space.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Space Sci-Fi Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP03_superheroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Superheroes Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP04_crime.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Crime Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP05_mystery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mystery Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP06_horror.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Horror Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP07_action_adventure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Action Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP08_spy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP09_postapoc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Post-Apocalyptic Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP10_pirates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pirates Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP11_western.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Western Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP12_cyberpunk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cyberpunk Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/legacy/kwaidan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan!</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">Geared Towards Loner games</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/kwaidan_revised.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan! (Revised)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/cog_compass.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cog &amp; Compass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/mech_requiem.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mech: Requiem</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/legends_of_camelot.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Legends of Camelot</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/pulp_adventures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pulp Adventures!</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/steel_and_sorcery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Steel &amp; Sorcery</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/dungeoneer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dungeoneer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/spacer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spacer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/arabian_nights_adventures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Arabian Nights Adventures</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/cozy_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cozy Fantasy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/savage_blades_of_xylandra.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Savage Blades of Xylandra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/pulp_heroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pulp Heroes!</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/the_shattered_reach.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Shattered Reach</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/galaxy_drifter.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Galaxy Drifter</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/urban_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Urban Fantasy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/norse_saga.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Norse Saga</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/cthulhu.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cthulhu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/paranormal_files.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Paranormal Files</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+ <span class="menu-text">Geared Towards Loner games (Legacy)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/legacy/kwaidan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan!</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#fantasy-adventure-pack" id="toc-fantasy-adventure-pack" class="nav-link active" data-scroll-target="#fantasy-adventure-pack">Fantasy Adventure Pack</a>
+  <ul class="collapse">
+  <li><a href="#setting-information" id="toc-setting-information" class="nav-link" data-scroll-target="#setting-information">Setting Information</a></li>
+  <li><a href="#character-traits" id="toc-character-traits" class="nav-link" data-scroll-target="#character-traits">Character Traits</a>
+  <ul class="collapse">
+  <li><a href="#concepts" id="toc-concepts" class="nav-link" data-scroll-target="#concepts">Concepts</a></li>
+  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills</a></li>
+  <li><a href="#frailties" id="toc-frailties" class="nav-link" data-scroll-target="#frailties">Frailties</a></li>
+  <li><a href="#gear" id="toc-gear" class="nav-link" data-scroll-target="#gear">Gear</a></li>
+  <li><a href="#names" id="toc-names" class="nav-link" data-scroll-target="#names">Names</a></li>
+  <li><a href="#nicknames" id="toc-nicknames" class="nav-link" data-scroll-target="#nicknames">Nicknames</a></li>
+  </ul></li>
+  <li><a href="#special-rule-magic" id="toc-special-rule-magic" class="nav-link" data-scroll-target="#special-rule-magic">Special Rule: Magic</a>
+  <ul class="collapse">
+  <li><a href="#spells" id="toc-spells" class="nav-link" data-scroll-target="#spells">Spells</a></li>
+  </ul></li>
+  <li><a href="#factions" id="toc-factions" class="nav-link" data-scroll-target="#factions">Factions</a>
+  <ul class="collapse">
+  <li><a href="#the-crown-of-thorns" id="toc-the-crown-of-thorns" class="nav-link" data-scroll-target="#the-crown-of-thorns">The Crown of Thorns</a></li>
+  <li><a href="#the-umbral-synod" id="toc-the-umbral-synod" class="nav-link" data-scroll-target="#the-umbral-synod">The Umbral Synod</a></li>
+  <li><a href="#the-order-of-the-hollow-flame" id="toc-the-order-of-the-hollow-flame" class="nav-link" data-scroll-target="#the-order-of-the-hollow-flame">The Order of the Hollow Flame</a></li>
+  <li><a href="#the-wyrmglaive-compact" id="toc-the-wyrmglaive-compact" class="nav-link" data-scroll-target="#the-wyrmglaive-compact">The Wyrmglaive Compact</a></li>
+  <li><a href="#the-briar-assembly" id="toc-the-briar-assembly" class="nav-link" data-scroll-target="#the-briar-assembly">The Briar Assembly</a></li>
+  <li><a href="#the-vault-of-echoes" id="toc-the-vault-of-echoes" class="nav-link" data-scroll-target="#the-vault-of-echoes">The Vault of Echoes</a></li>
+  </ul></li>
+  <li><a href="#npcs" id="toc-npcs" class="nav-link" data-scroll-target="#npcs">NPCs</a>
+  <ul class="collapse">
+  <li><a href="#king-vaelor-the-thornbound" id="toc-king-vaelor-the-thornbound" class="nav-link" data-scroll-target="#king-vaelor-the-thornbound">King Vaelor the Thornbound</a></li>
+  <li><a href="#magister-syrenth-of-the-umbral-synod" id="toc-magister-syrenth-of-the-umbral-synod" class="nav-link" data-scroll-target="#magister-syrenth-of-the-umbral-synod">Magister Syrenth of the Umbral Synod</a></li>
+  <li><a href="#sir-kaelen-of-the-hollow-flame" id="toc-sir-kaelen-of-the-hollow-flame" class="nav-link" data-scroll-target="#sir-kaelen-of-the-hollow-flame">Sir Kaelen of the Hollow Flame</a></li>
+  <li><a href="#vel-harrowglass" id="toc-vel-harrowglass" class="nav-link" data-scroll-target="#vel-harrowglass">Vel Harrowglass</a></li>
+  <li><a href="#mother-talia-of-the-briar-assembly" id="toc-mother-talia-of-the-briar-assembly" class="nav-link" data-scroll-target="#mother-talia-of-the-briar-assembly">Mother Talia of the Briar Assembly</a></li>
+  <li><a href="#keeper-ysryn-of-the-vault-of-echoes" id="toc-keeper-ysryn-of-the-vault-of-echoes" class="nav-link" data-scroll-target="#keeper-ysryn-of-the-vault-of-echoes">Keeper Ysryn of the Vault of Echoes</a></li>
+  </ul></li>
+  <li><a href="#monsters" id="toc-monsters" class="nav-link" data-scroll-target="#monsters">Monsters</a>
+  <ul class="collapse">
+  <li><a href="#elder-wyrm" id="toc-elder-wyrm" class="nav-link" data-scroll-target="#elder-wyrm">Elder Wyrm</a></li>
+  <li><a href="#bloodfang-orc" id="toc-bloodfang-orc" class="nav-link" data-scroll-target="#bloodfang-orc">Bloodfang Orc</a></li>
+  <li><a href="#feral-goblin" id="toc-feral-goblin" class="nav-link" data-scroll-target="#feral-goblin">Feral Goblin</a></li>
+  <li><a href="#blight-risen" id="toc-blight-risen" class="nav-link" data-scroll-target="#blight-risen">Blight-Risen</a></li>
+  <li><a href="#the-stone-eyed-matron" id="toc-the-stone-eyed-matron" class="nav-link" data-scroll-target="#the-stone-eyed-matron">The Stone-Eyed Matron</a></li>
+  <li><a href="#pale-wraith" id="toc-pale-wraith" class="nav-link" data-scroll-target="#pale-wraith">Pale Wraith</a></li>
+  </ul></li>
+  <li><a href="#locations" id="toc-locations" class="nav-link" data-scroll-target="#locations">Locations</a>
+  <ul class="collapse">
+  <li><a href="#eldrida-the-thorn-crowned-capital" id="toc-eldrida-the-thorn-crowned-capital" class="nav-link" data-scroll-target="#eldrida-the-thorn-crowned-capital">Eldrida (The Thorn-Crowned Capital)</a></li>
+  <li><a href="#the-dragons-spire" id="toc-the-dragons-spire" class="nav-link" data-scroll-target="#the-dragons-spire">The Dragon’s Spire</a></li>
+  <li><a href="#the-forest-of-shadowroot" id="toc-the-forest-of-shadowroot" class="nav-link" data-scroll-target="#the-forest-of-shadowroot">The Forest of Shadowroot</a></li>
+  <li><a href="#blackwood-hollow" id="toc-blackwood-hollow" class="nav-link" data-scroll-target="#blackwood-hollow">Blackwood Hollow</a></li>
+  <li><a href="#the-severed-circle-college-of-wizards" id="toc-the-severed-circle-college-of-wizards" class="nav-link" data-scroll-target="#the-severed-circle-college-of-wizards">The Severed Circle (College of Wizards)</a></li>
+  <li><a href="#the-vaulted-ruins-of-rhygir" id="toc-the-vaulted-ruins-of-rhygir" class="nav-link" data-scroll-target="#the-vaulted-ruins-of-rhygir">The Vaulted Ruins of Rhygir</a></li>
+  </ul></li>
+  <li><a href="#adventure-seeds" id="toc-adventure-seeds" class="nav-link" data-scroll-target="#adventure-seeds">Adventure Seeds</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/zotiquestgames/lonersrd/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="AP01_fantasy.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="AP01_fantasy.odt"><i class="bi bi-file"></i>OpenOffice</a></li><li><a href="AP01_fantasy.epub"><i class="bi bi-file"></i>ePub</a></li><li><a href="AP01_fantasy-gfm.md"><i class="bi bi-file-code"></i>Github (GFM)</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../adventure_packs/AP01_fantasy.html">Adventure Packs</a></li><li class="breadcrumb-item"><a href="../adventure_packs/AP01_fantasy.html">Fantasy Adventure Pack</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Fantasy Adventure Pack</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Roberto Bisceglie </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 1, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="fantasy-adventure-pack" class="level1">
+<h1>Fantasy Adventure Pack</h1>
+<section id="setting-information" class="level2">
+<h2 class="anchored" data-anchor-id="setting-information">Setting Information</h2>
+<ul>
+<li>The world is a realm of ancient mystery and living myth, where enchanted forests shift overnight, and echoes of old gods linger in the wind. Forgotten places stir with purpose, and magic weaves through every shadow and glimmer.</li>
+<li>The time period resembles a late-medieval fantasy age, marked by crumbling empires, feuding dynasties, and the slow return of forces thought buried. Castles rise on dragon-haunted hills, and relics of the past rewrite the present.</li>
+<li>The location is a fragmented kingdom called <strong>Aldorath</strong>, a land of rolling hills, cursed ruins, moonlit marshes, and jagged mountain ranges. Power is split among ancient houses, each ruling their province from keeps laced with intrigue. The capital, <strong>Eldrida</strong>, is both a beacon of order and a nest of secrets.</li>
+<li>The people of Aldorath include humans, elves, dwarves, halflings, and stranger folk touched by old magic. Tensions rise as borders blur, old alliances strain, and ancient pacts fray. Each people clings to fading traditions or forges dangerous new paths.</li>
+<li>Magic is primal, beautiful, and volatile. It is channeled by wizards, witches, and hedge mystics, and loosely regulated by the <strong>College of Wizards</strong>, an increasingly divided authority that clings to relevance while suppressing arcane threats.</li>
+<li>The kingdom faces growing peril: foreign agents stir civil unrest, outlaws rule the wilds, and dark magic seeps from the cracks beneath the land. Myths once whispered now walk in daylight.</li>
+<li>Competing factions shape the kingdom’s fate: the fractured monarchy, ambitious noble houses, a paranoid College of Wizards, outlaw cults, exiled heirs, and secret orders that seek to awaken what should remain forgotten.</li>
+</ul>
+</section>
+<section id="character-traits" class="level2">
+<h2 class="anchored" data-anchor-id="character-traits">Character Traits</h2>
+<section id="concepts" class="level3">
+<h3 class="anchored" data-anchor-id="concepts">Concepts</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 2%">
+<col style="width: 15%">
+<col style="width: 16%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 16%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Silent assassin</td>
+<td>Battle-scarred warrior</td>
+<td>Wandering spellbinder</td>
+<td>Nimble cutpurse</td>
+<td>Valiant swordmaiden</td>
+<td>Brooding hexblade</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Weathered veteran</td>
+<td>Oath-bound paladin</td>
+<td>Graceful duelist</td>
+<td>Frenzied berserker</td>
+<td>Reclusive wildspeaker</td>
+<td>Zealous miracle-worker</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Forbidden arcanist</td>
+<td>Scheming courtier</td>
+<td>Bold frontline captain</td>
+<td>Fanatical inquisitor</td>
+<td>Haunted seer</td>
+<td>Silver-tongued envoy</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Inspiring skald</td>
+<td>Quick-handed burglar</td>
+<td>Cold-blooded sellblade</td>
+<td>Inquisitive loremaster</td>
+<td>Towering gladiator</td>
+<td>Loyal zealot</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Spirit-touched wanderer</td>
+<td>Disciplined ascetic</td>
+<td>Beast-wrangling scout</td>
+<td>Masked infiltrator</td>
+<td>Elven blade-dancer</td>
+<td>Brilliant tinkerer</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Sea-worn corsair</td>
+<td>Regal matriarch</td>
+<td>Masked fool with secrets</td>
+<td>Master tactician</td>
+<td>Hard-bitten navigator</td>
+<td>Renowned artisan</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="skills" class="level3">
+<h3 class="anchored" data-anchor-id="skills">Skills</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 17%">
+<col style="width: 13%">
+<col style="width: 15%">
+<col style="width: 13%">
+<col style="width: 19%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Swordsmanship</td>
+<td>Herbalism</td>
+<td>Beast mastery</td>
+<td>Menace</td>
+<td>Leathercraft</td>
+<td>Star-reading</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Bowmanship</td>
+<td>Foraging</td>
+<td>Mount handling</td>
+<td>Command</td>
+<td>Needlework</td>
+<td>Field medicine</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Brawling</td>
+<td>Trailcraft</td>
+<td>Mapmaking</td>
+<td>Battlefield sense</td>
+<td>Gemcutting</td>
+<td>Element-shaping</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Lockpicking</td>
+<td>Trap-setting</td>
+<td>Wayfinding</td>
+<td>Construction</td>
+<td>Rune-carving</td>
+<td>Shapechanging</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Spellweaving</td>
+<td>Net-casting</td>
+<td>Terrain lore</td>
+<td>Metalworking</td>
+<td>Illusions</td>
+<td>Spirit-binding</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Potion-making</td>
+<td>Camp cooking</td>
+<td>Persuasion</td>
+<td>Woodcraft</td>
+<td>Necromancy</td>
+<td>Anatomical lore</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="frailties" class="level3">
+<h3 class="anchored" data-anchor-id="frailties">Frailties</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 14%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 22%">
+<col style="width: 11%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Proud</td>
+<td>Unreliable</td>
+<td>Indecisive</td>
+<td>Perfectionist</td>
+<td>Notorious</td>
+<td>Hot-headed</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Faint-hearted</td>
+<td>Slothful</td>
+<td>Gullible</td>
+<td>Distrustful</td>
+<td>Vengeful</td>
+<td>Secretive</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Covetous</td>
+<td>Self-serving</td>
+<td>Apathetic</td>
+<td>Spiteful</td>
+<td>Overindulgent</td>
+<td>Nervous</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Envious</td>
+<td>Obstinate</td>
+<td>Blunt</td>
+<td>Overbearing</td>
+<td>Lustful</td>
+<td>Reckless</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Possessive</td>
+<td>Rash</td>
+<td>Boastful</td>
+<td>Rigid-minded</td>
+<td>Lazy</td>
+<td>Narrow-minded</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Deceptive</td>
+<td>Naïve</td>
+<td>Cynical</td>
+<td>Insecure</td>
+<td>Arrogant</td>
+<td>Bigoted</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="gear" class="level3">
+<h3 class="anchored" data-anchor-id="gear">Gear</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 14%">
+<col style="width: 12%">
+<col style="width: 18%">
+<col style="width: 13%">
+<col style="width: 12%">
+<col style="width: 24%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Longsword</td>
+<td>Hunting bow</td>
+<td>Compact crossbow</td>
+<td>Curved dagger</td>
+<td>Boar spear</td>
+<td>Bearded axe</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Morning star</td>
+<td>Spiked flail</td>
+<td>Round shield</td>
+<td>Iron helm</td>
+<td>Chainmail</td>
+<td>Reinforced bracers</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Legplates</td>
+<td>Silent boots</td>
+<td>Hooded cloak</td>
+<td>Travel pack</td>
+<td>Arrow case</td>
+<td>Broadhead arrows</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Quarrels</td>
+<td>Climbing rope</td>
+<td>Hooked launcher</td>
+<td>Oil lantern</td>
+<td>Wax torch</td>
+<td>Flint and tinder</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Water flask</td>
+<td>Dried meats</td>
+<td>Woolen bedroll</td>
+<td>Canvas tent</td>
+<td>Rune compass</td>
+<td>Hand-sketched map</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Seer’s lens</td>
+<td>Star scope</td>
+<td>Elixir pouch</td>
+<td>Medic’s satchel</td>
+<td>Thieves’ tools</td>
+<td>Ornate lute</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="names" class="level3">
+<h3 class="anchored" data-anchor-id="names">Names</h3>
+<section id="female-names" class="level4">
+<h4 class="anchored" data-anchor-id="female-names">Female Names</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Elira</td>
+<td>Thariel</td>
+<td>Mirwyn</td>
+<td>Caelia</td>
+<td>Ysolde</td>
+<td>Avenra</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Liora</td>
+<td>Syllin</td>
+<td>Nymeris</td>
+<td>Odrille</td>
+<td>Branna</td>
+<td>Feyra</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Isolde</td>
+<td>Myrren</td>
+<td>Anwen</td>
+<td>Tahlia</td>
+<td>Virelle</td>
+<td>Desmira</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Renya</td>
+<td>Eirwen</td>
+<td>Arlisse</td>
+<td>Naevia</td>
+<td>Joryn</td>
+<td>Callistra</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Velka</td>
+<td>Lineth</td>
+<td>Serida</td>
+<td>Olyra</td>
+<td>Malenne</td>
+<td>Thalyssa</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Nysha</td>
+<td>Eryndel</td>
+<td>Galene</td>
+<td>Sylara</td>
+<td>Tressa</td>
+<td>Zarelle</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="male-names" class="level4">
+<h4 class="anchored" data-anchor-id="male-names">Male Names</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Thalen</td>
+<td>Corvin</td>
+<td>Maelor</td>
+<td>Eldric</td>
+<td>Garran</td>
+<td>Sylric</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Brynjar</td>
+<td>Halric</td>
+<td>Fenwyn</td>
+<td>Kaelen</td>
+<td>Orwyn</td>
+<td>Tiberan</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Dorian</td>
+<td>Arvek</td>
+<td>Marnen</td>
+<td>Lucen</td>
+<td>Traskel</td>
+<td>Hadrin</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Roneth</td>
+<td>Varek</td>
+<td>Eryndor</td>
+<td>Silas</td>
+<td>Kendric</td>
+<td>Bastian</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Malric</td>
+<td>Vaelor</td>
+<td>Dryden</td>
+<td>Osric</td>
+<td>Jorren</td>
+<td>Tyvald</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Alric</td>
+<td>Tharos</td>
+<td>Ivaran</td>
+<td>Kevarn</td>
+<td>Elric</td>
+<td>Zareth</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="surnames" class="level4">
+<h4 class="anchored" data-anchor-id="surnames">Surnames</h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 12%">
+<col style="width: 15%">
+<col style="width: 16%">
+<col style="width: 17%">
+<col style="width: 17%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Ironhart</td>
+<td>Windmere</td>
+<td>Duskbane</td>
+<td>Hollowbrook</td>
+<td>Stormbinder</td>
+<td>Thornvale</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Greyfen</td>
+<td>Nightshade</td>
+<td>Emberlain</td>
+<td>Deepwarden</td>
+<td>Stonesworn</td>
+<td>Redmarsh</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Dawntreader</td>
+<td>Ashenfell</td>
+<td>Moonwhisper</td>
+<td>Vexley</td>
+<td>Farrowind</td>
+<td>Flamecrest</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Ravenshade</td>
+<td>Goldbranch</td>
+<td>Frostreaver</td>
+<td>Hollowmere</td>
+<td>Duskridge</td>
+<td>Wyrmholt</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Thornekeep</td>
+<td>Brightmoor</td>
+<td>Oakenshield</td>
+<td>Mirewood</td>
+<td>Fenroar</td>
+<td>Coldmere</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Blackbarrow</td>
+<td>Silverspire</td>
+<td>Runeblade</td>
+<td>Grimhollow</td>
+<td>Ironveil</td>
+<td>Ashgrove</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="nicknames" class="level3">
+<h3 class="anchored" data-anchor-id="nicknames">Nicknames</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 12%">
+<col style="width: 14%">
+<col style="width: 16%">
+<col style="width: 17%">
+<col style="width: 18%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>The Red</td>
+<td>Long-Eyes</td>
+<td>Ashcloak</td>
+<td>Flame-Tongue</td>
+<td>The Whisper</td>
+<td>Ironjaw</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>One-Ear</td>
+<td>Nightfox</td>
+<td>Brightfang</td>
+<td>Dustwalker</td>
+<td>Grimhand</td>
+<td>Starborn</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Black Tom</td>
+<td>Silverstep</td>
+<td>Hollow-Eye</td>
+<td>Cloudrider</td>
+<td>Knifetooth</td>
+<td>The Silent</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Goldie</td>
+<td>Blightbane</td>
+<td>Quickblade</td>
+<td>Stormchild</td>
+<td>Cragface</td>
+<td>Nightmare</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>the Pale</td>
+<td>Three-Toes</td>
+<td>Firemane</td>
+<td>Bearclaw</td>
+<td>Deep Voice</td>
+<td>the Unseen</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Smiler</td>
+<td>Wormtongue</td>
+<td>Skyhowler</td>
+<td>the Black</td>
+<td>Bonepicker</td>
+<td>Last Hope</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="special-rule-magic" class="level2">
+<h2 class="anchored" data-anchor-id="special-rule-magic">Special Rule: Magic</h2>
+<p>A character may channel their <strong>Luck</strong> to cast spells or activate magical abilities. Each spell has a specific <strong>Luck cost</strong>, which varies based on its power or complexity. To cast a spell, the protagonist spends the required amount of Luck and rolls the Oracle to determine the outcome:</p>
+<ul>
+<li><strong>No and</strong>: The spell fails catastrophically — and something else goes wrong.</li>
+<li><strong>No</strong>: The spell fails, and the Luck spent is lost.</li>
+<li><strong>No but</strong>: The spell fails, but the Luck is not expended.</li>
+<li><strong>Yes but</strong>: The spell succeeds, but with a complication, side effect, or unintended cost.</li>
+<li><strong>Yes</strong>: The spell succeeds as intended.</li>
+<li><strong>Yes and</strong>: The spell succeeds with an extra benefit — such as a bonus effect, lasting impact, or unexpected insight.</li>
+</ul>
+<p><strong>Luck used for spellcasting refreshes</strong> after the character takes a proper rest in a safe place. During a Conflict, the current Luck total applies for the duration and resets when the Conflict ends, as per the core rules.</p>
+<section id="spells" class="level3">
+<h3 class="anchored" data-anchor-id="spells">Spells</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 37%">
+<col style="width: 62%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>D66</th>
+<th>Spell</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>11</td>
+<td><strong>Heal</strong> (1 Luck) – Restore a small amount of health to a creature you touch.</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td><strong>Light</strong> (1 Luck) – Create a floating glow that illuminates a small area for one hour.</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td><strong>Identify</strong> (1 Luck) – Reveal the nature and properties of a magical item or enchantment.</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td><strong>Bolt</strong> (1 Luck) – Hurl a streak of elemental energy at a single target.</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td><strong>Detect Magic</strong> (1 Luck) – Sense magical auras and effects nearby.</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td><strong>Mage Armor</strong> (2 Luck) – Summon a shimmering shield of force to absorb physical harm.</td>
+</tr>
+<tr class="odd">
+<td>21</td>
+<td><strong>Levitate</strong> (2 Luck) – Defy gravity for a short time, hovering above the ground.</td>
+</tr>
+<tr class="even">
+<td>22</td>
+<td><strong>Fear</strong> (2 Luck) – Instill dread in a creature, forcing it to flee or falter.</td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td><strong>Illusion</strong> (2 Luck) – Create a minor sound or image to mislead the senses.</td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td><strong>Charm</strong> (2 Luck) – Momentarily soften a creature’s disposition toward you.</td>
+</tr>
+<tr class="odd">
+<td>25</td>
+<td><strong>Invisibility</strong> (3 Luck) – Fade from sight for a brief time or until you take action.</td>
+</tr>
+<tr class="even">
+<td>26</td>
+<td><strong>Teleport</strong> (4 Luck) – Instantly move yourself to a visible location within range.</td>
+</tr>
+<tr class="odd">
+<td>31</td>
+<td><strong>Fireball</strong> (3 Luck) – Unleash a fiery explosion that engulfs a small area.</td>
+</tr>
+<tr class="even">
+<td>32</td>
+<td><strong>Summon</strong> (3 Luck) – Call forth a small creature bound to aid you in one task.</td>
+</tr>
+<tr class="odd">
+<td>33</td>
+<td><strong>Enchantment</strong> (2 Luck) – Imbue an item with a temporary magical quality.</td>
+</tr>
+<tr class="even">
+<td>34</td>
+<td><strong>Divination</strong> (2 Luck) – Gain insight into a person, place, or mystery.</td>
+</tr>
+<tr class="odd">
+<td>35</td>
+<td><strong>Abjuration</strong> (3 Luck) – Ward a creature or place from harmful magic.</td>
+</tr>
+<tr class="even">
+<td>36</td>
+<td><strong>Conjuration</strong> (4 Luck) – Summon an object or simple tool into your hand.</td>
+</tr>
+<tr class="odd">
+<td>41</td>
+<td><strong>Necromancy</strong> (4 Luck) – Influence the dead, or command lesser undead.</td>
+</tr>
+<tr class="even">
+<td>42</td>
+<td><strong>Transmutation</strong> (4 Luck) – Alter the shape or nature of a creature or object.</td>
+</tr>
+<tr class="odd">
+<td>43</td>
+<td><strong>Evocation</strong> (4 Luck) – Conjure a sudden burst of elemental power.</td>
+</tr>
+<tr class="even">
+<td>44</td>
+<td><strong>Greater Illusion</strong> (4 Luck) – Create a convincing illusion affecting multiple senses.</td>
+</tr>
+<tr class="odd">
+<td>45</td>
+<td><strong>Alteration</strong> (4 Luck) – Change your own appearance, voice, or minor traits.</td>
+</tr>
+<tr class="even">
+<td>46</td>
+<td><strong>Restoration</strong> (4 Luck) – Repair or purify a creature, object, or environment.</td>
+</tr>
+<tr class="odd">
+<td>51</td>
+<td><strong>Leap</strong> (2 Luck) – Propel yourself or a target to any visible point in range.</td>
+</tr>
+<tr class="even">
+<td>52</td>
+<td><strong>Circle of Protection</strong> (3 Luck) – Create a barrier that repels spirits or divine forces.</td>
+</tr>
+<tr class="odd">
+<td>53</td>
+<td><strong>Darksight</strong> (1 Luck) – Grant a creature the ability to see in complete darkness.</td>
+</tr>
+<tr class="even">
+<td>54</td>
+<td><strong>Deafening Wave</strong> (2 Luck) – Deafen all creatures within a short radius.</td>
+</tr>
+<tr class="odd">
+<td>55</td>
+<td><strong>Latch</strong> (1 Luck) – Open or close a non-magical, unlocked object at will.</td>
+</tr>
+<tr class="even">
+<td>56</td>
+<td><strong>Disguise</strong> (3 Luck) – Take on the appearance of a creature you’ve seen before.</td>
+</tr>
+<tr class="odd">
+<td>61</td>
+<td><strong>Mirage</strong> (3 Luck) – Project a simple silent illusion to distract or deceive.</td>
+</tr>
+<tr class="even">
+<td>62</td>
+<td><strong>Purge Text</strong> (2 Luck) – Erase mundane or arcane writing from any surface.</td>
+</tr>
+<tr class="odd">
+<td>63</td>
+<td><strong>Shelter</strong> (4 Luck) – Conjure a protective structure that lasts up to 24 hours.</td>
+</tr>
+<tr class="even">
+<td>64</td>
+<td><strong>Gravity Domain</strong> (4 Luck) – Manipulate a target’s position in space — lift or sink them.</td>
+</tr>
+<tr class="odd">
+<td>65</td>
+<td><strong>Ice Storm</strong> (2 Luck) – Conjure a hail of frozen shards to strike your enemies.</td>
+</tr>
+<tr class="even">
+<td>66</td>
+<td><strong>Make</strong> (4 Luck) – Transform raw materials into a crafted item of your choice.</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="factions" class="level2">
+<h2 class="anchored" data-anchor-id="factions">Factions</h2>
+<section id="the-crown-of-thorns" class="level3">
+<h3 class="anchored" data-anchor-id="the-crown-of-thorns">The Crown of Thorns</h3>
+<ul>
+<li><strong>Concept:</strong> Embattled Monarch<br>
+</li>
+<li><strong>Skills:</strong> Command, Court Intrigue<br>
+</li>
+<li><strong>Frailty:</strong> Haunted by ancestral failure<br>
+</li>
+<li><strong>Gear:</strong> Fractured crown, blood-bound seal<br>
+</li>
+<li><strong>Goal:</strong> Preserve the throne and unify the splintered provinces<br>
+</li>
+<li><strong>Motive:</strong> Restore the glory of a broken lineage<br>
+</li>
+<li><strong>Nemesis:</strong> The Thornless Pact — a coalition of rebel nobles and exiled bloodlines</li>
+</ul>
+</section>
+<section id="the-umbral-synod" class="level3">
+<h3 class="anchored" data-anchor-id="the-umbral-synod">The Umbral Synod</h3>
+<ul>
+<li><strong>Concept:</strong> Shadowbound Sorcerer<br>
+</li>
+<li><strong>Skills:</strong> Forbidden Lore, Ritual Magic<br>
+</li>
+<li><strong>Frailty:</strong> Feared even by allies<br>
+</li>
+<li><strong>Gear:</strong> Black-inked grimoire, silver-masked face<br>
+</li>
+<li><strong>Goal:</strong> To control the Wild Magic zones and unlock their ancient power<br>
+</li>
+<li><strong>Motive:</strong> Rewrite magical law by unearthing what the College buried<br>
+</li>
+<li><strong>Nemesis:</strong> The Severed Circle (the official Wizarding College, now fragmented)</li>
+</ul>
+</section>
+<section id="the-order-of-the-hollow-flame" class="level3">
+<h3 class="anchored" data-anchor-id="the-order-of-the-hollow-flame">The Order of the Hollow Flame</h3>
+<ul>
+<li><strong>Concept:</strong> Knight of the Vanished Oath<br>
+</li>
+<li><strong>Skills:</strong> Swordplay, Devotion<br>
+</li>
+<li><strong>Frailty:</strong> Bound by obsolete vows<br>
+</li>
+<li><strong>Gear:</strong> Broken sigil, sanctified blade<br>
+</li>
+<li><strong>Goal:</strong> Seek the rebirth of the old gods through sacred relics<br>
+</li>
+<li><strong>Motive:</strong> Redemption through divine fire<br>
+</li>
+<li><strong>Nemesis:</strong> The Crown, who branded them heretics after the fall of the Southern Church</li>
+</ul>
+</section>
+<section id="the-wyrmglaive-compact" class="level3">
+<h3 class="anchored" data-anchor-id="the-wyrmglaive-compact">The Wyrmglaive Compact</h3>
+<ul>
+<li><strong>Concept:</strong> Relic-Bound Merchant-Knights<br>
+</li>
+<li><strong>Skills:</strong> Tradecraft, Artifact Handling<br>
+</li>
+<li><strong>Frailty:</strong> Addicted to wyrm-blood relics<br>
+</li>
+<li><strong>Gear:</strong> Carved bone tokens, glowing lockboxes<br>
+</li>
+<li><strong>Goal:</strong> Control the relic trade through diplomacy and sabotage<br>
+</li>
+<li><strong>Motive:</strong> Power through forgotten technologies<br>
+</li>
+<li><strong>Nemesis:</strong> Wandering relic hunters and the Adventurers Guild offshoots</li>
+</ul>
+</section>
+<section id="the-briar-assembly" class="level3">
+<h3 class="anchored" data-anchor-id="the-briar-assembly">The Briar Assembly</h3>
+<ul>
+<li><strong>Concept:</strong> Druidic Agitator<br>
+</li>
+<li><strong>Skills:</strong> Herbalism, Beast Speech<br>
+</li>
+<li><strong>Frailty:</strong> Hunted by both nobles and witches<br>
+</li>
+<li><strong>Gear:</strong> Briarthorn staff, root-scribed scrolls<br>
+</li>
+<li><strong>Goal:</strong> Rewild Aldorath and tear down the blood-fueled empires<br>
+</li>
+<li><strong>Motive:</strong> Revenge for the old forest massacres<br>
+</li>
+<li><strong>Nemesis:</strong> The Noble Houses who scorched the wilds for expansion</li>
+</ul>
+</section>
+<section id="the-vault-of-echoes" class="level3">
+<h3 class="anchored" data-anchor-id="the-vault-of-echoes">The Vault of Echoes</h3>
+<ul>
+<li><strong>Concept:</strong> Lorekeeper of the Deep Archive<br>
+</li>
+<li><strong>Skills:</strong> Memory Binding, Lost Languages<br>
+</li>
+<li><strong>Frailty:</strong> Bound by secrecy<br>
+</li>
+<li><strong>Gear:</strong> Whisperstones, veiled faceplate<br>
+</li>
+<li><strong>Goal:</strong> Preserve and censor the truths of Aldorath’s past<br>
+</li>
+<li><strong>Motive:</strong> Knowledge is power — and silence is safety<br>
+</li>
+<li><strong>Nemesis:</strong> Any who seek to awaken buried truths, especially solo heroes</li>
+</ul>
+</section>
+</section>
+<section id="npcs" class="level2">
+<h2 class="anchored" data-anchor-id="npcs">NPCs</h2>
+<section id="king-vaelor-the-thornbound" class="level3">
+<h3 class="anchored" data-anchor-id="king-vaelor-the-thornbound">King Vaelor the Thornbound</h3>
+<ul>
+<li><strong>Concept:</strong> Cursed Heir<br>
+</li>
+<li><strong>Skills:</strong> Command, Heraldry<br>
+</li>
+<li><strong>Frailty:</strong> Bound by blood-pact to an ancient oath<br>
+</li>
+<li><strong>Gear:</strong> Thorn-cracked crown, obsidian signet<br>
+</li>
+<li><strong>Goal:</strong> Unify the provinces before civil war erupts<br>
+</li>
+<li><strong>Motive:</strong> To redeem the broken legacy of his forebears<br>
+</li>
+<li><strong>Nemesis:</strong> The Thornless Pact — nobles who claim his bloodline is illegitimate</li>
+</ul>
+</section>
+<section id="magister-syrenth-of-the-umbral-synod" class="level3">
+<h3 class="anchored" data-anchor-id="magister-syrenth-of-the-umbral-synod">Magister Syrenth of the Umbral Synod</h3>
+<ul>
+<li><strong>Concept:</strong> Pale Archivist<br>
+</li>
+<li><strong>Skills:</strong> Forbidden Lore, Memory Extraction<br>
+</li>
+<li><strong>Frailty:</strong> Withers in sunlight<br>
+</li>
+<li><strong>Gear:</strong> Black veil, chained tome of echoes<br>
+</li>
+<li><strong>Goal:</strong> Seize control of all Wild Magic zones<br>
+</li>
+<li><strong>Motive:</strong> To unlock the true origin of magic — no matter the cost<br>
+</li>
+<li><strong>Nemesis:</strong> The Severed Circle, who exiled her after the Hollow Flame Incident</li>
+</ul>
+</section>
+<section id="sir-kaelen-of-the-hollow-flame" class="level3">
+<h3 class="anchored" data-anchor-id="sir-kaelen-of-the-hollow-flame">Sir Kaelen of the Hollow Flame</h3>
+<ul>
+<li><strong>Concept:</strong> Burnt Knight<br>
+</li>
+<li><strong>Skills:</strong> Bladecraft, Mysticism<br>
+</li>
+<li><strong>Frailty:</strong> Haunted by divine visions<br>
+</li>
+<li><strong>Gear:</strong> Ash-tempered blade, cracked saint’s mask<br>
+</li>
+<li><strong>Goal:</strong> Recover the lost relic of Saint Variel<br>
+</li>
+<li><strong>Motive:</strong> Redemption for past sins in the last crusade<br>
+</li>
+<li><strong>Nemesis:</strong> The Crown, which outlawed his order and razed its monasteries</li>
+</ul>
+</section>
+<section id="vel-harrowglass" class="level3">
+<h3 class="anchored" data-anchor-id="vel-harrowglass">Vel Harrowglass</h3>
+<ul>
+<li><strong>Concept:</strong> Relic-Syndicate Broker<br>
+</li>
+<li><strong>Skills:</strong> Negotiation, Artifact Appraisal<br>
+</li>
+<li><strong>Frailty:</strong> Relies on wyrm-blood infusion to survive<br>
+</li>
+<li><strong>Gear:</strong> Gilded spine-brace, vial of wyrm ichor<br>
+</li>
+<li><strong>Goal:</strong> Corner the trade in pre-collapse artifacts<br>
+</li>
+<li><strong>Motive:</strong> Maintain power in the Wyrmglaive Compact<br>
+</li>
+<li><strong>Nemesis:</strong> Freelance treasure-hunters who reject the Compact’s monopoly</li>
+</ul>
+</section>
+<section id="mother-talia-of-the-briar-assembly" class="level3">
+<h3 class="anchored" data-anchor-id="mother-talia-of-the-briar-assembly">Mother Talia of the Briar Assembly</h3>
+<ul>
+<li><strong>Concept:</strong> Forest Prophet<br>
+</li>
+<li><strong>Skills:</strong> Beast Command, Poisoncraft<br>
+</li>
+<li><strong>Frailty:</strong> Marked by an ancient curse — cannot enter stone dwellings<br>
+</li>
+<li><strong>Gear:</strong> Crown of antlers, living roots around her arms<br>
+</li>
+<li><strong>Goal:</strong> Collapse Aldorath’s city-states and return the land to wild law<br>
+</li>
+<li><strong>Motive:</strong> Revenge for the burning of the Greywood<br>
+</li>
+<li><strong>Nemesis:</strong> The Noble Houses that still cull the wilds for lumber and fuel</li>
+</ul>
+</section>
+<section id="keeper-ysryn-of-the-vault-of-echoes" class="level3">
+<h3 class="anchored" data-anchor-id="keeper-ysryn-of-the-vault-of-echoes">Keeper Ysryn of the Vault of Echoes</h3>
+<ul>
+<li><strong>Concept:</strong> Oracle of the Lost Pages<br>
+</li>
+<li><strong>Skills:</strong> Ancient Tongues, Truth Concealment<br>
+</li>
+<li><strong>Frailty:</strong> Her memories are not her own<br>
+</li>
+<li><strong>Gear:</strong> Whisperstone ring, mask of silent iron<br>
+</li>
+<li><strong>Goal:</strong> Preserve dangerous truths without allowing their use<br>
+</li>
+<li><strong>Motive:</strong> Prevent Aldorath from repeating its buried history<br>
+</li>
+<li><strong>Nemesis:</strong> Any who dig too deep — especially lone adventurers</li>
+</ul>
+</section>
+</section>
+<section id="monsters" class="level2">
+<h2 class="anchored" data-anchor-id="monsters">Monsters</h2>
+<section id="elder-wyrm" class="level3">
+<h3 class="anchored" data-anchor-id="elder-wyrm">Elder Wyrm</h3>
+<ul>
+<li><strong>Concept:</strong> Ancient Dragon of the First Age<br>
+</li>
+<li><strong>Skills:</strong> Flame torrent, Winged flight<br>
+</li>
+<li><strong>Frailty:</strong> Vulnerable to cold-forged weapons and ancient binding rites<br>
+</li>
+<li><strong>Gear:</strong> Crystal-plated scales, hoard of relic-gold and cursed crowns<br>
+</li>
+<li><strong>Goal:</strong> Guard its lair and slumbering clutch<br>
+</li>
+<li><strong>Motive:</strong> To endure, outlast, and rule forgotten skyholds<br>
+</li>
+<li><strong>Nemesis:</strong> Skyship raiders, relic-hunters, and rebellious wyrmlings</li>
+</ul>
+</section>
+<section id="bloodfang-orc" class="level3">
+<h3 class="anchored" data-anchor-id="bloodfang-orc">Bloodfang Orc</h3>
+<ul>
+<li><strong>Concept:</strong> Warlord of the Blasted Steppes<br>
+</li>
+<li><strong>Skills:</strong> Axe mastery, Battle frenzy<br>
+</li>
+<li><strong>Frailty:</strong> Superstitious dread of divine symbols<br>
+</li>
+<li><strong>Gear:</strong> Crude iron armor, twin war axes, totem of bone<br>
+</li>
+<li><strong>Goal:</strong> Lead raids into the fertile provinces of Aldorath<br>
+</li>
+<li><strong>Motive:</strong> Conquest to feed the clans and shatter noble lines<br>
+</li>
+<li><strong>Nemesis:</strong> Border paladins, mercenary guilds, and river-fort militias</li>
+</ul>
+</section>
+<section id="feral-goblin" class="level3">
+<h3 class="anchored" data-anchor-id="feral-goblin">Feral Goblin</h3>
+<ul>
+<li><strong>Concept:</strong> Relic-Scavenger and Saboteur<br>
+</li>
+<li><strong>Skills:</strong> Guerilla tactics, Trapcraft<br>
+</li>
+<li><strong>Frailty:</strong> Startled by sudden brightness or loud sound<br>
+</li>
+<li><strong>Gear:</strong> Bone darts, trap kits, stolen scraps<br>
+</li>
+<li><strong>Goal:</strong> Pillage ruins and caravans undetected<br>
+</li>
+<li><strong>Motive:</strong> Survival in numbers, mischief as instinct<br>
+</li>
+<li><strong>Nemesis:</strong> Town watch, traveling clerics, lightbearers</li>
+</ul>
+</section>
+<section id="blight-risen" class="level3">
+<h3 class="anchored" data-anchor-id="blight-risen">Blight-Risen</h3>
+<ul>
+<li><strong>Concept:</strong> Contagious Undead Husk<br>
+</li>
+<li><strong>Skills:</strong> Undying body, Plague bite<br>
+</li>
+<li><strong>Frailty:</strong> Fire, consecrated ground<br>
+</li>
+<li><strong>Gear:</strong> Rotting flesh, plague stench<br>
+</li>
+<li><strong>Goal:</strong> Spread the necrotic blight or serve a necromancer<br>
+</li>
+<li><strong>Motive:</strong> Hunger, or compelled service<br>
+</li>
+<li><strong>Nemesis:</strong> Flamebearers, gravekeepers, warded shrines</li>
+</ul>
+</section>
+<section id="the-stone-eyed-matron" class="level3">
+<h3 class="anchored" data-anchor-id="the-stone-eyed-matron">The Stone-Eyed Matron</h3>
+<ul>
+<li><strong>Concept:</strong> Isolated Gorgon Priestess<br>
+</li>
+<li><strong>Skills:</strong> Petrifying gaze, Serpentine agility<br>
+</li>
+<li><strong>Frailty:</strong> Mirrors, direct sunlight<br>
+</li>
+<li><strong>Gear:</strong> Snake hair, obsidian bracelets, garden of statues<br>
+</li>
+<li><strong>Goal:</strong> To build a sanctuary of stone and silence<br>
+</li>
+<li><strong>Motive:</strong> To be revered, left in peace, and eternally feared<br>
+</li>
+<li><strong>Nemesis:</strong> Curse-breakers, mirror-knights, temple inquisitors</li>
+</ul>
+</section>
+<section id="pale-wraith" class="level3">
+<h3 class="anchored" data-anchor-id="pale-wraith">Pale Wraith</h3>
+<ul>
+<li><strong>Concept:</strong> Soul-Eater of the Forgotten Crypts<br>
+</li>
+<li><strong>Skills:</strong> Phasing, Vital drain<br>
+</li>
+<li><strong>Frailty:</strong> Radiant energy, sacred sigils<br>
+</li>
+<li><strong>Gear:</strong> Shroud of memory, death-chill aura<br>
+</li>
+<li><strong>Goal:</strong> To devour the warmth of the living<br>
+</li>
+<li><strong>Motive:</strong> Hunger eternal or the will of its summoner<br>
+</li>
+<li><strong>Nemesis:</strong> Holy relic bearers, lightcasters, dawnblades</li>
+</ul>
+</section>
+</section>
+<section id="locations" class="level2">
+<h2 class="anchored" data-anchor-id="locations">Locations</h2>
+<section id="eldrida-the-thorn-crowned-capital" class="level3">
+<h3 class="anchored" data-anchor-id="eldrida-the-thorn-crowned-capital">Eldrida (The Thorn-Crowned Capital)</h3>
+<ul>
+<li>The jewel of Aldorath, where spires and domes rise behind fortified walls. Home to the <strong>Crown of Thorns</strong>, the <strong>Severed Circle</strong>, and the last remaining Temple of the Hollow Flame. Its streets are crowded with masked envoys, relic smugglers, and whispering spies.<br>
+</li>
+<li>Beneath its surface lie catacombs older than the kingdom, sealed and forgotten by decree.<br>
+</li>
+<li>Possible encounters: <strong>King Vaelor</strong>, <strong>Keeper Ysryn</strong>, <strong>Magister Syrenth in disguise</strong>, agents of the <strong>Vault of Echoes</strong></li>
+</ul>
+</section>
+<section id="the-dragons-spire" class="level3">
+<h3 class="anchored" data-anchor-id="the-dragons-spire">The Dragon’s Spire</h3>
+<ul>
+<li>A scorched peak wreathed in stormclouds. The lair of an <strong>Elder Wyrm</strong>, its hoard buried in molten stone and bone. Fabled as one of the Seven Watchers who once ruled the skies in the First Age.<br>
+</li>
+<li>Few reach the peak — fewer return.<br>
+</li>
+<li>Possible encounters: The <strong>Elder Wyrm</strong>, relic-thirsty knights of the <strong>Wyrmglaive Compact</strong>, cursed echoes of past challengers</li>
+</ul>
+</section>
+<section id="the-forest-of-shadowroot" class="level3">
+<h3 class="anchored" data-anchor-id="the-forest-of-shadowroot">The Forest of Shadowroot</h3>
+<ul>
+<li>Twisted trees, half-alive, grow over ruined altars and moss-cloaked idols. Here, the <strong>Briar Assembly</strong> whispers to beasts and root-spirits. The deeper paths shift, and time itself feels wrong beneath the canopy.<br>
+</li>
+<li>Many believe the forest watches intruders. Some say it remembers.<br>
+</li>
+<li>Possible encounters: <strong>Mother Talia</strong>, <strong>Medusa</strong>, <strong>Pale Wraith</strong>, roaming goblins, lost pilgrims</li>
+</ul>
+</section>
+<section id="blackwood-hollow" class="level3">
+<h3 class="anchored" data-anchor-id="blackwood-hollow">Blackwood Hollow</h3>
+<ul>
+<li>Not a castle, but a <strong>cracked and brooding manor</strong> perched over a sinkhole. Lord Blackwood is long dead, but <strong>his bloodline was never ended</strong> — and his spirit may yet speak.<br>
+</li>
+<li>The Hollow is both a haunted estate and a political ruin.<br>
+</li>
+<li>Possible encounters: <strong>Descendants of the Blackwood Pact</strong>, <strong>Wraiths</strong>, secret cults of the <strong>Thornless Pact</strong></li>
+</ul>
+</section>
+<section id="the-severed-circle-college-of-wizards" class="level3">
+<h3 class="anchored" data-anchor-id="the-severed-circle-college-of-wizards">The Severed Circle (College of Wizards)</h3>
+<ul>
+<li>Once the great tower of the unified College, now fractured into rival arcane halls. Forbidden sections are chained shut, while magical constructs patrol the old vaults.<br>
+</li>
+<li>The <strong>Umbral Synod</strong> was exiled from here — but some say their agents remain.<br>
+</li>
+<li>Possible encounters: <strong>Archmage Alaric’s successor</strong>, ambitious students, secretive keepers of the <strong>Vault of Echoes</strong></li>
+</ul>
+</section>
+<section id="the-vaulted-ruins-of-rhygir" class="level3">
+<h3 class="anchored" data-anchor-id="the-vaulted-ruins-of-rhygir">The Vaulted Ruins of Rhygir</h3>
+<ul>
+<li>Deep in the earth, overgrown and collapsed, lie the remnants of the <strong>pre-collapse civilization</strong> that once ruled Aldorath. Wards still flicker, though the architects are long dead.<br>
+</li>
+<li>It’s said even the <strong>Vault of Echoes</strong> fears what lies at its core.<br>
+</li>
+<li>Possible encounters: <strong>Orc warbands</strong>, <strong>Blight-Risen</strong>, relic guardians, <strong>Vel Harrowglass’s agents</strong>, traps that whisper</li>
+</ul>
+</section>
+</section>
+<section id="adventure-seeds" class="level2">
+<h2 class="anchored" data-anchor-id="adventure-seeds">Adventure Seeds</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 75%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>D66</th>
+<th>Adventure</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>11</td>
+<td>Steal a wyrm-blood relic from the Elder Wyrm’s hoard before agents of the Wyrmglaive Compact arrive.</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Investigate the village of Embermere, where townsfolk awaken covered in moss — and speak in tongues.</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>A child claiming to be the missing heir of the Hollow Flame seeks shelter. Are they prophecy or pawn?</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>Explore a submerged ruin that surfaced after a quake. Locals say the dead whisper through its walls.</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>Assist King Vaelor in suppressing a secret court of nobles meeting beneath the ruined west chapel.</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>A warband of orcs has taken over a fallen temple. The Briar Assembly offers help — for a price.</td>
+</tr>
+<tr class="odd">
+<td>21</td>
+<td>Mother Talia offers to cleanse a cursed grove if you recover a relic lost in the Forest of Shadowroot.</td>
+</tr>
+<tr class="even">
+<td>22</td>
+<td>Magister Syrenth’s agents seek an unregistered caster — it’s your mentor. Do you turn them in?</td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td>The Vault of Echoes sends you to retrieve a page torn from a memory-bound tome… currently in a Wraith’s lair.</td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td>A rift opens in Eldrida’s catacombs. The Severed Circle is silent. The Synod is not.</td>
+</tr>
+<tr class="odd">
+<td>25</td>
+<td>Scout a ruined fortress where the stars never shine. A pale light glows in the vault beneath.</td>
+</tr>
+<tr class="even">
+<td>26</td>
+<td>Vel Harrowglass offers coin to sabotage a rival’s caravan. But the cargo breathes.</td>
+</tr>
+<tr class="odd">
+<td>31</td>
+<td>A dream repeats: a sealed door, a voice calling from beneath. The Briar Assembly warns you not to answer.</td>
+</tr>
+<tr class="even">
+<td>32</td>
+<td>You’re offered a mask of office by a secret society. But it won’t come off once worn.</td>
+</tr>
+<tr class="odd">
+<td>33</td>
+<td>The dragon’s lair is rumored empty. A brave few enter. Only their laughter echoes out.</td>
+</tr>
+<tr class="even">
+<td>34</td>
+<td>A hamlet swears they’re watched at night by statues that move. One statue is missing its face.</td>
+</tr>
+<tr class="odd">
+<td>35</td>
+<td>A child in Blackwood Hollow draws glyphs they shouldn’t know. The walls whisper when no one’s near.</td>
+</tr>
+<tr class="even">
+<td>36</td>
+<td>In a glade hidden by mist, you find a sword growing from a tree. It calls your name.</td>
+</tr>
+<tr class="odd">
+<td>41</td>
+<td>A page from the royal annals is missing. Its absence warps memory — yours included.</td>
+</tr>
+<tr class="even">
+<td>42</td>
+<td>A caravan went missing near the Briar border. The trail ends at a place marked only by bones.</td>
+</tr>
+<tr class="odd">
+<td>43</td>
+<td>A ghost begs you to take its place before dawn. You have until midnight to find its killer.</td>
+</tr>
+<tr class="even">
+<td>44</td>
+<td>A noble asks for protection from an assassin. But you recognize her crest from a vision of blood.</td>
+</tr>
+<tr class="odd">
+<td>45</td>
+<td>Explore the manor once held by the Last Blackwood. The doors shut behind you. The tapestries blink.</td>
+</tr>
+<tr class="even">
+<td>46</td>
+<td>A young knight requests your aid in burying his shame. The location? His old adventuring party.</td>
+</tr>
+<tr class="odd">
+<td>51</td>
+<td>A sealed vault in the Severed Circle is opening. You’re not the only one with a matching key.</td>
+</tr>
+<tr class="even">
+<td>52</td>
+<td>A series of murders mimics forgotten rituals. The last victim was buried with a false name.</td>
+</tr>
+<tr class="odd">
+<td>53</td>
+<td>A merchant caravan hires you as protection — but each stop seems staged for ambush.</td>
+</tr>
+<tr class="even">
+<td>54</td>
+<td>A tomb glows faintly at dusk. It is older than the kingdom. The name inside matches your own.</td>
+</tr>
+<tr class="odd">
+<td>55</td>
+<td>A village reports rising dead — but none have died recently. They claim the corpses are strangers.</td>
+</tr>
+<tr class="even">
+<td>56</td>
+<td>A lich offers immortality… if you bring it one memory it cannot recall.</td>
+</tr>
+<tr class="odd">
+<td>61</td>
+<td>A cult worships the statue of a weeping god. It weeps blood when you’re near.</td>
+</tr>
+<tr class="even">
+<td>62</td>
+<td>A disgraced mage offers you their mind — literally — to hide from the Synod. Will you carry them?</td>
+</tr>
+<tr class="odd">
+<td>63</td>
+<td>A vampire haunts the court of Eldrida, feeding only on nobles. You must find them before the wrong heir dies.</td>
+</tr>
+<tr class="even">
+<td>64</td>
+<td>Trolls emerge from beneath the old silver mine, seeking not gold — but names.</td>
+</tr>
+<tr class="odd">
+<td>65</td>
+<td>A cursed ring binds its bearer to the last person they lie to. You’ve just accepted it.</td>
+</tr>
+<tr class="even">
+<td>66</td>
+<td>The Forest of Shadowroot steals voices. To speak again, you must answer its question — whispered in your sleep.</td>
+</tr>
+</tbody>
+</table>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var sidebar = document.getElementById("quarto-margin-sidebar");
+  var formats = document.querySelector(".quarto-alternate-formats");
+  if (sidebar && formats) {
+    sidebar.insertBefore(formats, sidebar.firstChild);
+  }
+
+  // Rename "Typst" label to "PDF"
+  document.querySelectorAll(".quarto-alternate-formats a").forEach(function (a) {
+    a.childNodes.forEach(function (node) {
+      if (node.nodeType === Node.TEXT_NODE && node.textContent.trim() === "Typst") {
+        node.textContent = "PDF";
+      }
+    });
+  });
+});
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/zotiquestgames\.github\.io\/lonersrd\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2021-2026 <a href="https://zotiquestgames.com">Roberto Bisceglie</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/zotiquestgames/lonersrd/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

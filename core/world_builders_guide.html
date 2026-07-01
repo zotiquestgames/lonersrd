@@ -1,0 +1,2843 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Roberto Bisceglie">
+<meta name="dcterms.date" content="2026-07-01">
+
+<title>Loner: World Builder’s Guide – Loner SRD</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-d37705bb3a21d8331654a8d3f48f58ba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-87bbd3402671c853dcbde7c40b26e08b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-d37705bb3a21d8331654a8d3f48f58ba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&amp;family=Raleway:wght@700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+  @import url('https://fonts.cdnfonts.com/css/takota');
+</style>
+
+
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Loner SRD</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../core/loner-3e.html" aria-current="page"> 
+<span class="menu-text">Core Rules</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../adventure_packs/AP01_fantasy.html"> 
+<span class="menu-text">Adventure Packs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../geared_towards_loner/kwaidan_revised.html"> 
+<span class="menu-text">Geared Towards Loner</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/zotiquestgames/lonersrd"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../core/loner-3e.html">SRD</a></li><li class="breadcrumb-item"><a href="../core/world_builders_guide.html">World Builder’s Guide</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">SRD</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/loner-3e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 3e</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/loner_companion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Companion</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/character_builders_guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Character Builder’s Guide</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/world_builders_guide.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">World Builder’s Guide</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/the_path_not_taken.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Path Not Taken</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/cinematic_action.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cinematic Action</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/tales_and_tumbles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">For Kids</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Legacy Core Rules</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/legacy/loner-1e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 1e (legacy)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/legacy/loner-2e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 2e (legacy)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Adventure Packs</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP01_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fantasy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP02_space.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Space Sci-Fi Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP03_superheroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Superheroes Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP04_crime.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Crime Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP05_mystery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mystery Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP06_horror.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Horror Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP07_action_adventure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Action Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP08_spy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP09_postapoc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Post-Apocalyptic Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP10_pirates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pirates Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP11_western.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Western Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP12_cyberpunk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cyberpunk Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Adventure Packs (Legacy 2e)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP01_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fantasy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP02_space.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Space Sci-Fi Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP03_superheroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Superheroes Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP04_crime.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Crime Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP05_mystery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mystery Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP06_horror.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Horror Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP07_action_adventure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Action Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP08_spy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP09_postapoc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Post-Apocalyptic Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP10_pirates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pirates Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP11_western.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Western Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP12_cyberpunk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cyberpunk Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/legacy/kwaidan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan!</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">Geared Towards Loner games</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/kwaidan_revised.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan! (Revised)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/cog_compass.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cog &amp; Compass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/mech_requiem.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mech: Requiem</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/legends_of_camelot.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Legends of Camelot</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/pulp_adventures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pulp Adventures!</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/steel_and_sorcery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Steel &amp; Sorcery</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/dungeoneer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dungeoneer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/spacer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spacer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/arabian_nights_adventures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Arabian Nights Adventures</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/cozy_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cozy Fantasy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/savage_blades_of_xylandra.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Savage Blades of Xylandra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/pulp_heroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pulp Heroes!</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/the_shattered_reach.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Shattered Reach</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/galaxy_drifter.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Galaxy Drifter</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/urban_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Urban Fantasy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/norse_saga.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Norse Saga</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/cthulhu.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cthulhu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/paranormal_files.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Paranormal Files</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+ <span class="menu-text">Geared Towards Loner games (Legacy)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/legacy/kwaidan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan!</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#loner-world-builders-guide" id="toc-loner-world-builders-guide" class="nav-link active" data-scroll-target="#loner-world-builders-guide">Loner: World Builder’s Guide</a>
+  <ul class="collapse">
+  <li><a href="#who-this-guide-is-for" id="toc-who-this-guide-is-for" class="nav-link" data-scroll-target="#who-this-guide-is-for">Who This Guide is For</a></li>
+  <li><a href="#chapter-1-building-your-setting" id="toc-chapter-1-building-your-setting" class="nav-link" data-scroll-target="#chapter-1-building-your-setting">Chapter 1: Building Your Setting</a>
+  <ul class="collapse">
+  <li><a href="#the-core-of-a-setting" id="toc-the-core-of-a-setting" class="nav-link" data-scroll-target="#the-core-of-a-setting">The Core of a Setting</a></li>
+  <li><a href="#making-the-setting-playable" id="toc-making-the-setting-playable" class="nav-link" data-scroll-target="#making-the-setting-playable">Making the Setting Playable</a></li>
+  <li><a href="#integrating-mechanics-with-worldbuilding" id="toc-integrating-mechanics-with-worldbuilding" class="nav-link" data-scroll-target="#integrating-mechanics-with-worldbuilding">Integrating Mechanics with Worldbuilding</a></li>
+  </ul></li>
+  <li><a href="#chapter-2-character-archetypes-npcs" id="toc-chapter-2-character-archetypes-npcs" class="nav-link" data-scroll-target="#chapter-2-character-archetypes-npcs">Chapter 2: Character Archetypes &amp; NPCs</a>
+  <ul class="collapse">
+  <li><a href="#designing-protagonists-for-the-setting" id="toc-designing-protagonists-for-the-setting" class="nav-link" data-scroll-target="#designing-protagonists-for-the-setting">Designing Protagonists for the Setting</a></li>
+  <li><a href="#building-a-strong-character-framework" id="toc-building-a-strong-character-framework" class="nav-link" data-scroll-target="#building-a-strong-character-framework">Building a Strong Character Framework</a></li>
+  <li><a href="#designing-npcs-that-matter" id="toc-designing-npcs-that-matter" class="nav-link" data-scroll-target="#designing-npcs-that-matter">Designing NPCs That Matter</a></li>
+  <li><a href="#prioritize-meaningful-npcs-over-background-noise" id="toc-prioritize-meaningful-npcs-over-background-noise" class="nav-link" data-scroll-target="#prioritize-meaningful-npcs-over-background-noise"><strong>1. Prioritize Meaningful NPCs Over Background Noise</strong></a></li>
+  <li><a href="#define-npcs-based-on-their-relationship-to-the-protagonist" id="toc-define-npcs-based-on-their-relationship-to-the-protagonist" class="nav-link" data-scroll-target="#define-npcs-based-on-their-relationship-to-the-protagonist">2. Define NPCs Based on Their Relationship to the Protagonist</a></li>
+  <li><a href="#keep-npc-descriptions-minimal-but-impactful" id="toc-keep-npc-descriptions-minimal-but-impactful" class="nav-link" data-scroll-target="#keep-npc-descriptions-minimal-but-impactful">3. Keep NPC Descriptions Minimal but Impactful</a></li>
+  <li><a href="#let-npcs-evolve-based-on-the-protagonists-actions" id="toc-let-npcs-evolve-based-on-the-protagonists-actions" class="nav-link" data-scroll-target="#let-npcs-evolve-based-on-the-protagonists-actions">4. Let NPCs Evolve Based on the Protagonist’s Actions</a></li>
+  </ul></li>
+  <li><a href="#chapter-3-locations-story-hooks-random-events" id="toc-chapter-3-locations-story-hooks-random-events" class="nav-link" data-scroll-target="#chapter-3-locations-story-hooks-random-events">Chapter 3: Locations, Story Hooks &amp; Random Events</a>
+  <ul class="collapse">
+  <li><a href="#designing-meaningful-locations" id="toc-designing-meaningful-locations" class="nav-link" data-scroll-target="#designing-meaningful-locations">Designing Meaningful Locations</a></li>
+  <li><a href="#creating-compelling-story-hooks" id="toc-creating-compelling-story-hooks" class="nav-link" data-scroll-target="#creating-compelling-story-hooks">Creating Compelling Story Hooks</a></li>
+  <li><a href="#dynamic-world-events" id="toc-dynamic-world-events" class="nav-link" data-scroll-target="#dynamic-world-events">Dynamic World Events</a></li>
+  </ul></li>
+  <li><a href="#chapter-4-adapting-an-existing-setting-to-loner" id="toc-chapter-4-adapting-an-existing-setting-to-loner" class="nav-link" data-scroll-target="#chapter-4-adapting-an-existing-setting-to-loner">Chapter 4: Adapting an Existing Setting to Loner</a>
+  <ul class="collapse">
+  <li><a href="#genre-adaptation-matrix" id="toc-genre-adaptation-matrix" class="nav-link" data-scroll-target="#genre-adaptation-matrix">Genre Adaptation Matrix</a></li>
+  <li><a href="#adapting-large-rpg-campaigns-into-loner" id="toc-adapting-large-rpg-campaigns-into-loner" class="nav-link" data-scroll-target="#adapting-large-rpg-campaigns-into-loner">Adapting Large RPG Campaigns into <em>Loner</em></a></li>
+  </ul></li>
+  <li><a href="#chapter-5-crafting-your-own-d66-random-tables" id="toc-chapter-5-crafting-your-own-d66-random-tables" class="nav-link" data-scroll-target="#chapter-5-crafting-your-own-d66-random-tables">Chapter 5: Crafting Your Own D66 Random Tables</a>
+  <ul class="collapse">
+  <li><a href="#what-is-a-d66-table" id="toc-what-is-a-d66-table" class="nav-link" data-scroll-target="#what-is-a-d66-table">What is a D66 Table?</a></li>
+  <li><a href="#step-1-defining-the-purpose-of-your-table" id="toc-step-1-defining-the-purpose-of-your-table" class="nav-link" data-scroll-target="#step-1-defining-the-purpose-of-your-table">Step 1: Defining the Purpose of Your Table</a></li>
+  <li><a href="#step-2-structuring-the-table-for-maximum-usefulness" id="toc-step-2-structuring-the-table-for-maximum-usefulness" class="nav-link" data-scroll-target="#step-2-structuring-the-table-for-maximum-usefulness">Step 2: Structuring the Table for Maximum Usefulness</a></li>
+  <li><a href="#step-3-writing-the-entries" id="toc-step-3-writing-the-entries" class="nav-link" data-scroll-target="#step-3-writing-the-entries"><strong>Step 3: Writing the Entries</strong></a></li>
+  <li><a href="#step-4-testing-and-refining-the-table" id="toc-step-4-testing-and-refining-the-table" class="nav-link" data-scroll-target="#step-4-testing-and-refining-the-table"><strong>Step 4: Testing and Refining the Table</strong></a></li>
+  <li><a href="#step-5-making-your-d66-tables-fit-your-setting" id="toc-step-5-making-your-d66-tables-fit-your-setting" class="nav-link" data-scroll-target="#step-5-making-your-d66-tables-fit-your-setting">Step 5: Making Your D66 Tables Fit Your Setting</a></li>
+  <li><a href="#step-6-expanding-and-combining-tables" id="toc-step-6-expanding-and-combining-tables" class="nav-link" data-scroll-target="#step-6-expanding-and-combining-tables">Step 6: Expanding and Combining Tables**</a></li>
+  <li><a href="#final-thoughts" id="toc-final-thoughts" class="nav-link" data-scroll-target="#final-thoughts">Final Thoughts</a></li>
+  </ul></li>
+  <li><a href="#appendix-how-to-write-d66-tables" id="toc-appendix-how-to-write-d66-tables" class="nav-link" data-scroll-target="#appendix-how-to-write-d66-tables">Appendix: How to Write D66 Tables</a>
+  <ul class="collapse">
+  <li><a href="#d66-random-encounter-table-template" id="toc-d66-random-encounter-table-template" class="nav-link" data-scroll-target="#d66-random-encounter-table-template">D66 Random Encounter Table Template</a></li>
+  <li><a href="#d66-story-twist-table-template" id="toc-d66-story-twist-table-template" class="nav-link" data-scroll-target="#d66-story-twist-table-template">D66 Story Twist Table Template</a></li>
+  </ul></li>
+  <li><a href="#appendix-remixing-d66-tables-for-different-genres" id="toc-appendix-remixing-d66-tables-for-different-genres" class="nav-link" data-scroll-target="#appendix-remixing-d66-tables-for-different-genres">Appendix: Remixing D66 Tables for Different Genres</a>
+  <ul class="collapse">
+  <li><a href="#step-1-identify-the-core-function-of-the-table" id="toc-step-1-identify-the-core-function-of-the-table" class="nav-link" data-scroll-target="#step-1-identify-the-core-function-of-the-table">Step 1: Identify the Core Function of the Table</a></li>
+  <li><a href="#step-2-adjust-the-language-to-match-the-genre" id="toc-step-2-adjust-the-language-to-match-the-genre" class="nav-link" data-scroll-target="#step-2-adjust-the-language-to-match-the-genre">Step 2: Adjust the Language to Match the Genre</a></li>
+  <li><a href="#step-3-modify-the-scale-and-scope" id="toc-step-3-modify-the-scale-and-scope" class="nav-link" data-scroll-target="#step-3-modify-the-scale-and-scope">Step 3: Modify the Scale and Scope</a></li>
+  <li><a href="#step-4-swap-out-unfitting-entries" id="toc-step-4-swap-out-unfitting-entries" class="nav-link" data-scroll-target="#step-4-swap-out-unfitting-entries">Step 4: Swap Out Unfitting Entries</a></li>
+  <li><a href="#step-5-balance-high-medium-and-low-impact-results" id="toc-step-5-balance-high-medium-and-low-impact-results" class="nav-link" data-scroll-target="#step-5-balance-high-medium-and-low-impact-results"><strong>Step 5: Balance High, Medium, and Low-Impact Results</strong></a></li>
+  <li><a href="#step-6-when-to-keep-entries-vague-vs.-specific" id="toc-step-6-when-to-keep-entries-vague-vs.-specific" class="nav-link" data-scroll-target="#step-6-when-to-keep-entries-vague-vs.-specific">Step 6: When to Keep Entries Vague vs.&nbsp;Specific</a></li>
+  <li><a href="#final-thoughts-building-a-collection-of-remixable-tables" id="toc-final-thoughts-building-a-collection-of-remixable-tables" class="nav-link" data-scroll-target="#final-thoughts-building-a-collection-of-remixable-tables">Final Thoughts: Building a Collection of Remixable Tables</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/zotiquestgames/lonersrd/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="world_builders_guide.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="world_builders_guide.odt"><i class="bi bi-file"></i>OpenOffice</a></li><li><a href="world_builders_guide.epub"><i class="bi bi-file"></i>ePub</a></li><li><a href="world_builders_guide-gfm.md"><i class="bi bi-file-code"></i>Github (GFM)</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../core/loner-3e.html">SRD</a></li><li class="breadcrumb-item"><a href="../core/world_builders_guide.html">World Builder’s Guide</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Loner: World Builder’s Guide</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Roberto Bisceglie </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 1, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="loner-world-builders-guide" class="level1">
+<h1>Loner: World Builder’s Guide</h1>
+<p><em>Loner</em> invites you to tell stories in worlds of your own design. You might be drawing inspiration from a familiar setting or inventing something entirely original—either way, this guide equips you with tools to build vivid, reactive environments where characters breathe and events unfold naturally through solo play.</p>
+<p>In these pages, you’ll find tools to help you:</p>
+<ul>
+<li><strong>Develop a Setting</strong> – Shape unique worlds, from neon-lit cyberpunk sprawls to ancient, mythic landscapes.<br>
+</li>
+<li><strong>Create Character Archetypes</strong> – Design protagonists, antagonists, and allies with layered motivations and personal stakes.<br>
+</li>
+<li><strong>Build Locations &amp; Story Hooks</strong> – Populate your world with places rich in history, conflict, and opportunities for discovery.<br>
+</li>
+<li><strong>Adapt Existing Settings</strong> – Translate stories from books, films, and RPGs into engaging solo experiences.<br>
+</li>
+<li><strong>Make It All Interactive</strong> – Connect these elements in ways that make the world react and evolve as you play.</li>
+</ul>
+<section id="who-this-guide-is-for" class="level3">
+<h3 class="anchored" data-anchor-id="who-this-guide-is-for">Who This Guide is For</h3>
+<p>This guide is for anyone who wants to build engaging worlds—from seasoned worldbuilders to those looking for a clear starting point. Its flexible tools support <strong>emergent storytelling</strong>, helping you shape settings that grow and shift in unexpected ways, revealing surprises for both you and your protagonist.</p>
+</section>
+<section id="chapter-1-building-your-setting" class="level2">
+<h2 class="anchored" data-anchor-id="chapter-1-building-your-setting">Chapter 1: Building Your Setting</h2>
+<p>In <em>Loner</em>, a setting isn’t just scenery—it’s the engine of the story. It shapes the challenges your protagonist will encounter, sets the emotional tone of their journey, and brings key themes to the surface through play. Every world pulses with its own tensions, atmosphere, and expectations. This chapter guides you in crafting settings that do more than support the story—they <em>drive</em> it, making each scene vivid, textured, and alive.</p>
+<section id="the-core-of-a-setting" class="level3">
+<h3 class="anchored" data-anchor-id="the-core-of-a-setting">The Core of a Setting</h3>
+<p>Your setting is a dynamic force—more than just background, it actively shapes the story. It influences your protagonist’s choices, the obstacles they face, and the path the narrative takes. From the shattered ruins of a forgotten city to the tangled politics of a galactic empire, each world carries its own identity—its tone, tensions, and narrative pull.</p>
+<section id="theme-genre" class="level4">
+<h4 class="anchored" data-anchor-id="theme-genre">1. Theme &amp; Genre</h4>
+<p>The first step in building a setting is understanding its <strong>theme and genre</strong>. This defines the “rules” of the world — its expectations, aesthetics, and the types of challenges your protagonist will face.</p>
+<ul>
+<li><p><strong>What defines this world?</strong><br>
+Is it grounded in realism or filled with the impossible? Does it lean on ancient mysticism, cutting-edge technology, or a blend of both? Start with a broad idea — <em>a flooded world where the last cities float above the waves</em> or <em>a fractured reality where memories shape the landscape</em> — and refine from there.</p></li>
+<li><p><strong>What genre does it fall into?</strong><br>
+Classic genres like <strong>high fantasy, cyberpunk, cosmic horror, post-apocalypse, or space opera</strong> provide familiar structures. But settings can also blend genres — <em>steampunk eldritch horror</em>, <em>western noir</em>, <em>solarpunk detective fiction</em> — to create something unique.</p></li>
+<li><p><strong>How do genre conventions shape the story?</strong><br>
+A <em>dark fantasy</em> setting may have a grim, tragic tone where magic is dangerous and costly. A <em>hopepunk</em> setting might focus on communities resisting oppression, where resilience is a theme. Knowing the genre helps shape what kind of challenges, victories, and defeats your protagonist might experience.</p></li>
+<li><p><strong>Does it embrace or subvert tropes?</strong><br>
+A traditional fantasy world might have heroic knights and tyrannical sorcerers — but what if it’s the knights who are corrupt, and the sorcerers are the last defenders of justice? Twisting genre conventions can create fresh, unexpected storytelling opportunities.</p></li>
+</ul>
+<section id="example-theme-genre-in-action" class="level5">
+<h5 class="anchored" data-anchor-id="example-theme-genre-in-action">📌 Example: Theme &amp; Genre in Action</h5>
+<p><strong>Cyberpunk:</strong> <em>A cyberpunk city under a perpetual storm, where neon-lit corporations wage shadow wars for control over underground data caches. The rich live above the clouds in floating enclaves, while the streets below are ruled by rogue AIs and data smugglers. The genre leans into cyberpunk, but with a supernatural twist — ghosts exist within the network, and forgotten souls haunt corrupted servers.</em></p>
+<p><strong>Medieval Fantasy:</strong> <em>A world where ancient kingdoms clash over divine relics, and magic is feared as much as it is revered. The protagonist is a disgraced knight seeking redemption, navigating a land torn between prophecy and political intrigue. In Loner, this setting could emphasize honor-bound duels, factional disputes, and moral dilemmas, where every decision shifts the balance of power.</em></p>
+<p><strong>Hard Sci-Fi:</strong> <em>On a remote colony at the edge of explored space, corporate powers strip the land for profit while rogue scientists stumble upon reality-warping phenomena. The protagonist—a former researcher turned fugitive—carries knowledge too dangerous to share and too costly to bury. This setting thrives on scarcity, tension, and survival, where every decision edges closer to revelation or oblivion.</em></p>
+</section>
+</section>
+<section id="a-central-conflict" class="level4">
+<h4 class="anchored" data-anchor-id="a-central-conflict">2. A Central Conflict</h4>
+<p>No world is static — something is happening that forces change, tension, or unrest. Even in the most peaceful settings, there’s an undercurrent of movement that affects its inhabitants. Identifying the <strong>central conflict</strong> in your setting helps define what kind of challenges your protagonist will face.</p>
+<ul>
+<li><p><strong>What is the world’s core struggle?</strong><br>
+A world without conflict is a world without story. What drives tension? Is it a <strong>war</strong>, an <strong>oppressive government</strong>, a <strong>resource crisis</strong>, or <strong>an ancient prophecy slowly unraveling</strong>? Even if the conflict isn’t immediately apparent, it should affect the world in some way.</p></li>
+<li><p><strong>How visible is the conflict?</strong><br>
+Is it something obvious, like open war or societal collapse? Or is it hidden — whispers of rebellion, an unexplained sickness spreading through the land, or an unknown cosmic force altering reality unnoticed? Some settings thrive on <em>subtle, creeping dread</em>, while others throw conflict into the foreground.</p></li>
+<li><p><strong>How does this conflict shape daily life?</strong><br>
+Is it something everyone knows and talks about, or something only a few understand? Does it force people to take sides, adapt, or fight for survival? A setting where war is ever-present feels different from one where an old threat is slowly waking after centuries of peace.</p></li>
+<li><p><strong>How does it impact the protagonist?</strong><br>
+The conflict should always be relevant to your protagonist, even if they don’t initially realize it. Are they caught in the middle of an ongoing struggle, or are they an outsider looking in? Are they fighting for survival, for justice, or simply to understand the world they’re trapped in?</p></li>
+</ul>
+<section id="example-central-conflict-in-action" class="level5">
+<h5 class="anchored" data-anchor-id="example-central-conflict-in-action">📌 Example: Central Conflict in Action</h5>
+<p><em>The city was built around a rift in reality — a wound in space-time that leaks fragments of alternate dimensions. The government insists it can be contained, but the lower districts have begun to twist, architecture warping overnight, people waking up with memories of lives they never lived. An underground faction believes the rift is alive — that it is learning, that it is watching. The protagonist? A courier hired to deliver a package that should not exist — one that whispers in their hands.</em></p>
+</section>
+</section>
+<section id="tone-mood" class="level4">
+<h4 class="anchored" data-anchor-id="tone-mood">3. Tone &amp; Mood</h4>
+<p>The <strong>tone and mood</strong> of your setting dictate how the world feels. It affects how challenges are presented, how NPCs interact, and the overall emotional weight of the story.</p>
+<ul>
+<li><p><strong>What kind of atmosphere does this world evoke?</strong><br>
+Does it feel <em>vibrant and full of wonder</em>, like a vast fantasy realm teeming with adventure? Or is it <em>tense and suffocating</em>, like a crumbling society on the verge of collapse? Consider if the world is <strong>flourishing</strong>, <strong>in decay</strong>, or <strong>balanced precariously before a major shift</strong>—each mood carries different narrative weight and emotional texture.</p></li>
+<li><p><strong>What emotions should the player feel?</strong><br>
+Should the experience spark <em>awe and curiosity</em>, <em>tension and unease</em>, or <em>urgency and exhilaration</em>? A strong setting stirs the player’s emotional core—whether through the stillness of a derelict station echoing with secrets or the charged atmosphere of a society on the brink of revolt.</p></li>
+<li><p><strong>Does the world encourage hope or despair?</strong><br>
+In some settings, <strong>the world can be saved</strong> — people fight back, there is light at the end of the tunnel. In others, <strong>entropy is inevitable</strong> — civilization is crumbling, the gods are dead, and the protagonist is simply trying to survive as long as possible.</p></li>
+<li><p><strong>How does the mood shape the way stories unfold?</strong><br>
+A <em>lighthearted, swashbuckling</em> setting will have different challenges than a <em>cold, post-apocalyptic wasteland</em>. In one, characters might leap across rooftops in daring escapes; in the other, they might huddle in the dark, rationing the last of their supplies.</p></li>
+</ul>
+<section id="example-tone-mood-in-action" class="level5">
+<h5 class="anchored" data-anchor-id="example-tone-mood-in-action">📌 Example: Tone &amp; Mood in Action</h5>
+<p><em>A city that never sleeps, where neon lights flicker in endless rain, where androids and humans fight for a place in a world that sees them as disposable. The tone is bleak and melancholic — hope exists, but it is small, fragile, and easily lost. Trust is currency, and betrayal is inevitable.</em></p>
+</section>
+</section>
+<section id="the-role-of-your-protagonist" class="level4">
+<h4 class="anchored" data-anchor-id="the-role-of-your-protagonist">4. The Role of Your Protagonist</h4>
+<p>The protagonist is the lens through which the player experiences the setting. Their place in the world influences how they interact with it, what conflicts they face, and how they navigate challenges.</p>
+<ul>
+<li><p><strong>What kinds of people exist in this world?</strong><br>
+Is it a place of warriors and sorcerers, smugglers and rebels, explorers and scientists? What types of individuals rise to prominence, and which are ignored or cast aside?</p></li>
+<li><p><strong>Is the protagonist part of the world or an outsider?</strong><br>
+Are they embedded in its culture, or do they stand apart from it? Are they a <strong>renegade breaking free from a corrupt society</strong>, a <strong>scholar uncovering lost knowledge</strong>, or simply <strong>someone trying to survive</strong>?</p></li>
+<li><p><strong>Are they an agent of change or a reluctant participant?</strong><br>
+Some protagonists <strong>drive</strong> the story forward — they are revolutionaries, explorers, or investigators drawn into danger. Others simply <strong>react</strong> — survivors, refugees, or mercenaries who get caught in something larger than themselves.</p></li>
+</ul>
+<section id="example-the-protagonists-role-in-action" class="level5">
+<h5 class="anchored" data-anchor-id="example-the-protagonists-role-in-action">📌 Example: The Protagonist’s Role in Action</h5>
+<p><em>In a drowned world where the last cities float above the endless ocean, the protagonist is a salvager — a diver who retrieves artifacts from the sunken past. Some believe they’re searching for treasure. In truth, they’re looking for something else — evidence that the world before the flood can still be saved.</em></p>
+</section>
+</section>
+<section id="genre-bending" class="level4">
+<h4 class="anchored" data-anchor-id="genre-bending">5. Genre-Bending</h4>
+<p>Blending genres creates fresh, unexpected storytelling opportunities, allowing players to explore settings that subvert expectations. Combining different genres forces unique thematic and mechanical challenges, resulting in worlds that feel both novel and immersive.</p>
+<ul>
+<li><p><strong>What core elements define each genre?</strong><br>
+Understanding the fundamental tropes and aesthetics of a genre is key to successfully blending it with another. What defines a <em>western</em>? What makes <em>horror</em> unsettling? Identifying these foundations will help create a setting that maintains coherence while embracing its hybrid nature.</p></li>
+<li><p><strong>How do genres complement or contrast?</strong><br>
+Some genres naturally enhance each other, such as <em>steampunk noir</em>, where technological advancements create an atmosphere of mystery and corruption. Others, like <em>horror western</em>, require balance — ensuring that the supernatural elements don’t overpower the desolate, lawless frontier setting but instead amplify its tension.</p></li>
+<li><p><strong>How does the protagonist fit into this hybrid world?</strong><br>
+The blending of genres should directly impact the protagonist’s role. A <em>horror western</em> might feature a wandering gunslinger who unknowingly hunts creatures beyond human understanding, while a <em>steampunk noir</em> could follow a detective navigating a city of industrial smog and shadowy conspiracies. The protagonist’s journey should reflect the thematic tension created by the genre mix.</p></li>
+</ul>
+<section id="example-blending-genres-in-action" class="level5">
+<h5 class="anchored" data-anchor-id="example-blending-genres-in-action">📌 Example: Blending Genres in Action</h5>
+<p><em>The frontier town of Black Hollow stands alone in the wastelands, where the sky burns red at dusk and the wind carries whispers from the mines below. The protagonist, a bounty hunter wielding a cursed six-shooter, tracks outlaws through desolate canyons—only to realize their targets may not be human at all. Legends speak of an ancient hunger beneath the sands, and surviving this place means understanding a world that defies both mortal law and natural order.</em></p>
+</section>
+</section>
+</section>
+<section id="making-the-setting-playable" class="level3">
+<h3 class="anchored" data-anchor-id="making-the-setting-playable">Making the Setting Playable</h3>
+<p>A great setting in <em>Loner</em> isn’t just a backdrop — it’s a living, reactive force that shapes the story as much as the protagonist does. Instead of building an encyclopedic world before play begins, think of the setting as a <strong>question waiting to be answered</strong>. The more room you leave for discovery, the more the story will feel organic and surprising.</p>
+<section id="build-broad-strokes-not-a-blueprint" class="level4">
+<h4 class="anchored" data-anchor-id="build-broad-strokes-not-a-blueprint">1. Build Broad Strokes, Not a Blueprint</h4>
+<p>One of the biggest pitfalls in worldbuilding is <strong>over-preparing</strong> — detailing every city, history, and minor political conflict before even playing. In <em>Loner</em>, the best worlds are <strong>sketched, not carved in stone</strong>. Start with the major elements — <strong>theme, conflict, mood, and the protagonist’s place</strong> — and let the specifics emerge through play.</p>
+<ul>
+<li><strong>Leave gaps for discovery.</strong> Instead of detailing every kingdom, define just one or two and let the rest take shape when the story demands it. Instead of writing a full timeline, focus on a <strong>single pivotal event</strong> that shaped the world.<br>
+</li>
+<li><strong>Define what makes the world unique.</strong> If there’s magic, how does it work? If it’s a sci-fi setting, what’s the technological level? If it’s a horror setting, what are the rules of the unknown? A few core principles will do more for immersion than pages of lore.<br>
+</li>
+<li><strong>Start with a mystery, not an answer.</strong> What’s something about the world that <strong>even its inhabitants don’t fully understand</strong>? A lost civilization, a missing colony ship, a prophecy no one believes in anymore — these details fuel curiosity and give the story room to breathe.</li>
+</ul>
+<section id="example-loose-worldbuilding-in-action" class="level5">
+<h5 class="anchored" data-anchor-id="example-loose-worldbuilding-in-action">📌 Example: Loose Worldbuilding in Action</h5>
+<blockquote class="blockquote">
+<p><em>Instead of creating a complete political history of an empire, define a single event:</em></p>
+</blockquote>
+<blockquote class="blockquote">
+<p><em>“The sky broke open a century ago, and something fell through. No one knows what it was, but it changed the land forever.”</em></p>
+</blockquote>
+<p>This single statement creates <strong>questions</strong> rather than giving exhaustive answers: What fell? Is it still out there? What are its effects? The world is already engaging before anything is even explored.</p>
+</section>
+</section>
+<section id="make-the-world-reactive" class="level4">
+<h4 class="anchored" data-anchor-id="make-the-world-reactive">2. Make the World Reactive</h4>
+<p>A good setting doesn’t just sit there — it <strong>pushes back</strong>, challenges the protagonist, and evolves in response to their actions. Instead of treating the world as a fixed stage, think of it as a force that <strong>acts, shifts, and surprises</strong>.</p>
+<ul>
+<li><strong>Factions should have agendas.</strong> If you introduce a faction, don’t just describe their <strong>history</strong> — define what they want and what they’re willing to do to get it. A secretive mage cabal is more interesting when you know <strong>they’ve just lost one of their most dangerous artifacts</strong> and will stop at nothing to retrieve it.<br>
+</li>
+<li><strong>Actions should have consequences.</strong> If the protagonist kills a crime lord, does a power vacuum emerge? If they expose a secret, do others take notice? Let the world respond dynamically so choices feel meaningful.<br>
+</li>
+<li><strong>Nothing is static.</strong> A ruined city might have once been abandoned, but what if new settlers have begun to reclaim it? A planet once thought lifeless might suddenly show signs of activity. Worlds that change and react feel alive.</li>
+</ul>
+<section id="example-a-reactive-world-in-action" class="level5">
+<h5 class="anchored" data-anchor-id="example-a-reactive-world-in-action">📌 Example: A Reactive World in Action</h5>
+<blockquote class="blockquote">
+<p><em>The protagonist steals a relic from an abandoned monastery. Unknown to them, this relic was keeping an ancient force dormant. Days later, whispers of strange occurrences begin — people disappearing, shadows moving unnaturally. The world is no longer the same because of their actions.</em></p>
+</blockquote>
+</section>
+</section>
+<section id="let-the-world-generate-storylines" class="level4">
+<h4 class="anchored" data-anchor-id="let-the-world-generate-storylines">3. Let the World Generate Storylines</h4>
+<p>A rich setting naturally <strong>creates</strong> stories. Instead of planning a single narrative path, define <strong>forces at work</strong>, tensions that can shift, and unknowns waiting to be discovered.</p>
+<ul>
+<li><strong>What power struggles exist?</strong> Are factions on the brink of war? Are old rulers being replaced by new ones? Who is gaining or losing influence?<br>
+</li>
+<li><strong>What is being uncovered?</strong> Are lost civilizations being rediscovered? Is forbidden technology resurfacing? Is an old mystery finally being solved?<br>
+</li>
+<li><strong>What is changing?</strong> Is magic returning after centuries of dormancy? Is an empire crumbling? Is an apocalyptic event unfolding in slow motion?</li>
+</ul>
+<section id="example-a-world-that-generates-stories" class="level5">
+<h5 class="anchored" data-anchor-id="example-a-world-that-generates-stories">📌 Example: A World That Generates Stories</h5>
+<blockquote class="blockquote">
+<p><em>A city has stood untouched for centuries, hidden by an unknown force. Suddenly, for reasons no one understands, its gates have opened.</em></p>
+</blockquote>
+<p>This single change introduces <strong>multiple storylines</strong> — Who will claim the city? What secrets lie inside? Why was it sealed away in the first place?</p>
+<p>Instead of a pre-scripted plot, this simple event invites countless possibilities, allowing the world to shape itself naturally as play unfolds.</p>
+</section>
+</section>
+</section>
+<section id="integrating-mechanics-with-worldbuilding" class="level3">
+<h3 class="anchored" data-anchor-id="integrating-mechanics-with-worldbuilding">Integrating Mechanics with Worldbuilding</h3>
+<p><em>Loner</em>’s <strong>Core Rules</strong> and <strong>Companion Guide</strong> introduce structured storytelling through the use of <strong>tags, traits, and the Oracle system</strong>. By integrating this directly into worldbuilding, settings <strong>feel dynamic</strong> rather than pre-scripted, allowing solo players to experience emergent storytelling. This approach makes every world unpredictable, ensuring that both the <strong>Oracle and player choices shape the narrative</strong>.</p>
+<section id="using-the-oracle-to-drive-world-events" class="level4">
+<h4 class="anchored" data-anchor-id="using-the-oracle-to-drive-world-events">1. Using the Oracle to Drive World Events</h4>
+<p>The Oracle isn’t just a tool for character actions — it can shape the world itself. Instead of defining every detail beforehand, use Oracle rolls to introduce <strong>unforeseen consequences, faction shifts, and environmental changes</strong>.</p>
+<ul>
+<li><p><strong>Faction Power Dynamics</strong>: When a faction gains or loses influence, let the Oracle decide:</p>
+<ul>
+<li><em>“Has the ruling council lost control over the city?”</em> → If the answer is <em>Yes, and…</em>, perhaps a rival faction moves in, changing the landscape.<br>
+</li>
+<li><em>“Does the underground rebellion successfully disrupt the government?”</em> → If the answer is <em>No, but…</em>, maybe they fail, but new splinter groups emerge, creating tension.</li>
+</ul></li>
+<li><p><strong>Environmental Shifts</strong>: Settings should feel <strong>alive and reactive</strong>. Instead of setting world events in stone, introduce rolling uncertainty:</p>
+<ul>
+<li><em>“Has the wasteland storm reached the city?”</em> → A <em>Yes, and…</em> result might mean the settlement is now cut off from the outside world.<br>
+</li>
+<li><em>“Is the ancient temple still standing after the last earthquake?”</em> → A <em>No, and…</em> means it has collapsed, but perhaps revealing new ruins below.</li>
+</ul></li>
+</ul>
+</section>
+<section id="tying-setting-creation-to-mechanics" class="level4">
+<h4 class="anchored" data-anchor-id="tying-setting-creation-to-mechanics">2. Tying Setting Creation to Mechanics</h4>
+<p>Every setting choice should influence <strong>character creation, exploration, and progression</strong>. Here’s how:</p>
+<ul>
+<li><p><strong>Tags as Setting Elements</strong>:</p>
+<ul>
+<li>Locations, factions, and objects should have <strong>tags</strong> that define how they interact with the protagonist.<br>
+</li>
+<li>Example: A <strong>Drowned World</strong> setting might introduce <em>“Submerged Ruins” (treacherous footing, hidden artifacts)</em> or <em>“Survivor Enclaves” (secretive, resource-starved groups).</em><br>
+</li>
+<li>The Oracle can determine if these <strong>tags</strong> create advantages or obstacles in gameplay.</li>
+</ul></li>
+<li><p><strong>Setting-Based Challenges</strong>:</p>
+<ul>
+<li>Instead of generic skill checks, ensure challenges reflect the world’s unique aspects.<br>
+</li>
+<li><em>Example: In a city built on floating platforms, every chase sequence involves unstable terrain and vertigo-inducing jumps.</em><br>
+</li>
+<li>The <strong>Oracle</strong> can introduce <strong>new complications</strong>, making the world feel <strong>emergent rather than static</strong>.</li>
+</ul></li>
+</ul>
+</section>
+<section id="examples-of-setting-influencing-mechanics" class="level4">
+<h4 class="anchored" data-anchor-id="examples-of-setting-influencing-mechanics">📌 Examples of Setting Influencing Mechanics</h4>
+<p>A setting’s details should <strong>actively impact the mechanics of play</strong>. Consider these examples:</p>
+<p>✅ <strong>Fantasy Noir Setting</strong></p>
+<blockquote class="blockquote">
+<ul>
+<li><em>Core Conflict:</em> The city’s noble houses and criminal underworld struggle for dominance.<br>
+</li>
+<li><em>Oracle Question:</em> <em>“Does House Verdan suspect the protagonist’s investigation?”</em><br>
+</li>
+<li><em>Possible Result:</em> <em>Yes, but…</em> → They suspect <em>someone</em>, but blame a rival faction instead.</li>
+</ul>
+</blockquote>
+<p>✅ <strong>Post-Apocalyptic Wasteland</strong></p>
+<blockquote class="blockquote">
+<ul>
+<li><em>Environmental Hazard:</em> Radiation storms force settlements to relocate.<br>
+</li>
+<li><em>Oracle Question:</em> <em>“Has the storm made the highway unpassable?”</em><br>
+</li>
+<li><em>Possible Result:</em> <em>No, but…</em> → The storm has <strong>weakened bridges</strong>, making travel dangerous.</li>
+</ul>
+</blockquote>
+<p>✅ <strong>Hard Sci-Fi Colony Setting</strong></p>
+<blockquote class="blockquote">
+<ul>
+<li><em>Faction Tension:</em> Corporate control vs.&nbsp;local rebellion.<br>
+</li>
+<li><em>Oracle Question:</em> <em>“Has the resistance intercepted corporate communications?”</em><br>
+</li>
+<li><em>Possible Result:</em> <em>Yes, and…</em> → They find <strong>a hidden distress signal</strong>, complicating alliances.</li>
+</ul>
+</blockquote>
+</section>
+</section>
+</section>
+<section id="chapter-2-character-archetypes-npcs" class="level2">
+<h2 class="anchored" data-anchor-id="chapter-2-character-archetypes-npcs">Chapter 2: Character Archetypes &amp; NPCs</h2>
+<p>A world without characters is nothing more than an empty stage. It’s the protagonist and those they meet who animate the setting, driving its conflicts, forging alliances, and marking its key turning points. In <em>Loner</em>, every character—hero, rival, or passerby—should emerge organically from the world itself, not exist as a detached bundle of traits.</p>
+<p>A well-crafted protagonist isn’t simply placed in the setting—they <strong>belong</strong> to it. Their story is rooted in the world’s conflicts, culture, and history—be it a revolutionary aiming to dismantle a corrupt regime, a drifter searching for belonging, or an exile facing the ghosts of their former life. Their journey should feel inseparable from the world that shaped them.</p>
+<section id="designing-protagonists-for-the-setting" class="level3">
+<h3 class="anchored" data-anchor-id="designing-protagonists-for-the-setting">Designing Protagonists for the Setting</h3>
+<p>A protagonist is more than just a <strong>stateless figure dropped into a setting</strong> — they are shaped by the world they come from. The best characters feel like they <strong>couldn’t exist anywhere else</strong>. Their struggles, goals, and even their flaws should reflect the world around them.</p>
+<ul>
+<li><p><strong>What kind of people thrive (or struggle) in this world?</strong><br>
+Is this a setting where warriors rule and scholars are forgotten? Or is it a world where knowledge is power and might alone is meaningless? The protagonist’s role should fit the setting’s <strong>power dynamics</strong>.</p></li>
+<li><p><strong>Are they an outcast or an insider?</strong><br>
+Some protagonists challenge the norms of their world. Others are deeply entrenched in them but begin to question their place. A character who has <strong>something to fight for</strong> — or fight against — creates natural tension.</p></li>
+<li><p><strong>What kind of tension exists in their role?</strong><br>
+A protagonist fully aligned with the world around them has little to push against. Tension arises when they stand <strong>on the brink of something greater</strong>—a revelation waiting to surface, a rebellion gaining ground, or a narrow window for escape. This sense of imbalance fuels momentum and keeps the story alive.</p></li>
+</ul>
+<section id="example-a-protagonist-shaped-by-the-world" class="level5">
+<h5 class="anchored" data-anchor-id="example-a-protagonist-shaped-by-the-world">📌 Example: A Protagonist Shaped by the World</h5>
+<blockquote class="blockquote">
+<p><em>In a world where gods walk among mortals, the protagonist is an exile from a theocratic city-state, branded a heretic for questioning divine law. They know the gods are not what they seem — but proving it means being hunted by the very faith they once served.</em></p>
+</blockquote>
+</section>
+</section>
+<section id="building-a-strong-character-framework" class="level3">
+<h3 class="anchored" data-anchor-id="building-a-strong-character-framework">Building a Strong Character Framework</h3>
+<p>A <em>Loner</em> protagonist is built from a few essential elements. These aren’t rigid stats but <strong>narrative tools</strong>, helping define how they interact with the world and what drives their actions.</p>
+<section id="concept-the-core-of-the-character" class="level4">
+<h4 class="anchored" data-anchor-id="concept-the-core-of-the-character">1. Concept: The Core of the Character</h4>
+<p>A strong <strong>concept</strong> distills the essence of the protagonist into a single, evocative phrase. It’s the first thing that defines them, shaping how they engage with the world.</p>
+<ul>
+<li><strong>Avoid generic labels.</strong> Instead of “Mercenary,” try <strong>“Disillusioned War Veteran”</strong> or <strong>“Debt-Ridden Blade for Hire.”</strong><br>
+</li>
+<li><strong>Make it immediately suggestive.</strong> The best concepts hint at the character’s personality, history, or conflicts.<br>
+</li>
+<li><strong>Keep it compact.</strong> A good concept is short, memorable, and <strong>sparks story ideas</strong> instantly.</li>
+</ul>
+<section id="example-strong-character-concepts" class="level5">
+<h5 class="anchored" data-anchor-id="example-strong-character-concepts">📌 Example: Strong Character Concepts</h5>
+<p>✅ <em>Haunted Relic Hunter</em> → Implies a past mistake, supernatural dangers, and obsession.<br>
+✅ <em>Loyal Spy in Enemy Territory</em> → Suggests conflict, intrigue, and betrayal.<br>
+✅ <em>Exiled Warlock Seeking Redemption</em> → A fall from grace, a quest for atonement, and dangerous magic.</p>
+</section>
+</section>
+<section id="skills-weaknesses-strengths-that-shape-play" class="level4">
+<h4 class="anchored" data-anchor-id="skills-weaknesses-strengths-that-shape-play">2. Skills &amp; Weaknesses: Strengths That Shape Play</h4>
+<p>Skills in <em>Loner</em> don’t exist as numerical bonuses; they’re <strong>narrative permissions</strong> that define what a character excels at. Likewise, weaknesses aren’t just drawbacks — they <strong>create tension and drama</strong> in the story.</p>
+<ul>
+<li><strong>Pick two defining skills.</strong> These should reflect what makes the character unique and <strong>how they solve problems.</strong><br>
+</li>
+<li><strong>Choose one frailty.</strong> This is where the real drama comes from — a flaw, limitation, or belief that complicates their journey.</li>
+</ul>
+<section id="example-skills-weaknesses-in-action" class="level5">
+<h5 class="anchored" data-anchor-id="example-skills-weaknesses-in-action">📌 Example: Skills &amp; Weaknesses in Action</h5>
+<blockquote class="blockquote">
+<p><em>Sarai, a Fallen Knight</em></p>
+<ul>
+<li><strong>Skills:</strong> <em>Blademaster</em> (Unmatched with a sword), <em>Fearless</em> (Does not hesitate in battle)<br>
+</li>
+<li><strong>Weakness:</strong> <em>Bound by Honor</em> (Cannot break an oath, even when it works against her)</li>
+</ul>
+</blockquote>
+</section>
+</section>
+<section id="motive-goal-why-they-keep-moving" class="level4">
+<h4 class="anchored" data-anchor-id="motive-goal-why-they-keep-moving">3. Motive &amp; Goal: Why They Keep Moving</h4>
+<p>A great goal isn’t static — it <strong>evolves over time</strong>. Early in the story, it might be as simple as survival. Later, it might shift to <strong>changing the world itself.</strong> A protagonist without a <strong>reason to act</strong> is just a bystander in their own world. Their <strong>motive</strong> and <strong>goal</strong> define why they push forward, even when the odds are against them.</p>
+<ul>
+<li><strong>Motive:</strong> The personal drive behind their actions. Is it revenge? Redemption? A desperate search for answers?<br>
+</li>
+<li><strong>Goal:</strong> What they are actively trying to achieve. A goal isn’t just a vague aspiration — it’s something they <strong>can succeed or fail at.</strong></li>
+</ul>
+<section id="example-a-goal-that-evolves" class="level5">
+<h5 class="anchored" data-anchor-id="example-a-goal-that-evolves">📌 Example: A Goal That Evolves</h5>
+<blockquote class="blockquote">
+<p><em>A fugitive scientist’s goal begins as “escape the corporate agents hunting them.” But after discovering classified data, their goal shifts to “expose the conspiracy before they’re silenced.”</em></p>
+</blockquote>
+</section>
+</section>
+<section id="nemesis-what-stands-in-their-way" class="level4">
+<h4 class="anchored" data-anchor-id="nemesis-what-stands-in-their-way">4. Nemesis: What Stands in Their Way</h4>
+<p>Every good story needs an <strong>opposing force</strong> — something that challenges the protagonist’s beliefs, strategies, or survival itself. A nemesis doesn’t have to be a single person; it could be an <strong>organization, an ideology, or even the world itself.</strong></p>
+<ul>
+<li><strong>A Nemesis Should Be Personal.</strong> The best antagonists don’t just block the protagonist’s goal; they <strong>make it painful</strong>. A former friend turned rival, a government that sees them as a traitor, or a past mistake that keeps catching up to them.<br>
+</li>
+<li><strong>A Nemesis Should Challenge Their Beliefs.</strong> If the protagonist is an idealist, their nemesis might be a hardened cynic. If they seek justice, their nemesis might reveal uncomfortable truths about power.<br>
+</li>
+<li><strong>A Nemesis Can Evolve.</strong> A minor threat can grow into a major adversary over time. A former ally can become an enemy. A larger force can shift its focus, making the protagonist a target.</li>
+</ul>
+<section id="example-strong-nemeses" class="level5">
+<h5 class="anchored" data-anchor-id="example-strong-nemeses">📌 Example: Strong Nemeses</h5>
+<blockquote class="blockquote">
+<p>✅ <strong>The Faithful Hounds</strong> → A religious order hunting the protagonist for blasphemy.<br>
+✅ <strong>The Hollow King</strong> → A tyrant who has ruled for centuries, who the protagonist was once loyal to.<br>
+✅ <strong>The Dying Sun</strong> → The world itself is collapsing, and nothing can stop it — only delay it.</p>
+</blockquote>
+</section>
+</section>
+</section>
+<section id="designing-npcs-that-matter" class="level3">
+<h3 class="anchored" data-anchor-id="designing-npcs-that-matter">Designing NPCs That Matter</h3>
+<p>In <em>Loner</em>, NPCs shouldn’t just exist — they should <strong>matter</strong>. A world cluttered with nameless, static figures does little for storytelling. Instead of overwhelming the setting with an exhaustive cast, focus on a <strong>handful of meaningful characters</strong> — people who shape the protagonist’s journey, create tension, and challenge their choices.</p>
+</section>
+<section id="prioritize-meaningful-npcs-over-background-noise" class="level3">
+<h3 class="anchored" data-anchor-id="prioritize-meaningful-npcs-over-background-noise"><strong>1. Prioritize Meaningful NPCs Over Background Noise</strong></h3>
+<p>Not every shopkeeper or minor official needs a detailed backstory. If an NPC exists only to serve a one-time function, they don’t need extensive characterization. Instead, direct your attention to <strong>characters who push the story forward</strong>.</p>
+<ul>
+<li><strong>Who influences the protagonist’s path?</strong> NPCs that <strong>reveal information, provide obstacles, or offer alliances</strong> are worth detailing.<br>
+</li>
+<li><strong>Who represents the world’s tensions?</strong> A corrupt official enforcing an unjust system, a revolutionary fighting for change, or a scientist racing against time — all of these NPCs <strong>embody the world’s struggles</strong>.<br>
+</li>
+<li><strong>Who brings personal stakes?</strong> NPCs with emotional ties to the protagonist — whether a long-lost friend, a former mentor, or a bitter rival — <strong>make decisions feel weightier</strong>.</li>
+</ul>
+<section id="example-a-focused-cast-of-npcs" class="level5">
+<h5 class="anchored" data-anchor-id="example-a-focused-cast-of-npcs">📌 Example: A Focused Cast of NPCs</h5>
+<blockquote class="blockquote">
+<p><em>In a cyberpunk dystopia, instead of detailing every corporate executive, you define:</em></p>
+<ul>
+<li><strong>Dr.&nbsp;Veylan</strong> – A cybernetics researcher who holds the key to unlocking restricted technology.<br>
+</li>
+<li><strong>Wren</strong> – A street-level hacker with ties to an underground resistance.<br>
+</li>
+<li><strong>Marshal Graves</strong> – A bounty hunter tasked with eliminating “unregistered” individuals, including the protagonist.</li>
+</ul>
+</blockquote>
+<p>These three NPCs create <strong>story momentum</strong> — one is a source of knowledge, one is a potential ally, and one is a direct threat.</p>
+</section>
+</section>
+<section id="define-npcs-based-on-their-relationship-to-the-protagonist" class="level3">
+<h3 class="anchored" data-anchor-id="define-npcs-based-on-their-relationship-to-the-protagonist">2. Define NPCs Based on Their Relationship to the Protagonist</h3>
+<p>NPCs don’t exist in a vacuum — they should <strong>intersect with the protagonist’s journey in meaningful ways</strong>. The best way to create an impactful NPC is to define <strong>what they want</strong> and <strong>how that conflicts or aligns with the protagonist’s goals</strong>.</p>
+<p>NPCs generally fall into four key roles:</p>
+<section id="allies-those-who-support-the-protagonist-but-not-without-their-own-goals." class="level4">
+<h4 class="anchored" data-anchor-id="allies-those-who-support-the-protagonist-but-not-without-their-own-goals.">📌 Allies** – Those who support the protagonist, but not without their own goals.</h4>
+<ul>
+<li><strong>What do they provide?</strong> Do they offer resources, knowledge, or protection?<br>
+</li>
+<li><strong>What do they expect in return?</strong> True alliances require mutual benefit — if an ally helps, there’s likely a cost.</li>
+</ul>
+<p><strong>Example:</strong> <em>Selene, a smuggler who provides safe passage in exchange for favors she’ll call in later.</em></p>
+</section>
+<section id="rivals-those-who-compete-with-the-protagonist-creating-tension." class="level4">
+<h4 class="anchored" data-anchor-id="rivals-those-who-compete-with-the-protagonist-creating-tension.">📌 Rivals** – Those who compete with the protagonist, creating tension.</h4>
+<ul>
+<li><strong>Are they hostile or just opposition?</strong> Not every rival is a villain — some might have conflicting but understandable goals.<br>
+</li>
+<li><strong>Can they become allies?</strong> A rival today might be an uneasy partner tomorrow.</li>
+</ul>
+<p><strong>Example:</strong> <em>Rylos, a rogue scavenger who always seems to be one step ahead in the hunt for lost artifacts.</em></p>
+</section>
+<section id="informants-those-who-provide-knowledge-but-not-always-truth." class="level4">
+<h4 class="anchored" data-anchor-id="informants-those-who-provide-knowledge-but-not-always-truth.">📌 Informants** – Those who provide knowledge, but not always truth.</h4>
+<ul>
+<li><strong>What do they know that the protagonist doesn’t?</strong><br>
+</li>
+<li><strong>Can they be trusted?</strong> Some informants provide reliable intel, while others manipulate for their own ends.</li>
+</ul>
+<p><strong>Example:</strong> <em>Father Kain, a priest with ties to an underground network, who leaks valuable information — but always with a cryptic warning.</em></p>
+</section>
+<section id="mentors-those-who-shape-the-protagonists-path-for-better-or-worse." class="level4">
+<h4 class="anchored" data-anchor-id="mentors-those-who-shape-the-protagonists-path-for-better-or-worse.">📌 Mentors** – Those who shape the protagonist’s path, for better or worse.</h4>
+<ul>
+<li><strong>Do they still practice what they teach?</strong> Some mentors are relics of another era, watching their lessons become obsolete.<br>
+</li>
+<li><strong>What do they fear about their own legacy?</strong> Mentors often worry about what their students will become.</li>
+</ul>
+<p><strong>Example:</strong> <em>Master Sothis, an old warrior who once fought for the empire but now trains rebels in secret.</em></p>
+</section>
+</section>
+<section id="keep-npc-descriptions-minimal-but-impactful" class="level3">
+<h3 class="anchored" data-anchor-id="keep-npc-descriptions-minimal-but-impactful">3. Keep NPC Descriptions Minimal but Impactful</h3>
+<p>An NPC doesn’t need paragraphs of history to be compelling. They need <strong>a defining trait, an agenda, and a connection to the protagonist</strong>.</p>
+<p>A simple but effective format:</p>
+<p>📛 <strong>Name</strong> – A short, memorable name.<br>
+📝 <strong>Concept</strong> – A brief description of who they are.<br>
+🎯 <strong>Agenda</strong> – What they want, and how that impacts the protagonist.<br>
+⚖️ <strong>Relationship</strong> – How they view the protagonist (ally, rival, neutral, manipulative, etc.).<br>
+🔀 <strong>Evolving Potential</strong> – How they might change over time.</p>
+<section id="example-minimalist-npc-profiles" class="level5">
+<h5 class="anchored" data-anchor-id="example-minimalist-npc-profiles">📌 Example: Minimalist NPC Profiles</h5>
+<p><strong>Ezran the Smiling Fox</strong></p>
+<ul>
+<li>📝 <em>A corrupt bureaucrat who survives by playing all sides.</em><br>
+</li>
+<li>🎯 <em>Wants to stay ahead of every power shift.</em><br>
+</li>
+<li>⚖️ <em>Sees the protagonist as useful — for now.</em><br>
+</li>
+<li>🔀 <em>If betrayed, becomes a dangerous enemy with political influence.</em></li>
+</ul>
+<p><strong>Captain Reyna Doss</strong></p>
+<ul>
+<li>📝 <em>An ex-military officer turned mercenary leader.</em><br>
+</li>
+<li>🎯 <em>Wants to reclaim her lost reputation through one final mission.</em><br>
+</li>
+<li>⚖️ <em>Views the protagonist as a wildcard — an asset or a liability.</em><br>
+</li>
+<li>🔀 <em>Might become a reluctant ally if their goals align.</em></li>
+</ul>
+</section>
+</section>
+<section id="let-npcs-evolve-based-on-the-protagonists-actions" class="level3">
+<h3 class="anchored" data-anchor-id="let-npcs-evolve-based-on-the-protagonists-actions">4. Let NPCs Evolve Based on the Protagonist’s Actions</h3>
+<p>NPCs should feel <strong>as alive as the protagonist</strong> — they grow, adapt, and sometimes change in ways the player doesn’t expect. A static world is a boring world. NPCs should <strong>change in response to what happens</strong> — alliances should be tested, betrayals should matter, and relationships should shift dynamically.</p>
+<ul>
+<li><strong>If an ally is betrayed, do they become a rival?</strong> A former friend turned enemy adds high emotional stakes.<br>
+</li>
+<li><strong>If a rival is spared, do they change their outlook?</strong> A second chance might create an unexpected alliance — or a lingering debt.<br>
+</li>
+<li><strong>If an informant is exposed, what happens?</strong> Do they disappear, retaliate, or warn the protagonist of bigger threats?</li>
+</ul>
+<section id="example-an-npcs-evolution-in-action" class="level5">
+<h5 class="anchored" data-anchor-id="example-an-npcs-evolution-in-action">📌 Example: An NPC’s Evolution in Action</h5>
+<p><em>At the start of the story, the protagonist knows Wren as a street hacker who sells stolen information. But after the protagonist exposes a government secret, Wren vanishes. Weeks later, they return — not as an informant, but as a leader of an underground resistance. Now, they demand something in return.</em></p>
+</section>
+</section>
+</section>
+<section id="chapter-3-locations-story-hooks-random-events" class="level2">
+<h2 class="anchored" data-anchor-id="chapter-3-locations-story-hooks-random-events">Chapter 3: Locations, Story Hooks &amp; Random Events</h2>
+<p>The places your protagonist visits aren’t just scenery — they shape the story, introduce new challenges, and provide the <strong>why</strong> behind every adventure. A well-designed location is more than a dot on a map; it has a <strong>history, purpose, and tension</strong> waiting to be uncovered.</p>
+<p>A great setting doesn’t tell the protagonist what to do — it <strong>asks questions</strong> that demand action. Who controls this place? What hidden forces shape it? What happened before they arrived? A compelling location isn’t just a background — it’s a <strong>story engine</strong>.</p>
+<section id="designing-meaningful-locations" class="level3">
+<h3 class="anchored" data-anchor-id="designing-meaningful-locations">Designing Meaningful Locations</h3>
+<p>Every location in <em>Loner</em> should <strong>serve the story</strong>. Include a place only if it offers <strong>opportunity, danger, or mystery</strong>. From neon-lit undercities to vine-choked temples or derelict stations lost in space, the best locations <strong>demand exploration</strong> and promise something beneath the surface.</p>
+<section id="locations-need-purpose" class="level4">
+<h4 class="anchored" data-anchor-id="locations-need-purpose">1. Locations Need Purpose</h4>
+<p>Not every setting needs to be detailed, but the ones that matter should be <strong>memorable and impactful</strong>. Before introducing a location, ask:</p>
+<ul>
+<li><strong>What role does this place serve in the story?</strong> Is it a hub, a battleground, a mystery to be solved?<br>
+</li>
+<li><strong>What makes it unique?</strong> Is it shaped by culture, history, or natural phenomena?<br>
+</li>
+<li><strong>What tension exists here?</strong> Are there factions vying for control, laws being broken, or past events that still cast shadows?</li>
+</ul>
+<section id="example-a-location-with-purpose" class="level5">
+<h5 class="anchored" data-anchor-id="example-a-location-with-purpose">📌 Example: A Location with Purpose</h5>
+<blockquote class="blockquote">
+<p><em>The Hollow Monastery</em> – A once-sacred temple now buried under layers of ash from an ancient disaster. The faithful still make pilgrimages here, but something <strong>lives beneath the ruins</strong> — something that <strong>remembers the past</strong> and whispers in the wind.</p>
+</blockquote>
+<p>Immediately, this location isn’t just a place — it suggests <strong>story hooks</strong>. What is buried in the ash? Why do pilgrims keep coming? Who — or what — is whispering?</p>
+</section>
+</section>
+<section id="what-makes-a-location-unique" class="level4">
+<h4 class="anchored" data-anchor-id="what-makes-a-location-unique">2. What Makes a Location Unique?</h4>
+<p>A setting feels alive when it has <strong>defining traits</strong> that set it apart. Think about:</p>
+<ul>
+<li><strong>Culture &amp; Daily Life</strong> – What do people here believe? How do they survive?<br>
+</li>
+<li><strong>Hidden Secrets</strong> – What do outsiders not know? What’s being covered up?<br>
+</li>
+<li><strong>Dangers &amp; Obstacles</strong> – Is the environment itself a threat? Are there factions or creatures that make this place dangerous?<br>
+</li>
+<li><strong>Shifting Territories</strong> – Is this a contested zone? Are old powers losing control, and new ones rising?</li>
+</ul>
+<section id="example-a-unique-location-in-action" class="level5">
+<h5 class="anchored" data-anchor-id="example-a-unique-location-in-action">📌 Example: A Unique Location in Action</h5>
+<blockquote class="blockquote">
+<p><em>The Smog Market</em> – A black-market bazaar held deep within a labyrinth of old factories. The air is thick with toxic fumes, forcing traders to wear filtration masks, and deals are sealed with ink-stamped contracts burned immediately after signing. The merchant guild enforces its own brutal laws here — violators disappear, their masks left hanging as warnings.</p>
+</blockquote>
+</section>
+</section>
+<section id="locations-arent-just-physical-spaces" class="level4">
+<h4 class="anchored" data-anchor-id="locations-arent-just-physical-spaces">3. Locations Aren’t Just Physical Spaces</h4>
+<p>Not every location has to be a city, temple, or battlefield. A “location” in <em>Loner</em> can be:</p>
+<ul>
+<li><strong>A State of Mind</strong> – A shared hallucination, a dreamscape where reality bends.<br>
+</li>
+<li><strong>An Institution</strong> – A secret society, a corporation, a faith that spans continents.<br>
+</li>
+<li><strong>A Shifting Landscape</strong> – A battlefield that changes ownership, a planet that is literally crumbling, a moving fortress.</li>
+</ul>
+<section id="example-non-traditional-locations" class="level5">
+<h5 class="anchored" data-anchor-id="example-non-traditional-locations">📌 Example: Non-Traditional Locations</h5>
+<blockquote class="blockquote">
+<p><strong>The Choir of Rust</strong> – A <strong>corporation</strong>, but also a <strong>belief system</strong> — a decentralized AI-worshipping cult where members sacrifice their human memories to join the “singing data.” The protagonist doesn’t have to enter a building to visit this place — <strong>being noticed by them is enough.</strong></p>
+</blockquote>
+</section>
+</section>
+</section>
+<section id="creating-compelling-story-hooks" class="level3">
+<h3 class="anchored" data-anchor-id="creating-compelling-story-hooks">Creating Compelling Story Hooks</h3>
+<p>Great stories don’t start with a plot — they start with a <strong>question</strong>. Instead of writing linear narratives, think in terms of <strong>mysteries waiting to be unraveled</strong>. Every location should introduce <strong>unanswered questions</strong> that force the protagonist to investigate, challenge their beliefs, or make difficult choices.</p>
+<section id="use-questions-to-drive-storytelling" class="level4">
+<h4 class="anchored" data-anchor-id="use-questions-to-drive-storytelling">1. Use Questions to Drive Storytelling</h4>
+<p>Before placing the protagonist in a location, ask:</p>
+<ul>
+<li><strong>Who controls this place, and what do they want?</strong><br>
+</li>
+<li><strong>What is forbidden or hidden here?</strong><br>
+</li>
+<li><strong>What rumors or half-truths circulate about this place?</strong><br>
+</li>
+<li><strong>What happened here before the protagonist arrived?</strong></li>
+</ul>
+<section id="example-a-location-that-raises-questions" class="level5">
+<h5 class="anchored" data-anchor-id="example-a-location-that-raises-questions">📌 Example: A Location That Raises Questions</h5>
+<blockquote class="blockquote">
+<p><em>The Ivory Spire stands in the middle of the wasteland, untouched by time. No door, no entrance — just smooth white stone stretching into the sky. A caravan once tried to camp at its base, but by morning, their footprints were gone, as if they’d never been there at all.</em></p>
+</blockquote>
+<p>This place <strong>demands exploration</strong>. Why does it erase traces of the past? What happens if someone lingers too long? The protagonist isn’t <strong>told</strong> what to do — the <strong>mystery itself</strong> makes action inevitable.</p>
+</section>
+</section>
+<section id="what-happens-when-the-protagonist-intervenes" class="level4">
+<h4 class="anchored" data-anchor-id="what-happens-when-the-protagonist-intervenes">2. What Happens When the Protagonist Intervenes?</h4>
+<p>A location should <strong>change when the protagonist interacts with it</strong>. Think about:</p>
+<ul>
+<li><strong>What happens when a secret is revealed?</strong> Does the protagonist gain allies, or are they marked for death?<br>
+</li>
+<li><strong>What forces push back?</strong> If a faction’s power is threatened, how do they retaliate?<br>
+</li>
+<li><strong>What changes permanently?</strong> A settlement that was once thriving might collapse because of a single event. A wasteland might bloom if an ancient mechanism is activated.</li>
+</ul>
+<section id="example-a-living-location" class="level5">
+<h5 class="anchored" data-anchor-id="example-a-living-location">📌 Example: A Living Location</h5>
+<blockquote class="blockquote">
+<p><em>In the underground tunnels of the drowned city, a hidden enclave thrives. They live off old-world technology, sealed away from the surface. But when the protagonist opens their airlocks for the first time in decades, the outside world sees a new target — fresh resources, fresh prey. The city isn’t hidden anymore.</em></p>
+</blockquote>
+</section>
+</section>
+</section>
+<section id="dynamic-world-events" class="level3">
+<h3 class="anchored" data-anchor-id="dynamic-world-events">Dynamic World Events</h3>
+<p>A <em>Loner</em> setting should never feel static. The world is <strong>alive</strong>, shifting in response to time, power struggles, and the protagonist’s actions.</p>
+<section id="make-the-world-react" class="level4">
+<h4 class="anchored" data-anchor-id="make-the-world-react">1. Make the World React</h4>
+<p>A truly <strong>living world</strong> doesn’t just wait for the protagonist — it <strong>keeps moving</strong>. Some changes should happen <strong>with or without them</strong>.</p>
+<ul>
+<li><strong>Factions gain or lose influence.</strong> A rebellion gains traction. A city falls to a new ruler.<br>
+</li>
+<li><strong>Environmental changes reshape landscapes.</strong> A volcanic eruption destroys an island, a centuries-old glacier melts.<br>
+</li>
+<li><strong>Unexpected discoveries rewrite history.</strong> A long-lost artifact is found, changing the balance of power.</li>
+</ul>
+<section id="example-a-shifting-world" class="level5">
+<h5 class="anchored" data-anchor-id="example-a-shifting-world">📌 Example: A Shifting World</h5>
+<blockquote class="blockquote">
+<p><em>The great war has ended, but the power vacuum left behind is unstable. Just because the fighting stopped doesn’t mean the world is at peace. Gangs rise from the ruins, warlords carve out new empires. Every time the protagonist returns to a familiar place, it has changed.</em></p>
+</blockquote>
+<p>The protagonist <strong>isn’t the only force at play</strong> — and that makes their journey feel <strong>part of something bigger</strong>.</p>
+</section>
+</section>
+<section id="introduce-random-events-to-keep-things-unpredictable" class="level4">
+<h4 class="anchored" data-anchor-id="introduce-random-events-to-keep-things-unpredictable">2. Introduce Random Events to Keep Things Unpredictable</h4>
+<p>Not everything needs to be planned. Sometimes, the best moments come from <strong>unexpected disruptions</strong>. Consider rolling for:</p>
+<ul>
+<li><strong>New conflicts</strong> (<em>A new faction appears, challenging the existing order.</em>)<br>
+</li>
+<li><strong>Environmental shifts</strong> (<em>An earthquake reveals something buried beneath the city.</em>)<br>
+</li>
+<li><strong>Personal threats</strong> (<em>Someone from the protagonist’s past resurfaces — seeking revenge, help, or something worse.</em>)</li>
+</ul>
+<section id="example-a-random-event-in-action" class="level5">
+<h5 class="anchored" data-anchor-id="example-a-random-event-in-action">📌 Example: A Random Event in Action</h5>
+<blockquote class="blockquote">
+<p><em>The protagonist is planning a quiet infiltration — until the <strong>entire city goes dark</strong>. Communications fail. The power grid shuts down. No one knows why, but suddenly, everyone is scrambling to react. The mission just changed.</em></p>
+</blockquote>
+</section>
+</section>
+</section>
+</section>
+<section id="chapter-4-adapting-an-existing-setting-to-loner" class="level2">
+<h2 class="anchored" data-anchor-id="chapter-4-adapting-an-existing-setting-to-loner">Chapter 4: Adapting an Existing Setting to Loner</h2>
+<p>Bringing an established setting into <em>Loner</em> is less about <strong>translating every rule</strong> and more about <strong>capturing its essence</strong>. A good adaptation doesn’t just recreate a world — it <strong>reshapes it to fit solo play</strong>, ensuring that every encounter, conflict, and revelation works <strong>without a party of adventurers to rely on</strong>.</p>
+<p>Adapting a published RPG setting, a beloved fictional universe, or an original creation all starts with the same approach: <strong>distill the core themes, express them through evocative tags, and reshape the challenges to suit a solo protagonist.</strong> ### Guidelines for adapting settings</p>
+<section id="step-1-identify-the-core-themes" class="level4">
+<h4 class="anchored" data-anchor-id="step-1-identify-the-core-themes">Step 1: Identify the Core Themes</h4>
+<p>Every setting has a <strong>heart</strong> — themes that define what kinds of stories are told within it. When adapting a setting to <em>Loner</em>, start by stripping away surface details and asking:</p>
+<ul>
+<li><strong>What is this world really about?</strong><br>
+Is it about survival in a brutal wasteland, rebellion against an oppressive force, or unraveling cosmic mysteries?<br>
+</li>
+<li><strong>What kind of stories naturally emerge here?</strong><br>
+Are characters usually explorers? Rebels? Investigators? Are the stories about discovery, revenge, heroism, or something else?<br>
+</li>
+<li><strong>How do characters interact with their environment and society?</strong><br>
+Is this a world of rigid social structures? A lawless frontier? A decaying empire on the edge of collapse?</li>
+</ul>
+<p>Focusing on <strong>themes</strong> helps shape the protagonist’s role in the world. A setting about <strong>lost knowledge and exploration</strong> leads to different kinds of challenges than a setting about <strong>power struggles and espionage</strong>.</p>
+<section id="example-identifying-themes" class="level5">
+<h5 class="anchored" data-anchor-id="example-identifying-themes">📌 Example: Identifying Themes</h5>
+<blockquote class="blockquote">
+<p><em>The world of “Dying Suns” is a collapsing interstellar empire, where ancient technology is failing and forgotten knowledge is worth more than gold. At its heart, this is a setting about <strong>entropy, lost civilizations, and the cost of knowledge.</strong> Stories here are often about salvaging what little remains, or fighting to preserve something before it’s too late.</em></p>
+</blockquote>
+</section>
+</section>
+<section id="step-2-convert-key-elements-into-tags" class="level4">
+<h4 class="anchored" data-anchor-id="step-2-convert-key-elements-into-tags">Step 2: Convert Key Elements into Tags</h4>
+<p>Instead of trying to convert <strong>rules, stat blocks, or mechanics</strong>, focus on breaking the setting down into <strong>narrative-driven elements</strong>. Tags in <em>Loner</em> are <strong>flexible descriptors</strong> that define <strong>factions, locations, and conflicts</strong> without getting bogged down in excessive mechanics.</p>
+<ul>
+<li><strong>Factions should have clear motives.</strong> Instead of listing hierarchy and ranks, describe them with <strong>tags</strong> that define their behavior.<br>
+</li>
+<li><strong>Locations should have defining traits.</strong> Describe a place not just by what it looks like, but by how it <strong>affects the protagonist</strong>.<br>
+</li>
+<li><strong>Conflicts should be broken into manageable story elements.</strong> What is the protagonist up against? How does it shape the world around them?</li>
+</ul>
+<section id="example-converting-setting-elements-to-tags" class="level5">
+<h5 class="anchored" data-anchor-id="example-converting-setting-elements-to-tags">📌 Example: Converting Setting Elements to Tags</h5>
+<p><strong>📍 The Bleeding Spire (Location)</strong></p>
+<ul>
+<li><em>Ruins of an ancient war machine, now repurposed as a city.</em><br>
+</li>
+<li><em>Walls whisper with forgotten code.</em><br>
+</li>
+<li><em>Controlled by warring scavenger factions.</em></li>
+</ul>
+<p><strong>🏴 The Silent Choir (Faction)</strong></p>
+<ul>
+<li><em>Religious fanatics who believe silence is sacred.</em><br>
+</li>
+<li><em>Mark enemies by removing their names from history.</em><br>
+</li>
+<li><em>Only communicate through symbols and gestures.</em></li>
+</ul>
+<p><strong>⚔️ The Veil War (Conflict)</strong></p>
+<ul>
+<li><em>A shadow war between two factions, neither acknowledging the other exists.</em><br>
+</li>
+<li><em>Most people caught in the middle don’t know who is fighting or why.</em><br>
+</li>
+<li><em>The protagonist may already be involved — without realizing it.</em></li>
+</ul>
+</section>
+</section>
+<section id="step-3-adjust-for-solo-play" class="level4">
+<h4 class="anchored" data-anchor-id="step-3-adjust-for-solo-play">Step 3: Adjust for Solo Play</h4>
+<p>Most published settings assume <strong>group dynamics</strong> — adventuring parties, crew-based missions, or squad tactics. In <em>Loner</em>, however, the protagonist is <strong>alone</strong>, meaning some elements need to be adjusted:</p>
+<section id="make-challenges-work-for-a-lone-protagonist" class="level5">
+<h5 class="anchored" data-anchor-id="make-challenges-work-for-a-lone-protagonist">1. Make Challenges Work for a Lone Protagonist</h5>
+<ul>
+<li>Reduce reliance on party-based tactics. Challenges should focus on <strong>individual ingenuity, stealth, and problem-solving</strong> rather than team-based combat.<br>
+</li>
+<li>Introduce <strong>tools, NPC allies, or strategic advantages</strong> to compensate for solo play. Instead of relying on a rogue to unlock doors, the protagonist might have a <strong>hacker’s toolkit</strong> or access to an informant who provides bypass codes.</li>
+</ul>
+</section>
+<section id="example-adjusting-challenges" class="level5">
+<h5 class="anchored" data-anchor-id="example-adjusting-challenges">📌 Example: Adjusting Challenges</h5>
+<blockquote class="blockquote">
+<p><em>Instead of a dungeon requiring multiple adventurers to solve its puzzles, a Loner adaptation could make the dungeon slowly collapse, forcing the protagonist to choose which paths to take before they’re lost forever.</em></p>
+</blockquote>
+</section>
+<section id="make-the-world-react-to-the-protagonist" class="level5">
+<h5 class="anchored" data-anchor-id="make-the-world-react-to-the-protagonist">2. Make the World React to the Protagonist</h5>
+<p>A lone protagonist <strong>can’t rely on others to share consequences</strong> — every action they take has a <strong>direct impact</strong>. Instead of letting the world remain static, consider:</p>
+<ul>
+<li><strong>What happens when the protagonist changes something major?</strong> If they assassinate a corrupt official, does a rival take their place? If they expose a hidden truth, who tries to silence them?<br>
+</li>
+<li><strong>What factions take notice?</strong> Without a party to share the blame, the protagonist becomes a <strong>target</strong> for those who want to control or eliminate them.</li>
+</ul>
+</section>
+<section id="example-a-reactive-world" class="level5">
+<h5 class="anchored" data-anchor-id="example-a-reactive-world">📌 Example: A Reactive World</h5>
+<blockquote class="blockquote">
+<p><em>The protagonist steals an artifact from a ruined temple. Unbeknownst to them, the artifact was a <strong>keystone</strong> keeping something locked away. Days later, whispers spread of strange occurrences — doors opening where there were none, people disappearing. The protagonist may have doomed the city without realizing it.</em></p>
+</blockquote>
+<p>In <em>Loner</em>, <strong>actions should feel irreversible</strong> — the world remembers what the protagonist has done.</p>
+</section>
+<section id="shift-the-focus-to-personal-stakes" class="level5">
+<h5 class="anchored" data-anchor-id="shift-the-focus-to-personal-stakes">3. Shift the Focus to Personal Stakes</h5>
+<p>In party-based games, characters often rely on their <strong>companions</strong> for emotional depth. In <em>Loner</em>, personal struggles must come from <strong>within</strong> or from <strong>recurring NPCs</strong>.</p>
+<ul>
+<li><strong>Give the protagonist personal conflicts.</strong> Do they have a past they’re running from? A secret they don’t want uncovered?<br>
+</li>
+<li><strong>Make enemies personal.</strong> A single antagonist with a complex relationship to the protagonist is more compelling than a faceless organization.<br>
+</li>
+<li><strong>Let NPC relationships evolve.</strong> Allies should grow over time — can they be trusted? Do they have their own agenda?</li>
+</ul>
+</section>
+<section id="example-personal-stakes-in-solo-play" class="level5">
+<h5 class="anchored" data-anchor-id="example-personal-stakes-in-solo-play">📌 Example: Personal Stakes in Solo Play</h5>
+<p>*In a traditional setting, a rebellion might be a <strong>huge factional war</strong>. In a <em>Loner</em> adaptation, the protagonist is a former revolutionary — hunted by their own allies after refusing to follow orders. Now, the rebellion isn’t just a cause — it’s <strong>a ghost of their past, one that won’t let them go.</strong> *</p>
+</section>
+</section>
+<section id="genre-adaptation-matrix" class="level3">
+<h3 class="anchored" data-anchor-id="genre-adaptation-matrix">Genre Adaptation Matrix</h3>
+<p>Adapting a setting for <em>Loner</em> isn’t about converting rules — it’s about capturing the <strong>essence</strong> of the world and reshaping it for solo play. This matrix breaks down common genres and setting types, offering guidance on how to translate their mechanics, themes, and challenges into <em>Loner</em>’s tag-based, emergent narrative system.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Genre</th>
+<th style="text-align: left;">Core Themes</th>
+<th style="text-align: left;">Protagonist’s Role</th>
+<th style="text-align: left;">Key Challenges</th>
+<th style="text-align: left;">Adapting for <em>Loner</em></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>High Fantasy</strong></td>
+<td style="text-align: left;">Heroism, destiny, magic, ancient evils</td>
+<td style="text-align: left;">A chosen hero, a wandering adventurer, or an exile seeking redemption</td>
+<td style="text-align: left;">Quests, mythical creatures, political intrigue, forbidden knowledge</td>
+<td style="text-align: left;">Focus on a personal journey rather than a party-based quest. Magic should be unpredictable, ancient secrets should emerge through play, and the world should react dynamically to the protagonist’s choices.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Cyberpunk</strong></td>
+<td style="text-align: left;">Oppression, rebellion, corporate control, transhumanism</td>
+<td style="text-align: left;">A hacker, a rogue AI, a fixer caught between factions</td>
+<td style="text-align: left;">Information control, megacorp enforcers, underground movements, technological decay</td>
+<td style="text-align: left;">Make cybernetics and hacking narrative-driven rather than mechanical. Factions should act as dynamic, shifting forces. The protagonist’s every action should ripple through the setting.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Post-Apocalyptic</strong></td>
+<td style="text-align: left;">Survival, scarcity, lawlessness, rebuilding society</td>
+<td style="text-align: left;">A scavenger, a survivor, a warlord, or a wanderer with a purpose</td>
+<td style="text-align: left;">Hostile environments, dwindling resources, raiders, unknown threats</td>
+<td style="text-align: left;">Resource management can be simplified through descriptive tags (<em>Well-Stocked</em>, <em>Low on Ammo</em>). The world should feel <strong>hostile yet reactive</strong> — even if the protagonist is alone, their choices shape what remains of society.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Cosmic Horror</strong></td>
+<td style="text-align: left;">The unknown, fragile sanity, existential dread</td>
+<td style="text-align: left;">A scholar, investigator, cultist-turned-traitor, or lone survivor</td>
+<td style="text-align: left;">Eldritch forces, unreliable knowledge, conspiracies, unavoidable doom</td>
+<td style="text-align: left;">Replace “sanity mechanics” with evolving <strong>character tags</strong> (e.g., <em>Fractured Mind</em>). The protagonist should slowly uncover horrific truths rather than instantly understanding them.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Noir/Detective</strong></td>
+<td style="text-align: left;">Corruption, moral ambiguity, personal stakes</td>
+<td style="text-align: left;">A private investigator, a disgraced cop, a criminal with a conscience</td>
+<td style="text-align: left;">Murders, betrayals, conspiracies, moral dilemmas</td>
+<td style="text-align: left;">Instead of rigid investigation mechanics, let clues emerge organically through <em>Loner’s</em> Oracle. NPC motivations should shift based on the protagonist’s actions.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Science Fiction (Hard Sci-Fi)</strong></td>
+<td style="text-align: left;">Exploration, isolation, technology, first contact</td>
+<td style="text-align: left;">An astronaut, a rogue AI, an explorer stranded in deep space</td>
+<td style="text-align: left;">Alien landscapes, political struggles, survival challenges</td>
+<td style="text-align: left;">Keep technology speculative yet fallible. The protagonist should often be forced to improvise and deal with unintended consequences.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Western</strong></td>
+<td style="text-align: left;">Frontier justice, survival, revenge, law vs.&nbsp;chaos</td>
+<td style="text-align: left;">A lone gunfighter, a sheriff, a bounty hunter</td>
+<td style="text-align: left;">Outlaws, territorial disputes, corrupt landowners, harsh environments</td>
+<td style="text-align: left;">The world should be <strong>dangerous but personal</strong>. Reputation-based factions (<em>Wanted in Redstone</em>, <em>Respected by the Ranchers</em>) can replace rigid law mechanics.</td>
+</tr>
+</tbody>
+</table>
+<section id="using-the-matrix-in-play" class="level4">
+<h4 class="anchored" data-anchor-id="using-the-matrix-in-play">Using the Matrix in Play</h4>
+<ol type="1">
+<li><strong>Find Your Genre:</strong> Identify the closest genre match for your setting.<br>
+</li>
+<li><strong>Adapt Core Mechanics:</strong> Convert systemic mechanics (like magic, hacking, or sanity) into <em>Loner</em>’s <strong>narrative-driven</strong> tags and prompts.<br>
+</li>
+<li><strong>Keep Challenges Personal:</strong> A lone protagonist doesn’t have party support — make sure conflicts are <strong>survivable but high-stakes</strong>.<br>
+</li>
+<li><strong>Let the World Respond:</strong> Factions, environments, and supernatural forces should <strong>adapt to the protagonist’s actions</strong>, rather than remaining static.</li>
+</ol>
+</section>
+</section>
+<section id="adapting-large-rpg-campaigns-into-loner" class="level3">
+<h3 class="anchored" data-anchor-id="adapting-large-rpg-campaigns-into-loner">Adapting Large RPG Campaigns into <em>Loner</em></h3>
+<p>Many RPG campaigns are designed for groups, with shared objectives, party-based encounters, and GM-driven plots. Adapting them for <em>Loner</em> means <strong>restructuring</strong> their key components so they work for a <strong>single protagonist</strong> and an <strong>emergent story</strong> rather than a predefined adventure path.</p>
+<section id="step-1-strip-the-campaign-down-to-its-core" class="level4">
+<h4 class="anchored" data-anchor-id="step-1-strip-the-campaign-down-to-its-core">Step 1: Strip the Campaign Down to Its Core</h4>
+<p>Most RPG campaigns contain <strong>unnecessary complexity</strong> for solo play. Identify:</p>
+<ul>
+<li><strong>The Primary Conflict</strong> – What drives the story forward? (E.g., “A rebellion is forming against a tyrant”)<br>
+</li>
+<li><strong>Key NPCs</strong> – Who is central to the narrative? Strip away minor side characters unless they serve a purpose.<br>
+</li>
+<li><strong>Essential Locations</strong> – Instead of tracking every town or dungeon, focus on <strong>landmarks that impact the protagonist’s journey</strong>.<br>
+</li>
+<li><strong>Major Twists</strong> – If the campaign has multiple branching paths, focus on <strong>one compelling story arc</strong>.</li>
+</ul>
+<section id="example-stripping-down-a-classic-fantasy-campaign" class="level5">
+<h5 class="anchored" data-anchor-id="example-stripping-down-a-classic-fantasy-campaign">Example: Stripping Down a Classic Fantasy Campaign</h5>
+<p>Original: <em>A kingdom on the brink of war, multiple factions vying for power, a prophecy involving a chosen one, and a sprawling world map with 30+ locations.</em></p>
+<p><em>Loner</em> Adaptation: <em>The protagonist is a disgraced knight exiled after uncovering a conspiracy. The war still looms, but now it’s personal — the protagonist must decide whether to fight for redemption or let the kingdom collapse.</em></p>
+</section>
+</section>
+<section id="step-2-reframe-party-based-challenges" class="level4">
+<h4 class="anchored" data-anchor-id="step-2-reframe-party-based-challenges">Step 2: Reframe Party-Based Challenges</h4>
+<p>Many campaigns assume a <strong>diverse group of heroes</strong>, meaning:</p>
+<ul>
+<li>Combat is designed for <strong>multiple players working together</strong>.<br>
+</li>
+<li>Puzzles often require <strong>specialized skills</strong>.<br>
+</li>
+<li>Social interactions rely on <strong>multiple perspectives</strong>.</li>
+</ul>
+</section>
+<section id="converting-party-encounters-for-solo-play" class="level4">
+<h4 class="anchored" data-anchor-id="converting-party-encounters-for-solo-play">Converting Party Encounters for Solo Play</h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Group Encounter Type</th>
+<th style="text-align: left;">Solo Adaptation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>A battle against multiple foes</strong></td>
+<td style="text-align: left;">Give the protagonist environmental advantages, allow stealth-based approaches, or use the <em>Advantage/Disadvantage</em> system to keep fights winnable.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>A trap requiring teamwork</strong></td>
+<td style="text-align: left;">Change the challenge into a <strong>moral choice</strong> (<em>You can disable the trap, but it will alert nearby enemies</em>).</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>A social encounter that assumes diverse party skills</strong></td>
+<td style="text-align: left;">The protagonist <strong>must leverage existing relationships</strong> — NPC allies become more crucial.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Puzzles that require multiple skill checks</strong></td>
+<td style="text-align: left;">Make puzzle-solving <strong>narrative-based</strong> rather than mechanical (<em>Does the protagonist recognize this ancient symbol?</em>).</td>
+</tr>
+</tbody>
+</table>
+<section id="example-reworking-a-party-based-dungeon" class="level5">
+<h5 class="anchored" data-anchor-id="example-reworking-a-party-based-dungeon">Example: Reworking a Party-Based Dungeon</h5>
+<p>Original: <em>A dungeon with four puzzles, requiring strength, agility, arcane knowledge, and a rogue’s finesse to complete.</em></p>
+<p><em>Loner</em> Adaptation: <em>The protagonist faces a series of <strong>choices</strong> rather than a skill-gated path. They can force open the vault at a cost, decipher its runes with knowledge gained earlier, or manipulate an NPC into unlocking it.</em></p>
+</section>
+</section>
+<section id="step-3-let-the-campaign-evolve-through-play" class="level4">
+<h4 class="anchored" data-anchor-id="step-3-let-the-campaign-evolve-through-play">Step 3: Let the Campaign Evolve Through Play</h4>
+<p>In a traditional RPG, a <strong>GM adjusts the game in response to players</strong>. In <em>Loner</em>, the <strong>Oracle and D66 tables</strong> take over this role.</p>
+<ul>
+<li><p><strong>Use the Oracle to introduce twists.</strong> If a campaign moment feels predictable, ask:</p>
+<ul>
+<li><em>Is there an unexpected danger here?</em><br>
+</li>
+<li><em>Has an unseen force been tracking the protagonist?</em><br>
+</li>
+<li><em>Does an NPC reveal something new?</em></li>
+</ul></li>
+<li><p><strong>Modify Campaign Goals as Needed.</strong> If a campaign is built around a <strong>party’s collective decision-making</strong>, the solo protagonist should have <strong>shifting personal goals</strong>.</p>
+<ul>
+<li>If the original goal was <em>defeat the necromancer</em>, the <em>Loner</em> version might be <strong>“Find the truth about the necromancer’s origins”</strong>, allowing for <strong>a more investigative, character-driven approach</strong>.</li>
+</ul></li>
+</ul>
+<section id="example-shifting-a-war-campaign-for-solo-play" class="level5">
+<h5 class="anchored" data-anchor-id="example-shifting-a-war-campaign-for-solo-play">Example: Shifting a War Campaign for Solo Play</h5>
+<p>Original: <em>A sprawling war campaign where players pick a side and fight battles across multiple cities.</em></p>
+<p><em>Loner</em> Adaptation: <em>The protagonist is a rogue operative, navigating the war from the shadows — smuggling messages, sabotaging key locations, and uncovering hidden truths about the war’s origins.</em></p>
+</section>
+</section>
+<section id="step-4-replace-side-quests-with-personal-story-arcs" class="level4">
+<h4 class="anchored" data-anchor-id="step-4-replace-side-quests-with-personal-story-arcs">Step 4: Replace Side Quests with Personal Story Arcs</h4>
+<p>In group campaigns, <strong>side quests</strong> exist to <strong>keep multiple players engaged</strong>. In <em>Loner</em>, replace side quests with <strong>personal stakes</strong>:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Group Side Quest</th>
+<th style="text-align: left;">Solo Version</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Retrieve an artifact for an NPC</strong></td>
+<td style="text-align: left;">The artifact <strong>has a personal connection to the protagonist</strong>, forcing a dilemma (keep it or return it?).</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Escort a merchant through a dangerous region</strong></td>
+<td style="text-align: left;">The merchant is an <strong>old rival</strong>, and they know something about the protagonist’s past.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Infiltrate a crime syndicate for intelligence</strong></td>
+<td style="text-align: left;">The protagonist’s <strong>own survival depends on convincing the syndicate they belong</strong>.</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+<section id="chapter-5-crafting-your-own-d66-random-tables" class="level2">
+<h2 class="anchored" data-anchor-id="chapter-5-crafting-your-own-d66-random-tables">Chapter 5: Crafting Your Own D66 Random Tables</h2>
+<p>One of <em>Loner</em>’s greatest tools is the <strong>D66 table</strong>—a compact engine of surprise that helps solo players spark ideas and overcome decision paralysis. These tables inject structured randomness into setting creation, encounters, and narrative twists, keeping the world fluid, unpredictable, and full of possibility.</p>
+<p>This chapter will guide you through designing <strong>custom D66 tables</strong> that fit your setting, enrich gameplay, and ensure every session feels fresh and dynamic.</p>
+<section id="what-is-a-d66-table" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-a-d66-table">What is a D66 Table?</h3>
+<p>A D66 table is a <strong>two-dice randomizer</strong> that generates results between <strong>11 and 66</strong> (not 2–12, like a standard 2d6 roll). Each die is read separately, forming a two-digit number:</p>
+<ul>
+<li>Rolling a <strong>1</strong> on the first die and a <strong>4</strong> on the second gives <strong>14</strong>.<br>
+</li>
+<li>Rolling a <strong>5</strong> on the first die and a <strong>6</strong> on the second gives <strong>56</strong>.</li>
+</ul>
+<p>This results in <strong>36 unique entries</strong>, making D66 tables a compact but deep tool for solo play.</p>
+<section id="why-use-a-d66-table" class="level4">
+<h4 class="anchored" data-anchor-id="why-use-a-d66-table">Why Use a D66 Table?</h4>
+<ul>
+<li><strong>Unexpected Inspiration</strong>: The randomness forces you to think outside predictable patterns.<br>
+</li>
+<li><strong>Minimal Setup, Maximum Impact</strong>: A single D66 table can generate dozens of different prompts.<br>
+</li>
+<li><strong>Reusability</strong>: Well-designed tables can be used across multiple sessions.</li>
+</ul>
+</section>
+</section>
+<section id="step-1-defining-the-purpose-of-your-table" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-defining-the-purpose-of-your-table">Step 1: Defining the Purpose of Your Table</h3>
+<p>Before you start filling in entries, ask yourself:</p>
+<ul>
+<li><strong>What problem does this table solve?</strong>
+<ul>
+<li>Does it generate <strong>setting details</strong>, <strong>encounters</strong>, or <strong>story twists</strong>?<br>
+</li>
+<li>Does it introduce <strong>worldbuilding elements</strong> (like rumors, NPCs, or conflicts)?<br>
+</li>
+</ul></li>
+<li><strong>How often will you roll on it?</strong>
+<ul>
+<li>Is this a one-time setup table (like a world generator)?<br>
+</li>
+<li>Is it a recurring tool (like a random event table)?<br>
+</li>
+</ul></li>
+<li><strong>What kind of tone should it set?</strong>
+<ul>
+<li>Does it introduce danger, intrigue, humor, or the surreal?<br>
+</li>
+<li>Should it fit a specific genre or setting?</li>
+</ul></li>
+</ul>
+<p>Once you define these parameters, you can move on to crafting the entries.</p>
+</section>
+<section id="step-2-structuring-the-table-for-maximum-usefulness" class="level3">
+<h3 class="anchored" data-anchor-id="step-2-structuring-the-table-for-maximum-usefulness">Step 2: Structuring the Table for Maximum Usefulness</h3>
+<p>A D66 table should be <strong>balanced between variety, thematic focus, and usability</strong>. Consider:</p>
+<section id="categorizing-the-results" class="level4">
+<h4 class="anchored" data-anchor-id="categorizing-the-results">Categorizing the Results</h4>
+<ul>
+<li>If your table is broad, divide results into categories for clarity.<br>
+</li>
+<li>For example, in an <strong>“Unexpected Events”</strong> table, the first digit might represent <strong>general types of events</strong>, and the second digit <strong>specific variations</strong> within that category:
+<ul>
+<li><strong>1X</strong> = Weather effects<br>
+</li>
+<li><strong>2X</strong> = Encounters<br>
+</li>
+<li><strong>3X</strong> = Internal conflicts<br>
+</li>
+<li><strong>4X</strong> = Mystical occurrences<br>
+</li>
+<li><strong>5X</strong> = Structural failures<br>
+</li>
+<li><strong>6X</strong> = Outside interference</li>
+</ul></li>
+</ul>
+</section>
+<section id="ensuring-a-mix-of-outcomes" class="level4">
+<h4 class="anchored" data-anchor-id="ensuring-a-mix-of-outcomes">Ensuring a Mix of Outcomes</h4>
+<p>Tables that balance <strong>low-impact</strong>, <strong>mid-tier complications</strong>, and <strong>game-changing results</strong> work best in <em>Loner</em>, as they allow the Oracle to shape the narrative without railroading it. A well-designed D66 table should contain a variety of results:</p>
+<ul>
+<li><strong>Mundane but flavorful results</strong> (e.g., “A trader offers a rare, but oddly specific, item”).<br>
+</li>
+<li><strong>Useful resources or advantages</strong> (e.g., “You find an unexpected shortcut”).<br>
+</li>
+<li><strong>New obstacles or tensions</strong> (e.g., “Your next action is interrupted by a faction agent”).<br>
+</li>
+<li><strong>Big story twists</strong> (e.g., “An NPC reveals a secret that changes everything”).</li>
+</ul>
+</section>
+</section>
+<section id="step-3-writing-the-entries" class="level3">
+<h3 class="anchored" data-anchor-id="step-3-writing-the-entries"><strong>Step 3: Writing the Entries</strong></h3>
+<p>A good entry should be <strong>concise, evocative, and open-ended</strong>. Avoid overly specific results that leave no room for interpretation. Instead, design entries that offer prompts that can be adapted to different situations.</p>
+<section id="tips-for-writing-effective-entries" class="level4">
+<h4 class="anchored" data-anchor-id="tips-for-writing-effective-entries">Tips for Writing Effective Entries</h4>
+<p>✅ <strong>Keep them short</strong> (1–2 sentences max)<br>
+✅ <strong>Use evocative language</strong> that suggests multiple interpretations<br>
+✅ <strong>Leave space for player decisions</strong></p>
+<p><strong>Example: “A noble offers you aid but demands a costly favor in return.”</strong></p>
+<p>This doesn’t dictate how the noble behaves or what the favor is, letting the player interpret based on the setting and previous story events.</p>
+</section>
+<section id="creating-a-balanced-spread-of-entries" class="level4">
+<h4 class="anchored" data-anchor-id="creating-a-balanced-spread-of-entries">Creating a Balanced Spread of Entries</h4>
+<p>A good D66 table isn’t <strong>all highs or all lows</strong> — it offers a dynamic range of results. Distribute your entries across different intensities:</p>
+<ol type="1">
+<li><strong>Neutral worldbuilding details (low stakes, useful for immersion).</strong>
+<ul>
+<li>“A statue here is missing its head. No one remembers why.”<br>
+</li>
+</ul></li>
+<li><strong>Mild complications (things that add flavor but aren’t immediate threats).</strong>
+<ul>
+<li>“Someone in town claims they saw you do something you didn’t do.”<br>
+</li>
+</ul></li>
+<li><strong>Active problems (things the player must respond to).</strong>
+<ul>
+<li>“You are being followed. The follower is not making an effort to hide.”<br>
+</li>
+</ul></li>
+<li><strong>Major shifts (introducing drastic change to the game world).</strong>
+<ul>
+<li>“An event forces a faction leader into exile, leaving a power vacuum.”</li>
+</ul></li>
+</ol>
+</section>
+</section>
+<section id="step-4-testing-and-refining-the-table" class="level3">
+<h3 class="anchored" data-anchor-id="step-4-testing-and-refining-the-table"><strong>Step 4: Testing and Refining the Table</strong></h3>
+<p>Once you’ve drafted your table, <strong>roll on it multiple times</strong> and see if the results:</p>
+<ul>
+<li>Fit naturally into different settings.<br>
+</li>
+<li>Provide variety without redundancy.<br>
+</li>
+<li>Are fun and inspiring rather than frustrating or limiting.</li>
+</ul>
+<p>Ask yourself:</p>
+<ul>
+<li><strong>Are any results too vague or confusing?</strong><br>
+</li>
+<li><strong>Do any results feel redundant?</strong><br>
+</li>
+<li><strong>Do extreme results appear too often?</strong> If so, you may want to rebalance.</li>
+</ul>
+<p>If an entry doesn’t feel useful or lacks inspiration, replace it with something that sparks curiosity.</p>
+</section>
+<section id="step-5-making-your-d66-tables-fit-your-setting" class="level3">
+<h3 class="anchored" data-anchor-id="step-5-making-your-d66-tables-fit-your-setting">Step 5: Making Your D66 Tables Fit Your Setting</h3>
+<p>D66 tables should be tailored to the <strong>tone and needs of your world</strong>. Examples include:</p>
+<section id="random-encounters-table-for-a-cyberpunk-setting" class="level4">
+<h4 class="anchored" data-anchor-id="random-encounters-table-for-a-cyberpunk-setting">1. Random Encounters Table** (for a cyberpunk setting)</h4>
+<ul>
+<li>Who does the protagonist run into in the neon-lit streets?<br>
+</li>
+<li>Does the encounter present a challenge, an opportunity, or a mystery?</li>
+</ul>
+</section>
+<section id="story-twists-table-for-a-fantasy-kingdom-setting" class="level4">
+<h4 class="anchored" data-anchor-id="story-twists-table-for-a-fantasy-kingdom-setting">2. Story Twists Table** (for a fantasy kingdom setting)</h4>
+<ul>
+<li>What unexpected revelation or event changes the course of the protagonist’s mission?<br>
+</li>
+<li>Who benefits from the twist? Who suffers?</li>
+</ul>
+</section>
+<section id="unusual-items-table-for-a-post-apocalyptic-wasteland" class="level4">
+<h4 class="anchored" data-anchor-id="unusual-items-table-for-a-post-apocalyptic-wasteland">3. Unusual Items Table** (for a post-apocalyptic wasteland)</h4>
+<ul>
+<li>What strange and potentially valuable objects does the protagonist find while scavenging?<br>
+</li>
+<li>Do these items have a deeper story behind them?</li>
+</ul>
+</section>
+<section id="faction-reactions-table-for-a-political-intrigue-setting" class="level4">
+<h4 class="anchored" data-anchor-id="faction-reactions-table-for-a-political-intrigue-setting">4. Faction Reactions Table** (for a political intrigue setting)</h4>
+<ul>
+<li>How do various groups in the world react to the protagonist’s latest actions?<br>
+</li>
+<li>Are they pleased, suspicious, or openly hostile?</li>
+</ul>
+</section>
+</section>
+<section id="step-6-expanding-and-combining-tables" class="level3">
+<h3 class="anchored" data-anchor-id="step-6-expanding-and-combining-tables">Step 6: Expanding and Combining Tables**</h3>
+<p>Once you’ve built a few D66 tables, you can:</p>
+<ul>
+<li><strong>Link them together</strong>: Rolling on one table can lead to another (e.g., rolling a faction encounter can trigger a separate reaction table).<br>
+</li>
+<li><strong>Modify them with situation-based rules</strong>: Have different interpretations based on where the player is (e.g., the same “Lost Traveler” encounter means different things in a desert versus a haunted ruin).<br>
+</li>
+<li><strong>Build specialized versions</strong>: Create smaller, setting-specific tables that add depth, like “Rumors in the Tavern” or “Corporate Secrets.”</li>
+</ul>
+</section>
+<section id="final-thoughts" class="level3">
+<h3 class="anchored" data-anchor-id="final-thoughts">Final Thoughts</h3>
+<p>D66 tables are one of the most powerful tools in <em>Loner</em>, giving solo players the ability to:</p>
+<ul>
+<li>Generate <strong>unexpected twists</strong> that keep gameplay engaging.<br>
+</li>
+<li>Flesh out <strong>worldbuilding details</strong> without requiring massive prep.<br>
+</li>
+<li>Keep the story <strong>reactive and emergent</strong>, allowing for flexible play.</li>
+</ul>
+<p>With practice, crafting D66 tables becomes second nature, letting you create tailored, dynamic solo RPG experiences that feel alive and full of possibility.</p>
+</section>
+</section>
+<section id="appendix-how-to-write-d66-tables" class="level2">
+<h2 class="anchored" data-anchor-id="appendix-how-to-write-d66-tables">Appendix: How to Write D66 Tables</h2>
+<p>Use the following examples to craft D66 tables that feel <strong>cohesive, purposeful, and customized</strong> to your world. Instead of filling out tables arbitrarily, each entry serves <strong>a distinct narrative function</strong>, ensuring a mix of <strong>mystery, action, intrigue, and thematic development</strong>.</p>
+<section id="d66-random-encounter-table-template" class="level3">
+<h3 class="anchored" data-anchor-id="d66-random-encounter-table-template">D66 Random Encounter Table Template</h3>
+<p><em>Use this table to generate dynamic encounters, ensuring a mix of tension, opportunity, and intrigue.</em></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">D66</th>
+<th style="text-align: left;">Guidance for Entry</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>11</strong></td>
+<td style="text-align: left;"><strong>A routine or mundane encounter that still adds flavor.</strong> Example: A traveler, a merchant, or a group of locals engaged in their daily lives.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>12</strong></td>
+<td style="text-align: left;"><strong>An NPC who presents an unusual opportunity.</strong> Example: Someone with information, a map, or a tempting offer.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>13</strong></td>
+<td style="text-align: left;"><strong>An NPC with unclear motives.</strong> Example: A beggar, a spy, or someone pretending to be lost. What do they <em>really</em> want?</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>14</strong></td>
+<td style="text-align: left;"><strong>An ambiguous observer.</strong> Example: Someone is watching the protagonist but doesn’t approach. Are they a threat, or just curious?</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>15</strong></td>
+<td style="text-align: left;"><strong>A figure of authority or power.</strong> Example: A guard, noble, or crime boss who may be an obstacle or ally.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>16</strong></td>
+<td style="text-align: left;"><strong>A character tied to the protagonist’s past.</strong> Example: A former ally, rival, or mentor with a personal stake in their actions.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>21</strong></td>
+<td style="text-align: left;"><strong>A non-human entity.</strong> Example: A stray animal, a malfunctioning drone, or a supernatural presence.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>22</strong></td>
+<td style="text-align: left;"><strong>A character in distress.</strong> Example: Someone in immediate danger — what happened, and should the protagonist intervene?</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>23</strong></td>
+<td style="text-align: left;"><strong>A suspicious group.</strong> Example: Bandits, cultists, corporate agents — what are they up to?</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>24</strong></td>
+<td style="text-align: left;"><strong>A faction representative.</strong> Example: A recruiter, emissary, or rival operative sent to make contact.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>25</strong></td>
+<td style="text-align: left;"><strong>A potential informant.</strong> Example: Someone who knows something but may not be eager to share.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>26</strong></td>
+<td style="text-align: left;"><strong>A harmless situation that could escalate.</strong> Example: A local argument, a street performance, or a simple misunderstanding.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>31</strong></td>
+<td style="text-align: left;"><strong>A character seeking revenge.</strong> Example: Someone who believes the protagonist wronged them — rightly or wrongly.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>32</strong></td>
+<td style="text-align: left;"><strong>An NPC offering a shortcut or tool.</strong> Example: A smuggler, a hacker, or a scholar with knowledge that can change the protagonist’s course.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>33</strong></td>
+<td style="text-align: left;"><strong>An old mystery resurfacing.</strong> Example: Someone mentions a long-lost rumor or missing person.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>34</strong></td>
+<td style="text-align: left;"><strong>A minor inconvenience or test.</strong> Example: Pickpockets, a lost item, or someone blocking the protagonist’s way.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>35</strong></td>
+<td style="text-align: left;"><strong>A direct challenge.</strong> Example: A rival demands a duel, an official makes an accusation, or a gang issues a threat.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>36</strong></td>
+<td style="text-align: left;"><strong>A hidden trap.</strong> Example: The protagonist is lured somewhere under false pretenses — why?</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>41</strong></td>
+<td style="text-align: left;"><strong>A peaceful interaction that sets up something bigger.</strong> Example: A storyteller, an artist, or a monk who shares something thought-provoking.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>42</strong></td>
+<td style="text-align: left;"><strong>A guide or local expert.</strong> Example: Someone who knows the area well but has their own agenda.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>43</strong></td>
+<td style="text-align: left;"><strong>A character with unfinished business.</strong> Example: A bounty hunter looking for someone, a runaway hiding from something.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>44</strong></td>
+<td style="text-align: left;"><strong>An adversary disguised as a friend.</strong> Example: Someone pretending to help the protagonist while working against them.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>45</strong></td>
+<td style="text-align: left;"><strong>A rumor in motion.</strong> Example: A heated discussion about a recent event, a political crisis, or a monster sighting.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>46</strong></td>
+<td style="text-align: left;"><strong>A strange coincidence.</strong> Example: Someone with information that is unexpectedly relevant to the protagonist’s goals.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>51</strong></td>
+<td style="text-align: left;"><strong>A decoy or distraction.</strong> Example: A commotion that is meant to mislead or lure the protagonist somewhere.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>52</strong></td>
+<td style="text-align: left;"><strong>An encounter that foreshadows a major event.</strong> Example: Someone drops an ominous warning, a newspaper hints at a coming disaster.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>53</strong></td>
+<td style="text-align: left;"><strong>An urgent message.</strong> Example: A courier or whisper network member delivers news that affects the protagonist.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>54</strong></td>
+<td style="text-align: left;"><strong>A supernatural occurrence.</strong> Example: A ghost, an inexplicable omen, or an artifact that reacts strangely.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>55</strong></td>
+<td style="text-align: left;"><strong>A deal that seems too good to be true.</strong> Example: A merchant, a politician, or an outlaw offers something valuable at a suspiciously low cost.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>56</strong></td>
+<td style="text-align: left;"><strong>A crisis requiring immediate attention.</strong> Example: A fire, an accident, or a sudden attack — what just changed?</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>61</strong></td>
+<td style="text-align: left;"><strong>An old friend or mentor.</strong> Example: Someone who knew the protagonist before their current journey — what do they want now?</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>62</strong></td>
+<td style="text-align: left;"><strong>A betrayal in progress.</strong> Example: The protagonist overhears or stumbles upon an act of treachery.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>63</strong></td>
+<td style="text-align: left;"><strong>An encounter that shifts the protagonist’s priorities.</strong> Example: A personal revelation, an unexpected threat, or a discovery that redefines their goal.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>64</strong></td>
+<td style="text-align: left;"><strong>An invitation to something larger.</strong> Example: A secret meeting, a private auction, or a cult initiation.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>65</strong></td>
+<td style="text-align: left;"><strong>A game-changing revelation.</strong> Example: A hidden truth about the protagonist’s past, a long-buried conspiracy, or a prophecy fulfilled.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>66</strong></td>
+<td style="text-align: left;"><strong>An event that forces the protagonist to act.</strong> Example: A personal rival escalates matters, a faction declares war, or an entire location is thrown into chaos.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="d66-story-twist-table-template" class="level3">
+<h3 class="anchored" data-anchor-id="d66-story-twist-table-template">D66 Story Twist Table Template</h3>
+<p><em>Use this to generate unexpected narrative developments that keep solo play fresh and exciting.</em></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">D66</th>
+<th style="text-align: left;">Guidance for Entry</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>11</strong></td>
+<td style="text-align: left;"><strong>A faction suddenly changes its stance.</strong> Example: An ally withdraws support, or an enemy extends an offer of peace.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>12</strong></td>
+<td style="text-align: left;"><strong>A natural or cosmic force intervenes.</strong> Example: A storm, an earthquake, or an eclipse disrupts the current situation.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>13</strong></td>
+<td style="text-align: left;"><strong>An NPC makes a surprising confession.</strong> Example: They reveal hidden knowledge, admit guilt, or claim to be an imposter.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>14</strong></td>
+<td style="text-align: left;"><strong>A location transforms unexpectedly.</strong> Example: A hidden chamber is discovered, a portal activates, or a building collapses.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>15</strong></td>
+<td style="text-align: left;"><strong>A past mistake resurfaces.</strong> Example: An old debt is called in, or someone the protagonist wronged seeks revenge.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>16</strong></td>
+<td style="text-align: left;"><strong>A mysterious artifact changes hands.</strong> Example: A relic is stolen, found, or becomes sentient.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>21</strong></td>
+<td style="text-align: left;"><strong>A familiar face is not what they seemed.</strong> Example: An ally is actually a double agent, or an enemy had good intentions all along.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>22</strong></td>
+<td style="text-align: left;"><strong>A piece of technology or magic malfunctions.</strong> Example: A power source destabilizes, a device gains a mind of its own.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>23</strong></td>
+<td style="text-align: left;"><strong>A rumor turns out to be a lie — or the truth.</strong> Example: A well-known legend is revealed to be real, or a trusted fact is debunked.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>24</strong></td>
+<td style="text-align: left;"><strong>A major NPC disappears.</strong> Example: A faction leader vanishes, a mentor leaves without explanation.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>25</strong></td>
+<td style="text-align: left;"><strong>A conflict escalates beyond expectation.</strong> Example: A minor skirmish turns into a war, or a local dispute sparks rebellion.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>26</strong></td>
+<td style="text-align: left;"><strong>Something once thought lost returns.</strong> Example: A presumed-dead character resurfaces, or an extinct species is rediscovered.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>…</strong></td>
+<td style="text-align: left;"><em>(Continue filling out the remaining entries using similar logic — varied, open-ended, and setting-flexible results.)</em></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="appendix-remixing-d66-tables-for-different-genres" class="level2">
+<h2 class="anchored" data-anchor-id="appendix-remixing-d66-tables-for-different-genres">Appendix: Remixing D66 Tables for Different Genres</h2>
+<p><em>How to Adapt Existing Tables to Fit Any Setting or Theme</em></p>
+<p>Creating new D66 tables from scratch can be a fun but time-consuming process. Instead of reinventing the wheel, one of the easiest ways to generate <strong>setting-specific tables</strong> is by <strong>remixing</strong> existing ones. This means adjusting <strong>tone, language, and context</strong> to fit a different genre while keeping the structure intact.</p>
+<section id="step-1-identify-the-core-function-of-the-table" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-identify-the-core-function-of-the-table">Step 1: Identify the Core Function of the Table</h3>
+<p>Before modifying an existing table, ask:</p>
+<ol type="1">
+<li><strong>What does this table generate?</strong> (Encounters, twists, locations, mysteries, etc.)<br>
+</li>
+<li><strong>What role does it play in the game?</strong> (Is it meant to challenge, inspire, or surprise?)<br>
+</li>
+<li><strong>Does the structure still work?</strong> (Does every result make sense in the new context?)</li>
+</ol>
+</section>
+<section id="step-2-adjust-the-language-to-match-the-genre" class="level3">
+<h3 class="anchored" data-anchor-id="step-2-adjust-the-language-to-match-the-genre">Step 2: Adjust the Language to Match the Genre</h3>
+<p>Different settings require <strong>different tones and terminology</strong>. The same basic <strong>table structure</strong> can feel radically different with a few word swaps.</p>
+<section id="example-a-mysterious-encounter-table-across-three-genres" class="level4">
+<h4 class="anchored" data-anchor-id="example-a-mysterious-encounter-table-across-three-genres">Example: A “Mysterious Encounter” Table Across Three Genres</h4>
+<p>Below is the same <strong>table structure</strong> adapted for three different settings.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 28%">
+<col style="width: 29%">
+<col style="width: 38%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">D6</th>
+<th style="text-align: left;">Fantasy</th>
+<th style="text-align: left;">Cyberpunk</th>
+<th style="text-align: left;">Post-Apocalyptic</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><strong>1</strong></td>
+<td style="text-align: left;">A hooded traveler offers a cryptic warning.</td>
+<td style="text-align: left;">A masked hacker sends you an encrypted message.</td>
+<td style="text-align: left;">A nomad scrawls a message in the dust before vanishing.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>2</strong></td>
+<td style="text-align: left;">A knight challenges you to a duel.</td>
+<td style="text-align: left;">A corporate enforcer demands a meeting.</td>
+<td style="text-align: left;">A warlord’s lieutenant claims you owe a debt.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><strong>3</strong></td>
+<td style="text-align: left;">A merchant has an item that shouldn’t exist.</td>
+<td style="text-align: left;">A black-market dealer offers rare tech.</td>
+<td style="text-align: left;">A scavenger tries to sell you something “cursed.”</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>4</strong></td>
+<td style="text-align: left;">An old friend has changed allegiances.</td>
+<td style="text-align: left;">A former ally now works for a rival corp.</td>
+<td style="text-align: left;">A past companion is now the leader of a raider gang.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><strong>5</strong></td>
+<td style="text-align: left;">A celestial event is considered an omen.</td>
+<td style="text-align: left;">A solar flare disrupts all tech.</td>
+<td style="text-align: left;">A strange storm sweeps through, carrying whispers.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>6</strong></td>
+<td style="text-align: left;">A strange animal follows you and speaks in dreams.</td>
+<td style="text-align: left;">A synthetic pet contains encrypted memories.</td>
+<td style="text-align: left;">A mutated creature mimics your voice at night.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="takeaways-from-this-remix" class="level4">
+<h4 class="anchored" data-anchor-id="takeaways-from-this-remix">Takeaways from This Remix</h4>
+<ul>
+<li>The <strong>core structure</strong> remains identical.<br>
+</li>
+<li>The <strong>tone and terminology</strong> shift to fit the setting.<br>
+</li>
+<li><strong>Contextual meaning</strong> changes even though the function of each entry is the same.</li>
+</ul>
+</section>
+</section>
+<section id="step-3-modify-the-scale-and-scope" class="level3">
+<h3 class="anchored" data-anchor-id="step-3-modify-the-scale-and-scope">Step 3: Modify the Scale and Scope</h3>
+<p>Not all genres operate at the same scale. Some require <strong>larger-than-life conflicts</strong>, while others work best with <strong>personal struggles</strong>.</p>
+<ul>
+<li><p><strong>Epic Fantasy vs.&nbsp;Gritty Noir</strong></p>
+<ul>
+<li>In fantasy, a D66 “Big Event” table might include <strong>godly interventions</strong> or <strong>kingdom-wide conspiracies</strong>.<br>
+</li>
+<li>In noir, the same table would focus on <strong>criminal power struggles</strong>, <strong>personal betrayals</strong>, and <strong>hidden truths</strong>.</li>
+</ul></li>
+<li><p><strong>Hard Sci-Fi vs.&nbsp;Pulp Sci-Fi</strong></p>
+<ul>
+<li>In a <em>hard sci-fi</em> setting, a D66 “Travel Complications” table might include <strong>realistic malfunctions, radiation storms, and AI failures</strong>.<br>
+</li>
+<li>In a <em>pulp sci-fi</em> setting, the same table could include <strong>alien ruins, space pirates, and cosmic horrors</strong>.</li>
+</ul></li>
+</ul>
+<section id="practical-application" class="level4">
+<h4 class="anchored" data-anchor-id="practical-application">Practical Application</h4>
+<p>Take an existing table and adjust entries <strong>one at a time</strong> by asking:</p>
+<ol type="1">
+<li>Does this result fit <strong>the scale of my world</strong>?<br>
+</li>
+<li>Should I <strong>expand or shrink</strong> the scope to match the genre?<br>
+</li>
+<li>Can I replace elements <strong>without changing the table’s function</strong>?</li>
+</ol>
+</section>
+</section>
+<section id="step-4-swap-out-unfitting-entries" class="level3">
+<h3 class="anchored" data-anchor-id="step-4-swap-out-unfitting-entries">Step 4: Swap Out Unfitting Entries</h3>
+<p>Some entries may not work in a new genre at all. Instead of forcing them to fit, swap them for elements that <strong>serve the same narrative role</strong> but in a way that makes sense for the setting.</p>
+<p><strong>Example: Converting a “Mystical Omens” Table for Different Genres</strong><br>
+The <strong>original</strong> fantasy-focused table includes:</p>
+<ul>
+<li><strong>A comet streaks across the sky, foretelling great change.</strong><br>
+</li>
+<li><strong>A flock of crows gathers in unnatural numbers.</strong><br>
+</li>
+<li><strong>An ancient rune glows for the first time in centuries.</strong></li>
+</ul>
+<p>For a <strong>Cyberpunk setting</strong>, we could swap these for:</p>
+<ul>
+<li><strong>A satellite burns up on reentry, throwing the city into panic.</strong><br>
+</li>
+<li><strong>Drone surveillance intensifies, seemingly watching for something specific.</strong><br>
+</li>
+<li><strong>A glitch in the city’s holographic billboards reveals a hidden message.</strong></li>
+</ul>
+<p>For a <strong>Post-Apocalyptic setting</strong>, they could be changed to:</p>
+<ul>
+<li><strong>A falling star crashes into the wasteland, setting off rumors of treasure.</strong><br>
+</li>
+<li><strong>A swarm of rats flees in a single direction — what are they running from?</strong><br>
+</li>
+<li><strong>A bunker door unlocks after decades of being sealed.</strong></li>
+</ul>
+<p>In each case, the <strong>role of the result stays the same</strong> — a mysterious event that shakes things up — but the <strong>flavor and setting</strong> shift dramatically.</p>
+</section>
+<section id="step-5-balance-high-medium-and-low-impact-results" class="level3">
+<h3 class="anchored" data-anchor-id="step-5-balance-high-medium-and-low-impact-results"><strong>Step 5: Balance High, Medium, and Low-Impact Results</strong></h3>
+<p>Every <strong>D66 table</strong> should have a <strong>healthy mix</strong> of:</p>
+<ul>
+<li><strong>Mild flavor entries</strong> (small world details, non-critical interactions).<br>
+</li>
+<li><strong>Mid-level complications</strong> (things the protagonist must respond to).<br>
+</li>
+<li><strong>Major game-changing moments</strong> (shifts in the world, serious dangers, huge opportunities).</li>
+</ul>
+<p>If remixing a table from another genre, ensure that <strong>each intensity level remains balanced</strong> so that results aren’t too chaotic or too mild.</p>
+<section id="example-adapting-a-faction-reaction-table-for-different-genres" class="level4">
+<h4 class="anchored" data-anchor-id="example-adapting-a-faction-reaction-table-for-different-genres"><strong>Example: Adapting a “Faction Reaction” Table for Different Genres</strong></h4>
+<p>A <strong>Faction Reaction Table</strong> for a medieval fantasy setting might include:</p>
+<ul>
+<li><strong>Minor (Low Impact)</strong>: A noble sends a polite invitation for a meeting.<br>
+</li>
+<li><strong>Mid-Level (Requires Response)</strong>: A guild places restrictions on your access to city resources.<br>
+</li>
+<li><strong>Major (Big Consequences)</strong>: A war declaration puts you on one side or the other.</li>
+</ul>
+<p>For a <strong>dystopian cyberpunk setting</strong>, the same progression could become:</p>
+<ul>
+<li><strong>Minor</strong>: A megacorp offers a one-time deal with unknown strings attached.<br>
+</li>
+<li><strong>Mid-Level</strong>: A hacker group disrupts city-wide power, affecting your plans.<br>
+</li>
+<li><strong>Major</strong>: A government agency marks you as a national security threat.</li>
+</ul>
+</section>
+</section>
+<section id="step-6-when-to-keep-entries-vague-vs.-specific" class="level3">
+<h3 class="anchored" data-anchor-id="step-6-when-to-keep-entries-vague-vs.-specific">Step 6: When to Keep Entries Vague vs.&nbsp;Specific</h3>
+<p>Some genres thrive on <strong>open-ended prompts</strong>, while others benefit from <strong>detailed results</strong>.</p>
+<ul>
+<li><p><strong>Open-Ended Prompts (Good for Mystery &amp; Exploration)</strong></p>
+<ul>
+<li>“A stranger approaches with an urgent warning” → Who are they? What’s the warning about?<br>
+</li>
+<li>“A faction is mobilizing for an unknown reason” → What caused this? How does it affect the protagonist?</li>
+</ul></li>
+<li><p><strong>Detailed Results (Good for High-Stakes, Fast-Paced Genres)</strong></p>
+<ul>
+<li>“A bounty of 500,000 credits has been placed on your head by the Black Sun Syndicate.”<br>
+</li>
+<li>“A rogue AI is rewriting security protocols at the city’s central data hub.”</li>
+</ul></li>
+</ul>
+<p>If remixing a table, determine if your <strong>new genre benefits more from keeping things vague or providing clear direction</strong>.</p>
+</section>
+<section id="final-thoughts-building-a-collection-of-remixable-tables" class="level3">
+<h3 class="anchored" data-anchor-id="final-thoughts-building-a-collection-of-remixable-tables">Final Thoughts: Building a Collection of Remixable Tables</h3>
+<p>Instead of creating <strong>new</strong> tables for every game, build a <strong>core set of remixable D66 tables</strong> that can be adjusted <strong>on the fly</strong>.</p>
+<ul>
+<li><strong>Keep a “Base Structure” Version</strong> of each table.<br>
+</li>
+<li><strong>Mark adaptable elements</strong> that can be swapped for different settings.<br>
+</li>
+<li><strong>Test new versions</strong> by rolling a few times and checking if the results make sense.</li>
+</ul>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var sidebar = document.getElementById("quarto-margin-sidebar");
+  var formats = document.querySelector(".quarto-alternate-formats");
+  if (sidebar && formats) {
+    sidebar.insertBefore(formats, sidebar.firstChild);
+  }
+
+  // Rename "Typst" label to "PDF"
+  document.querySelectorAll(".quarto-alternate-formats a").forEach(function (a) {
+    a.childNodes.forEach(function (node) {
+      if (node.nodeType === Node.TEXT_NODE && node.textContent.trim() === "Typst") {
+        node.textContent = "PDF";
+      }
+    });
+  });
+});
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/zotiquestgames\.github\.io\/lonersrd\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2021-2026 <a href="https://zotiquestgames.com">Roberto Bisceglie</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/zotiquestgames/lonersrd/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

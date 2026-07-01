@@ -1,0 +1,2003 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Roberto Bisceglie">
+<meta name="dcterms.date" content="2026-07-01">
+
+<title>Tales &amp; Tumbles! – Loner SRD</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-d37705bb3a21d8331654a8d3f48f58ba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-87bbd3402671c853dcbde7c40b26e08b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-d37705bb3a21d8331654a8d3f48f58ba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&amp;family=Raleway:wght@700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+  @import url('https://fonts.cdnfonts.com/css/takota');
+</style>
+
+
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Loner SRD</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../core/loner-3e.html" aria-current="page"> 
+<span class="menu-text">Core Rules</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../adventure_packs/AP01_fantasy.html"> 
+<span class="menu-text">Adventure Packs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../geared_towards_loner/kwaidan_revised.html"> 
+<span class="menu-text">Geared Towards Loner</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/zotiquestgames/lonersrd"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../core/loner-3e.html">SRD</a></li><li class="breadcrumb-item"><a href="../geared_towards_loner/tales_and_tumbles.html">For Kids</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">SRD</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/loner-3e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 3e</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/loner_companion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Companion</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/character_builders_guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Character Builder’s Guide</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/world_builders_guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">World Builder’s Guide</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/the_path_not_taken.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Path Not Taken</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/cinematic_action.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cinematic Action</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/tales_and_tumbles.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">For Kids</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Legacy Core Rules</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/legacy/loner-1e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 1e (legacy)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/legacy/loner-2e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 2e (legacy)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Adventure Packs</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP01_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fantasy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP02_space.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Space Sci-Fi Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP03_superheroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Superheroes Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP04_crime.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Crime Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP05_mystery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mystery Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP06_horror.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Horror Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP07_action_adventure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Action Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP08_spy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP09_postapoc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Post-Apocalyptic Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP10_pirates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pirates Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP11_western.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Western Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP12_cyberpunk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cyberpunk Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Adventure Packs (Legacy 2e)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP01_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fantasy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP02_space.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Space Sci-Fi Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP03_superheroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Superheroes Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP04_crime.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Crime Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP05_mystery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mystery Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP06_horror.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Horror Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP07_action_adventure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Action Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP08_spy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP09_postapoc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Post-Apocalyptic Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP10_pirates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pirates Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP11_western.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Western Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP12_cyberpunk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cyberpunk Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/legacy/kwaidan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan!</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">Geared Towards Loner games</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/kwaidan_revised.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan! (Revised)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/cog_compass.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cog &amp; Compass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/mech_requiem.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mech: Requiem</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/legends_of_camelot.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Legends of Camelot</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/pulp_adventures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pulp Adventures!</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/steel_and_sorcery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Steel &amp; Sorcery</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/dungeoneer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dungeoneer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/spacer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spacer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/arabian_nights_adventures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Arabian Nights Adventures</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/cozy_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cozy Fantasy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/savage_blades_of_xylandra.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Savage Blades of Xylandra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/pulp_heroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pulp Heroes!</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/the_shattered_reach.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Shattered Reach</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/galaxy_drifter.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Galaxy Drifter</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/urban_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Urban Fantasy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/norse_saga.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Norse Saga</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/cthulhu.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cthulhu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/paranormal_files.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Paranormal Files</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+ <span class="menu-text">Geared Towards Loner games (Legacy)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/legacy/kwaidan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan!</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tales-tumbles" id="toc-tales-tumbles" class="nav-link active" data-scroll-target="#tales-tumbles">Tales &amp; Tumbles!</a>
+  <ul class="collapse">
+  <li><a href="#welcome-to-tales-tumbles" id="toc-welcome-to-tales-tumbles" class="nav-link" data-scroll-target="#welcome-to-tales-tumbles"><strong>Welcome to Tales &amp; Tumbles!</strong></a>
+  <ul class="collapse">
+  <li><a href="#why-play-rpgs-with-kids" id="toc-why-play-rpgs-with-kids" class="nav-link" data-scroll-target="#why-play-rpgs-with-kids"><strong>Why Play RPGs with Kids?</strong></a></li>
+  <li><a href="#how-old-should-my-child-be-to-play" id="toc-how-old-should-my-child-be-to-play" class="nav-link" data-scroll-target="#how-old-should-my-child-be-to-play"><strong>How Old Should My Child Be to Play?</strong></a></li>
+  <li><a href="#your-role-guide-not-boss" id="toc-your-role-guide-not-boss" class="nav-link" data-scroll-target="#your-role-guide-not-boss"><strong>Your Role: Guide, Not Boss</strong></a></li>
+  <li><a href="#how-does-the-game-work" id="toc-how-does-the-game-work" class="nav-link" data-scroll-target="#how-does-the-game-work"><strong>How Does the Game Work?</strong></a></li>
+  </ul></li>
+  <li><a href="#what-you-need-to-play" id="toc-what-you-need-to-play" class="nav-link" data-scroll-target="#what-you-need-to-play">What You Need to Play</a></li>
+  <li><a href="#create-your-hero" id="toc-create-your-hero" class="nav-link" data-scroll-target="#create-your-hero">Create Your Hero!</a>
+  <ul class="collapse">
+  <li><a href="#step-1-pick-a-name" id="toc-step-1-pick-a-name" class="nav-link" data-scroll-target="#step-1-pick-a-name"><strong>Step 1️⃣: Pick a Name!</strong></a></li>
+  <li><a href="#step-2-what-makes-you-special" id="toc-step-2-what-makes-you-special" class="nav-link" data-scroll-target="#step-2-what-makes-you-special"><strong>Step 2️⃣: What Makes You Special?</strong></a></li>
+  <li><a href="#step-3-what-do-you-carry-a-special-item" id="toc-step-3-what-do-you-carry-a-special-item" class="nav-link" data-scroll-target="#step-3-what-do-you-carry-a-special-item"><strong>Step 3️⃣: What Do You Carry? (A Special Item!)</strong></a></li>
+  <li><a href="#step-4-whats-your-big-adventure" id="toc-step-4-whats-your-big-adventure" class="nav-link" data-scroll-target="#step-4-whats-your-big-adventure"><strong>Step 4️⃣: What’s Your Big Adventure?</strong></a></li>
+  </ul></li>
+  <li><a href="#how-to-play" id="toc-how-to-play" class="nav-link" data-scroll-target="#how-to-play">How to Play</a>
+  <ul class="collapse">
+  <li><a href="#set-the-scene" id="toc-set-the-scene" class="nav-link" data-scroll-target="#set-the-scene"><strong>1️⃣</strong> Set the Scene</a></li>
+  <li><a href="#the-hero-acts" id="toc-the-hero-acts" class="nav-link" data-scroll-target="#the-hero-acts"><strong>2️⃣ The Hero Acts!</strong></a></li>
+  <li><a href="#roll-the-die" id="toc-roll-the-die" class="nav-link" data-scroll-target="#roll-the-die"><strong>3️⃣ Roll the Die! 🎲</strong></a></li>
+  <li><a href="#making-it-even-more-fun" id="toc-making-it-even-more-fun" class="nav-link" data-scroll-target="#making-it-even-more-fun"><strong>Making It Even More Fun</strong></a></li>
+  </ul></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  <li><a href="#roll-the-magic-dice" id="toc-roll-the-magic-dice" class="nav-link" data-scroll-target="#roll-the-magic-dice">Roll the Magic Dice! 🎲</a>
+  <ul class="collapse">
+  <li><a href="#how-it-works" id="toc-how-it-works" class="nav-link" data-scroll-target="#how-it-works"><strong>How It Works</strong></a></li>
+  <li><a href="#example-playthrough" id="toc-example-playthrough" class="nav-link" data-scroll-target="#example-playthrough"><strong>Example Playthrough</strong></a></li>
+  <li><a href="#more-fun-examples" id="toc-more-fun-examples" class="nav-link" data-scroll-target="#more-fun-examples"><strong>More Fun Examples</strong></a></li>
+  <li><a href="#keep-the-story-moving" id="toc-keep-the-story-moving" class="nav-link" data-scroll-target="#keep-the-story-moving"><strong>Keep the Story Moving!</strong></a></li>
+  </ul></li>
+  <li><a href="#surprises-twists-in-the-story" id="toc-surprises-twists-in-the-story" class="nav-link" data-scroll-target="#surprises-twists-in-the-story">Surprises! (Twists in the Story) 🎭</a>
+  <ul class="collapse">
+  <li><a href="#fun-types-of-surprises" id="toc-fun-types-of-surprises" class="nav-link" data-scroll-target="#fun-types-of-surprises"><strong>Fun Types of Surprises!</strong></a></li>
+  <li><a href="#surprise-playthrough-example" id="toc-surprise-playthrough-example" class="nav-link" data-scroll-target="#surprise-playthrough-example"><strong>Surprise Playthrough Example</strong></a></li>
+  <li><a href="#let-your-child-add-their-own-surprises" id="toc-let-your-child-add-their-own-surprises" class="nav-link" data-scroll-target="#let-your-child-add-their-own-surprises"><strong>Let Your Child Add Their Own Surprises!</strong></a></li>
+  </ul></li>
+  <li><a href="#hearts-challenges" id="toc-hearts-challenges" class="nav-link" data-scroll-target="#hearts-challenges">Hearts &amp; Challenges ❤️</a>
+  <ul class="collapse">
+  <li><a href="#how-hearts-work" id="toc-how-hearts-work" class="nav-link" data-scroll-target="#how-hearts-work"><strong>How Hearts Work</strong></a></li>
+  <li><a href="#what-makes-you-lose-a-heart" id="toc-what-makes-you-lose-a-heart" class="nav-link" data-scroll-target="#what-makes-you-lose-a-heart"><strong>What Makes You Lose a Heart?</strong></a></li>
+  <li><a href="#how-to-get-hearts-back" id="toc-how-to-get-hearts-back" class="nav-link" data-scroll-target="#how-to-get-hearts-back"><strong>How to Get Hearts Back!</strong></a></li>
+  <li><a href="#no-hearts-left-no-problem" id="toc-no-hearts-left-no-problem" class="nav-link" data-scroll-target="#no-hearts-left-no-problem"><strong>No Hearts Left? No Problem!</strong></a></li>
+  </ul></li>
+  <li><a href="#creating-an-adventure" id="toc-creating-an-adventure" class="nav-link" data-scroll-target="#creating-an-adventure">Creating an Adventure! 🚀</a>
+  <ul class="collapse">
+  <li><a href="#how-adventures-work" id="toc-how-adventures-work" class="nav-link" data-scroll-target="#how-adventures-work"><strong>How Adventures Work</strong></a></li>
+  <li><a href="#example-mini-adventure" id="toc-example-mini-adventure" class="nav-link" data-scroll-target="#example-mini-adventure"><strong>Example Mini-Adventure</strong></a></li>
+  <li><a href="#encourage-big-choices" id="toc-encourage-big-choices" class="nav-link" data-scroll-target="#encourage-big-choices"><strong>Encourage Big Choices!</strong></a></li>
+  <li><a href="#what-happens-next" id="toc-what-happens-next" class="nav-link" data-scroll-target="#what-happens-next"><strong>What Happens Next?</strong></a></li>
+  </ul></li>
+  <li><a href="#your-first-adventure-the-lost-key-quest" id="toc-your-first-adventure-the-lost-key-quest" class="nav-link" data-scroll-target="#your-first-adventure-the-lost-key-quest">Your First Adventure: The Lost Key Quest!</a></li>
+  <li><a href="#the-lost-key-quest" id="toc-the-lost-key-quest" class="nav-link" data-scroll-target="#the-lost-key-quest"><strong>📜 The Lost Key Quest! 🔑</strong></a>
+  <ul class="collapse">
+  <li><a href="#scene-1-the-clue" id="toc-scene-1-the-clue" class="nav-link" data-scroll-target="#scene-1-the-clue"><strong>Scene 1: The Clue</strong></a></li>
+  <li><a href="#scene-2-the-goblin-appears" id="toc-scene-2-the-goblin-appears" class="nav-link" data-scroll-target="#scene-2-the-goblin-appears"><strong>Scene 2: The Goblin Appears!</strong></a></li>
+  <li><a href="#final-scene-the-treasure-chest" id="toc-final-scene-the-treasure-chest" class="nav-link" data-scroll-target="#final-scene-the-treasure-chest"><strong>Final Scene: The Treasure Chest</strong></a></li>
+  <li><a href="#what-happens-next-1" id="toc-what-happens-next-1" class="nav-link" data-scroll-target="#what-happens-next-1"><strong>What Happens Next?</strong></a></li>
+  </ul></li>
+  <li><a href="#the-adventure-never-ends" id="toc-the-adventure-never-ends" class="nav-link" data-scroll-target="#the-adventure-never-ends">The Adventure Never Ends! 🚀</a>
+  <ul class="collapse">
+  <li><a href="#wrap-up-rewards" id="toc-wrap-up-rewards" class="nav-link" data-scroll-target="#wrap-up-rewards"><strong>Wrap-Up &amp; Rewards 🎉</strong></a></li>
+  <li><a href="#if-they-played-solo" id="toc-if-they-played-solo" class="nav-link" data-scroll-target="#if-they-played-solo"><strong>If They Played Solo…</strong></a></li>
+  <li><a href="#the-next-adventure-awaits" id="toc-the-next-adventure-awaits" class="nav-link" data-scroll-target="#the-next-adventure-awaits"><strong>The Next Adventure Awaits!</strong></a></li>
+  </ul></li>
+  <li><a href="#playing-solo-mode" id="toc-playing-solo-mode" class="nav-link" data-scroll-target="#playing-solo-mode">Playing Solo Mode 🎭</a>
+  <ul class="collapse">
+  <li><a href="#how-to-play-without-a-grown-up" id="toc-how-to-play-without-a-grown-up" class="nav-link" data-scroll-target="#how-to-play-without-a-grown-up"><strong>How to Play Without a Grown-Up</strong></a></li>
+  <li><a href="#keeping-the-story-moving" id="toc-keeping-the-story-moving" class="nav-link" data-scroll-target="#keeping-the-story-moving"><strong>Keeping the Story Moving!</strong></a></li>
+  <li><a href="#sharing-their-adventure" id="toc-sharing-their-adventure" class="nav-link" data-scroll-target="#sharing-their-adventure"><strong>Sharing Their Adventure!</strong></a></li>
+  </ul></li>
+  <li><a href="#tips-for-grown-ups" id="toc-tips-for-grown-ups" class="nav-link" data-scroll-target="#tips-for-grown-ups">Tips for Grown-Ups 🎭</a></li>
+  <li><a href="#wrapping-up-what-happens-next" id="toc-wrapping-up-what-happens-next" class="nav-link" data-scroll-target="#wrapping-up-what-happens-next">🎉 Wrapping Up: What Happens Next?</a>
+  <ul class="collapse">
+  <li><a href="#story-reflection-time" id="toc-story-reflection-time" class="nav-link" data-scroll-target="#story-reflection-time"><strong>✨ Story Reflection Time!</strong></a></li>
+  <li><a href="#keep-the-adventure-alive" id="toc-keep-the-adventure-alive" class="nav-link" data-scroll-target="#keep-the-adventure-alive"><strong>🎨 Keep the Adventure Alive!</strong></a></li>
+  <li><a href="#the-next-adventure-awaits-1" id="toc-the-next-adventure-awaits-1" class="nav-link" data-scroll-target="#the-next-adventure-awaits-1"><strong>🔄 The Next Adventure Awaits!</strong></a></li>
+  </ul></li>
+  <li><a href="#final-words-just-have-fun" id="toc-final-words-just-have-fun" class="nav-link" data-scroll-target="#final-words-just-have-fun">🌟 Final Words: Just Have Fun!</a></li>
+  <li><a href="#full-example-playthrough-the-lost-baby-dragon" id="toc-full-example-playthrough-the-lost-baby-dragon" class="nav-link" data-scroll-target="#full-example-playthrough-the-lost-baby-dragon"><strong>Full Example Playthrough: The Lost Baby Dragon</strong></a>
+  <ul class="collapse">
+  <li><a href="#meet-our-hero" id="toc-meet-our-hero" class="nav-link" data-scroll-target="#meet-our-hero"><strong>Meet Our Hero!</strong></a></li>
+  <li><a href="#scene-1-the-mysterious-jungle" id="toc-scene-1-the-mysterious-jungle" class="nav-link" data-scroll-target="#scene-1-the-mysterious-jungle"><strong>Scene 1: The Mysterious Jungle</strong></a></li>
+  <li><a href="#scene-2-the-scared-baby-dragon" id="toc-scene-2-the-scared-baby-dragon" class="nav-link" data-scroll-target="#scene-2-the-scared-baby-dragon"><strong>Scene 2: The Scared Baby Dragon</strong></a></li>
+  <li><a href="#scene-3-a-surprise-in-the-jungle" id="toc-scene-3-a-surprise-in-the-jungle" class="nav-link" data-scroll-target="#scene-3-a-surprise-in-the-jungle"><strong>Scene 3: A Surprise in the Jungle!</strong></a></li>
+  <li><a href="#scene-4-finding-the-mama-dragon" id="toc-scene-4-finding-the-mama-dragon" class="nav-link" data-scroll-target="#scene-4-finding-the-mama-dragon"><strong>Scene 4: Finding the Mama Dragon</strong></a></li>
+  <li><a href="#what-happens-next-2" id="toc-what-happens-next-2" class="nav-link" data-scroll-target="#what-happens-next-2"><strong>What Happens Next?</strong></a></li>
+  <li><a href="#growing-into-bigger-adventures" id="toc-growing-into-bigger-adventures" class="nav-link" data-scroll-target="#growing-into-bigger-adventures"><strong>Growing Into Bigger Adventures!</strong></a></li>
+  </ul></li>
+  <li><a href="#license" id="toc-license" class="nav-link" data-scroll-target="#license">License</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/zotiquestgames/lonersrd/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="tales_and_tumbles.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="tales_and_tumbles.odt"><i class="bi bi-file"></i>OpenOffice</a></li><li><a href="tales_and_tumbles.epub"><i class="bi bi-file"></i>ePub</a></li><li><a href="tales_and_tumbles-gfm.md"><i class="bi bi-file-code"></i>Github (GFM)</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../core/loner-3e.html">SRD</a></li><li class="breadcrumb-item"><a href="../geared_towards_loner/tales_and_tumbles.html">For Kids</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Tales &amp; Tumbles!</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Roberto Bisceglie </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 1, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="tales-tumbles" class="level1">
+<h1>Tales &amp; Tumbles!</h1>
+<p><em>A Simple Roleplaying Game for Kids</em><br>
+<em>(and Their Grown-Ups!)</em></p>
+<section id="welcome-to-tales-tumbles" class="level2">
+<h2 class="anchored" data-anchor-id="welcome-to-tales-tumbles"><strong>Welcome to Tales &amp; Tumbles!</strong></h2>
+<p><em>(A Message for Grown-Ups)</em></p>
+<p>Do you remember making up adventures as a kid? Pretending to be a pirate, a wizard, or an astronaut landing on a strange new planet?</p>
+<p>That’s exactly what <em>Tales &amp; Tumbles</em> is about—<strong>telling a story together</strong> where your child is the hero!</p>
+<p>This game introduces young children (ages <strong>3 to 6</strong>) to the magic of <strong>roleplaying games (RPGs)</strong> in the simplest, most natural way: through play and storytelling.</p>
+<section id="why-play-rpgs-with-kids" class="level3">
+<h3 class="anchored" data-anchor-id="why-play-rpgs-with-kids"><strong>Why Play RPGs with Kids?</strong></h3>
+<p>Roleplaying isn’t just about fantasy worlds—it’s about <strong>developing imagination, problem-solving, and confidence</strong>.</p>
+<p>⭐ <strong>Encourages Creativity</strong> – Kids love pretending! This game lets them invent characters, solve mysteries, and explore magical places.<br>
+⭐ <strong>Builds Decision-Making Skills</strong> – Instead of just following a story, they <strong>make choices</strong> that shape what happens next.<br>
+⭐ <strong>Strengthens Communication</strong> – By describing their actions and responding to the world, they practice speaking and storytelling.<br>
+⭐ <strong>Deepens Parent-Child Connection</strong> – Playing together creates a special bond, filled with laughter and shared adventures.</p>
+</section>
+<section id="how-old-should-my-child-be-to-play" class="level3">
+<h3 class="anchored" data-anchor-id="how-old-should-my-child-be-to-play"><strong>How Old Should My Child Be to Play?</strong></h3>
+<p>🟢 <strong>3–4 years old</strong> – Perfect for <strong>simple, guided stories</strong> where they react to what you describe. Keep choices easy (“Do you knock on the door or hide behind the tree?”).<br>
+🟡 <strong>5–6 years old</strong> – Kids at this age can <strong>make more decisions</strong> and even help shape the world. They might invent their own characters and narrate parts of the story.<br>
+🔵 <strong>Older kids?</strong> While this game is designed for <strong>little adventurers</strong>, you can adapt it to <strong>older kids</strong> by adding more details or letting them roll more often.</p>
+</section>
+<section id="your-role-guide-not-boss" class="level3">
+<h3 class="anchored" data-anchor-id="your-role-guide-not-boss"><strong>Your Role: Guide, Not Boss</strong></h3>
+<p>In <em>Tales &amp; Tumbles</em>, you’re not here to “win” or “control” the game. Instead, you are the <strong>guide</strong>, the <strong>storyteller</strong>, and the <strong>cheerleader</strong>!</p>
+<p>✅ <strong>Set the scene</strong> – “The castle door is locked! What do you do?”<br>
+✅ <strong>Encourage choices</strong> – “Do you ask the talking cat for help or try climbing the wall?”<br>
+✅ <strong>Make things exciting!</strong> – Add <strong>twists and surprises</strong> to keep the adventure fun.</p>
+<p>The <strong>only rule?</strong> Let your child’s imagination lead. If they want to be a <strong>flying unicorn detective</strong>, go with it! The goal is to <strong>have fun together</strong>.</p>
+</section>
+<section id="how-does-the-game-work" class="level3">
+<h3 class="anchored" data-anchor-id="how-does-the-game-work"><strong>How Does the Game Work?</strong></h3>
+<p>🔹 <strong>No game boards.</strong><br>
+🔹 <strong>No math or stats.</strong><br>
+🔹 <strong>Just a die, imagination, and fun!</strong></p>
+<p>💬 <strong>“But what do I do?”</strong><br>
+Easy! You describe what happens, your child decides what to do, and then a simple <strong>Yes/No/Maybe</strong> system decides the outcome.</p>
+<p>📢 <strong>Look for blue speech bubbles!</strong> These are fun prompts you can read aloud to keep the story going.</p>
+<p>Ready? Let’s create your child’s first adventure! 🚀</p>
+</section>
+</section>
+<section id="what-you-need-to-play" class="level2">
+<h2 class="anchored" data-anchor-id="what-you-need-to-play">What You Need to Play</h2>
+<p>✅ <strong>A six-sided die (d6)</strong> – Any regular die from a board game will work!<br>
+✅ <strong>Paper</strong> – To draw the hero and write down cool discoveries!<br>
+✅ <strong>Imagination!</strong> – The most important tool of all.</p>
+<p>Optional:<br>
+⭐ <strong>Stickers, tokens, or drawings</strong> – To track hearts (health).<br>
+🖍️ <strong>Crayons</strong> – To draw the adventure.<br>
+🎭 <strong>Puppets or stuffed animals</strong> – For extra storytelling fun!</p>
+<p>Now, let’s create a hero!</p>
+</section>
+<section id="create-your-hero" class="level2">
+<h2 class="anchored" data-anchor-id="create-your-hero">Create Your Hero!</h2>
+<p>🔵 <strong>(Read aloud to your child!)</strong><br>
+<em>“Close your eyes for a second… imagine you’re stepping into a brand-new adventure! But wait—who are you?”</em></p>
+<section id="step-1-pick-a-name" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-pick-a-name"><strong>Step 1️⃣: Pick a Name!</strong></h3>
+<p><em>“What’s your hero’s name? Are you a daring knight, a sneaky fox, or a clever pirate? Maybe you have a super cool title, like Max the Explorer or Lina the Lionhearted!”</em></p>
+<p><em>(If the child needs help, suggest some silly or exciting names!)</em></p>
+</section>
+<section id="step-2-what-makes-you-special" class="level3">
+<h3 class="anchored" data-anchor-id="step-2-what-makes-you-special"><strong>Step 2️⃣: What Makes You Special?</strong></h3>
+<p><em>“Every hero has a special talent! What are YOU really good at?”</em></p>
+<p>💭 <strong>Encourage them to act it out!</strong></p>
+<ul>
+<li>“Maybe you’re <strong>super fast!</strong> Try running in place!” 🏃‍♂️<br>
+</li>
+<li>“Or you can <strong>talk to animals!</strong> What would you say to a lost kitten?” 🐱<br>
+</li>
+<li>“Or maybe you’re a <strong>puzzle master!</strong> Can you solve this riddle? (Make up a simple one!)”</li>
+</ul>
+<p>💡 If they can’t decide, roll a die! 🎲</p>
+<ul>
+<li><strong>1–2:</strong> Super fast 🚀<br>
+</li>
+<li><strong>3–4:</strong> Talks to animals 🦜<br>
+</li>
+<li><strong>5–6:</strong> Great at solving puzzles 🧩</li>
+</ul>
+</section>
+<section id="step-3-what-do-you-carry-a-special-item" class="level3">
+<h3 class="anchored" data-anchor-id="step-3-what-do-you-carry-a-special-item"><strong>Step 3️⃣: What Do You Carry? (A Special Item!)</strong></h3>
+<p><em>“Every great hero has something special! What do YOU bring on your adventure?”</em></p>
+<ul>
+<li><strong>A magic key</strong> that unlocks any door? 🔑<br>
+</li>
+<li><strong>A flying skateboard</strong> that zooms through the sky? 🛹<br>
+</li>
+<li><strong>A backpack that gives advice?</strong> (What would it say right now?) 🎒</li>
+</ul>
+<p>💡 If they can’t decide, let them <strong>draw</strong> their item!</p>
+</section>
+<section id="step-4-whats-your-big-adventure" class="level3">
+<h3 class="anchored" data-anchor-id="step-4-whats-your-big-adventure"><strong>Step 4️⃣: What’s Your Big Adventure?</strong></h3>
+<p><em>“Now that you’re ready, what’s your mission?”</em></p>
+<ul>
+<li>🏴‍☠️ “Do you want to <strong>find a hidden treasure</strong>?”<br>
+</li>
+<li>🐶 “Or <strong>rescue a missing puppy</strong>?”<br>
+</li>
+<li>🐲 “Or maybe <strong>explore a jungle and meet a dragon</strong>?”</li>
+</ul>
+<p><em>(Let them pick! If they’re unsure, roll a die! 🎲)</em></p>
+<p>💡 <strong>Final Step: Draw Your Hero!</strong> 🎨<br>
+“Now that we know who you are, let’s draw your hero! What do they look like? Do they have a big hat? A cool cape? A pet sidekick?”</p>
+<p>🎭 <strong>Bonus:</strong> Want to make it even more fun? <strong>Dress up like your hero</strong> using things from around the house!</p>
+</section>
+</section>
+<section id="how-to-play" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-play">How to Play</h2>
+<p>💭 <strong>(For Grown-Ups: How Does the Game Work?)</strong></p>
+<p>Playing <em>Tales &amp; Tumbles</em> is as easy as <strong>telling a story together</strong>. There’s no board, no right or wrong choices—just imagination and a simple <strong>three-step loop</strong>.</p>
+<section id="set-the-scene" class="level3">
+<h3 class="anchored" data-anchor-id="set-the-scene"><strong>1️⃣</strong> Set the Scene</h3>
+<p>You (the grown-up) describe where the hero is. Keep it <strong>short and exciting</strong>!</p>
+<p>🔵 <strong>(Read aloud to your child!)</strong><br>
+<em>“You step into a deep, dark cave. The walls glow with tiny mushrooms, casting strange shadows. Suddenly… you hear a noise!”</em></p>
+<p>💡 <strong>Pro Tip:</strong> Use your voice! Whisper for spooky scenes, sound excited for discoveries.</p>
+</section>
+<section id="the-hero-acts" class="level3">
+<h3 class="anchored" data-anchor-id="the-hero-acts"><strong>2️⃣ The Hero Acts!</strong></h3>
+<p>Your child decides what to do. This is <strong>their moment to shine!</strong></p>
+<p>💡 <strong>Encourage different types of actions!</strong></p>
+<ul>
+<li><strong>Exploring</strong> – “Do you follow the noise, or peek behind a rock first?”<br>
+</li>
+<li><strong>Talking</strong> – “Do you call out, ‘Hello?’ Or stay quiet and listen?”<br>
+</li>
+<li><strong>Solving a problem</strong> – “The path is blocked! Do you climb over, dig under, or find another way?”</li>
+</ul>
+<p>🔵 <strong>(Read aloud!)</strong><br>
+<em>“What do you do? Do you tiptoe forward, or maybe grab a glowing mushroom for light?”</em></p>
+<p><em>(If they’re unsure, suggest two fun choices!)</em></p>
+</section>
+<section id="roll-the-die" class="level3">
+<h3 class="anchored" data-anchor-id="roll-the-die"><strong>3️⃣ Roll the Die! 🎲</strong></h3>
+<p>Whenever something uncertain happens, roll the die!</p>
+<p>🎲 <strong>1–2 = No.</strong> It doesn’t work, or something unexpected happens!<br>
+🎲 <strong>3–4 = Maybe.</strong> It works, but there’s a little problem.<br>
+🎲 <strong>5–6 = Yes!</strong> Success! Everything goes great.</p>
+<p>💭 <strong>Example Playthrough:</strong></p>
+<p><strong>You:</strong> <em>“You step closer… but the noise is getting louder! You try to sneak forward. Let’s roll to see if you can do it!”</em></p>
+<p>🎲 <strong>(Rolls a 3 – Maybe.)</strong></p>
+<p><strong>You:</strong> <em>“You move forward quietly, but—uh-oh! Your foot slips on a wet rock! You don’t fall, but the noise suddenly STOPS… whatever was making it knows you’re here!”</em></p>
+<p>🔵 <strong>(Read aloud!)</strong><br>
+<em>“Oh no! The noise stopped… Do you freeze and listen, or call out to see who’s there?”</em></p>
+<p><em>(Let the child decide! The story continues!)</em></p>
+</section>
+<section id="making-it-even-more-fun" class="level3">
+<h3 class="anchored" data-anchor-id="making-it-even-more-fun"><strong>Making It Even More Fun</strong></h3>
+<p>💡 <strong>Encourage movement!</strong></p>
+<ul>
+<li>“Show me how you tiptoe like a sneaky ninja!”<br>
+</li>
+<li>“Let’s both say ‘Hello?’ in a silly voice!”</li>
+</ul>
+<p>💡 <strong>Use sounds!</strong></p>
+<ul>
+<li>“You hear a GRRRRR… (Growl like a monster!) What do you do?”</li>
+</ul>
+<p>💡 <strong>Let them roll!</strong></p>
+<ul>
+<li>Young kids love <strong>rolling the die themselves</strong>—it makes them feel in control of the story!</li>
+</ul>
+<p>🎲 <strong>Now that you know how to play, let’s dive deeper into how rolling the die works!</strong> (Next section.)</p>
+</section>
+</section>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
+</section>
+<section id="roll-the-magic-dice" class="level2">
+<h2 class="anchored" data-anchor-id="roll-the-magic-dice">Roll the Magic Dice! 🎲</h2>
+<p>Sometimes, your hero will try something daring—<strong>jumping over a river, sneaking past a troll, or opening a mysterious chest!</strong></p>
+<p>But will it work? There’s only one way to find out… <strong>roll the magic dice!</strong> 🎲✨</p>
+<section id="how-it-works" class="level3">
+<h3 class="anchored" data-anchor-id="how-it-works"><strong>How It Works</strong></h3>
+<p>🎲 <strong>1–2 = No.</strong> It doesn’t work, or something unexpected happens!<br>
+🎲 <strong>3–4 = Maybe.</strong> It works, but there’s a little problem.<br>
+🎲 <strong>5–6 = Yes!</strong> Success! Everything goes great.</p>
+<p>🔵 <strong>(Read aloud!)</strong><br>
+<em>“Roll the dice! Will the door open? Will the dragon let you pass? Let’s see what happens!”</em></p>
+</section>
+<section id="example-playthrough" class="level3">
+<h3 class="anchored" data-anchor-id="example-playthrough"><strong>Example Playthrough</strong></h3>
+<p><strong>You:</strong> <em>“You find an old wooden chest covered in vines! You pull the handle, but—uh-oh! It’s stuck! Do you try to yank it open?”</em><br>
+<strong>Child:</strong> <em>“Yes! I pull really hard!”</em><br>
+<strong>You:</strong> <em>“Let’s see if it works! Roll the magic dice!”</em> 🎲</p>
+<p>🎲 <strong>(Rolls a 4 – Maybe.)</strong></p>
+<p><strong>You:</strong> <em>“You pull… and the chest creaks open a little! But—oh no! A tiny spider crawls out! What do you do?”</em></p>
+<p><em>(Let the child react! Does their hero jump back? Talk to the spider? Keep pulling? The adventure continues!)</em></p>
+</section>
+<section id="more-fun-examples" class="level3">
+<h3 class="anchored" data-anchor-id="more-fun-examples"><strong>More Fun Examples</strong></h3>
+<ul>
+<li><strong>“Can I jump over the river?”</strong> 🎲 Rolls a 2 → <em>Oh no! You fall in!</em> 🌊<br>
+</li>
+<li><strong>“Do I find the lost puppy?”</strong> 🎲 Rolls a 4 → <em>Yes… but it’s stuck in a tree!</em> 🐶🌳<br>
+</li>
+<li><strong>“Can I climb up to save it?”</strong> 🎲 Rolls a 6 → <em>Yes! You climb up easily!</em></li>
+</ul>
+<p>💡 <strong>Pro Tip:</strong> <strong>Act it out!</strong> If the child rolls a “No” or “Maybe,” encourage them to <strong>think of a new plan.</strong></p>
+<p>🔵 <strong>(Read aloud!)</strong><br>
+<em>“Oh no! That didn’t work! But don’t worry—heroes always find another way! What do you try next?”</em></p>
+</section>
+<section id="keep-the-story-moving" class="level3">
+<h3 class="anchored" data-anchor-id="keep-the-story-moving"><strong>Keep the Story Moving!</strong></h3>
+<p>The dice help make the adventure exciting, but <strong>you’re always in control of the story!</strong><br>
+If a child rolls a “No,” <strong>don’t make it feel like failure</strong>—make it an opportunity!</p>
+<p>✅ <strong>Turn setbacks into fun twists!</strong><br>
+✅ <strong>Encourage problem-solving:</strong> “That didn’t work… what’s another way?”<br>
+✅ <strong>Let them roll again if they try something different!</strong></p>
+<p>🎭 <em>For younger kids (3–4 years old), you can even “pretend” to roll and just pick a fun outcome!</em></p>
+<p>🎲 <strong>Now, let’s make things even more fun with surprises!</strong></p>
+</section>
+</section>
+<section id="surprises-twists-in-the-story" class="level2">
+<h2 class="anchored" data-anchor-id="surprises-twists-in-the-story">Surprises! (Twists in the Story) 🎭</h2>
+<p>Every great story has surprises—<strong>mysteries, unexpected friends, and silly accidents!</strong> Sometimes, the adventure takes an <strong>unexpected turn</strong>, and that’s when things get really fun!</p>
+<p>💡 <strong>When to Add a Surprise?</strong><br>
+You can introduce a <strong>Surprise!</strong> when:<br>
+🔹 The child rolls the <strong>same number twice in a row</strong> (something strange is happening!).<br>
+🔹 The story <strong>feels like it needs something exciting</strong>—a problem, a new friend, or a clue!<br>
+🔹 The child looks <strong>stuck or unsure</strong>—a surprise can get things moving again.</p>
+<section id="fun-types-of-surprises" class="level3">
+<h3 class="anchored" data-anchor-id="fun-types-of-surprises"><strong>Fun Types of Surprises!</strong></h3>
+<p>✨ <strong>A New Friend Appears!</strong></p>
+<p><em>“A tiny dragon flutters down from the trees! It blinks at you. ‘Are you lost too?’ it asks.”</em> 🐉</p>
+<p>✨ <strong>Something Funny Happens!</strong></p>
+<p><em>“The floor suddenly turns into wobbly jelly! Every step makes a ‘boing!’ sound!”</em> 🍮</p>
+<p>✨ <strong>A Mystery is Revealed!</strong></p>
+<p><em>“A gust of wind blows open a hidden door! What’s inside?”</em> 🏰</p>
+<p>🔵 <strong>(Read aloud!)</strong><br>
+<em>“Wait a second… something unexpected is happening! A goblin jumps out from behind a tree! But… it looks just as surprised to see YOU! What do you do?”</em></p>
+</section>
+<section id="surprise-playthrough-example" class="level3">
+<h3 class="anchored" data-anchor-id="surprise-playthrough-example"><strong>Surprise Playthrough Example</strong></h3>
+<p><strong>You:</strong> <em>“You open the treasure chest, but… it’s empty!”</em><br>
+<strong>Child:</strong> <em>“Oh no! Where’s the treasure?”</em><br>
+<strong>You:</strong> <em>“Just then, you hear a tiny voice: ‘Psst! Looking for something?’ You turn around and see… A TALKING SQUIRREL holding a tiny golden key!”</em></p>
+<p>🎭 <em>What happens next? Does the squirrel help? Or is it playing a trick? The child decides!</em></p>
+</section>
+<section id="let-your-child-add-their-own-surprises" class="level3">
+<h3 class="anchored" data-anchor-id="let-your-child-add-their-own-surprises"><strong>Let Your Child Add Their Own Surprises!</strong></h3>
+<p>Instead of always surprising <em>them</em>, let kids <strong>come up with their own twists!</strong> Ask:</p>
+<p>🔵 <strong>(Read aloud!)</strong><br>
+<em>“Imagine something unexpected happens right now—what is it? A lost puppy? A hidden tunnel? A robot that only speaks in rhymes?”</em></p>
+<p>Let them be <strong>co-storytellers</strong> and add <strong>their own wild ideas!</strong></p>
+<p>💡 <strong>Pro Tip:</strong></p>
+<ul>
+<li>Use <strong>your voice, facial expressions, and silly sound effects</strong> to make surprises even more exciting!<br>
+</li>
+<li>Not every surprise has to be <strong>dangerous</strong>—some can just be <strong>weird, funny, or magical!</strong></li>
+</ul>
+<p>🎭 <strong>Now, let’s see what happens when heroes face challenges! (Next section.)</strong></p>
+</section>
+</section>
+<section id="hearts-challenges" class="level2">
+<h2 class="anchored" data-anchor-id="hearts-challenges">Hearts &amp; Challenges ❤️</h2>
+<p>Heroes are <strong>brave and strong</strong>, but even the greatest adventurers <strong>sometimes get tired, surprised, or need help!</strong> Instead of using numbers, we <strong>track how the hero is feeling</strong> with <strong>hearts</strong>.</p>
+<section id="how-hearts-work" class="level3">
+<h3 class="anchored" data-anchor-id="how-hearts-work"><strong>How Hearts Work</strong></h3>
+<p>❤️❤️❤️ → <strong>Full of energy!</strong> Ready for anything!<br>
+❤️❤️ → <strong>Uh-oh!</strong> A little trouble, but still going strong!<br>
+❤️ → <strong>Danger!</strong> Better be careful!<br>
+💔 <strong>No more hearts?</strong> Time to <strong>rest, get help, or find a clever solution!</strong></p>
+<p>🎭 <strong>Use stickers, tokens, or draw hearts on paper!</strong> You can even <strong>act it out</strong>:</p>
+<ul>
+<li>Full hearts? Stand up tall like a superhero! 🦸‍♂️<br>
+</li>
+<li>Lost a heart? Show a tired face or rub your belly like you’re hungry!</li>
+</ul>
+</section>
+<section id="what-makes-you-lose-a-heart" class="level3">
+<h3 class="anchored" data-anchor-id="what-makes-you-lose-a-heart"><strong>What Makes You Lose a Heart?</strong></h3>
+<p>Sometimes, an adventure gets tough! Heroes <strong>lose a heart</strong> when:<br>
+⚡ They <strong>fall into a tricky situation</strong> (like slipping on a wet bridge!).<br>
+⚡ They <strong>get startled or scared</strong> (like when a goblin jumps out!).<br>
+⚡ They <strong>try something risky, but it doesn’t go as planned!</strong></p>
+<p>🔵 <strong>(Read aloud!)</strong><br>
+<em>“Oh no! The dragon flaps its wings and blows a huge gust of wind! You stumble back—whoosh! You lose a heart! But don’t worry, heroes always find a way!”</em></p>
+</section>
+<section id="how-to-get-hearts-back" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-get-hearts-back"><strong>How to Get Hearts Back!</strong></h3>
+<p>Good news—heroes can <strong>heal and recharge!</strong></p>
+<p>🛑 <strong>Take a short rest!</strong> – “Your hero sits under a tree and takes deep breaths. Ahhh! That feels better.”<br>
+🍎 <strong>Eat a snack!</strong> – “You find a glowing berry! Do you eat it?”<br>
+🤝 <strong>Ask for help!</strong> – “Maybe a friendly squirrel has an idea!”<br>
+⭐ <strong>Solve a challenge!</strong> – “The wise old turtle says you must answer a riddle to feel strong again!”</p>
+<p>🔵 <strong>(Read aloud!)</strong><br>
+<em>“You’ve only got one heart left… but wait! A tiny fairy flutters down and offers you a magic cookie! Do you eat it?”</em></p>
+<p><em>(Let the child decide! Maybe the cookie is strawberry-flavored! 🍓)</em></p>
+</section>
+<section id="no-hearts-left-no-problem" class="level3">
+<h3 class="anchored" data-anchor-id="no-hearts-left-no-problem"><strong>No Hearts Left? No Problem!</strong></h3>
+<p>If the hero runs out of hearts, they <strong>don’t “lose”—they just need a new plan!</strong></p>
+<p>💔 Maybe they <strong>sit down to rest</strong>.<br>
+💔 Maybe they <strong>find a friend to help</strong>.<br>
+💔 Maybe they <strong>change their approach!</strong></p>
+<p>🔵 <strong>(Read aloud!)</strong><br>
+<em>“Oh no, your hero is too tired to go on! But wait… maybe a talking owl has advice! Or maybe you need a nap under that soft, mossy tree. What do you do?”</em></p>
+<p>💡 <strong>Remember:</strong> It’s <strong>okay to struggle</strong>—that’s part of the adventure! Heroes <strong>always find a way forward.</strong></p>
+<p>🎭 <strong>Next up: What happens when things get REALLY unexpected? (Next section: Twists &amp; Surprises!)</strong></p>
+</section>
+</section>
+<section id="creating-an-adventure" class="level2">
+<h2 class="anchored" data-anchor-id="creating-an-adventure">Creating an Adventure! 🚀</h2>
+<p>Every great story starts with a question: <strong>Where does the adventure begin?</strong></p>
+<p>Will your hero explore <strong>a lost jungle</strong>, <strong>a flying city</strong>, or <strong>a spooky castle</strong>? Maybe they are searching for <strong>a hidden treasure</strong>, <strong>a missing friend</strong>, or <strong>a way back home</strong>!</p>
+<p>Don’t worry about planning every detail—<strong>adventures unfold as you play!</strong></p>
+<p>🔵 <strong>(Read aloud!)</strong><br>
+<em>“Imagine you are stepping into a brand-new world… What do you see? A towering mountain? A glowing river? A pirate ship floating in the sky?”</em></p>
+<section id="how-adventures-work" class="level3">
+<h3 class="anchored" data-anchor-id="how-adventures-work"><strong>How Adventures Work</strong></h3>
+<p>A game of <em>Tales &amp; Tumbles</em> is made of simple <strong>scenes</strong>, like pages in a storybook.</p>
+<p>1️⃣ <strong>Describe the Setting</strong> – The grown-up <strong>paints the picture</strong> of where the hero is.<br>
+2️⃣ <strong>The Hero Takes Action!</strong> – The child <strong>decides what to do</strong>.<br>
+3️⃣ <strong>Roll the Die! 🎲</strong> – The dice reveal what happens next.<br>
+4️⃣ <strong>The Story Keeps Going!</strong> – Each scene leads to <strong>new discoveries and challenges</strong>.</p>
+<p>🔵 <strong>(Read aloud!)</strong><br>
+<em>“You step into the enchanted forest. The trees whisper as the wind rustles their leaves… and then—snap! A branch breaks nearby. Someone (or something) is there! What do you do?”</em></p>
+<p>💡 <strong>Encourage kids to explore!</strong> Instead of just answering, let them ask questions:</p>
+<ul>
+<li>“What do the trees look like?” 🌲<br>
+</li>
+<li>“Do I hear footsteps or growling?” 👣🐺<br>
+</li>
+<li>“Can I climb up to get a better look?” 🧗‍♂️</li>
+</ul>
+</section>
+<section id="example-mini-adventure" class="level3">
+<h3 class="anchored" data-anchor-id="example-mini-adventure"><strong>Example Mini-Adventure</strong></h3>
+<p>🌳 <strong>The Hidden Treasure Hunt!</strong></p>
+<p><strong>You:</strong> <em>“You are in a magical forest. Somewhere ahead, a hidden treasure is waiting to be found! But the path splits into two: one is dark and spooky, the other is sunny and bright. Which way do you go?”</em></p>
+<p><em>(The child chooses a path!)</em></p>
+<p>🦉 <em>“As you walk, a talking owl flutters down! ‘Hoo-hoo! To pass this way, you must solve a riddle!’ Do you try to guess?”</em></p>
+<p>🎲 <em>(Child rolls a 5 – “Yes!”)</em></p>
+<p>🦉 <em>“Great! The owl is impressed and flaps aside, revealing a secret staircase leading underground! What do you do next?”</em></p>
+<p><em>(The story continues!)</em></p>
+</section>
+<section id="encourage-big-choices" class="level3">
+<h3 class="anchored" data-anchor-id="encourage-big-choices"><strong>Encourage Big Choices!</strong></h3>
+<p>Instead of just <strong>one “correct” answer</strong>, let kids come up with <strong>creative solutions</strong>!</p>
+<p>🔵 <strong>(Read aloud!)</strong><br>
+<em>“The bridge ahead is broken! What do you do?”</em><br>
+💡 Possible answers:</p>
+<ul>
+<li>“I try to jump across!” 🏃‍♂️<br>
+</li>
+<li>“I build a new bridge with logs!” 🌲<br>
+</li>
+<li>“I ask the talking frog if there’s another way!” 🐸</li>
+</ul>
+<p>💡 <strong>Pro Tip:</strong> Even if they pick something unexpected, go with it! Roleplaying is about <strong>imagination, not “winning.”</strong></p>
+</section>
+<section id="what-happens-next" class="level3">
+<h3 class="anchored" data-anchor-id="what-happens-next"><strong>What Happens Next?</strong></h3>
+<p>Every time the hero makes a choice, the adventure moves forward. Some scenes will be <strong>exciting</strong>, some will be <strong>mysteries</strong>, and some will be <strong>silly and fun</strong>!</p>
+<ul>
+<li>If the hero <strong>succeeds</strong> (rolling a 🎲 5–6), they make progress!<br>
+</li>
+<li>If the hero <strong>faces a challenge</strong> (rolling a 🎲 3–4), something happens that makes things trickier.<br>
+</li>
+<li>If the hero <strong>fails</strong> (rolling a 🎲 1–2), they must <strong>try a new plan!</strong></li>
+</ul>
+<p>💡 <strong>Encourage problem-solving:</strong> Instead of saying <strong>“you failed”</strong>, ask:<br>
+🔵 <strong>“That didn’t work… what else can you try?”</strong></p>
+<p><em>(Maybe the broken bridge can’t be jumped across—but what if they find a raft?)</em></p>
+<p>🎭 <strong>Now that you know how to build a great adventure, let’s talk about playing solo! (Next section.)</strong></p>
+</section>
+</section>
+<section id="your-first-adventure-the-lost-key-quest" class="level2">
+<h2 class="anchored" data-anchor-id="your-first-adventure-the-lost-key-quest">Your First Adventure: The Lost Key Quest!</h2>
+<p>Not sure where to begin? No problem! Here’s a ready-to-play adventure to get started. <strong>Just read it out loud and let your child decide what happens next!</strong> 🎭</p>
+</section>
+<section id="the-lost-key-quest" class="level2">
+<h2 class="anchored" data-anchor-id="the-lost-key-quest"><strong>📜 The Lost Key Quest! 🔑</strong></h2>
+<p>🔵 <strong>(Read aloud!)</strong><br>
+<em>“You are in a magical forest, where the trees are tall and their leaves shimmer like gold in the sunlight. The wise old owl says a golden key is hidden nearby… but a mischievous goblin may have taken it! What do you do?”</em></p>
+<p><em>(Pause and let the child decide! Encourage them to think, explore, or ask questions!)</em></p>
+<p>💡 <strong>Possible choices:</strong></p>
+<ul>
+<li><strong>“I ask the owl where the key was last seen!”</strong> 🦉<br>
+</li>
+<li><strong>“I follow some footprints in the dirt!”</strong> 👣<br>
+</li>
+<li><strong>“I call out, ‘Goblin, I know you’re hiding!’”</strong> 🗣️</li>
+</ul>
+<section id="scene-1-the-clue" class="level3">
+<h3 class="anchored" data-anchor-id="scene-1-the-clue"><strong>Scene 1: The Clue</strong></h3>
+<p>No matter what the hero chooses, give them <strong>a clue to follow</strong>!</p>
+<p>🦉 <em>“The owl ruffles his feathers. ‘I saw a small creature running toward the river!’”</em><br>
+👣 <em>“The footprints lead to a bubbling stream, disappearing into the water.”</em><br>
+🗣️ <em>“A giggle echoes from behind a tree… but when you look, there’s no one there!”</em></p>
+<p>🔵 <strong>(Read aloud!)</strong><br>
+<em>“The key must be close! What do you do next?”</em></p>
+<p>💡 <strong>Encourage creative ideas!</strong> Maybe the hero builds a raft, sets a clever trap, or asks a fish if it saw anything!</p>
+<p>🎲 <strong>If the child tries something uncertain, roll the magic die!</strong></p>
+</section>
+<section id="scene-2-the-goblin-appears" class="level3">
+<h3 class="anchored" data-anchor-id="scene-2-the-goblin-appears"><strong>Scene 2: The Goblin Appears!</strong></h3>
+<p>No matter what happens, the <strong>goblin eventually shows up!</strong></p>
+<p>🔵 <strong>(Read aloud!)</strong><br>
+<em>“A rustling sound comes from the bushes… and suddenly, a tiny green goblin jumps out! He’s holding a shiny golden key and grinning mischievously. ‘This is MY key now! If you want it, you have to win my challenge!’”</em></p>
+<p>💡 <strong>What kind of challenge? Let the child decide!</strong></p>
+<ul>
+<li><strong>A race!</strong> 🏃‍♂️<br>
+</li>
+<li><strong>A riddle!</strong> 🧠<br>
+</li>
+<li><strong>A silly dance-off!</strong> 💃</li>
+</ul>
+<p>🎲 <strong>Roll the die!</strong> If the child wins, the goblin laughs and gives them the key. If they roll a <strong>Maybe (3–4)</strong>, the goblin offers a tricky bargain. If they roll a <strong>No (1–2)</strong>, they need a new plan!</p>
+</section>
+<section id="final-scene-the-treasure-chest" class="level3">
+<h3 class="anchored" data-anchor-id="final-scene-the-treasure-chest"><strong>Final Scene: The Treasure Chest</strong></h3>
+<p>🔵 <strong>(Read aloud!)</strong><br>
+<em>“The goblin claps. ‘You win! But do you know what this key opens?’ He points to an old, hidden treasure chest under a tree! Do you open it?”</em></p>
+<p>(If they say yes… roll the die!)</p>
+<p>🎲 <strong>1–2:</strong> The chest is empty! But wait—there’s a <strong>secret compartment!</strong><br>
+🎲 <strong>3–4:</strong> The chest creaks open, and inside is… a <strong>mystery map!</strong> Where does it lead?<br>
+🎲 <strong>5–6:</strong> The chest is full of <strong>glowing golden apples!</strong> 🍏 Magic fruit that gives the hero <strong>one extra heart!</strong> ❤️</p>
+</section>
+<section id="what-happens-next-1" class="level3">
+<h3 class="anchored" data-anchor-id="what-happens-next-1"><strong>What Happens Next?</strong></h3>
+<p>That’s up to you! Maybe the map leads to a <strong>bigger adventure</strong>… or maybe the goblin becomes the hero’s <strong>new sidekick</strong>!</p>
+<p>🔵 <strong>(Read aloud!)</strong><br>
+<em>“You did it! The golden key is yours! But wait… there’s something else inside the chest. What is it?”</em></p>
+<p><em>(Let the child decide! Their answer could lead to their next adventure!)</em></p>
+</section>
+</section>
+<section id="the-adventure-never-ends" class="level2">
+<h2 class="anchored" data-anchor-id="the-adventure-never-ends">The Adventure Never Ends! 🚀</h2>
+<p>In <em>Tales &amp; Tumbles</em>, there’s no “winning” or “losing”—the real treasure is the <strong>story you created together!</strong> Every adventure is different, and every hero grows along the way.</p>
+<p>When the adventure is over, <strong>celebrate what your child achieved!</strong></p>
+<section id="wrap-up-rewards" class="level3">
+<h3 class="anchored" data-anchor-id="wrap-up-rewards"><strong>Wrap-Up &amp; Rewards 🎉</strong></h3>
+<p>🔵 <strong>(Read aloud!)</strong><br>
+<em>“Wow! You did it! Your hero faced challenges, solved problems, and had an amazing adventure. What was your favorite part?”</em></p>
+<p>💡 <strong>Ways to Wrap Up the Adventure:</strong><br>
+🏅 <strong>Level Up!</strong> – Add a new <strong>skill or item</strong> to your hero! Maybe they learned to <strong>swim</strong>, gained a <strong>magic feather</strong>, or made a <strong>new friend</strong> who will join them next time!<br>
+📜 <strong>Storytime!</strong> – Draw a picture of your adventure, or tell someone what happened—like a <strong>bedtime story</strong>!<br>
+🔄 <strong>To Be Continued…</strong> – Maybe the chest had a <strong>mystery map inside</strong>… or maybe the goblin <strong>wants a rematch</strong>!</p>
+</section>
+<section id="if-they-played-solo" class="level3">
+<h3 class="anchored" data-anchor-id="if-they-played-solo"><strong>If They Played Solo…</strong></h3>
+<p>A solo adventure doesn’t have to stay secret—<strong>stories are meant to be shared!</strong></p>
+<p>🔵 <strong>(Read aloud!)</strong><br>
+<em>“Now that your adventure is over, who will you tell? Maybe a friend, a stuffed animal, or even your pet! You can even write it down like a storybook!”</em></p>
+<p>💡 <strong>Encourage storytelling!</strong> Ask:</p>
+<ul>
+<li><strong>“What was the hardest challenge?”</strong><br>
+</li>
+<li><strong>“What would you do differently next time?”</strong><br>
+</li>
+<li><strong>“Where should your hero go next?”</strong></li>
+</ul>
+<p>🎭 <strong>Bonus Idea:</strong> Help them record an <strong>“Adventure Log”</strong> where they write or draw what happens in each story!</p>
+</section>
+<section id="the-next-adventure-awaits" class="level3">
+<h3 class="anchored" data-anchor-id="the-next-adventure-awaits"><strong>The Next Adventure Awaits!</strong></h3>
+<p>Every ending is just the start of something new!</p>
+<p>🔵 <strong>(Read aloud!)</strong><br>
+<em>“Your hero is ready for their next journey… but where will they go? A hidden castle? A city in the clouds? A land of talking dinosaurs? Let’s find out… next time!”</em></p>
+<p>🎭 <strong>Ready for more? Flip back and create a brand-new adventure!</strong></p>
+</section>
+</section>
+<section id="playing-solo-mode" class="level2">
+<h2 class="anchored" data-anchor-id="playing-solo-mode">Playing Solo Mode 🎭</h2>
+<p>Sometimes, young adventurers want to <strong>explore on their own</strong>—and that’s great! <em>Tales &amp; Tumbles</em> can be played solo, letting children create their own exciting stories <strong>anytime, anywhere</strong>.</p>
+<p>🔵 <strong>(Read aloud!)</strong><br>
+<em>“Even when no one else is around, you can still go on an amazing adventure! Where will your hero travel today? The bottom of the ocean? A lost city in the clouds? Let’s find out!”</em></p>
+<section id="how-to-play-without-a-grown-up" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-play-without-a-grown-up"><strong>How to Play Without a Grown-Up</strong></h3>
+<p>To help your child <strong>run their own adventure</strong>, set them up with a few simple tools:</p>
+<p>✅ <strong>Yes/No/Maybe Cards</strong> – Instead of rolling a die, they can <strong>pull a card</strong> to decide what happens! (Write “Yes,” “No,” and “Maybe” on three slips of paper.)<br>
+✅ <strong>A Story Map</strong> – Let them <strong>draw a map</strong> of places they want to explore! It can have forests, caves, castles, or <strong>mystery spots</strong> waiting to be discovered.<br>
+✅ <strong>Heart Stickers or Tokens</strong> – A way to track how their hero is doing! (Draw hearts on paper, use stickers, or small objects like buttons.)<br>
+✅ <strong>A Notebook or Doodle Page</strong> – If they like, they can <strong>write down or draw</strong> what happens in their adventure!<br>
+✅ <strong>Talk It Out!</strong> – Storytelling is more fun when it’s <strong>spoken out loud</strong>! Encourage them to <strong>act out voices</strong>, describe scenes, and even <strong>pretend they are different characters!</strong></p>
+</section>
+<section id="keeping-the-story-moving" class="level3">
+<h3 class="anchored" data-anchor-id="keeping-the-story-moving"><strong>Keeping the Story Moving!</strong></h3>
+<p>If they get <strong>stuck</strong> and don’t know what happens next, they can:<br>
+💡 <strong>Roll the magic die!</strong> 🎲 (1–2 = No, 3–4 = Maybe, 5–6 = Yes!)<br>
+💡 <strong>Ask “What if…?”</strong> – <em>What if a new character appeared? What if a hidden door opened?</em><br>
+💡 <strong>Draw the next scene!</strong> – If they can’t decide, <strong>let the pencil take over!</strong></p>
+<p>🔵 <strong>(Read aloud!)</strong><br>
+<em>“Your hero reaches a mysterious door. What’s behind it? A treasure chest? A friendly ghost? A tunnel to a secret world? You decide!”</em></p>
+</section>
+<section id="sharing-their-adventure" class="level3">
+<h3 class="anchored" data-anchor-id="sharing-their-adventure"><strong>Sharing Their Adventure!</strong></h3>
+<p>Even though they played alone, they don’t have to <strong>keep their story a secret!</strong></p>
+<p>💬 <strong>Ask them to share:</strong></p>
+<ul>
+<li><strong>“What was the most exciting part of your adventure?”</strong><br>
+</li>
+<li><strong>“Did anything funny or surprising happen?”</strong><br>
+</li>
+<li><strong>“What will your hero do next time?”</strong></li>
+</ul>
+<p>🎭 <strong>Bonus:</strong> They can turn their story into a <strong>mini book, a bedtime story, or even a puppet show!</strong></p>
+<p>🎲 <strong>Now, they’re ready to explore anytime they want—no grown-ups needed!</strong></p>
+</section>
+</section>
+<section id="tips-for-grown-ups" class="level2">
+<h2 class="anchored" data-anchor-id="tips-for-grown-ups">Tips for Grown-Ups 🎭</h2>
+<p><em>(How to Make Every Adventure Unforgettable!)</em></p>
+<p>Don’t worry if you’ve never played a game like this before—<strong>you don’t need to be a “Game Master” or a storyteller</strong>. Your job is simple: <strong>be curious, be playful, and let the adventure unfold!</strong></p>
+<p>Here are some easy ways to make the game <strong>more magical and fun</strong>:</p>
+<p>🎭 <strong>Act it out!</strong></p>
+<ul>
+<li>Use silly <strong>voices</strong> for characters! (Deep and grumpy for a troll, squeaky for a mouse!) 🐭<br>
+</li>
+<li>Make <strong>sound effects</strong>! (Wind whooshing, doors creaking, dragons snoring.) 🐉💨<br>
+</li>
+<li>Use <strong>gestures</strong>! If the hero sneaks, <strong>whisper and tiptoe</strong> with them.</li>
+</ul>
+<p>🔵 <strong>(Read aloud!)</strong><br>
+<em>“The treasure chest groans open… SCREEEAK! What’s inside?!”</em></p>
+<p>🤹 <strong>Be flexible!</strong></p>
+<ul>
+<li>Let your child’s imagination <strong>lead the way</strong>.<br>
+</li>
+<li>If they <strong>change the story</strong>, roll with it! (“Wait, you want to tame the dragon instead of fighting it? Cool!”)<br>
+</li>
+<li>Don’t worry if they <strong>bend the rules</strong>—it’s all about having fun!</li>
+</ul>
+<p>💡 <strong>Pro Tip:</strong> Ask <strong>open-ended questions</strong> instead of saying no. Instead of “That can’t happen,” try:<br>
+🔵 <strong>“Hmm, that’s interesting! How does that work?”</strong></p>
+<p>📖 <strong>Let them tell the story!</strong></p>
+<ul>
+<li>Don’t feel like you have to do all the talking! Ask:
+<ul>
+<li><strong>“What happens next?”</strong><br>
+</li>
+<li><strong>“What does the goblin say?”</strong><br>
+</li>
+<li><strong>“How does your hero feel?”</strong><br>
+</li>
+</ul></li>
+<li>If they get stuck, <strong>offer two fun choices</strong>:<br>
+🔵 <em>“Do you follow the footprints… or climb the tree to get a better look?”</em></li>
+</ul>
+<p>💡 <strong>Bonus:</strong> Let them <strong>describe</strong> things! (“What does the wizard’s tower look like?”)</p>
+<p>👏 <strong>Celebrate their choices!</strong></p>
+<ul>
+<li>Even if things go wrong, <strong>turn it into fun</strong>!<br>
+</li>
+<li>If they fail a roll, <strong>don’t just say ‘No’</strong>—make something funny happen!
+<ul>
+<li><em>“You try to climb the wall, but—oops! You slide back down like a pancake!”</em><br>
+</li>
+</ul></li>
+<li>If they try something creative, <strong>cheer them on!</strong> (“That was such a smart idea!”)</li>
+</ul>
+<p>🔵 <strong>(Read aloud!)</strong><br>
+<em>“WOW! You found a secret passage no one else knew about! That’s amazing!”</em></p>
+<p>✨ <strong>The Most Important Rule? HAVE FUN!</strong><br>
+If you’re laughing, playing, and making memories—<strong>you’re doing it right!</strong> 💛</p>
+</section>
+<section id="wrapping-up-what-happens-next" class="level2">
+<h2 class="anchored" data-anchor-id="wrapping-up-what-happens-next">🎉 Wrapping Up: What Happens Next?</h2>
+<p>Every adventure has an ending—but <strong>a great story always leaves you wondering… what comes next?</strong></p>
+<p>When the adventure is over, <strong>take a moment to celebrate and reflect!</strong></p>
+<p>🔵 <strong>(Read aloud!)</strong><br>
+<em>“WOW! What an amazing journey! Your hero was so brave and clever! Let’s talk about what happened before we start a brand-new adventure next time!”</em></p>
+<section id="story-reflection-time" class="level3">
+<h3 class="anchored" data-anchor-id="story-reflection-time"><strong>✨ Story Reflection Time!</strong></h3>
+<p>Ask your child:</p>
+<p>⭐ <strong>“What was your favorite part?”</strong> (Did they love meeting a dragon? Solving a tricky puzzle?)<br>
+⭐ <strong>“What surprised you the most?”</strong> (Did a goblin trick them? Did a secret door appear?)<br>
+⭐ <strong>“What do you think will happen next?”</strong> (Maybe the treasure map leads to another adventure!)</p>
+<p>💡 <strong>Pro Tip:</strong> If they played solo, encourage them to <strong>tell someone their story</strong>—like a bedtime tale or a mini performance with stuffed animals!</p>
+</section>
+<section id="keep-the-adventure-alive" class="level3">
+<h3 class="anchored" data-anchor-id="keep-the-adventure-alive"><strong>🎨 Keep the Adventure Alive!</strong></h3>
+<p>After the game, invite your child to:</p>
+<p>📜 <strong>Draw a scene from the adventure!</strong> What did the lost treasure look like? How big was the dragon?<br>
+📝 <strong>Write (or dictate) a short story!</strong> Maybe they want to turn their adventure into a book!<br>
+🎭 <strong>Act it out!</strong> Can they pretend to be the hero? Can you play the mischievous goblin?</p>
+<p>🔵 <strong>(Read aloud!)</strong><br>
+<em>“What if we turn your story into a picture? Or a little book? Maybe next time, your hero will go on a NEW mission!”</em></p>
+</section>
+<section id="the-next-adventure-awaits-1" class="level3">
+<h3 class="anchored" data-anchor-id="the-next-adventure-awaits-1"><strong>🔄 The Next Adventure Awaits!</strong></h3>
+<p>Every adventure leads to another one! Before you finish, ask:</p>
+<p>🌟 <strong>“Where should we go next time?”</strong> A sunken pirate ship? A castle in the clouds?<br>
+🌟 <strong>“Do you want to add something new to your hero?”</strong> A cool new item? A special power? A pet sidekick?</p>
+<p>✨ <strong>There’s always a new story waiting to be told!</strong></p>
+<p>🔵 <strong>(Read aloud!)</strong><br>
+<em>“Your hero is ready for their next journey! But where will they go? A hidden castle? A city in the clouds? A land of talking dinosaurs? Let’s find out… next time!”</em></p>
+<p>🎉 <strong>Great job, adventurer!</strong> See you in the next quest! 🚀</p>
+</section>
+</section>
+<section id="final-words-just-have-fun" class="level2">
+<h2 class="anchored" data-anchor-id="final-words-just-have-fun">🌟 Final Words: Just Have Fun!</h2>
+<p><em>Tales &amp; Tumbles</em> isn’t about winning or getting things “right”—it’s about <strong>telling stories together, being creative, and making memories.</strong></p>
+<p>There’s no wrong way to play.<br>
+✅ It’s okay if the story <strong>takes an unexpected turn.</strong><br>
+✅ It’s okay if the rules <strong>get a little wobbly.</strong><br>
+✅ It’s okay if things <strong>get completely silly!</strong></p>
+<p>🔵 <strong>(Read aloud!)</strong><br>
+<em>“Maybe your hero wants to befriend the dragon instead of fighting it. Maybe the lost treasure is actually a giant cookie! That’s the magic of storytelling—anything can happen!”</em></p>
+<p>✨ <strong>So go on, explore your first adventure together!</strong> Create, imagine, and most of all—HAVE FUN! 🚀</p>
+<p>🎉 <strong>Your next great story starts now!</strong> 🎭</p>
+</section>
+<section id="full-example-playthrough-the-lost-baby-dragon" class="level2">
+<h2 class="anchored" data-anchor-id="full-example-playthrough-the-lost-baby-dragon"><strong>Full Example Playthrough: The Lost Baby Dragon</strong></h2>
+<section id="meet-our-hero" class="level3">
+<h3 class="anchored" data-anchor-id="meet-our-hero"><strong>Meet Our Hero!</strong></h3>
+<p>👧 <strong>Hero:</strong> <em>Mia the Brave Explorer!</em><br>
+⭐ <strong>Good at climbing!</strong><br>
+⭐ <strong>Has a magic rope!</strong><br>
+⭐ <strong>Wants to find a lost baby dragon!</strong></p>
+<p>🔵 <strong>(Read aloud!)</strong><br>
+<em>“Mia is an explorer who loves to discover new places and help those in need. Today, she is deep in the jungle, searching for a lost baby dragon. The wise old parrot told her that the dragon was last seen near the tallest tree in the forest!”</em></p>
+</section>
+<section id="scene-1-the-mysterious-jungle" class="level3">
+<h3 class="anchored" data-anchor-id="scene-1-the-mysterious-jungle"><strong>Scene 1: The Mysterious Jungle</strong></h3>
+<p>🎭 <strong>Adult:</strong> <em>“The jungle is thick with vines and glowing flowers. You hear rustling in the leaves and—wait!—a tiny roar in the distance! What do you do?”</em><br>
+👧 <strong>Child:</strong> “I climb up the tallest tree to look!”<br>
+🎲 <strong>(Rolls a 3 – Maybe.)</strong></p>
+<p>🎭 <strong>Adult:</strong> <em>“You climb up, but—uh-oh!—the tree is <strong>really wobbly</strong>! It sways from side to side, and suddenly—CRACK!—a branch snaps! You see the baby dragon through the leaves, but you’re about to fall! What do you do?”</em></p>
+<p>👧 <strong>Child:</strong> “I use my magic rope to grab onto another branch!”<br>
+🎲 <strong>(Rolls a 6 – Yes!)</strong></p>
+<p>🎭 <strong>Adult:</strong> <em>“Amazing! You toss your magic rope, and—whoosh!—it wraps around a thick branch! You swing through the air like a superhero and land safely on another tree. And now you’re right next to the baby dragon!”</em></p>
+</section>
+<section id="scene-2-the-scared-baby-dragon" class="level3">
+<h3 class="anchored" data-anchor-id="scene-2-the-scared-baby-dragon"><strong>Scene 2: The Scared Baby Dragon</strong></h3>
+<p>🎭 <strong>Adult:</strong> <em>“The little dragon is green with shiny scales, but he looks frightened. He’s stuck in the vines and can’t fly. What do you say to him?”</em></p>
+<p>👧 <strong>Child:</strong> “Don’t be afraid! I’ll help you!”</p>
+<p>🎭 <strong>Adult:</strong> <em>“The baby dragon blinks at you. ‘You’re not here to hurt me?’ he asks in a tiny voice. ‘I was looking for my mama, but now I’m stuck!’”</em></p>
+<p>🔵 <strong>Encourage more interaction!</strong><br>
+<em>“How do you want to help him? Do you cut the vines? Talk to him more? Try to find his mom?”</em></p>
+<p>👧 <strong>Child:</strong> “I use my rope to untangle the vines!”<br>
+🎲 <strong>(Rolls a 4 – Maybe.)</strong></p>
+<p>🎭 <strong>Adult:</strong> <em>“You pull at the vines, and they start to loosen… but—oh no!—they’re wrapped around something else! A <strong>glowing stone</strong> falls from the branches and lands in your hand! The baby dragon gasps. ‘That’s my mama’s treasure! She’ll be looking for it!’”</em></p>
+</section>
+<section id="scene-3-a-surprise-in-the-jungle" class="level3">
+<h3 class="anchored" data-anchor-id="scene-3-a-surprise-in-the-jungle"><strong>Scene 3: A Surprise in the Jungle!</strong></h3>
+<p>🔵 <strong>(A twist! A surprise happens when the same number is rolled twice or when the story needs excitement.)</strong></p>
+<p>🎭 <strong>Adult:</strong> <em>“Just then, the ground shakes! Something is coming… and it’s big!”</em></p>
+<p>👧 <strong>Child:</strong> “Is it the mama dragon?”</p>
+<p>🎭 <strong>Adult:</strong> <em>“Maybe! Or… it could be something else! Let’s roll to find out!”</em><br>
+🎲 <strong>(Rolls a 2 – No.)</strong></p>
+<p>🎭 <strong>Adult:</strong> <em>“It’s NOT the mama dragon—it’s a <strong>grumpy jungle troll</strong>! He stomps through the trees and frowns at you. ‘Who’s taking my shiny treasure?!’ he growls.”</em></p>
+<p>👧 <strong>Child:</strong> “Uh-oh! I tell him that it belongs to the baby dragon’s mom!”</p>
+<p>🎭 <strong>Adult:</strong> <em>“The troll scratches his head. ‘Hmm. I don’t like thieves… but I DO like riddles! If you can answer my riddle, I’ll let you keep it!’”</em></p>
+<p>🔵 <strong>(Encourage the child to solve a challenge!)</strong><br>
+<em>“Do you want to try answering the troll’s riddle? Or maybe you have another idea!”</em></p>
+<p>👧 <strong>Child:</strong> “I’ll answer the riddle!”</p>
+<p>🎭 <strong>Adult:</strong> <em>“Alright! The troll grins and asks… ‘What has wings but never flies, has eyes but never cries?’”</em></p>
+<p>👧 <strong>Child:</strong> “Oh! I know! A statue!”<br>
+🎲 <strong>(Rolls a 5 – Yes!)</strong></p>
+<p>🎭 <strong>Adult:</strong> <em>“That’s correct! The troll claps his big hands. ‘Ha! You’re smarter than you look! Fine, take the treasure and go!’”</em></p>
+</section>
+<section id="scene-4-finding-the-mama-dragon" class="level3">
+<h3 class="anchored" data-anchor-id="scene-4-finding-the-mama-dragon"><strong>Scene 4: Finding the Mama Dragon</strong></h3>
+<p>🎭 <strong>Adult:</strong> <em>“With the treasure in hand, the baby dragon flaps his wings happily. ‘Thank you! Now we just have to find my mom!’ He looks up at the sky. ‘Maybe she’s looking for me right now!’”</em></p>
+<p>🔵 <strong>Encourage big choices!</strong><br>
+<em>“How do you want to find her? Do you call out to her? Use the treasure as a signal? Climb even higher?”</em></p>
+<p>👧 <strong>Child:</strong> “I hold up the glowing treasure—it’s really bright, so maybe she’ll see it!”<br>
+🎲 <strong>(Rolls a 6 – Yes!)</strong></p>
+<p>🎭 <strong>Adult:</strong> <em>“The treasure glows brighter and brighter… and then, with a mighty roar, a <strong>huge dragon swoops down from the sky!</strong> It’s the mama dragon! She lands gently and nuzzles her baby. ‘Thank you, little explorer. You are very brave!’”</em></p>
+<p>👧 <strong>Child:</strong> “Yay! I tell the baby dragon he’s safe now!”</p>
+<p>🎭 <strong>Adult:</strong> <em>“The baby dragon smiles and gives you a tiny, shiny <strong>scale as a gift!</strong> The mama dragon lifts her wings and flies away into the sunset. And with that… your adventure comes to an end. But who knows what will happen next?”</em></p>
+<p>🔵 <strong>(Read aloud!)</strong><br>
+<em>“You did it! The baby dragon is home! But now you have a magical dragon scale… what will you do with it? Maybe next time, it will lead to another adventure!”</em></p>
+</section>
+<section id="what-happens-next-2" class="level3">
+<h3 class="anchored" data-anchor-id="what-happens-next-2"><strong>What Happens Next?</strong></h3>
+<p>🎉 <strong>Wrap up with your child!</strong></p>
+<ul>
+<li>⭐ <strong>“What was your favorite part?”</strong><br>
+</li>
+<li>⭐ <strong>“Did anything surprise you?”</strong><br>
+</li>
+<li>⭐ <strong>“Where do you think Mia should go next?”</strong></li>
+</ul>
+<p>💡 <strong>Encourage follow-up fun!</strong></p>
+<ul>
+<li>📜 <strong>Draw a picture</strong> of the baby dragon!<br>
+</li>
+<li>🎭 <strong>Act out the troll’s riddle!</strong><br>
+</li>
+<li>✨ <strong>Plan Mia’s next adventure!</strong></li>
+</ul>
+<p>🔵 <strong>(Read aloud!)</strong><br>
+<em>“Your hero is ready for their next journey! Where will they go? A lost temple? A floating castle? A land of talking penguins? Let’s find out… next time!”</em></p>
+<p>🚀 <strong>The End… for now!</strong></p>
+</section>
+<section id="growing-into-bigger-adventures" class="level3">
+<h3 class="anchored" data-anchor-id="growing-into-bigger-adventures"><strong>Growing Into Bigger Adventures!</strong></h3>
+<p>As young adventurers grow, so do their stories! When kids reach <strong>8–10 years old</strong> (or whenever they’re ready for <strong>bigger challenges, deeper stories, and more control over their adventures</strong>), they can <strong>graduate</strong> to <em>Loner Core Rules</em>!</p>
+<p>🔹 <strong>A full roleplaying experience</strong> — still simple, still story-first!<br>
+🔹 <strong>Tag-based system</strong> — just like <em>Tale &amp; Tumble</em>, but with more depth!<br>
+🔹 <strong>Oracle-driven play</strong> — letting players shape their stories in exciting new ways!</p>
+<p>✨ <strong>When you’re ready to take the next step, check out <em>Loner Core Rules</em> — your next great adventure awaits!</strong> 🎲🚀</p>
+</section>
+</section>
+<section id="license" class="level2">
+<h2 class="anchored" data-anchor-id="license">License</h2>
+<p>© 2025 Roberto Bisceglie</p>
+<p>Based on Loner - Another Solo RPG</p>
+<p>Cover and internal artwork by Vecteezy.com<br>
+The text of this work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var sidebar = document.getElementById("quarto-margin-sidebar");
+  var formats = document.querySelector(".quarto-alternate-formats");
+  if (sidebar && formats) {
+    sidebar.insertBefore(formats, sidebar.firstChild);
+  }
+
+  // Rename "Typst" label to "PDF"
+  document.querySelectorAll(".quarto-alternate-formats a").forEach(function (a) {
+    a.childNodes.forEach(function (node) {
+      if (node.nodeType === Node.TEXT_NODE && node.textContent.trim() === "Typst") {
+        node.textContent = "PDF";
+      }
+    });
+  });
+});
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/zotiquestgames\.github\.io\/lonersrd\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2021-2026 <a href="https://zotiquestgames.com">Roberto Bisceglie</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/zotiquestgames/lonersrd/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

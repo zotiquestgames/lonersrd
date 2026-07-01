@@ -1,0 +1,2389 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Roberto Bisceglie">
+<meta name="dcterms.date" content="2026-07-01">
+
+<title>Western Adventure Pack – Loner SRD</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-d37705bb3a21d8331654a8d3f48f58ba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-87bbd3402671c853dcbde7c40b26e08b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-d37705bb3a21d8331654a8d3f48f58ba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&amp;family=Raleway:wght@700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+  @import url('https://fonts.cdnfonts.com/css/takota');
+</style>
+
+
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Loner SRD</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../core/loner-3e.html" aria-current="page"> 
+<span class="menu-text">Core Rules</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../adventure_packs/AP01_fantasy.html"> 
+<span class="menu-text">Adventure Packs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../geared_towards_loner/kwaidan_revised.html"> 
+<span class="menu-text">Geared Towards Loner</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/zotiquestgames/lonersrd"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../adventure_packs/AP01_fantasy.html">Adventure Packs</a></li><li class="breadcrumb-item"><a href="../adventure_packs/AP11_western.html">Western Adventure Pack</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+ <span class="menu-text">SRD</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/loner-3e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 3e</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/loner_companion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Companion</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/character_builders_guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Character Builder’s Guide</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/world_builders_guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">World Builder’s Guide</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/the_path_not_taken.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Path Not Taken</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/cinematic_action.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cinematic Action</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/tales_and_tumbles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">For Kids</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Legacy Core Rules</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/legacy/loner-1e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 1e (legacy)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/legacy/loner-2e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 2e (legacy)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Adventure Packs</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP01_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fantasy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP02_space.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Space Sci-Fi Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP03_superheroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Superheroes Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP04_crime.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Crime Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP05_mystery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mystery Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP06_horror.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Horror Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP07_action_adventure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Action Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP08_spy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP09_postapoc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Post-Apocalyptic Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP10_pirates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pirates Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP11_western.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Western Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP12_cyberpunk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cyberpunk Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Adventure Packs (Legacy 2e)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP01_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fantasy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP02_space.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Space Sci-Fi Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP03_superheroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Superheroes Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP04_crime.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Crime Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP05_mystery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mystery Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP06_horror.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Horror Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP07_action_adventure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Action Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP08_spy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP09_postapoc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Post-Apocalyptic Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP10_pirates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pirates Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP11_western.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Western Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP12_cyberpunk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cyberpunk Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/legacy/kwaidan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan!</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">Geared Towards Loner games</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/kwaidan_revised.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan! (Revised)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/cog_compass.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cog &amp; Compass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/mech_requiem.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mech: Requiem</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/legends_of_camelot.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Legends of Camelot</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/pulp_adventures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pulp Adventures!</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/steel_and_sorcery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Steel &amp; Sorcery</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/dungeoneer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dungeoneer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/spacer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spacer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/arabian_nights_adventures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Arabian Nights Adventures</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/cozy_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cozy Fantasy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/savage_blades_of_xylandra.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Savage Blades of Xylandra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/pulp_heroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pulp Heroes!</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/the_shattered_reach.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Shattered Reach</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/galaxy_drifter.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Galaxy Drifter</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/urban_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Urban Fantasy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/norse_saga.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Norse Saga</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/cthulhu.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cthulhu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/paranormal_files.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Paranormal Files</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+ <span class="menu-text">Geared Towards Loner games (Legacy)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/legacy/kwaidan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan!</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#western-adventure-pack" id="toc-western-adventure-pack" class="nav-link active" data-scroll-target="#western-adventure-pack">Western Adventure Pack</a>
+  <ul class="collapse">
+  <li><a href="#setting-information" id="toc-setting-information" class="nav-link" data-scroll-target="#setting-information">Setting Information</a></li>
+  <li><a href="#character-traits" id="toc-character-traits" class="nav-link" data-scroll-target="#character-traits">Character Traits</a>
+  <ul class="collapse">
+  <li><a href="#concepts" id="toc-concepts" class="nav-link" data-scroll-target="#concepts">Concepts</a></li>
+  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills</a></li>
+  <li><a href="#frailties" id="toc-frailties" class="nav-link" data-scroll-target="#frailties">Frailties</a></li>
+  <li><a href="#gear" id="toc-gear" class="nav-link" data-scroll-target="#gear">Gear</a></li>
+  <li><a href="#names" id="toc-names" class="nav-link" data-scroll-target="#names">Names</a></li>
+  <li><a href="#nicknames" id="toc-nicknames" class="nav-link" data-scroll-target="#nicknames">Nicknames</a></li>
+  </ul></li>
+  <li><a href="#special-rules" id="toc-special-rules" class="nav-link" data-scroll-target="#special-rules">Special Rules</a>
+  <ul class="collapse">
+  <li><a href="#quick-draw-duels" id="toc-quick-draw-duels" class="nav-link" data-scroll-target="#quick-draw-duels">Quick-Draw Duels</a></li>
+  <li><a href="#wanted-levels" id="toc-wanted-levels" class="nav-link" data-scroll-target="#wanted-levels">Wanted Levels</a></li>
+  <li><a href="#hardship" id="toc-hardship" class="nav-link" data-scroll-target="#hardship">Hardship</a></li>
+  </ul></li>
+  <li><a href="#factions" id="toc-factions" class="nav-link" data-scroll-target="#factions">Factions</a>
+  <ul class="collapse">
+  <li><a href="#the-badge-bearers" id="toc-the-badge-bearers" class="nav-link" data-scroll-target="#the-badge-bearers">The Badge-Bearers</a></li>
+  <li><a href="#the-scars-of-the-territory" id="toc-the-scars-of-the-territory" class="nav-link" data-scroll-target="#the-scars-of-the-territory">The Scars of the Territory</a></li>
+  <li><a href="#the-dustwalkers" id="toc-the-dustwalkers" class="nav-link" data-scroll-target="#the-dustwalkers">The Dustwalkers</a></li>
+  <li><a href="#the-homestead-union" id="toc-the-homestead-union" class="nav-link" data-scroll-target="#the-homestead-union">The Homestead Union</a></li>
+  <li><a href="#the-railmen-syndicate" id="toc-the-railmen-syndicate" class="nav-link" data-scroll-target="#the-railmen-syndicate">The Railmen Syndicate</a></li>
+  <li><a href="#the-border-marauders" id="toc-the-border-marauders" class="nav-link" data-scroll-target="#the-border-marauders">The Border Marauders</a></li>
+  </ul></li>
+  <li><a href="#npcs" id="toc-npcs" class="nav-link" data-scroll-target="#npcs">NPCs</a>
+  <ul class="collapse">
+  <li><a href="#jack-black-dust-mclean" id="toc-jack-black-dust-mclean" class="nav-link" data-scroll-target="#jack-black-dust-mclean">Jack “Black Dust” McLean</a></li>
+  <li><a href="#belle-brass-tooth-calderón" id="toc-belle-brass-tooth-calderón" class="nav-link" data-scroll-target="#belle-brass-tooth-calderón">Belle “Brass Tooth” Calderón</a></li>
+  <li><a href="#doc-vance-holloway" id="toc-doc-vance-holloway" class="nav-link" data-scroll-target="#doc-vance-holloway">“Doc” Vance Holloway</a></li>
+  <li><a href="#mary-stagecoach-fields" id="toc-mary-stagecoach-fields" class="nav-link" data-scroll-target="#mary-stagecoach-fields">Mary “Stagecoach” Fields</a></li>
+  <li><a href="#caleb-the-preacher-johnson" id="toc-caleb-the-preacher-johnson" class="nav-link" data-scroll-target="#caleb-the-preacher-johnson">Caleb “The Preacher” Johnson</a></li>
+  <li><a href="#lydia-the-widow-duvall" id="toc-lydia-the-widow-duvall" class="nav-link" data-scroll-target="#lydia-the-widow-duvall">Lydia “The Widow” Duvall</a></li>
+  </ul></li>
+  <li><a href="#frontier-threats" id="toc-frontier-threats" class="nav-link" data-scroll-target="#frontier-threats">Frontier Threats</a>
+  <ul class="collapse">
+  <li><a href="#the-dustjaw" id="toc-the-dustjaw" class="nav-link" data-scroll-target="#the-dustjaw">The Dustjaw</a></li>
+  <li><a href="#ridgeback-coyote" id="toc-ridgeback-coyote" class="nav-link" data-scroll-target="#ridgeback-coyote">Ridgeback Coyote</a></li>
+  <li><a href="#painted-canyon-sniper" id="toc-painted-canyon-sniper" class="nav-link" data-scroll-target="#painted-canyon-sniper">Painted Canyon Sniper</a></li>
+  <li><a href="#broadjaw-rattler" id="toc-broadjaw-rattler" class="nav-link" data-scroll-target="#broadjaw-rattler">Broadjaw Rattler</a></li>
+  <li><a href="#creekbed-rustlers" id="toc-creekbed-rustlers" class="nav-link" data-scroll-target="#creekbed-rustlers">Creekbed Rustlers</a></li>
+  <li><a href="#bitter-range-widow" id="toc-bitter-range-widow" class="nav-link" data-scroll-target="#bitter-range-widow">Bitter Range Widow</a></li>
+  </ul></li>
+  <li><a href="#locations" id="toc-locations" class="nav-link" data-scroll-target="#locations">Locations</a>
+  <ul class="collapse">
+  <li><a href="#red-lantern-saloon" id="toc-red-lantern-saloon" class="nav-link" data-scroll-target="#red-lantern-saloon">Red Lantern Saloon</a></li>
+  <li><a href="#devils-spine-pass" id="toc-devils-spine-pass" class="nav-link" data-scroll-target="#devils-spine-pass">Devil’s Spine Pass</a></li>
+  <li><a href="#lost-pick-mine" id="toc-lost-pick-mine" class="nav-link" data-scroll-target="#lost-pick-mine">Lost Pick Mine</a></li>
+  <li><a href="#fort-redemption" id="toc-fort-redemption" class="nav-link" data-scroll-target="#fort-redemption">Fort Redemption</a></li>
+  <li><a href="#dusthaven" id="toc-dusthaven" class="nav-link" data-scroll-target="#dusthaven">Dusthaven</a></li>
+  <li><a href="#hollow-tree-ranch" id="toc-hollow-tree-ranch" class="nav-link" data-scroll-target="#hollow-tree-ranch">Hollow Tree Ranch</a></li>
+  </ul></li>
+  <li><a href="#adventure-seeds" id="toc-adventure-seeds" class="nav-link" data-scroll-target="#adventure-seeds">Adventure Seeds</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/zotiquestgames/lonersrd/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="AP11_western.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="AP11_western.odt"><i class="bi bi-file"></i>OpenOffice</a></li><li><a href="AP11_western.epub"><i class="bi bi-file"></i>ePub</a></li><li><a href="AP11_western-gfm.md"><i class="bi bi-file-code"></i>Github (GFM)</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../adventure_packs/AP01_fantasy.html">Adventure Packs</a></li><li class="breadcrumb-item"><a href="../adventure_packs/AP11_western.html">Western Adventure Pack</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Western Adventure Pack</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Roberto Bisceglie </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 1, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="western-adventure-pack" class="level1">
+<h1>Western Adventure Pack</h1>
+<section id="setting-information" class="level2">
+<h2 class="anchored" data-anchor-id="setting-information">Setting Information</h2>
+<ul>
+<li>The world is dust, gunpowder, and silence — a stretch of sunburnt land where justice rides a tired horse and graves are dug with one eye open.</li>
+<li>The age is the fading light of the 1800s — a time when the frontier gasps its last breath before the iron rails and telegraph wires stitch it shut.</li>
+<li>The setting is a lonely town at the edge of the known — saloons creak at dusk, cattle trails run dry, and the nearest law rides days behind.</li>
+<li>Wilderness presses from all sides — jagged canyons, storm-bit plains, forests thick with eyes, and rivers that have swallowed more than they quenched.</li>
+<li>The town is a crossroads for fortune and ruin — ranchers, trappers, drifters, preachers, bounty men, and worse — all passing through, none passing clean.</li>
+<li>Life runs on grit and guts — fences built by calloused hands, whiskey poured for coin or company, and grudges carried further than water.</li>
+<li>Danger comes with the wind — wolves in the hills, bandits on the ridge, a stranger with a slow draw and no name to answer for.</li>
+<li>This is a land where every man writes his name in lead, and the only truth worth a damn is what you can hold onto when the shooting starts.</li>
+</ul>
+</section>
+<section id="character-traits" class="level2">
+<h2 class="anchored" data-anchor-id="character-traits">Character Traits</h2>
+<section id="concepts" class="level3">
+<h3 class="anchored" data-anchor-id="concepts">Concepts</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 0%">
+<col style="width: 18%">
+<col style="width: 13%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 18%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Weathered Sheriff</td>
+<td>Wandering Gunslinger</td>
+<td>Jaded Bounty Hunter</td>
+<td>Stoic Homesteader</td>
+<td>Retired Outlaw</td>
+<td>Lone Preacher</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Broken Deputy</td>
+<td>Mute Tracker</td>
+<td>Gambling Drifter</td>
+<td>Snake-Oil Salesman</td>
+<td>Vengeful Widow</td>
+<td>Ex-Soldier Turned Rancher</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Ghost Town Survivor</td>
+<td>Railroad Scout</td>
+<td>Illiterate Farmhand</td>
+<td>Reluctant Hero</td>
+<td>Cold-Blooded Killer</td>
+<td>Escaped Convict</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Desert Prophet</td>
+<td>Grizzled Gold Miner</td>
+<td>Runaway Heiress</td>
+<td>Reformed Rustler</td>
+<td>Veteran Indian Scout</td>
+<td>Drunkard with a Past</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Reckless Stagecoach Driver</td>
+<td>Frontier Doctor</td>
+<td>Charismatic Con Man</td>
+<td>Doom-Whispering Hermit</td>
+<td>Sharp-Tongued Saloon Singer</td>
+<td>Former Pinkerton Agent</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Outcast Orphan</td>
+<td>Mysterious Stranger</td>
+<td>Whispering Gravekeeper</td>
+<td>Foreign Mercenary</td>
+<td>Grave-Robbing Tinkerer</td>
+<td>One-Eyed Ranch Hand</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="skills" class="level3">
+<h3 class="anchored" data-anchor-id="skills">Skills</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 0%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 20%">
+<col style="width: 17%">
+<col style="width: 14%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Quick Draw</td>
+<td>Animal Handling</td>
+<td>Blunt Honesty</td>
+<td>Card Sharping</td>
+<td>Gun Maintenance</td>
+<td>Desert Navigation</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Long-Range Shot</td>
+<td>Rope &amp; Lasso</td>
+<td>Silent Movement</td>
+<td>Ambush Planning</td>
+<td>Bluffing</td>
+<td>Campfire Cooking</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Riding Hard</td>
+<td>Dowsing</td>
+<td>Staring Contest Winner</td>
+<td>Old Wound Diagnosis</td>
+<td>Barroom Brawling</td>
+<td>Makeshift Repairs</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Threat Assessment</td>
+<td>Gun Twirling</td>
+<td>Hoofprint Reading</td>
+<td>Dynamite Timing</td>
+<td>Sharp Aim</td>
+<td>Standoff Nerve</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Preaching Fire</td>
+<td>Reading People</td>
+<td>Riding Side Saddle</td>
+<td>Poker Face</td>
+<td>Quick Reload</td>
+<td>Map Memory</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Lie Detection</td>
+<td>Makeshift Surgery</td>
+<td>Spitting Distance</td>
+<td>Horse Whispering</td>
+<td>Lock Busting</td>
+<td>Ghost Storytelling</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="frailties" class="level3">
+<h3 class="anchored" data-anchor-id="frailties">Frailties</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 0%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 16%">
+<col style="width: 18%">
+<col style="width: 15%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Haunted by the War</td>
+<td>One Eye</td>
+<td>Bad Gambling Habit</td>
+<td>Constant Cough</td>
+<td>Hunted for a Bounty</td>
+<td>Allergic to Horses</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Trusts No One</td>
+<td>Nightmares Every Night</td>
+<td>Wanted in Another State</td>
+<td>Blames Self for a Massacre</td>
+<td>See Ghosts Sometimes</td>
+<td>Afraid of Gunfire</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Never Learned to Read</td>
+<td>Drinking Problem</td>
+<td>Can’t Say No to a Dare</td>
+<td>Estranged from Kin</td>
+<td>Marked by the Devil</td>
+<td>Shaky Hands at Dusk</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Talks to the Dead</td>
+<td>Crossed the Wrong Man</td>
+<td>Old Bullet Still Inside</td>
+<td>Townsfolk Hate You</td>
+<td>Superstitious Wreck</td>
+<td>Can’t Leave the County</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Sworn Vow of Silence</td>
+<td>Falls for Every Scam</td>
+<td>Cursed by a Dying Woman</td>
+<td>Missing a Finger</td>
+<td>Refuses to Carry a Gun</td>
+<td>Flat Broke Always</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Walks with a Limp</td>
+<td>Claustrophobic</td>
+<td>Known Liar</td>
+<td>Fear of Snakes</td>
+<td>Old Flames Burn Hot</td>
+<td>Suspect in Disappearances</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="gear" class="level3">
+<h3 class="anchored" data-anchor-id="gear">Gear</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 0%">
+<col style="width: 18%">
+<col style="width: 15%">
+<col style="width: 13%">
+<col style="width: 13%">
+<col style="width: 19%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Rusted Revolver</td>
+<td>Bloodstained Hat</td>
+<td>Trusted Lasso</td>
+<td>Custom-Made Spurs</td>
+<td>Deck of Marked Cards</td>
+<td>Snakebite Tonic Flask</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Sawed-Off Shotgun</td>
+<td>Dog-Eared Wanted Posters</td>
+<td>Ornate Bowie Knife</td>
+<td>Hand-Carved Pipe</td>
+<td>Pocket Bible</td>
+<td>Lockpick Hairpin</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Shiny Deputy Badge</td>
+<td>Journal of Last Words</td>
+<td>Fire-Starting Flint</td>
+<td>Coin Toss Token</td>
+<td>Flask of Strong Stuff</td>
+<td>Engraved Pocket Watch</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Folding Shovel</td>
+<td>Last Bullet in a Matchbox</td>
+<td>Silver Horseshoe Charm</td>
+<td>Rusty Bear Trap</td>
+<td>Map to a Lost Mine</td>
+<td>Tattered Trenchcoat</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Homemade Rifle</td>
+<td>Whispering Saddlebag</td>
+<td>Mirror from a Lover</td>
+<td>Saloon Token Necklace</td>
+<td>Hand-Drawn Wanted Poster (self)</td>
+<td>Cracked Spyglass</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Keepsake Revolver (no bullets)</td>
+<td>Charred Sheriff’s Star</td>
+<td>Vial of River Dust</td>
+<td>Lockbox with No Key</td>
+<td>Sacred Amulet of a Dying Tribe</td>
+<td>Tin Can with a Rattlesnake Tail</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="names" class="level3">
+<h3 class="anchored" data-anchor-id="names">Names</h3>
+<section id="female-names" class="level4">
+<h4 class="anchored" data-anchor-id="female-names">Female Names</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Clara</td>
+<td>Ruth</td>
+<td>Hattie</td>
+<td>Louella</td>
+<td>Nell</td>
+<td>Josie</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Maude</td>
+<td>Mercy</td>
+<td>June</td>
+<td>Cora</td>
+<td>Ada</td>
+<td>Laverne</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Belle</td>
+<td>Thelma</td>
+<td>Sadie</td>
+<td>Miriam</td>
+<td>Esther</td>
+<td>Della</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Winona</td>
+<td>Dorothea</td>
+<td>Lillian</td>
+<td>Opal</td>
+<td>Edie</td>
+<td>Mabel</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Blanche</td>
+<td>Dinah</td>
+<td>Hazel</td>
+<td>Isobel</td>
+<td>Tilda</td>
+<td>Nora</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Elvira</td>
+<td>Frankie</td>
+<td>Goldie</td>
+<td>Mattie</td>
+<td>Prudence</td>
+<td>Clarabelle</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="male-names" class="level4">
+<h4 class="anchored" data-anchor-id="male-names">Male Names</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Jed</td>
+<td>Amos</td>
+<td>Hank</td>
+<td>Cyrus</td>
+<td>Boone</td>
+<td>Luther</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Elmer</td>
+<td>Rufus</td>
+<td>Silas</td>
+<td>Wyatt</td>
+<td>Zeke</td>
+<td>Emmett</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Otis</td>
+<td>Buck</td>
+<td>Clayton</td>
+<td>Jasper</td>
+<td>Ira</td>
+<td>Virgil</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Cletus</td>
+<td>Earl</td>
+<td>Thaddeus</td>
+<td>Jebediah</td>
+<td>Amos</td>
+<td>Vernon</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Levi</td>
+<td>Clyde</td>
+<td>Orville</td>
+<td>Amos</td>
+<td>Reuben</td>
+<td>Hollis</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Abner</td>
+<td>Wade</td>
+<td>Roscoe</td>
+<td>Gideon</td>
+<td>Quentin</td>
+<td>Enoch</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="surnames" class="level4">
+<h4 class="anchored" data-anchor-id="surnames">Surnames</h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 1%">
+<col style="width: 20%">
+<col style="width: 17%">
+<col style="width: 17%">
+<col style="width: 15%">
+<col style="width: 12%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>McGraw</td>
+<td>Delaney</td>
+<td>Crowder</td>
+<td>Boone</td>
+<td>Withers</td>
+<td>Haywood</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Langtry</td>
+<td>Hensley</td>
+<td>Tabor</td>
+<td>Callahan</td>
+<td>Sutter</td>
+<td>Duggan</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Merriweather</td>
+<td>Rawlins</td>
+<td>Dalton</td>
+<td>Cavanaugh</td>
+<td>Harrow</td>
+<td>Greeley</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Drummond</td>
+<td>Whitley</td>
+<td>Farnsworth</td>
+<td>Hollister</td>
+<td>Burrows</td>
+<td>Taggart</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Ketchum</td>
+<td>Cartwright</td>
+<td>Calhoun</td>
+<td>Templeton</td>
+<td>Bellamy</td>
+<td>Goodnight</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Rourke</td>
+<td>Pickett</td>
+<td>Voss</td>
+<td>Maddox</td>
+<td>Doolin</td>
+<td>Parnell</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="nicknames" class="level3">
+<h3 class="anchored" data-anchor-id="nicknames">Nicknames</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 1%">
+<col style="width: 13%">
+<col style="width: 16%">
+<col style="width: 15%">
+<col style="width: 16%">
+<col style="width: 18%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>One-Eye</td>
+<td>Dust Devil</td>
+<td>Black Jack</td>
+<td>Preacher</td>
+<td>No-Name</td>
+<td>Whiskey Tooth</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Deadshot</td>
+<td>Slowpoke</td>
+<td>Red Boots</td>
+<td>Widowmaker</td>
+<td>Tin Star</td>
+<td>Gallows Joe</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Snakebite</td>
+<td>Gravedigger</td>
+<td>Lucky Seven</td>
+<td>Silent Sue</td>
+<td>Iron-Hand</td>
+<td>Bitter Creek</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Mad Maggie</td>
+<td>Slim Pickens</td>
+<td>Hush Puppy</td>
+<td>Widow’s Son</td>
+<td>Lefty</td>
+<td>Cactus Jim</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Shotglass</td>
+<td>Crow-Eater</td>
+<td>Rattlesnake</td>
+<td>Miss Fortune</td>
+<td>Dusty Rose</td>
+<td>Broken-Tooth</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>The Weasel</td>
+<td>Cold-Eyes</td>
+<td>Thunderjaw</td>
+<td>Bluebonnet</td>
+<td>Prairie Ghost</td>
+<td>Gutshot Hank</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="special-rules" class="level2">
+<h2 class="anchored" data-anchor-id="special-rules">Special Rules</h2>
+<section id="quick-draw-duels" class="level3">
+<h3 class="anchored" data-anchor-id="quick-draw-duels">Quick-Draw Duels</h3>
+<p>In this land, justice is often decided in a heartbeat — or the failure of one.</p>
+<ul>
+<li>When a duel begins, both participants roll a closed Oracle question:  “Do I outdraw my opponent?” Use Advantage if tags support it (e.g.&nbsp;Quick Hands, Fast Reflexes, Gunfighter Instinct).</li>
+<li>The winner gains Advantage on their first Conflict roll.</li>
+</ul>
+<p>After that, combat proceeds normally — each side takes turns resolving Conflicts until one is down, disarmed, or flees.</p>
+</section>
+<section id="wanted-levels" class="level3">
+<h3 class="anchored" data-anchor-id="wanted-levels">Wanted Levels</h3>
+<p>A good name goes a long way in the West. A bad one goes even further.</p>
+<p>Each time you commit crimes or notorious acts, your <strong>Wanted Level</strong> increases. Higher levels draw the attention of lawmen, bounty hunters, and the occasional vigilante. Good deeds may reduce your notoriety — but only if someone’s watching.</p>
+<p><strong>Wanted Levels:</strong></p>
+<ol type="1">
+<li><strong>Unknown</strong> – You’re a nobody. Free to roam.<br>
+</li>
+<li><strong>Petty Criminal</strong> – You’ve stolen, lied, or trespassed. Some folks might take note.<br>
+</li>
+<li><strong>Notorious Outlaw</strong> – There’s a poster with your face on it somewhere.<br>
+</li>
+<li><strong>Infamous Gang Leader</strong> – You’re a known threat. Most towns will refuse you service or shoot on sight.<br>
+</li>
+<li><strong>Public Enemy</strong> – Your name spreads faster than your horse can ride. You’re hunted.<br>
+</li>
+<li><strong>Legendary Outlaw</strong> – You’re a living myth. The law wants your head. So does half the territory.</li>
+</ol>
+<blockquote class="blockquote">
+<p><strong>Tip:</strong> Some towns or factions may react based on your level. At Level 3+, roll Faction Tags with Disadvantage unless disguised or protected.</p>
+</blockquote>
+</section>
+<section id="hardship" class="level3">
+<h3 class="anchored" data-anchor-id="hardship">Hardship</h3>
+<p>The frontier doesn’t care about your plans. It breaks them — and you — without apology.</p>
+<ul>
+<li>You must track <strong>thirst</strong>, <strong>hunger</strong>, and <strong>exposure</strong>.</li>
+<li>When injured, healing is slow unless you have access to clean water, shelter, or proper medicine.</li>
+<li>Harsh conditions (drought, dust storms, blizzards) may impose penalties or force checks to continue travel or avoid Frailty Tags.</li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>Example:</strong><br>
+You’re stranded on the mesa. No water, no shade. After a day’s travel, you gain the tag <code>Parched</code>. Keep it until you find water. If <code>Parched</code> is still active and you fail a survival check, gain <code>Delirious</code> or <code>Sunburned</code>.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Note:</strong> Use Frailty Tags like <code>Starving</code>, <code>Frostbitten</code>, or <code>Exhausted</code> to represent long-term hardship effects.</p>
+</blockquote>
+</section>
+</section>
+<section id="factions" class="level2">
+<h2 class="anchored" data-anchor-id="factions">Factions</h2>
+<section id="the-badge-bearers" class="level3">
+<h3 class="anchored" data-anchor-id="the-badge-bearers">The Badge-Bearers</h3>
+<ul>
+<li><strong>Concept</strong>: Grim enforcers of a fading order</li>
+<li><strong>Skills</strong>: Fugitive tracking, frontier discipline</li>
+<li><strong>Frailty</strong>: Cling to codes no longer respected</li>
+<li><strong>Gear</strong>: Tin badge, arrest ledger</li>
+<li><strong>Goal</strong>: Hold the line against chaos</li>
+<li><strong>Motive</strong>: Duty above all</li>
+<li><strong>Nemesis</strong>: The Scars of the Territory</li>
+</ul>
+</section>
+<section id="the-scars-of-the-territory" class="level3">
+<h3 class="anchored" data-anchor-id="the-scars-of-the-territory">The Scars of the Territory</h3>
+<ul>
+<li><strong>Concept</strong>: Fractured gangs and gun-hardened survivors</li>
+<li><strong>Skills</strong>: Ambush tactics, outlaw charisma</li>
+<li><strong>Frailty</strong>: Prone to betrayal within the ranks</li>
+<li><strong>Gear</strong>: Stolen pistols, blood-stained bandanas</li>
+<li><strong>Goal</strong>: Ride until no law can follow</li>
+<li><strong>Motive</strong>: Vengeance and survival</li>
+<li><strong>Nemesis</strong>: Badge-Bearers, and each other</li>
+</ul>
+</section>
+<section id="the-dustwalkers" class="level3">
+<h3 class="anchored" data-anchor-id="the-dustwalkers">The Dustwalkers</h3>
+<ul>
+<li><strong>Concept</strong>: Displaced guardians of ancestral trails</li>
+<li><strong>Skills</strong>: Landcraft, memory-keeping</li>
+<li><strong>Frailty</strong>: Surrounded by a world that forgets</li>
+<li><strong>Gear</strong>: Ceremonial blade, hand-drawn map</li>
+<li><strong>Goal</strong>: Defend the land without losing the story</li>
+<li><strong>Motive</strong>: Resistance rooted in tradition</li>
+<li><strong>Nemesis</strong>: The Railmen Syndicate</li>
+</ul>
+</section>
+<section id="the-homestead-union" class="level3">
+<h3 class="anchored" data-anchor-id="the-homestead-union">The Homestead Union</h3>
+<ul>
+<li><strong>Concept</strong>: Stubborn settlers and fence-holding families</li>
+<li><strong>Skills</strong>: Bartering grit, marksmanship from the porch</li>
+<li><strong>Frailty</strong>: Naïveté disguised as hope</li>
+<li><strong>Gear</strong>: Worn musket, iron cooking pot</li>
+<li><strong>Goal</strong>: Raise homes that can’t be burned out</li>
+<li><strong>Motive</strong>: Future carved from dirt</li>
+<li><strong>Nemesis</strong>: Land agents and syndicate men</li>
+</ul>
+</section>
+<section id="the-railmen-syndicate" class="level3">
+<h3 class="anchored" data-anchor-id="the-railmen-syndicate">The Railmen Syndicate</h3>
+<ul>
+<li><strong>Concept</strong>: Industrialists and their loyal hammermen</li>
+<li><strong>Skills</strong>: Dynamite use, supply logistics</li>
+<li><strong>Frailty</strong>: Blind to who’s buried under progress</li>
+<li><strong>Gear</strong>: Steel rail contracts, brass whistle</li>
+<li><strong>Goal</strong>: Push the line west at any cost</li>
+<li><strong>Motive</strong>: Wealth through empire</li>
+<li><strong>Nemesis</strong>: Dustwalkers and all who delay the line</li>
+</ul>
+</section>
+<section id="the-border-marauders" class="level3">
+<h3 class="anchored" data-anchor-id="the-border-marauders">The Border Marauders</h3>
+<ul>
+<li><strong>Concept</strong>: Ragged veterans of lost causes</li>
+<li><strong>Skills</strong>: Guerilla strikes, desert maneuvering</li>
+<li><strong>Frailty</strong>: Fragmented loyalty and old scores</li>
+<li><strong>Gear</strong>: Machetes, patched saddlebags</li>
+<li><strong>Goal</strong>: Redraw the frontier in blood</li>
+<li><strong>Motive</strong>: Wrath against the old order</li>
+<li><strong>Nemesis</strong>: Militias, bounty hunters, and time itself</li>
+</ul>
+</section>
+</section>
+<section id="npcs" class="level2">
+<h2 class="anchored" data-anchor-id="npcs">NPCs</h2>
+<section id="jack-black-dust-mclean" class="level3">
+<h3 class="anchored" data-anchor-id="jack-black-dust-mclean">Jack “Black Dust” McLean</h3>
+<ul>
+<li><strong>Concept</strong>: Charismatic gang leader</li>
+<li><strong>Skills</strong>: Quick-draw duels, battlefield tactics</li>
+<li><strong>Frailty</strong>: Can’t resist a gamble</li>
+<li><strong>Gear</strong>: Twin custom pistols, bullet-scarred black hat</li>
+<li><strong>Goal</strong>: Carve out a kingdom of dust and fear</li>
+<li><strong>Motive</strong>: Legacy through blood</li>
+<li><strong>Nemesis</strong>: Sheriff Ada Whitlock</li>
+</ul>
+</section>
+<section id="belle-brass-tooth-calderón" class="level3">
+<h3 class="anchored" data-anchor-id="belle-brass-tooth-calderón">Belle “Brass Tooth” Calderón</h3>
+<ul>
+<li><strong>Concept</strong>: Notorious stagecoach raider</li>
+<li><strong>Skills</strong>: Bluffing, horseback ambushes</li>
+<li><strong>Frailty</strong>: Haunted by betrayal</li>
+<li><strong>Gear</strong>: Sawed-off shotgun, charm bracelet of bounty tags</li>
+<li><strong>Goal</strong>: Erase her past with infamy</li>
+<li><strong>Motive</strong>: Spite dressed as freedom</li>
+<li><strong>Nemesis</strong>: Deputy Marshal Thorne</li>
+</ul>
+</section>
+<section id="doc-vance-holloway" class="level3">
+<h3 class="anchored" data-anchor-id="doc-vance-holloway">“Doc” Vance Holloway</h3>
+<ul>
+<li><strong>Concept</strong>: Dying gambler-philosopher</li>
+<li><strong>Skills</strong>: Card sharp, intuitive shooter</li>
+<li><strong>Frailty</strong>: Coughs blood he jokes away</li>
+<li><strong>Gear</strong>: Ivory-handled derringer, silver pocketwatch</li>
+<li><strong>Goal</strong>: Die with a grin, not a whimper</li>
+<li><strong>Motive</strong>: Loyalty to those who stayed</li>
+<li><strong>Nemesis</strong>: “Gentleman” Ringo Malloy</li>
+</ul>
+</section>
+<section id="mary-stagecoach-fields" class="level3">
+<h3 class="anchored" data-anchor-id="mary-stagecoach-fields">Mary “Stagecoach” Fields</h3>
+<ul>
+<li><strong>Concept</strong>: Iron-willed freight hauler</li>
+<li><strong>Skills</strong>: Rough terrain driver, mule wrangler</li>
+<li><strong>Frailty</strong>: Won’t cross rivers</li>
+<li><strong>Gear</strong>: Reinforced coach whip, battered iron skillet</li>
+<li><strong>Goal</strong>: Deliver her passengers alive</li>
+<li><strong>Motive</strong>: Duty carved in scars</li>
+<li><strong>Nemesis</strong>: Bandit queen Red Clara Valdez</li>
+</ul>
+</section>
+<section id="caleb-the-preacher-johnson" class="level3">
+<h3 class="anchored" data-anchor-id="caleb-the-preacher-johnson">Caleb “The Preacher” Johnson</h3>
+<ul>
+<li><strong>Concept</strong>: Gun-slinging preacher</li>
+<li><strong>Skills</strong>: Fiery sermons, deadly aim</li>
+<li><strong>Frailty</strong>: Sees judgment in every shadow</li>
+<li><strong>Gear</strong>: Dusty Bible, notched Colt revolver</li>
+<li><strong>Goal</strong>: Save the town—or burn its sins away</li>
+<li><strong>Motive</strong>: Redemption at any cost</li>
+<li><strong>Nemesis</strong>: Revivalist Silas “God’s Hand” Granger</li>
+</ul>
+</section>
+<section id="lydia-the-widow-duvall" class="level3">
+<h3 class="anchored" data-anchor-id="lydia-the-widow-duvall">Lydia “The Widow” Duvall</h3>
+<ul>
+<li><strong>Concept</strong>: Rifle-wielding mourner</li>
+<li><strong>Skills</strong>: Marksmanship, cold patience</li>
+<li><strong>Frailty</strong>: Drinks to remember</li>
+<li><strong>Gear</strong>: Lace shawl with pistol loops, widow’s veil</li>
+<li><strong>Goal</strong>: Kill the man who murdered her husband</li>
+<li><strong>Motive</strong>: Grief-forged justice</li>
+<li><strong>Nemesis</strong>: Bloody Bill Davidson</li>
+</ul>
+</section>
+</section>
+<section id="frontier-threats" class="level2">
+<h2 class="anchored" data-anchor-id="frontier-threats">Frontier Threats</h2>
+<section id="the-dustjaw" class="level3">
+<h3 class="anchored" data-anchor-id="the-dustjaw">The Dustjaw</h3>
+<ul>
+<li><strong>Concept</strong>: Hardened outlaw with nothing left to lose</li>
+<li><strong>Skills</strong>: Quick-draw, bush ambush</li>
+<li><strong>Frailty</strong>: Overconfident and slow to retreat</li>
+<li><strong>Gear</strong>: Rusted six-shooter, bullet-patched duster</li>
+<li><strong>Goal</strong>: Rob enough to vanish south</li>
+<li><strong>Motive</strong>: Survival through domination</li>
+<li><strong>Nemesis</strong>: The posse who left him for dead</li>
+</ul>
+</section>
+<section id="ridgeback-coyote" class="level3">
+<h3 class="anchored" data-anchor-id="ridgeback-coyote">Ridgeback Coyote</h3>
+<ul>
+<li><strong>Concept</strong>: Territorial alpha with a scarred snout</li>
+<li><strong>Skills</strong>: Night prowling, coordinated howling</li>
+<li><strong>Frailty</strong>: Easily baited when hungry</li>
+<li><strong>Gear</strong>: Teeth, speed, the cover of darkness</li>
+<li><strong>Goal</strong>: Drive out intruders and expand its range</li>
+<li><strong>Motive</strong>: Instinct and hunger</li>
+<li><strong>Nemesis</strong>: A ranch dog with a grudge</li>
+</ul>
+</section>
+<section id="painted-canyon-sniper" class="level3">
+<h3 class="anchored" data-anchor-id="painted-canyon-sniper">Painted Canyon Sniper</h3>
+<ul>
+<li><strong>Concept</strong>: Former scout turned paid killer</li>
+<li><strong>Skills</strong>: Camouflage, long-range marksmanship</li>
+<li><strong>Frailty</strong>: One eye shot out in war</li>
+<li><strong>Gear</strong>: Scoped carbine, war medal worn on a string</li>
+<li><strong>Goal</strong>: Collect the bounty, no questions asked</li>
+<li><strong>Motive</strong>: Professional pride, not malice</li>
+<li><strong>Nemesis</strong>: Any who return fire</li>
+</ul>
+</section>
+<section id="broadjaw-rattler" class="level3">
+<h3 class="anchored" data-anchor-id="broadjaw-rattler">Broadjaw Rattler</h3>
+<ul>
+<li><strong>Concept</strong>: Massive rattlesnake nesting near the creek beds</li>
+<li><strong>Skills</strong>: Silent approach, lightning strike</li>
+<li><strong>Frailty</strong>: Slow to move in the morning chill</li>
+<li><strong>Gear</strong>: Fangs, venom sac, natural camouflage</li>
+<li><strong>Goal</strong>: Secure territory and mates</li>
+<li><strong>Motive</strong>: Defense and hunger</li>
+<li><strong>Nemesis</strong>: The trail hand with a shovel scar to prove it</li>
+</ul>
+</section>
+<section id="creekbed-rustlers" class="level3">
+<h3 class="anchored" data-anchor-id="creekbed-rustlers">Creekbed Rustlers</h3>
+<ul>
+<li><strong>Concept</strong>: Loose band of cattle thieves operating under moonlight</li>
+<li><strong>Skills</strong>: Rope work, herd steering, vanishing fast</li>
+<li><strong>Frailty</strong>: Poor coordination when separated</li>
+<li><strong>Gear</strong>: Lariats, stolen brands, tired nags</li>
+<li><strong>Goal</strong>: Sell stolen herds before daybreak</li>
+<li><strong>Motive</strong>: Profit from other men’s labor</li>
+<li><strong>Nemesis</strong>: Any honest wrangler or night watch</li>
+</ul>
+</section>
+<section id="bitter-range-widow" class="level3">
+<h3 class="anchored" data-anchor-id="bitter-range-widow">Bitter Range Widow</h3>
+<ul>
+<li><strong>Concept</strong>: Sharp-eyed homesteader with a dead husband and no patience</li>
+<li><strong>Skills</strong>: Marksmanship, terrain advantage</li>
+<li><strong>Frailty</strong>: Quick temper, quicker trigger</li>
+<li><strong>Gear</strong>: Old Springfield rifle, widow’s locket</li>
+<li><strong>Goal</strong>: Keep her land at all costs</li>
+<li><strong>Motive</strong>: Defiance against displacement</li>
+<li><strong>Nemesis</strong>: The land agent who forged her claim</li>
+</ul>
+</section>
+</section>
+<section id="locations" class="level2">
+<h2 class="anchored" data-anchor-id="locations">Locations</h2>
+<section id="red-lantern-saloon" class="level3">
+<h3 class="anchored" data-anchor-id="red-lantern-saloon">Red Lantern Saloon</h3>
+<ul>
+<li>Faded hub of drink, smoke, and whispered deals. Known for poker games that end in gunfire.</li>
+<li>Possible Encounters: Bartender, Drifter, Card Shark</li>
+</ul>
+</section>
+<section id="devils-spine-pass" class="level3">
+<h3 class="anchored" data-anchor-id="devils-spine-pass">Devil’s Spine Pass</h3>
+<ul>
+<li>Narrow switchback trail carved through jagged rock. Ideal ground for ambushes — or accidents.</li>
+<li>Possible Encounters: Highwayman, Scout, Coyote</li>
+</ul>
+</section>
+<section id="lost-pick-mine" class="level3">
+<h3 class="anchored" data-anchor-id="lost-pick-mine">Lost Pick Mine</h3>
+<ul>
+<li>Partially collapsed claim with rumors of hidden silver. Echoes travel too far down here.</li>
+<li>Possible Encounters: Claim Jumper, Stray Mule, Cave-In Risk</li>
+</ul>
+</section>
+<section id="fort-redemption" class="level3">
+<h3 class="anchored" data-anchor-id="fort-redemption">Fort Redemption</h3>
+<ul>
+<li>Old Union fort turned garrison for local patrols. Supplies are short, tempers shorter.</li>
+<li>Possible Encounters: Captain, Deserter, Supply Officer</li>
+</ul>
+</section>
+<section id="dusthaven" class="level3">
+<h3 class="anchored" data-anchor-id="dusthaven">Dusthaven</h3>
+<ul>
+<li>Boomtown gone bust, now ruled by backroom politics. Streets are dry, but blood still runs.</li>
+<li>Possible Encounters: Corrupt Mayor, Deputy, Loan Shark</li>
+</ul>
+</section>
+<section id="hollow-tree-ranch" class="level3">
+<h3 class="anchored" data-anchor-id="hollow-tree-ranch">Hollow Tree Ranch</h3>
+<ul>
+<li>Well-fenced spread on disputed land. Guards work for pay — and switch sides fast.</li>
+<li>Possible Encounters: Ranch Hand, Foreman, Trespasser</li>
+</ul>
+</section>
+</section>
+<section id="adventure-seeds" class="level2">
+<h2 class="anchored" data-anchor-id="adventure-seeds">Adventure Seeds</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 75%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>D66</th>
+<th>Adventure</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>11</td>
+<td>Track counterfeit coin to a printing press hidden in a traveling medicine show.</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Track a bounty into storm country, but the outlaw’s kin are watching every ridge.</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>You wake with your gear stolen and a sheriff’s badge pinned to your chest. The town calls you law now.</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>Dig into a sudden election victory — the votes outnumber the living in town.</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>Investigate a string of barn burnings blamed on a rival ranch — but something doesn’t add up.</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>Escort a supply wagon through contested range land as both raiders and ranchers stake their claim.</td>
+</tr>
+<tr class="odd">
+<td>21</td>
+<td>A cattle baron’s son vanished on a trail ride. Find him before the vultures do.</td>
+</tr>
+<tr class="even">
+<td>22</td>
+<td>Ride escort for a payroll wagon rumored to be double-loaded. Word’s out, and so are the wolves.</td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td>Serve a warrant in a boomtown that hasn’t seen a lawman in years. No one wants the man found.</td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td>Locate a missing surveyor last seen camping near Devil’s Spine — his camp is burned and his horse shot.</td>
+</tr>
+<tr class="odd">
+<td>25</td>
+<td>Protect a railworker strike leader from hired enforcers. The company says she’s a firebrand.</td>
+</tr>
+<tr class="even">
+<td>26</td>
+<td>Escort a prisoner across county lines — their old gang has set up blockades.</td>
+</tr>
+<tr class="odd">
+<td>31</td>
+<td>Break into a war profiteer’s warehouse to recover stolen army rifles before they cross the border.</td>
+</tr>
+<tr class="even">
+<td>32</td>
+<td>Guard a bridge under construction. Dynamite’s gone missing, and tempers are short.</td>
+</tr>
+<tr class="odd">
+<td>33</td>
+<td>A former outlaw seeks to surrender. His old partners plan to bury him before he can talk.</td>
+</tr>
+<tr class="even">
+<td>34</td>
+<td>Break a siege: a traveling doctor and her patients are trapped in a church by local vigilantes.</td>
+</tr>
+<tr class="odd">
+<td>35</td>
+<td>Trail a stolen herd across open range. Something’s killing cattle and leaving the meat behind.</td>
+</tr>
+<tr class="even">
+<td>36</td>
+<td>Confront a gunman killing veterans from the same company. You wore the same uniform once.</td>
+</tr>
+<tr class="odd">
+<td>41</td>
+<td>A caravan of settlers seeks escort — but a masked rider follows, asking for one man’s head.</td>
+</tr>
+<tr class="even">
+<td>42</td>
+<td>A judge arrives in town with a docket of buried sins. Keep them alive through the night.</td>
+</tr>
+<tr class="odd">
+<td>43</td>
+<td>Defend a widow’s homestead from hired guns sent by a railroad syndicate with forged land claims.</td>
+</tr>
+<tr class="even">
+<td>44</td>
+<td>You’re offered coin to testify in a land dispute. Both sides swear they’ll kill you if you do.</td>
+</tr>
+<tr class="odd">
+<td>45</td>
+<td>Transport a coffin to a mountain cemetery. The family says to bury it before nightfall.</td>
+</tr>
+<tr class="even">
+<td>46</td>
+<td>Investigate a mine collapse blamed on sabotage. Survivors say it wasn’t just the rocks that moved.</td>
+</tr>
+<tr class="odd">
+<td>51</td>
+<td>Follow a boot trail into the canyons. The man you’re after vanished chasing a mirage.</td>
+</tr>
+<tr class="even">
+<td>52</td>
+<td>Negotiate a truce between two ranches after a shootout left three men dead — and the water rights in question.</td>
+</tr>
+<tr class="odd">
+<td>53</td>
+<td>Intercept a telegram before it reaches the governor. Some truths don’t travel safe in daylight.</td>
+</tr>
+<tr class="even">
+<td>54</td>
+<td>Stop a jailbreak planned by the sheriff’s own deputy. The town’s split, and time’s running short.</td>
+</tr>
+<tr class="odd">
+<td>55</td>
+<td>A land baron pays handsomely to relocate a family. The family refuses to move — or to speak.</td>
+</tr>
+<tr class="even">
+<td>56</td>
+<td>A letter arrives: your name is on a will, but the town holding the inheritance is run by outlaws.</td>
+</tr>
+<tr class="odd">
+<td>61</td>
+<td>A homesteader’s well turns to blood. Panic brews, but someone stands to gain from the exodus.</td>
+</tr>
+<tr class="even">
+<td>62</td>
+<td>Protect a mule train carrying dynamite to the mountain mine — snow’s coming and wolves follow.</td>
+</tr>
+<tr class="odd">
+<td>63</td>
+<td>An aging lawman asks for your help arresting his own son. The town’s ready to turn against him.</td>
+</tr>
+<tr class="even">
+<td>64</td>
+<td>A storm uncovers graves on land newly claimed. The sheriff wants it quiet. The preacher does not.</td>
+</tr>
+<tr class="odd">
+<td>65</td>
+<td>A band of regulators offers justice. Are they law — or just another gang with clean boots?</td>
+</tr>
+<tr class="even">
+<td>66</td>
+<td>A hired scout hasn’t returned from the high pass. Their horse came back alone and bloody.</td>
+</tr>
+</tbody>
+</table>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var sidebar = document.getElementById("quarto-margin-sidebar");
+  var formats = document.querySelector(".quarto-alternate-formats");
+  if (sidebar && formats) {
+    sidebar.insertBefore(formats, sidebar.firstChild);
+  }
+
+  // Rename "Typst" label to "PDF"
+  document.querySelectorAll(".quarto-alternate-formats a").forEach(function (a) {
+    a.childNodes.forEach(function (node) {
+      if (node.nodeType === Node.TEXT_NODE && node.textContent.trim() === "Typst") {
+        node.textContent = "PDF";
+      }
+    });
+  });
+});
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/zotiquestgames\.github\.io\/lonersrd\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2021-2026 <a href="https://zotiquestgames.com">Roberto Bisceglie</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/zotiquestgames/lonersrd/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

@@ -1,0 +1,2387 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Roberto Bisceglie">
+<meta name="dcterms.date" content="2026-07-01">
+
+<title>Pirates Adventure Pack – Loner SRD</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-d37705bb3a21d8331654a8d3f48f58ba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-87bbd3402671c853dcbde7c40b26e08b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-d37705bb3a21d8331654a8d3f48f58ba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&amp;family=Raleway:wght@700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+  @import url('https://fonts.cdnfonts.com/css/takota');
+</style>
+
+
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Loner SRD</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../core/loner-3e.html" aria-current="page"> 
+<span class="menu-text">Core Rules</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../adventure_packs/AP01_fantasy.html"> 
+<span class="menu-text">Adventure Packs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../geared_towards_loner/kwaidan_revised.html"> 
+<span class="menu-text">Geared Towards Loner</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/zotiquestgames/lonersrd"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../adventure_packs/AP01_fantasy.html">Adventure Packs</a></li><li class="breadcrumb-item"><a href="../adventure_packs/AP10_pirates.html">Pirates Adventure Pack</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+ <span class="menu-text">SRD</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/loner-3e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 3e</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/loner_companion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Companion</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/character_builders_guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Character Builder’s Guide</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/world_builders_guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">World Builder’s Guide</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/the_path_not_taken.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Path Not Taken</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/cinematic_action.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cinematic Action</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/tales_and_tumbles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">For Kids</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Legacy Core Rules</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/legacy/loner-1e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 1e (legacy)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/legacy/loner-2e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 2e (legacy)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Adventure Packs</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP01_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fantasy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP02_space.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Space Sci-Fi Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP03_superheroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Superheroes Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP04_crime.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Crime Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP05_mystery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mystery Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP06_horror.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Horror Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP07_action_adventure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Action Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP08_spy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP09_postapoc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Post-Apocalyptic Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP10_pirates.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Pirates Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP11_western.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Western Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP12_cyberpunk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cyberpunk Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Adventure Packs (Legacy 2e)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP01_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fantasy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP02_space.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Space Sci-Fi Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP03_superheroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Superheroes Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP04_crime.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Crime Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP05_mystery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mystery Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP06_horror.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Horror Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP07_action_adventure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Action Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP08_spy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP09_postapoc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Post-Apocalyptic Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP10_pirates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pirates Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP11_western.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Western Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP12_cyberpunk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cyberpunk Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/legacy/kwaidan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan!</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">Geared Towards Loner games</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/kwaidan_revised.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan! (Revised)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/cog_compass.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cog &amp; Compass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/mech_requiem.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mech: Requiem</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/legends_of_camelot.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Legends of Camelot</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/pulp_adventures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pulp Adventures!</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/steel_and_sorcery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Steel &amp; Sorcery</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/dungeoneer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dungeoneer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/spacer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spacer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/arabian_nights_adventures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Arabian Nights Adventures</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/cozy_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cozy Fantasy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/savage_blades_of_xylandra.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Savage Blades of Xylandra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/pulp_heroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pulp Heroes!</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/the_shattered_reach.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Shattered Reach</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/galaxy_drifter.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Galaxy Drifter</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/urban_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Urban Fantasy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/norse_saga.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Norse Saga</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/cthulhu.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cthulhu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/paranormal_files.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Paranormal Files</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+ <span class="menu-text">Geared Towards Loner games (Legacy)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/legacy/kwaidan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan!</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#pirates-adventure-pack" id="toc-pirates-adventure-pack" class="nav-link active" data-scroll-target="#pirates-adventure-pack">Pirates Adventure Pack</a>
+  <ul class="collapse">
+  <li><a href="#setting-information" id="toc-setting-information" class="nav-link" data-scroll-target="#setting-information">Setting Information</a></li>
+  <li><a href="#character-traits" id="toc-character-traits" class="nav-link" data-scroll-target="#character-traits">Character Traits</a>
+  <ul class="collapse">
+  <li><a href="#concepts" id="toc-concepts" class="nav-link" data-scroll-target="#concepts">Concepts</a></li>
+  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills</a></li>
+  <li><a href="#frailties" id="toc-frailties" class="nav-link" data-scroll-target="#frailties">Frailties</a></li>
+  <li><a href="#gear" id="toc-gear" class="nav-link" data-scroll-target="#gear">Gear</a></li>
+  <li><a href="#names" id="toc-names" class="nav-link" data-scroll-target="#names">Names</a></li>
+  </ul></li>
+  <li><a href="#special-rules" id="toc-special-rules" class="nav-link" data-scroll-target="#special-rules">Special Rules</a>
+  <ul class="collapse">
+  <li><a href="#ship-combat" id="toc-ship-combat" class="nav-link" data-scroll-target="#ship-combat">Ship Combat</a></li>
+  <li><a href="#plunder-morale" id="toc-plunder-morale" class="nav-link" data-scroll-target="#plunder-morale">Plunder &amp; Morale</a></li>
+  <li><a href="#mutiny" id="toc-mutiny" class="nav-link" data-scroll-target="#mutiny">Mutiny</a></li>
+  </ul></li>
+  <li><a href="#factions" id="toc-factions" class="nav-link" data-scroll-target="#factions">Factions</a>
+  <ul class="collapse">
+  <li><a href="#the-british-royal-navy" id="toc-the-british-royal-navy" class="nav-link" data-scroll-target="#the-british-royal-navy">The British Royal Navy</a></li>
+  <li><a href="#the-spanish-armada-real" id="toc-the-spanish-armada-real" class="nav-link" data-scroll-target="#the-spanish-armada-real">The Spanish Armada Real</a></li>
+  <li><a href="#the-french-flibustiers" id="toc-the-french-flibustiers" class="nav-link" data-scroll-target="#the-french-flibustiers">The French Flibustiers</a></li>
+  <li><a href="#the-pirate-brotherhood" id="toc-the-pirate-brotherhood" class="nav-link" data-scroll-target="#the-pirate-brotherhood">The Pirate Brotherhood</a></li>
+  <li><a href="#the-maroon-rebellion" id="toc-the-maroon-rebellion" class="nav-link" data-scroll-target="#the-maroon-rebellion">The Maroon Rebellion</a></li>
+  <li><a href="#the-dutch-merchant-syndicates" id="toc-the-dutch-merchant-syndicates" class="nav-link" data-scroll-target="#the-dutch-merchant-syndicates">The Dutch Merchant Syndicates</a></li>
+  </ul></li>
+  <li><a href="#npcs" id="toc-npcs" class="nav-link" data-scroll-target="#npcs">NPCs</a>
+  <ul class="collapse">
+  <li><a href="#captain-anne-bonny" id="toc-captain-anne-bonny" class="nav-link" data-scroll-target="#captain-anne-bonny">Captain Anne Bonny</a></li>
+  <li><a href="#governor-woodes-rogers" id="toc-governor-woodes-rogers" class="nav-link" data-scroll-target="#governor-woodes-rogers">Governor Woodes Rogers</a></li>
+  <li><a href="#edward-blackbeard-teach" id="toc-edward-blackbeard-teach" class="nav-link" data-scroll-target="#edward-blackbeard-teach">Edward “Blackbeard” Teach</a></li>
+  <li><a href="#captain-calico-jack-rackham" id="toc-captain-calico-jack-rackham" class="nav-link" data-scroll-target="#captain-calico-jack-rackham">Captain Calico Jack Rackham</a></li>
+  <li><a href="#governor-don-rafael-de-eslava" id="toc-governor-don-rafael-de-eslava" class="nav-link" data-scroll-target="#governor-don-rafael-de-eslava">Governor Don Rafael de Eslava</a></li>
+  <li><a href="#anne-dieu-le-veut" id="toc-anne-dieu-le-veut" class="nav-link" data-scroll-target="#anne-dieu-le-veut">Anne Dieu-le-Veut</a></li>
+  </ul></li>
+  <li><a href="#wild-encounters" id="toc-wild-encounters" class="nav-link" data-scroll-target="#wild-encounters">Wild Encounters</a>
+  <ul class="collapse">
+  <li><a href="#bull-shark" id="toc-bull-shark" class="nav-link" data-scroll-target="#bull-shark">Bull Shark</a></li>
+  <li><a href="#saltwater-crocodile" id="toc-saltwater-crocodile" class="nav-link" data-scroll-target="#saltwater-crocodile">Saltwater Crocodile</a></li>
+  <li><a href="#sea-wasps-box-jellyfish" id="toc-sea-wasps-box-jellyfish" class="nav-link" data-scroll-target="#sea-wasps-box-jellyfish">Sea Wasps (Box Jellyfish)</a></li>
+  <li><a href="#boar-of-the-jungle-interior" id="toc-boar-of-the-jungle-interior" class="nav-link" data-scroll-target="#boar-of-the-jungle-interior">Boar of the Jungle Interior</a></li>
+  <li><a href="#rabid-dog-pack" id="toc-rabid-dog-pack" class="nav-link" data-scroll-target="#rabid-dog-pack">Rabid Dog Pack</a></li>
+  <li><a href="#swarm-of-rats" id="toc-swarm-of-rats" class="nav-link" data-scroll-target="#swarm-of-rats">Swarm of Rats</a></li>
+  </ul></li>
+  <li><a href="#locations" id="toc-locations" class="nav-link" data-scroll-target="#locations">Locations</a>
+  <ul class="collapse">
+  <li><a href="#port-royal" id="toc-port-royal" class="nav-link" data-scroll-target="#port-royal">Port Royal</a></li>
+  <li><a href="#isla-de-culebras" id="toc-isla-de-culebras" class="nav-link" data-scroll-target="#isla-de-culebras">Isla de Culebras</a></li>
+  <li><a href="#tortuga" id="toc-tortuga" class="nav-link" data-scroll-target="#tortuga">Tortuga</a></li>
+  <li><a href="#nassau" id="toc-nassau" class="nav-link" data-scroll-target="#nassau">Nassau</a></li>
+  <li><a href="#shipbreaker-cove" id="toc-shipbreaker-cove" class="nav-link" data-scroll-target="#shipbreaker-cove">Shipbreaker Cove</a></li>
+  <li><a href="#the-lost-shoals" id="toc-the-lost-shoals" class="nav-link" data-scroll-target="#the-lost-shoals">The Lost Shoals</a></li>
+  </ul></li>
+  <li><a href="#adventure-seeds" id="toc-adventure-seeds" class="nav-link" data-scroll-target="#adventure-seeds">Adventure Seeds</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/zotiquestgames/lonersrd/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="AP10_pirates.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="AP10_pirates.odt"><i class="bi bi-file"></i>OpenOffice</a></li><li><a href="AP10_pirates.epub"><i class="bi bi-file"></i>ePub</a></li><li><a href="AP10_pirates-gfm.md"><i class="bi bi-file-code"></i>Github (GFM)</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../adventure_packs/AP01_fantasy.html">Adventure Packs</a></li><li class="breadcrumb-item"><a href="../adventure_packs/AP10_pirates.html">Pirates Adventure Pack</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Pirates Adventure Pack</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Roberto Bisceglie </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 1, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="pirates-adventure-pack" class="level1">
+<h1>Pirates Adventure Pack</h1>
+<section id="setting-information" class="level2">
+<h2 class="anchored" data-anchor-id="setting-information">Setting Information</h2>
+<ul>
+<li>The world is ruled by tide and cannon — a storm-wracked sea of blood, gold, and betrayal where every ship sails on superstition as much as sailcloth.</li>
+<li>The age is the twilight of empire — the late 1600s to early 1700s — when crowns send fleets they cannot control and laws are more rumor than rule.</li>
+<li>The setting is the Caribbean, where jungle-choked islands rise from sapphire waters, forts crumble under the sun, and every cove might hide a rogue fleet or buried sin.</li>
+<li>Power is fractured and volatile — Spanish galleons patrol the trade lanes, English governors whisper to smugglers, and pirate captains carve empires from coral and gunpowder.</li>
+<li>Justice is a matter of aim and timing — courts are bought, navies are stretched thin, and gallows swing heavy with names no one remembers.</li>
+<li>Culture is wild and layered — tongues clash on every dock, drums echo in sugarcane fields, and stolen gods are prayed to under false names.</li>
+<li>Gold is the hunger that drives it all — chests of coin, crates of rum, charts marked with cursed Xs — enough to make a sailor king, or sink him screaming.</li>
+<li>The sea is freedom, but it keeps no promises — only the bold, the cruel, and the damned rise with the tide.</li>
+</ul>
+</section>
+<section id="character-traits" class="level2">
+<h2 class="anchored" data-anchor-id="character-traits">Character Traits</h2>
+<section id="concepts" class="level3">
+<h3 class="anchored" data-anchor-id="concepts">Concepts</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 0%">
+<col style="width: 14%">
+<col style="width: 17%">
+<col style="width: 17%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Weathered Captain</td>
+<td>Vengeful Buccaneer</td>
+<td>Treasure Hunter</td>
+<td>Escaped Convict</td>
+<td>Rogue Privateer</td>
+<td>Drunken Navigator</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Exiled Noble</td>
+<td>Cunning Cook</td>
+<td>Runaway Shipwright</td>
+<td>Hardened Gunner</td>
+<td>Smiling Smuggler</td>
+<td>Sharp-Tongued Barkeep</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Reluctant Mutineer</td>
+<td>Survivor of Shipwreck</td>
+<td>Greedy Deckhand</td>
+<td>Obsessive Cartographer</td>
+<td>Freed Bondsman</td>
+<td>Cold-Eyed Lookout</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Former Officer</td>
+<td>Quartermaster in Hiding</td>
+<td>Duel-Happy Swashbuckler</td>
+<td>Bankrupt Merchant</td>
+<td>Powder Monkey Veteran</td>
+<td>Grizzled Harpooner</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Island-Trader Scout</td>
+<td>Scarred Surgeon</td>
+<td>Gambling Addict</td>
+<td>Defrocked Missionary</td>
+<td>Streetwise Orphan</td>
+<td>Cross-Dressed Stowaway</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Seasoned Pilot</td>
+<td>Silver-Tongued Rogue</td>
+<td>Hothead Gunrunner</td>
+<td>Scarred Boatswain</td>
+<td>Cocky Recruit</td>
+<td>Veteran Boatswain</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="skills" class="level3">
+<h3 class="anchored" data-anchor-id="skills">Skills</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 0%">
+<col style="width: 14%">
+<col style="width: 13%">
+<col style="width: 18%">
+<col style="width: 17%">
+<col style="width: 16%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Ropework Mastery</td>
+<td>Pistol Accuracy</td>
+<td>Commanding Voice</td>
+<td>Celestial Navigation</td>
+<td>Fast Reload</td>
+<td>Dice Hustling</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Silent Movement</td>
+<td>Knife Throwing</td>
+<td>Swordsmanship</td>
+<td>Reading Charts</td>
+<td>Hide in Plain Sight</td>
+<td>Storm Sailing</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Cannon Handling</td>
+<td>Ship Tactics</td>
+<td>Quick Reflexes</td>
+<td>Intimidation</td>
+<td>Wilderness Survival</td>
+<td>Contraband Concealment</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Map Copying</td>
+<td>Multilingual</td>
+<td>Bartering</td>
+<td>Heavy Lifting</td>
+<td>Bluffing</td>
+<td>Rig Climbing</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Sharp Eyes</td>
+<td>Rig Repair</td>
+<td>Fire Starting</td>
+<td>Load Balancing</td>
+<td>Fast Talking</td>
+<td>Silent Signaling</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Hold Breath Long</td>
+<td>Steady Hand</td>
+<td>Sea Shanty Leadership</td>
+<td>Improvised Weapons</td>
+<td>Spot a Traitor</td>
+<td>Hull Patching</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="frailties" class="level3">
+<h3 class="anchored" data-anchor-id="frailties">Frailties</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 0%">
+<col style="width: 18%">
+<col style="width: 14%">
+<col style="width: 15%">
+<col style="width: 17%">
+<col style="width: 18%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Hunted by the Navy</td>
+<td>Seasick in Storms</td>
+<td>Haunted by the Past</td>
+<td>Ill Reputation</td>
+<td>Broken Ribs</td>
+<td>Too Trusting</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Drunk on Duty</td>
+<td>Guilt-Ridden</td>
+<td>Crippling Debt</td>
+<td>Poor Swimmer</td>
+<td>Old Grudge</td>
+<td>Disobeys Orders</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Missing Fingers</td>
+<td>Loud Sleeper</td>
+<td>Temper Problem</td>
+<td>Illiterate</td>
+<td>Known Braggart</td>
+<td>Limp from Old Wound</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Fears Firearms</td>
+<td>Wanted in Port</td>
+<td>Known Cheat</td>
+<td>Questionable Loyalty</td>
+<td>Reeks of Rum</td>
+<td>Speaks Out of Turn</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Easily Distracted</td>
+<td>Heavy Gambler</td>
+<td>Prone to Brawls</td>
+<td>Voice Carries Too Far</td>
+<td>Trouble Holding Tongue</td>
+<td>Overconfident</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Bitter Toward Officers</td>
+<td>Jealous of Others</td>
+<td>Unreliable Memory</td>
+<td>Prone to Sunstroke</td>
+<td>Fears Enclosed Spaces</td>
+<td>Weak Stomach</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="gear" class="level3">
+<h3 class="anchored" data-anchor-id="gear">Gear</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 0%">
+<col style="width: 16%">
+<col style="width: 18%">
+<col style="width: 14%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Rusty Cutlass</td>
+<td>Flintlock Pistol</td>
+<td>Hand-Drawn Map</td>
+<td>Locked Chest (no key)</td>
+<td>Well-Oiled Compass</td>
+<td>Set of Dice</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Bottle of Strong Rum</td>
+<td>Set of Cooking Knives</td>
+<td>Waterproof Satchel</td>
+<td>Engraved Spyglass</td>
+<td>Faded Letter from Home</td>
+<td>Deck of Playing Cards</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Belt with Hidden Knife</td>
+<td>Toolkit for Ship Repairs</td>
+<td>Ink &amp; Charts</td>
+<td>Heavy Leather Boots</td>
+<td>Lockpicks</td>
+<td>False Documents</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Signal Whistle</td>
+<td>Barrel of Powder</td>
+<td>Rope &amp; Grapple Hook</td>
+<td>Pocket Notebook</td>
+<td>Engraved Locket</td>
+<td>Sharpening Stone</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Smuggler’s Satchel</td>
+<td>Brass Telescope</td>
+<td>Pocket Telescope</td>
+<td>Merchant’s Ledger</td>
+<td>Custom Gunpowder Horn</td>
+<td>Dented Tin Mug</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Signal Flags Set</td>
+<td>Ink-Stained Journal</td>
+<td>Fishing Line &amp; Hook</td>
+<td>Black Bandana</td>
+<td>Heavy Cloak</td>
+<td>Brass Knuckles</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="names" class="level3">
+<h3 class="anchored" data-anchor-id="names">Names</h3>
+<section id="female-names" class="level4">
+<h4 class="anchored" data-anchor-id="female-names">Female Names</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Anne</td>
+<td>Clara</td>
+<td>Esperanza</td>
+<td>Judith</td>
+<td>Lucille</td>
+<td>Mary</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Isabel</td>
+<td>Brigitte</td>
+<td>Marta</td>
+<td>Eliza</td>
+<td>Nora</td>
+<td>Yvette</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Agnes</td>
+<td>Céleste</td>
+<td>Dorothea</td>
+<td>Inés</td>
+<td>Lisbeth</td>
+<td>Sabine</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Hester</td>
+<td>Colette</td>
+<td>Maria</td>
+<td>Jane</td>
+<td>Renata</td>
+<td>Béatrice</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Abigail</td>
+<td>Elena</td>
+<td>Odette</td>
+<td>Ruth</td>
+<td>Sybil</td>
+<td>Winifred</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Constance</td>
+<td>Ivy</td>
+<td>Jeanne</td>
+<td>Pilar</td>
+<td>Rosalie</td>
+<td>Thelma</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="male-names" class="level4">
+<h4 class="anchored" data-anchor-id="male-names">Male Names</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Thomas</td>
+<td>Edward</td>
+<td>Jean</td>
+<td>Pedro</td>
+<td>James</td>
+<td>Anton</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Samuel</td>
+<td>Diego</td>
+<td>Elias</td>
+<td>Charles</td>
+<td>Lucien</td>
+<td>Basil</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Gabriel</td>
+<td>Mateo</td>
+<td>Hugh</td>
+<td>Jacques</td>
+<td>Oscar</td>
+<td>Willem</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Nathaniel</td>
+<td>Louis</td>
+<td>Álvaro</td>
+<td>Frederick</td>
+<td>Colin</td>
+<td>Jasper</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Henry</td>
+<td>Stefan</td>
+<td>Miguel</td>
+<td>Walter</td>
+<td>Lionel</td>
+<td>Gilbert</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Francis</td>
+<td>Andre</td>
+<td>Julian</td>
+<td>Rupert</td>
+<td>Sébastien</td>
+<td>Amos</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="surnames" class="level4">
+<h4 class="anchored" data-anchor-id="surnames">Surnames</h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 1%">
+<col style="width: 16%">
+<col style="width: 14%">
+<col style="width: 18%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Blackwood</td>
+<td>Tremayne</td>
+<td>Delacruz</td>
+<td>Lafitte</td>
+<td>Hargrove</td>
+<td>Montoya</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Redfern</td>
+<td>Barrow</td>
+<td>Carvajal</td>
+<td>Dubois</td>
+<td>Kendrick</td>
+<td>Saville</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Ashford</td>
+<td>Navarro</td>
+<td>Desrosiers</td>
+<td>Mendoza</td>
+<td>Godwin</td>
+<td>Moreau</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Thorne</td>
+<td>Ibanez</td>
+<td>Leclair</td>
+<td>Quintero</td>
+<td>Rooke</td>
+<td>Villarreal</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Haskett</td>
+<td>Marín</td>
+<td>Beauchamp</td>
+<td>Salazar</td>
+<td>Dunmore</td>
+<td>Rousseau</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Fenwick</td>
+<td>Ordoñez</td>
+<td>Durant</td>
+<td>Serrano</td>
+<td>Trenholm</td>
+<td>Castille</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="nicknames" class="level4">
+<h4 class="anchored" data-anchor-id="nicknames">Nicknames</h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 1%">
+<col style="width: 17%">
+<col style="width: 14%">
+<col style="width: 15%">
+<col style="width: 17%">
+<col style="width: 17%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>One-Eye</td>
+<td>Long Jack</td>
+<td>Red Mary</td>
+<td>Ironhand</td>
+<td>Peg Joe</td>
+<td>No-Nose</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Black Cat</td>
+<td>Old Salt</td>
+<td>Lucky Jim</td>
+<td>Brass Nell</td>
+<td>Quick Tom</td>
+<td>Bloody Anne</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Half-Tongue</td>
+<td>Hard Sue</td>
+<td>Grin Bill</td>
+<td>Quiet Liz</td>
+<td>Mad Pete</td>
+<td>Slick Sam</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Hookjaw</td>
+<td>Cold Jane</td>
+<td>Crabby Lou</td>
+<td>Silent John</td>
+<td>Slim Vane</td>
+<td>Big Martha</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Ragged Dan</td>
+<td>Sweet Meg</td>
+<td>Tidy Ned</td>
+<td>Fat Molly</td>
+<td>Sharp Kit</td>
+<td>Bold Reggie</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Split Lip</td>
+<td>Toothless</td>
+<td>Narrow Nat</td>
+<td>Wild Bess</td>
+<td>Deadpan Joe</td>
+<td>Slow Elias</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+<section id="special-rules" class="level2">
+<h2 class="anchored" data-anchor-id="special-rules">Special Rules</h2>
+<section id="ship-combat" class="level3">
+<h3 class="anchored" data-anchor-id="ship-combat">Ship Combat</h3>
+<p>When engaging in ship combat, resolve the scene by asking a closed question (e.g.&nbsp;<em>Do we manage to board them before they escape?</em>). Interpret the result with the following <strong>fictional prompts</strong>, not fixed effects.</p>
+<ul>
+<li><strong>No, and</strong>: Your ship takes a brutal hit or is outmaneuvered. You’re left vulnerable, or damage affects a key system (e.g.&nbsp;sails, rudder, morale).</li>
+<li><strong>No</strong>: The enemy ship holds position. You fail to make progress and remain under threat.</li>
+<li><strong>No, but</strong>: You’re kept at bay, but avoid damage or find a small tactical advantage.</li>
+<li><strong>Yes, but</strong>: You make contact or land a shot, but suffer damage or lose a key crew member.</li>
+<li><strong>Yes</strong>: You hit them hard or gain the upper hand.</li>
+<li><strong>Yes, and</strong>: A clean broadside, precise boarding, or swift disabling action—total advantage is yours.</li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>Note:</strong> Treat “damage” loosely—it might mean a torn sail, spilled powder, broken morale, or wounded allies. Track the fiction, not HP.</p>
+</blockquote>
+</section>
+<section id="plunder-morale" class="level3">
+<h3 class="anchored" data-anchor-id="plunder-morale">Plunder &amp; Morale</h3>
+<p>After a successful raid, ask: <em>Did the haul satisfy the crew?</em> or <em>Do we manage to keep order during the division of spoils?</em></p>
+<p>Use the result to build <strong>emergent pressure or stability</strong>, not binary success/failure.</p>
+<ul>
+<li><strong>No, and</strong>: Fights break out over shares; a faction forms against you.</li>
+<li><strong>No</strong>: The crew is grumbling, and trust is fraying.</li>
+<li><strong>No, but</strong>: Unease simmers, but your officers keep order—for now.</li>
+<li><strong>Yes, but</strong>: You get things settled, but only after giving up something or showing weakness.</li>
+<li><strong>Yes</strong>: Order is maintained, loot distributed.</li>
+<li><strong>Yes, and</strong>: A rousing speech, a fair hand—morale soars, you gain loyalty or volunteers.</li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>Caution:</strong> Crew morale can be tracked abstractly (via a tag, journal note, or countdown). Use it narratively to inform future rolls.</p>
+</blockquote>
+</section>
+<section id="mutiny" class="level3">
+<h3 class="anchored" data-anchor-id="mutiny">Mutiny</h3>
+<p>When tension peaks, ask: <em>Does the crew rise against me?</em> or <em>Can I hold the deck in the face of open defiance?</em></p>
+<ul>
+<li><strong>No, and</strong>: You reassert control with force or fear. The crew falls in line—at a cost.</li>
+<li><strong>No</strong>: The uprising is quelled. Morale is shaky, but you’re in charge.</li>
+<li><strong>No, but</strong>: You prevent a full revolt, but the ringleaders remain, watching.</li>
+<li><strong>Yes, but</strong>: You’re deposed or forced to share power, but you avoid being cast overboard.</li>
+<li><strong>Yes</strong>: You’re overthrown. Someone else takes the helm.</li>
+<li><strong>Yes, and</strong>: You’re betrayed by a close ally. Leadership shifts violently. You may survive—but not unscathed.</li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>Tip:</strong> Let mutinies reshape the fiction dramatically. They’re a chance to reframe the story, not a game-over.</p>
+</blockquote>
+</section>
+</section>
+<section id="factions" class="level2">
+<h2 class="anchored" data-anchor-id="factions">Factions</h2>
+<section id="the-british-royal-navy" class="level3">
+<h3 class="anchored" data-anchor-id="the-british-royal-navy">The British Royal Navy</h3>
+<ul>
+<li><strong>Concept</strong>: Imperial navy enforcing order on lawless seas</li>
+<li><strong>Skills</strong>: Gunnery, Navigation</li>
+<li><strong>Frailty</strong>: Arrogance born of assumed dominance</li>
+<li><strong>Gear</strong>: Naval cutlass, flintlock pistol</li>
+<li><strong>Goal</strong>: Suppress piracy and secure Crown trade routes</li>
+<li><strong>Motive</strong>: Expand British influence and control maritime commerce</li>
+<li><strong>Nemesis</strong>: French privateers and local resistance</li>
+</ul>
+</section>
+<section id="the-spanish-armada-real" class="level3">
+<h3 class="anchored" data-anchor-id="the-spanish-armada-real">The Spanish Armada Real</h3>
+<ul>
+<li><strong>Concept</strong>: Proud but strained colonial navy</li>
+<li><strong>Skills</strong>: Seamanship, Close-quarters combat</li>
+<li><strong>Frailty</strong>: Rigid hierarchy and outdated tactics</li>
+<li><strong>Gear</strong>: Officer’s saber, long musket</li>
+<li><strong>Goal</strong>: Defend Spain’s gold routes and recapture lost ports</li>
+<li><strong>Motive</strong>: Preserve colonial prestige and royal authority</li>
+<li><strong>Nemesis</strong>: British Royal Navy and rebellious locals</li>
+</ul>
+</section>
+<section id="the-french-flibustiers" class="level3">
+<h3 class="anchored" data-anchor-id="the-french-flibustiers">The French Flibustiers</h3>
+<ul>
+<li><strong>Concept</strong>: Crown-backed raiders with pirate instincts</li>
+<li><strong>Skills</strong>: Acrobatics, Ambush</li>
+<li><strong>Frailty</strong>: Recklessness in pursuit of prize</li>
+<li><strong>Gear</strong>: Slim rapier, boarding hook</li>
+<li><strong>Goal</strong>: Undermine British and Spanish power through sanctioned piracy</li>
+<li><strong>Motive</strong>: Profit from privateering under royal commission</li>
+<li><strong>Nemesis</strong>: British Royal Navy and betrayed allies</li>
+</ul>
+</section>
+<section id="the-pirate-brotherhood" class="level3">
+<h3 class="anchored" data-anchor-id="the-pirate-brotherhood">The Pirate Brotherhood</h3>
+<ul>
+<li><strong>Concept</strong>: Loose alliance of outlaw captains and rogue crews</li>
+<li><strong>Skills</strong>: Intimidation, Swordplay</li>
+<li><strong>Frailty</strong>: Self-interest over unity</li>
+<li><strong>Gear</strong>: Boarding cutlass, stolen pistol</li>
+<li><strong>Goal</strong>: Build freeholds beyond law, live rich and die free</li>
+<li><strong>Motive</strong>: Defy empires, claim fortune by force</li>
+<li><strong>Nemesis</strong>: All navies and the gallows they serve</li>
+</ul>
+</section>
+<section id="the-maroon-rebellion" class="level3">
+<h3 class="anchored" data-anchor-id="the-maroon-rebellion">The Maroon Rebellion</h3>
+<ul>
+<li><strong>Concept</strong>: Escaped slaves and native fighters seeking justice</li>
+<li><strong>Skills</strong>: Guerrilla tactics, Jungle survival</li>
+<li><strong>Frailty</strong>: Scarce resources and isolation</li>
+<li><strong>Gear</strong>: Carved spear, hunting bow</li>
+<li><strong>Goal</strong>: Establish independent communities beyond colonial rule</li>
+<li><strong>Motive</strong>: Freedom through resistance and reclamation</li>
+<li><strong>Nemesis</strong>: Slavers, settlers, and empire loyalists</li>
+</ul>
+</section>
+<section id="the-dutch-merchant-syndicates" class="level3">
+<h3 class="anchored" data-anchor-id="the-dutch-merchant-syndicates">The Dutch Merchant Syndicates</h3>
+<ul>
+<li><strong>Concept</strong>: Traders balancing profit, diplomacy, and survival</li>
+<li><strong>Skills</strong>: Bargaining, Smuggling</li>
+<li><strong>Frailty</strong>: Risk aversion and political caution</li>
+<li><strong>Gear</strong>: Trade saber, ornate pocketwatch</li>
+<li><strong>Goal</strong>: Expand influence via neutral ports and covert deals</li>
+<li><strong>Motive</strong>: Economic domination through contracts, not conflict</li>
+<li><strong>Nemesis</strong>: Pirates, tariffs, and rival colonial powers</li>
+</ul>
+</section>
+</section>
+<section id="npcs" class="level2">
+<h2 class="anchored" data-anchor-id="npcs">NPCs</h2>
+<section id="captain-anne-bonny" class="level3">
+<h3 class="anchored" data-anchor-id="captain-anne-bonny">Captain Anne Bonny</h3>
+<ul>
+<li><strong>Concept</strong>: Defiant pirate captain with fire in her blood</li>
+<li><strong>Skills</strong>: Navigation, Swordplay</li>
+<li><strong>Frailty</strong>: Overconfidence in her legend</li>
+<li><strong>Gear</strong>: Naval cutlass, brass compass</li>
+<li><strong>Goal</strong>: Become the most feared name on the sea</li>
+<li><strong>Motive</strong>: Avenge the English gallows that took her lover</li>
+<li><strong>Nemesis</strong>: Governor Woodes Rogers</li>
+</ul>
+</section>
+<section id="governor-woodes-rogers" class="level3">
+<h3 class="anchored" data-anchor-id="governor-woodes-rogers">Governor Woodes Rogers</h3>
+<ul>
+<li><strong>Concept</strong>: Driven governor and former privateer</li>
+<li><strong>Skills</strong>: Diplomacy, Command</li>
+<li><strong>Frailty</strong>: Blinded by ambition</li>
+<li><strong>Gear</strong>: Ledger of informants, dueling pistol</li>
+<li><strong>Goal</strong>: Crush piracy and raise the Union Jack on every coast</li>
+<li><strong>Motive</strong>: Power, promotion, and a clean legacy</li>
+<li><strong>Nemesis</strong>: Edward “Blackbeard” Teach</li>
+</ul>
+</section>
+<section id="edward-blackbeard-teach" class="level3">
+<h3 class="anchored" data-anchor-id="edward-blackbeard-teach">Edward “Blackbeard” Teach</h3>
+<ul>
+<li><strong>Concept</strong>: Legendary pirate feared across the colonies</li>
+<li><strong>Skills</strong>: Intimidation, Gunnery</li>
+<li><strong>Frailty</strong>: Thrives on chaos</li>
+<li><strong>Gear</strong>: Blunderbuss, powder grenades</li>
+<li><strong>Goal</strong>: Seize enough plunder to vanish into legend</li>
+<li><strong>Motive</strong>: Revenge on the powers that betrayed him</li>
+<li><strong>Nemesis</strong>: Lieutenant Robert Maynard</li>
+</ul>
+</section>
+<section id="captain-calico-jack-rackham" class="level3">
+<h3 class="anchored" data-anchor-id="captain-calico-jack-rackham">Captain Calico Jack Rackham</h3>
+<ul>
+<li><strong>Concept</strong>: Smooth-talking schemer with a flair for drama</li>
+<li><strong>Skills</strong>: Persuasion, Coastal navigation</li>
+<li><strong>Frailty</strong>: Indiscipline in moments of pressure</li>
+<li><strong>Gear</strong>: Fine-lacquered pistol, brass spyglass</li>
+<li><strong>Goal</strong>: Discover and loot the hidden gold of El Dorado</li>
+<li><strong>Motive</strong>: Fame, pleasure, and a name to echo in taverns</li>
+<li><strong>Nemesis</strong>: Pirate hunter Jonathan Barnet</li>
+</ul>
+</section>
+<section id="governor-don-rafael-de-eslava" class="level3">
+<h3 class="anchored" data-anchor-id="governor-don-rafael-de-eslava">Governor Don Rafael de Eslava</h3>
+<ul>
+<li><strong>Concept</strong>: Ruthless strategist of the Spanish Crown</li>
+<li><strong>Skills</strong>: Espionage, Political manipulation</li>
+<li><strong>Frailty</strong>: Arrogance born of old blood</li>
+<li><strong>Gear</strong>: Engraved rapier, coded dispatches</li>
+<li><strong>Goal</strong>: Expel foreign powers and rule the Caribbean for Spain</li>
+<li><strong>Motive</strong>: Honor, ambition, and legacy</li>
+<li><strong>Nemesis</strong>: French privateer Olivier Levasseur</li>
+</ul>
+</section>
+<section id="anne-dieu-le-veut" class="level3">
+<h3 class="anchored" data-anchor-id="anne-dieu-le-veut">Anne Dieu-le-Veut</h3>
+<ul>
+<li><strong>Concept</strong>: Fierce pirate matriarch with a cause</li>
+<li><strong>Skills</strong>: Brawling, Ship command</li>
+<li><strong>Frailty</strong>: Recklessness in pursuit of loyalty</li>
+<li><strong>Gear</strong>: Iron-hooked grapnel, scarred cutlass</li>
+<li><strong>Goal</strong>: Liberate her captured husband and unify the pirate fleets</li>
+<li><strong>Motive</strong>: Love, vengeance, and a free sea</li>
+<li><strong>Nemesis</strong>: Admiral Juan Esteban Ubilla</li>
+</ul>
+</section>
+</section>
+<section id="wild-encounters" class="level2">
+<h2 class="anchored" data-anchor-id="wild-encounters">Wild Encounters</h2>
+<section id="bull-shark" class="level3">
+<h3 class="anchored" data-anchor-id="bull-shark">Bull Shark</h3>
+<ul>
+<li><strong>Concept</strong>: Aggressive coastal predator</li>
+<li><strong>Skills</strong>: Swift strike, Frenzied attack</li>
+<li><strong>Frailty</strong>: Easily baited or driven off with blood and noise</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Feed on fish, carrion, or wounded prey</li>
+<li><strong>Motive</strong>: Instinctual aggression, especially in shallow waters</li>
+<li><strong>Nemesis</strong>: Harpooners, noise-makers, and shark-hunters</li>
+</ul>
+</section>
+<section id="saltwater-crocodile" class="level3">
+<h3 class="anchored" data-anchor-id="saltwater-crocodile">Saltwater Crocodile</h3>
+<ul>
+<li><strong>Concept</strong>: Apex ambush predator of estuaries and mangroves</li>
+<li><strong>Skills</strong>: Ambush, Death roll</li>
+<li><strong>Frailty</strong>: Sluggish when cold, poor endurance at sea</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Defend territory or feed near river mouths and lagoons</li>
+<li><strong>Motive</strong>: Territoriality and hunger</li>
+<li><strong>Nemesis</strong>: Fire, nets, and skilled trackers</li>
+</ul>
+</section>
+<section id="sea-wasps-box-jellyfish" class="level3">
+<h3 class="anchored" data-anchor-id="sea-wasps-box-jellyfish">Sea Wasps (Box Jellyfish)</h3>
+<ul>
+<li><strong>Concept</strong>: Deadly translucent jellyfish drifting near coasts</li>
+<li><strong>Skills</strong>: Paralytic sting, Stealth in water</li>
+<li><strong>Frailty</strong>: Delicate body, easily damaged</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Float and ensnare prey with stinging tentacles</li>
+<li><strong>Motive</strong>: Survival and reproduction</li>
+<li><strong>Nemesis</strong>: Vinegar, protective gear, shallow water disruption</li>
+</ul>
+</section>
+<section id="boar-of-the-jungle-interior" class="level3">
+<h3 class="anchored" data-anchor-id="boar-of-the-jungle-interior">Boar of the Jungle Interior</h3>
+<ul>
+<li><strong>Concept</strong>: Wild boar found inland on larger islands</li>
+<li><strong>Skills</strong>: Gore, Charge, Thick hide</li>
+<li><strong>Frailty</strong>: Blind charging, spooked by fire</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Protect its territory and forage for roots and fruit</li>
+<li><strong>Motive</strong>: Survival and defense of young</li>
+<li><strong>Nemesis</strong>: Dogs, muskets, and fire</li>
+</ul>
+</section>
+<section id="rabid-dog-pack" class="level3">
+<h3 class="anchored" data-anchor-id="rabid-dog-pack">Rabid Dog Pack</h3>
+<ul>
+<li><strong>Concept</strong>: Feral hounds abandoned at ports or left behind</li>
+<li><strong>Skills</strong>: Pack tactics, Chase</li>
+<li><strong>Frailty</strong>: Frightened by coordinated defense or noise</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Scavenge, hunt weak targets</li>
+<li><strong>Motive</strong>: Hunger and survival in the margins of human society</li>
+<li><strong>Nemesis</strong>: Torches, blades, trained hunters</li>
+</ul>
+</section>
+<section id="swarm-of-rats" class="level3">
+<h3 class="anchored" data-anchor-id="swarm-of-rats">Swarm of Rats</h3>
+<ul>
+<li><strong>Concept</strong>: Infestation aboard ships or in port warehouses</li>
+<li><strong>Skills</strong>: Spread disease, Gnaw through stores</li>
+<li><strong>Frailty</strong>: Vulnerable to traps, smoke, and cats</li>
+<li><strong>Gear</strong>: None</li>
+<li><strong>Goal</strong>: Nest, feed, and multiply</li>
+<li><strong>Motive</strong>: Scavenging and reproduction</li>
+<li><strong>Nemesis</strong>: Ship’s cat, fire, poison</li>
+</ul>
+</section>
+</section>
+<section id="locations" class="level2">
+<h2 class="anchored" data-anchor-id="locations">Locations</h2>
+<section id="port-royal" class="level3">
+<h3 class="anchored" data-anchor-id="port-royal">Port Royal</h3>
+<ul>
+<li>A thriving British colonial port, infamous for its corruption and indulgence.</li>
+<li><strong>Possible Encounter:</strong> Bribe the corrupt Governor’s aide; overhear treasonous plans at the Black Pearl Tavern; escape a tavern brawl turned deadly.</li>
+</ul>
+</section>
+<section id="isla-de-culebras" class="level3">
+<h3 class="anchored" data-anchor-id="isla-de-culebras">Isla de Culebras</h3>
+<ul>
+<li>A remote and rocky island, feared for its storms, snakes, and the wrecks that litter its shores.</li>
+<li><strong>Possible Encounter:</strong> Dodge rival treasure hunters in the hidden cavern; get ambushed by smugglers in the clifftop watch; scale jagged cliffs under musket fire.</li>
+</ul>
+</section>
+<section id="tortuga" class="level3">
+<h3 class="anchored" data-anchor-id="tortuga">Tortuga</h3>
+<ul>
+<li>A loose, lawless port where pirates rule and no flag flies for long.</li>
+<li><strong>Possible Encounter:</strong> Duel a rival in the Red Parrot Inn; persuade the Pirate Court to back a mutiny; chase a thief through crowded alleys.</li>
+</ul>
+</section>
+<section id="nassau" class="level3">
+<h3 class="anchored" data-anchor-id="nassau">Nassau</h3>
+<ul>
+<li>A fledgling pirate republic where ideals clash with ambition.</li>
+<li><strong>Possible Encounter:</strong> Trade secrets in the Free Market; outwit a British informant in the Governor’s Quarters; rally support for a pirate fleet.</li>
+</ul>
+</section>
+<section id="shipbreaker-cove" class="level3">
+<h3 class="anchored" data-anchor-id="shipbreaker-cove">Shipbreaker Cove</h3>
+<ul>
+<li>A jagged inlet known for wrecks, reefs, and rumors of hidden anchorages.</li>
+<li><strong>Possible Encounter:</strong> Slip through the cove’s defenses under pursuit; parley during a tense pirate summit; retrieve a wrecked courier ship’s logs before high tide.</li>
+</ul>
+</section>
+<section id="the-lost-shoals" class="level3">
+<h3 class="anchored" data-anchor-id="the-lost-shoals">The Lost Shoals</h3>
+<ul>
+<li>A shifting maze of reefs and fogbanks where compasses spin and charts lie.</li>
+<li><strong>Possible Encounter:</strong> Board the haunted wreck of the Resolute; escape a pursuing brig obscured in the fog; investigate why the Deadlight Buoy is following your vessel.</li>
+</ul>
+</section>
+</section>
+<section id="adventure-seeds" class="level2">
+<h2 class="anchored" data-anchor-id="adventure-seeds">Adventure Seeds</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 2%">
+<col style="width: 97%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>D66</th>
+<th>Adventure</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>11</td>
+<td>Escort a merchant brig through contested waters before a rival syndicate sabotages the deal.</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Locate a hidden inlet said to shelter stolen goods — and those willing to kill for them.</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>A former naval officer offers you a ship and crew — but only if you break him out of prison.</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>A sugar baron’s daughter has vanished. His rivals deny involvement. His men prepare for war.</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>Rescue a cartographer stranded on a reef after his guides mutinied and fled inland.</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>A storm wrecks your ship near a colonial fort. The commander offers “hospitality” — and conscription.</td>
+</tr>
+<tr class="odd">
+<td>21</td>
+<td>Defend a coastal village from pirate raiders hired by a foreign power to provoke conflict.</td>
+</tr>
+<tr class="even">
+<td>22</td>
+<td>After drifting to a barren island, you find signs of an earlier castaway — and their final journal.</td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td>A barkeep begs you to find their brother, last seen aboard a ship rumored cursed by bad luck.</td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td>Smuggle a banned shipment of weapons past patrols and deliver them to a rebel outpost.</td>
+</tr>
+<tr class="odd">
+<td>25</td>
+<td>Infiltrate a rival fleet’s anchorage to retrieve a blackmail ledger hidden in the captain’s cabin.</td>
+</tr>
+<tr class="even">
+<td>26</td>
+<td>A crewman’s gambling debts drag you into a feud between two powerful dockside families.</td>
+</tr>
+<tr class="odd">
+<td>31</td>
+<td>Your quartermaster vanishes during shore leave. A witness says they boarded a governor’s skiff.</td>
+</tr>
+<tr class="even">
+<td>32</td>
+<td>A ship limps into harbor claiming to have found a derelict full of gold — and only one survivor.</td>
+</tr>
+<tr class="odd">
+<td>33</td>
+<td>Take command of a crew mid-mutiny. They’ll follow your orders — for now.</td>
+</tr>
+<tr class="even">
+<td>34</td>
+<td>A rival captain challenges you to a duel for the rights to a lucrative trade route.</td>
+</tr>
+<tr class="odd">
+<td>35</td>
+<td>A plantation owner offers coin to escort him home — but his enemies plan to intercept.</td>
+</tr>
+<tr class="even">
+<td>36</td>
+<td>A prisoner offers a map to a hidden cache in exchange for safe passage. His former crew wants him dead.</td>
+</tr>
+<tr class="odd">
+<td>41</td>
+<td>Deliver a sealed letter to a colonial official. Inside: a list of names — including yours.</td>
+</tr>
+<tr class="even">
+<td>42</td>
+<td>Investigate a portside warehouse where sailors have gone missing. The guards refuse to enter.</td>
+</tr>
+<tr class="odd">
+<td>43</td>
+<td>Ferry a noble’s spoiled heir to a new post, while rival ships try to “rescue” him for ransom.</td>
+</tr>
+<tr class="even">
+<td>44</td>
+<td>A disgraced captain offers information on a treasure convoy — but demands half the haul.</td>
+</tr>
+<tr class="odd">
+<td>45</td>
+<td>Track down a saboteur leaking your ship’s position to the authorities. They may be one of your own.</td>
+</tr>
+<tr class="even">
+<td>46</td>
+<td>A fishing village’s catch has dried up — and a merchant accuses them of piracy. Prove otherwise.</td>
+</tr>
+<tr class="odd">
+<td>51</td>
+<td>Pose as a crew on a slave ship to infiltrate an auction and free those held in the hold.</td>
+</tr>
+<tr class="even">
+<td>52</td>
+<td>Explore a cave system exposed by erosion. Smugglers once used it — some may still.</td>
+</tr>
+<tr class="odd">
+<td>53</td>
+<td>Transport a diplomat between colonies, avoiding both pirates and those he’s betrayed.</td>
+</tr>
+<tr class="even">
+<td>54</td>
+<td>Escape a foreign prison after your ship is seized — and your crew sold into forced labor.</td>
+</tr>
+<tr class="odd">
+<td>55</td>
+<td>A prominent merchant’s warehouse burns. He accuses you publicly. Clear your name — or run.</td>
+</tr>
+<tr class="even">
+<td>56</td>
+<td>A mutiny splits your allied fleet. Choose a side — or seize the spoils amid the chaos.</td>
+</tr>
+<tr class="odd">
+<td>61</td>
+<td>Assist a rebel courier in delivering secret plans to a militia before the Navy catches wind.</td>
+</tr>
+<tr class="even">
+<td>62</td>
+<td>Stumble upon a maroon camp deep inland. They offer shelter — for a price.</td>
+</tr>
+<tr class="odd">
+<td>63</td>
+<td>Discover a cache of weapons hidden under a church floor. Decide whether to report it — or sell it.</td>
+</tr>
+<tr class="even">
+<td>64</td>
+<td>A known traitor offers safe passage through hostile waters. Your crew demands his head.</td>
+</tr>
+<tr class="odd">
+<td>65</td>
+<td>Track a rival who stole your ship’s figurehead — and your reputation — in a single night.</td>
+</tr>
+<tr class="even">
+<td>66</td>
+<td>A coded logbook surfaces in a pawn shop. It leads to a smuggler’s vault — if you crack the cipher.</td>
+</tr>
+</tbody>
+</table>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var sidebar = document.getElementById("quarto-margin-sidebar");
+  var formats = document.querySelector(".quarto-alternate-formats");
+  if (sidebar && formats) {
+    sidebar.insertBefore(formats, sidebar.firstChild);
+  }
+
+  // Rename "Typst" label to "PDF"
+  document.querySelectorAll(".quarto-alternate-formats a").forEach(function (a) {
+    a.childNodes.forEach(function (node) {
+      if (node.nodeType === Node.TEXT_NODE && node.textContent.trim() === "Typst") {
+        node.textContent = "PDF";
+      }
+    });
+  });
+});
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/zotiquestgames\.github\.io\/lonersrd\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2021-2026 <a href="https://zotiquestgames.com">Roberto Bisceglie</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/zotiquestgames/lonersrd/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
