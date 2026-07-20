@@ -1,6 +1,6 @@
 # Loner: The Path Not Taken
 Roberto Bisceglie
-2026-07-01
+2026-07-20
 
 # Loner: The Path Not Taken
 
