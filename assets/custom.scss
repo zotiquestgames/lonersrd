@@ -11,7 +11,63 @@ $font-weight-base:        500;
 $navbar-bg: #000000;
 $navbar-fg: #ffffff;
 
+// Sharp corners (radius-sm from the Loner design system) — matches a
+// printed page, not a generic web-app look.
+$border-radius:     2px;
+$border-radius-sm:  2px;
+$border-radius-lg:  4px;
+
+// Loner design-system accents, converted from tokens/colors.css OKLCH
+// to sRGB hex (Bootstrap/Sass color functions can't parse oklch()).
+// Chance/Yes (amber, chance-700) drives the primary color — this is
+// what shows up in body links and outline buttons. Risk/No (crimson,
+// risk-700) is the hover state.
+$primary:            #a24f00;
+$link-color:         #a24f00;
+$link-hover-color:   #6f000b;
+
 /*-- scss:rules --*/
+
+// Loner design-system tokens (brand palette + spacing scale), scoped as
+// CSS custom properties so they layer over either Bootstrap theme
+// (materia/light, darkly/dark) without fighting their own variables.
+:root {
+  // Chance/Yes (amber) and Risk/No (crimson) — the two semantic accents
+  // pulled from the rulebook's illustrations, harmonized via OKLCH.
+  --loner-accent-yes: #a24f00;
+  --loner-accent-yes-surface: oklch(88% 0.08 75);
+  --loner-accent-no: #6f000b;
+  --loner-accent-no-surface: oklch(80% 0.09 30);
+
+  // Spacing scale
+  --loner-space-1: 4px;
+  --loner-space-2: 8px;
+  --loner-space-3: 12px;
+  --loner-space-4: 16px;
+  --loner-space-5: 24px;
+  --loner-space-6: 32px;
+  --loner-space-7: 48px;
+  --loner-space-8: 64px;
+  --loner-space-9: 96px;
+
+  --loner-border-w: 1.5px;
+  --loner-border-w-heavy: 3px;
+}
+
+// Callouts (Quarto's built-in .callout-* classes) inherit the brand
+// accents instead of Bootstrap's default blue/green/red.
+.callout-tip,
+.callout-note {
+  border-left-color: var(--loner-accent-yes) !important;
+  .callout-icon::before { background-color: var(--loner-accent-yes) !important; }
+}
+
+.callout-warning,
+.callout-important,
+.callout-caution {
+  border-left-color: var(--loner-accent-no) !important;
+  .callout-icon::before { background-color: var(--loner-accent-no) !important; }
+}
 
 // Navbar inherits body font in Bootstrap — override explicitly
 .navbar,
