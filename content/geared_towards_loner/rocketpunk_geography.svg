@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Jost*:wght@300;400;500;600&amp;display=swap');
+      text {
+        font-family: 'Jost*', 'Jost', sans-serif;
+        fill: #1c1f26;
+      }
+      .title {
+        font-size: 30px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+      }
+      .subtitle {
+        font-size: 14px;
+        font-weight: 400;
+        fill: #55606e;
+        letter-spacing: 0.5px;
+      }
+      .region {
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        fill: #55606e;
+      }
+      .label {
+        font-size: 13px;
+        font-weight: 500;
+      }
+      .sublabel {
+        font-size: 10.5px;
+        font-weight: 300;
+        fill: #55606e;
+      }
+      .orbit {
+        fill: none;
+        stroke: #c7ccd4;
+        stroke-width: 1;
+      }
+      .frontier {
+        fill: none;
+        stroke: #1c1f26;
+        stroke-width: 1.4;
+        stroke-dasharray: 2 6;
+        stroke-linecap: round;
+      }
+      .lane {
+        fill: none;
+        stroke: #9aa2ad;
+        stroke-width: 1;
+        stroke-dasharray: 1 4;
+        stroke-linecap: round;
+      }
+      .node {
+        fill: #fdfcfa;
+        stroke: #1c1f26;
+        stroke-width: 1.4;
+      }
+      .node-minor {
+        fill: #1c1f26;
+      }
+      .leader {
+        stroke: #9aa2ad;
+        stroke-width: 0.75;
+      }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1000" height="1000" fill="#fdfcfa"/>
+
+  <text x="60" y="64" class="title">The Retrofuture Solar System</text>
+  <text x="60" y="88" class="subtitle">Inner System settled and policed &#8226; Outer System frontier and unclaimed</text>
+
+  <g transform="translate(500,540)">
+
+    <!-- orbital rings -->
+    <circle class="orbit" r="70"/>
+    <circle class="orbit" r="150"/>
+    <circle class="orbit" r="230"/>
+    <circle class="frontier" r="270"/>
+    <circle class="orbit" r="320"/>
+    <circle class="orbit" r="400"/>
+
+    <!-- shipping lanes -->
+    <path class="lane" d="M 70,0 A 320,320 0 0,1 -226,-227"/>
+    <path class="lane" d="M 150,0 A 230,230 0 0,0 -115,199"/>
+    <path class="lane" d="M -230,0 A 400,400 0 0,1 283,-283"/>
+
+    <!-- Sun -->
+    <circle cx="0" cy="0" r="9" fill="#1c1f26"/>
+    <text x="0" y="26" text-anchor="middle" class="sublabel">Sol</text>
+
+    <!-- Earth Orbit -->
+    <circle cx="70" cy="0" class="node" r="7"/>
+    <text x="88" y="-30" class="label">Earth Orbit</text>
+    <text x="88" y="-16" class="sublabel">Freedom Station &#8226; ISDT jurisdiction</text>
+
+    <!-- Luna, a close satellite of Earth Orbit, not a separate orbital ring -->
+    <circle class="orbit" cx="70" cy="0" r="24"/>
+    <circle cx="94" cy="17" class="node" r="5"/>
+    <text x="94" y="40" text-anchor="middle" class="label">Luna</text>
+    <text x="94" y="54" text-anchor="middle" class="sublabel">Zvezda-1 &#8226; Artemis Base Alpha</text>
+
+    <!-- Mars orbit -->
+    <circle cx="-163" cy="163" class="node" r="7"/>
+    <text x="-155" y="188" class="label">Mars</text>
+    <text x="-155" y="204" class="sublabel">Endurance &#8226; Vanguard Habitat</text>
+
+    <!-- Frontier line label -->
+    <text x="0" y="-278" text-anchor="middle" class="region">FRONTIER LINE</text>
+
+    <!-- Belt -->
+    <circle cx="285" cy="-135" class="node" r="7"/>
+    <text x="300" y="-140" class="label">The Belt</text>
+    <text x="300" y="-124" class="sublabel">Ceres Central &#8226; thousands of claims</text>
+
+    <!-- scattered belt debris marks -->
+    <circle cx="230" cy="-198" r="2" class="node-minor"/>
+    <circle cx="255" cy="-90" r="2" class="node-minor"/>
+    <circle cx="180" cy="-245" r="2" class="node-minor"/>
+    <circle cx="310" cy="-60" r="2" class="node-minor"/>
+    <circle cx="150" cy="-273" r="2" class="node-minor"/>
+
+    <!-- Outer System -->
+    <circle cx="-283" cy="-283" class="node" r="7"/>
+    <text x="-330" y="-300" text-anchor="end" class="label">Outer System</text>
+    <text x="-330" y="-284" text-anchor="end" class="sublabel">Europa &#8226; Titan &#8226; loneliest postings</text>
+
+    <!-- outer ring label -->
+    <text x="0" y="-410" text-anchor="middle" class="region">DEEP SPACE / UNMAPPED</text>
+
+  </g>
+
+  <text x="60" y="945" class="region">INNER SYSTEM</text>
+  <text x="60" y="965" class="sublabel">Treaty law, national zones of stewardship, ONA patrol routes</text>
+
+  <text x="940" y="945" text-anchor="end" class="region">OUTER SYSTEM</text>
+  <text x="940" y="965" text-anchor="end" class="sublabel">Claim first, ask later &#8226; nearest cutter hours or days away</text>
+
+</svg>
