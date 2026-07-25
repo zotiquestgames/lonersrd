@@ -1,6 +1,6 @@
 # Legends of Camelot
 Roberto Bisceglie
-2026-07-20
+2026-07-25
 
 # Legends of Camelot
 
@@ -2690,12 +2690,12 @@ realms.
 | 61 | A decree to hold a council to discuss the kingdom’s future. |
 
 62 \| An order to repair and restore ancient ruins of historical
-significance.\|  
+significance.\|\
 63 \| A proclamation to lower taxes on farmers to increase food
-production. \|  
-64 \| A decree to send envoys to distant lands for new alliances. \|  
+production. \|\
+64 \| A decree to send envoys to distant lands for new alliances. \|\
 65 \| An order to establish a network of spies for intelligence
-gathering. \|  
+gathering. \|\
 66 \| A proclamation to find and support local inventors and scholars.
 \|
 

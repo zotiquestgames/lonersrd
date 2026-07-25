@@ -1,6 +1,6 @@
 # Cog & Compass
 Roberto Bisceglie
-2026-07-20
+2026-07-25
 
 # Cog & Compass
 
@@ -149,7 +149,7 @@ and igniting a race for dominance in the skies.
   working class toils in factories fueled by coal and sweat.
 - **Social Change:** Thinkers, writers, and artists grapple with the
   social and ethical implications of this new mechanical and societal
-  power.  
+  power.\
 - **Workers’ Rights:** As automata replace human labor, the working
   class struggles for rights and fair treatment.
 
@@ -1294,7 +1294,7 @@ challenges to navigate the complex web of the Cog & Compass city.
 - **Coal Wars:**
   - Resource Scarcity: Friction is inevitable as easily accessible coal
     reserves dwindle. Border skirmishes, espionage, and proxy wars erupt
-    over control of new mines and transportation routes.  
+    over control of new mines and transportation routes.\
   - The “Black Barons”: Ruthless industrialists control vast coal mines,
     amassing immense wealth and political influence. Workers in these
     mines toil in harsh conditions, fueling labor unrest and potential
@@ -1309,7 +1309,7 @@ challenges to navigate the complex web of the Cog & Compass city.
   - Patent Wars: A fierce competition rages among inventors and
     corporations to secure patents on groundbreaking steam technologies.
     Legal battles and corporate espionage are commonplace, with fortunes
-    won and lost on the drafting table.  
+    won and lost on the drafting table.\
   - The Guilds of Steam: Prestigious organizations like the British
     Royal Society of Steam Engineers and the American Guild of Automata
     Artisans control access to knowledge and training. Membership grants
@@ -1323,10 +1323,10 @@ challenges to navigate the complex web of the Cog & Compass city.
 
 - **Strategic Resources:** Other resources like iron, copper, and rubber
   are crucial for building and maintaining steam technology. Nations
-  with access to these resources hold a strategic advantage.  
+  with access to these resources hold a strategic advantage.\
 - **The Rise of Resource Cartels:** Powerful consortiums of nations and
   corporations might form to control the flow of vital resources,
-  manipulating prices and influencing global politics.  
+  manipulating prices and influencing global politics.\
 - **Exploration & Exploitation:** The “Age of Exploration” has a new
   agenda: the discovery of new resource-rich territories. Colonial
   powers race to claim uncharted lands, often at the expense of the
@@ -1407,7 +1407,7 @@ controversial class of machines:
 
 - **Bio-Mechanical Marvels:** These are creatures that blend flesh and
   metal. Clockwork hearts pump blood, and intricate steam engines power
-  their movements.  
+  their movements.\
 - **Pets or Pariahs?:** On one hand, bio-mechanical pets are a novelty.
   Wealthy families might have clockwork canaries that sing elaborate
   melodies or robotic dogs with impressive agility. However, the ethical
@@ -1443,7 +1443,7 @@ controversial class of machines:
 - **Maintaining Balance:** The rapid advancement of steam technology has
   spurred concerns about its destructive potential. To mitigate this, a
   powerful international body called the Global Steam Council has been
-  established.  
+  established.\
 - **Composition & Goals:** Made up of representatives from all major
   powers, the Council aims to regulate the use of steam technology,
   control the proliferation of advanced weaponry, and prevent
@@ -1806,7 +1806,7 @@ for both the established powers and the various factions within the Cog
 
 - **The Mechanical Engineers:** The US government is likely to be a
   strong supporter of the Engineers, encouraging innovation and
-  technological progress that fuels American expansion.  
+  technological progress that fuels American expansion.\
 - **The Smogbreakers:** The US, with its vast frontier and focus on
   environmental preservation, might be more sympathetic to the
   Smogbreakers’ cause. However, the concerns of industrialists in the

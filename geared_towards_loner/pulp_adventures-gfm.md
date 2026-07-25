@@ -1,6 +1,6 @@
 # Pulp Adventures
 Roberto Bisceglie
-2026-07-20
+2026-07-25
 
 # Pulp Adventures
 
@@ -1705,362 +1705,362 @@ beyond the human.
 
 ### 11. Jungle Serpent
 
-- **Concept**: Deadly Reptile  
-- **Skills**: Stealthy, Venomous Bite  
-- **Frailty**: Cold-Blooded  
-- **Gear**: Camouflaged Scales, Crushing Coils  
-- **Goal**: Defend territory  
-- **Motive**: Survival  
+- **Concept**: Deadly Reptile\
+- **Skills**: Stealthy, Venomous Bite\
+- **Frailty**: Cold-Blooded\
+- **Gear**: Camouflaged Scales, Crushing Coils\
+- **Goal**: Defend territory\
+- **Motive**: Survival\
 - **Nemesis**: Jungle predators
 
 ### 12. Ghost Pirate
 
-- **Concept**: Undead Buccaneer  
-- **Skills**: Intangible, Cursed Weapon  
-- **Frailty**: Bound to Ship  
-- **Gear**: Ghostly Cutlass, Ethereal Compass  
-- **Goal**: Reclaim lost treasure  
-- **Motive**: Break curse  
+- **Concept**: Undead Buccaneer\
+- **Skills**: Intangible, Cursed Weapon\
+- **Frailty**: Bound to Ship\
+- **Gear**: Ghostly Cutlass, Ethereal Compass\
+- **Goal**: Reclaim lost treasure\
+- **Motive**: Break curse\
 - **Nemesis**: Vengeful spirits
 
 ### 13. Mad Scientist
 
-- **Concept**: Deranged Inventor  
-- **Skills**: Genius Intellect, Gadgeteer  
-- **Frailty**: Obsessed  
-- **Gear**: Experimental Devices, Prototype Weaponry  
-- **Goal**: Prove superiority  
-- **Motive**: Scientific curiosity  
+- **Concept**: Deranged Inventor\
+- **Skills**: Genius Intellect, Gadgeteer\
+- **Frailty**: Obsessed\
+- **Gear**: Experimental Devices, Prototype Weaponry\
+- **Goal**: Prove superiority\
+- **Motive**: Scientific curiosity\
 - **Nemesis**: Rational scientists
 
 ### 14. Cult Leader
 
-- **Concept**: Charismatic Zealot  
-- **Skills**: Persuasion, Occult Knowledge  
-- **Frailty**: Fanatical  
-- **Gear**: Sacred Relic, Ritual Dagger  
-- **Goal**: Summon dark deity  
-- **Motive**: Religious fervor  
+- **Concept**: Charismatic Zealot\
+- **Skills**: Persuasion, Occult Knowledge\
+- **Frailty**: Fanatical\
+- **Gear**: Sacred Relic, Ritual Dagger\
+- **Goal**: Summon dark deity\
+- **Motive**: Religious fervor\
 - **Nemesis**: Investigators
 
 ### 15. Ancient Mummy
 
-- **Concept**: Undead Pharaoh  
-- **Skills**: Supernatural Strength, Curse of Ages  
-- **Frailty**: Vulnerable to Fire  
-- **Gear**: Amulet of Protection, Staff of Kings  
-- **Goal**: Protect tomb  
-- **Motive**: Eternal rest  
+- **Concept**: Undead Pharaoh\
+- **Skills**: Supernatural Strength, Curse of Ages\
+- **Frailty**: Vulnerable to Fire\
+- **Gear**: Amulet of Protection, Staff of Kings\
+- **Goal**: Protect tomb\
+- **Motive**: Eternal rest\
 - **Nemesis**: Tomb raiders
 
 ### 16. Alien Invader
 
-- **Concept**: Extraterrestrial Conqueror  
-- **Skills**: Advanced Technology, Telepathy  
-- **Frailty**: Sensitive to Earth’s Atmosphere  
-- **Gear**: Ray Gun, Translation Device  
-- **Goal**: Dominate Earth  
-- **Motive**: Expand empire  
+- **Concept**: Extraterrestrial Conqueror\
+- **Skills**: Advanced Technology, Telepathy\
+- **Frailty**: Sensitive to Earth’s Atmosphere\
+- **Gear**: Ray Gun, Translation Device\
+- **Goal**: Dominate Earth\
+- **Motive**: Expand empire\
 - **Nemesis**: Earth’s defenders
 
 ### 21 Werewolf
 
-- **Concept**: Cursed Shapeshifter  
-- **Skills**: Superhuman Strength, Keen Senses  
-- **Frailty**: Silver Vulnerability  
-- **Gear**: Razor-Sharp Claws, Animal Form  
-- **Goal**: Find a cure  
-- **Motive**: Survival  
+- **Concept**: Cursed Shapeshifter\
+- **Skills**: Superhuman Strength, Keen Senses\
+- **Frailty**: Silver Vulnerability\
+- **Gear**: Razor-Sharp Claws, Animal Form\
+- **Goal**: Find a cure\
+- **Motive**: Survival\
 - **Nemesis**: Vampire hunters
 
 ### 22. Spectral Guardian
 
-- **Concept**: Haunted Protector  
-- **Skills**: Intangible Form, Detect Intruders  
-- **Frailty**: Bound to Sacred Site  
-- **Gear**: Spectral Chains, Eerie Glow  
-- **Goal**: Guard ancient relic  
-- **Motive**: Fulfill eternal duty  
+- **Concept**: Haunted Protector\
+- **Skills**: Intangible Form, Detect Intruders\
+- **Frailty**: Bound to Sacred Site\
+- **Gear**: Spectral Chains, Eerie Glow\
+- **Goal**: Guard ancient relic\
+- **Motive**: Fulfill eternal duty\
 - **Nemesis**: Artifact thieves
 
 ### 23. Bandit Lord
 
-- **Concept**: Ruthless Outlaw  
-- **Skills**: Ambush Tactics, Intimidation  
-- **Frailty**: Greedy  
-- **Gear**: Dual Pistols, Stolen Gold  
-- **Goal**: Amass wealth  
-- **Motive**: Greed  
+- **Concept**: Ruthless Outlaw\
+- **Skills**: Ambush Tactics, Intimidation\
+- **Frailty**: Greedy\
+- **Gear**: Dual Pistols, Stolen Gold\
+- **Goal**: Amass wealth\
+- **Motive**: Greed\
 - **Nemesis**: Local authorities
 
 ### 24. Swamp Beast
 
-- **Concept**: Hulking Predator  
-- **Skills**: Amphibious, Camouflaged  
-- **Frailty**: Clumsy on Dry Land  
-- **Gear**: Mud-Encrusted Hide, Razor-Sharp Fangs  
-- **Goal**: Defend habitat  
-- **Motive**: Survival  
+- **Concept**: Hulking Predator\
+- **Skills**: Amphibious, Camouflaged\
+- **Frailty**: Clumsy on Dry Land\
+- **Gear**: Mud-Encrusted Hide, Razor-Sharp Fangs\
+- **Goal**: Defend habitat\
+- **Motive**: Survival\
 - **Nemesis**: Poachers
 
 ### 25. Sand Wraith
 
-- **Concept**: Ghostly Desert Apparition  
-- **Skills**: Drains Vitality, Creates Sandstorms  
-- **Frailty**: Vulnerable to Water  
-- **Gear**: Veil of Sand, Whispering Voice  
-- **Goal**: Protect buried secrets  
-- **Motive**: Vengeance  
+- **Concept**: Ghostly Desert Apparition\
+- **Skills**: Drains Vitality, Creates Sandstorms\
+- **Frailty**: Vulnerable to Water\
+- **Gear**: Veil of Sand, Whispering Voice\
+- **Goal**: Protect buried secrets\
+- **Motive**: Vengeance\
 - **Nemesis**: Archaeologists
 
 ### 26. Mechanical Automaton
 
-- **Concept**: Clockwork Guardian  
-- **Skills**: Durable, Unrelenting  
-- **Frailty**: Reliant on Commands  
-- **Gear**: Reinforced Armor, Gears and Pistons  
-- **Goal**: Follow programming  
-- **Motive**: Loyalty to creator  
+- **Concept**: Clockwork Guardian\
+- **Skills**: Durable, Unrelenting\
+- **Frailty**: Reliant on Commands\
+- **Gear**: Reinforced Armor, Gears and Pistons\
+- **Goal**: Follow programming\
+- **Motive**: Loyalty to creator\
 - **Nemesis**: Hackers
 
 ### 31. Treasure Hunter
 
-- **Concept**: Cunning Rival  
-- **Skills**: Knowledge of Relics, Resourceful  
-- **Frailty**: Overconfident  
-- **Gear**: Trusted Sidearm, Relic Map  
-- **Goal**: Claim fame and fortune  
-- **Motive**: Ambition  
+- **Concept**: Cunning Rival\
+- **Skills**: Knowledge of Relics, Resourceful\
+- **Frailty**: Overconfident\
+- **Gear**: Trusted Sidearm, Relic Map\
+- **Goal**: Claim fame and fortune\
+- **Motive**: Ambition\
 - **Nemesis**: Fellow adventurers
 
 ### 32. Sea Monster
 
-- **Concept**: Abyssal Predator  
-- **Skills**: Colossal Strength, Ocean Camouflage  
-- **Frailty**: Drawn to Light  
-- **Gear**: Bio-Luminescent Lure, Crushing Tentacles  
-- **Goal**: Feed endlessly  
-- **Motive**: Hunger  
+- **Concept**: Abyssal Predator\
+- **Skills**: Colossal Strength, Ocean Camouflage\
+- **Frailty**: Drawn to Light\
+- **Gear**: Bio-Luminescent Lure, Crushing Tentacles\
+- **Goal**: Feed endlessly\
+- **Motive**: Hunger\
 - **Nemesis**: Deep-sea explorers
 
 ### 33. Amazonian Protector
 
-- **Concept**: Jungle Warrior  
-- **Skills**: Expert Tracker, Deadly Marksman  
-- **Frailty**: Distrust of Outsiders  
-- **Gear**: Blowgun, Poisoned Arrows  
-- **Goal**: Protect sacred lands  
-- **Motive**: Honor  
+- **Concept**: Jungle Warrior\
+- **Skills**: Expert Tracker, Deadly Marksman\
+- **Frailty**: Distrust of Outsiders\
+- **Gear**: Blowgun, Poisoned Arrows\
+- **Goal**: Protect sacred lands\
+- **Motive**: Honor\
 - **Nemesis**: Treasure hunters
 
 ### 34. Haunted Armor
 
-- **Concept**: Cursed Guardian  
-- **Skills**: Supernatural Durability, Spectral Strength  
-- **Frailty**: Bound to Relic  
-- **Gear**: Ancient Sword, Impenetrable Plate  
-- **Goal**: Guard the artifact  
-- **Motive**: Obey ancient commands  
+- **Concept**: Cursed Guardian\
+- **Skills**: Supernatural Durability, Spectral Strength\
+- **Frailty**: Bound to Relic\
+- **Gear**: Ancient Sword, Impenetrable Plate\
+- **Goal**: Guard the artifact\
+- **Motive**: Obey ancient commands\
 - **Nemesis**: Tomb raiders
 
 ### 35. Vampire Lord
 
-- **Concept**: Immortal Predator  
-- **Skills**: Hypnosis, Supernatural Speed  
-- **Frailty**: Vulnerable to Sunlight  
-- **Gear**: Cloak of Shadows, Fanged Bite  
-- **Goal**: Rule a hidden domain  
-- **Motive**: Power  
+- **Concept**: Immortal Predator\
+- **Skills**: Hypnosis, Supernatural Speed\
+- **Frailty**: Vulnerable to Sunlight\
+- **Gear**: Cloak of Shadows, Fanged Bite\
+- **Goal**: Rule a hidden domain\
+- **Motive**: Power\
 - **Nemesis**: Vampire hunters
 
 ### 36. Golem
 
-- **Concept**: Animated Construct  
-- **Skills**: Immense Strength, Resilient  
-- **Frailty**: Slow and Predictable  
-- **Gear**: Stone Fists, Inscribed Runes  
-- **Goal**: Follow creator’s will  
-- **Motive**: Duty  
+- **Concept**: Animated Construct\
+- **Skills**: Immense Strength, Resilient\
+- **Frailty**: Slow and Predictable\
+- **Gear**: Stone Fists, Inscribed Runes\
+- **Goal**: Follow creator’s will\
+- **Motive**: Duty\
 - **Nemesis**: Sorcerers seeking control
 
 ### 41. Desert Nomad
 
-- **Concept**: Resourceful Wanderer  
-- **Skills**: Desert Navigation, Expert Survivalist  
-- **Frailty**: Distrustful of Outsiders  
-- **Gear**: Curved Blade, Hidden Water Pouch  
-- **Goal**: Protect sacred oases  
-- **Motive**: Loyalty to tribe  
+- **Concept**: Resourceful Wanderer\
+- **Skills**: Desert Navigation, Expert Survivalist\
+- **Frailty**: Distrustful of Outsiders\
+- **Gear**: Curved Blade, Hidden Water Pouch\
+- **Goal**: Protect sacred oases\
+- **Motive**: Loyalty to tribe\
 - **Nemesis**: Resource exploiters
 
 ### 42. Black Widow Spy
 
-- **Concept**: Deceptive Agent  
-- **Skills**: Seduction, Infiltration  
-- **Frailty**: Double-Cross Vulnerability  
-- **Gear**: Concealed Weapon, Forged Documents  
-- **Goal**: Sabotage enemy plans  
-- **Motive**: Serve employer  
+- **Concept**: Deceptive Agent\
+- **Skills**: Seduction, Infiltration\
+- **Frailty**: Double-Cross Vulnerability\
+- **Gear**: Concealed Weapon, Forged Documents\
+- **Goal**: Sabotage enemy plans\
+- **Motive**: Serve employer\
 - **Nemesis**: Counterintelligence operatives
 
 ### 43. Himalayan Yeti
 
-- **Concept**: Snowbound Guardian  
-- **Skills**: Stealth in Snow, Brutal Strength  
-- **Frailty**: Fear of Fire  
-- **Gear**: White Fur Camouflage, Thunderous Roar  
-- **Goal**: Protect mountain sanctuaries  
-- **Motive**: Territorial instincts  
+- **Concept**: Snowbound Guardian\
+- **Skills**: Stealth in Snow, Brutal Strength\
+- **Frailty**: Fear of Fire\
+- **Gear**: White Fur Camouflage, Thunderous Roar\
+- **Goal**: Protect mountain sanctuaries\
+- **Motive**: Territorial instincts\
 - **Nemesis**: High-altitude explorers
 
 ### 44. Spectral Monk
 
-- **Concept**: Ghostly Guide  
-- **Skills**: Ancient Knowledge, Foresight  
-- **Frailty**: Limited by Spirit Form  
-- **Gear**: Mystic Chant, Ethereal Robes  
-- **Goal**: Warn or guide the living  
-- **Motive**: Fulfill an oath  
+- **Concept**: Ghostly Guide\
+- **Skills**: Ancient Knowledge, Foresight\
+- **Frailty**: Limited by Spirit Form\
+- **Gear**: Mystic Chant, Ethereal Robes\
+- **Goal**: Warn or guide the living\
+- **Motive**: Fulfill an oath\
 - **Nemesis**: Desecrators of sacred sites
 
 ### 45. Shadow Assassin
 
-- **Concept**: Lethal Stalker  
-- **Skills**: Silent Movement, Precision Strikes  
-- **Frailty**: Fragile in Direct Combat  
-- **Gear**: Poisoned Daggers, Smoke Bombs  
-- **Goal**: Eliminate targets  
-- **Motive**: Fulfill contract  
+- **Concept**: Lethal Stalker\
+- **Skills**: Silent Movement, Precision Strikes\
+- **Frailty**: Fragile in Direct Combat\
+- **Gear**: Poisoned Daggers, Smoke Bombs\
+- **Goal**: Eliminate targets\
+- **Motive**: Fulfill contract\
 - **Nemesis**: Vigilantes
 
 ### 46. Dragon of the Altai
 
-- **Concept**: Hoarding Beast  
-- **Skills**: Flight, Fire Breath  
-- **Frailty**: Greedy for Treasure  
-- **Gear**: Razor Claws, Scaled Armor  
-- **Goal**: Amass riches  
-- **Motive**: Ancient instincts  
+- **Concept**: Hoarding Beast\
+- **Skills**: Flight, Fire Breath\
+- **Frailty**: Greedy for Treasure\
+- **Gear**: Razor Claws, Scaled Armor\
+- **Goal**: Amass riches\
+- **Motive**: Ancient instincts\
 - **Nemesis**: Bold adventurers
 
 ### 51. Phantom Librarian
 
-- **Concept**: Ghostly Archivist  
-- **Skills**: Detect Secrets, Manipulate Knowledge  
-- **Frailty**: Bound to Library  
-- **Gear**: Ethereal Quill, Cursed Codex  
-- **Goal**: Protect forbidden knowledge  
-- **Motive**: Preserve order  
+- **Concept**: Ghostly Archivist\
+- **Skills**: Detect Secrets, Manipulate Knowledge\
+- **Frailty**: Bound to Library\
+- **Gear**: Ethereal Quill, Cursed Codex\
+- **Goal**: Protect forbidden knowledge\
+- **Motive**: Preserve order\
 - **Nemesis**: Seekers of dangerous truths
 
 ### 52. Mutant Experiment
 
-- **Concept**: Twisted Creation  
-- **Skills**: Adaptive Abilities, Regeneration  
-- **Frailty**: Unstable Physiology  
-- **Gear**: Experimental Traits, Genetic Mutation  
-- **Goal**: Break free from captivity  
-- **Motive**: Survival  
+- **Concept**: Twisted Creation\
+- **Skills**: Adaptive Abilities, Regeneration\
+- **Frailty**: Unstable Physiology\
+- **Gear**: Experimental Traits, Genetic Mutation\
+- **Goal**: Break free from captivity\
+- **Motive**: Survival\
 - **Nemesis**: Mad scientists
 
 ### 53. Storm Spirit
 
-- **Concept**: Elemental Fury  
-- **Skills**: Summon Lightning, Gale Force Winds  
-- **Frailty**: Dispersed by Calm Weather  
-- **Gear**: Thunderclap Strike, Whirling Cyclone Form  
-- **Goal**: Protect natural balance  
-- **Motive**: Elemental duty  
+- **Concept**: Elemental Fury\
+- **Skills**: Summon Lightning, Gale Force Winds\
+- **Frailty**: Dispersed by Calm Weather\
+- **Gear**: Thunderclap Strike, Whirling Cyclone Form\
+- **Goal**: Protect natural balance\
+- **Motive**: Elemental duty\
 - **Nemesis**: Industrial exploiters
 
 ### 54. Bayou Witch
 
-- **Concept**: Swamp Sorceress  
-- **Skills**: Hexcasting, Control Over Nature  
-- **Frailty**: Relies on Swamp for Power  
-- **Gear**: Bone Staff, Cursed Fetishes  
-- **Goal**: Enforce swamp sovereignty  
-- **Motive**: Maintain power  
+- **Concept**: Swamp Sorceress\
+- **Skills**: Hexcasting, Control Over Nature\
+- **Frailty**: Relies on Swamp for Power\
+- **Gear**: Bone Staff, Cursed Fetishes\
+- **Goal**: Enforce swamp sovereignty\
+- **Motive**: Maintain power\
 - **Nemesis**: Urban developers
 
 ### 55. Mountain Ogre
 
-- **Concept**: Brutish Highlander  
-- **Skills**: Crippling Strength, Boulder Hurling  
-- **Frailty**: Slow-Witted  
-- **Gear**: Stone Club, Leather Hide Armor  
-- **Goal**: Defend lair  
-- **Motive**: Hoard resources  
+- **Concept**: Brutish Highlander\
+- **Skills**: Crippling Strength, Boulder Hurling\
+- **Frailty**: Slow-Witted\
+- **Gear**: Stone Club, Leather Hide Armor\
+- **Goal**: Defend lair\
+- **Motive**: Hoard resources\
 - **Nemesis**: Rival mountain creatures
 
 ### 56. Serpent Cultist
 
-- **Concept**: Devoted Zealot  
-- **Skills**: Ritual Magic, Venom Expertise  
-- **Frailty**: Fanatically Reckless  
-- **Gear**: Ritual Dagger, Serpent Venom Flask  
-- **Goal**: Summon their serpent god  
-- **Motive**: Religious fervor  
+- **Concept**: Devoted Zealot\
+- **Skills**: Ritual Magic, Venom Expertise\
+- **Frailty**: Fanatically Reckless\
+- **Gear**: Ritual Dagger, Serpent Venom Flask\
+- **Goal**: Summon their serpent god\
+- **Motive**: Religious fervor\
 - **Nemesis**: Rational investigators
 
 ### 61. Cursed Relic Guardian
 
-- **Concept**: Ancient Watcher  
-- **Skills**: Detect Intruders, Supernatural Strength  
-- **Frailty**: Vulnerable to Relic’s Removal  
-- **Gear**: Enchanted Weapon, Eternal Vigilance  
-- **Goal**: Protect the relic  
-- **Motive**: Bound by duty  
+- **Concept**: Ancient Watcher\
+- **Skills**: Detect Intruders, Supernatural Strength\
+- **Frailty**: Vulnerable to Relic’s Removal\
+- **Gear**: Enchanted Weapon, Eternal Vigilance\
+- **Goal**: Protect the relic\
+- **Motive**: Bound by duty\
 - **Nemesis**: Artifact thieves
 
 ### 62. Mercenary Captain
 
-- **Concept**: Ruthless Strategist  
-- **Skills**: Tactical Genius, Expert Marksman  
-- **Frailty**: Overconfident in Authority  
-- **Gear**: High-Powered Rifle, Tactical Helmet  
-- **Goal**: Complete lucrative contracts  
-- **Motive**: Financial gain  
+- **Concept**: Ruthless Strategist\
+- **Skills**: Tactical Genius, Expert Marksman\
+- **Frailty**: Overconfident in Authority\
+- **Gear**: High-Powered Rifle, Tactical Helmet\
+- **Goal**: Complete lucrative contracts\
+- **Motive**: Financial gain\
 - **Nemesis**: Justice-seeking adventurers
 
 ### 63. Zombie Horde
 
-- **Concept**: Undead Swarm  
-- **Skills**: Overwhelming Numbers, Relentless Pursuit  
-- **Frailty**: Fragile Individually  
-- **Gear**: Decaying Limbs, Infectious Bite  
-- **Goal**: Spread the curse  
-- **Motive**: Hunger  
+- **Concept**: Undead Swarm\
+- **Skills**: Overwhelming Numbers, Relentless Pursuit\
+- **Frailty**: Fragile Individually\
+- **Gear**: Decaying Limbs, Infectious Bite\
+- **Goal**: Spread the curse\
+- **Motive**: Hunger\
 - **Nemesis**: Fire and light
 
 ### 64. Atlantean Warrior
 
-- **Concept**: Ancient Protector  
-- **Skills**: Advanced Combat, Underwater Mobility  
-- **Frailty**: Dependent on Water  
-- **Gear**: Energy Trident, Atlantean Armor  
-- **Goal**: Defend Atlantis’s secrets  
-- **Motive**: Honor the past  
+- **Concept**: Ancient Protector\
+- **Skills**: Advanced Combat, Underwater Mobility\
+- **Frailty**: Dependent on Water\
+- **Gear**: Energy Trident, Atlantean Armor\
+- **Goal**: Defend Atlantis’s secrets\
+- **Motive**: Honor the past\
 - **Nemesis**: Surface dwellers
 
 ### 65. Time Anomaly Phantom
 
-- **Concept**: Temporal Haunter  
-- **Skills**: Distort Time, Create Echoes  
-- **Frailty**: Limited to Anomalies  
-- **Gear**: Chrono-Pulse Aura, Flickering Form  
-- **Goal**: Escape temporal limbo  
-- **Motive**: Regain agency  
+- **Concept**: Temporal Haunter\
+- **Skills**: Distort Time, Create Echoes\
+- **Frailty**: Limited to Anomalies\
+- **Gear**: Chrono-Pulse Aura, Flickering Form\
+- **Goal**: Escape temporal limbo\
+- **Motive**: Regain agency\
 - **Nemesis**: Time manipulators
 
 ### 66. Fire Elemental
 
-- **Concept**: Blazing Spirit  
-- **Skills**: Immolate Foes, Absorb Flames  
-- **Frailty**: Vulnerable to Water  
-- **Gear**: Flame Whip, Inferno Form  
-- **Goal**: Burn all intruders  
-- **Motive**: Preserve its domain  
+- **Concept**: Blazing Spirit\
+- **Skills**: Immolate Foes, Absorb Flames\
+- **Frailty**: Vulnerable to Water\
+- **Gear**: Flame Whip, Inferno Form\
+- **Goal**: Burn all intruders\
+- **Motive**: Preserve its domain\
 - **Nemesis**: Elemental opposites
 
 ## Appendix: Inspirational Media

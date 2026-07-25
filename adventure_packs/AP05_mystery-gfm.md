@@ -1,6 +1,6 @@
 # Mystery Adventure Pack
 Roberto Bisceglie
-2026-07-20
+2026-07-25
 
 # Mystery Adventure Pack
 
@@ -133,15 +133,15 @@ When attempting to uncover a clue, ask a closed question and interpret
 the result as follows:
 
 - **“No, and…”**: The trail is cold. Nothing surfaces — not even a red
-  herring.  
+  herring.\
 - **“No”**: Something surfaces, but it’s little more than background
-  noise — a detail of no real consequence.  
+  noise — a detail of no real consequence.\
 - **“No, but…”**: You find something… but it deceives. A clue that
-  points in the wrong direction.  
+  points in the wrong direction.\
 - **“Yes, but…”**: You find a real clue — but it’s incomplete,
-  distorted, or buried in noise. Further legwork is required.  
+  distorted, or buried in noise. Further legwork is required.\
 - **“Yes”**: A clear and useful piece of information emerges. A thread
-  that can be followed.  
+  that can be followed.\
 - **“Yes, and…”**: The investigation leaps forward. A cache of insight,
   a breakthrough — something that rewrites the board.
 
@@ -155,14 +155,14 @@ but of patience, perception, and precision.
 When questioning someone, ask a closed question and consult the result:
 
 - **“No, and…”**: The suspect shuts down completely. The door slams
-  shut.  
-- **“No”**: They offer scraps — vague, unrelated, useless.  
+  shut.\
+- **“No”**: They offer scraps — vague, unrelated, useless.\
 - **“No, but…”**: They lead you astray, deliberately or not. A lie
-  wrapped in truth.  
+  wrapped in truth.\
 - **“Yes, but…”**: The truth emerges — but slowly, and through
-  resistance. You’ll need to work harder to make sense of it.  
+  resistance. You’ll need to work harder to make sense of it.\
 - **“Yes”**: They talk. The details make sense. Something valuable comes
-  through.  
+  through.\
 - **“Yes, and…”**: They spill more than intended — one thread, then
   another. Suddenly, the whole picture begins to shift.
 
@@ -176,15 +176,15 @@ alibis, or to unpick the lies woven into them.
 When checking an alibi, ask a closed question and interpret the outcome:
 
 - **“No, and…”**: The alibi crumbles before you can confirm a single
-  detail. Nothing adds up.  
+  detail. Nothing adds up.\
 - **“No”**: The story can’t be verified, but it doesn’t appear to matter
-  — yet.  
+  — yet.\
 - **“No, but…”**: You fail to confirm the alibi, but stumble onto
-  something misleading — a false trail.  
+  something misleading — a false trail.\
 - **“Yes, but…”**: The alibi checks out… mostly. But something in the
-  way it fits is too neat, or raises other questions.  
+  way it fits is too neat, or raises other questions.\
 - **“Yes”**: The alibi holds. It’s solid, plausible, and backed by
-  fact.  
+  fact.\
 - **“Yes, and…”**: The alibi not only checks out, it sheds light on
   something else — a hidden motive, a second suspect, an unexpected
   connection.
@@ -199,14 +199,14 @@ When collecting or analyzing physical evidence, ask a closed question
 and apply the result:
 
 - **“No, and…”**: You find nothing. Worse, you may have disturbed the
-  scene.  
-- **“No”**: You uncover something — but it’s mundane, or unrelated.  
+  scene.\
+- **“No”**: You uncover something — but it’s mundane, or unrelated.\
 - **“No, but…”**: You uncover something that appears meaningful… but
-  points you the wrong way.  
+  points you the wrong way.\
 - **“Yes, but…”**: You find something solid, but it’s partial — unclear,
-  damaged, or out of context.  
+  damaged, or out of context.\
 - **“Yes”**: The evidence is clear, usable, and directly advances the
-  case.  
+  case.\
 - **“Yes, and…”**: Not only is the evidence decisive — it reveals
   connections, accelerates conclusions, or opens entirely new leads.
 
@@ -214,149 +214,147 @@ and apply the result:
 
 ### **The Black Ledger**
 
-- **Concept**: Invisible cabal of financiers  
-- **Skills**: Obfuscation, Financial Leverage, Strategic Assassination  
-- **Frailty**: Paranoia and buried feuds  
+- **Concept**: Invisible cabal of financiers\
+- **Skills**: Obfuscation, Financial Leverage, Strategic Assassination\
+- **Frailty**: Paranoia and buried feuds\
 - **Gear**: Burnt ledgers, private cipher keys, death certificates filed
-  before the fact  
+  before the fact\
 - **Goal**: To ensure certain truths never surface — and others become
-  inevitable  
-- **Motive**: Power is perception; history belongs to those who fund
-  it  
+  inevitable\
+- **Motive**: Power is perception; history belongs to those who fund it\
 - **Nemesis**: Rogue investigators and unpredictable whistleblowers
 
 ### **The Silent Service**
 
 - **Concept**: Discreet branch of royal intelligence
 - **Skills**: Surveillance, Psychological Disarmament, Memory
-  Engineering  
+  Engineering\
 - **Frailty**: Forbidden from exposure — their greatest strength is also
-  a leash  
+  a leash\
 - **Gear**: Redacted dossiers, night-coded signals, memory erasure
-  tools  
+  tools\
 - **Goal**: To control what the public believes by controlling what
-  remains discoverable  
-- **Motive**: Stability trumps truth — always  
+  remains discoverable\
+- **Motive**: Stability trumps truth — always\
 - **Nemesis**: The Ink & Ash Society and any detective who refuses to
   stand down
 
 ### **The Ink & Ash Society**
 
-- **Concept**: Underground coalition of investigative journalists  
-- **Skills**: Information Recovery, Leak Coordination, Moral Outrage  
-- **Frailty**: No central command; easy prey for co-option  
-- **Gear**: Hidden presses, blackmail letters, stolen obituaries  
-- **Goal**: To bring buried truth to light — no matter the cost  
+- **Concept**: Underground coalition of investigative journalists\
+- **Skills**: Information Recovery, Leak Coordination, Moral Outrage\
+- **Frailty**: No central command; easy prey for co-option\
+- **Gear**: Hidden presses, blackmail letters, stolen obituaries\
+- **Goal**: To bring buried truth to light — no matter the cost\
 - **Motive**: They believe knowledge *must* be shared, even if it kills
-  them  
+  them\
 - **Nemesis**: The Black Ledger, who write the truths people believe
 
 ### **The Church of Saint Elvan**
 
-- **Concept**: Fractured spiritualist order  
-- **Skills**: Induced Revelation, Dream Mapping, Spiritual Pressure  
-- **Frailty**: Riddled with charlatans and rival interpretations  
+- **Concept**: Fractured spiritualist order\
+- **Skills**: Induced Revelation, Dream Mapping, Spiritual Pressure\
+- **Frailty**: Riddled with charlatans and rival interpretations\
 - **Gear**: Soot-marked reliquaries, mourning veils, voice-transmitting
-  planchettes  
+  planchettes\
 - **Goal**: To prove that truth transcends the material — and can be
-  summoned  
-- **Motive**: Consolation, redemption, and something more cryptic  
+  summoned\
+- **Motive**: Consolation, redemption, and something more cryptic\
 - **Nemesis**: Rationalist societies and former members who saw too much
 
 ### **The Ashgrove Club**
 
-- **Concept**: Gentleman’s Salon  
+- **Concept**: Gentleman’s Salon\
 - **Skills**: Slander Engineering, Controlled Disclosure, Black-Tie
-  Espionage  
-- **Frailty**: Coddled by their privilege; underestimate the desperate  
+  Espionage\
+- **Frailty**: Coddled by their privilege; underestimate the desperate\
 - **Gear**: Personal dossiers, bribed witnesses, wine-stained scandal
-  ledgers  
+  ledgers\
 - **Goal**: To steer public memory and narrative by controlling secrets
-  at the source  
-- **Motive**: Legacy, inheritance, and the quiet terror of public
-  shame  
+  at the source\
+- **Motive**: Legacy, inheritance, and the quiet terror of public shame\
 - **Nemesis**: The Ink & Ash Society, and anyone who won’t play by the
   rules
 
 ### **The Rookery Pact**
 
-- **Concept**: Network of street-crawlers  
+- **Concept**: Network of street-crawlers\
 - **Skills**: Urban Intuition, Unofficial Surveillance, Lost Item
-  Retrieval  
-- **Frailty**: Divided loyalties and unspoken vendettas  
-- **Gear**: Bone dice, message knots, nightglass pendants  
-- **Goal**: To protect their own and barter truths the world forgot  
-- **Motive**: Some secrets belong to the streets — and no one else  
+  Retrieval\
+- **Frailty**: Divided loyalties and unspoken vendettas\
+- **Gear**: Bone dice, message knots, nightglass pendants\
+- **Goal**: To protect their own and barter truths the world forgot\
+- **Motive**: Some secrets belong to the streets — and no one else\
 - **Nemesis**: The Silent Service, who erase what the Pact remembers
 
 ## NPCs
 
 ### **Captain Augustus Blackwood**
 
-- **Concept**: Disgraced Inspector  
-- **Skills**: Tenacious Observation, Tactical Recall  
-- **Frailty**: Fights his ghosts with gin  
-- **Gear**: Tarnished badge, silver-etched hip flask  
-- **Goal**: Redemption — or at least relevance  
+- **Concept**: Disgraced Inspector\
+- **Skills**: Tenacious Observation, Tactical Recall\
+- **Frailty**: Fights his ghosts with gin\
+- **Gear**: Tarnished badge, silver-etched hip flask\
+- **Goal**: Redemption — or at least relevance\
 - **Motive**: He was framed for a cover-up he tried to expose. Now he
-  seeks the truth that cost him everything.  
+  seeks the truth that cost him everything.\
 - **Nemesis**: Commissioner Hale, who made the evidence vanish
 
 ### **Miss Prudence Fairfax**
 
-- **Concept**: Social Columnist Turned Scandal Hunter  
-- **Skills**: Elegant Persuasion, Pattern Recognition  
-- **Frailty**: Craves recognition above caution  
-- **Gear**: Pocket mirror laced with powder, initials-only notebook  
-- **Goal**: To write the one story no one dares print  
+- **Concept**: Social Columnist Turned Scandal Hunter\
+- **Skills**: Elegant Persuasion, Pattern Recognition\
+- **Frailty**: Craves recognition above caution\
+- **Gear**: Pocket mirror laced with powder, initials-only notebook\
+- **Goal**: To write the one story no one dares print\
 - **Motive**: She believes a single name connects three deaths — and
-  she’s willing to destroy reputations to prove it  
+  she’s willing to destroy reputations to prove it\
 - **Nemesis**: Lord Wyndham, her former sponsor and current target
 
 ### **Dr. Theodore Marlowe**
 
-- **Concept**: Obsessive Pathologist with Theories Unproven  
-- **Skills**: Forensic Mapping, Anatomical Insight  
-- **Frailty**: Trusts no one, not even his own assistants  
-- **Gear**: Stained autopsy gloves, unlabeled phials  
+- **Concept**: Obsessive Pathologist with Theories Unproven\
+- **Skills**: Forensic Mapping, Anatomical Insight\
+- **Frailty**: Trusts no one, not even his own assistants\
+- **Gear**: Stained autopsy gloves, unlabeled phials\
 - **Goal**: To publish irrefutable proof of a serial poisoner among the
-  elite  
+  elite\
 - **Motive**: A patient he couldn’t save left behind a letter… and it
-  haunts him  
+  haunts him\
 - **Nemesis**: Dean Ellison of the Royal Medical Society, who calls him
   “unfit”
 
 ### **Ivy Addams**
 
-- **Concept**: Ghost of the Rookeries  
-- **Skills**: Vanishing, Listening Where She Shouldn’t  
-- **Frailty**: Perpetually in someone’s debt  
-- **Gear**: Broken locket, velvet dice weighted just so  
+- **Concept**: Ghost of the Rookeries\
+- **Skills**: Vanishing, Listening Where She Shouldn’t\
+- **Frailty**: Perpetually in someone’s debt\
+- **Gear**: Broken locket, velvet dice weighted just so\
 - **Goal**: To disappear for good — but not before settling one last
-  score  
-- **Motive**: She knows the man who framed her is about to do it again  
+  score\
+- **Motive**: She knows the man who framed her is about to do it again\
 - **Nemesis**: Detective Ormsey, who calls her “informant” but means
   “bait”
 
 ### **Mr. Jeremy Bentley**
 
-- **Concept**: Patron of the Arts, Collector of People  
-- **Skills**: Wealth-Based Access, Masked Charm  
-- **Frailty**: His ego outpaces his caution  
-- **Gear**: Engraved opium case, charity gala invitations  
-- **Goal**: To become indispensable to every circle that matters  
+- **Concept**: Patron of the Arts, Collector of People\
+- **Skills**: Wealth-Based Access, Masked Charm\
+- **Frailty**: His ego outpaces his caution\
+- **Gear**: Engraved opium case, charity gala invitations\
+- **Goal**: To become indispensable to every circle that matters\
 - **Motive**: The higher he rises, the further he can bury his family’s
-  crimes  
+  crimes\
 - **Nemesis**: Cousin Gregory, the one person he can’t buy
 
 ### **Miss Margaret Sterling**
 
-- **Concept**: Orator, Strategist, Agitator  
-- **Skills**: Mobilization, Rhetoric  
-- **Frailty**: Trusts her gut — always  
-- **Gear**: Steel-rimmed spectacles, ink-smudged pamphlets  
-- **Goal**: To bring systemic rot into daylight — one name at a time  
-- **Motive**: Her sister died in an asylum that shouldn’t have existed  
+- **Concept**: Orator, Strategist, Agitator\
+- **Skills**: Mobilization, Rhetoric\
+- **Frailty**: Trusts her gut — always\
+- **Gear**: Steel-rimmed spectacles, ink-smudged pamphlets\
+- **Goal**: To bring systemic rot into daylight — one name at a time\
+- **Motive**: Her sister died in an asylum that shouldn’t have existed\
 - **Nemesis**: Sir Alder Brackley, parliamentarian and silent
   shareholder
 
@@ -364,63 +362,63 @@ and apply the result:
 
 ### **The Confidence Man**
 
-- **Concept**: Charming Opportunist  
-- **Skills**: Persuasive Misdirection, Impersonation  
-- **Frailty**: Overconfidence in their own legend  
-- **Gear**: Assumed identity, counterfeit references  
-- **Goal**: To extract wealth, trust, or secrets from the gullible  
-- **Motive**: Greed masked as charisma  
+- **Concept**: Charming Opportunist\
+- **Skills**: Persuasive Misdirection, Impersonation\
+- **Frailty**: Overconfidence in their own legend\
+- **Gear**: Assumed identity, counterfeit references\
+- **Goal**: To extract wealth, trust, or secrets from the gullible\
+- **Motive**: Greed masked as charisma\
 - **Nemesis**: The one mark who saw through it once before
 
 ### **The Smuggler**
 
-- **Concept**: Gentleman (or Lady) of the Shadows  
-- **Skills**: Urban Navigation, Under-the-Table Deals  
-- **Frailty**: Haunted by a deal gone wrong  
-- **Gear**: Hollowed luggage, coded route maps  
-- **Goal**: To keep the goods — and themselves — unseen  
-- **Motive**: Profit… and maybe protection for someone else  
+- **Concept**: Gentleman (or Lady) of the Shadows\
+- **Skills**: Urban Navigation, Under-the-Table Deals\
+- **Frailty**: Haunted by a deal gone wrong\
+- **Gear**: Hollowed luggage, coded route maps\
+- **Goal**: To keep the goods — and themselves — unseen\
+- **Motive**: Profit… and maybe protection for someone else\
 - **Nemesis**: A customs agent with a personal score to settle
 
 ### **The Second-Story Artist**
 
-- **Concept**: Elegant Thief  
-- **Skills**: Lockbypassing, Unseen Entry  
-- **Frailty**: Drawn to notoriety like a moth to flame  
-- **Gear**: Coil of rope, monogrammed lockpicks  
-- **Goal**: To claim what they believe should never have been guarded  
-- **Motive**: Money, pride — or inheritance by other means  
+- **Concept**: Elegant Thief\
+- **Skills**: Lockbypassing, Unseen Entry\
+- **Frailty**: Drawn to notoriety like a moth to flame\
+- **Gear**: Coil of rope, monogrammed lockpicks\
+- **Goal**: To claim what they believe should never have been guarded\
+- **Motive**: Money, pride — or inheritance by other means\
 - **Nemesis**: The retired detective who caught them once… and let them
   go
 
 ### **The Forger**
 
-- **Concept**: Master of the Almost-Real  
-- **Skills**: Signature Imitation, Document Craft  
-- **Frailty**: Believes no one is truly original  
-- **Gear**: Aged parchment, stolen stamps  
-- **Goal**: To seed the world with their handiwork  
-- **Motive**: The thrill of deception disguised as craft  
+- **Concept**: Master of the Almost-Real\
+- **Skills**: Signature Imitation, Document Craft\
+- **Frailty**: Believes no one is truly original\
+- **Gear**: Aged parchment, stolen stamps\
+- **Goal**: To seed the world with their handiwork\
+- **Motive**: The thrill of deception disguised as craft\
 - **Nemesis**: A curator who knows their style too well
 
 ### **The Blackmailer**
 
-- **Concept**: Archivist of Sin  
-- **Skills**: Pattern Discovery, Strategic Release  
-- **Frailty**: Keeps one secret too many  
-- **Gear**: Dossiers, wax-sealed envelopes  
-- **Goal**: To control through fear, not force  
-- **Motive**: A need for power that no position could offer  
+- **Concept**: Archivist of Sin\
+- **Skills**: Pattern Discovery, Strategic Release\
+- **Frailty**: Keeps one secret too many\
+- **Gear**: Dossiers, wax-sealed envelopes\
+- **Goal**: To control through fear, not force\
+- **Motive**: A need for power that no position could offer\
 - **Nemesis**: Someone whose past they got wrong — fatally
 
 ### **The Counterfeiter**
 
-- **Concept**: Artisan of the Fake  
-- **Skills**: Precision Replication, Ink Chemistry  
-- **Frailty**: Can’t resist critiquing originals  
-- **Gear**: Press plates, faded master copy  
-- **Goal**: To flood the market with falsehoods  
-- **Motive**: To prove they could always do it better  
+- **Concept**: Artisan of the Fake\
+- **Skills**: Precision Replication, Ink Chemistry\
+- **Frailty**: Can’t resist critiquing originals\
+- **Gear**: Press plates, faded master copy\
+- **Goal**: To flood the market with falsehoods\
+- **Motive**: To prove they could always do it better\
 - **Nemesis**: A banker with a ruined reputation and a long memory
 
 ## Locations
@@ -429,14 +427,14 @@ and apply the result:
 
 - A half-abandoned public house at the edge of the fog district, where
   oil smoke clings to the ceiling and regulars drink without eye
-  contact.  
+  contact.\
 - Possible encounters: Rumor-hoarding bartender, washed-up inspector,
   figure who always sits near the door
 
 ### **The Verlaine Theatre**
 
 - An aging but once-illustrious playhouse known for its velvet drapes,
-  whispered scandals, and a chandelier that once fell mid-performance.  
+  whispered scandals, and a chandelier that once fell mid-performance.\
 - Possible encounters: Forgotten understudy, patron who never applauds,
   masked stagehand with a locked dressing room
 
@@ -444,29 +442,28 @@ and apply the result:
 
 - A discreet salon for the influential and disreputable alike;
   officially a tea room, unofficially a place to arrange disappearances
-  or favors.  
+  or favors.\
 - Possible encounters: Retired spy turned hostess, gossip broker, veiled
   patron with a coded fan
 
 ### **The Brassworks Asylum**
 
 - A grim, fortified hospital for the mentally unwell — or those made
-  inconvenient. The gates creak even when shut.  
+  inconvenient. The gates creak even when shut.\
 - Possible encounters: Rambling patient with perfect recall, overworked
   night doctor, missing records clerk
 
 ### **Marwick College of Unnatural Philosophy**
 
 - A forgotten annex of the city’s university, where outdated disciplines
-  are still practiced and lectures are sometimes interrupted by
-  static.  
+  are still practiced and lectures are sometimes interrupted by static.\
 - Possible encounters: Sleep-deprived archivist, lecturer on cursed
   numbers, assistant with a locked satchel
 
 ### **The Argent Hotel**
 
 - A silver-domed establishment of faded glory, where chandeliers flicker
-  despite rewiring, and guests often check out without packing.  
+  despite rewiring, and guests often check out without packing.\
 - Possible encounters: Concierge who forgets nothing, heiress in
   mourning, bellboy with too many keys
 

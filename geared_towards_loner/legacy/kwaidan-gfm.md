@@ -1,6 +1,6 @@
 # Kwaidan!
 Roberto Bisceglie
-2026-07-20
+2026-07-25
 
 # Kwaidan!
 
@@ -313,7 +313,7 @@ maximum) score of 6.
 - **Skills**: Sabotage, Stealth
 - **Frailty**: Recklessness
 - **Gear**: Farming Tools, Staves
-- **Goal**: Oppose tyranny  
+- **Goal**: Oppose tyranny\
 - **Motive**: Justice
 - **Nemesis**: Corrupt officials
 
@@ -342,7 +342,7 @@ maximum) score of 6.
 ### Daimyo Akira
 
 - **Concept**: Ambitious Warlord
-- **Skills**: Tactics, Intimidation  
+- **Skills**: Tactics, Intimidation\
 - **Frailty**: Wrath
 - **Gear**: Armor, Katana
 - **Goal**: Conquer more lands
@@ -352,7 +352,7 @@ maximum) score of 6.
 ### Peasant Girl Hanako
 
 - **Concept**: Cursed Youth
-- **Skills**: Farming, Animal Handling  
+- **Skills**: Farming, Animal Handling\
 - **Frailty**: Haunted
 - **Gear**: Straw Hat, Kimono
 - **Goal**: Break her curse
@@ -383,7 +383,7 @@ maximum) score of 6.
 
 - **Concept**: Mischievous Trickster
 - **Skills**: Shapeshifting, Deception
-- **Frailty**: Greed  
+- **Frailty**: Greed\
 - **Gear**: Magical Leaf
 - **Goal**: Create harmless chaos
 - **Motive**: Boredom and amusement

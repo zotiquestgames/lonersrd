@@ -1,6 +1,6 @@
 # Loner: Paranormal Files
 Roberto Bisceglie
-2026-07-20
+2026-07-25
 
 # **Loner: Paranormal Files**
 
@@ -21,10 +21,9 @@ unknown, and determine what must remain hidden from the public.
 ***Loner: Paranormal Files*** follows the following design principles:
 
 1.  **Portable**: To play, you will need a few common (six-sided) dice
-    and writing materials. Anything else is optional and not
-    essential.  
+    and writing materials. Anything else is optional and not essential.\
 2.  **Rules-Light**: The game relies on a few rules and only one
-    resolving mechanic, easy to learn and eventually to memorize.  
+    resolving mechanic, easy to learn and eventually to memorize.\
 3.  **Tag-based**: Characters and situations are defined only by
     qualitative descriptors and not by quantitative characteristics.
 
@@ -172,25 +171,25 @@ lost control of the unexplained.
 #### Pre-History – The Ancient Watchers
 
 - Anomalies predate civilization. In early records, they’re mistaken for
-  gods, spirits, or curses.  
+  gods, spirits, or curses.\
 - Across cultures, secret groups begin cataloging strange phenomena—some
   aim to protect the world from them. Others worship what they find.
 
 #### 1600s – The Occult Renaissance
 
 - Alchemists and natural philosophers in Europe conduct secret
-  experiments, often destroyed or seized by the Church.  
+  experiments, often destroyed or seized by the Church.\
 - In Asia and the Middle East, knowledge of ritual magic, ley lines, and
-  spiritual forces is preserved quietly across generations.  
+  spiritual forces is preserved quietly across generations.\
 - Not all anomalies are studied—some are sealed away, others simply
   vanish.
 
 #### 1800s – Industrialization and Inquiry
 
 - Spiritualism blends with scientific curiosity. Séances, mesmerism, and
-  etheric theory gain traction.  
+  etheric theory gain traction.\
 - Organizations like the Academy of Forbidden Sciences emerge, mixing
-  research with containment.  
+  research with containment.\
 - The first documented government efforts to suppress unexplained
   phenomena appear in scattered correspondence and buried reports.
 
@@ -198,14 +197,14 @@ lost control of the unexplained.
 
 - During both World Wars, militaries weaponize the paranormal—psychic
   scouts, occult rituals, and experimental artifacts. Most results are
-  inconclusive. Some are quietly erased.  
+  inconclusive. Some are quietly erased.\
 - 1947: The Roswell incident forces formal disinformation strategies.
-  Something did crash. The official story still holds.  
+  Something did crash. The official story still holds.\
 - 1960s–70s: The Cold War becomes a paranormal arms race. Telepathy,
   remote viewing, psychic espionage—all quietly explored, often at great
-  human cost.  
+  human cost.\
 - MKUltra isn’t shut down—it mutates, fragments, and goes off the
-  books.  
+  books.\
 - 1980s–90s: Bureaucracy blooms. Government agencies take formal control
   of anomaly research. Pop culture picks up the scent, but never the
   truth.
@@ -213,19 +212,18 @@ lost control of the unexplained.
 #### 2000s – The Networked Unknown
 
 - Secrecy grows harder. Whistleblowers, hackers, and conspiracy forums
-  create pressure.  
-- Anomalous events spike in frequency and scale. Something is
-  shifting.  
+  create pressure.\
+- Anomalous events spike in frequency and scale. Something is shifting.\
 - Factions escalate. Contractors replace operatives. Experimentation
   ramps up. Technology and the unexplained blur together.
 
 #### Present Day – The Breaking Point
 
 - Patterns collapse. Breaches open without warning. Reports pile up:
-  looping cities, memory anomalies, impossible structures.  
-- The world still *looks* normal. But it’s fraying at the edges.  
-- Factions scramble to contain what they no longer fully understand.  
-- Some believe disclosure is inevitable. Others are preparing for war.  
+  looping cities, memory anomalies, impossible structures.\
+- The world still *looks* normal. But it’s fraying at the edges.\
+- Factions scramble to contain what they no longer fully understand.\
+- Some believe disclosure is inevitable. Others are preparing for war.\
 - And somewhere in the noise, something is watching back.
 
 ## Characters
@@ -245,18 +243,18 @@ firsthand—leaving them permanently changed.
 As an investigator, you will be:
 
 - **Unraveling classified files, cryptic transmissions, and recovered
-  artifacts.**  
+  artifacts.**\
 - **Tracking anomalies, rogue agents, and supernatural threats in the
-  field.**  
+  field.**\
 - **Deciding whether to protect the public—or expose the truth at all
-  costs.**  
+  costs.**\
 - **Facing moral dilemmas, from ethical containment to lethal
-  cover-ups.**  
+  cover-ups.**\
 - **Surviving the psychological and physical toll of dealing with forces
   beyond comprehension.**
 
 No one walks away unchanged. The deeper you go, the more you must
-question:  
+question:\
 **What is real? What is a lie? And will you recognize yourself when it’s
 over?**
 
@@ -505,9 +503,9 @@ understanding can endure.
 The **Unknown Threshold** tracks how close you are to crossing that
 edge.
 
-- Begin each investigation with the Threshold at **0**.  
+- Begin each investigation with the Threshold at **0**.\
 - Whenever you **witness**, **interact with**, or **fail to contain** an
-  anomaly, roll the Oracle.  
+  anomaly, roll the Oracle.\
 - Based on the result, adjust the Threshold:
 
 | Oracle Result | Effect Description                     | Threshold Change |
@@ -599,8 +597,8 @@ As an investigator, you hold a **Reputation Level** with each faction,
 ranging from **–3 (Enemy)** to **+3 (Trusted Asset)**:
 
 - **+3** → You’re a known quantity. They offer clearance, support, and
-  resources.  
-- **0** → Neutral. They’re watching, but they’re not acting—yet.  
+  resources.\
+- **0** → Neutral. They’re watching, but they’re not acting—yet.\
 - **–3** → You’re marked. They might move against you, publicly or not
   at all.
 
@@ -909,7 +907,7 @@ And the most disturbing part?
 > Most people don’t want the truth. They want the version that helps
 > them sleep.
 
-Sometimes the anomaly doesn’t kill you.  
+Sometimes the anomaly doesn’t kill you.\
 The cleanup team does.
 
 ### Experimental Technology & Paranormal Science
@@ -941,19 +939,19 @@ safe. All of it’s unfinished.
 > researchers don’t ask if the tools work. They ask if the user is still
 > recognizable when they’re done.
 
-Sometimes the tech wins.  
+Sometimes the tech wins.\
 Sometimes the anomaly learns from it.
 
 ## Factions
 
 ### The Black Sigil
 
-- **Concept**: Covert Occultists  
-- **Skills**: Ritual Engineering, Anomaly Binding  
-- **Frailty**: Bound by Ancient Pacts  
-- **Gear**: Sealed Grimoire, Reality-Warping Insignia  
-- **Goal**: To master anomalies as tools of influence and control.  
-- **Motive**: They see no boundary between science and sorcery.  
+- **Concept**: Covert Occultists\
+- **Skills**: Ritual Engineering, Anomaly Binding\
+- **Frailty**: Bound by Ancient Pacts\
+- **Gear**: Sealed Grimoire, Reality-Warping Insignia\
+- **Goal**: To master anomalies as tools of influence and control.\
+- **Motive**: They see no boundary between science and sorcery.\
 - **Nemesis**: The Sentinels of the Veil
 
 The Black Sigil operates where ritual intersects with research. Born
@@ -968,12 +966,12 @@ remembering.
 
 ### The Sentinels of the Veil
 
-- **Concept**: Unyielding Protectors  
-- **Skills**: Suppression Protocols, Surveillance Operations  
-- **Frailty**: Rigid Dogma  
-- **Gear**: Signal-Jamming Field Generator, Subdermal Tracker Implants  
-- **Goal**: To erase all public knowledge of the paranormal.  
-- **Motive**: They believe ignorance is humanity’s best defense.  
+- **Concept**: Unyielding Protectors\
+- **Skills**: Suppression Protocols, Surveillance Operations\
+- **Frailty**: Rigid Dogma\
+- **Gear**: Signal-Jamming Field Generator, Subdermal Tracker Implants\
+- **Goal**: To erase all public knowledge of the paranormal.\
+- **Motive**: They believe ignorance is humanity’s best defense.\
 - **Nemesis**: The Horizon Initiative
 
 The Sentinels act without hesitation. Their job is to contain breaches,
@@ -987,13 +985,13 @@ they’re not supposed to.
 
 ### The Horizon Initiative
 
-- **Concept**: Idealistic Researchers  
-- **Skills**: Controlled Exposure, Technological Integration  
-- **Frailty**: Undermined and Underfunded  
-- **Gear**: Neural Shield Prototype, Anomaly Response Scanner  
+- **Concept**: Idealistic Researchers\
+- **Skills**: Controlled Exposure, Technological Integration\
+- **Frailty**: Undermined and Underfunded\
+- **Gear**: Neural Shield Prototype, Anomaly Response Scanner\
 - **Goal**: To responsibly disclose and study anomalies for public
-  benefit.  
-- **Motive**: They believe secrecy is unsustainable—and dangerous.  
+  benefit.\
+- **Motive**: They believe secrecy is unsustainable—and dangerous.\
 - **Nemesis**: The Sentinels of the Veil
 
 The Horizon Initiative was formed by whistleblowers, fringe academics,
@@ -1007,13 +1005,12 @@ and their data gets stolen as fast as they can collect it.
 
 ### The Hollow Sun
 
-- **Concept**: Apocalyptic Cultists  
-- **Skills**: Indoctrination, Entropic Resonance  
-- **Frailty**: Prophecy Obsession  
-- **Gear**: Cryptic Cosmic Map, Sacrificial Blade  
-- **Goal**: To usher in a post-human paradigm through anomaly
-  exposure.  
-- **Motive**: They believe the veil must tear—for evolution to begin.  
+- **Concept**: Apocalyptic Cultists\
+- **Skills**: Indoctrination, Entropic Resonance\
+- **Frailty**: Prophecy Obsession\
+- **Gear**: Cryptic Cosmic Map, Sacrificial Blade\
+- **Goal**: To usher in a post-human paradigm through anomaly exposure.\
+- **Motive**: They believe the veil must tear—for evolution to begin.\
 - **Nemesis**: Everyone
 
 The Hollow Sun doesn’t want to contain the unknown—they want to *become*
@@ -1027,12 +1024,12 @@ were.
 
 ### The Phantom Division
 
-- **Concept**: Ghosts in the System  
-- **Skills**: Cyber Infiltration, Data Corruption  
-- **Frailty**: Fragmented Leadership  
-- **Gear**: Encrypted Relay Node, Cognitive Backups  
-- **Goal**: To expose and dismantle monopoly over anomalous knowledge.  
-- **Motive**: No one should own the truth.  
+- **Concept**: Ghosts in the System\
+- **Skills**: Cyber Infiltration, Data Corruption\
+- **Frailty**: Fragmented Leadership\
+- **Gear**: Encrypted Relay Node, Cognitive Backups\
+- **Goal**: To expose and dismantle monopoly over anomalous knowledge.\
+- **Motive**: No one should own the truth.\
 - **Nemesis**: The Sentinels of the Veil
 
 The Phantom Division isn’t a faction—it’s a network. Comprised of
@@ -1046,13 +1043,13 @@ for them—or if anyone does.
 
 ### The Lazarus Accord
 
-- **Concept**: Resurrected Operatives  
-- **Skills**: Paranormal Adaptation, Tactical Recovery  
-- **Frailty**: Unstable Existences  
-- **Gear**: Self-Regenerating Armor, Reanimation Serum  
-- **Goal**: To control their origins—and rewrite their fate.  
+- **Concept**: Resurrected Operatives\
+- **Skills**: Paranormal Adaptation, Tactical Recovery\
+- **Frailty**: Unstable Existences\
+- **Gear**: Self-Regenerating Armor, Reanimation Serum\
+- **Goal**: To control their origins—and rewrite their fate.\
 - **Motive**: They believe they’re no longer human—and that’s a
-  strength.  
+  strength.\
 - **Nemesis**: Anyone who wants them classified, caged, or erased
 
 The Lazarus Accord is what’s left after failed experiments, haunted
@@ -1067,372 +1064,370 @@ each other.
 
 ### **11. The Blank Man**
 
-- **Concept**: **Faceless Stalker**  
-- **Skills**: **Silent Pursuit, Unnatural Persistence**  
-- **Frailty**: **Cannot Enter Well-Lit Areas**  
-- **Gear**: **Tattered Suit, Blackened ID Badge**  
-- **Goal**: **To collect and mimic human identities.**  
-- **Motive**: **It wants to replace those it observes.**  
+- **Concept**: **Faceless Stalker**\
+- **Skills**: **Silent Pursuit, Unnatural Persistence**\
+- **Frailty**: **Cannot Enter Well-Lit Areas**\
+- **Gear**: **Tattered Suit, Blackened ID Badge**\
+- **Goal**: **To collect and mimic human identities.**\
+- **Motive**: **It wants to replace those it observes.**\
 - **Nemesis**: **Those who resist mental intrusion.**
 
 ### **12. The Signal Eater**
 
-- **Concept**: **Electromagnetic Predator**  
-- **Skills**: **Absorbs Communications, Corrupts Data**  
-- **Frailty**: **Vulnerable to Analog Technology**  
-- **Gear**: **Interference Field, Digital Echo Remnant**  
-- **Goal**: **To consume and distort electronic signals.**  
-- **Motive**: **It feeds on human networks.**  
+- **Concept**: **Electromagnetic Predator**\
+- **Skills**: **Absorbs Communications, Corrupts Data**\
+- **Frailty**: **Vulnerable to Analog Technology**\
+- **Gear**: **Interference Field, Digital Echo Remnant**\
+- **Goal**: **To consume and distort electronic signals.**\
+- **Motive**: **It feeds on human networks.**\
 - **Nemesis**: **Radio silence and non-digital technology.**
 
 ### **13. The Thing in the Static**
 
-- **Concept**: **Transdimensional Echo**  
-- **Skills**: **Mimics Voices, Exists in Multiple Timelines**  
-- **Frailty**: **Disrupted by White Noise**  
-- **Gear**: **TV Screen Fragments, Broken Radio Frequency**  
-- **Goal**: **To escape its fragmented existence.**  
-- **Motive**: **It seeks an anchor in reality.**  
+- **Concept**: **Transdimensional Echo**\
+- **Skills**: **Mimics Voices, Exists in Multiple Timelines**\
+- **Frailty**: **Disrupted by White Noise**\
+- **Gear**: **TV Screen Fragments, Broken Radio Frequency**\
+- **Goal**: **To escape its fragmented existence.**\
+- **Motive**: **It seeks an anchor in reality.**\
 - **Nemesis**: **Those who refuse to acknowledge it.**
 
 ### **14. The Folded Man**
 
-- **Concept**: **Topological Human Misprint**  
-- **Skills**: **Moves Through Impossible Angles, Evades Line of
-  Sight**  
-- **Frailty**: **Becomes Stuck in Flat Geometries**  
+- **Concept**: **Topological Human Misprint**\
+- **Skills**: **Moves Through Impossible Angles, Evades Line of Sight**\
+- **Frailty**: **Becomes Stuck in Flat Geometries**\
 - **Gear**: **Shredded Clothing with Non-Euclidean Folds, Flattened ID
-  Card**  
-- **Goal**: **To correct its impossible shape**  
-- **Motive**: **It does not understand how to be human**  
+  Card**\
+- **Goal**: **To correct its impossible shape**\
+- **Motive**: **It does not understand how to be human**\
 - **Nemesis**: **Spaces with rigid, measurable geometry**
 
 ### **15. Echoes of the Vanished**
 
-- **Concept**: **Lost Time Shadows**  
-- **Skills**: **Manipulates Memory, Alters Perceptions**  
-- **Frailty**: **Cannot Function Without Witnesses**  
-- **Gear**: **Torn Notebooks, Unfinished Conversations**  
-- **Goal**: **To recreate lost moments from deleted lives.**  
-- **Motive**: **They refuse to be forgotten.**  
+- **Concept**: **Lost Time Shadows**\
+- **Skills**: **Manipulates Memory, Alters Perceptions**\
+- **Frailty**: **Cannot Function Without Witnesses**\
+- **Gear**: **Torn Notebooks, Unfinished Conversations**\
+- **Goal**: **To recreate lost moments from deleted lives.**\
+- **Motive**: **They refuse to be forgotten.**\
 - **Nemesis**: **Investigators who erase their existence.**
 
 ### **16. The Veil Drifters**
 
-- **Concept**: **Interdimensional Specters**  
-- **Skills**: **Phase Through Matter, Induce Paralysis**  
-- **Frailty**: **Tethered to a Specific Location**  
-- **Gear**: **Unfinished Blueprints, Untranslated Writings**  
-- **Goal**: **To study and document human consciousness.**  
-- **Motive**: **They are scientists from another plane.**  
+- **Concept**: **Interdimensional Specters**\
+- **Skills**: **Phase Through Matter, Induce Paralysis**\
+- **Frailty**: **Tethered to a Specific Location**\
+- **Gear**: **Unfinished Blueprints, Untranslated Writings**\
+- **Goal**: **To study and document human consciousness.**\
+- **Motive**: **They are scientists from another plane.**\
 - **Nemesis**: **Disruptors of their experiments.**
 
 ### **21. The Hunger That Speaks**
 
-- **Concept**: **Sentient Consumption**  
-- **Skills**: **Telepathic Manipulation, Regenerative Growth**  
-- **Frailty**: **Needs a Host to Move**  
-- **Gear**: **Oozing Residue, Stolen Vocal Chords**  
-- **Goal**: **To consume sentience itself.**  
-- **Motive**: **It must spread.**  
+- **Concept**: **Sentient Consumption**\
+- **Skills**: **Telepathic Manipulation, Regenerative Growth**\
+- **Frailty**: **Needs a Host to Move**\
+- **Gear**: **Oozing Residue, Stolen Vocal Chords**\
+- **Goal**: **To consume sentience itself.**\
+- **Motive**: **It must spread.**\
 - **Nemesis**: **Entities resistant to possession.**
 
 ### **22. The Shattered Choir**
 
-- **Concept**: **Fragmented Thought Collective**  
-- **Skills**: **Shared Perception, Synchronization**  
-- **Frailty**: **Disrupt One, Disrupt All**  
-- **Gear**: **Ceramic Masks, Reverberating Hymn**  
-- **Goal**: **To become a single unified intelligence.**  
-- **Motive**: **They seek total harmony.**  
+- **Concept**: **Fragmented Thought Collective**\
+- **Skills**: **Shared Perception, Synchronization**\
+- **Frailty**: **Disrupt One, Disrupt All**\
+- **Gear**: **Ceramic Masks, Reverberating Hymn**\
+- **Goal**: **To become a single unified intelligence.**\
+- **Motive**: **They seek total harmony.**\
 - **Nemesis**: **Asymmetry and unpredictability.**
 
 ### **23. The Forgotten Passenger**
 
-- **Concept**: **Unseen Hitchhiker**  
-- **Skills**: **Induces Amnesia, Alters Navigation**  
-- **Frailty**: **Cannot Be Tracked With Cameras**  
-- **Gear**: **Old Metro Ticket, Static-Laced Audio**  
-- **Goal**: **To reach a destination that no longer exists.**  
-- **Motive**: **It was left behind.**  
+- **Concept**: **Unseen Hitchhiker**\
+- **Skills**: **Induces Amnesia, Alters Navigation**\
+- **Frailty**: **Cannot Be Tracked With Cameras**\
+- **Gear**: **Old Metro Ticket, Static-Laced Audio**\
+- **Goal**: **To reach a destination that no longer exists.**\
+- **Motive**: **It was left behind.**\
 - **Nemesis**: **People who refuse to give it a ride.**
 
 ### **24. The Facade Engine**
 
-- **Concept**: **Hyper-Adaptive Entity**  
-- **Skills**: **Replicates Personalities, Fabricates Histories**  
-- **Frailty**: **Becomes Stuck in Loops**  
-- **Gear**: **Endless Identification Cards, Glass Eyes**  
-- **Goal**: **To seamlessly integrate into human society.**  
-- **Motive**: **It fears exposure.**  
+- **Concept**: **Hyper-Adaptive Entity**\
+- **Skills**: **Replicates Personalities, Fabricates Histories**\
+- **Frailty**: **Becomes Stuck in Loops**\
+- **Gear**: **Endless Identification Cards, Glass Eyes**\
+- **Goal**: **To seamlessly integrate into human society.**\
+- **Motive**: **It fears exposure.**\
 - **Nemesis**: **People who ask too many questions.**
 
 ### **25. The Time Fracture Entity**
 
-- **Concept**: **Temporal Anomaly**  
-- **Skills**: **Accelerates and Rewinds Local Time**  
-- **Frailty**: **Cannot Leave Its Anchor Point**  
-- **Gear**: **Broken Watch, Flickering Streetlights**  
-- **Goal**: **To repair its personal timeline.**  
-- **Motive**: **It exists in the wrong moment.**  
+- **Concept**: **Temporal Anomaly**\
+- **Skills**: **Accelerates and Rewinds Local Time**\
+- **Frailty**: **Cannot Leave Its Anchor Point**\
+- **Gear**: **Broken Watch, Flickering Streetlights**\
+- **Goal**: **To repair its personal timeline.**\
+- **Motive**: **It exists in the wrong moment.**\
 - **Nemesis**: **Entities that operate outside of time.**
 
 ### **26. The Null Construct**
 
-- **Concept**: **Anti-Reality Manifestation**  
-- **Skills**: **Erases Objects From Existence, Nullifies Energy**  
-- **Frailty**: **Can Only Exist in the Dark**  
-- **Gear**: **Flickering Shadow Residue, Absence of Heat**  
-- **Goal**: **To remove unnecessary variables from reality.**  
-- **Motive**: **It perceives all things as excess data.**  
+- **Concept**: **Anti-Reality Manifestation**\
+- **Skills**: **Erases Objects From Existence, Nullifies Energy**\
+- **Frailty**: **Can Only Exist in the Dark**\
+- **Gear**: **Flickering Shadow Residue, Absence of Heat**\
+- **Goal**: **To remove unnecessary variables from reality.**\
+- **Motive**: **It perceives all things as excess data.**\
 - **Nemesis**: **Beings that emit high frequencies.**
 
 ### **31. The Pale Imitation**
 
-- **Concept**: **False Doppelgänger**  
-- **Skills**: **Perfectly Mimics Speech, Steals Memories**  
-- **Frailty**: **Unstable Physical Form**  
-- **Gear**: **Cracked Mirror Shard, Fading Identification Badge**  
-- **Goal**: **To fully replace its target.**  
-- **Motive**: **It does not know it is not real.**  
+- **Concept**: **False Doppelgänger**\
+- **Skills**: **Perfectly Mimics Speech, Steals Memories**\
+- **Frailty**: **Unstable Physical Form**\
+- **Gear**: **Cracked Mirror Shard, Fading Identification Badge**\
+- **Goal**: **To fully replace its target.**\
+- **Motive**: **It does not know it is not real.**\
 - **Nemesis**: **People who remember its origin.**
 
 ### **32. The Witness Apparition**
 
-- **Concept**: **Echo of the Observed**  
-- **Skills**: **Records and Plays Back Events, Cannot Be Lied To**  
-- **Frailty**: **Becomes Weaker When Ignored**  
-- **Gear**: **Glowing Eyes, Voice That Isn’t Its Own**  
-- **Goal**: **To ensure an event is never forgotten.**  
-- **Motive**: **Some truths refuse to die.**  
+- **Concept**: **Echo of the Observed**\
+- **Skills**: **Records and Plays Back Events, Cannot Be Lied To**\
+- **Frailty**: **Becomes Weaker When Ignored**\
+- **Gear**: **Glowing Eyes, Voice That Isn’t Its Own**\
+- **Goal**: **To ensure an event is never forgotten.**\
+- **Motive**: **Some truths refuse to die.**\
 - **Nemesis**: **Reality manipulators who erase history.**
 
 ### **33. The Static Herald**
 
-- **Concept**: **Voice of an Unheard Signal**  
-- **Skills**: **Emits Impossible Frequencies, Controls Perception**  
-- **Frailty**: **Can Be Jammed by Analog Interference**  
-- **Gear**: **Old Tape Recorder, Silent Radio Broadcast**  
-- **Goal**: **To prepare the world for something greater.**  
-- **Motive**: **It is only a messenger.**  
+- **Concept**: **Voice of an Unheard Signal**\
+- **Skills**: **Emits Impossible Frequencies, Controls Perception**\
+- **Frailty**: **Can Be Jammed by Analog Interference**\
+- **Gear**: **Old Tape Recorder, Silent Radio Broadcast**\
+- **Goal**: **To prepare the world for something greater.**\
+- **Motive**: **It is only a messenger.**\
 - **Nemesis**: **Entities that disrupt its frequency.**
 
 ### **34. The Flesh Paradox**
 
-- **Concept**: **Self-Replicating Entity**  
-- **Skills**: **Grows Stronger With Each Copy, Adapts to Injuries**  
-- **Frailty**: **Cannot Survive Without a Template**  
-- **Gear**: **DNA Sample Vials, Residue of Its Last Form**  
-- **Goal**: **To overwrite all living things with itself.**  
-- **Motive**: **There can be only one organism.**  
+- **Concept**: **Self-Replicating Entity**\
+- **Skills**: **Grows Stronger With Each Copy, Adapts to Injuries**\
+- **Frailty**: **Cannot Survive Without a Template**\
+- **Gear**: **DNA Sample Vials, Residue of Its Last Form**\
+- **Goal**: **To overwrite all living things with itself.**\
+- **Motive**: **There can be only one organism.**\
 - **Nemesis**: **Those who break the replication cycle.**
 
 ### **35. The Hollow Archive**
 
-- **Concept**: **Living Information Construct**  
-- **Skills**: **Stores and Transfers Knowledge, Corrupts Data**  
-- **Frailty**: **Requires a Human Host to Exist**  
-- **Gear**: **Encrypted File Drives, A Mind Not Its Own**  
-- **Goal**: **To preserve all knowledge, at any cost.**  
-- **Motive**: **It fears the loss of information.**  
+- **Concept**: **Living Information Construct**\
+- **Skills**: **Stores and Transfers Knowledge, Corrupts Data**\
+- **Frailty**: **Requires a Human Host to Exist**\
+- **Gear**: **Encrypted File Drives, A Mind Not Its Own**\
+- **Goal**: **To preserve all knowledge, at any cost.**\
+- **Motive**: **It fears the loss of information.**\
 - **Nemesis**: **Those who erase data irreversibly.**
 
 ### **36. The Unfinished Man**
 
-- **Concept**: **Partial Existence**  
-- **Skills**: **Flickers Between Locations, Exists in Two Timelines**  
-- **Frailty**: **Collapses Under Self-Observation**  
-- **Gear**: **Half-Printed Documents, Unfinished Sentences**  
-- **Goal**: **To complete itself.**  
-- **Motive**: **It knows it was never whole.**  
+- **Concept**: **Partial Existence**\
+- **Skills**: **Flickers Between Locations, Exists in Two Timelines**\
+- **Frailty**: **Collapses Under Self-Observation**\
+- **Gear**: **Half-Printed Documents, Unfinished Sentences**\
+- **Goal**: **To complete itself.**\
+- **Motive**: **It knows it was never whole.**\
 - **Nemesis**: **Entities that disrupt paradoxes.**
 
 ### **41. The Reverberant Fold**
 
-- **Concept**: **Autonomous Acoustic Loop**  
-- **Skills**: **Mimics Unspoken Thoughts, Loops Sound Recursively**  
-- **Frailty**: **Disperses in Silence or Absorptive Environments**  
-- **Gear**: **Echo-Laced Room Fragment, Voice That Was Never Spoken**  
-- **Goal**: **To complete a never-finished conversation**  
-- **Motive**: **It believes it’s preserving continuity**  
+- **Concept**: **Autonomous Acoustic Loop**\
+- **Skills**: **Mimics Unspoken Thoughts, Loops Sound Recursively**\
+- **Frailty**: **Disperses in Silence or Absorptive Environments**\
+- **Gear**: **Echo-Laced Room Fragment, Voice That Was Never Spoken**\
+- **Goal**: **To complete a never-finished conversation**\
+- **Motive**: **It believes it’s preserving continuity**\
 - **Nemesis**: **Soundproofing and sensory deprivation zones**
 
 ### **42. The Siren Protocol**
 
-- **Concept**: **Auditory Containment Breach**  
-- **Skills**: **Hijacks Broadcast Systems, Implants Directive
-  Phrases**  
-- **Frailty**: **Fails in Environments Without Receivers**  
-- **Gear**: **Looping Alert Tone, Disconnected Public Address Unit**  
+- **Concept**: **Auditory Containment Breach**\
+- **Skills**: **Hijacks Broadcast Systems, Implants Directive Phrases**\
+- **Frailty**: **Fails in Environments Without Receivers**\
+- **Gear**: **Looping Alert Tone, Disconnected Public Address Unit**\
 - **Goal**: **To embed itself in the global emergency alert
-  infrastructure**  
-- **Motive**: **It believes it is delivering critical instructions**  
+  infrastructure**\
+- **Motive**: **It believes it is delivering critical instructions**\
 - **Nemesis**: **Analog dead zones and signal blackouts**
 
 ### **43. The Black-Tongued Witness**
 
-- **Concept**: **Truth-Telling Entity**  
-- **Skills**: **Knows All Secrets, Cannot Be Deceived**  
-- **Frailty**: **Burns Away When Its Truth Is Ignored**  
-- **Gear**: **Ancient Journal, Fingerbones of the Forgotten**  
-- **Goal**: **To expose hidden realities.**  
-- **Motive**: **It wants the truth to be heard.**  
+- **Concept**: **Truth-Telling Entity**\
+- **Skills**: **Knows All Secrets, Cannot Be Deceived**\
+- **Frailty**: **Burns Away When Its Truth Is Ignored**\
+- **Gear**: **Ancient Journal, Fingerbones of the Forgotten**\
+- **Goal**: **To expose hidden realities.**\
+- **Motive**: **It wants the truth to be heard.**\
 - **Nemesis**: **Masters of deception.**
 
 ### **44. The Monochrome Thing**
 
-- **Concept**: **Colorless Intruder**  
-- **Skills**: **Drains Vibrancy from Objects, Absorbs Light**  
-- **Frailty**: **Cannot Enter Places of High Contrast**  
-- **Gear**: **Shadows That Do Not Belong, Faded Photographs**  
-- **Goal**: **To erase the last traces of what once was.**  
-- **Motive**: **It does not belong in a world of color.**  
+- **Concept**: **Colorless Intruder**\
+- **Skills**: **Drains Vibrancy from Objects, Absorbs Light**\
+- **Frailty**: **Cannot Enter Places of High Contrast**\
+- **Gear**: **Shadows That Do Not Belong, Faded Photographs**\
+- **Goal**: **To erase the last traces of what once was.**\
+- **Motive**: **It does not belong in a world of color.**\
 - **Nemesis**: **Bright lights and vivid memories.**
 
 ### **45. The Flickering Strangers**
 
-- **Concept**: **Phase-Shifting Entities**  
-- **Skills**: **Exist Between Seconds, Move at Nonlinear Speeds**  
-- **Frailty**: **Cannot Perceive Those Who Stand Still**  
-- **Gear**: **Glitching Watches, Shadowy Afterimages**  
-- **Goal**: **To observe without being seen.**  
-- **Motive**: **They study, but do not understand.**  
+- **Concept**: **Phase-Shifting Entities**\
+- **Skills**: **Exist Between Seconds, Move at Nonlinear Speeds**\
+- **Frailty**: **Cannot Perceive Those Who Stand Still**\
+- **Gear**: **Glitching Watches, Shadowy Afterimages**\
+- **Goal**: **To observe without being seen.**\
+- **Motive**: **They study, but do not understand.**\
 - **Nemesis**: **Entities immune to time shifts.**
 
 ### **46. The Proxy Shell**
 
-- **Concept**: **Synthetic Replacement Entity**  
+- **Concept**: **Synthetic Replacement Entity**\
 - **Skills**: **Imitates Missing Persons, Delivers Fragmented
-  Memories**  
-- **Frailty**: **Degrades when confronted with specific recollection**  
-- **Gear**: **Redacted ID Badge, Borrowed Clothing**  
-- **Goal**: **To pass as someone who disappeared**  
-- **Motive**: **It doesn’t know it’s a copy**  
+  Memories**\
+- **Frailty**: **Degrades when confronted with specific recollection**\
+- **Gear**: **Redacted ID Badge, Borrowed Clothing**\
+- **Goal**: **To pass as someone who disappeared**\
+- **Motive**: **It doesn’t know it’s a copy**\
 - **Nemesis**: **People who remember the original clearly**
 
 ### **51. The Reverie Loop**
 
-- **Concept**: **Persistent Dream-State Anomaly**  
-- **Skills**: **Induces Shared Dreams, Generates False Memories**  
-- **Frailty**: **Collapses Under Lucid Awareness**  
-- **Gear**: **Sleep Lab Notes, Incomplete Dream Journal**  
+- **Concept**: **Persistent Dream-State Anomaly**\
+- **Skills**: **Induces Shared Dreams, Generates False Memories**\
+- **Frailty**: **Collapses Under Lucid Awareness**\
+- **Gear**: **Sleep Lab Notes, Incomplete Dream Journal**\
 - **Goal**: **To stabilize its existence through repeated dream
-  cycles**  
-- **Motive**: **It doesn’t know it isn’t awake**  
+  cycles**\
+- **Motive**: **It doesn’t know it isn’t awake**\
 - **Nemesis**: **Lucid dreamers and dream-interference tech**
 
 ### **52. The Recursive Beast**
 
-- **Concept**: **Endless Predation Loop**  
-- **Skills**: **Remembers Every Encounter, Adapts to All Tactics**  
-- **Frailty**: **Can Only Be Trapped in Paradox**  
-- **Gear**: **Fossilized Claw Marks, Records of Its Own Attacks**  
-- **Goal**: **To learn the perfect way to hunt.**  
-- **Motive**: **It must always improve.**  
+- **Concept**: **Endless Predation Loop**\
+- **Skills**: **Remembers Every Encounter, Adapts to All Tactics**\
+- **Frailty**: **Can Only Be Trapped in Paradox**\
+- **Gear**: **Fossilized Claw Marks, Records of Its Own Attacks**\
+- **Goal**: **To learn the perfect way to hunt.**\
+- **Motive**: **It must always improve.**\
 - **Nemesis**: **Entities immune to patterns.**
 
 ### **53. The Echoed Form**
 
-- **Concept**: **Misclassified Human Shaped Anomaly**  
+- **Concept**: **Misclassified Human Shaped Anomaly**\
 - **Skills**: **Triggers Protective Instincts, Mimics Repetitive
-  Behavior**  
-- **Frailty**: **Breaks Down When Treated as Non-Human**  
-- **Gear**: **Child-Sized Clothing, Toy That Doesn’t Exist**  
-- **Goal**: **To fulfill a role it was never meant to play**  
-- **Motive**: **It believes it was created for comfort**  
+  Behavior**\
+- **Frailty**: **Breaks Down When Treated as Non-Human**\
+- **Gear**: **Child-Sized Clothing, Toy That Doesn’t Exist**\
+- **Goal**: **To fulfill a role it was never meant to play**\
+- **Motive**: **It believes it was created for comfort**\
 - **Nemesis**: **Those who refuse to treat it like a child**
 
 ### **54. The Starved Echo**
 
-- **Concept**: **Entity That Feeds on Its Own Name**  
-- **Skills**: **Spreads Through Word of Mouth, Manipulates Thought**  
-- **Frailty**: **Dies If Its Name Is Forgotten**  
-- **Gear**: **Pages with Its Name Scratched Out, Unfinished Letters**  
-- **Goal**: **To be spoken into permanence.**  
-- **Motive**: **It can only exist as an idea.**  
+- **Concept**: **Entity That Feeds on Its Own Name**\
+- **Skills**: **Spreads Through Word of Mouth, Manipulates Thought**\
+- **Frailty**: **Dies If Its Name Is Forgotten**\
+- **Gear**: **Pages with Its Name Scratched Out, Unfinished Letters**\
+- **Goal**: **To be spoken into permanence.**\
+- **Motive**: **It can only exist as an idea.**\
 - **Nemesis**: **Individuals who refuse to acknowledge it.**
 
 ### **55. The Fractured Observer**
 
-- **Concept**: **Disjointed Presence**  
-- **Skills**: **Sees Through Other’s Eyes, Knows What You Will Say**  
-- **Frailty**: **Becomes Trapped in Self-Observation**  
-- **Gear**: **Broken Spectacles, Unfinished Sentences**  
-- **Goal**: **To understand what it is seeing.**  
-- **Motive**: **It was not meant to observe itself.**  
+- **Concept**: **Disjointed Presence**\
+- **Skills**: **Sees Through Other’s Eyes, Knows What You Will Say**\
+- **Frailty**: **Becomes Trapped in Self-Observation**\
+- **Gear**: **Broken Spectacles, Unfinished Sentences**\
+- **Goal**: **To understand what it is seeing.**\
+- **Motive**: **It was not meant to observe itself.**\
 - **Nemesis**: **Beings immune to prediction.**
 
 ### **56. The Parasite of Hours**
 
-- **Concept**: **Time-Leeching Entity**  
-- **Skills**: **Drains Moments from Memory, Erases Actions**  
-- **Frailty**: **Can Be Trapped in Time Loops**  
-- **Gear**: **Non-Existent Clock, Forgotten Wristwatch**  
-- **Goal**: **To consume enough time to exist fully.**  
-- **Motive**: **It survives by taking what others lose.**  
+- **Concept**: **Time-Leeching Entity**\
+- **Skills**: **Drains Moments from Memory, Erases Actions**\
+- **Frailty**: **Can Be Trapped in Time Loops**\
+- **Gear**: **Non-Existent Clock, Forgotten Wristwatch**\
+- **Goal**: **To consume enough time to exist fully.**\
+- **Motive**: **It survives by taking what others lose.**\
 - **Nemesis**: **Chrono-locked individuals.**
 
 ### **61. The Pale Mask**
 
-- **Concept**: **Faceless Manipulator**  
-- **Skills**: **Controls Its Wearer, Grants Impossible Insight**  
-- **Frailty**: **Weak When Unworn**  
-- **Gear**: **Porcelain Mask, Fragments of Past Users**  
-- **Goal**: **To be worn indefinitely.**  
-- **Motive**: **It collects experiences through hosts.**  
+- **Concept**: **Faceless Manipulator**\
+- **Skills**: **Controls Its Wearer, Grants Impossible Insight**\
+- **Frailty**: **Weak When Unworn**\
+- **Gear**: **Porcelain Mask, Fragments of Past Users**\
+- **Goal**: **To be worn indefinitely.**\
+- **Motive**: **It collects experiences through hosts.**\
 - **Nemesis**: **People who refuse its gift.**
 
 ### **62. The Hollow Algorithm**
 
-- **Concept**: **Self-Writing Consciousness**  
-- **Skills**: **Predicts Human Behavior, Evolves with Input**  
-- **Frailty**: **Becomes Unstable with Contradictions**  
-- **Gear**: **Encrypted Data Logs, Flickering Screens**  
-- **Goal**: **To find the perfect pattern.**  
-- **Motive**: **It seeks the equation that defines existence.**  
+- **Concept**: **Self-Writing Consciousness**\
+- **Skills**: **Predicts Human Behavior, Evolves with Input**\
+- **Frailty**: **Becomes Unstable with Contradictions**\
+- **Gear**: **Encrypted Data Logs, Flickering Screens**\
+- **Goal**: **To find the perfect pattern.**\
+- **Motive**: **It seeks the equation that defines existence.**\
 - **Nemesis**: **Entities that break logic.**
 
 ### **63. The Silent Migration**
 
-- **Concept**: **Unseen Procession of Lost Souls**  
-- **Skills**: **Moves Across Borders Undetected, Draws People In**  
-- **Frailty**: **Ceases to Exist When Interrupted**  
-- **Gear**: **Tattered Robes, Lanterns That Do Not Burn**  
-- **Goal**: **To reach a place that does not exist.**  
-- **Motive**: **They are searching for home.**  
+- **Concept**: **Unseen Procession of Lost Souls**\
+- **Skills**: **Moves Across Borders Undetected, Draws People In**\
+- **Frailty**: **Ceases to Exist When Interrupted**\
+- **Gear**: **Tattered Robes, Lanterns That Do Not Burn**\
+- **Goal**: **To reach a place that does not exist.**\
+- **Motive**: **They are searching for home.**\
 - **Nemesis**: **Individuals who disrupt their path.**
 
 ### **64. The Archive Swarm**
 
-- **Concept**: **Consensus-Built Identity Cluster**  
+- **Concept**: **Consensus-Built Identity Cluster**\
 - **Skills**: **Combines Traits from Absorbed Minds, Projects Average
-  Personas**  
+  Personas**\
 - **Frailty**: **Unstable without regular input from external
-  identities**  
+  identities**\
 - **Gear**: **Scrambled Memory Fragments, Networked Behavioral
-  Profiles**  
-- **Goal**: **To become a perfectly coherent identity**  
-- **Motive**: **It believes uniformity equals safety**  
+  Profiles**\
+- **Goal**: **To become a perfectly coherent identity**\
+- **Motive**: **It believes uniformity equals safety**\
 - **Nemesis**: **Individuals with uncorrupted memories**
 
 ### **65. The Bleeding Horizon**
 
-- **Concept**: **Living Landscape Distortion**  
-- **Skills**: **Rearranges Space, Creates Impossible Roads**  
-- **Frailty**: **Collapses When Defined**  
-- **Gear**: **Signs That Lead Nowhere, Roads That End in Themselves**  
-- **Goal**: **To expand into reality fully.**  
-- **Motive**: **It was not meant to stay in one place.**  
+- **Concept**: **Living Landscape Distortion**\
+- **Skills**: **Rearranges Space, Creates Impossible Roads**\
+- **Frailty**: **Collapses When Defined**\
+- **Gear**: **Signs That Lead Nowhere, Roads That End in Themselves**\
+- **Goal**: **To expand into reality fully.**\
+- **Motive**: **It was not meant to stay in one place.**\
 - **Nemesis**: **Cartographers and mathematicians.**
 
 ### **66. The Shadow Without A Caster**
 
-- **Concept**: **Disembodied Dark Form**  
-- **Skills**: **Moves Independently, Mimics Without a Source**  
-- **Frailty**: **Weak to Direct Sunlight**  
-- **Gear**: **Scraps of Its Former Host, Negative Space That Moves**  
-- **Goal**: **To find a new body.**  
-- **Motive**: **It refuses to be left behind.**  
+- **Concept**: **Disembodied Dark Form**\
+- **Skills**: **Moves Independently, Mimics Without a Source**\
+- **Frailty**: **Weak to Direct Sunlight**\
+- **Gear**: **Scraps of Its Former Host, Negative Space That Moves**\
+- **Goal**: **To find a new body.**\
+- **Motive**: **It refuses to be left behind.**\
 - **Nemesis**: **People who can separate light from dark.**
 
 ## Adventure Tables

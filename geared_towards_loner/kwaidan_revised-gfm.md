@@ -1,6 +1,6 @@
 # Loner: Kwaidan!
 Roberto Bisceglie
-2026-07-20
+2026-07-25
 
 # Loner: Kwaidan!
 
@@ -23,9 +23,9 @@ lost souls navigate a world steeped in mystery, horror, and karmic fate.
 *Loner: Kwaidan* follows the following design principles:
 
 1.  **Portable**: To play, you will need a few common six-sided dice and
-    writing materials. Anything else is optional and not essential.  
+    writing materials. Anything else is optional and not essential.\
 2.  **Rules-Light**: The game relies on a few simple mechanics, easy to
-    learn and eventually memorize.  
+    learn and eventually memorize.\
 3.  **Tag-based**: Characters, creatures, and locations are defined
     through qualitative descriptors (*tags*) rather than numbers.
 
@@ -67,14 +67,14 @@ stories blend history with supernatural horror, where spirits and
 creatures reflect the **fears, regrets, and karmic consequences** of the
 past.
 
-In this game, you will:  
-- **Face restless spirits** who seek revenge, justice, or closure.  
+In this game, you will:\
+- **Face restless spirits** who seek revenge, justice, or closure.\
 - **Survive encounters with yokai**—tricksters, beasts, or forgotten
-deities.  
+deities.\
 - **Navigate feudal society**, where status, duty, and honor dictate
-fate.  
+fate.\
 - **Explore eerie landscapes**—misty forests, ruined temples, and
-haunted roads.  
+haunted roads.\
 - **Unravel mysteries and curses** through folklore and intuition.
 
 Unlike high-action samurai epics, *Kwaidan* is about **atmosphere,
@@ -117,55 +117,55 @@ secrets.
 
 - **Feudal Japan Amidst Conflict**
   - Warring clans fight for dominance, while **outlaws, exorcists, and
-    masterless samurai** wander the land.  
+    masterless samurai** wander the land.\
   - The **Shogun’s rule is unstable**, and local lords (daimyo) struggle
-    to maintain power.  
+    to maintain power.\
   - Hidden sects, shadowy onmyoji (court sorcerers), and secretive ninja
     clans all play their parts in the grand struggle for control.
 - **A World Between the Living and the Dead**
   - The border between **the physical world and the spirit realm
-    (Yomi)** is thin.  
+    (Yomi)** is thin.\
   - Ghosts (*yūrei*) walk among the living, bound by **regret,
-    vengeance, or unfinished duties**.  
+    vengeance, or unfinished duties**.\
   - Ancient yokai—some mischievous, others monstrous—lurk in the
     wilderness, interfering in human affairs.
 - **Villages, Temples, and Haunted Roads**
   - Small settlements live in fear of **strange occurrences, unexplained
-    disappearances, and cursed objects**.  
+    disappearances, and cursed objects**.\
   - Wandering monks and onmyoji perform exorcisms and rituals, but **not
-    all spirits can be pacified**.  
+    all spirits can be pacified**.\
   - Lonely roads are **stalked by bandits, shapeshifters, and vengeful
     ghosts**.
 - **Superstitions and Forbidden Knowledge**
   - The people **follow omens, ward off evil with charms, and respect
-    sacred places**.  
+    sacred places**.\
   - Some **seek power through dark rituals**, bargaining with spirits at
-    great cost.  
+    great cost.\
   - Others dedicate their lives to **preserving balance**, acting as
     **guardians of the unseen world**.
 - **The Price of Honor and Dishonor**
   - Bushido binds samurai to **codes of duty and sacrifice**, but not
-    all follow the path of righteousness.  
+    all follow the path of righteousness.\
   - A single act of dishonor may bring **spiritual curses, divine wrath,
-    or exile**.  
+    or exile**.\
   - A wandering ronin, an outcast priest, or a disgraced noble **may
     find redemption—or fall deeper into darkness**.
 
 ### Playable Themes
 
 - **Ghost Stories & Folklore Horror** – Investigate haunted temples,
-  broken spirits, and eerie mysteries.  
+  broken spirits, and eerie mysteries.\
 - **Samurai & Bushido** – Struggle between honor, duty, and supernatural
-  vengeance.  
+  vengeance.\
 - **Exorcism & Onmyodo** – Battle yokai and banish restless ghosts
-  through rituals and sacred artifacts.  
+  through rituals and sacred artifacts.\
 - **Shapeshifters & Tricksters** – Kitsune, tanuki, and other yokai blur
-  the lines between truth and illusion.  
+  the lines between truth and illusion.\
 - **Cursed Objects & Family Legacies** – Swords that whisper to their
-  wielders, masks that possess, and secrets buried for generations.  
+  wielders, masks that possess, and secrets buried for generations.\
 - **The Balance of Nature & Spirits** – Respect for sacred sites,
   appeasement of ancient gods, and the price of defiling the natural
-  order.  
+  order.\
 - **Personal Redemption & Revenge** – Can a fallen warrior atone, or
   will they be consumed by vengeance?
 
@@ -175,25 +175,25 @@ This world is shaped by centuries of conflict, belief, and forgotten
 history. The past haunts the present—sometimes **literally**.
 
 - **The Age of Spirits (Long Ago – Ancient Times)**
-  - Before men ruled, **kami, yokai, and spirits shaped the land**.  
+  - Before men ruled, **kami, yokai, and spirits shaped the land**.\
   - Humans learned **rituals, exorcisms, and wards** to coexist with the
     supernatural.
 - **The Rise of Samurai (Generations Past – Feudal Age Begins)**
   - Warlords (daimyo) establish domains, enforcing **law and order with
-    steel**.  
+    steel**.\
   - Onmyoji become **political advisors**, using supernatural knowledge
-    to influence courts.  
+    to influence courts.\
   - Ghosts of slain warriors **linger on battlefields**, unwilling to
     accept death.
 - **The Era of Superstitions (Recent History – The Present)**
   - The power of the daimyo is **crumbling**, and war threatens
-    stability.  
+    stability.\
   - More villages suffer from **unrest, disappearances, and
-    hauntings**.  
+    hauntings**.\
   - Some **seek peace with spirits**, while others **exploit them for
     power**.
 - **The Dark Times (A Future Unwritten)**
-  - If balance is not maintained, **chaos will consume the land**.  
+  - If balance is not maintained, **chaos will consume the land**.\
   - Will the spirits of the dead be laid to rest—or will they drown the
     world in darkness?
 
@@ -425,9 +425,9 @@ The game uses a **Luck-like system** to track three **core spiritual and
 personal attributes** that shape a character’s journey:
 
 - **Chi (Energy & Balance)** – The flow of personal energy, used to fuel
-  supernatural abilities and resist dark forces.  
+  supernatural abilities and resist dark forces.\
 - **Corruption (Moral & Spiritual Decay)** – The slow descent into
-  darkness from exposure to evil, curses, and forbidden magic.  
+  darkness from exposure to evil, curses, and forbidden magic.\
 - **Honor (Reputation & Spiritual Integrity)** – The character’s social
   and moral standing, dictating how others perceive them.
 
@@ -457,16 +457,16 @@ and yokai hunters** can channel it into **exorcisms, spells, and sacred
 arts**, while warriors use it for feats of physical prowess.
 
 - **Spending Chi:**
-  - Using supernatural abilities costs **1 Chi** per use.  
+  - Using supernatural abilities costs **1 Chi** per use.\
   - Exorcisms, spiritual combat, and blessing objects require a **Chi
-    check**.  
+    check**.\
   - Martial characters can spend **Chi to push their limits** (e.g., a
     second attack, resisting pain, enhanced reflexes).
 - **Recovering Chi:**
   - **Meditation, rituals, and sacred rest** restore **1d6 Chi** per
-    session.  
+    session.\
   - Drinking sacred water, resting in temples, or connecting with
-    spirits can **regain Chi**, pending an **Oracle check**.  
+    spirits can **regain Chi**, pending an **Oracle check**.\
   - A character at **0 Chi is spiritually exhausted**, unable to use
     abilities until they **properly rest or receive divine aid**.
 
@@ -477,25 +477,25 @@ corruption is an ever-present danger. **The more one interacts with
 evil, the more it clings to the soul.**
 
 - **Gaining Corruption:**
-  - **Using dark magic** (blood rites, yokai bargaining, necromancy)  
+  - **Using dark magic** (blood rites, yokai bargaining, necromancy)\
   - **Exposure to cursed places** (haunted battlefields, defiled
-    shrines)  
+    shrines)\
   - **Witnessing or committing atrocities** (massacres, dishonorable
-    killings)  
+    killings)\
   - **Being possessed, bitten, or wounded by supernatural forces**
 - **Resisting Corruption (Oracle Check Required):**
   - Successfully exorcising a spirit (**Yes, and…** result may cleanse
-    Corruption).  
+    Corruption).\
   - Performing **acts of devotion**, such as lighting incense at a
-    shrine.  
-  - **Avoiding temptation** (e.g., refusing a demon’s offer).  
+    shrine.\
+  - **Avoiding temptation** (e.g., refusing a demon’s offer).\
   - Gaining **spiritual protection** from monks, priests, or sacred
     artifacts.
 - **Corruption at 0 → Transformation:**
   - If a character’s **Corruption reaches 6**, they become **tainted**.
-    Their **aura changes, attracting yokai and fearful stares**.  
+    Their **aura changes, attracting yokai and fearful stares**.\
   - At **8 or higher**, they risk **becoming a monster**, their soul
-    slipping beyond human redemption.  
+    slipping beyond human redemption.\
   - At **10+, they are lost**—either turning into a vengeful ghost, a
     cursed warrior, or a yokai themselves.
 
@@ -514,24 +514,24 @@ disgraced monk **loses divine favor**, and a fallen noble may become **a
 ghost in the making**.
 
 - **Losing Honor:**
-  - Breaking an oath, lying, or betraying a trust  
-  - Dishonoring a fallen foe (e.g., looting a samurai’s corpse)  
-  - Killing an unarmed opponent, or harming an innocent  
+  - Breaking an oath, lying, or betraying a trust\
+  - Dishonoring a fallen foe (e.g., looting a samurai’s corpse)\
+  - Killing an unarmed opponent, or harming an innocent\
   - Failing to uphold a duty or **abandoning a sworn cause**
 - **Regaining Honor:**
   - **Atoning for past misdeeds** (acts of mercy, sacrifice, or oaths of
-    service)  
-  - Defeating an opponent in **honorable combat**  
-  - Protecting the weak or standing against corruption  
+    service)\
+  - Defeating an opponent in **honorable combat**\
+  - Protecting the weak or standing against corruption\
   - Performing **ritual cleansing**, **pilgrimages**, or seeking
     guidance from elders
 - **Honor at 0 → Social & Spiritual Fallout:**
   - Samurai at **0 Honor become outcasts**—unable to claim hospitality,
-    losing all privileges.  
+    losing all privileges.\
   - Peasants at **0 Honor are cursed**, believed to be spiritually
-    impure.  
+    impure.\
   - Monks at **0 Honor are forsaken**, unable to call upon divine
-    blessings.  
+    blessings.\
   - **A character whose Honor drops below 0 may become a vengeful ghost
     upon death.**
 
@@ -542,23 +542,22 @@ Corruption, and Honor all influence the same event.
 
 #### **1. Fighting a Demon (Chi vs. Corruption vs. Honor)**
 
-- If the **Chi check fails**, the **demon overpowers you**.  
-- If the **Corruption check fails**, its presence leaves a mark on
-  you.  
+- If the **Chi check fails**, the **demon overpowers you**.\
+- If the **Corruption check fails**, its presence leaves a mark on you.\
 - If the **Honor check fails**, you resort to dishonorable means to win,
   staining your reputation.
 
 #### **2. Breaking a Curse (Chi vs. Honor vs. Oracle)**
 
-- If you lack **Chi**, you cannot perform the ritual.  
-- If your **Honor is too low**, the gods may ignore your prayers.  
+- If you lack **Chi**, you cannot perform the ritual.\
+- If your **Honor is too low**, the gods may ignore your prayers.\
 - If the Oracle roll is **“No, and…”**, the curse **latches onto you
   instead**.
 
 #### **3. Bargaining with a Ghost (Honor vs. Corruption vs. Oracle)**
 
-- **Honor dictates how the ghost treats you.**  
-- **Corruption affects whether it trusts you or sees you as kin.**  
+- **Honor dictates how the ghost treats you.**\
+- **Corruption affects whether it trusts you or sees you as kin.**\
 - **A successful Oracle roll means it may rest in peace.**
 
 ### Conflicts
@@ -657,18 +656,18 @@ tragedies and hidden forces**.
 
 - **Mountain Shrines & Hidden Paths** – The highlands are home to
   ancient temples, many abandoned and overgrown. Some are still watched
-  over by **mysterious monks, fox spirits, or cursed guardians**.  
+  over by **mysterious monks, fox spirits, or cursed guardians**.\
 - **Dark Forests & Cursed Groves** – Ancient trees whisper with the
   voices of lost travelers. Some forests shift **when no one is
   looking**, while others hide **forgotten villages where the living and
-  dead coexist**.  
+  dead coexist**.\
 - **Isolated Fishing Villages & Ghostly Shores** – Coastal towns rely on
   the sea, but **not all drowned souls rest peacefully**. Sailors speak
   of **umibozu** rising from the waves and **lantern boats drifting
-  without crew**.  
+  without crew**.\
 - **The Ruins of War** – The bones of long-forgotten battles litter the
   land. Ghosts of fallen warriors **reenact their last moments**,
-  forever seeking an end to their struggles.  
+  forever seeking an end to their struggles.\
 - **The Spirit Roads** – Roads that do not always lead where they
   should. A traveler may set out for one place and find themselves
   **somewhere else entirely—sometimes, in a time long past**.
@@ -686,18 +685,17 @@ omens can **upset even the highest lords**.
 
 - **Samurai (武士, Bushi)** – Warriors bound by **duty, loyalty, and
   ritual**. They may be noble retainers or disgraced ronin **wandering
-  in exile**.  
+  in exile**.\
 - **Peasants (農民, Nōmin)** – Farmers, fishermen, and laborers who
   **respect old traditions and fear the unseen**. They leave offerings
-  at roadside shrines and avoid places where **the dead are
-  restless**.  
+  at roadside shrines and avoid places where **the dead are restless**.\
 - **Monks & Onmyoji (僧侶, 陰陽師)** – The spiritual keepers of the
   land, trained in **prayers, exorcisms, and sealing rituals**. Some
   hold power in courts, while others **live as wandering mystics,
-  chasing ghosts and yokai**.  
+  chasing ghosts and yokai**.\
 - **Merchants & Artisans** – Traders who carry **both goods and rumors**
   from town to town. Some unknowingly transport **cursed objects**,
-  while others **sell talismans that may—or may not—work**.  
+  while others **sell talismans that may—or may not—work**.\
 - **Outcasts & Hidden Folk** – Bandits, wanderers, and those touched by
   **forbidden knowledge**. Some are **shapeshifters in disguise**, while
   others are simply **those whom society has cast aside**.
@@ -707,11 +705,11 @@ omens can **upset even the highest lords**.
 Life is dictated by **customs, taboos, and signs** that must not be
 ignored:
 
-- Never **whistle at night**—it calls the dead.  
+- Never **whistle at night**—it calls the dead.\
 - If you **meet a stranger on a lonely road**, make sure their feet
-  touch the ground.  
+  touch the ground.\
 - A sword passed down through **too many battles** may have its own
-  will.  
+  will.\
 - The fox that watches you from the forest **knows something you do
   not**.
 
@@ -722,12 +720,12 @@ merchants deal in earthly goods**.
 
 - **Silk, Rice & Metal** – The lifeblood of noble houses. Many merchants
   travel in **heavily guarded caravans**, wary of both bandits and
-  things that lurk in the dark.  
+  things that lurk in the dark.\
 - **Cursed Goods & Spirit Relics** – Some peddlers **sell objects of
   unknown origin**—old swords, sealed jars, dolls that seem to blink. A
-  buyer should always ask **where something came from**.  
+  buyer should always ask **where something came from**.\
 - **Monk Charms & Protective Talismans** – Not all of these work, but
-  **in a world filled with yokai, no one takes chances**.  
+  **in a world filled with yokai, no one takes chances**.\
 - **Blood Pacts & Ghost Deals** – In secret, some trade with **the
   dead**—for knowledge, power, or protection. But spirits **always
   demand a price**.
@@ -740,10 +738,10 @@ Music, theater, and poetry are not just forms of entertainment—they are
 - **Noh & Kabuki Theater** – Performances that reenact **ghost stories
   and historical tragedies**. It is said that some masks hold **the
   emotions of past actors**, and wearing them too long **invites
-  possession**.  
+  possession**.\
 - **Calligraphy & Spirit Wards** – A written word can be **as powerful
   as a blade**. Some monks can **trap spirits within ink**, while others
-  **write poetry that reveals hidden truths**.  
+  **write poetry that reveals hidden truths**.\
 - **Tea Ceremonies & Divination** – A properly brewed cup can **soothe
   restless spirits** or reveal the **future in its patterns**.
 
@@ -754,14 +752,14 @@ understand it **may wield it**, but those who misuse it **are often
 doomed by it**.
 
 - **Onmyodo (陰陽道)** – The way of **yin and yang**, practiced by
-  onmyoji who control **spirits, wards, and the elements**.  
+  onmyoji who control **spirits, wards, and the elements**.\
 - **Kaji (Fire Rituals, 加持)** – Used by monks to **burn away
-  corruption** and purify cursed objects.  
+  corruption** and purify cursed objects.\
 - **Fox Magic & Shapeshifting** – Kitsune (fox spirits) possess
   knowledge of **illusion, disguise, and transformation**. Some humans
-  **bargain for their secrets**, at a cost.  
+  **bargain for their secrets**, at a cost.\
 - **Blood Oaths & Spirit Contracts** – Some warriors **bind spirits into
-  their weapons**—but these weapons have **wills of their own**.  
+  their weapons**—but these weapons have **wills of their own**.\
 - **The Land’s Wrath** – When **mountains, rivers, and forests** are
   disrespected, they respond with **floods, landslides, and
   misfortune**.
@@ -772,12 +770,12 @@ The world of *Kwaidan* is shaped by **stories of gods, ghosts, and
 monsters**, passed down for generations.
 
 - **Yokai (妖怪)** – Tricksters, beasts, and creatures of **half-spirit,
-  half-myth**. Some are **playful**, others **deadly**.  
+  half-myth**. Some are **playful**, others **deadly**.\
 - **Yurei (幽霊)** – Ghosts bound by **unfinished business, vengeance,
   or betrayal**. Many seek **closure**, but some **want only
-  suffering**.  
+  suffering**.\
 - **Kami (神)** – Divine beings who **dwell in shrines, mountains, and
-  rivers**. They demand **respect, offerings, and rituals**.  
+  rivers**. They demand **respect, offerings, and rituals**.\
 - **Tsukumogami (付喪神)** – Objects that, after **100 years**, awaken
   with **souls and memories of their owners**.
 
@@ -794,13 +792,13 @@ no journey is without unexpected encounters.
 
 ### The Sohei Brotherhood
 
-- **Concept**: Militant Monks  
-- **Skills**: **Exorcism, Martial Arts**  
-- **Frailty**: **Unyielding Fanaticism**  
-- **Gear**: **Blessed Naginata, Prayer Beads of Protection**  
-- **Goal**: **Eradicate yokai and evil spirits to purify the land.**  
+- **Concept**: Militant Monks\
+- **Skills**: **Exorcism, Martial Arts**\
+- **Frailty**: **Unyielding Fanaticism**\
+- **Gear**: **Blessed Naginata, Prayer Beads of Protection**\
+- **Goal**: **Eradicate yokai and evil spirits to purify the land.**\
 - **Motive**: **The world is corrupted, and only holy discipline can
-  cleanse it.**  
+  cleanse it.**\
 - **Nemesis**: **The Fox Court, whom they see as deceivers of men.**
 
 The Sohei Brotherhood are a militant sect of warrior-monks who view all
@@ -814,13 +812,13 @@ the order is to risk **being labeled a heretic and hunted down**.
 
 ### The Fox Court
 
-- **Concept**: Cunning Tricksters  
-- **Skills**: **Shapeshifting, Misdirection**  
-- **Frailty**: **Bound by Oaths**  
-- **Gear**: **Silken Mask of Many Faces, Whispering Fan**  
-- **Goal**: **Influence human fate and protect yokai culture.**  
+- **Concept**: Cunning Tricksters\
+- **Skills**: **Shapeshifting, Misdirection**\
+- **Frailty**: **Bound by Oaths**\
+- **Gear**: **Silken Mask of Many Faces, Whispering Fan**\
+- **Goal**: **Influence human fate and protect yokai culture.**\
 - **Motive**: **Mortals shape their own destruction—yokai must tip the
-  balance.**  
+  balance.**\
 - **Nemesis**: **The Sohei Brotherhood, who see them as enemies of
   humanity.**
 
@@ -837,13 +835,13 @@ always well-received**, making them **both feared and sought after**.
 
 ### The Silent Exorcists
 
-- **Concept**: Ghost Hunters  
-- **Skills**: **Calligraphy, Spirit-Sealing**  
-- **Frailty**: **Bound to Silence**  
-- **Gear**: **Cursed Inkbrush, Scroll of Thousand Names**  
+- **Concept**: Ghost Hunters\
+- **Skills**: **Calligraphy, Spirit-Sealing**\
+- **Frailty**: **Bound to Silence**\
+- **Gear**: **Cursed Inkbrush, Scroll of Thousand Names**\
 - **Goal**: **Banish lost souls and restore balance between the living
-  and the dead.**  
-- **Motive**: **The world must not be overrun by lingering spirits.**  
+  and the dead.**\
+- **Motive**: **The world must not be overrun by lingering spirits.**\
 - **Nemesis**: **The Shogun’s Onmyoji, whom they see as corrupt
   mystics.**
 
@@ -861,12 +859,12 @@ will ever confirm or deny it.
 
 ### The Shogun’s Onmyoji
 
-- **Concept**: Imperial Sorcerers  
-- **Skills**: **Divination, Elemental Magic**  
-- **Frailty**: **Loyalty to the Shogun**  
-- **Gear**: **Jade Talisman of Authority, Ritual Daggers**  
-- **Goal**: **Control supernatural forces for political power.**  
-- **Motive**: **Only the wise should wield spiritual knowledge.**  
+- **Concept**: Imperial Sorcerers\
+- **Skills**: **Divination, Elemental Magic**\
+- **Frailty**: **Loyalty to the Shogun**\
+- **Gear**: **Jade Talisman of Authority, Ritual Daggers**\
+- **Goal**: **Control supernatural forces for political power.**\
+- **Motive**: **Only the wise should wield spiritual knowledge.**\
 - **Nemesis**: **The Silent Exorcists, who reject their authority.**
 
 The Shogun’s Onmyoji are **court sorcerers and spiritual advisors**,
@@ -882,12 +880,12 @@ such accusations rarely reach the ears of the living.
 
 ### The Whispering Blades
 
-- **Concept**: Cursed Assassins  
-- **Skills**: **Stealth, Poison Arts**  
-- **Frailty**: **Haunted by Past Kills**  
-- **Gear**: **Dagger of Forgotten Names, Shadow-Stealing Cloak**  
-- **Goal**: **Eliminate those who disrupt the balance of fate.**  
-- **Motive**: **Justice must be carried out, even from the shadows.**  
+- **Concept**: Cursed Assassins\
+- **Skills**: **Stealth, Poison Arts**\
+- **Frailty**: **Haunted by Past Kills**\
+- **Gear**: **Dagger of Forgotten Names, Shadow-Stealing Cloak**\
+- **Goal**: **Eliminate those who disrupt the balance of fate.**\
+- **Motive**: **Justice must be carried out, even from the shadows.**\
 - **Nemesis**: **The Dragon Clan, who believe in honorable combat.**
 
 The Whispering Blades are **an order of assassins and spies**, known for
@@ -903,12 +901,12 @@ retribution**.
 
 ### The Dragon Clan
 
-- **Concept**: Honorable Warlords  
-- **Skills**: **Kenjutsu, Leadership**  
-- **Frailty**: **Unbending Pride**  
-- **Gear**: **Ceremonial Armor, Ancestral Katana**  
-- **Goal**: **Unite the land under a righteous banner.**  
-- **Motive**: **Without order, only chaos remains.**  
+- **Concept**: Honorable Warlords\
+- **Skills**: **Kenjutsu, Leadership**\
+- **Frailty**: **Unbending Pride**\
+- **Gear**: **Ceremonial Armor, Ancestral Katana**\
+- **Goal**: **Unite the land under a righteous banner.**\
+- **Motive**: **Without order, only chaos remains.**\
 - **Nemesis**: **The Whispering Blades, whom they see as dishonorable
   killers.**
 
@@ -930,10 +928,10 @@ and clash**, shaping the world’s fate.
 
 - The **Sohei Brotherhood** fights an **eternal war against yokai**,
   often coming into conflict with the **Fox Court**, who protect their
-  own kind.  
+  own kind.\
 - The **Silent Exorcists** and **Shogun’s Onmyoji** both deal with
   **supernatural threats**, but where one seeks **balance**, the other
-  seeks **control**.  
+  seeks **control**.\
 - The **Whispering Blades** operate in **shadow and secrecy**, a direct
   contrast to the **Dragon Clan**, who believes in open, honorable
   combat.

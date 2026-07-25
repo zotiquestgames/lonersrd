@@ -1,6 +1,6 @@
 # Loner: Cthulhu!
 Roberto Bisceglie
-2026-07-20
+2026-07-25
 
 # Loner: Cthulhu!
 
@@ -758,7 +758,7 @@ infiltration of academic institutions.
 **The Blackwood Foundation** funds:
 
 - Archaeological expeditions to remote locations
-- Rare book acquisitions for university libraries  
+- Rare book acquisitions for university libraries\
 - Medical research into “hereditary neurological conditions”
 - Anthropological studies of “primitive religious practices”
 
@@ -830,7 +830,7 @@ business connections through member companies
 **Operating method:** Cells in major cities maintain independence while
 following coordinated plans **Investigation reveals:**
 
-- Real estate holdings form geometric patterns across urban areas  
+- Real estate holdings form geometric patterns across urban areas\
 - Communication through coded personal advertisements in newspapers
 - Recruitment focuses on intellectuals experiencing personal crises
 - Financial backing traces to import/export businesses
@@ -1247,7 +1247,7 @@ symbols and names **Current Status:** Imprisoned in the Hyades star
 cluster, influences Earth through art and literature **Cult Practices:**
 
 - Distribute copies of “The King in Yellow” play
-- Infiltrate theater and literary communities  
+- Infiltrate theater and literary communities\
 - Establish artistic salons and bohemian circles
 - Create works that corrupt viewers through beauty and meaning
 
@@ -1275,7 +1275,7 @@ and time periods **Cult Practices:**
 **Signature Manifestations:**
 
 - Temporal anomalies and causality violations
-- Geometric shapes that hurt to perceive directly  
+- Geometric shapes that hurt to perceive directly\
 - Mathematical proofs that violate natural laws
 - Locations where past, present, and future converge
 
@@ -1307,7 +1307,7 @@ movements, technological innovations, charismatic cult leaders
 #### Shub-Niggurath - The Black Goat of the Woods
 
 **Sphere of Influence:** Fertility, nature’s corruption, biological
-transformation  
+transformation\
 **Current Status:** Manifests through natural processes and biological
 corruption **Cult Practices:**
 
@@ -1366,7 +1366,7 @@ research, nihilistic philosophy movements, reality distortion events
 #### Warning Signs of Cult Activity
 
 - Libraries or bookstores specializing in rare occult materials
-- Academic research focusing on pre-human civilizations  
+- Academic research focusing on pre-human civilizations\
 - Artistic communities producing disturbing or mathematically complex
   works
 - Scientific research yielding impossible or dangerous results
@@ -1381,7 +1381,7 @@ research, nihilistic philosophy movements, reality distortion events
 Different investigation threads point toward different entities:
 
 - **Maritime mysteries** often connect to Cthulhu
-- **Artistic corruption** frequently involves Hastur  
+- **Artistic corruption** frequently involves Hastur\
 - **Scientific anomalies** may indicate Yog-Sothoth’s influence
 - **Technological dangers** could point to Nyarlathotep
 - **Biological horrors** often trace back to Shub-Niggurath

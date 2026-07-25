@@ -1,6 +1,6 @@
 # Arabian Nights Adventures
 Roberto Bisceglie
-2026-07-20
+2026-07-25
 
 # Arabian Nights Adventures
 
@@ -553,8 +553,8 @@ When entering a court, define:
 
 Each intrigue scene can earn:
 
-- **Favor** (used to gain invitations, protections, gifts)  
-- **Scandal** (used *against* the PCs by others)  
+- **Favor** (used to gain invitations, protections, gifts)\
+- **Scandal** (used *against* the PCs by others)\
 - **Leverage** (a secret, a debt, a blackmailable detail)
 
 Use the Oracle for maneuvers — but always ask: *What will it cost to
@@ -668,8 +668,8 @@ to get there, and how well equipped you are to face the unknown.
 
 - **Choose Your Destination:** Pick a known location, draw inspiration
   from a tale, or roll on the Oracle for a vague direction, rumor, or
-  omen.  
-  \> *“Is it hidden by magic?”*  
+  omen.\
+  \> *“Is it hidden by magic?”*\
   \> *“Is it guarded by a dangerous creature?”*
 
 - **Gather Your Supplies:** Supplies include water, food, charms, and
@@ -678,12 +678,12 @@ to get there, and how well equipped you are to face the unknown.
   determine your preparedness:
 
   - **Yes, and…**: Your gear is flawless, and you gain a bonus item or
-    insight.  
-  - **Yes**: You’re ready and well-stocked.  
+    insight.\
+  - **Yes**: You’re ready and well-stocked.\
   - **Yes, but…**: You’re mostly prepared, but something is flawed or
-    missing.  
-  - **No, but…**: You lack key items, but find makeshift substitutes.  
-  - **No**: Your preparations fall short, putting you at risk.  
+    missing.\
+  - **No, but…**: You lack key items, but find makeshift substitutes.\
+  - **No**: Your preparations fall short, putting you at risk.\
   - **No, and…**: A mistake in planning brings misfortune before
     departure.
 
@@ -708,7 +708,7 @@ and its paths shift like memory.
 - **Foraging & Water:** If your water or rations run low, roll the
   Oracle to forage or dig for a hidden spring.
 
-  - Success may uncover *“Salt-kissed Well”* or *“Palm Fruit Cache”*.  
+  - Success may uncover *“Salt-kissed Well”* or *“Palm Fruit Cache”*.\
   - Failure may trigger *“Dehydration”*, *“Scorpion Nest”*, or *“False
     Oasis”*.
 
@@ -933,10 +933,10 @@ careful.
 
 Common wares include:
 
-- Spices and incense  
-- Fine silks and woven tapestries  
-- Polished gems, jewelry, and coins  
-- Rare scrolls, old books, and magical trinkets  
+- Spices and incense\
+- Fine silks and woven tapestries\
+- Polished gems, jewelry, and coins\
+- Rare scrolls, old books, and magical trinkets\
 - Potent herbs, dyes, and perfumes
 
 Every object has a story — sometimes true, sometimes invented — and
@@ -2920,7 +2920,7 @@ highly effective in their shadowy operations.
 - “Prince of Persia: The Sands of Time” (2010)
 - “Sinbad: Legend of the Seven Seas” (2003)
 - “The 7th Voyage of Sinbad” (1958)
-- “The Golden Voyage of Sinbad” (1973)  
+- “The Golden Voyage of Sinbad” (1973)\
 - “The Thief of Baghdad” (1961)
 - “Kismet” (1955)
 - “The Adventures of Prince Achmed” (1926)
@@ -2939,7 +2939,7 @@ highly effective in their shadowy operations.
 ### Video Games
 
 - “Prince of Persia” series
-- “Sands of Salah’Ah’Din” (2023)  
+- “Sands of Salah’Ah’Din” (2023)\
 - “The Palace of Jewels” (2022)
 - “Tales of the Desert Wind” (2018)
 

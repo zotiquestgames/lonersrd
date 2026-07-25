@@ -1,6 +1,6 @@
 # Loner Companion
 Roberto Bisceglie
-2026-07-20
+2026-07-25
 
 # Loner Companion
 
@@ -664,7 +664,7 @@ complication.
 1.  **Roll 1d6 for Chance and 1d6 for Risk**: The higher roll determines
     the answer.
 
-    - **Chance Die is Higher**: The answer is **Yes**.  
+    - **Chance Die is Higher**: The answer is **Yes**.\
     - **Risk Die is Higher**: The answer is **No**.
 
 2.  **Modifiers for Complications or Benefits**: Specific dice
@@ -672,10 +672,10 @@ complication.
 
     - **If both dice are low (3 or less)**, add a **“but…”** This
       suggests a minor drawback even if the answer is “yes” or a small
-      advantage if it’s “no.”  
+      advantage if it’s “no.”\
     - **If both dice are high (4 or more)**, add an **“and…”** This
       suggests a particularly favorable outcome with “yes” or added
-      difficulty with “no.”  
+      difficulty with “no.”\
     - **If both dice are equal**, the answer is **“Yes, and…”** and you
       add a point to the **Twist Counter** for potential narrative
       surprises down the line.
@@ -1438,15 +1438,15 @@ sense of urgency while keeping bookkeeping light.
   Luck, with the amount depending on the Oracle’s outcome:
 
   - **Yes, and…** (success plus a bonus): Your protagonist succeeds,
-    dishing out serious harm (3 Luck points).  
+    dishing out serious harm (3 Luck points).\
   - **Yes…** (plain success): Success with moderate harm (2 Luck
-    points).  
+    points).\
   - **Yes, but…** (success with a setback): Success with light harm (1
-    Luck point).  
+    Luck point).\
   - **No, but…** (failure with a silver lining): Failure, but the harm
-    is softened (1 Luck point).  
+    is softened (1 Luck point).\
   - **No…** (plain failure): Failure with moderate harm (2 Luck
-    points).  
+    points).\
   - **No, and…** (failure with added consequence): Failure with severe
     harm (3 Luck points).
 

@@ -1,6 +1,6 @@
 # Loner - Core Rules 2nd Edition (Legacy)
 Roberto Bisceglie
-2026-07-20
+2026-07-25
 
 # Loner - Core Rules 2nd Edition
 
@@ -114,11 +114,11 @@ Your Protagonist is described by some fixed traits:
   automatically recharges when they end. Luck starts and caps at 6.
 
 **Example** \> **Zahra Nakajima** Witty Street Cat. Streetwise, Nimble,
-Merciful.  
-\> Knife, Low O2 Supplement.  
+Merciful.\
+\> Knife, Low O2 Supplement.\
 \> She wants to obtain unknown technology to save her planet from
-atmosphere collapse.  
-\> **Nemesis**: The Naturalist Order  
+atmosphere collapse.\
+\> **Nemesis**: The Naturalist Order\
 \> **Luck**: 6
 
 ## Everything is a Character!
@@ -132,8 +132,8 @@ and even relevant objects like vehicles are characters too!
   a nemesis.
 
 **Example** \> **The Century Skylark** Spacecraft in bad shape.
-Hyperjump Drive, Camouflage Circuits, Midlife Courier.  
-\> Shields, Turrets.  
+Hyperjump Drive, Camouflage Circuits, Midlife Courier.\
+\> Shields, Turrets.\
 \> **Luck**: 6.
 
 ## Descriptive Tags
@@ -192,13 +192,13 @@ following table provides prompts on which to build your adventure.
 | 5 | Help-seeker | Escape | Ambition | McGuffin | Mishap | Time |
 | 6 | Blackmailer | Pursuit | Revenge | Confession | Object (map, journal, letter) | Space |
 
-**Example**  
-\> **Who?** Mentor  
-\> **What?** Exploit  
-\> **Why?** Help  
-\> **Where?** McGuffin  
-\> **How?** Rumors  
-\> **Obstacle?** Time  
+**Example**\
+\> **Who?** Mentor\
+\> **What?** Exploit\
+\> **Why?** Help\
+\> **Where?** McGuffin\
+\> **How?** Rumors\
+\> **Obstacle?** Time\
 \> Tobias Wethern took Zahra under his wing when her parents died.
 That’s why she can’t say no to him now. Tobias wants Zahra to steal a
 datapad from the Leton Corporation’s subsidiary. He doesn’t know
@@ -243,7 +243,7 @@ An expectation does not necessarily automatically lead to a question,
 which you need to ask only when there are concrete risks or you want to
 be amazed. In other cases, simply let events happen.
 
-**Example**  
+**Example**\
 \> Zahra sneaks into the Leton Corporation subsidiary. The expectation
 is that the place will be well guarded during the day and less so at
 night. To escape an inevitable head-on collision, Zahra decides to act
@@ -311,7 +311,7 @@ game situation:
   make the effort to identify what new situation triggered the
   consultation.
 
-**Example**  
+**Example**\
 \> The datapad is hacked *and…* the information contained is not just
 about illicit activities of the Leton Corporation… There is more!
 

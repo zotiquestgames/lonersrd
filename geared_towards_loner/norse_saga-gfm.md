@@ -1,6 +1,6 @@
 # Loner: Norse Saga
 Roberto Bisceglie
-2026-07-20
+2026-07-25
 
 # Loner: Norse Saga
 
@@ -766,7 +766,7 @@ shame your opponent before witnesses.
 **When to Use:**
 
 - Feast halls
-- Thing assemblies  
+- Thing assemblies\
 - Before holmgang (traditional to exchange insults)
 - Establishing dominance
 
@@ -1217,362 +1217,362 @@ If you wish to add mechanical progression (not required):
 
 ### 11. Rival Jarl
 
-**Concept**: Ambitious Warlord  
-**Skills**: Political Maneuvering, War Leadership  
-**Frailty**: Overconfident  
-**Gear**: Named Sword, Hall Full of Warriors  
-**Goal**: Expand territory  
-**Motive**: Legacy and power  
+**Concept**: Ambitious Warlord\
+**Skills**: Political Maneuvering, War Leadership\
+**Frailty**: Overconfident\
+**Gear**: Named Sword, Hall Full of Warriors\
+**Goal**: Expand territory\
+**Motive**: Legacy and power\
 **Nemesis**: You (rival for dominance)
 
 ### 12. Ambitious Hersir
 
-**Concept**: Scheming Commander  
-**Skills**: Battle Tactics, Deception  
-**Frailty**: Cowardly in Single Combat  
-**Gear**: Fine Armor, Loyal Warband  
-**Goal**: Usurp the jarl  
-**Motive**: Believes he deserves rulership  
+**Concept**: Scheming Commander\
+**Skills**: Battle Tactics, Deception\
+**Frailty**: Cowardly in Single Combat\
+**Gear**: Fine Armor, Loyal Warband\
+**Goal**: Usurp the jarl\
+**Motive**: Believes he deserves rulership\
 **Nemesis**: The jarl and his loyalists
 
 ### 13. Outlaw Band Leader
 
-**Concept**: Desperate Exile  
-**Skills**: Guerrilla Tactics, Survival  
-**Frailty**: Kinslayer (exiled for murder)  
-**Gear**: Stolen Weapons, Hidden Camp  
-**Goal**: Revenge on the jarl who outlawed him  
-**Motive**: Restore honor (or die trying)  
+**Concept**: Desperate Exile\
+**Skills**: Guerrilla Tactics, Survival\
+**Frailty**: Kinslayer (exiled for murder)\
+**Gear**: Stolen Weapons, Hidden Camp\
+**Goal**: Revenge on the jarl who outlawed him\
+**Motive**: Restore honor (or die trying)\
 **Nemesis**: Law-abiding society
 
 ### 14. Berserkr Warrior
 
-**Concept**: Unstoppable Fury  
-**Skills**: Battle Rage, Pain Immunity  
-**Frailty**: Cannot Control Rage  
-**Gear**: Bear Pelt, Massive Axe  
-**Goal**: Die gloriously in battle  
-**Motive**: Embrace the fury  
+**Concept**: Unstoppable Fury\
+**Skills**: Battle Rage, Pain Immunity\
+**Frailty**: Cannot Control Rage\
+**Gear**: Bear Pelt, Massive Axe\
+**Goal**: Die gloriously in battle\
+**Motive**: Embrace the fury\
 **Nemesis**: Anyone who challenges him
 
 ### 15. Scheming Kinsman
 
-**Concept**: Treacherous Cousin  
-**Skills**: Lies, Political Manipulation  
-**Frailty**: Physical Coward  
-**Gear**: Poison, False Smile  
-**Goal**: Inherit family land  
-**Motive**: Greed and jealousy  
+**Concept**: Treacherous Cousin\
+**Skills**: Lies, Political Manipulation\
+**Frailty**: Physical Coward\
+**Gear**: Poison, False Smile\
+**Goal**: Inherit family land\
+**Motive**: Greed and jealousy\
 **Nemesis**: The rightful heir (possibly you)
 
 ### 16. Vengeful Widow
 
-**Concept**: Bereaved Avenger  
-**Skills**: Determination, Public Speaking  
-**Frailty**: Consumed by Grief  
-**Gear**: Husband’s Sword, Blood-Debt Claim  
-**Goal**: Avenge husband’s death  
-**Motive**: Honor his memory  
+**Concept**: Bereaved Avenger\
+**Skills**: Determination, Public Speaking\
+**Frailty**: Consumed by Grief\
+**Gear**: Husband’s Sword, Blood-Debt Claim\
+**Goal**: Avenge husband’s death\
+**Motive**: Honor his memory\
 **Nemesis**: Her husband’s killer
 
 ### 21. Exiled Warrior
 
-**Concept**: Honorless Wanderer  
-**Skills**: Swordsmanship, Survival  
-**Frailty**: Broken by Shame  
-**Gear**: Worn Blade, Tattered Cloak  
-**Goal**: Redemption or death  
-**Motive**: Escape the weight of dishonor  
+**Concept**: Honorless Wanderer\
+**Skills**: Swordsmanship, Survival\
+**Frailty**: Broken by Shame\
+**Gear**: Worn Blade, Tattered Cloak\
+**Goal**: Redemption or death\
+**Motive**: Escape the weight of dishonor\
 **Nemesis**: His past
 
 ### 22. Christian Missionary
 
-**Concept**: Zealous Preacher  
-**Skills**: Persuasion, Latin Learning  
-**Frailty**: Cultural Outsider  
-**Gear**: Cross, Holy Book, Silver  
-**Goal**: Convert the pagans  
-**Motive**: Save souls (as he sees it)  
+**Concept**: Zealous Preacher\
+**Skills**: Persuasion, Latin Learning\
+**Frailty**: Cultural Outsider\
+**Gear**: Cross, Holy Book, Silver\
+**Goal**: Convert the pagans\
+**Motive**: Save souls (as he sees it)\
 **Nemesis**: The old gods and their followers
 
 ### 23. Slave Rebellion Leader
 
-**Concept**: Escaped Thrall  
-**Skills**: Stealth, Rallying Oppressed  
-**Frailty**: Branded (marked as slave)  
-**Gear**: Improvised Weapons, Hidden Followers  
-**Goal**: Free all slaves  
-**Motive**: Vengeance against masters  
+**Concept**: Escaped Thrall\
+**Skills**: Stealth, Rallying Oppressed\
+**Frailty**: Branded (marked as slave)\
+**Gear**: Improvised Weapons, Hidden Followers\
+**Goal**: Free all slaves\
+**Motive**: Vengeance against masters\
 **Nemesis**: Slave-owning society
 
 ### 24. Rival Skald
 
-**Concept**: Competing Saga-Teller  
-**Skills**: Verbal Combat, Memory  
-**Frailty**: Jealous of Your Fame  
-**Gear**: Harp, Scathing Verses  
-**Goal**: Destroy your reputation  
-**Motive**: Be the greatest skald  
+**Concept**: Competing Saga-Teller\
+**Skills**: Verbal Combat, Memory\
+**Frailty**: Jealous of Your Fame\
+**Gear**: Harp, Scathing Verses\
+**Goal**: Destroy your reputation\
+**Motive**: Be the greatest skald\
 **Nemesis**: You (rival for glory)
 
 ### 25. Jealous Rival
 
-**Concept**: Envious Competitor  
-**Skills**: Sabotage, Rumor-Spreading  
-**Frailty**: Lacks Courage  
-**Gear**: False Friends, Secret Schemes  
-**Goal**: See you fail  
-**Motive**: You have what they want  
+**Concept**: Envious Competitor\
+**Skills**: Sabotage, Rumor-Spreading\
+**Frailty**: Lacks Courage\
+**Gear**: False Friends, Secret Schemes\
+**Goal**: See you fail\
+**Motive**: You have what they want\
 **Nemesis**: Your success
 
 ### 26. Frankish Knight
 
-**Concept**: Armored Defender  
-**Skills**: Heavy Cavalry, Christian Zeal  
-**Frailty**: Slow in Rough Terrain  
-**Gear**: Plate Armor, Lance, Warhorse  
-**Goal**: Defend Christendom from heathens  
-**Motive**: Faith and duty  
+**Concept**: Armored Defender\
+**Skills**: Heavy Cavalry, Christian Zeal\
+**Frailty**: Slow in Rough Terrain\
+**Gear**: Plate Armor, Lance, Warhorse\
+**Goal**: Defend Christendom from heathens\
+**Motive**: Faith and duty\
 **Nemesis**: Viking raiders
 
 ### 31. Irish Monk-Warrior
 
-**Concept**: Holy Defender  
-**Skills**: Staff-Fighting, Scripture Knowledge  
-**Frailty**: Bound by Vows  
-**Gear**: Iron-Shod Staff, Holy Relic  
-**Goal**: Protect monastery  
-**Motive**: Faith in God  
+**Concept**: Holy Defender\
+**Skills**: Staff-Fighting, Scripture Knowledge\
+**Frailty**: Bound by Vows\
+**Gear**: Iron-Shod Staff, Holy Relic\
+**Goal**: Protect monastery\
+**Motive**: Faith in God\
 **Nemesis**: Pagan raiders
 
 ### 32. Saxon Thegn
 
-**Concept**: English Noble  
-**Skills**: Sword & Board, Leadership  
-**Frailty**: Hates All Norsemen  
-**Gear**: Fine Sword, Shield, Mail  
-**Goal**: Drive Vikings from England  
-**Motive**: Reclaim stolen lands  
+**Concept**: English Noble\
+**Skills**: Sword & Board, Leadership\
+**Frailty**: Hates All Norsemen\
+**Gear**: Fine Sword, Shield, Mail\
+**Goal**: Drive Vikings from England\
+**Motive**: Reclaim stolen lands\
 **Nemesis**: The Danelaw
 
 ### 33. Greedy Merchant
 
-**Concept**: Unscrupulous Trader  
-**Skills**: Negotiation, Deception  
-**Frailty**: Cowardly  
-**Gear**: Trade Goods, Hidden Dagger  
-**Goal**: Accumulate wealth  
-**Motive**: Greed  
+**Concept**: Unscrupulous Trader\
+**Skills**: Negotiation, Deception\
+**Frailty**: Cowardly\
+**Gear**: Trade Goods, Hidden Dagger\
+**Goal**: Accumulate wealth\
+**Motive**: Greed\
 **Nemesis**: Honest traders
 
 ### 34. Oath-Breaker
 
-**Concept**: Dishonored Warrior  
-**Skills**: Combat, Desperation  
-**Frailty**: Shunned by All  
-**Gear**: Broken Oath-Ring, Stolen Gear  
-**Goal**: Survive despite shame  
-**Motive**: Escape consequences  
+**Concept**: Dishonored Warrior\
+**Skills**: Combat, Desperation\
+**Frailty**: Shunned by All\
+**Gear**: Broken Oath-Ring, Stolen Gear\
+**Goal**: Survive despite shame\
+**Motive**: Escape consequences\
 **Nemesis**: Those he betrayed
 
 ### 35. Kinslayer
 
-**Concept**: Family Murderer  
-**Skills**: Stealth, Ruthlessness  
-**Frailty**: Haunted by the Dead  
-**Gear**: Blood-Stained Blade  
-**Goal**: Escape blood feud  
-**Motive**: Fear of vengeance  
+**Concept**: Family Murderer\
+**Skills**: Stealth, Ruthlessness\
+**Frailty**: Haunted by the Dead\
+**Gear**: Blood-Stained Blade\
+**Goal**: Escape blood feud\
+**Motive**: Fear of vengeance\
 **Nemesis**: Entire bloodline hunts him
 
 ### 36. Nithing (Outlaw)
 
-**Concept**: Declared Non-Person  
-**Skills**: Survival, Hiding  
-**Frailty**: May Be Killed Without Legal Consequence  
-**Gear**: Whatever he can scavenge  
-**Goal**: Survive exile  
-**Motive**: Hope for pardon  
+**Concept**: Declared Non-Person\
+**Skills**: Survival, Hiding\
+**Frailty**: May Be Killed Without Legal Consequence\
+**Gear**: Whatever he can scavenge\
+**Goal**: Survive exile\
+**Motive**: Hope for pardon\
 **Nemesis**: All lawful society
 
 ### 41. Völva (Hostile)
 
-**Concept**: Cursing Seeress  
-**Skills**: Seidr Magic, Prophecy  
-**Frailty**: Physically Frail  
-**Gear**: Staff, Bones, Ritual Herbs  
-**Goal**: Enact revenge through curses  
-**Motive**: Someone wronged her  
+**Concept**: Cursing Seeress\
+**Skills**: Seidr Magic, Prophecy\
+**Frailty**: Physically Frail\
+**Gear**: Staff, Bones, Ritual Herbs\
+**Goal**: Enact revenge through curses\
+**Motive**: Someone wronged her\
 **Nemesis**: Her target
 
 ### 42. Sami Shaman
 
-**Concept**: Northern Spirit-Speaker  
-**Skills**: Drum Magic, Nature Mastery  
-**Frailty**: Outsider to Norse Culture  
-**Gear**: Ritual Drum, Reindeer Hide  
-**Goal**: Protect his people  
-**Motive**: Vikings encroach on Sami lands  
+**Concept**: Northern Spirit-Speaker\
+**Skills**: Drum Magic, Nature Mastery\
+**Frailty**: Outsider to Norse Culture\
+**Gear**: Ritual Drum, Reindeer Hide\
+**Goal**: Protect his people\
+**Motive**: Vikings encroach on Sami lands\
 **Nemesis**: Norse settlers
 
 ### 43. Rival Goði
 
-**Concept**: Competing Chieftain-Priest  
-**Skills**: Law-Speaking, Authority  
-**Frailty**: Bound by Tradition  
-**Gear**: Oath-Ring, Temple Authority  
-**Goal**: Control the Thing  
-**Motive**: Political power  
+**Concept**: Competing Chieftain-Priest\
+**Skills**: Law-Speaking, Authority\
+**Frailty**: Bound by Tradition\
+**Gear**: Oath-Ring, Temple Authority\
+**Goal**: Control the Thing\
+**Motive**: Political power\
 **Nemesis**: Rival goðar
 
 ### 44. Blood-Feuding Clan
 
-**Concept**: Multi-Generational Vengeance  
-**Skills**: Organization, Numbers  
-**Frailty**: Consumed by Hatred  
-**Gear**: Warriors, Resources  
-**Goal**: Annihilate rival clan  
-**Motive**: Ancient grievance  
+**Concept**: Multi-Generational Vengeance\
+**Skills**: Organization, Numbers\
+**Frailty**: Consumed by Hatred\
+**Gear**: Warriors, Resources\
+**Goal**: Annihilate rival clan\
+**Motive**: Ancient grievance\
 **Nemesis**: The other clan
 
 ### 45. Pirate Captain
 
-**Concept**: Sea Raider  
-**Skills**: Naval Combat, Ruthlessness  
-**Frailty**: No Honor (even among Vikings)  
-**Gear**: Fast Ship, Desperate Crew  
-**Goal**: Plunder without rules  
-**Motive**: Wealth and freedom  
+**Concept**: Sea Raider\
+**Skills**: Naval Combat, Ruthlessness\
+**Frailty**: No Honor (even among Vikings)\
+**Gear**: Fast Ship, Desperate Crew\
+**Goal**: Plunder without rules\
+**Motive**: Wealth and freedom\
 **Nemesis**: All honest sailors
 
 ### 46. Byzantine Varangian
 
-**Concept**: Elite Guard  
-**Skills**: Axe-Fighting, Loyalty to Emperor  
-**Frailty**: Far from Home  
-**Gear**: Varangian Axe, Byzantine Armor  
-**Goal**: Serve with honor  
-**Motive**: Wealth and glory in foreign service  
+**Concept**: Elite Guard\
+**Skills**: Axe-Fighting, Loyalty to Emperor\
+**Frailty**: Far from Home\
+**Gear**: Varangian Axe, Byzantine Armor\
+**Goal**: Serve with honor\
+**Motive**: Wealth and glory in foreign service\
 **Nemesis**: Enemies of Byzantium
 
 ### 51. Draugr (Revenant)
 
-**Concept**: Undead Guardian  
-**Skills**: Superhuman Strength, Undying  
-**Frailty**: Bound to Burial Mound  
-**Gear**: Ancient Weapons, Cursed Treasure  
-**Goal**: Guard its hoard  
-**Motive**: Greed beyond death  
+**Concept**: Undead Guardian\
+**Skills**: Superhuman Strength, Undying\
+**Frailty**: Bound to Burial Mound\
+**Gear**: Ancient Weapons, Cursed Treasure\
+**Goal**: Guard its hoard\
+**Motive**: Greed beyond death\
 **Nemesis**: Grave-robbers
 
 ### 52. Troll
 
-**Concept**: Mountain Monster  
-**Skills**: Brute Strength, Stone Skin  
-**Frailty**: Weak to Sunlight  
-**Gear**: Boulders, Clubs  
-**Goal**: Eat humans  
-**Motive**: Hunger  
+**Concept**: Mountain Monster\
+**Skills**: Brute Strength, Stone Skin\
+**Frailty**: Weak to Sunlight\
+**Gear**: Boulders, Clubs\
+**Goal**: Eat humans\
+**Motive**: Hunger\
 **Nemesis**: Daylight
 
 ### 53. Landvættir (Angry Spirit)
 
-**Concept**: Territorial Guardian  
-**Skills**: Curse-Weaving, Local Mastery  
-**Frailty**: Cannot Leave Its Domain  
-**Gear**: None (spiritual)  
-**Goal**: Drive intruders away  
-**Motive**: Protect sacred place  
+**Concept**: Territorial Guardian\
+**Skills**: Curse-Weaving, Local Mastery\
+**Frailty**: Cannot Leave Its Domain\
+**Gear**: None (spiritual)\
+**Goal**: Drive intruders away\
+**Motive**: Protect sacred place\
 **Nemesis**: Settlers and desecrators
 
 ### 54. Haugbúi (Barrow-Dweller)
 
-**Concept**: Intelligent Undead  
-**Skills**: Bargaining, Curses  
-**Frailty**: Bound to Grave  
-**Gear**: Ancient Treasures  
-**Goal**: Rest undisturbed  
-**Motive**: Protect burial hoard  
+**Concept**: Intelligent Undead\
+**Skills**: Bargaining, Curses\
+**Frailty**: Bound to Grave\
+**Gear**: Ancient Treasures\
+**Goal**: Rest undisturbed\
+**Motive**: Protect burial hoard\
 **Nemesis**: Those who disturb its rest
 
 ### 55. Mare (Nightmare Spirit)
 
-**Concept**: Dream-Stalker  
-**Skills**: Sleep Paralysis, Fear  
-**Frailty**: Powerless Against Waking  
-**Gear**: None (ethereal)  
-**Goal**: Feed on terror  
-**Motive**: Malevolent nature  
+**Concept**: Dream-Stalker\
+**Skills**: Sleep Paralysis, Fear\
+**Frailty**: Powerless Against Waking\
+**Gear**: None (ethereal)\
+**Goal**: Feed on terror\
+**Motive**: Malevolent nature\
 **Nemesis**: Iron, prayers, rowan wood
 
 ### 56. Huldra (Forest Spirit)
 
-**Concept**: Deceptive Beauty  
-**Skills**: Glamour, Seduction  
-**Frailty**: Hollow Back (reveals true form)  
-**Gear**: None (shapeshifter)  
-**Goal**: Lure men to doom  
-**Motive**: Nature’s vengeance on humans  
+**Concept**: Deceptive Beauty\
+**Skills**: Glamour, Seduction\
+**Frailty**: Hollow Back (reveals true form)\
+**Gear**: None (shapeshifter)\
+**Goal**: Lure men to doom\
+**Motive**: Nature’s vengeance on humans\
 **Nemesis**: Those who see through glamour
 
 ### 61. Nøkk (Water Spirit)
 
-**Concept**: Lake Predator  
-**Skills**: Shapeshifting, Drowning  
-**Frailty**: Cannot Leave Water  
-**Gear**: None (spiritual)  
-**Goal**: Drown the living  
-**Motive**: Malicious nature  
+**Concept**: Lake Predator\
+**Skills**: Shapeshifting, Drowning\
+**Frailty**: Cannot Leave Water\
+**Gear**: None (spiritual)\
+**Goal**: Drown the living\
+**Motive**: Malicious nature\
 **Nemesis**: Dry land
 
 ### 62. Jötunn (Giant-Kin)
 
-**Concept**: Ancient Enemy  
-**Skills**: Massive Size, Ice Magic  
-**Frailty**: Slow, Ancient Grudges  
-**Gear**: Boulder-Sized Weapons  
-**Goal**: Destroy human settlements  
-**Motive**: Hatred of mortals  
+**Concept**: Ancient Enemy\
+**Skills**: Massive Size, Ice Magic\
+**Frailty**: Slow, Ancient Grudges\
+**Gear**: Boulder-Sized Weapons\
+**Goal**: Destroy human settlements\
+**Motive**: Hatred of mortals\
 **Nemesis**: Thor and his followers
 
 ### 63. Fenrisúlfr (Great Wolf)
 
-**Concept**: Monstrous Predator  
-**Skills**: Unstoppable Hunting, Fear  
-**Frailty**: Bound by Destiny  
-**Gear**: None (natural weapons)  
-**Goal**: Hunt and devour  
-**Motive**: Hunger and rage  
+**Concept**: Monstrous Predator\
+**Skills**: Unstoppable Hunting, Fear\
+**Frailty**: Bound by Destiny\
+**Gear**: None (natural weapons)\
+**Goal**: Hunt and devour\
+**Motive**: Hunger and rage\
 **Nemesis**: The gods
 
 ### 64. Shape-Shifter (Hostile)
 
-**Concept**: Hamramr Sorcerer  
-**Skills**: Beast Form, Stealth  
-**Frailty**: Vulnerable While Sleeping  
-**Gear**: Hidden Human Form  
-**Goal**: Hunt without detection  
-**Motive**: Cursed nature  
+**Concept**: Hamramr Sorcerer\
+**Skills**: Beast Form, Stealth\
+**Frailty**: Vulnerable While Sleeping\
+**Gear**: Hidden Human Form\
+**Goal**: Hunt without detection\
+**Motive**: Cursed nature\
 **Nemesis**: Those who discover the truth
 
 ### 65. Cursed Warrior
 
-**Concept**: Living Curse  
-**Skills**: Unstoppable Combat, Pain Immunity  
-**Frailty**: Curse Spreads to Others  
-**Gear**: Cursed Weapon  
-**Goal**: Die (but cannot)  
-**Motive**: End the curse  
+**Concept**: Living Curse\
+**Skills**: Unstoppable Combat, Pain Immunity\
+**Frailty**: Curse Spreads to Others\
+**Gear**: Cursed Weapon\
+**Goal**: Die (but cannot)\
+**Motive**: End the curse\
 **Nemesis**: The one who cursed him
 
 ### 66. Níðhöggr’s Spawn (Serpent)
 
-**Concept**: World-Serpent’s Child  
-**Skills**: Poison, Crushing Coils  
-**Frailty**: Arrogant  
-**Gear**: None (natural weapons)  
-**Goal**: Consume all  
-**Motive**: Inherited malice  
+**Concept**: World-Serpent’s Child\
+**Skills**: Poison, Crushing Coils\
+**Frailty**: Arrogant\
+**Gear**: None (natural weapons)\
+**Goal**: Consume all\
+**Motive**: Inherited malice\
 **Nemesis**: Heroes and dragon-slayers
 
 ## ADVENTURE TABLES: THE THREADS OF SAGA

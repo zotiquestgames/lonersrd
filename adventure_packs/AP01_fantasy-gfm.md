@@ -1,6 +1,6 @@
 # Fantasy Adventure Pack
 Roberto Bisceglie
-2026-07-20
+2026-07-25
 
 # Fantasy Adventure Pack
 
@@ -195,68 +195,67 @@ core rules.
 
 ### The Crown of Thorns
 
-- **Concept:** Embattled Monarch  
-- **Skills:** Command, Court Intrigue  
-- **Frailty:** Haunted by ancestral failure  
-- **Gear:** Fractured crown, blood-bound seal  
-- **Goal:** Preserve the throne and unify the splintered provinces  
-- **Motive:** Restore the glory of a broken lineage  
+- **Concept:** Embattled Monarch\
+- **Skills:** Command, Court Intrigue\
+- **Frailty:** Haunted by ancestral failure\
+- **Gear:** Fractured crown, blood-bound seal\
+- **Goal:** Preserve the throne and unify the splintered provinces\
+- **Motive:** Restore the glory of a broken lineage\
 - **Nemesis:** The Thornless Pact — a coalition of rebel nobles and
   exiled bloodlines
 
 ### The Umbral Synod
 
-- **Concept:** Shadowbound Sorcerer  
-- **Skills:** Forbidden Lore, Ritual Magic  
-- **Frailty:** Feared even by allies  
-- **Gear:** Black-inked grimoire, silver-masked face  
+- **Concept:** Shadowbound Sorcerer\
+- **Skills:** Forbidden Lore, Ritual Magic\
+- **Frailty:** Feared even by allies\
+- **Gear:** Black-inked grimoire, silver-masked face\
 - **Goal:** To control the Wild Magic zones and unlock their ancient
-  power  
-- **Motive:** Rewrite magical law by unearthing what the College
-  buried  
+  power\
+- **Motive:** Rewrite magical law by unearthing what the College buried\
 - **Nemesis:** The Severed Circle (the official Wizarding College, now
   fragmented)
 
 ### The Order of the Hollow Flame
 
-- **Concept:** Knight of the Vanished Oath  
-- **Skills:** Swordplay, Devotion  
-- **Frailty:** Bound by obsolete vows  
-- **Gear:** Broken sigil, sanctified blade  
-- **Goal:** Seek the rebirth of the old gods through sacred relics  
-- **Motive:** Redemption through divine fire  
+- **Concept:** Knight of the Vanished Oath\
+- **Skills:** Swordplay, Devotion\
+- **Frailty:** Bound by obsolete vows\
+- **Gear:** Broken sigil, sanctified blade\
+- **Goal:** Seek the rebirth of the old gods through sacred relics\
+- **Motive:** Redemption through divine fire\
 - **Nemesis:** The Crown, who branded them heretics after the fall of
   the Southern Church
 
 ### The Wyrmglaive Compact
 
-- **Concept:** Relic-Bound Merchant-Knights  
-- **Skills:** Tradecraft, Artifact Handling  
-- **Frailty:** Addicted to wyrm-blood relics  
-- **Gear:** Carved bone tokens, glowing lockboxes  
-- **Goal:** Control the relic trade through diplomacy and sabotage  
-- **Motive:** Power through forgotten technologies  
+- **Concept:** Relic-Bound Merchant-Knights\
+- **Skills:** Tradecraft, Artifact Handling\
+- **Frailty:** Addicted to wyrm-blood relics\
+- **Gear:** Carved bone tokens, glowing lockboxes\
+- **Goal:** Control the relic trade through diplomacy and sabotage\
+- **Motive:** Power through forgotten technologies\
 - **Nemesis:** Wandering relic hunters and the Adventurers Guild
   offshoots
 
 ### The Briar Assembly
 
-- **Concept:** Druidic Agitator  
-- **Skills:** Herbalism, Beast Speech  
-- **Frailty:** Hunted by both nobles and witches  
-- **Gear:** Briarthorn staff, root-scribed scrolls  
-- **Goal:** Rewild Aldorath and tear down the blood-fueled empires  
-- **Motive:** Revenge for the old forest massacres  
+- **Concept:** Druidic Agitator\
+- **Skills:** Herbalism, Beast Speech\
+- **Frailty:** Hunted by both nobles and witches\
+- **Gear:** Briarthorn staff, root-scribed scrolls\
+- **Goal:** Rewild Aldorath and tear down the blood-fueled empires\
+- **Motive:** Revenge for the old forest massacres\
 - **Nemesis:** The Noble Houses who scorched the wilds for expansion
 
 ### The Vault of Echoes
 
-- **Concept:** Lorekeeper of the Deep Archive  
-- **Skills:** Memory Binding, Lost Languages  
-- **Frailty:** Bound by secrecy  
-- **Gear:** Whisperstones, veiled faceplate  
-- **Goal:** Preserve and censor the truths of Aldorath’s past  
-- **Motive:** Knowledge is power — and silence is safety  
+- **Concept:** Lorekeeper of the Deep Archive\
+- **Skills:** Memory Binding, Lost Languages\
+- **Frailty:** Bound by secrecy\
+- **Gear:** Whisperstones, veiled faceplate\
+- **Goal:** Preserve and censor the truths of Aldorath’s past\
+- **Motive:** Knowledge is power — and silence is safety\
 - **Nemesis:** Any who seek to awaken buried truths, especially solo
   heroes
 
@@ -264,134 +263,134 @@ core rules.
 
 ### King Vaelor the Thornbound
 
-- **Concept:** Cursed Heir  
-- **Skills:** Command, Heraldry  
-- **Frailty:** Bound by blood-pact to an ancient oath  
-- **Gear:** Thorn-cracked crown, obsidian signet  
-- **Goal:** Unify the provinces before civil war erupts  
-- **Motive:** To redeem the broken legacy of his forebears  
+- **Concept:** Cursed Heir\
+- **Skills:** Command, Heraldry\
+- **Frailty:** Bound by blood-pact to an ancient oath\
+- **Gear:** Thorn-cracked crown, obsidian signet\
+- **Goal:** Unify the provinces before civil war erupts\
+- **Motive:** To redeem the broken legacy of his forebears\
 - **Nemesis:** The Thornless Pact — nobles who claim his bloodline is
   illegitimate
 
 ### Magister Syrenth of the Umbral Synod
 
-- **Concept:** Pale Archivist  
-- **Skills:** Forbidden Lore, Memory Extraction  
-- **Frailty:** Withers in sunlight  
-- **Gear:** Black veil, chained tome of echoes  
-- **Goal:** Seize control of all Wild Magic zones  
-- **Motive:** To unlock the true origin of magic — no matter the cost  
+- **Concept:** Pale Archivist\
+- **Skills:** Forbidden Lore, Memory Extraction\
+- **Frailty:** Withers in sunlight\
+- **Gear:** Black veil, chained tome of echoes\
+- **Goal:** Seize control of all Wild Magic zones\
+- **Motive:** To unlock the true origin of magic — no matter the cost\
 - **Nemesis:** The Severed Circle, who exiled her after the Hollow Flame
   Incident
 
 ### Sir Kaelen of the Hollow Flame
 
-- **Concept:** Burnt Knight  
-- **Skills:** Bladecraft, Mysticism  
-- **Frailty:** Haunted by divine visions  
-- **Gear:** Ash-tempered blade, cracked saint’s mask  
-- **Goal:** Recover the lost relic of Saint Variel  
-- **Motive:** Redemption for past sins in the last crusade  
+- **Concept:** Burnt Knight\
+- **Skills:** Bladecraft, Mysticism\
+- **Frailty:** Haunted by divine visions\
+- **Gear:** Ash-tempered blade, cracked saint’s mask\
+- **Goal:** Recover the lost relic of Saint Variel\
+- **Motive:** Redemption for past sins in the last crusade\
 - **Nemesis:** The Crown, which outlawed his order and razed its
   monasteries
 
 ### Vel Harrowglass
 
-- **Concept:** Relic-Syndicate Broker  
-- **Skills:** Negotiation, Artifact Appraisal  
-- **Frailty:** Relies on wyrm-blood infusion to survive  
-- **Gear:** Gilded spine-brace, vial of wyrm ichor  
-- **Goal:** Corner the trade in pre-collapse artifacts  
-- **Motive:** Maintain power in the Wyrmglaive Compact  
+- **Concept:** Relic-Syndicate Broker\
+- **Skills:** Negotiation, Artifact Appraisal\
+- **Frailty:** Relies on wyrm-blood infusion to survive\
+- **Gear:** Gilded spine-brace, vial of wyrm ichor\
+- **Goal:** Corner the trade in pre-collapse artifacts\
+- **Motive:** Maintain power in the Wyrmglaive Compact\
 - **Nemesis:** Freelance treasure-hunters who reject the Compact’s
   monopoly
 
 ### Mother Talia of the Briar Assembly
 
-- **Concept:** Forest Prophet  
-- **Skills:** Beast Command, Poisoncraft  
+- **Concept:** Forest Prophet\
+- **Skills:** Beast Command, Poisoncraft\
 - **Frailty:** Marked by an ancient curse — cannot enter stone
-  dwellings  
-- **Gear:** Crown of antlers, living roots around her arms  
+  dwellings\
+- **Gear:** Crown of antlers, living roots around her arms\
 - **Goal:** Collapse Aldorath’s city-states and return the land to wild
-  law  
-- **Motive:** Revenge for the burning of the Greywood  
+  law\
+- **Motive:** Revenge for the burning of the Greywood\
 - **Nemesis:** The Noble Houses that still cull the wilds for lumber and
   fuel
 
 ### Keeper Ysryn of the Vault of Echoes
 
-- **Concept:** Oracle of the Lost Pages  
-- **Skills:** Ancient Tongues, Truth Concealment  
-- **Frailty:** Her memories are not her own  
-- **Gear:** Whisperstone ring, mask of silent iron  
-- **Goal:** Preserve dangerous truths without allowing their use  
-- **Motive:** Prevent Aldorath from repeating its buried history  
+- **Concept:** Oracle of the Lost Pages\
+- **Skills:** Ancient Tongues, Truth Concealment\
+- **Frailty:** Her memories are not her own\
+- **Gear:** Whisperstone ring, mask of silent iron\
+- **Goal:** Preserve dangerous truths without allowing their use\
+- **Motive:** Prevent Aldorath from repeating its buried history\
 - **Nemesis:** Any who dig too deep — especially lone adventurers
 
 ## Monsters
 
 ### Elder Wyrm
 
-- **Concept:** Ancient Dragon of the First Age  
-- **Skills:** Flame torrent, Winged flight  
+- **Concept:** Ancient Dragon of the First Age\
+- **Skills:** Flame torrent, Winged flight\
 - **Frailty:** Vulnerable to cold-forged weapons and ancient binding
-  rites  
+  rites\
 - **Gear:** Crystal-plated scales, hoard of relic-gold and cursed
-  crowns  
-- **Goal:** Guard its lair and slumbering clutch  
-- **Motive:** To endure, outlast, and rule forgotten skyholds  
+  crowns\
+- **Goal:** Guard its lair and slumbering clutch\
+- **Motive:** To endure, outlast, and rule forgotten skyholds\
 - **Nemesis:** Skyship raiders, relic-hunters, and rebellious wyrmlings
 
 ### Bloodfang Orc
 
-- **Concept:** Warlord of the Blasted Steppes  
-- **Skills:** Axe mastery, Battle frenzy  
-- **Frailty:** Superstitious dread of divine symbols  
-- **Gear:** Crude iron armor, twin war axes, totem of bone  
-- **Goal:** Lead raids into the fertile provinces of Aldorath  
-- **Motive:** Conquest to feed the clans and shatter noble lines  
+- **Concept:** Warlord of the Blasted Steppes\
+- **Skills:** Axe mastery, Battle frenzy\
+- **Frailty:** Superstitious dread of divine symbols\
+- **Gear:** Crude iron armor, twin war axes, totem of bone\
+- **Goal:** Lead raids into the fertile provinces of Aldorath\
+- **Motive:** Conquest to feed the clans and shatter noble lines\
 - **Nemesis:** Border paladins, mercenary guilds, and river-fort
   militias
 
 ### Feral Goblin
 
-- **Concept:** Relic-Scavenger and Saboteur  
-- **Skills:** Guerilla tactics, Trapcraft  
-- **Frailty:** Startled by sudden brightness or loud sound  
-- **Gear:** Bone darts, trap kits, stolen scraps  
-- **Goal:** Pillage ruins and caravans undetected  
-- **Motive:** Survival in numbers, mischief as instinct  
+- **Concept:** Relic-Scavenger and Saboteur\
+- **Skills:** Guerilla tactics, Trapcraft\
+- **Frailty:** Startled by sudden brightness or loud sound\
+- **Gear:** Bone darts, trap kits, stolen scraps\
+- **Goal:** Pillage ruins and caravans undetected\
+- **Motive:** Survival in numbers, mischief as instinct\
 - **Nemesis:** Town watch, traveling clerics, lightbearers
 
 ### Blight-Risen
 
-- **Concept:** Contagious Undead Husk  
-- **Skills:** Undying body, Plague bite  
-- **Frailty:** Fire, consecrated ground  
-- **Gear:** Rotting flesh, plague stench  
-- **Goal:** Spread the necrotic blight or serve a necromancer  
-- **Motive:** Hunger, or compelled service  
+- **Concept:** Contagious Undead Husk\
+- **Skills:** Undying body, Plague bite\
+- **Frailty:** Fire, consecrated ground\
+- **Gear:** Rotting flesh, plague stench\
+- **Goal:** Spread the necrotic blight or serve a necromancer\
+- **Motive:** Hunger, or compelled service\
 - **Nemesis:** Flamebearers, gravekeepers, warded shrines
 
 ### The Stone-Eyed Matron
 
-- **Concept:** Isolated Gorgon Priestess  
-- **Skills:** Petrifying gaze, Serpentine agility  
-- **Frailty:** Mirrors, direct sunlight  
-- **Gear:** Snake hair, obsidian bracelets, garden of statues  
-- **Goal:** To build a sanctuary of stone and silence  
-- **Motive:** To be revered, left in peace, and eternally feared  
+- **Concept:** Isolated Gorgon Priestess\
+- **Skills:** Petrifying gaze, Serpentine agility\
+- **Frailty:** Mirrors, direct sunlight\
+- **Gear:** Snake hair, obsidian bracelets, garden of statues\
+- **Goal:** To build a sanctuary of stone and silence\
+- **Motive:** To be revered, left in peace, and eternally feared\
 - **Nemesis:** Curse-breakers, mirror-knights, temple inquisitors
 
 ### Pale Wraith
 
-- **Concept:** Soul-Eater of the Forgotten Crypts  
-- **Skills:** Phasing, Vital drain  
-- **Frailty:** Radiant energy, sacred sigils  
-- **Gear:** Shroud of memory, death-chill aura  
-- **Goal:** To devour the warmth of the living  
-- **Motive:** Hunger eternal or the will of its summoner  
+- **Concept:** Soul-Eater of the Forgotten Crypts\
+- **Skills:** Phasing, Vital drain\
+- **Frailty:** Radiant energy, sacred sigils\
+- **Gear:** Shroud of memory, death-chill aura\
+- **Goal:** To devour the warmth of the living\
+- **Motive:** Hunger eternal or the will of its summoner\
 - **Nemesis:** Holy relic bearers, lightcasters, dawnblades
 
 ## Locations
@@ -401,9 +400,9 @@ core rules.
 - The jewel of Aldorath, where spires and domes rise behind fortified
   walls. Home to the **Crown of Thorns**, the **Severed Circle**, and
   the last remaining Temple of the Hollow Flame. Its streets are crowded
-  with masked envoys, relic smugglers, and whispering spies.  
+  with masked envoys, relic smugglers, and whispering spies.\
 - Beneath its surface lie catacombs older than the kingdom, sealed and
-  forgotten by decree.  
+  forgotten by decree.\
 - Possible encounters: **King Vaelor**, **Keeper Ysryn**, **Magister
   Syrenth in disguise**, agents of the **Vault of Echoes**
 
@@ -411,8 +410,8 @@ core rules.
 
 - A scorched peak wreathed in stormclouds. The lair of an **Elder
   Wyrm**, its hoard buried in molten stone and bone. Fabled as one of
-  the Seven Watchers who once ruled the skies in the First Age.  
-- Few reach the peak — fewer return.  
+  the Seven Watchers who once ruled the skies in the First Age.\
+- Few reach the peak — fewer return.\
 - Possible encounters: The **Elder Wyrm**, relic-thirsty knights of the
   **Wyrmglaive Compact**, cursed echoes of past challengers
 
@@ -421,8 +420,8 @@ core rules.
 - Twisted trees, half-alive, grow over ruined altars and moss-cloaked
   idols. Here, the **Briar Assembly** whispers to beasts and
   root-spirits. The deeper paths shift, and time itself feels wrong
-  beneath the canopy.  
-- Many believe the forest watches intruders. Some say it remembers.  
+  beneath the canopy.\
+- Many believe the forest watches intruders. Some say it remembers.\
 - Possible encounters: **Mother Talia**, **Medusa**, **Pale Wraith**,
   roaming goblins, lost pilgrims
 
@@ -430,8 +429,8 @@ core rules.
 
 - Not a castle, but a **cracked and brooding manor** perched over a
   sinkhole. Lord Blackwood is long dead, but **his bloodline was never
-  ended** — and his spirit may yet speak.  
-- The Hollow is both a haunted estate and a political ruin.  
+  ended** — and his spirit may yet speak.\
+- The Hollow is both a haunted estate and a political ruin.\
 - Possible encounters: **Descendants of the Blackwood Pact**,
   **Wraiths**, secret cults of the **Thornless Pact**
 
@@ -439,9 +438,9 @@ core rules.
 
 - Once the great tower of the unified College, now fractured into rival
   arcane halls. Forbidden sections are chained shut, while magical
-  constructs patrol the old vaults.  
+  constructs patrol the old vaults.\
 - The **Umbral Synod** was exiled from here — but some say their agents
-  remain.  
+  remain.\
 - Possible encounters: **Archmage Alaric’s successor**, ambitious
   students, secretive keepers of the **Vault of Echoes**
 
@@ -449,8 +448,8 @@ core rules.
 
 - Deep in the earth, overgrown and collapsed, lie the remnants of the
   **pre-collapse civilization** that once ruled Aldorath. Wards still
-  flicker, though the architects are long dead.  
-- It’s said even the **Vault of Echoes** fears what lies at its core.  
+  flicker, though the architects are long dead.\
+- It’s said even the **Vault of Echoes** fears what lies at its core.\
 - Possible encounters: **Orc warbands**, **Blight-Risen**, relic
   guardians, **Vel Harrowglass’s agents**, traps that whisper
 

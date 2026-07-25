@@ -1,6 +1,6 @@
 # Loner: World Builder’s Guide
 Roberto Bisceglie
-2026-07-20
+2026-07-25
 
 # Loner: World Builder’s Guide
 
@@ -13,13 +13,13 @@ events unfold naturally through solo play.
 In these pages, you’ll find tools to help you:
 
 - **Develop a Setting** – Shape unique worlds, from neon-lit cyberpunk
-  sprawls to ancient, mythic landscapes.  
+  sprawls to ancient, mythic landscapes.\
 - **Create Character Archetypes** – Design protagonists, antagonists,
-  and allies with layered motivations and personal stakes.  
+  and allies with layered motivations and personal stakes.\
 - **Build Locations & Story Hooks** – Populate your world with places
-  rich in history, conflict, and opportunities for discovery.  
+  rich in history, conflict, and opportunities for discovery.\
 - **Adapt Existing Settings** – Translate stories from books, films, and
-  RPGs into engaging solo experiences.  
+  RPGs into engaging solo experiences.\
 - **Make It All Interactive** – Connect these elements in ways that make
   the world react and evolve as you play.
 
@@ -56,27 +56,27 @@ The first step in building a setting is understanding its **theme and
 genre**. This defines the “rules” of the world — its expectations,
 aesthetics, and the types of challenges your protagonist will face.
 
-- **What defines this world?**  
+- **What defines this world?**\
   Is it grounded in realism or filled with the impossible? Does it lean
   on ancient mysticism, cutting-edge technology, or a blend of both?
   Start with a broad idea — *a flooded world where the last cities float
   above the waves* or *a fractured reality where memories shape the
   landscape* — and refine from there.
 
-- **What genre does it fall into?**  
+- **What genre does it fall into?**\
   Classic genres like **high fantasy, cyberpunk, cosmic horror,
   post-apocalypse, or space opera** provide familiar structures. But
   settings can also blend genres — *steampunk eldritch horror*, *western
   noir*, *solarpunk detective fiction* — to create something unique.
 
-- **How do genre conventions shape the story?**  
+- **How do genre conventions shape the story?**\
   A *dark fantasy* setting may have a grim, tragic tone where magic is
   dangerous and costly. A *hopepunk* setting might focus on communities
   resisting oppression, where resilience is a theme. Knowing the genre
   helps shape what kind of challenges, victories, and defeats your
   protagonist might experience.
 
-- **Does it embrace or subvert tropes?**  
+- **Does it embrace or subvert tropes?**\
   A traditional fantasy world might have heroic knights and tyrannical
   sorcerers — but what if it’s the knights who are corrupt, and the
   sorcerers are the last defenders of justice? Twisting genre
@@ -113,27 +113,27 @@ of movement that affects its inhabitants. Identifying the **central
 conflict** in your setting helps define what kind of challenges your
 protagonist will face.
 
-- **What is the world’s core struggle?**  
+- **What is the world’s core struggle?**\
   A world without conflict is a world without story. What drives
   tension? Is it a **war**, an **oppressive government**, a **resource
   crisis**, or **an ancient prophecy slowly unraveling**? Even if the
   conflict isn’t immediately apparent, it should affect the world in
   some way.
 
-- **How visible is the conflict?**  
+- **How visible is the conflict?**\
   Is it something obvious, like open war or societal collapse? Or is it
   hidden — whispers of rebellion, an unexplained sickness spreading
   through the land, or an unknown cosmic force altering reality
   unnoticed? Some settings thrive on *subtle, creeping dread*, while
   others throw conflict into the foreground.
 
-- **How does this conflict shape daily life?**  
+- **How does this conflict shape daily life?**\
   Is it something everyone knows and talks about, or something only a
   few understand? Does it force people to take sides, adapt, or fight
   for survival? A setting where war is ever-present feels different from
   one where an old threat is slowly waking after centuries of peace.
 
-- **How does it impact the protagonist?**  
+- **How does it impact the protagonist?**\
   The conflict should always be relevant to your protagonist, even if
   they don’t initially realize it. Are they caught in the middle of an
   ongoing struggle, or are they an outsider looking in? Are they
@@ -157,7 +157,7 @@ The **tone and mood** of your setting dictate how the world feels. It
 affects how challenges are presented, how NPCs interact, and the overall
 emotional weight of the story.
 
-- **What kind of atmosphere does this world evoke?**  
+- **What kind of atmosphere does this world evoke?**\
   Does it feel *vibrant and full of wonder*, like a vast fantasy realm
   teeming with adventure? Or is it *tense and suffocating*, like a
   crumbling society on the verge of collapse? Consider if the world is
@@ -165,20 +165,20 @@ emotional weight of the story.
   major shift**—each mood carries different narrative weight and
   emotional texture.
 
-- **What emotions should the player feel?**  
+- **What emotions should the player feel?**\
   Should the experience spark *awe and curiosity*, *tension and unease*,
   or *urgency and exhilaration*? A strong setting stirs the player’s
   emotional core—whether through the stillness of a derelict station
   echoing with secrets or the charged atmosphere of a society on the
   brink of revolt.
 
-- **Does the world encourage hope or despair?**  
+- **Does the world encourage hope or despair?**\
   In some settings, **the world can be saved** — people fight back,
   there is light at the end of the tunnel. In others, **entropy is
   inevitable** — civilization is crumbling, the gods are dead, and the
   protagonist is simply trying to survive as long as possible.
 
-- **How does the mood shape the way stories unfold?**  
+- **How does the mood shape the way stories unfold?**\
   A *lighthearted, swashbuckling* setting will have different challenges
   than a *cold, post-apocalyptic wasteland*. In one, characters might
   leap across rooftops in daring escapes; in the other, they might
@@ -198,17 +198,17 @@ The protagonist is the lens through which the player experiences the
 setting. Their place in the world influences how they interact with it,
 what conflicts they face, and how they navigate challenges.
 
-- **What kinds of people exist in this world?**  
+- **What kinds of people exist in this world?**\
   Is it a place of warriors and sorcerers, smugglers and rebels,
   explorers and scientists? What types of individuals rise to
   prominence, and which are ignored or cast aside?
 
-- **Is the protagonist part of the world or an outsider?**  
+- **Is the protagonist part of the world or an outsider?**\
   Are they embedded in its culture, or do they stand apart from it? Are
   they a **renegade breaking free from a corrupt society**, a **scholar
   uncovering lost knowledge**, or simply **someone trying to survive**?
 
-- **Are they an agent of change or a reluctant participant?**  
+- **Are they an agent of change or a reluctant participant?**\
   Some protagonists **drive** the story forward — they are
   revolutionaries, explorers, or investigators drawn into danger. Others
   simply **react** — survivors, refugees, or mercenaries who get caught
@@ -229,21 +229,21 @@ allowing players to explore settings that subvert expectations.
 Combining different genres forces unique thematic and mechanical
 challenges, resulting in worlds that feel both novel and immersive.
 
-- **What core elements define each genre?**  
+- **What core elements define each genre?**\
   Understanding the fundamental tropes and aesthetics of a genre is key
   to successfully blending it with another. What defines a *western*?
   What makes *horror* unsettling? Identifying these foundations will
   help create a setting that maintains coherence while embracing its
   hybrid nature.
 
-- **How do genres complement or contrast?**  
+- **How do genres complement or contrast?**\
   Some genres naturally enhance each other, such as *steampunk noir*,
   where technological advancements create an atmosphere of mystery and
   corruption. Others, like *horror western*, require balance — ensuring
   that the supernatural elements don’t overpower the desolate, lawless
   frontier setting but instead amplify its tension.
 
-- **How does the protagonist fit into this hybrid world?**  
+- **How does the protagonist fit into this hybrid world?**\
   The blending of genres should directly impact the protagonist’s role.
   A *horror western* might feature a wandering gunslinger who
   unknowingly hunts creatures beyond human understanding, while a
@@ -281,11 +281,11 @@ the protagonist’s place** — and let the specifics emerge through play.
 - **Leave gaps for discovery.** Instead of detailing every kingdom,
   define just one or two and let the rest take shape when the story
   demands it. Instead of writing a full timeline, focus on a **single
-  pivotal event** that shaped the world.  
+  pivotal event** that shaped the world.\
 - **Define what makes the world unique.** If there’s magic, how does it
   work? If it’s a sci-fi setting, what’s the technological level? If
   it’s a horror setting, what are the rules of the unknown? A few core
-  principles will do more for immersion than pages of lore.  
+  principles will do more for immersion than pages of lore.\
 - **Start with a mystery, not an answer.** What’s something about the
   world that **even its inhabitants don’t fully understand**? A lost
   civilization, a missing colony ship, a prophecy no one believes in
@@ -315,11 +315,11 @@ shifts, and surprises**.
   just describe their **history** — define what they want and what
   they’re willing to do to get it. A secretive mage cabal is more
   interesting when you know **they’ve just lost one of their most
-  dangerous artifacts** and will stop at nothing to retrieve it.  
+  dangerous artifacts** and will stop at nothing to retrieve it.\
 - **Actions should have consequences.** If the protagonist kills a crime
   lord, does a power vacuum emerge? If they expose a secret, do others
   take notice? Let the world respond dynamically so choices feel
-  meaningful.  
+  meaningful.\
 - **Nothing is static.** A ruined city might have once been abandoned,
   but what if new settlers have begun to reclaim it? A planet once
   thought lifeless might suddenly show signs of activity. Worlds that
@@ -341,10 +341,10 @@ shift, and unknowns waiting to be discovered.
 
 - **What power struggles exist?** Are factions on the brink of war? Are
   old rulers being replaced by new ones? Who is gaining or losing
-  influence?  
+  influence?\
 - **What is being uncovered?** Are lost civilizations being
   rediscovered? Is forbidden technology resurfacing? Is an old mystery
-  finally being solved?  
+  finally being solved?\
 - **What is changing?** Is magic returning after centuries of dormancy?
   Is an empire crumbling? Is an apocalyptic event unfolding in slow
   motion?
@@ -384,7 +384,7 @@ environmental changes**.
 
   - *“Has the ruling council lost control over the city?”* → If the
     answer is *Yes, and…*, perhaps a rival faction moves in, changing
-    the landscape.  
+    the landscape.\
   - *“Does the underground rebellion successfully disrupt the
     government?”* → If the answer is *No, but…*, maybe they fail, but
     new splinter groups emerge, creating tension.
@@ -394,7 +394,7 @@ environmental changes**.
   uncertainty:
 
   - *“Has the wasteland storm reached the city?”* → A *Yes, and…* result
-    might mean the settlement is now cut off from the outside world.  
+    might mean the settlement is now cut off from the outside world.\
   - *“Is the ancient temple still standing after the last earthquake?”*
     → A *No, and…* means it has collapsed, but perhaps revealing new
     ruins below.
@@ -407,19 +407,19 @@ and progression**. Here’s how:
 - **Tags as Setting Elements**:
 
   - Locations, factions, and objects should have **tags** that define
-    how they interact with the protagonist.  
+    how they interact with the protagonist.\
   - Example: A **Drowned World** setting might introduce *“Submerged
     Ruins” (treacherous footing, hidden artifacts)* or *“Survivor
-    Enclaves” (secretive, resource-starved groups).*  
+    Enclaves” (secretive, resource-starved groups).*\
   - The Oracle can determine if these **tags** create advantages or
     obstacles in gameplay.
 
 - **Setting-Based Challenges**:
 
   - Instead of generic skill checks, ensure challenges reflect the
-    world’s unique aspects.  
+    world’s unique aspects.\
   - *Example: In a city built on floating platforms, every chase
-    sequence involves unstable terrain and vertigo-inducing jumps.*  
+    sequence involves unstable terrain and vertigo-inducing jumps.*\
   - The **Oracle** can introduce **new complications**, making the world
     feel **emergent rather than static**.
 
@@ -431,25 +431,25 @@ Consider these examples:
 ✅ **Fantasy Noir Setting**
 
 > - *Core Conflict:* The city’s noble houses and criminal underworld
->   struggle for dominance.  
+>   struggle for dominance.\
 > - *Oracle Question:* *“Does House Verdan suspect the protagonist’s
->   investigation?”*  
+>   investigation?”*\
 > - *Possible Result:* *Yes, but…* → They suspect *someone*, but blame a
 >   rival faction instead.
 
 ✅ **Post-Apocalyptic Wasteland**
 
 > - *Environmental Hazard:* Radiation storms force settlements to
->   relocate.  
-> - *Oracle Question:* *“Has the storm made the highway unpassable?”*  
+>   relocate.\
+> - *Oracle Question:* *“Has the storm made the highway unpassable?”*\
 > - *Possible Result:* *No, but…* → The storm has **weakened bridges**,
 >   making travel dangerous.
 
 ✅ **Hard Sci-Fi Colony Setting**
 
-> - *Faction Tension:* Corporate control vs. local rebellion.  
+> - *Faction Tension:* Corporate control vs. local rebellion.\
 > - *Oracle Question:* *“Has the resistance intercepted corporate
->   communications?”*  
+>   communications?”*\
 > - *Possible Result:* *Yes, and…* → They find **a hidden distress
 >   signal**, complicating alliances.
 
@@ -477,18 +477,18 @@ characters feel like they **couldn’t exist anywhere else**. Their
 struggles, goals, and even their flaws should reflect the world around
 them.
 
-- **What kind of people thrive (or struggle) in this world?**  
+- **What kind of people thrive (or struggle) in this world?**\
   Is this a setting where warriors rule and scholars are forgotten? Or
   is it a world where knowledge is power and might alone is meaningless?
   The protagonist’s role should fit the setting’s **power dynamics**.
 
-- **Are they an outcast or an insider?**  
+- **Are they an outcast or an insider?**\
   Some protagonists challenge the norms of their world. Others are
   deeply entrenched in them but begin to question their place. A
   character who has **something to fight for** — or fight against —
   creates natural tension.
 
-- **What kind of tension exists in their role?**  
+- **What kind of tension exists in their role?**\
   A protagonist fully aligned with the world around them has little to
   push against. Tension arises when they stand **on the brink of
   something greater**—a revelation waiting to surface, a rebellion
@@ -515,18 +515,18 @@ single, evocative phrase. It’s the first thing that defines them,
 shaping how they engage with the world.
 
 - **Avoid generic labels.** Instead of “Mercenary,” try **“Disillusioned
-  War Veteran”** or **“Debt-Ridden Blade for Hire.”**  
+  War Veteran”** or **“Debt-Ridden Blade for Hire.”**\
 - **Make it immediately suggestive.** The best concepts hint at the
-  character’s personality, history, or conflicts.  
+  character’s personality, history, or conflicts.\
 - **Keep it compact.** A good concept is short, memorable, and **sparks
   story ideas** instantly.
 
 ##### 📌 Example: Strong Character Concepts
 
 ✅ *Haunted Relic Hunter* → Implies a past mistake, supernatural
-dangers, and obsession.  
+dangers, and obsession.\
 ✅ *Loyal Spy in Enemy Territory* → Suggests conflict, intrigue, and
-betrayal.  
+betrayal.\
 ✅ *Exiled Warlock Seeking Redemption* → A fall from grace, a quest for
 atonement, and dangerous magic.
 
@@ -538,7 +538,7 @@ weaknesses aren’t just drawbacks — they **create tension and drama** in
 the story.
 
 - **Pick two defining skills.** These should reflect what makes the
-  character unique and **how they solve problems.**  
+  character unique and **how they solve problems.**\
 - **Choose one frailty.** This is where the real drama comes from — a
   flaw, limitation, or belief that complicates their journey.
 
@@ -547,7 +547,7 @@ the story.
 > *Sarai, a Fallen Knight*
 >
 > - **Skills:** *Blademaster* (Unmatched with a sword), *Fearless* (Does
->   not hesitate in battle)  
+>   not hesitate in battle)\
 > - **Weakness:** *Bound by Honor* (Cannot break an oath, even when it
 >   works against her)
 
@@ -560,7 +560,7 @@ is just a bystander in their own world. Their **motive** and **goal**
 define why they push forward, even when the odds are against them.
 
 - **Motive:** The personal drive behind their actions. Is it revenge?
-  Redemption? A desperate search for answers?  
+  Redemption? A desperate search for answers?\
 - **Goal:** What they are actively trying to achieve. A goal isn’t just
   a vague aspiration — it’s something they **can succeed or fail at.**
 
@@ -580,11 +580,10 @@ ideology, or even the world itself.**
 - **A Nemesis Should Be Personal.** The best antagonists don’t just
   block the protagonist’s goal; they **make it painful**. A former
   friend turned rival, a government that sees them as a traitor, or a
-  past mistake that keeps catching up to them.  
+  past mistake that keeps catching up to them.\
 - **A Nemesis Should Challenge Their Beliefs.** If the protagonist is an
   idealist, their nemesis might be a hardened cynic. If they seek
-  justice, their nemesis might reveal uncomfortable truths about
-  power.  
+  justice, their nemesis might reveal uncomfortable truths about power.\
 - **A Nemesis Can Evolve.** A minor threat can grow into a major
   adversary over time. A former ally can become an enemy. A larger force
   can shift its focus, making the protagonist a target.
@@ -592,9 +591,9 @@ ideology, or even the world itself.**
 ##### 📌 Example: Strong Nemeses
 
 > ✅ **The Faithful Hounds** → A religious order hunting the protagonist
-> for blasphemy.  
+> for blasphemy.\
 > ✅ **The Hollow King** → A tyrant who has ruled for centuries, who the
-> protagonist was once loyal to.  
+> protagonist was once loyal to.\
 > ✅ **The Dying Sun** → The world itself is collapsing, and nothing can
 > stop it — only delay it.
 
@@ -615,11 +614,11 @@ push the story forward**.
 
 - **Who influences the protagonist’s path?** NPCs that **reveal
   information, provide obstacles, or offer alliances** are worth
-  detailing.  
+  detailing.\
 - **Who represents the world’s tensions?** A corrupt official enforcing
   an unjust system, a revolutionary fighting for change, or a scientist
   racing against time — all of these NPCs **embody the world’s
-  struggles**.  
+  struggles**.\
 - **Who brings personal stakes?** NPCs with emotional ties to the
   protagonist — whether a long-lost friend, a former mentor, or a bitter
   rival — **make decisions feel weightier**.
@@ -630,9 +629,9 @@ push the story forward**.
 > executive, you define:*
 >
 > - **Dr. Veylan** – A cybernetics researcher who holds the key to
->   unlocking restricted technology.  
+>   unlocking restricted technology.\
 > - **Wren** – A street-level hacker with ties to an underground
->   resistance.  
+>   resistance.\
 > - **Marshal Graves** – A bounty hunter tasked with eliminating
 >   “unregistered” individuals, including the protagonist.
 
@@ -651,7 +650,7 @@ NPCs generally fall into four key roles:
 #### 📌 Allies\*\* – Those who support the protagonist, but not without their own goals.
 
 - **What do they provide?** Do they offer resources, knowledge, or
-  protection?  
+  protection?\
 - **What do they expect in return?** True alliances require mutual
   benefit — if an ally helps, there’s likely a cost.
 
@@ -661,7 +660,7 @@ for favors she’ll call in later.*
 #### 📌 Rivals\*\* – Those who compete with the protagonist, creating tension.
 
 - **Are they hostile or just opposition?** Not every rival is a villain
-  — some might have conflicting but understandable goals.  
+  — some might have conflicting but understandable goals.\
 - **Can they become allies?** A rival today might be an uneasy partner
   tomorrow.
 
@@ -670,7 +669,7 @@ ahead in the hunt for lost artifacts.*
 
 #### 📌 Informants\*\* – Those who provide knowledge, but not always truth.
 
-- **What do they know that the protagonist doesn’t?**  
+- **What do they know that the protagonist doesn’t?**\
 - **Can they be trusted?** Some informants provide reliable intel, while
   others manipulate for their own ends.
 
@@ -680,7 +679,7 @@ who leaks valuable information — but always with a cryptic warning.*
 #### 📌 Mentors\*\* – Those who shape the protagonist’s path, for better or worse.
 
 - **Do they still practice what they teach?** Some mentors are relics of
-  another era, watching their lessons become obsolete.  
+  another era, watching their lessons become obsolete.\
 - **What do they fear about their own legacy?** Mentors often worry
   about what their students will become.
 
@@ -694,27 +693,27 @@ An NPC doesn’t need paragraphs of history to be compelling. They need
 
 A simple but effective format:
 
-📛 **Name** – A short, memorable name.  
-📝 **Concept** – A brief description of who they are.  
-🎯 **Agenda** – What they want, and how that impacts the protagonist.  
+📛 **Name** – A short, memorable name.\
+📝 **Concept** – A brief description of who they are.\
+🎯 **Agenda** – What they want, and how that impacts the protagonist.\
 ⚖️ **Relationship** – How they view the protagonist (ally, rival,
-neutral, manipulative, etc.).  
+neutral, manipulative, etc.).\
 🔀 **Evolving Potential** – How they might change over time.
 
 ##### 📌 Example: Minimalist NPC Profiles
 
 **Ezran the Smiling Fox**
 
-- 📝 *A corrupt bureaucrat who survives by playing all sides.*  
-- 🎯 *Wants to stay ahead of every power shift.*  
-- ⚖️ *Sees the protagonist as useful — for now.*  
+- 📝 *A corrupt bureaucrat who survives by playing all sides.*\
+- 🎯 *Wants to stay ahead of every power shift.*\
+- ⚖️ *Sees the protagonist as useful — for now.*\
 - 🔀 *If betrayed, becomes a dangerous enemy with political influence.*
 
 **Captain Reyna Doss**
 
-- 📝 *An ex-military officer turned mercenary leader.*  
-- 🎯 *Wants to reclaim her lost reputation through one final mission.*  
-- ⚖️ *Views the protagonist as a wildcard — an asset or a liability.*  
+- 📝 *An ex-military officer turned mercenary leader.*\
+- 🎯 *Wants to reclaim her lost reputation through one final mission.*\
+- ⚖️ *Views the protagonist as a wildcard — an asset or a liability.*\
 - 🔀 *Might become a reluctant ally if their goals align.*
 
 ### 4. Let NPCs Evolve Based on the Protagonist’s Actions
@@ -726,9 +725,9 @@ alliances should be tested, betrayals should matter, and relationships
 should shift dynamically.
 
 - **If an ally is betrayed, do they become a rival?** A former friend
-  turned enemy adds high emotional stakes.  
+  turned enemy adds high emotional stakes.\
 - **If a rival is spared, do they change their outlook?** A second
-  chance might create an unexpected alliance — or a lingering debt.  
+  chance might create an unexpected alliance — or a lingering debt.\
 - **If an informant is exposed, what happens?** Do they disappear,
   retaliate, or warn the protagonist of bigger threats?
 
@@ -766,9 +765,9 @@ Not every setting needs to be detailed, but the ones that matter should
 be **memorable and impactful**. Before introducing a location, ask:
 
 - **What role does this place serve in the story?** Is it a hub, a
-  battleground, a mystery to be solved?  
+  battleground, a mystery to be solved?\
 - **What makes it unique?** Is it shaped by culture, history, or natural
-  phenomena?  
+  phenomena?\
 - **What tension exists here?** Are there factions vying for control,
   laws being broken, or past events that still cast shadows?
 
@@ -789,11 +788,11 @@ A setting feels alive when it has **defining traits** that set it apart.
 Think about:
 
 - **Culture & Daily Life** – What do people here believe? How do they
-  survive?  
+  survive?\
 - **Hidden Secrets** – What do outsiders not know? What’s being covered
-  up?  
+  up?\
 - **Dangers & Obstacles** – Is the environment itself a threat? Are
-  there factions or creatures that make this place dangerous?  
+  there factions or creatures that make this place dangerous?\
 - **Shifting Territories** – Is this a contested zone? Are old powers
   losing control, and new ones rising?
 
@@ -812,9 +811,9 @@ Not every location has to be a city, temple, or battlefield. A
 “location” in *Loner* can be:
 
 - **A State of Mind** – A shared hallucination, a dreamscape where
-  reality bends.  
+  reality bends.\
 - **An Institution** – A secret society, a corporation, a faith that
-  spans continents.  
+  spans continents.\
 - **A Shifting Landscape** – A battlefield that changes ownership, a
   planet that is literally crumbling, a moving fortress.
 
@@ -838,9 +837,9 @@ beliefs, or make difficult choices.
 
 Before placing the protagonist in a location, ask:
 
-- **Who controls this place, and what do they want?**  
-- **What is forbidden or hidden here?**  
-- **What rumors or half-truths circulate about this place?**  
+- **Who controls this place, and what do they want?**\
+- **What is forbidden or hidden here?**\
+- **What rumors or half-truths circulate about this place?**\
 - **What happened here before the protagonist arrived?**
 
 ##### 📌 Example: A Location That Raises Questions
@@ -860,9 +859,9 @@ A location should **change when the protagonist interacts with it**.
 Think about:
 
 - **What happens when a secret is revealed?** Does the protagonist gain
-  allies, or are they marked for death?  
+  allies, or are they marked for death?\
 - **What forces push back?** If a faction’s power is threatened, how do
-  they retaliate?  
+  they retaliate?\
 - **What changes permanently?** A settlement that was once thriving
   might collapse because of a single event. A wasteland might bloom if
   an ancient mechanism is activated.
@@ -887,9 +886,9 @@ A truly **living world** doesn’t just wait for the protagonist — it
 **keeps moving**. Some changes should happen **with or without them**.
 
 - **Factions gain or lose influence.** A rebellion gains traction. A
-  city falls to a new ruler.  
+  city falls to a new ruler.\
 - **Environmental changes reshape landscapes.** A volcanic eruption
-  destroys an island, a centuries-old glacier melts.  
+  destroys an island, a centuries-old glacier melts.\
 - **Unexpected discoveries rewrite history.** A long-lost artifact is
   found, changing the balance of power.
 
@@ -910,9 +909,9 @@ Not everything needs to be planned. Sometimes, the best moments come
 from **unexpected disruptions**. Consider rolling for:
 
 - **New conflicts** (*A new faction appears, challenging the existing
-  order.*)  
+  order.*)\
 - **Environmental shifts** (*An earthquake reveals something buried
-  beneath the city.*)  
+  beneath the city.*)\
 - **Personal threats** (*Someone from the protagonist’s past resurfaces
   — seeking revenge, help, or something worse.*)
 
@@ -942,13 +941,13 @@ Every setting has a **heart** — themes that define what kinds of stories
 are told within it. When adapting a setting to *Loner*, start by
 stripping away surface details and asking:
 
-- **What is this world really about?**  
+- **What is this world really about?**\
   Is it about survival in a brutal wasteland, rebellion against an
-  oppressive force, or unraveling cosmic mysteries?  
-- **What kind of stories naturally emerge here?**  
+  oppressive force, or unraveling cosmic mysteries?\
+- **What kind of stories naturally emerge here?**\
   Are characters usually explorers? Rebels? Investigators? Are the
-  stories about discovery, revenge, heroism, or something else?  
-- **How do characters interact with their environment and society?**  
+  stories about discovery, revenge, heroism, or something else?\
+- **How do characters interact with their environment and society?**\
   Is this a world of rigid social structures? A lawless frontier? A
   decaying empire on the edge of collapse?
 
@@ -974,9 +973,9 @@ on breaking the setting down into **narrative-driven elements**. Tags in
 and conflicts** without getting bogged down in excessive mechanics.
 
 - **Factions should have clear motives.** Instead of listing hierarchy
-  and ranks, describe them with **tags** that define their behavior.  
+  and ranks, describe them with **tags** that define their behavior.\
 - **Locations should have defining traits.** Describe a place not just
-  by what it looks like, but by how it **affects the protagonist**.  
+  by what it looks like, but by how it **affects the protagonist**.\
 - **Conflicts should be broken into manageable story elements.** What is
   the protagonist up against? How does it shape the world around them?
 
@@ -984,22 +983,21 @@ and conflicts** without getting bogged down in excessive mechanics.
 
 **📍 The Bleeding Spire (Location)**
 
-- *Ruins of an ancient war machine, now repurposed as a city.*  
-- *Walls whisper with forgotten code.*  
+- *Ruins of an ancient war machine, now repurposed as a city.*\
+- *Walls whisper with forgotten code.*\
 - *Controlled by warring scavenger factions.*
 
 **🏴 The Silent Choir (Faction)**
 
-- *Religious fanatics who believe silence is sacred.*  
-- *Mark enemies by removing their names from history.*  
+- *Religious fanatics who believe silence is sacred.*\
+- *Mark enemies by removing their names from history.*\
 - *Only communicate through symbols and gestures.*
 
 **⚔️ The Veil War (Conflict)**
 
 - *A shadow war between two factions, neither acknowledging the other
-  exists.*  
-- *Most people caught in the middle don’t know who is fighting or
-  why.*  
+  exists.*\
+- *Most people caught in the middle don’t know who is fighting or why.*\
 - *The protagonist may already be involved — without realizing it.*
 
 #### Step 3: Adjust for Solo Play
@@ -1012,7 +1010,7 @@ protagonist is **alone**, meaning some elements need to be adjusted:
 
 - Reduce reliance on party-based tactics. Challenges should focus on
   **individual ingenuity, stealth, and problem-solving** rather than
-  team-based combat.  
+  team-based combat.\
 - Introduce **tools, NPC allies, or strategic advantages** to compensate
   for solo play. Instead of relying on a rogue to unlock doors, the
   protagonist might have a **hacker’s toolkit** or access to an
@@ -1033,7 +1031,7 @@ world remain static, consider:
 
 - **What happens when the protagonist changes something major?** If they
   assassinate a corrupt official, does a rival take their place? If they
-  expose a hidden truth, who tries to silence them?  
+  expose a hidden truth, who tries to silence them?\
 - **What factions take notice?** Without a party to share the blame, the
   protagonist becomes a **target** for those who want to control or
   eliminate them.
@@ -1056,10 +1054,10 @@ emotional depth. In *Loner*, personal struggles must come from
 **within** or from **recurring NPCs**.
 
 - **Give the protagonist personal conflicts.** Do they have a past
-  they’re running from? A secret they don’t want uncovered?  
+  they’re running from? A secret they don’t want uncovered?\
 - **Make enemies personal.** A single antagonist with a complex
   relationship to the protagonist is more compelling than a faceless
-  organization.  
+  organization.\
 - **Let NPC relationships evolve.** Allies should grow over time — can
   they be trusted? Do they have their own agenda?
 
@@ -1092,12 +1090,12 @@ into *Loner*’s tag-based, emergent narrative system.
 #### Using the Matrix in Play
 
 1.  **Find Your Genre:** Identify the closest genre match for your
-    setting.  
+    setting.\
 2.  **Adapt Core Mechanics:** Convert systemic mechanics (like magic,
     hacking, or sanity) into *Loner*’s **narrative-driven** tags and
-    prompts.  
+    prompts.\
 3.  **Keep Challenges Personal:** A lone protagonist doesn’t have party
-    support — make sure conflicts are **survivable but high-stakes**.  
+    support — make sure conflicts are **survivable but high-stakes**.\
 4.  **Let the World Respond:** Factions, environments, and supernatural
     forces should **adapt to the protagonist’s actions**, rather than
     remaining static.
@@ -1116,11 +1114,11 @@ Most RPG campaigns contain **unnecessary complexity** for solo play.
 Identify:
 
 - **The Primary Conflict** – What drives the story forward? (E.g., “A
-  rebellion is forming against a tyrant”)  
+  rebellion is forming against a tyrant”)\
 - **Key NPCs** – Who is central to the narrative? Strip away minor side
-  characters unless they serve a purpose.  
+  characters unless they serve a purpose.\
 - **Essential Locations** – Instead of tracking every town or dungeon,
-  focus on **landmarks that impact the protagonist’s journey**.  
+  focus on **landmarks that impact the protagonist’s journey**.\
 - **Major Twists** – If the campaign has multiple branching paths, focus
   on **one compelling story arc**.
 
@@ -1139,8 +1137,8 @@ kingdom collapse.*
 
 Many campaigns assume a **diverse group of heroes**, meaning:
 
-- Combat is designed for **multiple players working together**.  
-- Puzzles often require **specialized skills**.  
+- Combat is designed for **multiple players working together**.\
+- Puzzles often require **specialized skills**.\
 - Social interactions rely on **multiple perspectives**.
 
 #### Converting Party Encounters for Solo Play
@@ -1170,8 +1168,8 @@ In *Loner*, the **Oracle and D66 tables** take over this role.
 - **Use the Oracle to introduce twists.** If a campaign moment feels
   predictable, ask:
 
-  - *Is there an unexpected danger here?*  
-  - *Has an unseen force been tracking the protagonist?*  
+  - *Is there an unexpected danger here?*\
+  - *Has an unseen force been tracking the protagonist?*\
   - *Does an NPC reveal something new?*
 
 - **Modify Campaign Goals as Needed.** If a campaign is built around a
@@ -1222,7 +1220,7 @@ A D66 table is a **two-dice randomizer** that generates results between
 separately, forming a two-digit number:
 
 - Rolling a **1** on the first die and a **4** on the second gives
-  **14**.  
+  **14**.\
 - Rolling a **5** on the first die and a **6** on the second gives
   **56**.
 
@@ -1232,9 +1230,9 @@ deep tool for solo play.
 #### Why Use a D66 Table?
 
 - **Unexpected Inspiration**: The randomness forces you to think outside
-  predictable patterns.  
+  predictable patterns.\
 - **Minimal Setup, Maximum Impact**: A single D66 table can generate
-  dozens of different prompts.  
+  dozens of different prompts.\
 - **Reusability**: Well-designed tables can be used across multiple
   sessions.
 
@@ -1244,14 +1242,14 @@ Before you start filling in entries, ask yourself:
 
 - **What problem does this table solve?**
   - Does it generate **setting details**, **encounters**, or **story
-    twists**?  
+    twists**?\
   - Does it introduce **worldbuilding elements** (like rumors, NPCs, or
-    conflicts)?  
+    conflicts)?\
 - **How often will you roll on it?**
-  - Is this a one-time setup table (like a world generator)?  
-  - Is it a recurring tool (like a random event table)?  
+  - Is this a one-time setup table (like a world generator)?\
+  - Is it a recurring tool (like a random event table)?\
 - **What kind of tone should it set?**
-  - Does it introduce danger, intrigue, humor, or the surreal?  
+  - Does it introduce danger, intrigue, humor, or the surreal?\
   - Should it fit a specific genre or setting?
 
 Once you define these parameters, you can move on to crafting the
@@ -1264,15 +1262,15 @@ usability**. Consider:
 
 #### Categorizing the Results
 
-- If your table is broad, divide results into categories for clarity.  
+- If your table is broad, divide results into categories for clarity.\
 - For example, in an **“Unexpected Events”** table, the first digit
   might represent **general types of events**, and the second digit
   **specific variations** within that category:
-  - **1X** = Weather effects  
-  - **2X** = Encounters  
-  - **3X** = Internal conflicts  
-  - **4X** = Mystical occurrences  
-  - **5X** = Structural failures  
+  - **1X** = Weather effects\
+  - **2X** = Encounters\
+  - **3X** = Internal conflicts\
+  - **4X** = Mystical occurrences\
+  - **5X** = Structural failures\
   - **6X** = Outside interference
 
 #### Ensuring a Mix of Outcomes
@@ -1283,11 +1281,11 @@ to shape the narrative without railroading it. A well-designed D66 table
 should contain a variety of results:
 
 - **Mundane but flavorful results** (e.g., “A trader offers a rare, but
-  oddly specific, item”).  
+  oddly specific, item”).\
 - **Useful resources or advantages** (e.g., “You find an unexpected
-  shortcut”).  
+  shortcut”).\
 - **New obstacles or tensions** (e.g., “Your next action is interrupted
-  by a faction agent”).  
+  by a faction agent”).\
 - **Big story twists** (e.g., “An NPC reveals a secret that changes
   everything”).
 
@@ -1300,8 +1298,8 @@ situations.
 
 #### Tips for Writing Effective Entries
 
-✅ **Keep them short** (1–2 sentences max)  
-✅ **Use evocative language** that suggests multiple interpretations  
+✅ **Keep them short** (1–2 sentences max)\
+✅ **Use evocative language** that suggests multiple interpretations\
 ✅ **Leave space for player decisions**
 
 **Example: “A noble offers you aid but demands a costly favor in
@@ -1317,14 +1315,13 @@ range of results. Distribute your entries across different intensities:
 
 1.  **Neutral worldbuilding details (low stakes, useful for
     immersion).**
-    - “A statue here is missing its head. No one remembers why.”  
+    - “A statue here is missing its head. No one remembers why.”\
 2.  **Mild complications (things that add flavor but aren’t immediate
     threats).**
-    - “Someone in town claims they saw you do something you didn’t
-      do.”  
+    - “Someone in town claims they saw you do something you didn’t do.”\
 3.  **Active problems (things the player must respond to).**
     - “You are being followed. The follower is not making an effort to
-      hide.”  
+      hide.”\
 4.  **Major shifts (introducing drastic change to the game world).**
     - “An event forces a faction leader into exile, leaving a power
       vacuum.”
@@ -1334,14 +1331,14 @@ range of results. Distribute your entries across different intensities:
 Once you’ve drafted your table, **roll on it multiple times** and see if
 the results:
 
-- Fit naturally into different settings.  
-- Provide variety without redundancy.  
+- Fit naturally into different settings.\
+- Provide variety without redundancy.\
 - Are fun and inspiring rather than frustrating or limiting.
 
 Ask yourself:
 
-- **Are any results too vague or confusing?**  
-- **Do any results feel redundant?**  
+- **Are any results too vague or confusing?**\
+- **Do any results feel redundant?**\
 - **Do extreme results appear too often?** If so, you may want to
   rebalance.
 
@@ -1355,25 +1352,25 @@ Examples include:
 
 #### 1. Random Encounters Table\*\* (for a cyberpunk setting)
 
-- Who does the protagonist run into in the neon-lit streets?  
+- Who does the protagonist run into in the neon-lit streets?\
 - Does the encounter present a challenge, an opportunity, or a mystery?
 
 #### 2. Story Twists Table\*\* (for a fantasy kingdom setting)
 
 - What unexpected revelation or event changes the course of the
-  protagonist’s mission?  
+  protagonist’s mission?\
 - Who benefits from the twist? Who suffers?
 
 #### 3. Unusual Items Table\*\* (for a post-apocalyptic wasteland)
 
 - What strange and potentially valuable objects does the protagonist
-  find while scavenging?  
+  find while scavenging?\
 - Do these items have a deeper story behind them?
 
 #### 4. Faction Reactions Table\*\* (for a political intrigue setting)
 
 - How do various groups in the world react to the protagonist’s latest
-  actions?  
+  actions?\
 - Are they pleased, suspicious, or openly hostile?
 
 ### Step 6: Expanding and Combining Tables\*\*
@@ -1382,11 +1379,11 @@ Once you’ve built a few D66 tables, you can:
 
 - **Link them together**: Rolling on one table can lead to another
   (e.g., rolling a faction encounter can trigger a separate reaction
-  table).  
+  table).\
 - **Modify them with situation-based rules**: Have different
   interpretations based on where the player is (e.g., the same “Lost
   Traveler” encounter means different things in a desert versus a
-  haunted ruin).  
+  haunted ruin).\
 - **Build specialized versions**: Create smaller, setting-specific
   tables that add depth, like “Rumors in the Tavern” or “Corporate
   Secrets.”
@@ -1396,8 +1393,8 @@ Once you’ve built a few D66 tables, you can:
 D66 tables are one of the most powerful tools in *Loner*, giving solo
 players the ability to:
 
-- Generate **unexpected twists** that keep gameplay engaging.  
-- Flesh out **worldbuilding details** without requiring massive prep.  
+- Generate **unexpected twists** that keep gameplay engaging.\
+- Flesh out **worldbuilding details** without requiring massive prep.\
 - Keep the story **reactive and emergent**, allowing for flexible play.
 
 With practice, crafting D66 tables becomes second nature, letting you
@@ -1492,9 +1489,9 @@ genre while keeping the structure intact.
 Before modifying an existing table, ask:
 
 1.  **What does this table generate?** (Encounters, twists, locations,
-    mysteries, etc.)  
+    mysteries, etc.)\
 2.  **What role does it play in the game?** (Is it meant to challenge,
-    inspire, or surprise?)  
+    inspire, or surprise?)\
 3.  **Does the structure still work?** (Does every result make sense in
     the new context?)
 
@@ -1520,8 +1517,8 @@ settings.
 
 #### Takeaways from This Remix
 
-- The **core structure** remains identical.  
-- The **tone and terminology** shift to fit the setting.  
+- The **core structure** remains identical.\
+- The **tone and terminology** shift to fit the setting.\
 - **Contextual meaning** changes even though the function of each entry
   is the same.
 
@@ -1534,7 +1531,7 @@ struggles**.
 - **Epic Fantasy vs. Gritty Noir**
 
   - In fantasy, a D66 “Big Event” table might include **godly
-    interventions** or **kingdom-wide conspiracies**.  
+    interventions** or **kingdom-wide conspiracies**.\
   - In noir, the same table would focus on **criminal power struggles**,
     **personal betrayals**, and **hidden truths**.
 
@@ -1542,7 +1539,7 @@ struggles**.
 
   - In a *hard sci-fi* setting, a D66 “Travel Complications” table might
     include **realistic malfunctions, radiation storms, and AI
-    failures**.  
+    failures**.\
   - In a *pulp sci-fi* setting, the same table could include **alien
     ruins, space pirates, and cosmic horrors**.
 
@@ -1550,8 +1547,8 @@ struggles**.
 
 Take an existing table and adjust entries **one at a time** by asking:
 
-1.  Does this result fit **the scale of my world**?  
-2.  Should I **expand or shrink** the scope to match the genre?  
+1.  Does this result fit **the scale of my world**?\
+2.  Should I **expand or shrink** the scope to match the genre?\
 3.  Can I replace elements **without changing the table’s function**?
 
 ### Step 4: Swap Out Unfitting Entries
@@ -1560,27 +1557,27 @@ Some entries may not work in a new genre at all. Instead of forcing them
 to fit, swap them for elements that **serve the same narrative role**
 but in a way that makes sense for the setting.
 
-**Example: Converting a “Mystical Omens” Table for Different Genres**  
+**Example: Converting a “Mystical Omens” Table for Different Genres**\
 The **original** fantasy-focused table includes:
 
-- **A comet streaks across the sky, foretelling great change.**  
-- **A flock of crows gathers in unnatural numbers.**  
+- **A comet streaks across the sky, foretelling great change.**\
+- **A flock of crows gathers in unnatural numbers.**\
 - **An ancient rune glows for the first time in centuries.**
 
 For a **Cyberpunk setting**, we could swap these for:
 
-- **A satellite burns up on reentry, throwing the city into panic.**  
+- **A satellite burns up on reentry, throwing the city into panic.**\
 - **Drone surveillance intensifies, seemingly watching for something
-  specific.**  
+  specific.**\
 - **A glitch in the city’s holographic billboards reveals a hidden
   message.**
 
 For a **Post-Apocalyptic setting**, they could be changed to:
 
 - **A falling star crashes into the wasteland, setting off rumors of
-  treasure.**  
+  treasure.**\
 - **A swarm of rats flees in a single direction — what are they running
-  from?**  
+  from?**\
 - **A bunker door unlocks after decades of being sealed.**
 
 In each case, the **role of the result stays the same** — a mysterious
@@ -1592,9 +1589,8 @@ dramatically.
 Every **D66 table** should have a **healthy mix** of:
 
 - **Mild flavor entries** (small world details, non-critical
-  interactions).  
-- **Mid-level complications** (things the protagonist must respond
-  to).  
+  interactions).\
+- **Mid-level complications** (things the protagonist must respond to).\
 - **Major game-changing moments** (shifts in the world, serious dangers,
   huge opportunities).
 
@@ -1607,9 +1603,9 @@ A **Faction Reaction Table** for a medieval fantasy setting might
 include:
 
 - **Minor (Low Impact)**: A noble sends a polite invitation for a
-  meeting.  
+  meeting.\
 - **Mid-Level (Requires Response)**: A guild places restrictions on your
-  access to city resources.  
+  access to city resources.\
 - **Major (Big Consequences)**: A war declaration puts you on one side
   or the other.
 
@@ -1617,9 +1613,9 @@ For a **dystopian cyberpunk setting**, the same progression could
 become:
 
 - **Minor**: A megacorp offers a one-time deal with unknown strings
-  attached.  
+  attached.\
 - **Mid-Level**: A hacker group disrupts city-wide power, affecting your
-  plans.  
+  plans.\
 - **Major**: A government agency marks you as a national security
   threat.
 
@@ -1631,14 +1627,14 @@ Some genres thrive on **open-ended prompts**, while others benefit from
 - **Open-Ended Prompts (Good for Mystery & Exploration)**
 
   - “A stranger approaches with an urgent warning” → Who are they?
-    What’s the warning about?  
+    What’s the warning about?\
   - “A faction is mobilizing for an unknown reason” → What caused this?
     How does it affect the protagonist?
 
 - **Detailed Results (Good for High-Stakes, Fast-Paced Genres)**
 
   - “A bounty of 500,000 credits has been placed on your head by the
-    Black Sun Syndicate.”  
+    Black Sun Syndicate.”\
   - “A rogue AI is rewriting security protocols at the city’s central
     data hub.”
 
@@ -1650,8 +1646,8 @@ keeping things vague or providing clear direction**.
 Instead of creating **new** tables for every game, build a **core set of
 remixable D66 tables** that can be adjusted **on the fly**.
 
-- **Keep a “Base Structure” Version** of each table.  
+- **Keep a “Base Structure” Version** of each table.\
 - **Mark adaptable elements** that can be swapped for different
-  settings.  
+  settings.\
 - **Test new versions** by rolling a few times and checking if the
   results make sense.

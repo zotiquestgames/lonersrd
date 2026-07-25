@@ -1,6 +1,6 @@
 # Loner: Galaxy Drifter
 Roberto Bisceglie
-2026-07-20
+2026-07-25
 
 # Loner: Galaxy Drifter
 
@@ -417,7 +417,7 @@ Getting from world to world requires passage on a starship, and passage
 costs credits. Different classes of travel offer different
 experiences: - **High Passage**: Luxury accommodations with meals and
 entertainment - **Middle Passage**: Basic but comfortable travel with
-standard amenities  
+standard amenities\
 - **Low Passage**: Suspended animation for the journey - cheap but
 dangerous - **Working Passage**: Earn your way by serving as crew
 
@@ -696,7 +696,7 @@ come with life aboard starships and in spaceports.
 If you’re earning your passage through work: \* **Performance Check:**
 Daily Oracle checks to see if you’re meeting expectations \*
 **Relationship Building:** Develop connections with crew members that
-might lead to future opportunities  
+might lead to future opportunities\
 \* **Skills Development:** Potentially gain experience that could become
 new Skills or modify existing ones
 
@@ -1159,7 +1159,7 @@ and conflict.
 
 **Independent Worlds**: Most planets govern themselves according to
 local needs and traditions **Trade Alliances**: Groups of worlds that
-cooperate for mutual economic benefit  
+cooperate for mutual economic benefit\
 **Defense Pacts**: Military alliances formed to protect against common
 threats **Corporate States**: Worlds directly controlled by commercial
 interests **Religious Enclaves**: Planets organized around specific
@@ -2290,7 +2290,7 @@ strongmen hold power
 - The Dumarest Saga by E.C. Tubb (complete series)
 - The Traveller RPG universe
 - Foundation series by Isaac Asimov
-- Hyperion Cantos by Dan Simmons  
+- Hyperion Cantos by Dan Simmons\
 - Revelation Space series by Alastair Reynolds
 - The Expanse series by James S.A. Corey
 - Dune by Frank Herbert

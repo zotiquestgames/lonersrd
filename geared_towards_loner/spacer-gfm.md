@@ -1,6 +1,6 @@
 # Loner: Spacer
 Roberto Bisceglie
-2026-07-20
+2026-07-25
 
 # Loner: Spacer
 
@@ -450,7 +450,7 @@ Every spacecraft starts with the following core traits:
   representing functional systems. Examples include *“Hyperdrive Unit,”*
   *“Cargo Bay,”* and *“Sensor Array.”*
 - **Condition**: A qualitative measure of the ship’s overall state, such
-  as *“Pristine,”* *“Worn,”* or *“Malfunctioning.”*  
+  as *“Pristine,”* *“Worn,”* or *“Malfunctioning.”*\
 - **Frailty**: A unique drawback that affects performance, like *“Weak
   Structural Integrity”* or *“Underpowered Reactor.”*
 
@@ -572,111 +572,111 @@ To upgrade a module:
 
 #### **1. Celestial Warden**
 
-- **Type**: **Explorer**  
+- **Type**: **Explorer**\
   Equipped for long-range exploration and surveys.
 - **Modules**:
-  - **Hyperdrive Unit** (*20,000 credits*)  
+  - **Hyperdrive Unit** (*20,000 credits*)\
     Enables faster-than-light travel.
-  - **Advanced Sensors** (*10,000 credits*)  
+  - **Advanced Sensors** (*10,000 credits*)\
     Detects objects and ships at a greater range.
-  - **Energy Efficient Reactor** (*20,000 credits*)  
+  - **Energy Efficient Reactor** (*20,000 credits*)\
     Reduces fuel consumption for longer voyages.
-  - **Long-Range Scanner** (*12,000 credits*)  
+  - **Long-Range Scanner** (*12,000 credits*)\
     Detects ships and objects in distant space.
-- **Condition**: **Pristine**  
+- **Condition**: **Pristine**\
   Like new; perfectly maintained with no damage or wear.
-- **Frailty**: **Excessive Fuel Consumption**  
+- **Frailty**: **Excessive Fuel Consumption**\
   Uses more fuel than typical ships, requiring frequent refueling.
 
 #### **2. Void Whisper**
 
-- **Type**: **Courier**  
+- **Type**: **Courier**\
   Fast and reliable for delivering messages or small cargo.
 - **Modules**:
-  - **Basic Thrusters** (*5,000 credits*)  
+  - **Basic Thrusters** (*5,000 credits*)\
     Standard propulsion system for maneuvering.
-  - **Cloaking Device** (*25,000 credits*)  
+  - **Cloaking Device** (*25,000 credits*)\
     Temporarily hides the ship from sensors.
-  - **Advanced Navigation** (*14,000 credits*)  
+  - **Advanced Navigation** (*14,000 credits*)\
     Improves hyperspace accuracy and efficiency.
-  - **Escape Pods** (*8,000 credits*)  
+  - **Escape Pods** (*8,000 credits*)\
     Ensures crew safety during emergencies.
-- **Condition**: **Reliable**  
+- **Condition**: **Reliable**\
   Well-maintained and dependable under normal circumstances.
-- **Frailty**: **Limited Cargo Space**  
+- **Frailty**: **Limited Cargo Space**\
   Small cargo bay limits hauling capacity.
 
 #### **3. Nebula Voyager**
 
-- **Type**: **Trader**  
+- **Type**: **Trader**\
   Specializes in transporting goods and commodities.
 - **Modules**:
-  - **Cargo Bay** (*8,000 credits*)  
+  - **Cargo Bay** (*8,000 credits*)\
     Increases cargo storage capacity.
-  - **Refrigerated Cargo Hold** (*12,000 credits*)  
+  - **Refrigerated Cargo Hold** (*12,000 credits*)\
     Stores perishable goods safely.
-  - **Communication Relay** (*8,000 credits*)  
+  - **Communication Relay** (*8,000 credits*)\
     Boosts signal range and quality.
-  - **Shield Generator** (*15,000 credits*)  
+  - **Shield Generator** (*15,000 credits*)\
     Provides energy shielding for defense.
-- **Condition**: **Worn**  
+- **Condition**: **Worn**\
   Minor cosmetic damage but fully operational.
-- **Frailty**: **Noisy Engines**  
+- **Frailty**: **Noisy Engines**\
   Loud propulsion makes the ship easily detectable.
 
 #### **4. Crimson Hawk**
 
-- **Type**: **Fighter**  
+- **Type**: **Fighter**\
   Armed for combat, built for speed and agility.
 - **Modules**:
-  - **Weapon Hardpoint** (*10,000 credits*)  
+  - **Weapon Hardpoint** (*10,000 credits*)\
     Adds a mount for additional weapons.
-  - **Auto-Turret System** (*18,000 credits*)  
+  - **Auto-Turret System** (*18,000 credits*)\
     Automated defense turret for protection.
-  - **Combat-Grade Hull** (*18,000 credits*)  
+  - **Combat-Grade Hull** (*18,000 credits*)\
     Reinforced hull for better durability in combat.
-  - **Tactical Display System** (*14,000 credits*)  
+  - **Tactical Display System** (*14,000 credits*)\
     Provides combat and navigation overlays.
-- **Condition**: **Damaged**  
+- **Condition**: **Damaged**\
   Reduced performance due to visible damage; requires repairs soon.
-- **Frailty**: **Prone to Overheating**  
+- **Frailty**: **Prone to Overheating**\
   Systems heat up quickly, causing potential malfunctions in prolonged
   engagements.
 
 #### **5. Aether Drift**
 
-- **Type**: **Mining Vessel**  
+- **Type**: **Mining Vessel**\
   Designed for resource extraction in asteroid belts or planets.
 - **Modules**:
-  - **Mining Laser** (*14,000 credits*)  
+  - **Mining Laser** (*14,000 credits*)\
     Extracts resources from asteroids or planets.
-  - **Tractor Beam** (*15,000 credits*)  
+  - **Tractor Beam** (*15,000 credits*)\
     Captures and moves objects or small ships.
-  - **Energy Core Upgrade** (*18,000 credits*)  
+  - **Energy Core Upgrade** (*18,000 credits*)\
     Improves overall ship energy output.
-  - **Gravity Stabilizer** (*10,000 credits*)  
+  - **Gravity Stabilizer** (*10,000 credits*)\
     Enhances stability during gravitational anomalies.
-- **Condition**: **Experimental**  
+- **Condition**: **Experimental**\
   Cutting-edge but untested; highly risky with unpredictable outcomes.
-- **Frailty**: **Frequent Engine Misfires**  
+- **Frailty**: **Frequent Engine Misfires**\
   Propulsion issues cause unreliable movement.
 
 #### **6. Nightfall Specter**
 
-- **Type**: **Science Vessel**  
+- **Type**: **Science Vessel**\
   Equipped with labs and sensors for research and analysis.
 - **Modules**:
-  - **Science Lab** (*20,000 credits*)  
+  - **Science Lab** (*20,000 credits*)\
     Allows detailed research and experiments.
-  - **Advanced Shielding** (*25,000 credits*)  
+  - **Advanced Shielding** (*25,000 credits*)\
     Enhanced energy shielding for better defense.
-  - **Cryo-Chamber** (*12,000 credits*)  
+  - **Cryo-Chamber** (*12,000 credits*)\
     Allows cryogenic stasis for crew during long trips.
-  - **Interceptor Drones** (*16,000 credits*)  
+  - **Interceptor Drones** (*16,000 credits*)\
     Launches drones to intercept threats.
-- **Condition**: **Malfunctioning**  
+- **Condition**: **Malfunctioning**\
   Systems frequently fail; immediate repairs are critical.
-- **Frailty**: **Unstable AI**  
+- **Frailty**: **Unstable AI**\
   The ship’s AI occasionally behaves erratically, creating risks during
   operations.
 
@@ -1436,10 +1436,10 @@ civilization’s role in the galaxy.
 #### Example Civilization
 
 - **Core Traits**: Amphibious, Communal, Advanced Technology,
-  Cooperative  
-- **Cultural Quirk**: Ritualistic  
-- **Communication**: Bioluminescent Signals  
-- **Strength**: Resilient Biology  
+  Cooperative\
+- **Cultural Quirk**: Ritualistic\
+- **Communication**: Bioluminescent Signals\
+- **Strength**: Resilient Biology\
 - **Weakness**: Poor Resource Management
 
 This results in a species of peaceful amphibians that thrive in their
@@ -1496,11 +1496,11 @@ faction’s governance style:
 
 #### **Example Faction**
 
-- **Concept**: Planetary Coalition  
-- **Skills**: Advanced Diplomacy, Strong Military Defense  
-- **Frailty**: Fragmented Leadership  
-- **Motive**: Maintain Galactic Peace  
-- **Relations**: Neutral with Trade Guild, Tense with Pirates  
+- **Concept**: Planetary Coalition\
+- **Skills**: Advanced Diplomacy, Strong Military Defense\
+- **Frailty**: Fragmented Leadership\
+- **Motive**: Maintain Galactic Peace\
+- **Relations**: Neutral with Trade Guild, Tense with Pirates\
 - **Leadership**: Democratic Council
 
 ### Cultural and Technological Diversity Frameworks
@@ -1551,12 +1551,12 @@ the **Planetary Influence Table** (1d6):
 
 ### Example World-Building
 
-- **Planet Name**: Zephyris  
+- **Planet Name**: Zephyris\
 - **Cultural Archetype**: Industrial Innovators (*“Efficient,
-  Ambitious”*)  
-- **Tech Level**: Advanced Spacefaring (*“Innovative, Modular”*)  
+  Ambitious”*)\
+- **Tech Level**: Advanced Spacefaring (*“Innovative, Modular”*)\
 - **Faction Influence**: Controlled by the Galactic Trade Guild
-  (*“Economic Powerhouse”*)  
+  (*“Economic Powerhouse”*)\
 - **Planetary Influence**: Balanced interplay between culture and
   technology.
 

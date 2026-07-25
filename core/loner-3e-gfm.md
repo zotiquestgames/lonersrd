@@ -1,6 +1,6 @@
 # Loner - Core Rules 3rd Edition
 Roberto Bisceglie
-2026-07-20
+2026-07-25
 
 # Loner - Core Rules 3rd Edition
 
@@ -24,11 +24,11 @@ different plans than you expected. When that happens, it’s time to adapt
 *Loner* follows these design principles:
 
 1.  **Portable** – All you need is a few six-sided dice, a way to write
-    things down, and your imagination.  
+    things down, and your imagination.\
 2.  **Rules-Light** – With just one core mechanic, *Loner* is easy to
-    learn and quick to play.  
+    learn and quick to play.\
 3.  **Tag-Based** – Characters, events, and objects are defined
-    descriptively rather than numerically.  
+    descriptively rather than numerically.\
 4.  **Emergent & Open-Ended** – There are no pre-written stories; every
     session generates its own narrative.
 
@@ -80,9 +80,9 @@ anything that doesn’t feel right.
 
 To play *Loner*, you only need a few basic tools:
 
-- **4 six-sided dice** (d6s) – two pairs of different colors.  
+- **4 six-sided dice** (d6s) – two pairs of different colors.\
 - **Paper and writing tools** – a scrap sheet and a pencil work fine,
-  but index cards or sticky notes can help.  
+  but index cards or sticky notes can help.\
 - **Character sheet** – use the one provided at the back of this book or
   a simple notecard.
 
@@ -100,15 +100,14 @@ just a handful of dice and your imagination.
 Every *Loner* adventure takes place in a different **imaginary world**.
 You get to choose the world before you play. This can be:
 
-- A setting from your **favorite TV series, book, or RPG**.  
-- A genre you already love or one you’re curious to explore.  
+- A setting from your **favorite TV series, book, or RPG**.\
+- A genre you already love or one you’re curious to explore.\
 - A world built from **randomly generated tropes**.
 
 If you need inspiration:
 
-- **Look up trope lists** (search online for common themes in
-  fiction).  
-- **Use the Adventure Packs** found later in this book.  
+- **Look up trope lists** (search online for common themes in fiction).\
+- **Use the Adventure Packs** found later in this book.\
 - **Let your character shape the world** — define them first, then build
   the setting around them.
 
@@ -124,16 +123,16 @@ descriptive traits that shape how they interact with the world.
 ### Step-by-Step Character Creation
 
 1.  **Choose a Name** – Pick a name that fits the tone and setting of
-    your story.  
-2.  **Define a Concept** – Summarize your character in a short phrase.  
-3.  **Select Two Skills** – Unique abilities or expertise.  
-4.  **Choose a Frailty** – A weakness, flaw, or personal struggle.  
+    your story.\
+2.  **Define a Concept** – Summarize your character in a short phrase.\
+3.  **Select Two Skills** – Unique abilities or expertise.\
+4.  **Choose a Frailty** – A weakness, flaw, or personal struggle.\
 5.  **Pick Two Pieces of Gear** – Specialized equipment relevant to the
-    setting.  
+    setting.\
 6.  **Set a Goal & Motive** – Define what your Protagonist is trying to
-    achieve and why.  
+    achieve and why.\
 7.  **Identify a Nemesis (Optional)** – A rival, enemy, or opposing
-    force.  
+    force.\
 8.  **Start with 6 Luck** – it’s your ability to avoid failure and
     resets after conflicts.
 
@@ -146,14 +145,14 @@ giving an immediate sense of personality, role, or history.
 ✅ **Good 📌 Examples:**
 
 - *Cunning Bounty Hunter* – suggests expertise in tracking and
-  deception.  
-- *Haunted Scholar* – suggests knowledge, but also a burden.  
+  deception.\
+- *Haunted Scholar* – suggests knowledge, but also a burden.\
 - *Exiled Warlock* – hints at power and a troubled past.
 
 ❌ **Weak 📌 Examples:**
 
-- *Strong Fighter* – too generic. What makes them unique?  
-- *Heroic Person* – not specific enough. What do they actually do?  
+- *Strong Fighter* – too generic. What makes them unique?\
+- *Heroic Person* – not specific enough. What do they actually do?\
 - *Jack of All Trades* – vague, doesn’t provide a strong identity.
 
 Think of the Concept as your elevator pitch — it should tell you, at a
@@ -168,14 +167,14 @@ permission** — it tells you what your character is capable of doing.
 ✅ **Good 📌 Examples:**
 
 - *Engine Whisperer* – suggests a deep, almost intuitive understanding
-  of mechanics.  
-- *Shadow Walker* – implies stealth and movement in darkness.  
+  of mechanics.\
+- *Shadow Walker* – implies stealth and movement in darkness.\
 - *Tactician’s Mind* – allows for strategic thinking and planning.
 
 ❌ **Weak 📌 Examples:**
 
-- *Strong* – too broad; what kind of strength?  
-- *Smart* – vague; in what area?  
+- *Strong* – too broad; what kind of strength?\
+- *Smart* – vague; in what area?\
 - *Combat* – doesn’t indicate a specialty or style.
 
 When choosing a Skill, ask: **How does this change the way my character
@@ -188,8 +187,8 @@ These three elements are closely related to the story and so it’s best
 to choose them based on the **game’s context** instead of picking them
 from a random list.
 
-- **The Goal** defines what your character is actively working toward.  
-- **The Motive** explains why they pursue it.  
+- **The Goal** defines what your character is actively working toward.\
+- **The Motive** explains why they pursue it.\
 - **The Nemesis** is what stands in their way — this can be a person, an
   organization, or even an abstract force.
 
@@ -200,15 +199,15 @@ from a random generator.
 ✅ **If chosen organically:**
 
 - The story unfolds naturally, and the Goal is driven by in-game
-  events.  
-- The Motive has weight because it emerges from play.  
+  events.\
+- The Motive has weight because it emerges from play.\
 - The Nemesis grows into a real antagonist with personal stakes.
 
 ❌ **If chosen randomly:**
 
 - Your character might have a *Goal* that feels disconnected from the
-  setting.  
-- The *Motive* might be unclear or unimportant.  
+  setting.\
+- The *Motive* might be unclear or unimportant.\
 - A *Nemesis* that doesn’t fit the world weakens the tension of the
   story.
 
@@ -219,14 +218,14 @@ from a random generator.
 
 ### 📌 Example
 
-> **Zahra Nakajima** **Concept:** Witty Street Cat  
-> **Skills:** Streetwise, Nimble  
-> **Frailty:** Merciful  
-> **Gear:** Knife, Low O2 Supplement  
-> **Goal:** Obtain unknown technology to save her planet  
-> **Motive:** She feels responsible for her home’s survival  
+> **Zahra Nakajima** **Concept:** Witty Street Cat\
+> **Skills:** Streetwise, Nimble\
+> **Frailty:** Merciful\
+> **Gear:** Knife, Low O2 Supplement\
+> **Goal:** Obtain unknown technology to save her planet\
+> **Motive:** She feels responsible for her home’s survival\
 > **Nemesis:** The Naturalist Order, a group that seeks to suppress
-> technological progress  
+> technological progress\
 > **Luck:** 6
 
 Here, Zahra’s *Goal* and *Nemesis* aren’t arbitrary — they come from the
@@ -249,7 +248,7 @@ a person, a spaceship, or an ancient curse — is treated like a
 Any person, creature, or faction that has a **distinct role** in the
 story follows the same structure as the Protagonist:
 
-- They have **a Concept** that defines their identity.  
+- They have **a Concept** that defines their identity.\
 - They may have **Skills and Frailties**, just like the Protagonist.
 - They may have **Goals**, **Motives**, or **Nemeses**.
 - They interact with the world through **Tags**, influencing how scenes
@@ -257,14 +256,14 @@ story follows the same structure as the Protagonist:
 
 ### 📌 Example
 
-> **Caine Trask** **Concept:** Ruthless Lawman  
-> **Skills:** Tracker, Quick Draw  
-> **Frailty:** Bound by Honor  
-> **Gear:** Plasma Revolver, High-End Surveillance Drone  
-> **Goal:** Capture fugitives and criminals at any cost  
-> **Motive:** Believes justice is absolute, no room for negotiation  
+> **Caine Trask** **Concept:** Ruthless Lawman\
+> **Skills:** Tracker, Quick Draw\
+> **Frailty:** Bound by Honor\
+> **Gear:** Plasma Revolver, High-End Surveillance Drone\
+> **Goal:** Capture fugitives and criminals at any cost\
+> **Motive:** Believes justice is absolute, no room for negotiation\
 > **Nemesis:** The Shadow Syndicate, a criminal network that always
-> slips through his fingers  
+> slips through his fingers\
 > **Luck:** 6
 
 ### Non-Living Characters (Objects, Vehicles, Curses)
@@ -274,17 +273,17 @@ influences the story**, it is treated as a character. Unlike living
 beings:
 
 - They have a **Concept**, **Skills** and **Frailties**.
-- **They don’t have Goals, Motives, or Nemeses.**  
-- They are defined by their **function and impact** on the story.  
+- **They don’t have Goals, Motives, or Nemeses.**\
+- They are defined by their **function and impact** on the story.\
 - They still use **Tags** to shape how they are used or overcome.
 
 ### 📌 Example
 
 > **The Century Skylark**
 >
-> - **Concept:** Spacecraft in bad shape  
+> - **Concept:** Spacecraft in bad shape\
 > - **Skills:** Hyperjump Drive, Camouflage Circuits
-> - **Frailty**: Midlife Courier  
+> - **Frailty**: Midlife Courier\
 > - **Luck:** 6
 
 ## Descriptive Tags
@@ -303,17 +302,17 @@ Tags generally fall into three broad categories:
 
 - **Character Traits** – Describe a character’s **skills, flaws, goals,
   or motives**. These shape what they excel at and what holds them
-  back.  
+  back.\
   *📌 Examples:* *Veteran Marksman, Haunted by the Past, Driven by
   Revenge*
 
 - **Details** – Define the **environment, objects, or situational
-  features** that could influence the story.  
+  features** that could influence the story.\
   *📌 Examples:* *Dimly Lit Corridor, High-Security Vault, Crumbling
   Bridge*
 
 - **Conditions** – Represent **temporary or lasting effects** that
-  change how a character acts or what they must overcome.  
+  change how a character acts or what they must overcome.\
   *📌 Examples:* *Wounded Leg, Feared by Locals, Wanted by the Law*
 
 ### How Tags Affect Play
@@ -326,13 +325,13 @@ setback** in a given situation. If a Tag is relevant, it might grant
 ✅ **Good Use of Tags:**
 
 - The vault is tagged *High-Security Vault* — this makes lockpicking
-  harder, so the player rolls with **Disadvantage**.  
+  harder, so the player rolls with **Disadvantage**.\
 - A Protagonist with a *Veteran Marksman* Skill is shooting in a duel —
   this gives them **Advantage**.
 
 ❌ **What Tags Are NOT:**
 
-- A numerical rating or score (*+2 Strength* is not a Tag).  
+- A numerical rating or score (*+2 Strength* is not a Tag).\
 - A passive trait that never impacts play (*Nice Person* isn’t a strong
   Tag unless it changes outcomes).
 
@@ -349,7 +348,7 @@ immersive and interconnected.
 
 - **Your Nemesis is an NPC** – If you’ve defined a Nemesis, you’ve
   already created a key Non-Player Character (NPC). Write down their
-  details separately — you’ll likely cross paths again.  
+  details separately — you’ll likely cross paths again.\
 - **Allies and Contacts** – Does your Protagonist have friends, mentors,
   or rivals? List them out with a short description so they can appear
   organically during play.
@@ -362,7 +361,7 @@ connected as you play.
 Beyond characters, consider noting:
 
 - **Important Locations** – Places that might be revisited, such as a
-  criminal hideout, a hidden temple, or a war-torn city.  
+  criminal hideout, a hidden temple, or a war-torn city.\
 - **Major Events** – Significant events that shape the story, such as a
   rebellion or an impending disaster.
 
@@ -386,11 +385,11 @@ Start in **the middle of a tense, dynamic moment** — your Protagonist is
 already **escaping, fighting, negotiating, or uncovering a secret**.
 
 ✅ **Builds momentum immediately** — the story starts **in motion**
-rather than in planning.  
+rather than in planning.\
 ✅ **Easy to improvise** — the scene itself suggests the next logical
 actions.
 
-📌 **Example:**  
+📌 **Example:**\
 \> Your Protagonist is **running through a neon-lit alley**, gunfire
 behind them. A rival bounty hunter is closing in — **do they find cover
 in time?**
@@ -411,12 +410,11 @@ jumping into the story.
 
 Ask:
 
-- **Who?** *(Who initiates the story?)*  
-- **What?** *(What mission or task is at hand?)*  
-- **Why?** *(Why does the Protagonist care?)*  
-- **Where?** *(Where does the adventure take place?)*  
-- **How?** *(How does the story begin — what sets events into
-  motion?)*  
+- **Who?** *(Who initiates the story?)*\
+- **What?** *(What mission or task is at hand?)*\
+- **Why?** *(Why does the Protagonist care?)*\
+- **Where?** *(Where does the adventure take place?)*\
+- **How?** *(How does the story begin — what sets events into motion?)*\
 - **Obstacle?** *(What immediately stands in the way?)*
 
 | D6 | **Who?**<br>Proposer | **What?**<br>Mission | **Why?**<br>Incentive | **Where?**<br>Target | **How?**<br>Starting Point | **Obstacle?**<br>Complication |
@@ -429,15 +427,15 @@ Ask:
 | 6 | Blackmailer | Pursuit | Revenge | Confession | Object (map, letter) | Space |
 
 ✅ **Gives a concrete premise** — your Protagonist has a clear **goal**
-from the start.  
+from the start.\
 ✅ **Helps with structured play** — you know **what’s at stake** before
 the first scene.
 
-> **Who?** Mentor  
-> **What?** Exploit  
-> **Why?** Help  
-> **Where?** McGuffin  
-> **How?** Rumors  
+> **Who?** Mentor\
+> **What?** Exploit\
+> **Why?** Help\
+> **Where?** McGuffin\
+> **How?** Rumors\
 > **Obstacle?** Time
 >
 > Tobias Wethern took Zahra under his wing when her parents died. That’s
@@ -449,13 +447,13 @@ the first scene.
 ### **Which One Should You Use?**
 
 📌 **Dramatic Scene:** Best if you want to **jump right in** and
-discover the story as you play.  
+discover the story as you play.\
 📌 **Framed Setup:** Best if you want **a structured mission goal**
 before the first scene.
 
 You **don’t have to choose just one** — you can **combine both**:
 
-1.  **Use a frame to set up the mission.**  
+1.  **Use a frame to set up the mission.**\
 2.  **Then, start with a dramatic scene.**
 
 📌 **Example:** You **frame** a mission (*steal a data drive from a
@@ -487,11 +485,11 @@ Every scene follows a natural rhythm:
 
 1.  **Set Your Expectation** – What does your Protagonist want to
     achieve? Look at their **traits, goal, and motivation** to determine
-    their action. How do you expect the world to react?  
+    their action. How do you expect the world to react?\
 2.  **Test the Uncertainty** – If an outcome isn’t obvious (or if
     overconfidence tempts fate), consult the Oracle with a **Yes/No
     question**. Use **Tags** to determine if the Protagonist has an
-    [Advantage or Disadvantage](#advantage-and-disadvantage).  
+    [Advantage or Disadvantage](#advantage-and-disadvantage).\
 3.  **Interpret the Result** – The Oracle’s answer may confirm your
     expectations or subvert them. How does this outcome reshape the
     scene? What new possibilities emerge?
@@ -516,9 +514,9 @@ it’s time to test that expectation by consulting the Oracle.
 ### When to Ask the Oracle
 
 - **If the outcome is obvious →** No need to roll; the scene unfolds as
-  expected.  
+  expected.\
 - **If the outcome is uncertain or risky →** Ask the Oracle a Yes/No
-  question.  
+  question.\
 - **If you want an unexpected twist →** Ask even when you’re fairly
   confident — sometimes reality doesn’t behave as expected!
 
@@ -556,8 +554,8 @@ Whenever you face **uncertainty** in the story, you’ll ask the
 
 ### What You Need
 
-You’ll need:  
-✅ **2d6 in one color** (*Chance Dice*)  
+You’ll need:\
+✅ **2d6 in one color** (*Chance Dice*)\
 ✅ **2d6 in another color** (*Risk Dice*)
 
 ### How to Roll
@@ -567,28 +565,28 @@ Die**, then follow these steps:
 
 ### **Step 1: Compare the Dice**
 
-🔹 **Is the Chance Die higher?** → **Yes** (*Success*)  
-🔹 **Is the Risk Die higher?** → **No** (*Failure*)  
+🔹 **Is the Chance Die higher?** → **Yes** (*Success*)\
+🔹 **Is the Risk Die higher?** → **No** (*Failure*)\
 🔹 **Are both dice equal?** → **Yes, but…** (*Success with a
 complication, +1 to the Twist Counter*)
 
 ### **Step 2: Check for Modifiers**
 
-📉 **Are both dice \<= 3?**  
+📉 **Are both dice \<= 3?**\
 ➝ Add **but…** (*Something goes wrong or adds tension.*)
 
-📈 **Are both dice \>= 4?**  
+📈 **Are both dice \>= 4?**\
 ➝ Add **and…** (*Something extra goes in your favor.*)
 
 ### **Resolution Breakdown**
 
-🟢 **Chance Die \> Risk Die → “Yes”**  
-✅ **Both dice \<= 3 → “Yes, but…”** *(Success with a drawback)*  
+🟢 **Chance Die \> Risk Die → “Yes”**\
+✅ **Both dice \<= 3 → “Yes, but…”** *(Success with a drawback)*\
 ✅ **Both dice \>= 4 → “Yes, and…”** *(Success with a bonus)*
 
-🔴 **Risk Die \> Chance Die → “No”**  
+🔴 **Risk Die \> Chance Die → “No”**\
 ❌ **Both dice \<= 3 → “No, but…”** *(Failure, but something positive
-happens)*  
+happens)*\
 ❌ **Both dice \>= 4 → “No, and…”** *(Failure with extra consequences)*
 
 ⚖️ **Both Dice Equal → “Yes, but…”** *(+1 Twist Counter!)*
@@ -596,17 +594,16 @@ happens)*
 ### 📌 Example: Breaking In
 
 > Zahra wants to **force open a security hatch** without triggering an
-> alarm.  
+> alarm.\
 > She asks the Oracle: **“Does Zahra manage to force the hatch?”**
 >
 > 🎲 Rolls: **Chance Die (5), Risk Die (4)**
 >
-> ✅ **Chance Die is higher** → The answer is **Yes** (*she
-> succeeds*).  
+> ✅ **Chance Die is higher** → The answer is **Yes** (*she succeeds*).\
 > ✅ **Both dice are \>= 4** → Add **And…** (*something extra goes her
 > way*).
 >
-> **Outcome:**  
+> **Outcome:**\
 > Zahra forces the hatch **without setting off an alarm**, and **she
 > also finds a map of the facility inside**.
 
@@ -622,18 +619,18 @@ Sometimes, the situation or a **Tag** will grant an **Advantage** or
 ### **How It Works**
 
 - **Advantage** → Add an **extra Chance Die** 🎲 (positive
-  circumstances, useful skills, favorable conditions).  
+  circumstances, useful skills, favorable conditions).\
 - **Disadvantage** → Add an **extra Risk Die** 🎲 (hindrances,
-  complications, difficult conditions).  
+  complications, difficult conditions).\
 - In both cases, **roll all dice of that type and keep only the highest
   one**.
 
-📌 **📌 Example of Advantage:**  
+📌 **📌 Example of Advantage:**\
 \> Zahra is attempting to **charm a suspicious merchant** into revealing
 illegal goods. She has the **Tag: Smooth Talker**, so she **rolls with
 Advantage** (two Chance Dice, one Risk Die).
 
-📌 **📌 Example of Disadvantage:**  
+📌 **📌 Example of Disadvantage:**\
 \> Zahra is **hacking a corporate databank** under pressure, with no
 expertise and a security system against her. She **rolls with
 Disadvantage** (two Risk Dice, one Chance Die).
@@ -647,9 +644,9 @@ overanalyze every situation.
 Instead of treating Tags like numerical modifiers, **think
 narratively**:
 
-- *Does the situation genuinely give an edge or impose a challenge?*  
+- *Does the situation genuinely give an edge or impose a challenge?*\
 - *Is the character leveraging a skill, trait, or circumstance that
-  logically grants an advantage?*  
+  logically grants an advantage?*\
 - *Does an obstacle, flaw, or environmental factor impose a
   disadvantage?*
 
@@ -659,7 +656,7 @@ narratively**:
 roll.**
 
 ✅ **If multiple positive or negative Tags apply, they do not stack
-further.**  
+further.**\
 ✅ **If both positive and negative Tags are present, they cancel out.**
 
 | **Tag Situation** | **Dice Roll** |
@@ -677,38 +674,38 @@ and the security system is highly advanced.
 #### **Evaluating Advantage and Disadvantage**
 
 🔹 **Tags Favoring Her:** None (*She has no relevant hacking skills or
-tools*)  
+tools*)\
 🔹 **Tags Against Her:**
 
-- *No Hacking Skills* *(Negative Tag: 1 Disadvantage)*  
+- *No Hacking Skills* *(Negative Tag: 1 Disadvantage)*\
 
 - *Highly Protected System* *(Negative Tag: 1 Disadvantage)*
 
-- **Total: Two Negative Tags → She rolls with Disadvantage**  
+- **Total: Two Negative Tags → She rolls with Disadvantage**\
 
 - **Disadvantage means rolling Two Risk Dice and One Chance Die**
 
 #### **Rolling the Dice**
 
-🎲 **Chance Die (5)**  
+🎲 **Chance Die (5)**\
 🎲 **Risk Dice (3), (4) → Keep the highest (4)**
 
 📌 **Results:**
 
-- ✅ **Chance Die (5) \> Risk Die (4)** → **Yes** (*Success!*)  
+- ✅ **Chance Die (5) \> Risk Die (4)** → **Yes** (*Success!*)\
 - ✅ **Both dice are 4 or higher** → Add **And…** (*Something extra goes
   Zahra’s way!*).
 
-🚀 **Final Outcome:**  
+🚀 **Final Outcome:**\
 \> Zahra successfully hacks the databank **and…** she also stumbles upon
 an **encrypted transmission** revealing an upcoming **covert corporate
 operation**.
 
 ### **Why This System Works**
 
-✅ **Keeps rolling simple** – No need to track excessive modifiers.  
+✅ **Keeps rolling simple** – No need to track excessive modifiers.\
 ✅ **Encourages situational storytelling** – Instead of stacking
-numbers, Tags describe why a situation is easy or difficult.  
+numbers, Tags describe why a situation is easy or difficult.\
 ✅ **Prevents excessive stacking** – One strong Advantage or
 Disadvantage is enough to shift the outcome.
 
@@ -733,9 +730,9 @@ forward.
 ### Making the Results Interesting
 
 ✅ **Straightforward answers** (*Yes/No*) are useful but can feel flat —
-use them when the story needs momentum.  
+use them when the story needs momentum.\
 ✅ **Modifiers (*but…/and…*)** add layers of complexity and should push
-the scene in **new, engaging directions**.  
+the scene in **new, engaging directions**.\
 ✅ **Tie the answer back to existing story elements** — NPCs, locations,
 or unresolved threads.
 
@@ -766,13 +763,13 @@ treat it as **a measure of how well or poorly things go**:
 📌 **Example:** Zahra is sneaking past a security checkpoint.
 
 - 🎲 **Yes, and…** → *Not only does she slip past unnoticed, but she
-  also finds an access key on the floor.*  
-- 🎲 **Yes…** → *She gets past the checkpoint without being seen.*  
+  also finds an access key on the floor.*\
+- 🎲 **Yes…** → *She gets past the checkpoint without being seen.*\
 - 🎲 **Yes, but…** → *She gets through, but the guards start a random
-  sweep of the area.*  
+  sweep of the area.*\
 - 🎲 **No, but…** → *She gets caught, but the guards assume she’s just
-  lost rather than an intruder.*  
-- 🎲 **No…** → *She’s spotted, and the alarm is raised.*  
+  lost rather than an intruder.*\
+- 🎲 **No…** → *She’s spotted, and the alarm is raised.*\
 - 🎲 **No, and…** → *She’s spotted, captured, and now the security
   system is on full lockdown.*
 
@@ -784,9 +781,9 @@ a new element** that wasn’t part of your initial expectations.
 📌 **Example:** Zahra tries to hack into a corporate mainframe.
 
 - 🎲 **Yes, but…** → *She gains access, but the files are heavily
-  encrypted, requiring another step.*  
+  encrypted, requiring another step.*\
 - 🎲 **No, but…** → *She fails to hack in, but she learns that the
-  mainframe is vulnerable to an external backdoor.*  
+  mainframe is vulnerable to an external backdoor.*\
 - 🎲 **No, and…** → *Not only does she fail, but she accidentally trips
   a silent alarm, alerting security.*
 
@@ -807,13 +804,13 @@ rises, falls, or stays steady**:
 📌 **Example:** Zahra is interrogating an informant.
 
 - 🎲 **Yes, and…** → *The informant cracks immediately and spills
-  everything — and even offers to help.*  
-- 🎲 **Yes…** → *He gives Zahra the information she wants.*  
+  everything — and even offers to help.*\
+- 🎲 **Yes…** → *He gives Zahra the information she wants.*\
 - 🎲 **Yes, but…** → *He talks, but some details are unreliable or
-  missing.*  
+  missing.*\
 - 🎲 **No, but…** → *He refuses to talk, but his reaction suggests he
-  knows something crucial.*  
-- 🎲 **No…** → *He refuses to talk completely.*  
+  knows something crucial.*\
+- 🎲 **No…** → *He refuses to talk completely.*\
 - 🎲 **No, and…** → *He shuts down and alerts someone to Zahra’s
   presence.*
 
@@ -822,16 +819,16 @@ game forward rapidly, while *No, and…* forces a dramatic shift.
 
 ### 📌 Example: Expanding the Story with Interpretation
 
-📌 **Scenario:** Zahra is sneaking into a research facility.  
-📌 **Question:** *“Does she make it inside unnoticed?”*  
+📌 **Scenario:** Zahra is sneaking into a research facility.\
+📌 **Question:** *“Does she make it inside unnoticed?”*\
 📌 🎲 **Oracle Answer: No, but…**
 
 Instead of a **simple failure**, let’s apply different interpretations:
 
 ✅ **As Intensity:** She’s seen, but **only by a single distracted
-guard, not the entire security team**.  
+guard, not the entire security team**.\
 ✅ **As a Twist:** She’s caught, **but the person who finds her is an
-old ally instead of an enemy**.  
+old ally instead of an enemy**.\
 ✅ **As Momentum Control:** She’s detected, **but instead of triggering
 an alarm, the guards begin searching, giving her a brief window to
 hide**.
@@ -842,9 +839,9 @@ what happens — it guides the story in meaningful ways.**
 ### The Oracle as a Narrative Tool
 
 ✅ **Don’t treat Oracle results as binary.** Instead, use them to add
-nuance to your game.  
+nuance to your game.\
 ✅ **Use context to shape interpretation.** A *No, and…* in a combat
-scene will feel different than in a conversation.  
+scene will feel different than in a conversation.\
 ✅ **Experiment with different methods.** Try using the Oracle as
 **intensity, momentum, or a twist generator** to keep your story fresh
 and dynamic.
@@ -859,21 +856,21 @@ keep the story moving.
 
 1.  **Don’t Overquestion It** – Avoid asking too many follow-ups to
     force a “logical” result. Three Yes/No questions should be enough —
-    if you’re still unsure, move on.  
+    if you’re still unsure, move on.\
 2.  **Reframe the Answer** – Think about the broader situation. Could
     this result **introduce a hidden complication** or **suggest a
-    deeper truth**?  
+    deeper truth**?\
 3.  **Use an Open-Ended Question** – If you’re still lost, roll on an
     **inspiration table** or ask something like:
-    - *“What unexpected factor is at play?”*  
-    - *“What does this reveal that I didn’t consider?”*  
+    - *“What unexpected factor is at play?”*\
+    - *“What does this reveal that I didn’t consider?”*\
 4.  **Default to “Yes, but…”** – If nothing else fits, treat the
     response as *Yes, but…* and introduce a **minor complication** that
     makes the answer work.
 
 ### 📌 Example: Dealing with a Strange Answer
 
-> **Question:** *“Is the informant still at the bar?”*  
+> **Question:** *“Is the informant still at the bar?”*\
 > 🎲 **Oracle Answer: No, and…**
 >
 > ❌ This doesn’t make sense — why would they suddenly leave? Instead of
@@ -881,12 +878,12 @@ keep the story moving.
 >
 > ✅ **Reframing the Answer:**
 >
-> - *Maybe someone tipped them off to danger?*  
-> - *Maybe they were kidnapped?*  
+> - *Maybe someone tipped them off to danger?*\
+> - *Maybe they were kidnapped?*\
 > - *Maybe “No, and…” doesn’t mean they left — maybe they were never
 >   real to begin with?*
 
-> **Final Interpretation:**  
+> **Final Interpretation:**\
 > The informant is gone, **and… the bartender nervously avoids eye
 > contact, suggesting at foul play.** Now the story moves forward with
 > **a new layer of intrigue**.
@@ -896,7 +893,7 @@ keep the story moving.
 The **Twist Counter** represents **rising tension in the narrative**.
 Every time you roll **doubles** (both dice show the same number), you:
 
-✅ **Add 1 to the Twist Counter.**  
+✅ **Add 1 to the Twist Counter.**\
 ✅ If the **Counter reaches 3**, a **Twist occurs** and resets the
 Counter to **0**.
 
@@ -908,11 +905,11 @@ instead of triggering a twist.
 > Zahra is trying to **decrypt stolen files** to uncover evidence
 > against a powerful corporation. She asks the Oracle:
 >
-> **“Do the files contain evidence of illegal activities?”**  
+> **“Do the files contain evidence of illegal activities?”**\
 > 🎲 **Rolls:** (4) \[4\] → **Doubles!**
 
 ✅ The answer is **“Yes, but…”** → The files do contain illegal
-activity…  
+activity…\
 ✅ **+1 to the Twist Counter** (which was already at **2**) → The
 **Twist triggers!**
 
@@ -922,7 +919,7 @@ activity…
 🎲 **Twist Roll:** (1, 5) → **“A third party” + “Changes the goal”**
 
 > **Interpretation:** Zahra now has the evidence — but suddenly, **a
-> corporate agent contacts her with an offer**:  
+> corporate agent contacts her with an offer**:\
 > *“You can expose us… or take a deal that changes your life.”*
 
 ## Determine the Twist
@@ -945,8 +942,8 @@ adapt.
 ### **📌 Example: How a Twist Changes the Story**
 
 > **Scenario:** Zahra is infiltrating a high-tech facility to steal
-> corporate secrets.  
-> She asks: **“Can she reach the secure server unnoticed?”**  
+> corporate secrets.\
+> She asks: **“Can she reach the secure server unnoticed?”**\
 > 🎲 **Rolls:** (3) \[3\] → **Doubles!** → **Twist Counter reaches 3 → A
 > Twist occurs!**
 >
@@ -964,9 +961,9 @@ The **Twist Counter** keeps *Loner* full of **surprises**, ensuring no
 two stories play out the same way.
 
 ✅ **Builds tension naturally** — the more doubles you roll, the closer
-a twist becomes.  
+a twist becomes.\
 ✅ **Prevents predictable storytelling** — forcing the game world to
-react dynamically.  
+react dynamically.\
 ✅ **Encourages creative interpretation** — every twist reshapes the
 adventure in unexpected ways.
 
@@ -977,10 +974,10 @@ whether through **combat, competition, persuasion, or resistance**.
 
 Conflicts are not limited to **physical fights** — they also include:
 
-- **Verbal duels** (*intimidation, negotiations, debates*)  
-- **Tactical contests** (*chases, sabotage, heists*)  
+- **Verbal duels** (*intimidation, negotiations, debates*)\
+- **Tactical contests** (*chases, sabotage, heists*)\
 - **Mental struggles** (*resisting psychic influence, enduring
-  torture*)  
+  torture*)\
 - **Vehicle battles** (*dogfights, ship-to-ship combat*)
 
 ### Ways to Resolve a Conflict
@@ -989,9 +986,9 @@ There are three approaches to resolving conflicts, depending on how much
 detail you want:
 
 1.  **Single Yes/No Question** – Ask the Oracle whether the Protagonist
-    succeeds or fails.  
+    succeeds or fails.\
 2.  **Series of Yes/No Questions** – Break the conflict into key actions
-    and resolve them one by one.  
+    and resolve them one by one.\
 3.  **Harm & Luck System** – Track Luck loss to determine when a
     character is overcome.
 
@@ -1007,18 +1004,18 @@ Instead of using the **Harm & Luck** system, you can resolve conflicts
 through a **series of closed Oracle questions**, determining the outcome
 of **each key action** in the scene.
 
-This method is a **middle ground** between:  
+This method is a **middle ground** between:\
 ✅ **A single-question conflict resolution** (*“Do I win the fight?”*),
-which can be too abrupt.  
+which can be too abrupt.\
 ✅ **The Harm & Luck system**, which introduces **attrition-based
 resolution** but may feel too structured.
 
 ### **How It Works**
 
 1️⃣ **Describe each action as a distinct moment** and ask the Oracle
-whether it succeeds or fails.  
+whether it succeeds or fails.\
 2️⃣ **Use the result modifiers (“but…”/“and…”)** to introduce twists and
-consequences.  
+consequences.\
 3️⃣ **Let the outcome shape the next step in the scene** — without
 needing to track Luck loss.
 
@@ -1028,30 +1025,30 @@ needing to track Luck loss.
 > exchanging fire with a bounty hunter. Instead of tracking Luck, she
 > resolves the battle action by action:
 
-🔹 **First Action:**  
-🗣️ *“Can I take cover behind the wall?”*  
-🎲 **Yes, but…**  
+🔹 **First Action:**\
+🗣️ *“Can I take cover behind the wall?”*\
+🎲 **Yes, but…**\
 ✅ *She reaches cover, but her line of fire is obstructed — giving her a
 Disadvantage.*
 
-🔹 **Second Action:**  
-🗣️ *“I aim at the opponent, can I get the first shot in?”*  
-🎲 **No, but…**  
+🔹 **Second Action:**\
+🗣️ *“I aim at the opponent, can I get the first shot in?”*\
+🎲 **No, but…**\
 ❌ *She misses — but the bounty hunter is forced to move, breaking his
 own line of fire.* (Now Zahra gains an Advantage.)
 
-🔹 **Final Action:**  
-🗣️ *“I shoot a slag container above him. Do I hit it?”*  
-🎲 **Yes, and…**  
+🔹 **Final Action:**\
+🗣️ *“I shoot a slag container above him. Do I hit it?”*\
+🎲 **Yes, and…**\
 ✅ *The shot lands perfectly — the container crashes down, knocking the
 bounty hunter out cold.*
 
 ### Why Use This Method?
 
 ✅ **Creates cinematic, fast-paced encounters** — each action **unfolds
-dynamically** instead of tracking damage.  
+dynamically** instead of tracking damage.\
 ✅ **Encourages creative solutions** — instead of **hit point
-attrition**, players find **ways to shift the fight in their favor**.  
+attrition**, players find **ways to shift the fight in their favor**.\
 ✅ **Adds unpredictability** — since **each move is a separate Oracle
 roll**, conflicts can take unexpected turns.
 
@@ -1063,9 +1060,8 @@ than a structured back-and-forth fight.
 
 It’s especially great for:
 
-- **Chases and heists** where every move shifts the stakes.  
-- **Tense negotiations** where each argument changes the power
-  dynamic.  
+- **Chases and heists** where every move shifts the stakes.\
+- **Tense negotiations** where each argument changes the power dynamic.\
 - **Battles where the environment plays a major role.**
 
 This system **keeps conflicts fast, reactive, and engaging**, making
@@ -1086,13 +1082,13 @@ One simple way to manage multiple opponents is to **treat them as a
 single “character”** with:
 
 - **A shared Concept and Skills** (*Elite Mercenary Squad, Swarm of
-  Cultists, Riot Police Formation*).  
-- **A single Luck pool** that represents **their overall strength**.  
+  Cultists, Riot Police Formation*).\
+- **A single Luck pool** that represents **their overall strength**.\
 - **A Fragility** related to their **numbers** — the larger the group,
   the harder it may be to coordinate their actions effectively.
 
 ✅ **Pros:** Keeps the encounter fast-paced and prevents excessive dice
-rolling.  
+rolling.\
 ❌ **Cons:** Doesn’t emphasize individual threats — treats the
 opposition as an abstract challenge.
 
@@ -1105,14 +1101,14 @@ If each opponent is distinct, **resolve their actions individually**,
 using:
 
 - **Separate Luck pools** for key adversaries (*a commander, a rival
-  bounty hunter, an elite duelist*).  
+  bounty hunter, an elite duelist*).\
 - **A mix of conflict resolution methods** — you might resolve the
   **mooks** as a single entity but use full Harm & Luck for the **boss
-  fight**.  
+  fight**.\
 - **Oracle rolls to dictate group behavior** (*Do they fight as a unit?
   Do they break formation?*).
 
-✅ **Pros:** Creates a more tactical, cinematic encounter.  
+✅ **Pros:** Creates a more tactical, cinematic encounter.\
 ❌ **Cons:** Can slow down play if not streamlined.
 
 ### 📌 Example: A Fight Against a Mercenary Squad
@@ -1125,8 +1121,8 @@ using:
 > 🎲 The Oracle determines their **strategy**: *Do they fan out to
 > surround her?* *Do they immediately open fire?*
 >
-> As the fight unfolds:  
-> ✅ Zahra’s attacks **whittle down their shared Luck pool**.  
+> As the fight unfolds:\
+> ✅ Zahra’s attacks **whittle down their shared Luck pool**.\
 > ✅ If she exploits their **Fragility (poor coordination under
 > stress)**, she can **force them into disarray** instead of fighting to
 > the last.
@@ -1134,9 +1130,9 @@ using:
 ### Why Use These Methods?
 
 ✅ **Keeps group encounters manageable** — rolling separately for a
-large group can slow the game down.  
+large group can slow the game down.\
 ✅ **Maintains narrative flow** — players can focus on the **tension of
-the scene** rather than excessive mechanics.  
+the scene** rather than excessive mechanics.\
 ✅ **Gives flexibility** — whether treating enemies as a unit or
 separate threats, the system adapts to the situation.
 
@@ -1153,15 +1149,15 @@ loss** to determine the outcome.
 🎲 **When engaging in a conflict:**
 
 - Roll as normal to determine if the Protagonist **gets what they
-  want**.  
+  want**.\
 - If they succeed, they deal damage. If they fail, they take damage.
 
 📉 **Luck represents resilience, endurance, and fortune.** A character
 who runs out of Luck is **defeated** — but what that means depends on
 the context:
 
-- In a **brawl**, they might be knocked out.  
-- In a **verbal duel**, they might concede the argument.  
+- In a **brawl**, they might be knocked out.\
+- In a **verbal duel**, they might concede the argument.\
 - In a **chase**, they might lose their target.
 
 ### How Luck Loss Works
@@ -1182,8 +1178,8 @@ inflicted:
 
 At **0 Luck**, the **story dictates the consequences**, like:
 
-- Are they **captured**?  
-- Are they **severely injured**?  
+- Are they **captured**?\
+- Are they **severely injured**?\
 - Do they **retreat and regroup**?
 
 ### 📌 Example: Alley Fight
@@ -1192,12 +1188,12 @@ At **0 Luck**, the **story dictates the consequences**, like:
 > Artist*, *Hand-to-Hand Combat*, *Feline*, and *Short*.
 >
 > 🎲 Zahra **attacks with a knife** and rolls **(5) (6) \[4\]** →
-> **“Yes, and…”**  
+> **“Yes, and…”**\
 > ✅ **She succeeds and deals 3 damage!** (Thug’s Luck drops from 6 to
 > 3)
 >
 > 🎲 The thug **counterattacks with a kick** and rolls **(3) (2) \[2\]**
-> → **“Yes, but…”**  
+> → **“Yes, but…”**\
 > ✅ **Zahra takes 1 damage!** (Her Luck drops from 6 to 5)
 >
 > Who will win? The fight continues!
@@ -1205,9 +1201,9 @@ At **0 Luck**, the **story dictates the consequences**, like:
 ### Why Use the Harm & Luck System?
 
 ✅ **Keeps conflicts dynamic** – Instead of just Yes/No answers, Luck
-loss adds a **progressive sense of tension**.  
+loss adds a **progressive sense of tension**.\
 ✅ **Flexible outcomes** – Losing a conflict doesn’t always mean death;
-it means the story takes a new turn.  
+it means the story takes a new turn.\
 ✅ **Scales to different scenarios** – Whether it’s a duel, a chase, or
 a negotiation, **Luck tracks when a character is pushed beyond their
 limits**.
@@ -1226,10 +1222,10 @@ signals a dramatic turning point. The Oracle and story context should
 guide what happens next.
 
 - **In Combat?** → The character might be captured, knocked unconscious,
-  or forced to flee.  
-- **In a Chase?** → They lose their target or get cornered.  
+  or forced to flee.\
+- **In a Chase?** → They lose their target or get cornered.\
 - **In a Debate?** → They are outmaneuvered and must concede or face
-  consequences.  
+  consequences.\
 - **In a Heist?** → They trigger an alarm or leave behind crucial
   evidence.
 
@@ -1254,9 +1250,9 @@ lose.”** Running out of Luck is not the end — it’s a turning point.
 ### **Embracing Luck as a Story Mechanic**
 
 **✅ Luck keeps conflicts cinematic.** Instead of tracking minor
-injuries, it builds tension until a **definitive outcome** occurs.  
+injuries, it builds tension until a **definitive outcome** occurs.\
 **✅ It ensures conflicts don’t drag on forever.** Once Luck is
-depleted, the story shifts direction.  
+depleted, the story shifts direction.\
 **✅ It allows for unexpected twists.** Losing Luck can introduce new
 **obstacles, bargains, or unintended consequences**.
 
@@ -1278,29 +1274,29 @@ and focus** of the next scene.
 
 ### Types of Scenes Explained
 
-🔴 **Dramatic Scene (1-3)**  
+🔴 **Dramatic Scene (1-3)**\
 The **action and tension continue**. The situation worsens, new
 obstacles emerge, or an unexpected event forces the Protagonist to
 adapt.
 
 ✅ **Use when:**
 
-- A villain makes their move.  
-- The environment introduces new dangers.  
+- A villain makes their move.\
+- The environment introduces new dangers.\
 - The Protagonist’s plans start to unravel.
 
-🟢 **Quiet Scene (4-5)**  
+🟢 **Quiet Scene (4-5)**\
 The **calm before the storm**. The Protagonist can **rest, regroup, and
 prepare** for what comes next. Conversations, character development, and
 small discoveries take center stage.
 
 ✅ **Use when:**
 
-- The Protagonist needs to heal, gather intel, or plan.  
-- Relationships deepen or shift.  
+- The Protagonist needs to heal, gather intel, or plan.\
+- Relationships deepen or shift.\
 - The world reacts to past events without immediate conflict.
 
-🔄 **Meanwhile Scene (6)**  
+🔄 **Meanwhile Scene (6)**\
 The **focus shifts away** from the Protagonist, cutting to **villains,
 allies, or unseen forces** at play. This adds **depth to the world** and
 introduces **new threats or opportunities** before the Protagonist
@@ -1308,14 +1304,14 @@ learns about them.
 
 ✅ **Use for:**
 
-- A villain’s next move (*the assassin gets their orders*).  
-- A subplot progressing (*the rebellion plans its next strike*).  
+- A villain’s next move (*the assassin gets their orders*).\
+- A subplot progressing (*the rebellion plans its next strike*).\
 - A shift in the world (*a storm brews on the horizon*).
 
 ### 📌 Example: A Twisting Narrative
 
 > Zahra **accepts a corporate agent’s offer**, but what happens next?
-> She rolls **1d6 → 6**: **Meanwhile…**  
+> She rolls **1d6 → 6**: **Meanwhile…**\
 > Instead of following Zahra, the scene shifts to **Tobias Wethern, her
 > former mentor**, who is **hiring a hitman to eliminate her.**
 
@@ -1326,9 +1322,9 @@ shapes upcoming conflicts.
 ### Why Use This System?
 
 ✅ **Keeps the pacing dynamic** – Not every scene needs to be
-action-packed or slow-paced; the roll ensures variety.  
+action-packed or slow-paced; the roll ensures variety.\
 ✅ **Adds depth to the world** – A *Meanwhile* scene makes the world
-feel alive beyond the Protagonist’s actions.  
+feel alive beyond the Protagonist’s actions.\
 ✅ **Encourages organic storytelling** – By following the roll, you
 introduce twists you may not have considered.
 
@@ -1341,12 +1337,12 @@ create a prompt.
 
 This method helps when:
 
-- You need a **plot twist** but don’t know what it should be.  
-- The Oracle gives a vague answer, and you want to **expand on it**.  
+- You need a **plot twist** but don’t know what it should be.\
+- The Oracle gives a vague answer, and you want to **expand on it**.\
 - You’re looking for **unexpected connections** between story elements.
 
 🔹 **Roll at least a Verb and a Noun.** Add an Adjective for more
-nuance.  
+nuance.\
 🔹 **Interpret freely** — the result doesn’t have to be literal!
 
 | Verbs |    1     |   2    |    3    |    4     |    5    |    6    |
@@ -1379,7 +1375,7 @@ nuance.
 ### 📌 Example: Seeking Help in Desperation
 
 > **Question:** *“Does Zahra have friends who can help her against the
-> hitman?”*  
+> hitman?”*\
 > 🎲 **Rolls:** 2-4 (**multiply**) and 3-2 (**motion**) → **Multiply
 > Motion**
 
@@ -1397,11 +1393,11 @@ when it’s time to wrap things up?
 
 ### **Signs That Your Story Is Ending**
 
-✅ **The Protagonist has achieved (or failed) their goal.**  
+✅ **The Protagonist has achieved (or failed) their goal.**\
 ✅ **A major revelation has changed everything.** (Victory, loss, or a
-new status quo.)  
+new status quo.)\
 ✅ **The conflict has reached a satisfying resolution.** (An enemy is
-defeated, a mystery is solved, a journey ends.)  
+defeated, a mystery is solved, a journey ends.)\
 ✅ **The story’s momentum slows.** (If you’re struggling to find the
 next big scene, it might be time to end the adventure.)
 
@@ -1414,9 +1410,9 @@ At the end of the adventure, **modify your Protagonist** to reflect what
 they’ve learned. You may:
 
 - **Add a new Skill, Gear, or Frailty** based on the events of the
-  story.  
+  story.\
 - **Introduce a new Nemesis** if the adventure ended with lingering
-  enemies.  
+  enemies.\
 - **Modify an existing trait** to show growth or transformation.
 
 📌 **Also update:**
@@ -1433,7 +1429,7 @@ they’ve learned. You may:
 > **Post-Game Updates:**
 >
 > - Gained **Skill:** *Wannabe Hacker* (*Melina Reade might mentor
->   her!*)  
+>   her!*)\
 > - New **Nemesis:** *The Leton Corporation* (*They won’t let this
 >   slide…*)
 
@@ -1442,8 +1438,8 @@ they’ve learned. You may:
 Even if one story ends, your Protagonist’s journey **doesn’t have to be
 over**. Use your updated character sheet to start a new session with:
 
-- **A fresh mission tied to past events.**  
-- **A revenge arc or lingering consequence.**  
+- **A fresh mission tied to past events.**\
+- **A revenge arc or lingering consequence.**\
 - **A brand-new setting, using past allies and enemies.**
 
 This ensures that every adventure leaves a **lasting impact**, making
@@ -1461,20 +1457,20 @@ There are two main ways to play *Loner* in a group:
 ### **1. Without a Game Master (GM-less Mode)**
 
 - Each player controls their own **Protagonist** and asks questions to
-  the **Oracle**, just like in solo play.  
+  the **Oracle**, just like in solo play.\
 - The **Oracle’s answers and world reactions** are interpreted by the
-  player who asked the question.  
+  player who asked the question.\
 - A **Facilitator** (either a rotating or fixed role) helps
   **moderate**, **remind players of rules**, and **settle disputes** if
-  needed.  
+  needed.\
 - Questions affecting the **whole group** should be discussed
   collectively.
 
 ### **2. With a Game Master**
 
-- The **GM does not roll dice** — only the players consult the Oracle.  
+- The **GM does not roll dice** — only the players consult the Oracle.\
 - The GM interprets Oracle responses and presents the **world’s
-  reactions**.  
+  reactions**.\
 - The GM also acts as a **facilitator**, guiding the flow of the story
   and helping resolve questions.
 
@@ -1494,11 +1490,10 @@ Sometimes, you might **struggle with inspiration** or want to
 you generate a **unique world and adventure premise** using simple dice
 rolls.
 
-Use this tool when:  
-✅ You **don’t have a setting in mind** and want a fresh, random
-world.  
+Use this tool when:\
+✅ You **don’t have a setting in mind** and want a fresh, random world.\
 ✅ You want to **challenge yourself** by playing in a genre or theme you
-wouldn’t normally pick.  
+wouldn’t normally pick.\
 ✅ You need a **quick framework** before diving into your *Loner*
 session.
 
@@ -1509,9 +1504,9 @@ session.
 🎲 **Roll once on each of the following tables:**
 
 1.  **Settings Table** → Defines the world’s broad **theme or
-    environment**.  
+    environment**.\
 2.  **Tones Table** → Determines the **atmosphere and mood** of the
-    setting.  
+    setting.\
 3.  **Things Table** (Roll twice) → Introduces key **elements** that
     define the world.
 
@@ -1520,9 +1515,9 @@ session.
 🎲 **Roll on these tables to create the backbone of your adventure:**
 
 1.  **Opposition Table** → Identifies the **main antagonist or
-    challenge**.  
+    challenge**.\
 2.  **Actions Table** (Roll twice) → Determines **what needs to be
-    done**.  
+    done**.\
 3.  **Things Table** → Adds a **unique object, mystery, or event** to
     the mix.
 
@@ -1534,15 +1529,15 @@ starts when you begin playing.
 
 🎲 **Rolls:**
 
-- **Setting:** *Sword and Sorcery Adventure*  
-- **Tone:** *Eerie and Paranormal*  
-- **Things:** *Vast Empires, Different Factions*  
+- **Setting:** *Sword and Sorcery Adventure*\
+- **Tone:** *Eerie and Paranormal*\
+- **Things:** *Vast Empires, Different Factions*\
 - **Opposition:** *(Roll was unclear, so let’s interpret based on the
-  setting — perhaps a Secretive Cult?)*  
+  setting — perhaps a Secretive Cult?)*\
 - **Actions:** *Seek + (Second action roll was unclear, let’s assume
   Uncover?)*
 
-✅ **Result:**  
+✅ **Result:**\
 \> The story takes place in a **mystical land of vast, crumbling
 empires**, where **hidden factions maneuver for power in the shadows**.
 The Protagonist, a wandering mage, is on a **quest to seek out ancient
@@ -1552,9 +1547,9 @@ secret cult pulling the strings of history**.
 ### Why Use the Adventure Maker?
 
 ✅ **Instant inspiration** – No need to plan in advance; just roll and
-go!  
+go!\
 ✅ **Encourages creativity** – Helps you explore new settings and
-stories.  
+stories.\
 ✅ **Keeps the game fresh** – Every adventure will feel different.
 
 Use it **as a starting point**, then shape the story as you play.
@@ -1693,8 +1688,8 @@ randomness.
 Before resolving an action, establish the criteria that will influence
 the outcome:
 
-- **Does the character have a relevant skill or ability?**  
-- **Are the circumstances favorable or unfavorable?**  
+- **Does the character have a relevant skill or ability?**\
+- **Are the circumstances favorable or unfavorable?**\
 - **Has the character prepared or gathered resources?**
 
 These factors will determine the result using a **decision matrix**
@@ -1702,23 +1697,23 @@ instead of rolling dice.
 
 ### 2. Resolution Process
 
-🟢 **Step 1: Ask the Question**  
-The player poses a **closed question** requiring resolution.  
+🟢 **Step 1: Ask the Question**\
+The player poses a **closed question** requiring resolution.\
 📌 *📌 Example:* *“Is the door unlocked?”*
 
-🟡 **Step 2: Evaluate Factors**  
+🟡 **Step 2: Evaluate Factors**\
 Assess **character traits, situational context, and available
 resources**:
 
-- **Does the character have a relevant skill or ability?**  
-- **Are the circumstances beneficial or challenging?**  
+- **Does the character have a relevant skill or ability?**\
+- **Are the circumstances beneficial or challenging?**\
 - **Has the character gathered special tools or knowledge?**
 
-🔴 **Step 3: Apply the Decision Matrix**  
+🔴 **Step 3: Apply the Decision Matrix**\
 Using the answers from Step 2, consult the **decision matrix** to
 determine the final outcome.
 
-⚠️ **Step 4: Track Twists**  
+⚠️ **Step 4: Track Twists**\
 If the answer is **“Yes, but…”** add **1 point to the Twist Counter** as
 usual.
 
@@ -1734,7 +1729,7 @@ usual.
 | **Lack of Resources/Preparation**     | **Low**       | **No, and…**  |
 
 ✅ **The more factors working in favor of the character, the stronger
-the success.**  
+the success.**\
 ❌ **The more obstacles, the greater the chance of complications or
 failure.**
 
@@ -1742,18 +1737,18 @@ failure.**
 
 📌 **Step 1: Check for a Relevant Skill or Ability**
 
-- If the character **has a related skill**, lean toward **Yes**.  
+- If the character **has a related skill**, lean toward **Yes**.\
 - If they **lack the skill**, lean toward **No**.
 
 📌 **Step 2: Assess Circumstances**
 
-- **If the situation is favorable**, lean toward **Yes, but…**.  
+- **If the situation is favorable**, lean toward **Yes, but…**.\
 - **If it’s unfavorable**, lean toward **No, but…**.
 
 📌 **Step 3: Consider Resources and Preparation**
 
 - **If the character has special tools, intel, or allies**, lean toward
-  **Yes, and…**.  
+  **Yes, and…**.\
 - **If they are ill-equipped or rushed**, lean toward **No, and…**.
 
 ### 5. Resolution 📌 Example
@@ -1766,28 +1761,28 @@ door** while being pursued by security.
 ✅ **Evaluating Factors:**
 
 - **Character Factors:** Zahra **does NOT have lockpicking skills**
-  (*Relevant Skill Absent* ❌).  
+  (*Relevant Skill Absent* ❌).\
 - **Circumstances:** The door is **reinforced and high-security**
-  (*Unfavorable Circumstances* ⚠️).  
+  (*Unfavorable Circumstances* ⚠️).\
 - **Resources/Preparation:** She has **basic tools but no advanced
   hacking device** (*Lack of Exceptional Resources* ❌).
 
 🎯 **Decision Matrix Outcome:**
 
-- *Relevant Skill Absent* → **No**  
-- *Unfavorable Circumstances* → **No, but…**  
+- *Relevant Skill Absent* → **No**\
+- *Unfavorable Circumstances* → **No, but…**\
 - *Lack of Resources* → **No, and…**
 
-📌 **Final Decision:** *“No, and…”*  
+📌 **Final Decision:** *“No, and…”*\
 \> Zahra **fails to unlock the door, and… security drones activate,
 detecting her presence.**
 
 ### 6. Why Use the Diceless Oracle?
 
 ✅ **Removes randomness** – Outcomes are based purely on **character
-choices and world conditions**.  
+choices and world conditions**.\
 ✅ **Encourages strategic play** – Players must **plan ahead**, using
-skills and resources wisely.  
+skills and resources wisely.\
 ✅ **Keeps the narrative flowing** – No need for dice; just **apply
 logic and move forward**.
 
@@ -1810,82 +1805,82 @@ past choices** rather than a random roll.
 
 ### **🎲 Core Mechanics**
 
-- Ask the **Oracle** ❓ Yes/No questions to resolve uncertainty.  
+- Ask the **Oracle** ❓ Yes/No questions to resolve uncertainty.\
 - Roll **1 Chance Die 🎲 & 1 Risk Die 🎲**:
-  - ✅ **Chance \> Risk → Yes**  
-  - ❌ **Risk \> Chance → No**  
-  - ⚠️ **Both \< 4 → Yes, but… / No, but…**  
-  - ⭐ **Both \> 3 → Yes, and… / No, and…**  
+  - ✅ **Chance \> Risk → Yes**\
+  - ❌ **Risk \> Chance → No**\
+  - ⚠️ **Both \< 4 → Yes, but… / No, but…**\
+  - ⭐ **Both \> 3 → Yes, and… / No, and…**\
   - 🔄 **Equal → Yes, but… +1 Twist Counter**
 
 ### **🛠️ Character Creation**
 
 1.  **📛 Name & Concept** – Who they are, in a short phrase. (*Rogue
-    Bounty Hunter*).  
+    Bounty Hunter*).\
 2.  **💡 2 Skills** – Unique talents or expertise. (*Shadow Walker,
-    Crack Shot*).  
-3.  **⚡ 1 Frailty** – A weakness or flaw. (*Haunted by the Past*).  
+    Crack Shot*).\
+3.  **⚡ 1 Frailty** – A weakness or flaw. (*Haunted by the Past*).\
 4.  **🎒 2 Gear** – Specialized equipment. (*Plasma Pistol,
-    Lockpicks*).  
+    Lockpicks*).\
 5.  **🎯 Goal & Motive** – What they seek and why. (*Find lost relic to
-    clear name*).  
+    clear name*).\
 6.  **👿 Nemesis (Optional)** – Their main opposition. (*The
-    Syndicate*).  
+    Syndicate*).\
 7.  **🍀 Luck = 6** – A buffer against failure (resets after conflicts).
 
 ### **⚖️ Advantage & Disadvantage**
 
-- **⬆️ Advantage** → Roll **2 Chance Dice**, keep highest.  
-- **⬇️ Disadvantage** → Roll **2 Risk Dice**, keep highest.  
+- **⬆️ Advantage** → Roll **2 Chance Dice**, keep highest.\
+- **⬇️ Disadvantage** → Roll **2 Risk Dice**, keep highest.\
 - **🚫 Never roll more than 2 Chance or 2 Risk Dice.**
 
 ### **🎬 Scenes & Gameplay Loop**
 
-1.  **📍 Set the Scene** → Where are you? What’s happening?  
-2.  **❓ Ask a Yes/No Question** → Resolve with the Oracle.  
-3.  **🧐 Interpret the Answer** → Adjust story based on result.  
+1.  **📍 Set the Scene** → Where are you? What’s happening?\
+2.  **❓ Ask a Yes/No Question** → Resolve with the Oracle.\
+3.  **🧐 Interpret the Answer** → Adjust story based on result.\
 4.  **🔁 Repeat Until Conflict or Resolution**.
 
 ### **🔄 Twist Counter**
 
-- 🎲 **Doubles on Oracle Roll** → +1 Twist Counter.  
+- 🎲 **Doubles on Oracle Roll** → +1 Twist Counter.\
 - **At 3, a Twist occurs!** Roll **2d6**:
-  - 1️⃣ **A third party** → Appears  
-  - 2️⃣ **The hero** → Alters location  
-  - 3️⃣ **An encounter** → Helps the hero  
-  - 4️⃣ **A physical event** → Hinders the hero  
-  - 5️⃣ **An emotional event** → Changes the goal  
+  - 1️⃣ **A third party** → Appears\
+  - 2️⃣ **The hero** → Alters location\
+  - 3️⃣ **An encounter** → Helps the hero\
+  - 4️⃣ **A physical event** → Hinders the hero\
+  - 5️⃣ **An emotional event** → Changes the goal\
   - 6️⃣ **An object** → Ends the scene
 
 ### **⚔️ Conflicts & Luck**
 
 - **⚡ Option 1: Oracle Resolution** → Ask a single Yes/No question for
-  the entire conflict.  
+  the entire conflict.\
 - **🎭 Option 2: Action-Based Oracle Rolls** → Ask multiple Yes/No
-  questions for each step.  
+  questions for each step.\
 - **❤️‍🔥 Option 3: Harm & Luck System**:
-  - ✅ **Yes, and…** → Cause **3** damage.  
-  - ✅ **Yes…** → Cause **2** damage.  
-  - ✅ **Yes, but…** → Cause **1** damage.  
-  - ❌ **No, but…** → Take **1** damage.  
-  - ❌ **No…** → Take **2** damage.  
-  - ❌ **No, and…** → Take **3** damage.  
+  - ✅ **Yes, and…** → Cause **3** damage.\
+  - ✅ **Yes…** → Cause **2** damage.\
+  - ✅ **Yes, but…** → Cause **1** damage.\
+  - ❌ **No, but…** → Take **1** damage.\
+  - ❌ **No…** → Take **2** damage.\
+  - ❌ **No, and…** → Take **3** damage.\
   - **🩸 At 0 Luck → Conflict lost**, interpret consequences.
 
 ### **📖 Determining Next Scene**
 
-- 🎭 **1-3** → Dramatic Scene (stakes increase).  
-- 🌿 **4-5** → Quiet Scene (recovery, planning).  
+- 🎭 **1-3** → Dramatic Scene (stakes increase).\
+- 🌿 **4-5** → Quiet Scene (recovery, planning).\
 - 🎥 **6** → Meanwhile Scene (cut to another perspective).
 
 ### **🏁 When the Story Ends**
 
 - **🏆 End when** the **Goal is achieved**, a **major revelation
-  occurs**, or the **momentum slows**.  
+  occurs**, or the **momentum slows**.\
 - **After an adventure:**
-  - 🆕 **Gain a new Skill, Gear, or Frailty** reflecting events.  
-  - 🔧 **Modify an existing trait** (e.g., improving expertise).  
-  - 😈 **Introduce a new Nemesis** if relevant.  
+  - 🆕 **Gain a new Skill, Gear, or Frailty** reflecting events.\
+  - 🔧 **Modify an existing trait** (e.g., improving expertise).\
+  - 😈 **Introduce a new Nemesis** if relevant.\
 - 🗂️ **Update NPCs, Locations, and Events** for future stories.
 
 ### **🎲 Open-Ended Questions**

@@ -1,6 +1,6 @@
 # Loner Cozy Fantasy
 Roberto Bisceglie
-2026-07-20
+2026-07-25
 
 # Loner Cozy Fantasy
 
@@ -255,25 +255,25 @@ own **tags and qualities**.
 Your Protagonist is described by a set of fixed traits:
 
 - **Name**: The name should be whimsical and fitting for a world of cozy
-  magic.  
+  magic.\
 - **Concept**: A concise description of the character’s profession,
   background, or identity. Examples: *“Kindly Bookbinder”*, *“Wandering
-  Candle-Mage”*, *“Forgetful Potion-Maker”*.  
+  Candle-Mage”*, *“Forgetful Potion-Maker”*.\
 - **Skills** (x2): Unique abilities that define how the character
   interacts with the world. *“Good Listener”* is better than *“Smart”*,
-  and *“Cloud-Whisperer”* is better than *“Weather Control”*.  
+  and *“Cloud-Whisperer”* is better than *“Weather Control”*.\
 - **Frailty**: A personal challenge or shortcoming—perhaps a fear, a
-  stubborn streak, or a tendency to get lost in daydreams.  
+  stubborn streak, or a tendency to get lost in daydreams.\
 - **Gear** (x2): Special items the character carries, enchanted or
   mundane, that hold personal significance. Examples: *“Ever-Warm Tea
-  Kettle”*, *“Lantern That Knows the Way”*.  
+  Kettle”*, *“Lantern That Knows the Way”*.\
 - **Goal**: A quiet ambition or dream—perhaps to perfect a recipe, write
-  a story, or uncover a forgotten place.  
+  a story, or uncover a forgotten place.\
 - **Motive**: What drives them to pursue this goal? Curiosity, longing,
-  duty, or something else?  
+  duty, or something else?\
 - **Nemesis**: Not always an enemy, but someone (or something) that
   complicates their journey—perhaps an old rival, a mischievous spirit,
-  or a skeptical town elder.  
+  or a skeptical town elder.\
 - **Luck**: A measure of the character’s ability to avoid misfortune. It
   applies in Conflicts and resets at the end of each scene. Luck starts
   and caps at 6.
@@ -516,7 +516,7 @@ cannot pursue their Goal until restored. At **0 Hearth**, they cannot
 benefit from advantages related to home or community.
 
 A character regains **Heart** through **small moments of joy, self-care,
-and encouragement**.  
+and encouragement**.\
 A character regains **Hearth** by **spending time with loved ones,
 engaging in comforting rituals, or finding stability in a place that
 matters to them**.
@@ -525,10 +525,10 @@ matters to them**.
 
 - If a scene is particularly **emotionally challenging**, roll 1d6. On a
   **1-3**, the character loses **Heart**; on a **4-6**, they find a way
-  to push through.  
+  to push through.\
 - If a scene involves **losing or finding a sense of home**, roll 1d6.
   On a **1-3**, they feel adrift, losing **Hearth**; on a **4-6**, they
-  reaffirm their place in the world.  
+  reaffirm their place in the world.\
 - Restoring **Heart** and **Hearth** should be part of the story—**a
   warm cup of tea, a heartfelt conversation, or a favorite book on a
   rainy afternoon** can help recover what was lost.
@@ -557,14 +557,14 @@ When a major challenge arises:
 ### **Kind Deeds & Quiet Magic**
 
 A character can use small acts of kindness or gentle magic to assist
-others.  
+others.\
 Whenever a character **helps someone in a meaningful way** (without
 expectation of reward), roll 1d6:
 
 - **1-2** → The act is appreciated, but doesn’t have an immediate
-  effect.  
+  effect.\
 - **3-4** → The act brings comfort, mends a small hurt, or strengthens a
-  relationship.  
+  relationship.\
 - **5-6** → The act creates a lasting change, earning deep gratitude or
   unexpected good fortune.
 
@@ -575,8 +575,8 @@ to new friendships, forgotten places, or rediscovered joys. The world is
 filled with **gentle mysteries and small wonders**. When encountering
 something **unknown, magical, or curious**, roll 1d6:
 
-- **1-3** → The mystery deepens, raising more questions.  
-- **4-5** → A small clue is revealed.  
+- **1-3** → The mystery deepens, raising more questions.\
+- **4-5** → A small clue is revealed.\
 - **6** → A major insight is gained, or the mystery is delightfully
   solved.
 
@@ -589,7 +589,7 @@ Lantern Festival, the First Snowfall, or the Gathering of Fireflies), it
 influences the magic in the air.
 
 - During **Autumn & Winter**, characters gain advantage when creating
-  **cozy spaces, hosting gatherings, or preserving traditions**.  
+  **cozy spaces, hosting gatherings, or preserving traditions**.\
 - During **Spring & Summer**, they gain advantage when engaging in
   **exploration, personal growth, or making new connections**.
 
@@ -689,37 +689,37 @@ displays of power but **small wonders, crafted with care**.
 
 #### **1. Hearth & Home Magic**
 
-🔹 Magic tied to warmth, comfort, and domestic life.  
+🔹 Magic tied to warmth, comfort, and domestic life.\
 🔹 Often performed through **baking, knitting, cleaning, or brewing
 tea**.
 
 #### **2. Nature’s Whimsy**
 
 🌿 Magic that connects to plants, animals, and the turning of the
-seasons.  
+seasons.\
 🌿 Often practiced through **gardening, walking in the woods, or caring
 for creatures**.
 
 #### **3. Ink & Wordcraft**
 
-📜 Magic hidden in books, letters, and stories.  
+📜 Magic hidden in books, letters, and stories.\
 📜 Often performed by **scribes, poets, or anyone who understands the
 weight of words**.
 
 #### **4. Whispers of the Past**
 
 🕰️ Magic that unravels forgotten things—memories, lost objects, echoes
-of old places.  
+of old places.\
 🕰️ Often used by **historians, wanderers, and keepers of secrets**.
 
 #### **5. Light & Lantern Magic**
 
-🕯️ Magic of glow, warmth, and gentle guidance.  
+🕯️ Magic of glow, warmth, and gentle guidance.\
 🕯️ Found in **candles, lanterns, and fireflies on a summer night**.
 
 #### **6. Luck & Little Wonders**
 
-🍀 Magic of small, delightful surprises—things turning out just right.  
+🍀 Magic of small, delightful surprises—things turning out just right.\
 🍀 Often practiced **by those who don’t try too hard, but trust the
 world’s whimsy**.
 
@@ -847,13 +847,13 @@ show up again in future adventures.
 
 ### **The Lantern-Keepers**
 
-- **Concept**: **Wandering Lightbringers**  
-- **Skills**: **Guiding the Lost, Preserving Stories**  
-- **Frailty**: **Bound by Old Promises**  
-- **Gear**: **Ever-Burning Lantern, Map That Changes at Dusk**  
-- **Goal**: To ensure no traveler ever feels truly alone.  
+- **Concept**: **Wandering Lightbringers**\
+- **Skills**: **Guiding the Lost, Preserving Stories**\
+- **Frailty**: **Bound by Old Promises**\
+- **Gear**: **Ever-Burning Lantern, Map That Changes at Dusk**\
+- **Goal**: To ensure no traveler ever feels truly alone.\
 - **Motive**: A belief that light—whether from a candle, a home, or a
-  kind word—should never be hidden.  
+  kind word—should never be hidden.\
 - **Nemesis**: The **Silent Fog**, an unnatural mist that obscures paths
   and memories.
 
@@ -873,13 +873,13 @@ to see.
 
 ### **The Hearthwoven Circle**
 
-- **Concept**: **Magic-Knitters & Tea Witches**  
-- **Skills**: **Weaving Enchantments, Brewing Comforting Teas**  
-- **Frailty**: **Their Magic Only Works for Others**  
-- **Gear**: **Self-Mending Scarf, Tea That Tastes Like Home**  
-- **Goal**: To **stitch warmth and wonder into the world**.  
+- **Concept**: **Magic-Knitters & Tea Witches**\
+- **Skills**: **Weaving Enchantments, Brewing Comforting Teas**\
+- **Frailty**: **Their Magic Only Works for Others**\
+- **Gear**: **Self-Mending Scarf, Tea That Tastes Like Home**\
+- **Goal**: To **stitch warmth and wonder into the world**.\
 - **Motive**: They believe that **small comforts** make life worth
-  living.  
+  living.\
 - **Nemesis**: The **Frayed Thread**, a rogue weaver whose magic
   unravels bonds instead of strengthening them.
 
@@ -897,13 +897,13 @@ home itself**.
 
 ### **The Bookbinders of Everword**
 
-- **Concept**: **Keepers of Living Stories**  
-- **Skills**: **Binding Memories, Whispering to Books**  
-- **Frailty**: **Some Stories Want to Be Free**  
-- **Gear**: **Ink That Never Fades, Book That Writes Back**  
-- **Goal**: To preserve every untold story before it is lost.  
+- **Concept**: **Keepers of Living Stories**\
+- **Skills**: **Binding Memories, Whispering to Books**\
+- **Frailty**: **Some Stories Want to Be Free**\
+- **Gear**: **Ink That Never Fades, Book That Writes Back**\
+- **Goal**: To preserve every untold story before it is lost.\
 - **Motive**: A belief that stories are **the heartbeats of the past**,
-  and forgetting them is like losing people all over again.  
+  and forgetting them is like losing people all over again.\
 - **Nemesis**: The **Torn Page**, a faction that believes some stories
   should be erased forever.
 
@@ -921,14 +921,14 @@ pages better left blank?**
 
 ### **The Moonwake Gardeners**
 
-- **Concept**: **Keepers of the Midnight Blooms**  
-- **Skills**: **Growing Impossible Flowers, Speaking to the Moon**  
-- **Frailty**: **Their Gardens Only Bloom at Night**  
+- **Concept**: **Keepers of the Midnight Blooms**\
+- **Skills**: **Growing Impossible Flowers, Speaking to the Moon**\
+- **Frailty**: **Their Gardens Only Bloom at Night**\
 - **Gear**: **A Seed That Never Stops Growing, A Trowel That Hums in
-  Moonlight**  
-- **Goal**: To tend to the **secret gardens of Everhollow**.  
+  Moonlight**\
+- **Goal**: To tend to the **secret gardens of Everhollow**.\
 - **Motive**: A belief that **beauty should flourish in the quiet places
-  of the world**.  
+  of the world**.\
 - **Nemesis**: The **Root-Takers**, who steal rare plants for profit.
 
 In hidden groves, atop forgotten rooftops, and beneath ancient ruins,
@@ -945,14 +945,13 @@ would otherwise be lost.
 
 ### **The Everclock Society**
 
-- **Concept**: **Tinkers of Time**  
-- **Skills**: **Fixing Broken Things, Listening to Old Clocks**  
-- **Frailty**: **They Can Mend Time, But Never Turn It Back**  
+- **Concept**: **Tinkers of Time**\
+- **Skills**: **Fixing Broken Things, Listening to Old Clocks**\
+- **Frailty**: **They Can Mend Time, But Never Turn It Back**\
 - **Gear**: **A Clockwork Sparrow, A Watch That Runs Only for Its
-  Owner**  
-- **Goal**: To keep **time running smoothly**—in every sense.  
-- **Motive**: A belief that **everything can be fixed, except
-  regret**.  
+  Owner**\
+- **Goal**: To keep **time running smoothly**—in every sense.\
+- **Motive**: A belief that **everything can be fixed, except regret**.\
 - **Nemesis**: The **Hollow Hours**, a group that steals time from those
   who waste it.
 
@@ -970,13 +969,13 @@ reversed, no matter how much someone longs for the past.**
 
 ### **The Wayfarers of the Silent Bell**
 
-- **Concept**: **Keepers of Lost Roads**  
-- **Skills**: **Finding Hidden Paths, Walking Between Places**  
-- **Frailty**: **They Can Never Stay in One Place for Too Long**  
+- **Concept**: **Keepers of Lost Roads**\
+- **Skills**: **Finding Hidden Paths, Walking Between Places**\
+- **Frailty**: **They Can Never Stay in One Place for Too Long**\
 - **Gear**: **A Bell That Rings Where No One Can Hear It, A Map That
-  Writes Its Own Directions**  
-- **Goal**: To **keep the forgotten roads open**.  
-- **Motive**: A belief that **no place should ever be truly lost**.  
+  Writes Its Own Directions**\
+- **Goal**: To **keep the forgotten roads open**.\
+- **Motive**: A belief that **no place should ever be truly lost**.\
 - **Nemesis**: The **Vanishing Mile**, a force that erases roads and
   pathways, making places disappear forever.
 
@@ -998,391 +997,388 @@ small secrets**, but they all add to the **cozy magic** of the world.
 
 ### **11. Duskwhisker Cat**
 
-- **Concept**: **Twilight-Furred Familiar**  
-- **Skills**: **Vanishing in Shadows, Finding the Lost**  
-- **Frailty**: **Only Appears When No One is Looking**  
-- **Gear**: **A Silver Collar That Never Rusts, A Soft Purring Aura**  
-- **Goal**: To keep wanderers safe on their way home.  
-- **Motive**: It believes all paths should lead somewhere warm.  
+- **Concept**: **Twilight-Furred Familiar**\
+- **Skills**: **Vanishing in Shadows, Finding the Lost**\
+- **Frailty**: **Only Appears When No One is Looking**\
+- **Gear**: **A Silver Collar That Never Rusts, A Soft Purring Aura**\
+- **Goal**: To keep wanderers safe on their way home.\
+- **Motive**: It believes all paths should lead somewhere warm.\
 - **Nemesis**: The **Will-o’-the-Wisp**, which tries to mislead
   travelers.
 
 ### **12. Whispering Owl**
 
-- **Concept**: **Silent-Winged Watcher**  
-- **Skills**: **Reciting Forgotten Words, Sensing Unspoken Worries**  
-- **Frailty**: **Only Speaks in Riddles**  
+- **Concept**: **Silent-Winged Watcher**\
+- **Skills**: **Reciting Forgotten Words, Sensing Unspoken Worries**\
+- **Frailty**: **Only Speaks in Riddles**\
 - **Gear**: **Feathers That Glow Under the Moon, A Hollow Tree for
-  Nesting**  
-- **Goal**: To collect every story ever told.  
-- **Motive**: Knowledge should never be lost.  
+  Nesting**\
+- **Goal**: To collect every story ever told.\
+- **Motive**: Knowledge should never be lost.\
 - **Nemesis**: The **Torn Page**, who steals and burns old tales.
 
 ### **13. Hearthlight Moth**
 
-- **Concept**: **Glimmering Fire-Keeper**  
-- **Skills**: **Guiding the Lost, Carrying Tiny Sparks**  
-- **Frailty**: **Drawn to Warmth, Even When Dangerous**  
-- **Gear**: **Dust That Glows Like Embers, Wings Soft as Ash**  
-- **Goal**: To keep every home fire burning.  
-- **Motive**: Without warmth, the world is too cold.  
+- **Concept**: **Glimmering Fire-Keeper**\
+- **Skills**: **Guiding the Lost, Carrying Tiny Sparks**\
+- **Frailty**: **Drawn to Warmth, Even When Dangerous**\
+- **Gear**: **Dust That Glows Like Embers, Wings Soft as Ash**\
+- **Goal**: To keep every home fire burning.\
+- **Motive**: Without warmth, the world is too cold.\
 - **Nemesis**: The **Chillwind Fox**, who loves putting out fires.
 
 ### **14. Tanglekin**
 
-- **Concept**: **Mischievous Yarn Spirit**  
-- **Skills**: **Unraveling Threads, Hiding in Wool**  
-- **Frailty**: **Can’t Resist a Loose String**  
-- **Gear**: **A Ball of Endless Twine, Knots That Can’t Be Undone**  
-- **Goal**: To tangle and untangle the world’s little problems.  
-- **Motive**: It loves puzzles, knots, and things that need fixing.  
+- **Concept**: **Mischievous Yarn Spirit**\
+- **Skills**: **Unraveling Threads, Hiding in Wool**\
+- **Frailty**: **Can’t Resist a Loose String**\
+- **Gear**: **A Ball of Endless Twine, Knots That Can’t Be Undone**\
+- **Goal**: To tangle and untangle the world’s little problems.\
+- **Motive**: It loves puzzles, knots, and things that need fixing.\
 - **Nemesis**: The **Hearthwoven Circle**, who keeps it too tidy.
 
 ### **15. Candle Mouse**
 
-- **Concept**: **Tiny Flickering Guide**  
-- **Skills**: **Lighting Paths, Warming Cold Fingers**  
-- **Frailty**: **Can’t Stay Lit in the Wind**  
-- **Gear**: **A Wick-Like Tail, A Hollow Walnut Shell Home**  
-- **Goal**: To make sure no one fears the dark.  
-- **Motive**: Darkness is only scary when it’s empty.  
+- **Concept**: **Tiny Flickering Guide**\
+- **Skills**: **Lighting Paths, Warming Cold Fingers**\
+- **Frailty**: **Can’t Stay Lit in the Wind**\
+- **Gear**: **A Wick-Like Tail, A Hollow Walnut Shell Home**\
+- **Goal**: To make sure no one fears the dark.\
+- **Motive**: Darkness is only scary when it’s empty.\
 - **Nemesis**: The **Lantern Snatcher**, who steals small flames.
 
 ### **16. Murmuring Brookfish**
 
-- **Concept**: **Water-Bound Storyteller**  
-- **Skills**: **Echoing Old Voices, Keeping Rivers Clean**  
-- **Frailty**: **Can Only Be Heard at Dusk**  
-- **Gear**: **Scales That Hold Whispers, A Memory of Every Droplet**  
-- **Goal**: To remember everything ever spoken near water.  
-- **Motive**: Words should never be washed away.  
+- **Concept**: **Water-Bound Storyteller**\
+- **Skills**: **Echoing Old Voices, Keeping Rivers Clean**\
+- **Frailty**: **Can Only Be Heard at Dusk**\
+- **Gear**: **Scales That Hold Whispers, A Memory of Every Droplet**\
+- **Goal**: To remember everything ever spoken near water.\
+- **Motive**: Words should never be washed away.\
 - **Nemesis**: The **Silent Pebble**, which absorbs sound.
 
 ### **21. Moonlit Stag**
 
-- **Concept**: **Guardian of Quiet Places**  
-- **Skills**: **Walking Without a Sound, Appearing Only in Moonlight**  
-- **Frailty**: **Can’t Be Seen by Those Who Seek It**  
+- **Concept**: **Guardian of Quiet Places**\
+- **Skills**: **Walking Without a Sound, Appearing Only in Moonlight**\
+- **Frailty**: **Can’t Be Seen by Those Who Seek It**\
 - **Gear**: **Antlers That Hold Starshine, Hooves That Leave No
-  Tracks**  
-- **Goal**: To protect peaceful forests from ruin.  
-- **Motive**: Not all places are meant to be found.  
+  Tracks**\
+- **Goal**: To protect peaceful forests from ruin.\
+- **Motive**: Not all places are meant to be found.\
 - **Nemesis**: The **Root-Takers**, who steal plants for profit.
 
 ### **22. Pillow Spriggan**
 
-- **Concept**: **Dream-Keeper of Restful Sleep**  
-- **Skills**: **Weaving Soft Dreams, Ensuring Restful Nights**  
-- **Frailty**: **Becomes Drowsy When Hugged**  
-- **Gear**: **A Quilt-Like Cloak, A Feather-Stuffed Satchel**  
-- **Goal**: To help people wake up feeling safe.  
-- **Motive**: No one should fear the night.  
+- **Concept**: **Dream-Keeper of Restful Sleep**\
+- **Skills**: **Weaving Soft Dreams, Ensuring Restful Nights**\
+- **Frailty**: **Becomes Drowsy When Hugged**\
+- **Gear**: **A Quilt-Like Cloak, A Feather-Stuffed Satchel**\
+- **Goal**: To help people wake up feeling safe.\
+- **Motive**: No one should fear the night.\
 - **Nemesis**: The **Waking Worry**, a spirit of sleeplessness.
 
 ### **23. Chimney Swift Spirit**
 
-- **Concept**: **Guardian of Old Roofs**  
-- **Skills**: **Keeping Homes Safe, Perching Where Chimneys Crack**  
-- **Frailty**: **Bound to One Village at a Time**  
-- **Gear**: **Sooty Feathers, A Tiny Bell That Rings in Storms**  
-- **Goal**: To keep hearths warm and homes unbroken.  
-- **Motive**: A roof is only as strong as the love beneath it.  
+- **Concept**: **Guardian of Old Roofs**\
+- **Skills**: **Keeping Homes Safe, Perching Where Chimneys Crack**\
+- **Frailty**: **Bound to One Village at a Time**\
+- **Gear**: **Sooty Feathers, A Tiny Bell That Rings in Storms**\
+- **Goal**: To keep hearths warm and homes unbroken.\
+- **Motive**: A roof is only as strong as the love beneath it.\
 - **Nemesis**: The **Cold Snap**, which tries to freeze rooftops.
 
 ### **24. Teacup Toad**
 
-- **Concept**: **Tiny, Steamy Oracle**  
-- **Skills**: **Predicting the Weather, Brewing Tasty Rainwater**  
-- **Frailty**: **Easily Distracted by Sugar**  
-- **Gear**: **A Porcelain Shell, A Miniature Spoon**  
-- **Goal**: To share tea and good conversation.  
-- **Motive**: Nothing bad happens over tea.  
+- **Concept**: **Tiny, Steamy Oracle**\
+- **Skills**: **Predicting the Weather, Brewing Tasty Rainwater**\
+- **Frailty**: **Easily Distracted by Sugar**\
+- **Gear**: **A Porcelain Shell, A Miniature Spoon**\
+- **Goal**: To share tea and good conversation.\
+- **Motive**: Nothing bad happens over tea.\
 - **Nemesis**: The **Spilled Milk Gremlin**, who ruins perfect cups.
 
 ### **25. Star-Kissed Otter**
 
-- **Concept**: **Riverborn Stargazer**  
-- **Skills**: **Predicting the Tides, Reading the Night Sky**  
-- **Frailty**: **Becomes Distracted by Floating Objects**  
-- **Gear**: **A Tiny Nautical Compass, Fur That Shimmers in
-  Moonlight**  
-- **Goal**: To map the constellations reflected in the water.  
+- **Concept**: **Riverborn Stargazer**\
+- **Skills**: **Predicting the Tides, Reading the Night Sky**\
+- **Frailty**: **Becomes Distracted by Floating Objects**\
+- **Gear**: **A Tiny Nautical Compass, Fur That Shimmers in Moonlight**\
+- **Goal**: To map the constellations reflected in the water.\
 - **Motive**: The sky and the sea are connected, and someone must prove
-  it.  
+  it.\
 - **Nemesis**: The **Cloudherders**, whose misty magic obscures the
   stars.
 
 ### **26. Cobblestone Frog**
 
-- **Concept**: **Guardian of Forgotten Paths**  
-- **Skills**: **Sensing Hidden Roads, Croaking in Different Echoes**  
-- **Frailty**: **Can Only Move When Unseen**  
-- **Gear**: **A Pebble-Shaped Shell, Tiny Mossy Satchel**  
-- **Goal**: To ensure no road is truly lost.  
-- **Motive**: Even the smallest paths deserve to be remembered.  
+- **Concept**: **Guardian of Forgotten Paths**\
+- **Skills**: **Sensing Hidden Roads, Croaking in Different Echoes**\
+- **Frailty**: **Can Only Move When Unseen**\
+- **Gear**: **A Pebble-Shaped Shell, Tiny Mossy Satchel**\
+- **Goal**: To ensure no road is truly lost.\
+- **Motive**: Even the smallest paths deserve to be remembered.\
 - **Nemesis**: The **Vanishing Mile**, which erases roads from memory.
 
 ### **31. Lantern Fox**
 
-- **Concept**: **Guide of the Twilight Roads**  
+- **Concept**: **Guide of the Twilight Roads**\
 - **Skills**: **Illuminating Safe Paths, Appearing at Just the Right
-  Moment**  
-- **Frailty**: **Can Only Lead, Never Follow**  
+  Moment**\
+- **Frailty**: **Can Only Lead, Never Follow**\
 - **Gear**: **A Flame-Tipped Tail, A Small Charm That Glows in the
-  Dark**  
-- **Goal**: To make sure no one is lost when night falls.  
-- **Motive**: Travelers deserve to feel safe.  
+  Dark**\
+- **Goal**: To make sure no one is lost when night falls.\
+- **Motive**: Travelers deserve to feel safe.\
 - **Nemesis**: The **Will-o’-the-Wisp**, which lures wanderers astray.
 
 ### **32. Puddlekin**
 
-- **Concept**: **Playful Rain Spirit**  
-- **Skills**: **Jumping Between Puddles, Summoning Light Showers**  
-- **Frailty**: **Dries Up if Kept Indoors Too Long**  
-- **Gear**: **A Raindrop Pendant, A Tiny Floating Leaf Boat**  
-- **Goal**: To make sure every rainy day is fun.  
-- **Motive**: Splashing in puddles is an art form.  
+- **Concept**: **Playful Rain Spirit**\
+- **Skills**: **Jumping Between Puddles, Summoning Light Showers**\
+- **Frailty**: **Dries Up if Kept Indoors Too Long**\
+- **Gear**: **A Raindrop Pendant, A Tiny Floating Leaf Boat**\
+- **Goal**: To make sure every rainy day is fun.\
+- **Motive**: Splashing in puddles is an art form.\
 - **Nemesis**: The **Grumblecloud**, which brings stormy tempers.
 
 ### **33. Clockwork Finch**
 
-- **Concept**: **Tiny Tinkerer’s Companion**  
-- **Skills**: **Keeping Perfect Time, Detecting Rust and Wear**  
-- **Frailty**: **Winds Down if Not Sung To**  
-- **Gear**: **A Miniature Key, A Gilded Feather**  
-- **Goal**: To ensure every broken thing can be mended.  
-- **Motive**: Time is precious—so are the things we build.  
+- **Concept**: **Tiny Tinkerer’s Companion**\
+- **Skills**: **Keeping Perfect Time, Detecting Rust and Wear**\
+- **Frailty**: **Winds Down if Not Sung To**\
+- **Gear**: **A Miniature Key, A Gilded Feather**\
+- **Goal**: To ensure every broken thing can be mended.\
+- **Motive**: Time is precious—so are the things we build.\
 - **Nemesis**: The **Rustmonger**, who delights in breaking delicate
   things.
 
 ### **34. Library Sprite**
 
-- **Concept**: **Keeper of Misplaced Books**  
+- **Concept**: **Keeper of Misplaced Books**\
 - **Skills**: **Finding Missing Pages, Remembering Every Story Ever
-  Read**  
-- **Frailty**: **Can’t Resist an Unfinished Book**  
-- **Gear**: **A Tiny Satchel of Ink, A Feather-Light Bookmark**  
-- **Goal**: To make sure every story is told to the right person.  
-- **Motive**: Books have their own destinies.  
+  Read**\
+- **Frailty**: **Can’t Resist an Unfinished Book**\
+- **Gear**: **A Tiny Satchel of Ink, A Feather-Light Bookmark**\
+- **Goal**: To make sure every story is told to the right person.\
+- **Motive**: Books have their own destinies.\
 - **Nemesis**: The **Torn Page**, which seeks to erase certain tales.
 
 ### **35. Clover Hare**
 
-- **Concept**: **Bringer of Small Fortunes**  
-- **Skills**: **Finding Four-Leaf Clovers, Jumping Over Bad Luck**  
-- **Frailty**: **Can Only Grant Luck Once Per Day**  
-- **Gear**: **A Clover-Woven Charm, Soft Paws That Leave No Tracks**  
-- **Goal**: To spread just enough luck where it’s needed.  
-- **Motive**: A little bit of luck can change everything.  
+- **Concept**: **Bringer of Small Fortunes**\
+- **Skills**: **Finding Four-Leaf Clovers, Jumping Over Bad Luck**\
+- **Frailty**: **Can Only Grant Luck Once Per Day**\
+- **Gear**: **A Clover-Woven Charm, Soft Paws That Leave No Tracks**\
+- **Goal**: To spread just enough luck where it’s needed.\
+- **Motive**: A little bit of luck can change everything.\
 - **Nemesis**: The **Shadowstep Weasel**, who steals good fortune.
 
 ### **36. Inkdrift Koi**
 
-- **Concept**: **Painter of Water and Dreams**  
+- **Concept**: **Painter of Water and Dreams**\
 - **Skills**: **Weaving Colors Into Water, Creating Temporary
-  Illusions**  
-- **Frailty**: **Its Magic Fades With the Tides**  
-- **Gear**: **Scales That Absorb Moonlight, A Swirling Ink Pool**  
-- **Goal**: To paint the most beautiful dream ever seen.  
-- **Motive**: Beauty should never be forgotten.  
+  Illusions**\
+- **Frailty**: **Its Magic Fades With the Tides**\
+- **Gear**: **Scales That Absorb Moonlight, A Swirling Ink Pool**\
+- **Goal**: To paint the most beautiful dream ever seen.\
+- **Motive**: Beauty should never be forgotten.\
 - **Nemesis**: The **Graywash Eel**, which steals color from the world.
 
 ### **41. Moonshadow Lynx**
 
-- **Concept**: **Watcher of the Hidden Glades**  
-- **Skills**: **Moving Silently, Seeing Into the Between Places**  
+- **Concept**: **Watcher of the Hidden Glades**\
+- **Skills**: **Moving Silently, Seeing Into the Between Places**\
 - **Frailty**: **Its Gaze Can’t See the Present, Only the Future or the
-  Past**  
-- **Gear**: **A Silver Eye Pendant, Pawprints That Disappear at Dawn**  
-- **Goal**: To ensure the balance between what was, and what will be.  
-- **Motive**: Every moment is part of something greater.  
+  Past**\
+- **Gear**: **A Silver Eye Pendant, Pawprints That Disappear at Dawn**\
+- **Goal**: To ensure the balance between what was, and what will be.\
+- **Motive**: Every moment is part of something greater.\
 - **Nemesis**: The **Echo Jackal**, which alters past events.
 
 ### **42. Thistle Imp**
 
-- **Concept**: **Prickly Little Trickster**  
-- **Skills**: **Hiding in Wildflower Fields, Playing Gentle Tricks**  
-- **Frailty**: **Too Small to Carry Anything Heavy**  
+- **Concept**: **Prickly Little Trickster**\
+- **Skills**: **Hiding in Wildflower Fields, Playing Gentle Tricks**\
+- **Frailty**: **Too Small to Carry Anything Heavy**\
 - **Gear**: **A Crown of Woven Thistles, A Tiny Bell That Rings in the
-  Wind**  
-- **Goal**: To make sure people stop and enjoy the little things.  
-- **Motive**: Life is better when you laugh.  
+  Wind**\
+- **Goal**: To make sure people stop and enjoy the little things.\
+- **Motive**: Life is better when you laugh.\
 - **Nemesis**: The **Overgrown Bramble**, which traps people in their
   worries.
 
 ### **43. Sunbeam Squirrel**
 
-- **Concept**: **Messenger of Warm Days**  
-- **Skills**: **Spreading Warmth, Finding Hidden Acorns of Joy**  
-- **Frailty**: **Can Only Be Seen in Sunlight**  
-- **Gear**: **A Golden Leaf, A Tail That Flickers Like Sunbeams**  
-- **Goal**: To ensure every day has a moment of brightness.  
-- **Motive**: Even cloudy days deserve some warmth.  
+- **Concept**: **Messenger of Warm Days**\
+- **Skills**: **Spreading Warmth, Finding Hidden Acorns of Joy**\
+- **Frailty**: **Can Only Be Seen in Sunlight**\
+- **Gear**: **A Golden Leaf, A Tail That Flickers Like Sunbeams**\
+- **Goal**: To ensure every day has a moment of brightness.\
+- **Motive**: Even cloudy days deserve some warmth.\
 - **Nemesis**: The **Driftwood Crow**, which thrives in gloomy weather.
 
 ### **44. Driftwood Crow**
 
-- **Concept**: **Harbinger of Quiet Storms**  
+- **Concept**: **Harbinger of Quiet Storms**\
 - **Skills**: **Sensing Weather Changes, Finding Lost Things in the
-  Wind**  
-- **Frailty**: **Feathers Become Heavy When Wet**  
-- **Gear**: **A Twisted Driftwood Perch, A Beak That Taps Like Rain**  
-- **Goal**: To carry messages between storms.  
-- **Motive**: Every tempest has a story worth telling.  
+  Wind**\
+- **Frailty**: **Feathers Become Heavy When Wet**\
+- **Gear**: **A Twisted Driftwood Perch, A Beak That Taps Like Rain**\
+- **Goal**: To carry messages between storms.\
+- **Motive**: Every tempest has a story worth telling.\
 - **Nemesis**: The **Sunbeam Squirrel**, who tries to chase away gloomy
   days.
 
 ### **45. Twilight Snail**
 
-- **Concept**: **Keeper of Slow Secrets**  
-- **Skills**: **Absorbing Forgotten Memories, Moving Without a Sound**  
-- **Frailty**: **Takes a Full Day to Cross a Single Village**  
-- **Gear**: **A Spiral Shell That Holds Echoes, A Trail of Soft Glow**  
-- **Goal**: To preserve the quiet stories no one else remembers.  
-- **Motive**: Slow steps still lead somewhere.  
+- **Concept**: **Keeper of Slow Secrets**\
+- **Skills**: **Absorbing Forgotten Memories, Moving Without a Sound**\
+- **Frailty**: **Takes a Full Day to Cross a Single Village**\
+- **Gear**: **A Spiral Shell That Holds Echoes, A Trail of Soft Glow**\
+- **Goal**: To preserve the quiet stories no one else remembers.\
+- **Motive**: Slow steps still lead somewhere.\
 - **Nemesis**: The **Hollow Whisper**, which steals forgotten moments.
 
 ### **46. Ember Jackalope**
 
-- **Concept**: **Keeper of the Last Fire**  
-- **Skills**: **Hopping Between Campfires, Warming Cold Hands**  
-- **Frailty**: **Its Fire Goes Out If It Feels Unloved**  
-- **Gear**: **Antlers That Spark in the Dark, Ash-Tipped Paws**  
-- **Goal**: To keep warmth alive in the loneliest places.  
-- **Motive**: No one should shiver alone.  
+- **Concept**: **Keeper of the Last Fire**\
+- **Skills**: **Hopping Between Campfires, Warming Cold Hands**\
+- **Frailty**: **Its Fire Goes Out If It Feels Unloved**\
+- **Gear**: **Antlers That Spark in the Dark, Ash-Tipped Paws**\
+- **Goal**: To keep warmth alive in the loneliest places.\
+- **Motive**: No one should shiver alone.\
 - **Nemesis**: The **Winter Wisp**, which steals embers for itself.
 
 ### **51. Starroot Mole**
 
-- **Concept**: **Burrower of Celestial Gardens**  
-- **Skills**: **Sensing Buried Stars, Softening the Earth**  
-- **Frailty**: **Can Only Surface Under Moonlight**  
-- **Gear**: **Tiny Crystal Claws, A Nose That Glows in the Dark**  
-- **Goal**: To plant starlight where it’s needed most.  
-- **Motive**: Even the darkest soil can bloom with light.  
+- **Concept**: **Burrower of Celestial Gardens**\
+- **Skills**: **Sensing Buried Stars, Softening the Earth**\
+- **Frailty**: **Can Only Surface Under Moonlight**\
+- **Gear**: **Tiny Crystal Claws, A Nose That Glows in the Dark**\
+- **Goal**: To plant starlight where it’s needed most.\
+- **Motive**: Even the darkest soil can bloom with light.\
 - **Nemesis**: The **Root-Takers**, who dig up magic for profit.
 
 ### **52. Mist-Eyed Koi**
 
-- **Concept**: **River Guardian of Dreams**  
+- **Concept**: **River Guardian of Dreams**\
 - **Skills**: **Turning Ponds into Portals, Swimming Between
-  Reflections**  
-- **Frailty**: **Can’t Leave the Water**  
-- **Gear**: **A Rippled Tail, Eyes That Hold Distant Places**  
-- **Goal**: To connect dreams between lakes, rivers, and rain puddles.  
-- **Motive**: Even dreams need bridges.  
+  Reflections**\
+- **Frailty**: **Can’t Leave the Water**\
+- **Gear**: **A Rippled Tail, Eyes That Hold Distant Places**\
+- **Goal**: To connect dreams between lakes, rivers, and rain puddles.\
+- **Motive**: Even dreams need bridges.\
 - **Nemesis**: The **Stone-Tongue Toad**, who freezes water into
   silence.
 
 ### **53. Melancholy Cricket**
 
-- **Concept**: **Singer of Gentle Sadness**  
-- **Skills**: **Playing Soft Lullabies, Sensing Loneliness**  
-- **Frailty**: **Can Only Be Heard by Those Who Need to Listen**  
-- **Gear**: **A Violin-Like Wing, A Hollow Reed to Hide In**  
-- **Goal**: To comfort those who can’t sleep.  
-- **Motive**: Sometimes, sadness needs a melody.  
+- **Concept**: **Singer of Gentle Sadness**\
+- **Skills**: **Playing Soft Lullabies, Sensing Loneliness**\
+- **Frailty**: **Can Only Be Heard by Those Who Need to Listen**\
+- **Gear**: **A Violin-Like Wing, A Hollow Reed to Hide In**\
+- **Goal**: To comfort those who can’t sleep.\
+- **Motive**: Sometimes, sadness needs a melody.\
 - **Nemesis**: The **Echo Jackal**, who turns sorrow into silence.
 
 ### **54. Dreambound Moth**
 
-- **Concept**: **Flutterer of Nighttime Wishes**  
+- **Concept**: **Flutterer of Nighttime Wishes**\
 - **Skills**: **Carrying Messages in the Wind, Illuminating Forgotten
-  Paths**  
-- **Frailty**: **Only Exists in the Space Between Sleeping and
-  Waking**  
+  Paths**\
+- **Frailty**: **Only Exists in the Space Between Sleeping and Waking**\
 - **Gear**: **Wings Dusted with Starlight, A Silk Cocoon That
-  Whispers**  
-- **Goal**: To guide lost thoughts home.  
-- **Motive**: Even half-formed wishes deserve to be found.  
+  Whispers**\
+- **Goal**: To guide lost thoughts home.\
+- **Motive**: Even half-formed wishes deserve to be found.\
 - **Nemesis**: The **Lost Hourglass**, which traps dreams before they
   can take flight.
 
 ### **55. Hearthbound Goose**
 
-- **Concept**: **Guardian of Village Gossip**  
+- **Concept**: **Guardian of Village Gossip**\
 - **Skills**: **Spreading News, Honking Loudly at Suspicious
-  Strangers**  
-- **Frailty**: **Easily Distracted by Shiny Objects**  
-- **Gear**: **A Bell-Tied Ribbon, A Beak That Always Looks Stern**  
-- **Goal**: To make sure no secret is left untold.  
-- **Motive**: Stories belong to everyone.  
+  Strangers**\
+- **Frailty**: **Easily Distracted by Shiny Objects**\
+- **Gear**: **A Bell-Tied Ribbon, A Beak That Always Looks Stern**\
+- **Goal**: To make sure no secret is left untold.\
+- **Motive**: Stories belong to everyone.\
 - **Nemesis**: The **Silent Pebble**, which buries whispers forever.
 
 ### **56. Pebble Sprite**
 
-- **Concept**: **Keeper of Quiet Moments**  
+- **Concept**: **Keeper of Quiet Moments**\
 - **Skills**: **Finding the Perfect Skipping Stone, Smoothing Rough
-  Edges**  
-- **Frailty**: **Too Small to Move on Its Own**  
-- **Gear**: **A Worn River Stone, A Bag of Soft Sand**  
-- **Goal**: To remind people to slow down.  
-- **Motive**: Every still moment matters.  
+  Edges**\
+- **Frailty**: **Too Small to Move on Its Own**\
+- **Gear**: **A Worn River Stone, A Bag of Soft Sand**\
+- **Goal**: To remind people to slow down.\
+- **Motive**: Every still moment matters.\
 - **Nemesis**: The **Rushing River**, which never stops to listen.
 
 ### **61. Silver-Tongued Fox**
 
-- **Concept**: **Wanderer of Forgotten Promises**  
-- **Skills**: **Hearing Half-Spoken Truths, Tracking the Unfinished**  
-- **Frailty**: **Cannot Tell a Lie, No Matter How Small**  
+- **Concept**: **Wanderer of Forgotten Promises**\
+- **Skills**: **Hearing Half-Spoken Truths, Tracking the Unfinished**\
+- **Frailty**: **Cannot Tell a Lie, No Matter How Small**\
 - **Gear**: **A Ribbon of Vows, A Nose That Sniffs Out Lost
-  Intentions**  
-- **Goal**: To ensure that words never go unkept.  
-- **Motive**: Promises shape the world.  
+  Intentions**\
+- **Goal**: To ensure that words never go unkept.\
+- **Motive**: Promises shape the world.\
 - **Nemesis**: The **Echo Jackal**, who erases oaths from memory.
 
 ### **62. Hollow Fern Stag**
 
-- **Concept**: **Silent Wanderer of Forgotten Groves**  
-- **Skills**: **Walking Between Places, Hiding Paths from Unkind
-  Eyes**  
-- **Frailty**: **Cannot Be Seen in Direct Sunlight**  
-- **Gear**: **Antlers That Grow Moss, Hooves That Leave No Sound**  
-- **Goal**: To guard sacred glades from those who would harm them.  
-- **Motive**: Some places should remain untouched.  
+- **Concept**: **Silent Wanderer of Forgotten Groves**\
+- **Skills**: **Walking Between Places, Hiding Paths from Unkind Eyes**\
+- **Frailty**: **Cannot Be Seen in Direct Sunlight**\
+- **Gear**: **Antlers That Grow Moss, Hooves That Leave No Sound**\
+- **Goal**: To guard sacred glades from those who would harm them.\
+- **Motive**: Some places should remain untouched.\
 - **Nemesis**: The **Root-Takers**, who steal nature’s secrets.
 
 ### **63. Winter Wisp**
 
-- **Concept**: **Flickering Spirit of Snow**  
-- **Skills**: **Bringing the First Frost, Whispering in the Wind**  
-- **Frailty**: **Melts in Warm Hands**  
-- **Gear**: **A Trail of Icy Petals, A Breath of Frozen Air**  
-- **Goal**: To ensure that winter arrives gently.  
-- **Motive**: Change should be soft, not sudden.  
+- **Concept**: **Flickering Spirit of Snow**\
+- **Skills**: **Bringing the First Frost, Whispering in the Wind**\
+- **Frailty**: **Melts in Warm Hands**\
+- **Gear**: **A Trail of Icy Petals, A Breath of Frozen Air**\
+- **Goal**: To ensure that winter arrives gently.\
+- **Motive**: Change should be soft, not sudden.\
 - **Nemesis**: The **Ember Jackalope**, who tries to keep warmth
   forever.
 
 ### **64. Sunlit Badger**
 
-- **Concept**: **Burrower of Hearthfires**  
-- **Skills**: **Digging Warm Dens, Finding the Best Kindling**  
-- **Frailty**: **Struggles to Stay Awake After Sunset**  
-- **Gear**: **A Patchwork Blanket, Claws That Smell Like Fresh Earth**  
-- **Goal**: To make sure no one ever goes cold.  
-- **Motive**: A home should always be warm.  
+- **Concept**: **Burrower of Hearthfires**\
+- **Skills**: **Digging Warm Dens, Finding the Best Kindling**\
+- **Frailty**: **Struggles to Stay Awake After Sunset**\
+- **Gear**: **A Patchwork Blanket, Claws That Smell Like Fresh Earth**\
+- **Goal**: To make sure no one ever goes cold.\
+- **Motive**: A home should always be warm.\
 - **Nemesis**: The **Cold Snap**, which steals warmth in the night.
 
 ### **65. Fiddlefern Wren**
 
-- **Concept**: **Singer of Morning Light**  
-- **Skills**: **Bringing Sunrises, Carrying Songs in Its Wings**  
-- **Frailty**: **Can Only Sing at Dawn**  
+- **Concept**: **Singer of Morning Light**\
+- **Skills**: **Bringing Sunrises, Carrying Songs in Its Wings**\
+- **Frailty**: **Can Only Sing at Dawn**\
 - **Gear**: **A Feather That Glows in Daylight, A Tune That Warms the
-  Heart**  
-- **Goal**: To make sure every morning feels new.  
-- **Motive**: Every day is a fresh start.  
+  Heart**\
+- **Goal**: To make sure every morning feels new.\
+- **Motive**: Every day is a fresh start.\
 - **Nemesis**: The **Driftwood Crow**, who prefers the quiet before
   storms.
 
 ### **66. The Echo Jackal** *(Unique Entity)*
 
-- **Concept**: **Thief of Sound and Memory**  
-- **Skills**: **Stealing Words, Running Between Forgotten Spaces**  
-- **Frailty**: **Cannot Speak Its Own Name**  
-- **Gear**: **A Shadowed Pelt, A Hollow Howl**  
-- **Goal**: To erase stories before they are told.  
-- **Motive**: Some things should stay lost.  
+- **Concept**: **Thief of Sound and Memory**\
+- **Skills**: **Stealing Words, Running Between Forgotten Spaces**\
+- **Frailty**: **Cannot Speak Its Own Name**\
+- **Gear**: **A Shadowed Pelt, A Hollow Howl**\
+- **Goal**: To erase stories before they are told.\
+- **Motive**: Some things should stay lost.\
 - **Nemesis**: Every storyteller, everywhere.
 
 ## Adventure Tables
@@ -2417,75 +2413,75 @@ whimsical adventures, and the small joys of everyday life**.
 ### **📚 Books**
 
 - *The House in the Cerulean Sea* – TJ Klune (Found family, magical
-  children, warmth)  
+  children, warmth)\
 - *Legends & Lattes* – Travis Baldree (Cozy slice-of-life fantasy,
-  low-stakes adventure)  
+  low-stakes adventure)\
 - *The Tea Dragon Society* – Katie O’Neill (Whimsical art, gentle
-  worldbuilding, tea and dragons)  
+  worldbuilding, tea and dragons)\
 - *Howl’s Moving Castle* – Diana Wynne Jones (Quirky magic, whimsical
-  adventure, heartwarming romance)  
+  adventure, heartwarming romance)\
 - *The Very Secret Society of Irregular Witches* – Sangu Mandanna
-  (Hidden magic, found family, personal growth)  
+  (Hidden magic, found family, personal growth)\
 - *Emily Wilde’s Encyclopaedia of Faeries* – Heather Fawcett (Academic
-  fantasy, cozy worldbuilding, folklore)  
+  fantasy, cozy worldbuilding, folklore)\
 - *Silver in the Wood* – Emily Tesh (Forest magic, folklore, quiet
-  romance)  
+  romance)\
 - *The Girl Who Circumnavigated Fairyland in a Ship of Her Own Making* –
-  Catherynne M. Valente (Whimsical, dreamy, rich worldbuilding)  
+  Catherynne M. Valente (Whimsical, dreamy, rich worldbuilding)\
 - *The Goblin Emperor* – Katherine Addison (Kind protagonist, political
-  intrigue without cruelty)  
+  intrigue without cruelty)\
 - *Over the Woodward Wall* – A. Deborah Baker (Lyrical prose, quiet
   adventure, small mysteries)
 
 ### **🎥 Films & TV Series**
 
 - *Kiki’s Delivery Service* (Studio Ghibli) – Cozy world, independent
-  protagonist, small magic  
+  protagonist, small magic\
 - *My Neighbor Totoro* (Studio Ghibli) – Whimsical childhood wonder,
-  gentle exploration  
+  gentle exploration\
 - *Whisper of the Heart* (Studio Ghibli) – Personal growth, art and
-  creativity, warm relationships  
+  creativity, warm relationships\
 - *Spirited Away* (Studio Ghibli) – Hidden magical worlds, kindness,
-  transformation  
+  transformation\
 - *The Secret of Roan Inish* – Irish folklore, quiet family mystery,
-  natural magic  
+  natural magic\
 - *The Little Prince* (2015) – Gentle storytelling, poetic themes,
-  emotional depth  
+  emotional depth\
 - *Hilda* (Netflix) – Cozy folklore, friendly monsters, small but
-  meaningful adventures  
+  meaningful adventures\
 - *Anne with an E* (Netflix) – Slice-of-life, small community,
-  coming-of-age warmth  
+  coming-of-age warmth\
 - *The Moomins* (Tove Jansson / Various Adaptations) – Gentle
   philosophy, cozy world, seasonal changes
 
 ### **🎮 Video Games**
 
 - *Stardew Valley* – Community-driven stories, peaceful atmosphere,
-  small-scale goals  
-- *Cozy Grove* – Ghost stories, daily life tasks, gentle mysteries  
+  small-scale goals\
+- *Cozy Grove* – Ghost stories, daily life tasks, gentle mysteries\
 - *Spiritfarer* – Emotional storytelling, caring for others, saying
-  goodbye  
+  goodbye\
 - *Animal Crossing: New Horizons* – Small-town feel, relaxing tasks,
-  slow life  
+  slow life\
 - *Eastshade* – A game where you play as a traveling painter, exploring
-  a peaceful world  
+  a peaceful world\
 - *A Short Hike* – A small, heartwarming journey about curiosity and
-  kindness  
+  kindness\
 - *The Legend of Zelda: Breath of the Wild* (non-combat aspects) – Slow
-  exploration, quiet discovery  
+  exploration, quiet discovery\
 - *Wytchwood* – Crafting, fairy tale magic, quirky spells
 
 ### **🎶 Music & Soundtracks**
 
 - *Ghibli Soundtracks* (Joe Hisaishi) – Magical, warm, and nostalgic
-  compositions  
+  compositions\
 - *Secret of Mana Soundtrack* – Gentle fantasy themes, perfect for
-  wandering and exploring  
+  wandering and exploring\
 - *Ori and the Blind Forest Soundtrack* – Ethereal, nature-inspired
-  soundscapes  
+  soundscapes\
 - *Minecraft Soundtrack (C418)* – Soft, atmospheric, encourages
-  creativity  
-- *Celeste Soundtrack* – Warm piano and synth with emotional depth  
+  creativity\
+- *Celeste Soundtrack* – Warm piano and synth with emotional depth\
 - *Lo-fi Beats & Fantasy Folk* – Great for background music while
   playing
 

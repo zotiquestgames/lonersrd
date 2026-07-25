@@ -1,6 +1,6 @@
 # Savage Blades of Xylandra
 Roberto Bisceglie
-2026-07-20
+2026-07-25
 
 # Savage Blades of Xylandra
 
@@ -1266,18 +1266,18 @@ long-standing rivalries often **ignite into open conflict**.
 
 1.  **The Bone-Kings of the Wastes** – Warlord conquerors who **rule
     through strength and honor**. They seek **absolute dominion** over
-    Xylandra.  
+    Xylandra.\
 2.  **The Skyborne Freeholds** – A **loose coalition of skyship
     captains, rebels, and traders** who resist warlord control and favor
-    independence.  
+    independence.\
 3.  **The Rift Scholars** – Knowledge-seekers **obsessed with unraveling
-    the mysteries of Xylandra’s anomalies**—even at great cost.  
+    the mysteries of Xylandra’s anomalies**—even at great cost.\
 4.  **The Cult of the Builder-Gods** – Fanatics who **worship the lost
     civilization of the Builders** and hoard ancient relics as **sacred
-    artifacts**.  
+    artifacts**.\
 5.  **The Ironfang Mercenary Guild** – Ruthless **warriors for hire**,
     who pledge **loyalty only to coin** and sell their services to the
-    highest bidder.  
+    highest bidder.\
 6.  **The Ghosts of the Fracture** – Rift-touched **outcasts**, altered
     by **time distortions**, who seek **to prevent Xylandra’s final
     collapse**.

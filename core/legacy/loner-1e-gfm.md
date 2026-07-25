@@ -1,6 +1,6 @@
 # Loner - Core Rules 1st Edition (Legacy)
 Roberto Bisceglie
-2026-07-20
+2026-07-25
 
 # Loner (1st Edition)
 
@@ -58,11 +58,11 @@ traits:
 - **Luck**: 6
 
 **Example** \> **Zahra Nakajima** Witty Street Cat. Streetwise, Nimble,
-Merciful.  
-\> Knife, Low O2 Supplement.  
+Merciful.\
+\> Knife, Low O2 Supplement.\
 \> She wants to obtain unknown technology to save her planet from
-atmosphere collapse.  
-\> **Nemesis**: The Naturalist Order  
+atmosphere collapse.\
+\> **Nemesis**: The Naturalist Order\
 \> **Luck**: 6
 
 Everything else in the game is a “character”. The are the living (the
@@ -70,8 +70,8 @@ Non-Playing Characters), and inanimate characters (such as vehicles and
 crafts). Inanimate characters do not have goal, motive or a nemesis.
 
 **Example** \> **The Century Skylark** Spacecraft in bad shape.
-Hyperjump Drive, Camouflage Circuits, Midlife Courier.  
-\> Shields, Turrets.  
+Hyperjump Drive, Camouflage Circuits, Midlife Courier.\
+\> Shields, Turrets.\
 \> **Luck**: 6.
 
 ## Start your game
@@ -90,12 +90,12 @@ generate a random adventure seed.
 | 5 | Help-seeker | Escape | Ambition | McGuffin | Mishap | Time |
 | 6 | Blackmailer | Pursuit | Revenge | Confession | Object (map, journal, letter) | Space |
 
-**Example** \> **Who?** Mentor  
-\> **What?** Exploit  
-\> **Why?** Help  
-\> **Where?** McGuffin  
-\> **How?** Rumors  
-\> **Obstacle?** Time  
+**Example** \> **Who?** Mentor\
+\> **What?** Exploit\
+\> **Why?** Help\
+\> **Where?** McGuffin\
+\> **How?** Rumors\
+\> **Obstacle?** Time\
 \> Tobias Wethern took Zahra under his wing when her parents died.
 That’s why she can’t say no to him now. Tobias wants Zahra to steal a
 datapad from the Leton Corporation’s subsidiary. He doesn’t know

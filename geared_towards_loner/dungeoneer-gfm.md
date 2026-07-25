@@ -1,6 +1,6 @@
 # Loner: Dungeoneer
 Roberto Bisceglie
-2026-07-20
+2026-07-25
 
 # Loner: Dungeoneer
 
@@ -393,20 +393,20 @@ narrative they build.
 
 #### How Advancement Works
 
-After a significant discovery, achievement, or expedition, you may:  
-1. Add a **new tag** to your character (Skill, Gear, or Frailty).  
+After a significant discovery, achievement, or expedition, you may:\
+1. Add a **new tag** to your character (Skill, Gear, or Frailty).\
 2. Modify an existing tag to reflect improvement or new context.
 
-**Triggering Advancement**:  
-Ask the Oracle after notable events or achievements:  
-- Discovering a hidden dungeon level or ancient chamber.  
-- Solving a major puzzle or disarming a deadly trap.  
-- Successfully navigating through extreme environmental hazards.  
+**Triggering Advancement**:\
+Ask the Oracle after notable events or achievements:\
+- Discovering a hidden dungeon level or ancient chamber.\
+- Solving a major puzzle or disarming a deadly trap.\
+- Successfully navigating through extreme environmental hazards.\
 - Recovering significant treasure or artifacts.
 
-**Examples**:  
-- *“Trap Disarmer”* evolves into *“Master Mechanist.”*  
-- Gain *“Runebound Compass”* after deciphering ancient maps.  
+**Examples**:\
+- *“Trap Disarmer”* evolves into *“Master Mechanist.”*\
+- Gain *“Runebound Compass”* after deciphering ancient maps.\
 - Add *“Lingering Fear”* after surviving a terrifying ambush.
 
 ### Tag-Based Narrative Progression
@@ -417,13 +417,12 @@ tailored they become to the dungeon’s unique challenges.
 
 - **New Tags**: Rewarded after key milestones to reflect growth.
   Examples include:
-  - **Skills**: *“Silent Step,”* *“Trap Whisperer,”* *“Vault
-    Breaker.”*  
+  - **Skills**: *“Silent Step,”* *“Trap Whisperer,”* *“Vault Breaker.”*\
   - **Gear**: *“Enchanted Lantern,”* *“Rune-Marked Blade,”* *“Beast
-    Traps.”*  
+    Traps.”*\
   - **Frailties**: *“Haunted Dreams,”* *“Weak Grip,”* *“Paranoid Mind.”*
 - **Modified Tags**: Update existing tags to reflect experience.
-  - *“Torch Handler”* evolves to *“Efficient Lightbearer”*.  
+  - *“Torch Handler”* evolves to *“Efficient Lightbearer”*.\
   - *“Stone Reader”* becomes *“Runestone Decipherer.”*
 
 Tags drive the emergent narrative and tie character progression to the
@@ -454,9 +453,9 @@ potential mishaps.
 
 ### Casting a Spell
 
-When you cast a spell:  
+When you cast a spell:\
 1. **Resolve the Action**: Follow the usual process for resolving
-actions in the game.  
+actions in the game.\
 2. **Consult the Oracle**: Roll to determine the outcome and interpret
 it as follows:
 
@@ -480,11 +479,11 @@ stamina and resilience.
 | **Standard Spells**   | 2 Mana        |
 | **High-Power Spells** | 3 Mana        |
 
-**Mana Recovery**:  
+**Mana Recovery**:\
 - **Short Rest**: Recover **1d3 Mana** during a brief rest (10-30
-minutes) in a safe or quiet location.  
+minutes) in a safe or quiet location.\
 - **Long Rest**: Recover **all Mana** after a full rest (8 hours) in a
-secure environment.  
+secure environment.\
 - **After Conflict**: Restore **1 Mana** as a reward for overcoming
 significant obstacles, like combat or traps.
 
@@ -506,8 +505,8 @@ When a spell fails catastrophically (**No, and…**), roll 1d6 on the
 
 Some spells, especially those requiring precision or significant time,
 can be cast as **Rituals**. Ritual casting removes the Mana cost but
-requires:  
-- **10 minutes of uninterrupted focus.**  
+requires:\
+- **10 minutes of uninterrupted focus.**\
 - **Special materials or a narrative component** (e.g., a magic circle,
 rare herbs).
 
@@ -518,13 +517,13 @@ Ritual casting is ideal for spells like *Arcane Lock*, *Scrying Eye*, or
 
 The range of spells is flexible and narrative-driven:
 
-- **Touch**: Requires physical contact with the target.  
+- **Touch**: Requires physical contact with the target.\
 - **Close**: A few steps away, within a small room or immediate vicinity
-  (10-20 feet).  
+  (10-20 feet).\
 - **Medium**: A moderate distance, such as across a large hall or
-  clearing (30-60 feet).  
+  clearing (30-60 feet).\
 - **Long**: Spans a great distance, such as across a battlefield or
-  large cavern (100+ feet).  
+  large cavern (100+ feet).\
 - **Unlimited**: Requires a magical connection, ritual, or special
   focus.
 
@@ -536,12 +535,12 @@ Mana) at an approaching ogre.
 1.  **Action Resolution**: The player rolls the Oracle to determine the
     outcome.
 
-    - **Yes**: The spell hits as intended.  
+    - **Yes**: The spell hits as intended.\
     - **Yes, but…**: The ogre takes damage, but something nearby catches
-      fire.  
+      fire.\
     - **No, but…**: The fire misses, but the ogre is distracted by the
-      flames.  
-    - **No**: The spell fizzles harmlessly.  
+      flames.\
+    - **No**: The spell fizzles harmlessly.\
     - **No, and…**: Roll on the **Mishap Table**—the caster loses an
       extra Mana point.
 
@@ -617,31 +616,31 @@ depths.
   a single **Navigation Check** to determine how successfully you map
   and orient yourself:
 
-**Navigation Check**  
+**Navigation Check**\
 Ask the Oracle as usual, then consult the following answer:
 
-- **Yes**: You map the area accurately and find a key feature.  
+- **Yes**: You map the area accurately and find a key feature.\
 
 - **No**: You lose track of your bearings or miss something crucial
-  (roll for a complication).  
+  (roll for a complication).\
 
 - **Yes, but…**: You map successfully, but at a cost (e.g., fatigue,
-  spent supplies).  
+  spent supplies).\
 
 - **No, but…**: You don’t map accurately, but you stumble upon something
-  unexpected (e.g., a hidden passage, clue, or shortcut).  
+  unexpected (e.g., a hidden passage, clue, or shortcut).\
 
 - **Yes, and…**: You map perfectly and discover a major boon (e.g., a
-  hidden treasure, a clear shortcut, or a safe resting place).  
+  hidden treasure, a clear shortcut, or a safe resting place).\
 
 - **No, and…**: You get hopelessly lost, wasting valuable time and
   resources, and trigger a hazard (e.g., a trap, enemy encounter, or
   environmental danger).
 
 - **Tagging Rooms**: Each room or corridor is assigned a descriptive
-  **tag** using the Oracle or a random table. Examples include:  
+  **tag** using the Oracle or a random table. Examples include:\
   *“Collapsed Ceiling,”* *“Blood-Stained Statues,”* *“Echoing Chamber,”*
-  or *“Ancient Rune Circle.”*  
+  or *“Ancient Rune Circle.”*\
   Tags inform further rolls or environmental interactions.
 
 ### **2. Light and Supplies Management**
@@ -653,9 +652,9 @@ that can be consumed or depleted.
 #### **Light Sources**
 
 Each light source is a **Gear tag** and has a finite duration.
-Examples:  
-- **Torch**: Burns for 1 Scene.  
-- **Lantern**: Burns for 2 Scenes but uses oil.  
+Examples:\
+- **Torch**: Burns for 1 Scene.\
+- **Lantern**: Burns for 2 Scenes but uses oil.\
 - **Glowstone**: Permanent but weak light (reduces visibility).
 
 **Light Mechanics**: At the start of each Scene, check your light
@@ -669,7 +668,7 @@ piece of consumable Gear is a tag (e.g., *“Rope Bundle,”* *“Rations,”*
 *“Oil Flask”*).
 
 - **Ration Check**: After every 3 Scenes or whenever Fatigue sets in,
-  consume 1 Ration tag.  
+  consume 1 Ration tag.\
 - **Inventory Limits**: Carrying capacity is limited to 6 Gear tags.
   Excess gear causes **Encumbrance** (disadvantage on rolls involving
   physical actions).
@@ -682,24 +681,24 @@ and stress reflect the toll of danger, darkness, and physical effort.
 #### **Fatigue System**
 
 Whenever the following events occur, roll 1d6. On a 1-3, mark a
-**Fatigue Tag**:  
-- After 6 Scenes without rest.  
-- When failing a Navigation or Survival check.  
+**Fatigue Tag**:\
+- After 6 Scenes without rest.\
+- When failing a Navigation or Survival check.\
 - After strenuous physical activity (climbing, running, etc.).
 
 **Fatigue Tags**: *“Weary,”* *“Sore Muscles,”* *“Mind Numbed,”* or
 *“Parched.”*
 
-- Each Fatigue tag imposes disadvantage on a related action.  
+- Each Fatigue tag imposes disadvantage on a related action.\
 - **Resting** removes 1 Fatigue tag but consumes 1 Ration and requires a
   quiet, safe place.
 
 #### **Stress and Mental Strain**
 
 Stress accumulates during tense or traumatic moments (traps sprung,
-enemies revealed, supplies lost).  
+enemies revealed, supplies lost).\
 - After a failed Conflict, add a **Stress Tag** like *“Frayed Nerves”*
-or *“Shaken Resolve.”*  
+or *“Shaken Resolve.”*\
 - Stress impacts decision-making. Each Stress Tag reduces Luck by 1
 (temporarily).
 
@@ -710,14 +709,14 @@ or *“Shaken Resolve.”*
 Here’s how exploration works in structured Scenes:
 
 1.  **Enter a New Area**: Roll for the room’s tags and features using
-    random tables or the Oracle.  
+    random tables or the Oracle.\
 2.  **Navigation Check**: Roll to determine mapping success and
-    encounters.  
+    encounters.\
 3.  **Light Check**: Track light sources and roll for darkness
-    complications if necessary.  
-4.  **Resource Check**: Consume rations and track gear used.  
+    complications if necessary.\
+4.  **Resource Check**: Consume rations and track gear used.\
 5.  **Fatigue and Stress**: Roll for possible consequences of extended
-    exploration.  
+    exploration.\
 6.  **Interact with the Environment**: Use tags to explore clues, traps,
     treasure, or events.
 
@@ -788,14 +787,14 @@ floor.”*
 
 #### **C. Exits and Connections**
 
-Determine how many exits lead from the room:  
-- Roll 1d6:  
-- **1-2**: 1 exit (dead end or single passage).  
-- **3-4**: 2 exits (split paths).  
+Determine how many exits lead from the room:\
+- Roll 1d6:\
+- **1-2**: 1 exit (dead end or single passage).\
+- **3-4**: 2 exits (split paths).\
 - **5-6**: 3 exits (multiple routes).
 
 **Corridors** may loop back, connect to previous rooms, or lead to new
-ones. If unsure, ask the Oracle:  
+ones. If unsure, ask the Oracle:\
 - *“Does this corridor connect back to the mapped dungeon?”*
 
 ### **2. Dynamic Encounter Tables**
@@ -806,14 +805,14 @@ by the dungeon’s **conditions** (tags).
 
 #### **A. Encounter Frequency**
 
-Roll for an encounter whenever:  
-1. You enter a new room.  
-2. The Oracle answers “No, and…” on navigation rolls.  
+Roll for an encounter whenever:\
+1. You enter a new room.\
+2. The Oracle answers “No, and…” on navigation rolls.\
 3. Light expires in a dangerous room.
 
-**Encounter Check**  
-Roll 1d6:  
-- **1-2**: No encounter.  
+**Encounter Check**\
+Roll 1d6:\
+- **1-2**: No encounter.\
 - **3-6**: Roll for encounter.
 
 #### **B. Encounter Type**
@@ -841,30 +840,29 @@ When you roll an encounter, follow these mechanics to populate the room:
 #### **A. Monsters**
 
 Monsters are defined by simple **tags**. Use the Oracle to generate
-traits, abilities, and weaknesses. Examples:  
-- **Concepts**: *“Shadow Lurker,”* *“Stone Golem,”* *“Ravenous
-Swarm.”*  
-- **Skills**: *“Ambusher,”* *“Heavy Strikes,”* *“Unrelenting.”*  
+traits, abilities, and weaknesses. Examples:\
+- **Concepts**: *“Shadow Lurker,”* *“Stone Golem,”* *“Ravenous Swarm.”*\
+- **Skills**: *“Ambusher,”* *“Heavy Strikes,”* *“Unrelenting.”*\
 - **Frailties**: *“Light Sensitive,”* *“Slow,”* *“Weak to Fire.”*
 
 #### **B. Traps**
 
 Traps are deadly challenges in rooms or corridors. Generate traps using
-tags:  
-- **Trigger**: *“Pressure Plate,”* *“Magic Sigil,”* *“Hidden Lever.”*  
+tags:\
+- **Trigger**: *“Pressure Plate,”* *“Magic Sigil,”* *“Hidden Lever.”*\
 - **Effect**: *“Falling Spikes,”* *“Poison Dart,”* *“Gas Cloud.”*
 
 #### **C. Treasure**
 
-Treasure rewards are tagged items or valuable objects:  
+Treasure rewards are tagged items or valuable objects:\
 - **Minor Treasure**: *“Jeweled Trinket,”* *“Ancient Coins,”* *“Runed
-Dagger.”*  
+Dagger.”*\
 - **Major Treasure**: *“Cursed Relic,”* *“Enchanted Weapon,”* *“Map
 Fragment.”*
 
-**Treasure Check**: Roll 2d6 to determine treasure value:  
-- **2-5**: Minor Treasure.  
-- **6-9**: Useful Gear or gold.  
+**Treasure Check**: Roll 2d6 to determine treasure value:\
+- **2-5**: Minor Treasure.\
+- **6-9**: Useful Gear or gold.\
 - **10-12**: Major Treasure (rare and valuable, may have risks).
 
 #### D. Puzzles
@@ -872,15 +870,15 @@ Fragment.”*
 You can solve puzzles with the following procedure:
 
 1.  Describe the Protagonist’s actions and reasoning based on the puzzle
-    description.  
+    description.\
 2.  **Ask the Oracle**: *“Do I solve the puzzle or mechanism?”*
     - **Yes**: The puzzle unlocks, and the path or treasure is
-      revealed.  
+      revealed.\
     - **Yes, but…**: It works, but triggers a minor complication (noise,
-      stress, trap).  
-    - **No**: The mechanism remains unsolved or jammed.  
-    - **No, but…**: A clue is revealed, or partial progress is made.  
-    - **Yes, and…**: Success, with a bonus (e.g., treasure, shortcut).  
+      stress, trap).\
+    - **No**: The mechanism remains unsolved or jammed.\
+    - **No, but…**: A clue is revealed, or partial progress is made.\
+    - **Yes, and…**: Success, with a bonus (e.g., treasure, shortcut).\
     - **No, and…**: The puzzle triggers a hazard, trap, or attracts
       attention.
 
@@ -896,11 +894,11 @@ significant rewards. Follow these steps to manage the danger:
 2.  **Encountering the Monster**:
 
     - Ask the Oracle: *“Do I avoid the lair’s guardian?”* or *“Do I
-      locate its treasure unnoticed?”*  
+      locate its treasure unnoticed?”*\
     - Interpret the Oracle:
-      - **Yes**: You succeed and progress cautiously.  
-      - **Yes, but…**: You attract partial attention or suffer stress.  
-      - **No**: The monster detects you—prepare for conflict.  
+      - **Yes**: You succeed and progress cautiously.\
+      - **Yes, but…**: You attract partial attention or suffer stress.\
+      - **No**: The monster detects you—prepare for conflict.\
       - **No, and…**: The monster attacks with full force, escalating
         danger.
 
@@ -916,23 +914,23 @@ the Protagonist’s skills, resources, and decisions.
 
 **Steps to Handle a Boss Encounter**:
 
-1.  **Preparation**:  
+1.  **Preparation**:\
     Before engaging, assess your resources, gear, and Luck. You may ask
     the Oracle:
-    - *“Do I spot the boss before it notices me?”*  
+    - *“Do I spot the boss before it notices me?”*\
     - *“Is there a clue to the boss’s weakness here?”*
-2.  **The Boss Tags**:  
+2.  **The Boss Tags**:\
     Each Boss is defined by powerful **tags** that describe its
     abilities and weaknesses. Example tags:
     - **Skills**: *“Fire Breath,”* *“Ethereal Blade,”* *“Thorny
-      Strikes.”*  
+      Strikes.”*\
     - **Frailties**: *“Slow,”* *“Weak to Light,”* *“Arcane
       Vulnerability.”*
-3.  **Resolve the Encounter**:  
+3.  **Resolve the Encounter**:\
     Use a series of Oracle questions to determine the flow of the
     battle. Example questions:
-    - *“Do I exploit the boss’s weakness?”*  
-    - *“Can I evade its devastating attack?”*  
+    - *“Do I exploit the boss’s weakness?”*\
+    - *“Can I evade its devastating attack?”*\
     - *“Is there an environmental advantage I can use?”*
 
 **Oracle Results**:
@@ -949,11 +947,11 @@ the Protagonist’s skills, resources, and decisions.
 ### **The Rewards of Defeating a Boss**
 
 Defeating a Dungeon Boss should be monumental and come with significant
-rewards:  
+rewards:\
 - **Major Treasure**: Unique artifacts, enchanted weapons, or legendary
-gear.  
+gear.\
 - **Lore Reveals**: Information about the dungeon, its creators, or a
-new quest.  
+new quest.\
 - **Safe Passage**: Clearing the lair allows access to hidden areas or
 escape routes.
 
@@ -990,23 +988,23 @@ Every room, corridor, or cavern has environmental tags that describe its
 unique features. Players can interact with these tags to uncover
 secrets, overcome obstacles, or trigger unforeseen dangers.
 
-**Steps to Interact**:  
+**Steps to Interact**:\
 1. Identify the **tag** of interest (e.g., *“Rune-Carved Wall,”* *“Loose
-Stones,”* *“Suspicious Floor Panel”*).  
+Stones,”* *“Suspicious Floor Panel”*).\
 2. Ask the Oracle a **closed question**: *“Do I uncover anything
-useful?”*  
+useful?”*\
 3. Interpret the Oracle’s result, applying additional rules when
 necessary.
 
-**Oracle Interpretations**:  
+**Oracle Interpretations**:\
 - **Yes**: You interact successfully and gain a useful outcome (e.g.,
-uncover a clue, trigger a mechanism, or reveal treasure).  
+uncover a clue, trigger a mechanism, or reveal treasure).\
 - **Yes, but…**: You succeed, but a minor complication arises (e.g.,
-fatigue, noise, or light consumption).  
-- **No**: You fail to interact meaningfully or understand the feature.  
-- **No, but…**: You fail, but gain a hint or partial insight.  
+fatigue, noise, or light consumption).\
+- **No**: You fail to interact meaningfully or understand the feature.\
+- **No, but…**: You fail, but gain a hint or partial insight.\
 - **Yes, and…**: You succeed spectacularly and uncover a hidden boon
-(e.g., a shortcut, treasure, or secret path).  
+(e.g., a shortcut, treasure, or secret path).\
 - **No, and…**: You trigger a negative outcome (e.g., trap activation,
 monster awakening, or structural damage).
 
@@ -1015,10 +1013,10 @@ monster awakening, or structural damage).
 Dungeon walls and artifacts often contain **ancient inscriptions** that
 hint at hidden dangers, treasure, or the dungeon’s lore.
 
-**Steps to Decipher Inscriptions**:  
+**Steps to Decipher Inscriptions**:\
 1. Use a skill-related tag (e.g., *“Lorekeeper,”* *“Rune Reader”*) to
-justify an attempt.  
-2. Ask the Oracle: *“Can I decipher the inscription?”*  
+justify an attempt.\
+2. Ask the Oracle: *“Can I decipher the inscription?”*\
 3. Interpret the result:
 
 | **Result** | **Outcome** |
@@ -1039,9 +1037,9 @@ describe how they work.
 #### **Step 1: Detect the Trap**
 
 - **Clues**: Environmental tags like *“Loose Tiles,”* *“Pressure
-  Plate,”* or *“Narrow Slit in Wall”* often hint at traps.  
+  Plate,”* or *“Narrow Slit in Wall”* often hint at traps.\
 - **Detection Check**: Ask the Oracle, *“Do I detect a trap here?”*
-  - **Yes**: You detect the trap and its trigger.  
+  - **Yes**: You detect the trap and its trigger.\
   - **No**: The trap remains hidden. Roll for consequences if you
     interact unknowingly.
 
@@ -1051,15 +1049,15 @@ Once a trap is detected, you may attempt to disarm it using appropriate
 tags like *“Trap Disarmer”*, *“Steady Hands”*, or gear like
 *“Lockpicks”*.
 
-**Disarm Check**: Ask the Oracle, *“Can I disarm the trap safely?”*  
-- **Yes**: The trap is disarmed with no issue.  
+**Disarm Check**: Ask the Oracle, *“Can I disarm the trap safely?”*\
+- **Yes**: The trap is disarmed with no issue.\
 - **Yes, but…**: The trap is disarmed, but part of it activates (e.g., a
-small noise, minor damage).  
-- **No**: You fail to disarm the trap, but it remains intact.  
+small noise, minor damage).\
+- **No**: You fail to disarm the trap, but it remains intact.\
 - **No, but…**: You fail to disarm it, but you manage to partially
-neutralize its danger.  
+neutralize its danger.\
 - **Yes, and…**: The trap is disarmed perfectly, and you discover
-something useful (e.g., spare parts, clues).  
+something useful (e.g., spare parts, clues).\
 - **No, and…**: The trap triggers catastrophically (roll for the full
 trap effect).
 
@@ -1070,19 +1068,19 @@ walls, or passages leading to treasure or escape routes.
 
 #### **Step 1: Spot the Clue**
 
-Look for architectural tags like:  
+Look for architectural tags like:\
 - *“Cracked Wall,”* *“Mismatched Stones,”* *“Dust-Free Floorboards,”* or
 *“Draught of Air.”*
 
-**Ask the Oracle**: *“Do I spot a clue to a hidden passage?”*  
-- **Yes**: You find a clear clue that reveals the passage.  
+**Ask the Oracle**: *“Do I spot a clue to a hidden passage?”*\
+- **Yes**: You find a clear clue that reveals the passage.\
 - **Yes, but…**: You spot the passage, but it takes effort to open or
-triggers a minor hazard.  
-- **No**: You find nothing suspicious.  
+triggers a minor hazard.\
+- **No**: You find nothing suspicious.\
 - **No, but…**: You uncover something else instead (e.g., treasure,
-inscription).  
+inscription).\
 - **Yes, and…**: You spot the passage and uncover a shortcut, treasure,
-or safe route.  
+or safe route.\
 - **No, and…**: You miss the passage and trigger an unrelated danger
 (e.g., a collapsing section).
 
@@ -1091,21 +1089,21 @@ or safe route.
 Dungeons are unpredictable places. Environmental hazards can arise from
 unstable architecture, water, gas, or magical anomalies.
 
-**Hazard Types**:  
+**Hazard Types**:\
 - **Falling Debris**: Roll to dodge; failure causes harm or traps the
-player.  
+player.\
 - **Flooding**: Forces movement restrictions; gear and supplies may be
-damaged.  
+damaged.\
 - **Poisonous Gas**: Requires immediate action (e.g., leaving the room,
-blocking airflow).  
+blocking airflow).\
 - **Unstable Structures**: Any major action could trigger collapse (roll
-the Oracle for safety).  
+the Oracle for safety).\
 - **Arcane Anomalies**: Magical zones cause unpredictable effects
 (*“Gravity Shift,”* *“Illusory Walls,”* *“Maddening Whispers”*).
 
 **Handling Hazards**: Use tags, tools, and the Oracle to determine
-outcomes. Players can ask:  
-- *“Can I escape the hazard in time?”*  
+outcomes. Players can ask:\
+- *“Can I escape the hazard in time?”*\
 - *“Do I find a safe route around this hazard?”*
 
 ### Combining Environmental Elements
@@ -1115,15 +1113,15 @@ hidden passages) to create layered challenges. Use the following process
 for dynamic interactions:
 
 1.  **Identify Tags**: Roll or assign tags for the environment
-    (*“Cracked Wall,”* *“Rune Inscription,”* *“Loose Tiles”*).  
+    (*“Cracked Wall,”* *“Rune Inscription,”* *“Loose Tiles”*).\
 2.  **Oracle Questions**: Use targeted Oracle questions to uncover
-    secrets and consequences.  
+    secrets and consequences.\
 3.  **Dynamic Outcomes**: String results together narratively. For
     example:
     - *“You find a Cracked Wall with strange Runes etched on its
-      surface. Do I decipher the runes?”*  
+      surface. Do I decipher the runes?”*\
     - If successful, *“The runes reveal a hidden lever. Can I open the
-      passage safely?”*  
+      passage safely?”*\
     - Build tension with mixed Oracle answers like *“Yes, but…”* (e.g.,
       the passage opens, but it triggers a trap).
 
@@ -1143,11 +1141,11 @@ by **tags**, each taking up a **slot** in your inventory.
 
 #### Inventory Limits
 
-- Your Protagonist can carry up to **6 Gear Tags** at a time.  
+- Your Protagonist can carry up to **6 Gear Tags** at a time.\
 - Optional: Add **+2 slots** for a **Backpack** tag or similar
   equipment.
 
-**Examples of Gear Tags**:  
+**Examples of Gear Tags**:\
 - *“Torch,”* *“Rope Bundle,”* *“Rations,”* *“Lockpicks,”* *“Healing
 Herbs,”* *“Oil Flask.”*
 
@@ -1155,8 +1153,7 @@ Herbs,”* *“Oil Flask.”*
 
 If your inventory exceeds its limit, you become **Encumbered**:
 
-- Add **Disadvantage** to all physical rolls (e.g., climbing,
-  dodging).  
+- Add **Disadvantage** to all physical rolls (e.g., climbing, dodging).\
 - You must drop or use an item to regain normal movement.
 
 ### Equipment Durability
@@ -1170,8 +1167,8 @@ functional before it is unusable.
 Each item has a **Durability Rating** represented as a series of marks
 (e.g., ⚙️⚙️⚙️ for 3 durability).
 
-When using an item in risky situations or repeatedly, roll 1d6:  
-- **1-2**: The item’s durability decreases by 1.  
+When using an item in risky situations or repeatedly, roll 1d6:\
+- **1-2**: The item’s durability decreases by 1.\
 - **3-6**: The item remains intact.
 
 **Example Gear Durability Ratings**:
@@ -1209,13 +1206,13 @@ or clues. Without light, you risk falling into darkness.
 | Lantern (Oil) | 2                 | Bright but consumes oil.   |
 | Glowstone     | Permanent         | Weak, reduces visibility.  |
 
-**Using Light**:  
+**Using Light**:\
 1. At the start of each **Scene**, mark off the current light source’s
-duration.  
-2. If the light expires, immediately ask the Oracle:  
-*“Do I encounter danger in the darkness?”*  
-- **Yes**: A hazard (trap, enemy, or environmental peril) occurs.  
-- **No**: You stumble but avoid disaster.  
+duration.\
+2. If the light expires, immediately ask the Oracle:\
+*“Do I encounter danger in the darkness?”*\
+- **Yes**: A hazard (trap, enemy, or environmental peril) occurs.\
+- **No**: You stumble but avoid disaster.\
 3. Without light, all rolls involving **sight** have **Disadvantage**.
 
 **Extinguishing Light**: You may extinguish a light source early to
@@ -1226,10 +1223,10 @@ conserve it.
 Rations represent food and water required to stave off **Fatigue**
 during exploration.
 
-**Ration Use**:  
-- After every **3 Scenes** or during rest, consume 1 **Ration Tag**.  
-- Running out of rations causes **Hunger**:  
-- Add **Disadvantage** to all rolls until food is found or provided.  
+**Ration Use**:\
+- After every **3 Scenes** or during rest, consume 1 **Ration Tag**.\
+- Running out of rations causes **Hunger**:\
+- Add **Disadvantage** to all rolls until food is found or provided.\
 - After 6 Scenes without food, gain **Fatigue Tags** like *“Weakened”*
 or *“Starving.”*
 
@@ -1247,9 +1244,9 @@ scenes.
 | Bandages      | Restores **1 Luck Point**.  |
 | Potions       | Fully heals minor injuries. |
 
-**Using Healing**:  
+**Using Healing**:\
 - During a **Quiet Scene** or Rest, consume a **Healing Tag** to
-recover.  
+recover.\
 - Healing is player-facing—describe how you use the resource to justify
 its effect.
 
@@ -1260,15 +1257,15 @@ creates natural tension. Use the following events to create resource
 pressure:
 
 1.  **Unexpected Events**: Oracle answers like *“No, and…”* may trigger
-    supply loss. Example: *“Your lantern falls and breaks!”*  
+    supply loss. Example: *“Your lantern falls and breaks!”*\
 2.  **Environmental Challenges**: Floods, traps, or monsters may consume
-    gear (e.g., burning torches, ripping ropes).  
+    gear (e.g., burning torches, ripping ropes).\
 3.  **Complications**: Failed skill rolls or navigation attempts may
-    result in resource depletion.  
+    result in resource depletion.\
 4.  **Rest Costs**: Every time you rest to remove Stress or Fatigue,
     consume **1 Ration** and reduce **light duration** by 1 Scene.
 
-**Oracle Prompt**: *“Do I find supplies or spare gear here?”*  
+**Oracle Prompt**: *“Do I find supplies or spare gear here?”*\
 - If successful, roll on a small table to determine what you find.
 
 ### Tracking Resources: Quick Reference
@@ -2289,29 +2286,29 @@ die (7–12). Use this method for tables requiring a d12.
 ### RPGs
 
 - *The Black Hack*: A minimalist dungeon-crawling system with resource
-  management.  
+  management.\
 - *Into the Odd*: Simple rules with a focus on exploration and
-  survival.  
+  survival.\
 - *Mörk Borg*: Dark and gritty dungeon crawling with evocative,
-  atmospheric themes.  
+  atmospheric themes.\
 - *Maze Rats*: Procedural generation and tag-based mechanics for quick
-  play.  
+  play.\
 - *Knave*: A classless, resource-focused dungeon exploration game.
 
 ### Videogames
 
 - **Dungeon Crawlers**:
   - *Darkest Dungeon*: Stress, resource management, and grim expeditions
-    into cursed dungeons.  
-  - *Diablo II*: Procedural dungeons, loot, and monster hunting.  
-  - *Legend of Grimrock*: Grid-based exploration, traps, and puzzles.  
+    into cursed dungeons.\
+  - *Diablo II*: Procedural dungeons, loot, and monster hunting.\
+  - *Legend of Grimrock*: Grid-based exploration, traps, and puzzles.\
   - *Dark Souls*: Brutal combat, atmospheric environments, and cryptic
     lore.
 - **Exploration and Mystery**:
   - *Hollow Knight*: A ruined, underground kingdom filled with secrets
-    and danger.  
+    and danger.\
   - *The Elder Scrolls V: Skyrim*: Dungeons filled with traps, puzzles,
-    and ancient treasure.  
+    and ancient treasure.\
   - *Shadow of the Colossus*: Lonely exploration of vast, mysterious
     landscapes.
 
@@ -2319,14 +2316,14 @@ die (7–12). Use this method for tables requiring a d12.
 
 - **Artists**:
   - *Gustave Doré*: Dark, atmospheric engravings perfect for eerie
-    dungeon settings.  
-  - *John Blanche*: Gothic and surreal fantasy illustrations.  
+    dungeon settings.\
+  - *John Blanche*: Gothic and surreal fantasy illustrations.\
   - *Zdzisław Beksiński*: Nightmarish landscapes and unsettling
     environments.
 - **Other Visual Sources**:
   - *Old-school D&D Module Covers* (e.g., *Tomb of Horrors*, *Keep on
-    the Borderlands*).  
-  - *Dark Souls* and *Bloodborne* concept art.  
+    the Borderlands*).\
+  - *Dark Souls* and *Bloodborne* concept art.\
   - *Mörk Borg* RPG aesthetic.
 
 ## License

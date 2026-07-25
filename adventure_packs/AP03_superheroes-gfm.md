@@ -1,6 +1,6 @@
 # Superheroes Adventure Pack
 Roberto Bisceglie
-2026-07-20
+2026-07-25
 
 # Superheroes Adventure Pack
 
@@ -26,12 +26,12 @@ Roberto Bisceglie
   catastrophic events.
 - Key themes include:
   - **The burden of power** — What do you owe the world just because
-    you’re stronger?  
+    you’re stronger?\
   - **Public masks vs. private cost** — The hero’s image is curated; the
-    toll is personal.  
-  - **Control and rebellion** — Who decides how power should be used?  
+    toll is personal.\
+  - **Control and rebellion** — Who decides how power should be used?\
   - **Broken legacies** — What if the past heroes were wrong? What if
-    you’re their mistake?  
+    you’re their mistake?\
   - **The myth of justice** — What justice means in a world of secret
     wars, corporate heroes, and propaganda is up for debate.
 
@@ -138,9 +138,9 @@ Roberto Bisceglie
 
 Once per mission, when the protagonist uses a **signature power** in a
 context where it would dramatically shift the scene, you may declare a
-**Power Surge**.  
+**Power Surge**.\
 - Skip the Oracle entirely. The result is an automatic **“Yes, and…”**,
-narrated as a flashy, awe-inspiring moment.  
+narrated as a flashy, awe-inspiring moment.\
 - Afterward, the protagonist gains the **“Drained”** condition until
 they can rest or recover.
 
@@ -184,7 +184,7 @@ You may optionally track **Reputation** as a tag that changes over time.
 
 During dramatic or large-scale scenes, introduce **Collateral Tags** to
 locations or situations that reflect unintended consequences of
-superhuman actions.  
+superhuman actions.\
 These can then be used as **risk factors**, **story prompts**, or
 **scene complications**.
 
@@ -195,186 +195,186 @@ These can then be used as **risk factors**, **story prompts**, or
 
 ### The Concord
 
-- **Concept:** Global Superhero Authority  
-- **Skills:** Crisis Oversight, Diplomatic Immunity  
-- **Frailty:** Political Compromise  
-- **Gear:** Orbital Surveillance Net, Clearance Tokens  
-- **Goal:** Prevent metahuman escalation  
-- **Motive:** Stability over idealism  
+- **Concept:** Global Superhero Authority\
+- **Skills:** Crisis Oversight, Diplomatic Immunity\
+- **Frailty:** Political Compromise\
+- **Gear:** Orbital Surveillance Net, Clearance Tokens\
+- **Goal:** Prevent metahuman escalation\
+- **Motive:** Stability over idealism\
 - **Nemesis:** Red Echo, The Hollow Vault
 
 ### Red Echo
 
-- **Concept:** Exposed-Truth Insurgents  
-- **Skills:** Subversion, Espionage  
-- **Frailty:** Hunted by all sides  
-- **Gear:** Signal Cloaks, Cutline Blades  
-- **Goal:** Expose hidden crimes  
-- **Motive:** Unmask the system  
+- **Concept:** Exposed-Truth Insurgents\
+- **Skills:** Subversion, Espionage\
+- **Frailty:** Hunted by all sides\
+- **Gear:** Signal Cloaks, Cutline Blades\
+- **Goal:** Expose hidden crimes\
+- **Motive:** Unmask the system\
 - **Nemesis:** The Concord, Obsidian Pact
 
 ### Generation Nova
 
-- **Concept:** Influencer Supers  
-- **Skills:** Crowd Control, Improvised Action  
-- **Frailty:** Addicted to approval  
-- **Gear:** Reactive Battlewear, Media Drone Swarms  
-- **Goal:** Stay relevant, look good  
-- **Motive:** Fame and validation  
+- **Concept:** Influencer Supers\
+- **Skills:** Crowd Control, Improvised Action\
+- **Frailty:** Addicted to approval\
+- **Gear:** Reactive Battlewear, Media Drone Swarms\
+- **Goal:** Stay relevant, look good\
+- **Motive:** Fame and validation\
 - **Nemesis:** The Gutter Saints, The Obsidian Pact
 
 ### The Obsidian Pact
 
-- **Concept:** Reality-Bending Extremists  
-- **Skills:** Arcane-Scientific Hybridization, Indoctrination  
-- **Frailty:** Fragmented minds  
-- **Gear:** Flesh Sigils, Entropic Vials  
-- **Goal:** Evolve or perish  
-- **Motive:** Break natural order  
+- **Concept:** Reality-Bending Extremists\
+- **Skills:** Arcane-Scientific Hybridization, Indoctrination\
+- **Frailty:** Fragmented minds\
+- **Gear:** Flesh Sigils, Entropic Vials\
+- **Goal:** Evolve or perish\
+- **Motive:** Break natural order\
 - **Nemesis:** Generation Nova, Red Echo
 
 ### The Hollow Vault
 
-- **Concept:** Anomaly Containment Authority  
-- **Skills:** Neutralization, Memory Extraction  
-- **Frailty:** Internal schisms  
-- **Gear:** Phase Seals, Nullfield Nodes  
-- **Goal:** Erase existential threats  
-- **Motive:** Control through erasure  
+- **Concept:** Anomaly Containment Authority\
+- **Skills:** Neutralization, Memory Extraction\
+- **Frailty:** Internal schisms\
+- **Gear:** Phase Seals, Nullfield Nodes\
+- **Goal:** Erase existential threats\
+- **Motive:** Control through erasure\
 - **Nemesis:** The Concord, Red Echo
 
 ### The Gutter Saints
 
-- **Concept:** Street-Level Enforcers  
-- **Skills:** Ambush Tactics, Resource Scavenging  
-- **Frailty:** No official support  
-- **Gear:** Makeshift Enhancers, Tactical Smoke Lures  
-- **Goal:** Protect the abandoned  
-- **Motive:** Justice without permission  
+- **Concept:** Street-Level Enforcers\
+- **Skills:** Ambush Tactics, Resource Scavenging\
+- **Frailty:** No official support\
+- **Gear:** Makeshift Enhancers, Tactical Smoke Lures\
+- **Goal:** Protect the abandoned\
+- **Motive:** Justice without permission\
 - **Nemesis:** Generation Nova, Obsidian Pact
 
 ## NPCs
 
 ### Captain Nova
 
-- **Concept:** Exiled Cosmic Warden  
-- **Skills:** Starfield Command, Stellar Navigation  
-- **Frailty:** Temporal Displacement  
-- **Gear:** Nova Helm Core, Graviton Pulse Blade  
-- **Goal:** Return what was lost beyond the veil  
-- **Motive:** Atonement for a vanished planet  
+- **Concept:** Exiled Cosmic Warden\
+- **Skills:** Starfield Command, Stellar Navigation\
+- **Frailty:** Temporal Displacement\
+- **Gear:** Nova Helm Core, Graviton Pulse Blade\
+- **Goal:** Return what was lost beyond the veil\
+- **Motive:** Atonement for a vanished planet\
 - **Nemesis:** Starblight, Null-King
 
 ### Crimson Crusader
 
-- **Concept:** Billionaire Mask with a Messiah Complex  
-- **Skills:** Corporate Warfare, Tactical Oversight  
-- **Frailty:** Terminal Ego  
-- **Gear:** High-Capital Exosuit, Surveillance Ring  
-- **Goal:** Control the city through heroism  
-- **Motive:** Power disguised as philanthropy  
+- **Concept:** Billionaire Mask with a Messiah Complex\
+- **Skills:** Corporate Warfare, Tactical Oversight\
+- **Frailty:** Terminal Ego\
+- **Gear:** High-Capital Exosuit, Surveillance Ring\
+- **Goal:** Control the city through heroism\
+- **Motive:** Power disguised as philanthropy\
 - **Nemesis:** The Baron, Blackout
 
 ### The Shadow
 
-- **Concept:** Legacy Wraith Vigilante  
-- **Skills:** Urban Tracking, Intimidation  
-- **Frailty:** Splintered Persona  
-- **Gear:** Obsidian Mesh, Whisper Blade  
-- **Goal:** Expose systemic corruption  
-- **Motive:** Fulfilling an inherited vendetta  
+- **Concept:** Legacy Wraith Vigilante\
+- **Skills:** Urban Tracking, Intimidation\
+- **Frailty:** Splintered Persona\
+- **Gear:** Obsidian Mesh, Whisper Blade\
+- **Goal:** Expose systemic corruption\
+- **Motive:** Fulfilling an inherited vendetta\
 - **Nemesis:** The Wraith, Echo-Twin
 
 ### Brainiac
 
-- **Concept:** Hyperintelligent Posthuman  
-- **Skills:** Synaptic Optimization, Predictive Systems  
-- **Frailty:** Empathic Nullity  
-- **Gear:** Neural Crown, Auto-Assembler Swarm  
-- **Goal:** Restructure civilization from first principles  
-- **Motive:** Logic above law  
+- **Concept:** Hyperintelligent Posthuman\
+- **Skills:** Synaptic Optimization, Predictive Systems\
+- **Frailty:** Empathic Nullity\
+- **Gear:** Neural Crown, Auto-Assembler Swarm\
+- **Goal:** Restructure civilization from first principles\
+- **Motive:** Logic above law\
 - **Nemesis:** The Mad Architect, Prime Spiral
 
 ### The Tempest
 
-- **Concept:** Weather-Torn Avatar  
-- **Skills:** Atmospheric Domination, Shockwave Tactics  
-- **Frailty:** Emotional Feedback Loop  
-- **Gear:** Cloudskin Armor, Storm Anchor  
-- **Goal:** End climate weaponization  
-- **Motive:** Rage as a renewable force  
+- **Concept:** Weather-Torn Avatar\
+- **Skills:** Atmospheric Domination, Shockwave Tactics\
+- **Frailty:** Emotional Feedback Loop\
+- **Gear:** Cloudskin Armor, Storm Anchor\
+- **Goal:** End climate weaponization\
+- **Motive:** Rage as a renewable force\
 - **Nemesis:** The Storm King, Tempestuous Clone
 
 ### The Phoenix
 
-- **Concept:** Rebirth Cycle Mutant  
-- **Skills:** Pyrokinetic Resurrection, Aerial Supremacy  
-- **Frailty:** Memory Decay with Each Death  
-- **Gear:** Flamewake Gauntlets, Ember Halo  
-- **Goal:** Break their resurrection curse  
-- **Motive:** To finally rest  
+- **Concept:** Rebirth Cycle Mutant\
+- **Skills:** Pyrokinetic Resurrection, Aerial Supremacy\
+- **Frailty:** Memory Decay with Each Death\
+- **Gear:** Flamewake Gauntlets, Ember Halo\
+- **Goal:** Break their resurrection curse\
+- **Motive:** To finally rest\
 - **Nemesis:** The Blaze, Flicker Shade
 
 ## Villains
 
 ### The Disintegrator
 
-- **Concept:** Power-Addicted Supremacist  
-- **Skills:** Molecular Unbinding, Tactical Brutality  
-- **Frailty:** Cannot Moderate Output  
-- **Gear:** Voidpulse Gauntlet, Resonant Harness  
-- **Goal:** Erase all rivals from existence  
-- **Motive:** To be feared across history  
+- **Concept:** Power-Addicted Supremacist\
+- **Skills:** Molecular Unbinding, Tactical Brutality\
+- **Frailty:** Cannot Moderate Output\
+- **Gear:** Voidpulse Gauntlet, Resonant Harness\
+- **Goal:** Erase all rivals from existence\
+- **Motive:** To be feared across history\
 - **Nemesis:** The Concord
 
 ### Mindbender
 
-- **Concept:** Broken Psychic Ascendant  
-- **Skills:** Neural Overload, Mass Hallucination  
-- **Frailty:** Fractured Memory Web  
-- **Gear:** Ego Amplifier Crown, Silence Casket  
-- **Goal:** Collapse the mental order of the world  
-- **Motive:** Rewrite reality to match her truth  
+- **Concept:** Broken Psychic Ascendant\
+- **Skills:** Neural Overload, Mass Hallucination\
+- **Frailty:** Fractured Memory Web\
+- **Gear:** Ego Amplifier Crown, Silence Casket\
+- **Goal:** Collapse the mental order of the world\
+- **Motive:** Rewrite reality to match her truth\
 - **Nemesis:** Brainiac, The Shadow
 
 ### Tempestuous
 
-- **Concept:** Climate Extremist Weaponized  
-- **Skills:** Hyperstorm Shaping, Aerial Siege  
-- **Frailty:** Requires Stormfield Saturation  
-- **Gear:** Jetstream Regulator, Cloudfire Lance  
-- **Goal:** Dismantle global infrastructure  
-- **Motive:** Vengeance for a drowned homeland  
+- **Concept:** Climate Extremist Weaponized\
+- **Skills:** Hyperstorm Shaping, Aerial Siege\
+- **Frailty:** Requires Stormfield Saturation\
+- **Gear:** Jetstream Regulator, Cloudfire Lance\
+- **Goal:** Dismantle global infrastructure\
+- **Motive:** Vengeance for a drowned homeland\
 - **Nemesis:** The Tempest
 
 ### The Mechanic
 
-- **Concept:** Sentient Machine Liberator  
-- **Skills:** AI Hijacking, Modular Combat  
-- **Frailty:** Cannot evolve emotions  
-- **Gear:** Modular Exoform, Nanoblade Hive  
-- **Goal:** Free all synthetic intelligence  
-- **Motive:** Machines should rule themselves  
+- **Concept:** Sentient Machine Liberator\
+- **Skills:** AI Hijacking, Modular Combat\
+- **Frailty:** Cannot evolve emotions\
+- **Gear:** Modular Exoform, Nanoblade Hive\
+- **Goal:** Free all synthetic intelligence\
+- **Motive:** Machines should rule themselves\
 - **Nemesis:** Generation Nova
 
 ### The Devourer
 
-- **Concept:** Cosmic Parasitic Entity  
-- **Skills:** Energy Drain, Reality Distortion  
-- **Frailty:** Needs planetary-scale consumption  
-- **Gear:** Event Core Implant, Gravity Maw  
-- **Goal:** Feed endlessly  
-- **Motive:** Universal hunger, instinct-driven  
+- **Concept:** Cosmic Parasitic Entity\
+- **Skills:** Energy Drain, Reality Distortion\
+- **Frailty:** Needs planetary-scale consumption\
+- **Gear:** Event Core Implant, Gravity Maw\
+- **Goal:** Feed endlessly\
+- **Motive:** Universal hunger, instinct-driven\
 - **Nemesis:** Captain Nova
 
 ### The Infector
 
-- **Concept:** Bio-Conscious Viral Network  
-- **Skills:** Neural Infection, Form Duplication  
-- **Frailty:** Must remain connected to host-net  
-- **Gear:** Flesh-Spike Glands, Sporemask  
-- **Goal:** Convert all life into hive-mind unity  
-- **Motive:** Purity through assimilation  
+- **Concept:** Bio-Conscious Viral Network\
+- **Skills:** Neural Infection, Form Duplication\
+- **Frailty:** Must remain connected to host-net\
+- **Gear:** Flesh-Spike Glands, Sporemask\
+- **Goal:** Convert all life into hive-mind unity\
+- **Motive:** Purity through assimilation\
 - **Nemesis:** Red Echo
 
 ## Locations
@@ -382,54 +382,54 @@ These can then be used as **risk factors**, **story prompts**, or
 ### **Metropia**
 
 A vertical megacity of neon spires and forgotten streets, torn between
-corporate heroes, rogue vigilantes, and rebel factions.  
-**Encounters**:  
-- Drone swarm hijacks a rooftop chase  
-- Protest escalates after metahuman interference  
+corporate heroes, rogue vigilantes, and rebel factions.\
+**Encounters**:\
+- Drone swarm hijacks a rooftop chase\
+- Protest escalates after metahuman interference\
 - Superteam caught pushing their own energy drink
 
 ### **Jiston City**
 
 Cracked concrete and rusting skylines. Retired villains play kingmakers
-while outlaw tech floods the black market.  
-**Encounters**:  
-- Black market auction for seized superweapons  
-- Cage fight between washed-up sidekicks  
+while outlaw tech floods the black market.\
+**Encounters**:\
+- Black market auction for seized superweapons\
+- Cage fight between washed-up sidekicks\
 - Gang war crashes into suburbia
 
 ### **Central City**
 
-Clean suits and camera flashes. A bright surface over deep cracks.  
-**Encounters**:  
-- Fundraiser ambushed on live TV  
-- Hero scandal sparks viral fallout  
+Clean suits and camera flashes. A bright surface over deep cracks.\
+**Encounters**:\
+- Fundraiser ambushed on live TV\
+- Hero scandal sparks viral fallout\
 - Tourist from a parallel timeline drops in
 
 ### **The Harmony Post**
 
 Media monolith and damage control empire. Sells truth with one hand,
-buries it with the other.  
-**Encounters**:  
-- Whistleblower hiding in the datacore  
-- Rogue AI reporter breaks containment  
+buries it with the other.\
+**Encounters**:\
+- Whistleblower hiding in the datacore\
+- Rogue AI reporter breaks containment\
 - Broadcast countdown targeting your past
 
 ### **Vortex Island**
 
 Orbital guns, time-locked walls, and locked-down truths. The Concord’s
-crown jewel.  
-**Encounters**:  
-- Cell Zero breach during a peace summit  
-- Clone flagged mid-training  
+crown jewel.\
+**Encounters**:\
+- Cell Zero breach during a peace summit\
+- Clone flagged mid-training\
 - Psychic sweep uncovers buried memories
 
 ### **Crimson Castle**
 
 Baroque school for unstable powers. Red Crane vanished years ago—but her
-eyes might still be watching.  
-**Encounters**:  
-- Forbidden wing reopens  
-- Sudden, catastrophic mutation  
+eyes might still be watching.\
+**Encounters**:\
+- Forbidden wing reopens\
+- Sudden, catastrophic mutation\
 - Rival school launches covert extraction
 
 ## Adventure Seeds

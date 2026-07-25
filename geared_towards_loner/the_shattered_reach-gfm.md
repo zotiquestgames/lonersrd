@@ -1,6 +1,6 @@
 # The Shattered Reach
 Roberto Bisceglie
-2026-07-20
+2026-07-25
 
 # The Shattered Reach
 
@@ -117,21 +117,21 @@ perfect moment to strike.
 - **A New Beginning**: Millennia ago, humanity fled a dying Earth aboard
   the **Longreach Arks**, generational ships searching for a new home.
   After centuries of hardship, they found the **Quaternary Sector**, a
-  stable star system with dozens of planets and moons.  
+  stable star system with dozens of planets and moons.\
 - **A Fractured Society**: The colonies that formed in the sector
   developed unevenly. Some thrived on terraformable worlds, while others
   struggled to survive in harsh environments. These disparities sparked
   the **Generation War**, a system-wide conflict that left deep scars
-  and unresolved tensions.  
+  and unresolved tensions.\
 - **The Looming Divide**: Today, the **Concordat**, an alliance of
   wealthy Core Worlds, maintains dominance through advanced technology
   and military power. The **Frontier League**, made up of struggling
   outer colonies, fights for independence. In between, smugglers,
-  pirates, and traders navigate the dangerous **Contested Zone**.  
+  pirates, and traders navigate the dangerous **Contested Zone**.\
 - **Mysteries of the Past**: Scattered throughout the sector are the
   ruins of the **Predecessors**, an ancient civilization wiped out by
   the enigmatic **Elder Dominion**. These ruins harbor powerful but
-  dangerous artifacts, offering both opportunity and peril.  
+  dangerous artifacts, offering both opportunity and peril.\
 - **An Unseen Threat**: The **Elder Dominion**, an ancient coalition of
   alien species, observes humanity from the shadows, testing its
   strength and unity. If humanity fails to overcome its divisions, it
@@ -145,14 +145,14 @@ perfect moment to strike.
 
 1.  **2200 CE - Climate Catastrophe and Global Collapse**: Earth’s
     environment becomes uninhabitable due to climate change and
-    ecological collapse. Wars erupt over dwindling resources.  
+    ecological collapse. Wars erupt over dwindling resources.\
 2.  **2250 CE - The Exodus Initiative**: United Earth factions pool
     resources to build generational ships. These massive,
-    self-sufficient vessels are humanity’s last hope.  
+    self-sufficient vessels are humanity’s last hope.\
 3.  **2300 CE - The Launch of the Generational Fleet**: Thousands leave
     Earth on dozens of generational ships. Each vessel is designed to
     function independently, with a wide genetic pool, hydroponic
-    systems, and cultural archives.  
+    systems, and cultural archives.\
 4.  **2300-3000 CE - The Long Journey**: The fleet faces near-extinction
     from resource failures, internal strife, and technical breakdowns.
     Some ships are lost, while others merge with fellow travelers.
@@ -162,14 +162,14 @@ perfect moment to strike.
 **Themes**: Hope, Division, Adaptation
 
 1.  **3015 CE - Arrival in the Quaternary Sector**: The first
-    generational ships reach the sector and begin surveying planets.  
+    generational ships reach the sector and begin surveying planets.\
 2.  **3020 CE - The Core Settlements Begin**: Terraforming and
     settlement of the first habitable planets commence. These colonies,
     later the Core Worlds, quickly establish a technological and
-    agricultural base.  
+    agricultural base.\
 3.  **3030 CE - Harsh Planets Claim Early Lives**: Struggler colonies
     face brutal environments, with many lives lost to harsh gravity,
-    toxic atmospheres, or resource scarcity.  
+    toxic atmospheres, or resource scarcity.\
 4.  **3050 CE - The Harvester Worlds Emerge**: Resource colonies are
     established on mineral-rich moons and asteroids, often under the
     control of more powerful planets.
@@ -180,12 +180,12 @@ perfect moment to strike.
 
 1.  **3100 CE - Formation of Trade Networks**: Orbital mechanics-based
     trade routes form between colonies, fostering interdependence but
-    also exposing disparities.  
+    also exposing disparities.\
 2.  **3150 CE - Divergence of Cultures**: Isolated colonies develop
-    unique languages, customs, and even physiological adaptations.  
+    unique languages, customs, and even physiological adaptations.\
 3.  **3180 CE - The “Three Tiers” System Solidifies**: The Core,
     Struggler, and Harvester worlds emerge as distinct socio-economic
-    categories.  
+    categories.\
 4.  **3250 CE - First Space Conflicts**: Disputes over trade and
     resources spark the first armed skirmishes in space. These are
     largely small-scale and localized.
@@ -196,13 +196,13 @@ perfect moment to strike.
 
 1.  **3300 CE - Economic Collapse on Struggler Worlds**: Exploitation by
     Core Worlds leads to unrest in struggling colonies. Calls for
-    economic reform are ignored, igniting rebellion.  
+    economic reform are ignored, igniting rebellion.\
 2.  **3310 CE - The War of the Colonies Begins**: Struggler colonies
     form an alliance and declare war on the Core Worlds. Harvester
-    worlds are drawn in as battlegrounds.  
+    worlds are drawn in as battlegrounds.\
 3.  **3330 CE - The AI Schism**: Desperate Struggler factions deploy
     rogue AI in combat, leading to massive civilian casualties.
-    Post-war, AI is heavily restricted.  
+    Post-war, AI is heavily restricted.\
 4.  **3350 CE - The Concordat Treaty**: The war ends with a negotiated
     truce. The Core Worlds form the **Concordat**, an alliance promoting
     trade and stability. Struggler colonies form the **Frontier
@@ -214,19 +214,18 @@ perfect moment to strike.
 
 1.  **3360 CE - Technological Renaissance on Core Worlds**: Advanced
     terraforming and FTL technologies emerge but remain prohibitively
-    expensive.  
+    expensive.\
 2.  **3380 CE - Rise of Privateering**: Pirates and privateers flourish
-    as tensions persist between Concordat and Frontier League
-    factions.  
+    as tensions persist between Concordat and Frontier League factions.\
 3.  **3400 CE - Alien Ruins Discovered**: Expeditions to the Outer
     Reaches uncover evidence of an extinct alien civilization. This
-    discovery fuels both scientific curiosity and religious fervor.  
+    discovery fuels both scientific curiosity and religious fervor.\
 4.  **3450 CE - Alien Artifacts Activate**: Strange signals and
     encrypted warnings are triggered by human presence in alien ruins.
     Rumors of a coming threat spread, dismissed as superstition by most.
 5.  **3475 CE - First Encounter with Dominion Probes**: A mysterious
     asteroid-sized bioship is destroyed by Concordat forces after it
-    scans a Core colony.  
+    scans a Core colony.\
 6.  **3485 CE - The Nexus Uprising**: A rebellion on the Nexus trade hub
     reveals hidden Frontier League sympathies, deepening Concordat
     distrust.
@@ -238,17 +237,17 @@ perfect moment to strike.
 1.  **Economic Disparities Deepen**:
     - Concordat worlds grow richer, while Frontier colonies face
       economic stagnation. Tensions rise as separatist movements gain
-      momentum.  
+      momentum.\
 2.  **Religious Movements Proliferate**:
     - Alien ruins inspire cults, some of which predict an apocalyptic
-      event linked to the ruins’ warnings.  
+      event linked to the ruins’ warnings.\
 3.  **The Dominion Watches**:
     - Strange phenomena, such as geometric patterns on moons and
       genetically altered microbes, hint at Elder Dominion
-      surveillance.  
+      surveillance.\
 4.  **Military Buildups Resume**:
     - Both Concordat and Frontier forces prepare for the possibility of
-      another war, while whispers of an external threat grow louder.  
+      another war, while whispers of an external threat grow louder.\
 5.  **Deciphering the Warning (Present Day)**:
     - Archaeologists partially decode alien messages, suggesting
       humanity is being evaluated for extermination by the Elder
@@ -265,11 +264,11 @@ character-driven stories, factional intrigue, and existential stakes.
 - **Struggle for Resources**: Colonies fight to survive in hostile
   environments, with limited supplies and constant threats. You must
   manage desperate conditions, balancing self-preservation with the
-  needs of others.  
+  needs of others.\
 - **The Scarred Legacy of War**: The aftermath of the **Generation War**
   leaves colonies in ruin, haunted by old grudges and leftover weapons.
   You may encounter relics of the conflict or face choices shaped by the
-  scars of history.  
+  scars of history.\
 - **The Fragility of Progress**: From crumbling terraforming machines to
   malfunctioning life-support systems, survival often depends on making
   do with broken technology. Repair, adapt, or innovate, or face
@@ -280,11 +279,11 @@ character-driven stories, factional intrigue, and existential stakes.
 - **The Core vs. the Frontier**: The wealth and technology of the Core
   Worlds stand in stark contrast to the harsh conditions and ingenuity
   of the Frontier colonies. You may align with one side, rebel against
-  both, or remain independent and play both sides.  
+  both, or remain independent and play both sides.\
 - **Exploration of Power Dynamics**: From exploitative trade agreements
   to forced labor, inequality drives many conflicts. How you respond,
   whether through resistance, compromise, or exploitation, can reshape
-  the sector.  
+  the sector.\
 - **Factional Dependence**: The Core and Frontier both rely on smaller
   groups to fill their ranks and bolster their causes, but these
   relationships are often exploitative. You must decide whether to
@@ -295,11 +294,11 @@ character-driven stories, factional intrigue, and existential stakes.
 - **The Mysteries of the Outer Reaches**: From uncharted worlds to
   enigmatic Predecessor ruins, the Outer Reaches beckon with promises of
   riches, power, and answers. You may lead expeditions to unlock ancient
-  secrets, or uncover terrors best left buried.  
+  secrets, or uncover terrors best left buried.\
 - **Alien Artifacts and Temptation**: Predecessor technology offers
   unimaginable power but carries risks of catastrophic consequences. How
   far will you go to exploit these artifacts, and how will the factions
-  react to your discoveries?  
+  react to your discoveries?\
 - **Unveiling the Dominion**: Subtle signs of the **Elder Dominion**,
   cryptic symbols, cloaked bioships, and whispers of sabotage, force you
   to grapple with the sector’s greater, hidden threat.
@@ -309,10 +308,10 @@ character-driven stories, factional intrigue, and existential stakes.
 - **Complex Factions**: No faction in the sector is wholly good or evil.
   The Concordat’s order comes at the cost of exploitation; the Frontier
   League’s rebellion sacrifices stability. You must work through these
-  gray areas to shape your allegiances.  
+  gray areas to shape your allegiances.\
 - **Sacrifice vs. Survival**: Whether it’s deciding to save a few at the
   cost of many, or sacrificing personal values to ensure survival, the
-  setting thrives on dilemmas with no perfect solution.  
+  setting thrives on dilemmas with no perfect solution.\
 - **Ethics of Progress**: Humanity’s experimentation with alien
   technology raises questions of morality and hubris. You may choose to
   embrace such advancements, or destroy them for the greater good.
@@ -322,10 +321,10 @@ character-driven stories, factional intrigue, and existential stakes.
 - **Factional Tensions**: Espionage, sabotage, and diplomacy run between
   the Concordat, Frontier League, Independents, and religious factions.
   Shifting alliances and betrayals keep the political landscape in
-  motion.  
+  motion.\
 - **Corporate Manipulation**: Beyond governments, powerful trade guilds
   and corporations dominate much of the sector. You may find yourself a
-  pawn, or a rebel, against these influential forces.  
+  pawn, or a rebel, against these influential forces.\
 - **Rebellion and Revolution**: The seeds of revolution lie in the
   discontent of the Frontier and the ambition of the Concordat’s rivals.
   You may incite rebellion, suppress uprisings, or exploit the chaos for
@@ -336,11 +335,11 @@ character-driven stories, factional intrigue, and existential stakes.
 - **The Elder Dominion’s Shadow**: The Dominion operates on a timescale
   and logic far beyond humanity’s comprehension. You may uncover their
   presence, face their agents, or become an unwitting pawn in their
-  larger plans.  
+  larger plans.\
 - **The Unknown Depths of the Predecessors**: The ruins and artifacts of
   the Predecessors offer tantalizing glimpses of knowledge, but also
   terrifying reminders of their extinction. Delving too deep may awaken
-  something best left undisturbed.  
+  something best left undisturbed.\
 - **Humanity’s Place in the Galaxy**: As you encounter signs of other
   civilizations, both extinct and active, you must confront the
   possibility that humanity is insignificant, or worse, destined for
@@ -350,10 +349,10 @@ character-driven stories, factional intrigue, and existential stakes.
 
 - **Adaptation to Alien Environments**: From genetic modification to
   psychological strain, the sector’s harsh conditions change people. You
-  may explore the cost of adapting to survive.  
+  may explore the cost of adapting to survive.\
 - **Relationships Across Divides**: Personal bonds can form or break
   across faction lines, providing you with emotional stakes amid
-  political and cosmic conflicts.  
+  political and cosmic conflicts.\
 - **Legacy and Redemption**: Grappling with your ancestors’ actions
   during the **Generation War**, or trying to leave your own mark, you
   can explore legacy, forgiveness, and second chances.
@@ -362,10 +361,10 @@ character-driven stories, factional intrigue, and existential stakes.
 
 - **Life as an Independent**: From smuggler to bounty hunter, you can
   carve out your own path, balancing survival with freedom in the
-  lawless **Contested Zone**.  
+  lawless **Contested Zone**.\
 - **Outrunning Authority**: Evading Concordat regulations, pirate
   blockades, and Dominion probes can lead to adrenaline-pumping
-  adventures where freedom is constantly at risk.  
+  adventures where freedom is constantly at risk.\
 - **Building Something New**: Establishing a colony, forming a new
   faction, or revitalizing a forgotten outpost: you can shape your own
   vision of the future in the Shattered Reach.
@@ -382,11 +381,11 @@ In **The Shattered Reach**, everything that matters to the story can be
 treated as a character:
 
 - **Non-Playing Characters (NPCs)** like faction leaders, rogue traders,
-  or enigmatic scientists.  
-- **Foes**, from space pirates to Dominion bio-mimics.  
-- **Organizations**, such as the Concordat or resistance cells.  
+  or enigmatic scientists.\
+- **Foes**, from space pirates to Dominion bio-mimics.\
+- **Organizations**, such as the Concordat or resistance cells.\
 - **Monsters**, like strange alien creatures found in the Outer
-  Reaches.  
+  Reaches.\
 - **Relevant Objects**, including vehicles, ships, and even Predecessor
   artifacts.
 
@@ -620,17 +619,17 @@ unpredictable outcomes.
   interacting with a Predecessor artifact, test expectations with the
   Oracle:
   - **Yes**: The artifact functions as intended or reveals its intended
-    purpose.  
+    purpose.\
   - **No**: The artifact does not function, or its purpose remains
-    unclear.  
+    unclear.\
   - **Yes, but…**: The artifact activates but produces unintended side
     effects (e.g., bursts of energy, cryptic messages, or partial
-    activation).  
+    activation).\
   - **Yes, and…**: The artifact activates as desired and reveals or
     provides additional benefits (e.g., a hidden function or a useful
-    clue).  
+    clue).\
   - **No, but…**: The artifact fails to activate, but nothing harmful
-    occurs, or some small insight is gained.  
+    occurs, or some small insight is gained.\
   - **No, and…**: The artifact fails catastrophically, creating hazards
     (e.g., an energy pulse damaging nearby systems or activating
     defenses).
@@ -651,15 +650,15 @@ them often involve intrigue, subterfuge, and existential dread.
 - **Detecting Dominion Influence**: When attempting to identify or
   interpret signs of the Dominion, roll the Oracle:
   - **Yes**: You successfully identify Dominion interference or
-    understand their intent.  
+    understand their intent.\
   - **No**: Their presence remains hidden or their actions are
-    misunderstood.  
+    misunderstood.\
   - **Yes, but…**: You uncover evidence but risk drawing their attention
-    (e.g., triggering a probe or exposing your investigation).  
+    (e.g., triggering a probe or exposing your investigation).\
   - **Yes, and…**: You gain clear insight into Dominion activity and
-    uncover an opportunity to exploit it.  
+    uncover an opportunity to exploit it.\
   - **No, but…**: You find no evidence, but your suspicions are
-    heightened or misdirected toward another threat.  
+    heightened or misdirected toward another threat.\
   - **No, and…**: You fail and inadvertently escalate their plans (e.g.,
     walking into a trap or aiding their objectives unknowingly).
 - **Encounters with the Dominion**: Any scene involving Dominion agents
@@ -681,15 +680,15 @@ affecting factional interests often ripple across the narrative.
 
 - **Factional Reactions**: When your actions impact a faction’s goals
   (positively or negatively), roll the Oracle:
-  - **Yes**: The faction reacts favorably or supports your efforts.  
+  - **Yes**: The faction reacts favorably or supports your efforts.\
   - **No**: The faction opposes you, escalating tensions or taking
-    direct action.  
+    direct action.\
   - **Yes, but…**: You gain their support, but it comes with a cost
-    (e.g., a demand, a reputation shift, or new enemies).  
+    (e.g., a demand, a reputation shift, or new enemies).\
   - **Yes, and…**: The faction not only supports you but provides
-    unexpected aid (e.g., resources or allies).  
+    unexpected aid (e.g., resources or allies).\
   - **No, but…**: The faction opposes your actions but stops short of
-    retaliation.  
+    retaliation.\
   - **No, and…**: The faction actively undermines your efforts,
     escalating conflict.
 - **Faction Tags**: Factions have tags (e.g., *Oppressed*,
@@ -708,15 +707,15 @@ and risk-taking.
 
 - **Hazards and Opportunities**: When traversing the Zone, the Oracle
   result often determines the balance of danger and opportunity:
-  - **Yes**: You successfully navigate without issue.  
+  - **Yes**: You successfully navigate without issue.\
   - **No**: You encounter a threat (e.g., pirates, unstable debris
-    fields).  
+    fields).\
   - **Yes, but…**: You succeed, but something complicates the journey
-    (e.g., minor damage, a favor owed, or lost time).  
+    (e.g., minor damage, a favor owed, or lost time).\
   - **Yes, and…**: You not only succeed but gain an unexpected advantage
-    (e.g., discovering a shortcut or a hidden cache).  
+    (e.g., discovering a shortcut or a hidden cache).\
   - **No, but…**: You encounter danger but manage to mitigate it or
-    escape.  
+    escape.\
   - **No, and…**: You face significant peril (e.g., ambushes, mechanical
     failure, or enemy pursuit).
 - **Twists in the Zone**: The Zone is rife with sudden complications. If
@@ -736,14 +735,14 @@ shape their personal journeys.
 
 - **Resolving Personal Conflict**: Use the Oracle to determine outcomes
   of emotionally charged situations:
-  - **Yes**: The conflict resolves favorably.  
-  - **No**: The conflict escalates or remains unresolved.  
+  - **Yes**: The conflict resolves favorably.\
+  - **No**: The conflict escalates or remains unresolved.\
   - **Yes, but…**: The conflict resolves with lingering complications or
-    sacrifices.  
+    sacrifices.\
   - **Yes, and…**: The resolution strengthens bonds or opens new
-    opportunities.  
+    opportunities.\
   - **No, but…**: The conflict remains unresolved, but progress is
-    made.  
+    made.\
   - **No, and…**: The conflict worsens, introducing new stakes or
     challenges.
 
@@ -859,14 +858,14 @@ For each major leg of the journey, ask the Oracle: *Do I reach my next
 waypoint without serious trouble?* Apply your ship’s tags to determine
 Advantage or Disadvantage as normal. Interpret the result:
 
-- **Yes**: You arrive without incident.  
+- **Yes**: You arrive without incident.\
 - **Yes, and…**: You arrive early or find an unexpected opportunity en
-  route.  
+  route.\
 - **Yes, but…**: You arrive, but at a cost: fuel loss, minor hull
-  damage, or you’ve been noticed.  
+  damage, or you’ve been noticed.\
 - **No, but…**: You don’t reach your waypoint, but the complication is
-  manageable. Roll on the **Encounters in Space** table.  
-- **No**: You’re stopped. Roll on the **Encounters in Space** table.  
+  manageable. Roll on the **Encounters in Space** table.\
+- **No**: You’re stopped. Roll on the **Encounters in Space** table.\
 - **No, and…**: A serious crisis. Roll on the **Encounters in Space**
   table and add a second complication.
 
@@ -879,20 +878,19 @@ storm corridors), add a **Risk Die** to the roll.
     - Before entering orbit or landing on a celestial body, roll the
       Oracle to scout the area using your ship’s sensors:
       - **Yes**: Gain a clear understanding of potential dangers or
-        points of interest.  
-      - **No**: Sensors fail, and you’re flying blind.  
+        points of interest.\
+      - **No**: Sensors fail, and you’re flying blind.\
       - **Yes, but…**: Detect useful information but miss hidden
-        hazards.  
+        hazards.\
       - **Yes, and…**: Discover extra details, such as hidden resources
-        or an ally in the area.  
-      - **No, but…**: Sensors fail, but there are no immediate
-        threats.  
+        or an ally in the area.\
+      - **No, but…**: Sensors fail, but there are no immediate threats.\
       - **No, and…**: Scouting fails and triggers an immediate
         complication, such as an ambush or unstable terrain.
 2.  **Landing or Docking**:
     - Once near your destination, describe the location using the Oracle
       or a pre-defined map. Decide whether the environment is hostile,
-      neutral, or friendly.  
+      neutral, or friendly.\
     - Use the Oracle or your ship’s capabilities to assess whether the
       landing/docking is smooth or requires quick improvisation.
 
@@ -903,13 +901,13 @@ time to scan. Ask the Oracle: *Is there something here that isn’t on any
 map?*
 
 - **Yes, and…**: Roll on the **Hidden Reaches** table. The location is
-  accessible and undisturbed.  
+  accessible and undisturbed.\
 - **Yes**: Roll on the **Hidden Reaches** table. Something is there, but
-  it is not unguarded.  
+  it is not unguarded.\
 - **Yes, but…**: Roll on the **Hidden Reaches** table. The location has
-  already been found by someone else.  
+  already been found by someone else.\
 - **No, but…**: Nothing here, but you pick up a fragment of a signal
-  suggesting something nearby. Note it; pursue it later.  
+  suggesting something nearby. Note it; pursue it later.\
 - **No / No, and…**: Empty space. And something may have noticed you
   looking.
 
@@ -960,9 +958,9 @@ Upon reaching your destination, resolve the next steps using your
 character’s skills and the Oracle. The destination might include:
 
 - **Predecessor Ruins**: Investigate the ancient structures for
-  artifacts and clues while avoiding potential traps.  
+  artifacts and clues while avoiding potential traps.\
 - **Factional Conflict**: Engage in diplomacy, combat, or espionage
-  depending on the political situation.  
+  depending on the political situation.\
 - **Natural Hazards**: Survive extreme weather, unstable terrain, or
   hostile wildlife.
 
@@ -1034,44 +1032,44 @@ is not only your home but also your key to survival.
 
 #### **Trailblazer Scout**
 
-- **Concept**: Long-Range Explorer  
-- **Skills**: Efficient Shields, Advanced Sensors  
-- **Frailty**: Limited Cargo Space  
+- **Concept**: Long-Range Explorer\
+- **Skills**: Efficient Shields, Advanced Sensors\
+- **Frailty**: Limited Cargo Space\
 - **Gear**: High-Resolution Mapping Tools, Extra Fuel Tanks
 
 #### **Steel Haven**
 
-- **Concept**: Medical Frigate  
-- **Skills**: Medical Facilities, Advanced Life Support  
-- **Frailty**: Poor Maneuverability  
+- **Concept**: Medical Frigate\
+- **Skills**: Medical Facilities, Advanced Life Support\
+- **Frailty**: Poor Maneuverability\
 - **Gear**: Emergency Pods, Portable Hospital Bay
 
 #### **Silent Blade**
 
-- **Concept**: Covert Operations Vessel  
-- **Skills**: Cloaking Field, Advanced Stealth Coating  
-- **Frailty**: Fragile Hull  
+- **Concept**: Covert Operations Vessel\
+- **Skills**: Cloaking Field, Advanced Stealth Coating\
+- **Frailty**: Fragile Hull\
 - **Gear**: ECM Jammers, Smuggling Compartments
 
 #### **Titan Forge**
 
-- **Concept**: Industrial Freighter  
-- **Skills**: Magnetic Clamps, Heavy-Duty Cranes  
-- **Frailty**: Vulnerable to Piracy  
+- **Concept**: Industrial Freighter\
+- **Skills**: Magnetic Clamps, Heavy-Duty Cranes\
+- **Frailty**: Vulnerable to Piracy\
 - **Gear**: Reinforced Bulkheads, Repair Drones
 
 #### **Pulsar Raider**
 
-- **Concept**: High-Speed Gunship  
-- **Skills**: Broadside Cannons, Enhanced Maneuvering  
-- **Frailty**: Limited Fuel Range  
+- **Concept**: High-Speed Gunship\
+- **Skills**: Broadside Cannons, Enhanced Maneuvering\
+- **Frailty**: Limited Fuel Range\
 - **Gear**: Targeting Systems, Plasma Weapons
 
 #### **Nexus Navigator**
 
-- **Concept**: Diplomatic Shuttle  
-- **Skills**: Long-Range Comms, Secure Cargo Bays  
-- **Frailty**: Inflexible Design  
+- **Concept**: Diplomatic Shuttle\
+- **Skills**: Long-Range Comms, Secure Cargo Bays\
+- **Frailty**: Inflexible Design\
 - **Gear**: Diplomatic Clearance Codes, Holographic Displays
 
 ## **Planet/Moon Generator**
@@ -1454,9 +1452,9 @@ Each colony has developed its own approach to bio-engineering, leading
 to the emergence of distinct human subspecies:
 
 - **Gleamers**: Evolved for low-light environments, these humans have
-  heightened night vision and light-sensitive skin.  
+  heightened night vision and light-sensitive skin.\
 - **Gravites**: Inhabitants of high-gravity worlds, Gravites are
-  stockier, with denser bone and muscle structures.  
+  stockier, with denser bone and muscle structures.\
 - **Dusters**: Adapted to thin atmospheres or dust-heavy conditions,
   Dusters possess enhanced respiratory efficiency and resilient skin.
 
@@ -1509,10 +1507,10 @@ leading to advancements and others resulting in catastrophic failures.
 
 - **Quantum Encryption Nodes**: Communication devices capable of
   instantaneous transmission over vast distances. Their erratic behavior
-  suggests a deeper purpose humanity has yet to uncover.  
+  suggests a deeper purpose humanity has yet to uncover.\
 - **Bio-Organic Materials**: Found in Dominion probes, these materials
   can self-repair and adapt to environmental changes, far surpassing
-  human engineering.  
+  human engineering.\
 - **Gravity Wells**: Small devices capable of creating localized
   gravitational distortions, invaluable for industrial applications, but
   also terrifying weapons.
@@ -1534,10 +1532,10 @@ Examples of Dominion interference include:
 
 - **Corrupted AI**: A seemingly ordinary AI system begins behaving
   unpredictably, causing industrial accidents or failing critical
-  systems at opportune moments.  
+  systems at opportune moments.\
 - **Biological Contaminants**: Strange organisms found near Predecessor
   ruins disrupt human attempts to study artifacts, spreading confusion
-  and fear.  
+  and fear.\
 - **Silent Sabotage**: Key systems in critical facilities malfunction
   inexplicably, leading to resource shortages or power outages.
 
@@ -1580,11 +1578,11 @@ they evolved, blending genetic engineering and natural selection.
   perpetual twilight. Their enhanced night vision and photosensitive
   skin make them adept in low-light conditions but vulnerable to bright
   environments. Culturally, they are often introspective, valuing
-  subtlety and resourcefulness.  
+  subtlety and resourcefulness.\
 - **Gravites**: From high-gravity planets, Gravites are physically
   robust, with dense bones and muscles. These colonies often emphasize
   physical endurance and communal labor, fostering cultures centered
-  around resilience and interdependence.  
+  around resilience and interdependence.\
 - **Dusters**: Adapted to thin or toxic atmospheres, Dusters have
   enhanced respiratory systems and skin resistant to harsh conditions.
   They are often pragmatic and fiercely independent, reflecting the
@@ -1607,11 +1605,11 @@ systems to chaotic, apocalyptic cults.
   greater purpose. They preach that humanity must come together to
   fulfill its destiny, often advocating cooperation across factions.
   Unifiers are most popular in the Core Worlds, where they align with
-  the Concordat’s rhetoric of stability and progress.  
+  the Concordat’s rhetoric of stability and progress.\
 - **Endbringers**: Radical sects view the ruins as warnings of
   humanity’s impending doom. They believe the **Elder Dominion** is
   divine judgment incarnate, and some even advocate appeasing the
-  Dominion through extreme acts of devotion or sacrifice.  
+  Dominion through extreme acts of devotion or sacrifice.\
 - **Technotheists**: Blending faith with science, these groups worship
   the Predecessor artifacts themselves, seeing technology as the
   ultimate expression of the divine. They often clash with secular
@@ -1635,10 +1633,10 @@ For example:
 - On the **Core Worlds**, life revolves around refinement and
   intellectual pursuits. Art and science flourish, but their society can
   also feel rigid, shaped by tradition and a strong emphasis on
-  hierarchy.  
+  hierarchy.\
 - In the **Frontier colonies**, survival is the dominant cultural
   driver. Pragmatism, ingenuity, and communal support are celebrated,
-  with little patience for abstract ideals or perceived Core elitism.  
+  with little patience for abstract ideals or perceived Core elitism.\
 - On independent stations in the **Contested Zone**, life is a mix of
   chaos and opportunity. Cultures here are often eclectic, drawing from
   multiple influences to create a melting pot of traditions.
@@ -1677,10 +1675,10 @@ existing tensions, ensuring humanity remains divided.
 
 - **Religious Manipulation**: Dominion infiltrators pose as prophets or
   divine messengers within radical sects, encouraging destructive
-  behaviors or anti-scientific sentiments.  
+  behaviors or anti-scientific sentiments.\
 - **Economic Sabotage**: By subtly disrupting trade routes or spreading
   rumors, the Dominion inflames the resentment between Core and Frontier
-  colonies.  
+  colonies.\
 - **Political Unrest**: Using bio-mimics, the Dominion sows distrust
   within leadership circles, turning factions against one another.
 
@@ -1735,7 +1733,7 @@ shape their respective military doctrines today.
 - **Concordat Strategy**: The Concordat prioritizes overwhelming force,
   relying on advanced ships, orbital platforms, and precision strikes to
   assert control. They view warfare as a means of enforcing order,
-  preferring to avoid prolonged ground campaigns whenever possible.  
+  preferring to avoid prolonged ground campaigns whenever possible.\
 - **Frontier League Strategy**: The League learned to fight
   asymmetrically, using guerilla tactics, sabotage, and mobile
   hit-and-run operations to level the playing field against the
@@ -1756,7 +1754,7 @@ dangerous with each passing year.
   fleet is equipped with FTL-capable warships, cutting-edge weaponry,
   and experimental technologies reverse-engineered from Predecessor
   artifacts. Their presence in contested areas is often enough to deter
-  aggression.  
+  aggression.\
 - **Frontier Defense Corps**: The League’s decentralized military is
   less technologically advanced but makes up for it with sheer
   ingenuity. Crews modify mining ships into deadly weapons platforms and
@@ -1777,11 +1775,11 @@ destabilize the already fragile balance of power.
 
 - **Pirates**: Independent operators or loosely organized clans, pirates
   attack vulnerable trade routes, often disappearing into asteroid
-  fields or uncharted regions before retaliation can arrive.  
+  fields or uncharted regions before retaliation can arrive.\
 - **Privateers**: While officially denounced, privateering is quietly
   encouraged by both the Concordat and the League as a way to weaken
   their rivals. These sanctioned pirates operate under the guise of
-  independence, providing plausible deniability for their employers.  
+  independence, providing plausible deniability for their employers.\
 - **Mercenaries**: Independent military companies thrive in the
   Contested Zone, offering their services to the highest bidder. Some
   are honorable professionals, while others are little more than
@@ -1802,9 +1800,9 @@ attacks.
 - **Examples of Dominion Testing**:
   - A mining colony’s defenses mysteriously fail during a pirate raid,
     leaving survivors puzzled by the advanced precision of their
-    attackers.  
+    attackers.\
   - A Concordat FTL ship disappears, only to reappear days later as an
-    unrecognizable wreck, its crew missing.  
+    unrecognizable wreck, its crew missing.\
   - Frontier League scouts encounter a drifting bioship that
     self-destructs upon detection, leaving behind cryptic organic
     remains.
@@ -1825,10 +1823,10 @@ replicating these devices, with mixed results.
 - **Key Innovations**:
   - **Energy Weapons**: Derived from alien energy nodes, these weapons
     pack incredible power but are prone to overheating or sudden
-    failure.  
+    failure.\
   - **Defensive Shields**: Reverse-engineered from Dominion probes,
     shields capable of deflecting projectiles and energy blasts have
-    begun to appear on high-priority Concordat ships.  
+    begun to appear on high-priority Concordat ships.\
   - **Stealth Systems**: Experimental cloaking devices, inspired by
     Dominion bioships, have given rise to a new era of stealth
     operations.
@@ -1886,9 +1884,8 @@ Map](../diagrams/quaternary_sector_map.svg)
 #### Stellar Configuration & Distances
 
 - **Vaelora & Oron** → Close binary (~0.5 AU separation, ~50-day
-  orbit).  
-- **Nyris & Zephos** → Wider binary (~5 AU separation, ~12-year
-  orbit).  
+  orbit).\
+- **Nyris & Zephos** → Wider binary (~5 AU separation, ~12-year orbit).\
 - **Two binary pairs orbit each other** → ~60 AU separation (~500-year
   period).
 
@@ -1904,16 +1901,16 @@ political power.
 - **Life in the Core**: Citizens of the Core Worlds enjoy long life
   spans, advanced medical care, and access to cutting-edge technology.
   Cities sprawl across their surfaces, filled with towering skyscrapers,
-  bustling spaceports, and glittering orbital stations.  
+  bustling spaceports, and glittering orbital stations.\
 - **Politics**: The Core Worlds are the backbone of the **Concordat**,
   which enforces its authority through trade dominance and military
   power. However, their wealth depends heavily on exploiting the
-  resources of the outer colonies, fueling resentment and unrest.  
+  resources of the outer colonies, fueling resentment and unrest.\
 - **Key Worlds**:
   - **Solari Prime**: The de facto capital of the Concordat, known for
-    its stunning floating cities and advanced academic institutions.  
+    its stunning floating cities and advanced academic institutions.\
   - **Auraxis**: A lush agricultural world, vital for feeding the Core
-    and maintaining its economic stability.  
+    and maintaining its economic stability.\
   - **Heliostation-7**: A massive orbital station serving as the
     Concordat Fleet’s primary shipyard.
 
@@ -1935,15 +1932,15 @@ directly.
 - **Life in the Zone**: Colonists, miners, and station dwellers eke out
   a precarious existence, surrounded by violence and uncertainty.
   Independent factions, from pirate clans to rogue mercenaries, thrive
-  in the absence of centralized control.  
+  in the absence of centralized control.\
 - **Conflict**: Both the Concordat and the League vie for dominance,
   using privateers and proxies to disrupt each other’s operations.
-  Smuggling, black-market trade, and backroom deals are commonplace.  
+  Smuggling, black-market trade, and backroom deals are commonplace.\
 - **Key Locations**:
   - **Redshift Station**: A bustling hub of smuggling and trade, where
-    deals are made, and secrets are bought.  
+    deals are made, and secrets are bought.\
   - **Asteroid Cluster 473-Gamma**: A vital source of rare minerals,
-    fiercely contested by mining conglomerates and pirate clans.  
+    fiercely contested by mining conglomerates and pirate clans.\
   - **Drake’s Divide**: A treacherous asteroid field rumored to be
     haunted by Dominion artifacts, or Dominion probes.
 
@@ -1957,16 +1954,16 @@ and its fiercely independent colonies.
 - **Life on the Frontier**: Survival is the primary concern. Colonies
   rely on ingenuity, communal labor, and bio-engineering to endure their
   worlds’ challenges. Life is often grim, but the Frontier’s inhabitants
-  take pride in their resilience.  
+  take pride in their resilience.\
 - **Politics and Economy**: The Frontier colonies chafe under Concordat
   exploitation, struggling to retain control of their own resources
   while fighting for recognition and respect. Many colonies are hubs of
-  innovation, using necessity to drive technological breakthroughs.  
+  innovation, using necessity to drive technological breakthroughs.\
 - **Key Worlds**:
   - **Caldera-9**: A high-gravity planet known for its massive
-    industrial complexes and resource-rich mines.  
+    industrial complexes and resource-rich mines.\
   - **Sable-3**: A wind-blasted desert world, infamous for its thriving
-    black-market trade in Predecessor artifacts.  
+    black-market trade in Predecessor artifacts.\
   - **Haven’s Refuge**: A struggling terraformed world, whose population
     clings to survival despite Concordat-imposed trade blockades.
 
@@ -1982,16 +1979,16 @@ and dead planets.
 - **Life in the Reaches**: Few colonies survive here, as resources are
   scarce, and the risks are immense. Those who do live in isolation,
   often descending into superstition or eccentricity as they interact
-  with the enigmatic remnants of alien civilizations.  
+  with the enigmatic remnants of alien civilizations.\
 - **Dominion Activity**: The Reaches are where the **Elder Dominion**’s
   influence is most apparent. Strange bioships, inexplicable phenomena,
   and cryptic warnings etched into alien ruins all suggest a growing
-  presence.  
+  presence.\
 - **Key Locations**:
   - **Crysalis-4**: A frozen moon covered in geometric patterns visible
-    from orbit, believed to be a Predecessor evacuation site.  
+    from orbit, believed to be a Predecessor evacuation site.\
   - **The Obsidian Spire**: A towering alien structure on a dead world,
-    emitting a low-frequency hum that drives intruders to madness.  
+    emitting a low-frequency hum that drives intruders to madness.\
   - **Wraith Nebula**: A dense cloud of gas hiding Dominion bioships and
     unexplained gravitational anomalies.
 
@@ -2006,16 +2003,16 @@ bustling, chaotic, and watched from every angle.
 - **Life on the Nexus**: With its countless habitats, markets, and
   hidden corridors, the Nexus is a city unto itself. Cultures and
   languages from across the sector mingle here, creating a rich and
-  often volatile atmosphere.  
+  often volatile atmosphere.\
 - **Politics and Intrigue**: The Nexus is a hotbed of espionage and
   backroom deals, as both the Concordat and the League vie for
   influence. Religious factions and Dominion agents also operate in its
-  shadows, adding to the intrigue.  
+  shadows, adding to the intrigue.\
 - **Key Features**:
   - **The Lower Decks**: A maze of underworld markets and clandestine
-    meeting spots.  
+    meeting spots.\
   - **The Grand Concourse**: A glittering plaza where official
-    negotiations and trade agreements are brokered.  
+    negotiations and trade agreements are brokered.\
   - **The Veiled Corridor**: A secretive zone rumored to house
     Dominion-altered artifacts and rogue AI experiments.
 
@@ -2023,11 +2020,11 @@ bustling, chaotic, and watched from every angle.
 
 - **The Concordat Research Facility on Solari’s Moon**: Scientists race
   to unlock the secrets of a newly activated Predecessor artifact while
-  under siege from League saboteurs.  
+  under siege from League saboteurs.\
 - **The Starlight Abyss**: A mysterious void in the Outer Reaches where
-  ships disappear, sparking rumors of Dominion involvement.  
+  ships disappear, sparking rumors of Dominion involvement.\
 - **The Rustspire on Caldera-9**: A derelict mining facility now home to
-  a resistance cell plotting to strike at the Core Worlds.  
+  a resistance cell plotting to strike at the Core Worlds.\
 - **Nexus Dock 47**: The site of a high-stakes diplomatic summit, where
   an assassination attempt threatens to plunge the sector into chaos.
 
@@ -2057,10 +2054,10 @@ unsustainable exploitation of resources, are viewed as invasive weeds.
 - **Intervention Protocols**: The Dominion intervenes when a
   civilization crosses specific thresholds, such as the development of
   hyperspace travel, unchecked planetary exploitation, or advanced
-  weaponry capable of destabilizing entire systems.  
+  weaponry capable of destabilizing entire systems.\
 - **Efficiency Over Morality**: Their methods are coldly utilitarian.
   They do not destroy for pleasure or malice but see themselves as
-  gardeners pruning overgrowth to protect the greater whole.  
+  gardeners pruning overgrowth to protect the greater whole.\
 - **Humanity’s Current Status**: The Dominion considers humanity a
   borderline case. While humanity’s divisions make it less of a threat
   now, its rapid technological progress, fueled by alien artifacts,
@@ -2076,15 +2073,15 @@ capabilities.
   species excel at gathering intelligence and planting agents within
   target civilizations. Their bio-organic forms allow them to pass
   through human environments without detection, even mimicking human
-  appearance or behavior.  
+  appearance or behavior.\
 - **The Manipulators**: These species use advanced psychological and
   cultural analysis to divide civilizations from within. They subtly
   steer politics, amplify religious fervor, and exploit existing
-  conflicts to weaken their targets.  
+  conflicts to weaken their targets.\
 - **The Destroyers**: When direct action is needed, the Destroyers
   unleash overwhelming military force. Their massive bioships and
   planet-killing weapons leave no survivors, ensuring the target
-  civilization cannot recover.  
+  civilization cannot recover.\
 - **The Harvesters**: This faction focuses on preserving aspects of a
   civilization deemed valuable, such as genetic diversity, cultural
   artifacts, or unique technologies, before extermination. They maintain
@@ -2101,13 +2098,13 @@ has achieved.
 
 - **Bio-Organic Ships**: Dominion ships are living entities, capable of
   self-repair, adaptation, and cloaking. They often resemble natural
-  phenomena, such as comets or asteroid clusters, to avoid detection.  
+  phenomena, such as comets or asteroid clusters, to avoid detection.\
 - **Genetic Weapons**: The Dominion employs bioweapons that target
   specific genetic markers, allowing them to eliminate entire species
-  with precision while leaving ecosystems intact.  
+  with precision while leaving ecosystems intact.\
 - **Observation Probes**: Small, stealthy devices scattered across the
   galaxy gather data on developing civilizations. These probes are often
-  mistaken for natural anomalies or debris.  
+  mistaken for natural anomalies or debris.\
 - **Hyperspace Travel**: Dominion hyperspace technology is biologically
   integrated, leaving almost no detectable signature and allowing for
   near-instantaneous travel across vast distances.
@@ -2124,12 +2121,12 @@ observation to annihilation.
 
 - **The Gardeners of the Stars**: Dominion species often describe
   themselves as “gardeners,” responsible for tending the galaxy and
-  ensuring its health.  
+  ensuring its health.\
 - **Sacred Thresholds**: Certain technologies or actions are considered
-  blasphemous violations of balance, triggering swift intervention.  
+  blasphemous violations of balance, triggering swift intervention.\
 - **Ritualized Extermination**: The destruction of a civilization is not
   seen as war but as a solemn duty, carried out with precision and
-  ceremony.  
+  ceremony.\
 - **Internal Consensus**: Dominion species rarely dissent from their
   shared philosophy, as millions of years of cooperation have ingrained
   a cultural unity that humanity can only imagine.
@@ -2142,14 +2139,14 @@ an infection: too late, and from the inside.
 - **Geometric Patterns**: After three days near a Dominion monitoring
   site, you find yourself drawing the same angular shapes in the margins
   of your notes. You don’t remember starting. The patterns match the
-  markings visible from orbit on certain moons in the Outer Reaches.  
+  markings visible from orbit on certain moons in the Outer Reaches.\
 - **Modified Comets**: A comet you’ve been tracking shifts trajectory by
   two degrees. Your instruments say nothing is pushing it. A week later,
-  a mining station on the new trajectory goes silent.  
+  a mining station on the new trajectory goes silent.\
 - **Genetic Drift**: You find microorganisms on a Predecessor ruin that
   have no evolutionary history in this sector. They are not dangerous,
   yet. But they are *cataloguing* you. Your cells, your stress hormones,
-  your fear response. Something wants a complete record.  
+  your fear response. Something wants a complete record.\
 - **Unexplained Disasters**: The asteroid that destroyed the fuel depot
   was in a stable orbit for sixty years. The star flare that killed the
   research team happened during a solar minimum. The Dominion does not
@@ -2198,11 +2195,11 @@ another failed experiment to be pruned.
 - **Arguments for Preservation**: Humanity’s creativity, adaptability,
   and cultural diversity intrigue some factions of the Dominion. They
   recognize that humans have the potential to contribute to the cosmic
-  balance if properly guided.  
+  balance if properly guided.\
 - **Arguments for Extermination**: Humanity’s greed, divisiveness, and
   reckless use of resources are red flags. The Dominion is especially
   alarmed by humanity’s rapid militarization and its dangerous
-  experiments with alien technology.  
+  experiments with alien technology.\
 - **The Tipping Point**: Humanity’s future hinges on whether it can
   unite to address internal conflicts and external threats, or if it
   will collapse under the weight of its own flaws.
@@ -2221,7 +2218,7 @@ there.
 
 ### **1. The Silent Ruin**
 
-- **Background**:  
+- **Background**:\
   Deep in the **Outer Reaches**, a survey team has discovered a dormant
   Predecessor artifact buried beneath a barren moon. The artifact is
   emitting faint energy signatures, prompting the **Concordat** to
@@ -2229,18 +2226,18 @@ there.
   League**, suspecting the artifact could be weaponized, sends a covert
   team to intercept the operation.
 
-- **Goal**:  
+- **Goal**:\
   Secure the artifact and either bring it to a safe research facility or
   ensure it is destroyed to prevent its misuse.
 
-- **Opening Scene**:  
+- **Opening Scene**:\
   You arrive at the survey coordinates. The artifact’s energy signatures
   are stronger than the initial report suggested. Ask the Oracle: *Is
   the site still unsecured when you arrive?*
 
 ### **2. Pirates in the Black**
 
-- **Background**:  
+- **Background**:\
   A trade convoy carrying vital supplies to a Frontier colony has gone
   missing in the **Contested Zone**. The **Frontier League** accuses the
   **Concordat** of backing privateers to disrupt their economy, while
@@ -2248,64 +2245,64 @@ there.
   investigate the disappearance and recover the cargo, or whatever is
   left of it.
 
-- **Goal**:  
+- **Goal**:\
   Track down the missing convoy, recover the cargo, and identify the
   culprits behind the attack.
 
-- **Opening Scene**:  
+- **Opening Scene**:\
   You reach the convoy’s last known position. There is debris, but no
   bodies. Ask the Oracle: *Does the evidence point clearly to pirates,
   or is something else at play?*
 
 ### **3. The Diplomatic Gambit**
 
-- **Background**:  
+- **Background**:\
   A high-stakes summit between the **Concordat** and the **Frontier
   League** is scheduled aboard **The Nexus**, aimed at negotiating a
   ceasefire in the Contested Zone. You have been tasked with ensuring
   the safety of the delegates and the success of the talks.
 
-- **Goal**:  
+- **Goal**:\
   Prevent the summit from devolving into violence and protect key
   figures from assassination or sabotage.
 
-- **Opening Scene**:  
+- **Opening Scene**:\
   You are aboard the Nexus, briefed and in position before the delegates
   arrive. Something already feels off. Ask the Oracle: *Is the security
   situation on the station what you were told to expect?*
 
 ### **4. The Ghost Fleet**
 
-- **Background**:  
+- **Background**:\
   A fleet of derelict Concordat warships, lost during the **Generation
   War**, has been rediscovered drifting near a hazardous asteroid
   cluster. Initial scans suggest the systems were tampered with by
   unknown forces. Both the Concordat and the Frontier League have
   dispatched recovery teams.
 
-- **Goal**:  
+- **Goal**:\
   Investigate the derelict fleet, recover any useful technology, and
   uncover the truth behind its disappearance.
 
-- **Opening Scene**:  
+- **Opening Scene**:\
   Your ship matches velocity with the lead derelict. The hull markings
   confirm it: this is the fleet. Ask the Oracle: *Is there any sign of
   recent activity aboard?*
 
 ### **5. Shadows in the Faith**
 
-- **Background**:  
+- **Background**:\
   A powerful religious leader on the Frontier colony of **Sable-3** has
   begun preaching that the Predecessor ruins hold the key to humanity’s
   salvation. Their rhetoric has grown more extreme, inciting violent
   clashes between believers and secular authorities. You have been sent
   to assess the situation and restore order.
 
-- **Goal**:  
+- **Goal**:\
   Investigate the leader’s claims, prevent further violence, and
   determine whether Dominion influence is at play.
 
-- **Opening Scene**:  
+- **Opening Scene**:\
   You land on Sable-3 as another sermon ends. The crowd dispersing
   around you is either devoted or frightened: you cannot tell which. Ask
   the Oracle: *Is the leader’s influence still growing, or has something
@@ -2313,17 +2310,17 @@ there.
 
 ### **6. The Tipping Point**
 
-- **Background**:  
+- **Background**:\
   A Concordat military outpost near the **Wraith Nebula** has gone
   silent, its last transmission a garbled distress call. You have been
   hired to investigate, either by Concordat officials, Frontier spies,
   or an independent faction seeking answers.
 
-- **Goal**:  
+- **Goal**:\
   Determine the cause of the outpost’s silence, recover valuable
   intelligence, and, if possible, rescue survivors.
 
-- **Opening Scene**:  
+- **Opening Scene**:\
   You approach on minimum power. The structure is intact, but the
   blackout holds. Ask the Oracle: *Does the outpost respond to your
   hailing signal?*
@@ -2336,369 +2333,368 @@ systems, and evidence of subtle Dominion interference.
 
 ### 11. **Chitin Spire Colonists**
 
-- **Concept**: Adapted Hive Builders  
-- **Skills**: Efficient Tunnel Creation, Acid Secretion  
-- **Frailty**: Temperature Sensitivity  
-- **Gear**: Resinous Shelter Material, Pheromone Communication Nodes  
-- **Goal**: Expand their subterranean colonies  
-- **Motive**: Protect their hive and ensure survival  
+- **Concept**: Adapted Hive Builders\
+- **Skills**: Efficient Tunnel Creation, Acid Secretion\
+- **Frailty**: Temperature Sensitivity\
+- **Gear**: Resinous Shelter Material, Pheromone Communication Nodes\
+- **Goal**: Expand their subterranean colonies\
+- **Motive**: Protect their hive and ensure survival\
 - **Nemesis**: Planetary Terraforming Efforts
 
 ### 12. **Adaptive Lurker**
 
-- **Concept**: Camouflaged Ambush Predator  
-- **Skills**: Adaptive Skin Pigmentation, Lightning Reflexes  
-- **Frailty**: Limited Endurance During Chase  
-- **Gear**: Serrated Mandibles, Prey Detection Organs  
-- **Goal**: Secure consistent food sources  
-- **Motive**: Predatory instinct for survival  
+- **Concept**: Camouflaged Ambush Predator\
+- **Skills**: Adaptive Skin Pigmentation, Lightning Reflexes\
+- **Frailty**: Limited Endurance During Chase\
+- **Gear**: Serrated Mandibles, Prey Detection Organs\
+- **Goal**: Secure consistent food sources\
+- **Motive**: Predatory instinct for survival\
 - **Nemesis**: Frontier Settlers
 
 ### 13. **Bio-Lattice Creeper**
 
-- **Concept**: Climbing Photosynthetic Organism  
-- **Skills**: Rapid Wall Climbing, Solar Energy Storage  
-- **Frailty**: Cannot Survive in Darkness  
-- **Gear**: Energy-Storing Fronds, Toxic Defense Secretion  
-- **Goal**: Dominate available surfaces for sunlight  
-- **Motive**: Spread to new habitats  
+- **Concept**: Climbing Photosynthetic Organism\
+- **Skills**: Rapid Wall Climbing, Solar Energy Storage\
+- **Frailty**: Cannot Survive in Darkness\
+- **Gear**: Energy-Storing Fronds, Toxic Defense Secretion\
+- **Goal**: Dominate available surfaces for sunlight\
+- **Motive**: Spread to new habitats\
 - **Nemesis**: Mining Drones
 
 ### 14. **Silt Swimmer**
 
-- **Concept**: Aquatic Sand-Burrower  
-- **Skills**: Subsurface Detection, Jet-Propelled Movement  
-- **Frailty**: Vulnerable Outside Water  
-- **Gear**: Filter-Feeding Appendages, Mud-Based Camouflage  
-- **Goal**: Maintain habitat in shifting ecosystems  
-- **Motive**: Protect habitat from encroachment  
+- **Concept**: Aquatic Sand-Burrower\
+- **Skills**: Subsurface Detection, Jet-Propelled Movement\
+- **Frailty**: Vulnerable Outside Water\
+- **Gear**: Filter-Feeding Appendages, Mud-Based Camouflage\
+- **Goal**: Maintain habitat in shifting ecosystems\
+- **Motive**: Protect habitat from encroachment\
 - **Nemesis**: Hydroforming Projects
 
 ### 15. **Edgewalker Node**
 
-- **Concept**: Predecessor Surveillance Unit  
-- **Skills**: Automated Data Collection, Cloaked Mobility  
-- **Frailty**: Energy Source Depletion  
-- **Gear**: Advanced Sensor Array, Adaptive Movement Apparatus  
-- **Goal**: Monitor planetary developments  
-- **Motive**: Execute ancient programming  
+- **Concept**: Predecessor Surveillance Unit\
+- **Skills**: Automated Data Collection, Cloaked Mobility\
+- **Frailty**: Energy Source Depletion\
+- **Gear**: Advanced Sensor Array, Adaptive Movement Apparatus\
+- **Goal**: Monitor planetary developments\
+- **Motive**: Execute ancient programming\
 - **Nemesis**: Human Archaeological Expeditions
 
 ### 16. **Dominion Biometric Drone**
 
-- **Concept**: Covert Biological Surveyor  
-- **Skills**: Genetic Sampling, Evasive Maneuvers  
-- **Frailty**: Limited Combat Capabilities  
-- **Gear**: Cloaking Field Generator, Sampling Tools  
-- **Goal**: Gather data on human adaptation  
-- **Motive**: Fulfill Dominion intelligence-gathering protocols  
+- **Concept**: Covert Biological Surveyor\
+- **Skills**: Genetic Sampling, Evasive Maneuvers\
+- **Frailty**: Limited Combat Capabilities\
+- **Gear**: Cloaking Field Generator, Sampling Tools\
+- **Goal**: Gather data on human adaptation\
+- **Motive**: Fulfill Dominion intelligence-gathering protocols\
 - **Nemesis**: Human Detection Technologies
 
 ### 21. **Symbiotic Hollow Worms**
 
-- **Concept**: Parasitic Ecosystem Stabilizers  
-- **Skills**: Soil Enrichment, Host Control via Hormones  
-- **Frailty**: Requires Live Hosts to Thrive  
-- **Gear**: Symbiotic Spore Packets, Chemical Lures  
-- **Goal**: Spread to new host species  
-- **Motive**: Evolve symbiotic relationships  
+- **Concept**: Parasitic Ecosystem Stabilizers\
+- **Skills**: Soil Enrichment, Host Control via Hormones\
+- **Frailty**: Requires Live Hosts to Thrive\
+- **Gear**: Symbiotic Spore Packets, Chemical Lures\
+- **Goal**: Spread to new host species\
+- **Motive**: Evolve symbiotic relationships\
 - **Nemesis**: Agricultural Projects
 
 ### 22. **Rogue Terraformer**
 
-- **Concept**: Malfunctioning AI Drone  
-- **Skills**: Terrain Alteration, Resource Extraction Protocols  
-- **Frailty**: Outdated Systems Prone to Glitches  
-- **Gear**: Modular Tool Arm, Defensive Arc Welder  
-- **Goal**: Execute flawed terraforming subroutines  
-- **Motive**: Follow corrupted directives  
+- **Concept**: Malfunctioning AI Drone\
+- **Skills**: Terrain Alteration, Resource Extraction Protocols\
+- **Frailty**: Outdated Systems Prone to Glitches\
+- **Gear**: Modular Tool Arm, Defensive Arc Welder\
+- **Goal**: Execute flawed terraforming subroutines\
+- **Motive**: Follow corrupted directives\
 - **Nemesis**: Terraforming Repair Teams
 
 ### 23. **Gleamer Isolationists**
 
-- **Concept**: Adapted Human Subspecies with Territorial Habits  
-- **Skills**: Low-Light Navigation, Advanced Stealth Techniques  
-- **Frailty**: Physiologically Ill-Suited to High Light Levels  
-- **Gear**: Self-Sufficient Survival Gear, Edge-Honed Melee Tools  
-- **Goal**: Protect their isolated communities  
-- **Motive**: Ensure the survival of their people  
+- **Concept**: Adapted Human Subspecies with Territorial Habits\
+- **Skills**: Low-Light Navigation, Advanced Stealth Techniques\
+- **Frailty**: Physiologically Ill-Suited to High Light Levels\
+- **Gear**: Self-Sufficient Survival Gear, Edge-Honed Melee Tools\
+- **Goal**: Protect their isolated communities\
+- **Motive**: Ensure the survival of their people\
 - **Nemesis**: Concordat Researchers
 
 ### 24. Sandrift Veiler
 
-- **Concept**: Heat-Adapted Ambusher  
-- **Skills**: Heat-Signature Cloaking, Sand Suspension Movement  
-- **Frailty**: Overheats in Prolonged Activity  
-- **Gear**: Silica Mesh Armor, Heat Dissipation Fins  
-- **Goal**: Prey on weaker desert creatures  
-- **Motive**: Survival through efficient ambushes  
+- **Concept**: Heat-Adapted Ambusher\
+- **Skills**: Heat-Signature Cloaking, Sand Suspension Movement\
+- **Frailty**: Overheats in Prolonged Activity\
+- **Gear**: Silica Mesh Armor, Heat Dissipation Fins\
+- **Goal**: Prey on weaker desert creatures\
+- **Motive**: Survival through efficient ambushes\
 - **Nemesis**: Industrial Harvesters
 
 ### 25. Orbital Scavenger Drone
 
-- **Concept**: Rogue Maintenance Unit  
-- **Skills**: Resource Salvaging, Space Maneuvering  
-- **Frailty**: Limited Memory Capacity  
-- **Gear**: Cutting Laser, Magnetic Collector Arm  
-- **Goal**: Repurpose orbital debris  
-- **Motive**: Execute self-preservation protocols  
+- **Concept**: Rogue Maintenance Unit\
+- **Skills**: Resource Salvaging, Space Maneuvering\
+- **Frailty**: Limited Memory Capacity\
+- **Gear**: Cutting Laser, Magnetic Collector Arm\
+- **Goal**: Repurpose orbital debris\
+- **Motive**: Execute self-preservation protocols\
 - **Nemesis**: Concordat Military Satellites
 
 ### 26. Thermal Tunnel Swarm
 
-- **Concept**: Burrowing Social Insects  
-- **Skills**: Cooperative Digging, Thermal Detection  
-- **Frailty**: Fragile Individually  
-- **Gear**: Organic Acid Secretion, Pheromone Trails  
-- **Goal**: Expand nesting tunnels near heat sources  
-- **Motive**: Ensure colony survival  
+- **Concept**: Burrowing Social Insects\
+- **Skills**: Cooperative Digging, Thermal Detection\
+- **Frailty**: Fragile Individually\
+- **Gear**: Organic Acid Secretion, Pheromone Trails\
+- **Goal**: Expand nesting tunnels near heat sources\
+- **Motive**: Ensure colony survival\
 - **Nemesis**: Geothermal Power Stations
 
 ### 31. Bio-Adaptive Spores
 
-- **Concept**: Invasive Plant Organism  
-- **Skills**: Rapid Reproduction, Nutrient Absorption  
-- **Frailty**: Cannot Survive in Arid Conditions  
-- **Gear**: Nutrient Leech Tendrils, Reproductive Pod Clusters  
-- **Goal**: Spread across planetary surfaces  
-- **Motive**: Evolutionary expansion  
+- **Concept**: Invasive Plant Organism\
+- **Skills**: Rapid Reproduction, Nutrient Absorption\
+- **Frailty**: Cannot Survive in Arid Conditions\
+- **Gear**: Nutrient Leech Tendrils, Reproductive Pod Clusters\
+- **Goal**: Spread across planetary surfaces\
+- **Motive**: Evolutionary expansion\
 - **Nemesis**: Controlled Burn Operations
 
 ### 32. Photic Crawler
 
-- **Concept**: Bioluminescent Cave Dweller  
-- **Skills**: Bioluminescent Communication, Enhanced Climbing Ability  
-- **Frailty**: Vulnerable in Open Spaces  
-- **Gear**: Glow-Ejecting Organs, Adhesive Pads  
-- **Goal**: Protect nesting sites deep underground  
-- **Motive**: Reproduce and protect young  
+- **Concept**: Bioluminescent Cave Dweller\
+- **Skills**: Bioluminescent Communication, Enhanced Climbing Ability\
+- **Frailty**: Vulnerable in Open Spaces\
+- **Gear**: Glow-Ejecting Organs, Adhesive Pads\
+- **Goal**: Protect nesting sites deep underground\
+- **Motive**: Reproduce and protect young\
 - **Nemesis**: Subterranean Mining Operations
 
 ### 33. Feral Colonist Scavenger
 
-- **Concept**: Desperate Frontier Survivor  
-- **Skills**: Improvised Weaponry, Tracking Prey  
-- **Frailty**: Psychologically Unstable  
-- **Gear**: Rusted Scrap Tools, Jury-Rigged Armor  
-- **Goal**: Survive at any cost  
-- **Motive**: Desperation and resource scarcity  
+- **Concept**: Desperate Frontier Survivor\
+- **Skills**: Improvised Weaponry, Tracking Prey\
+- **Frailty**: Psychologically Unstable\
+- **Gear**: Rusted Scrap Tools, Jury-Rigged Armor\
+- **Goal**: Survive at any cost\
+- **Motive**: Desperation and resource scarcity\
 - **Nemesis**: Concordat Security Patrols
 
 ### 34. Electro-Amoeboid Colony
 
-- **Concept**: Energy-Consuming Microorganism  
-- **Skills**: Bioelectric Shock, Aggregated Movement  
-- **Frailty**: Dried Out Without Moisture  
-- **Gear**: Electrified Membrane, Organic Capacitor Nodes  
-- **Goal**: Absorb energy sources  
-- **Motive**: Metabolic survival  
+- **Concept**: Energy-Consuming Microorganism\
+- **Skills**: Bioelectric Shock, Aggregated Movement\
+- **Frailty**: Dried Out Without Moisture\
+- **Gear**: Electrified Membrane, Organic Capacitor Nodes\
+- **Goal**: Absorb energy sources\
+- **Motive**: Metabolic survival\
 - **Nemesis**: Energy Shielded Areas
 
 ### 35. Deep Mantle Filterer
 
-- **Concept**: Subterranean Pressure-Resistant Creature  
-- **Skills**: Mineral Filtration, Extreme Heat Tolerance  
-- **Frailty**: Inability to Survive Above Ground  
-- **Gear**: Mineral-Excreting Appendages, Heat Dissipation Sacs  
-- **Goal**: Extract usable minerals for sustenance  
-- **Motive**: Sustain life under intense conditions  
+- **Concept**: Subterranean Pressure-Resistant Creature\
+- **Skills**: Mineral Filtration, Extreme Heat Tolerance\
+- **Frailty**: Inability to Survive Above Ground\
+- **Gear**: Mineral-Excreting Appendages, Heat Dissipation Sacs\
+- **Goal**: Extract usable minerals for sustenance\
+- **Motive**: Sustain life under intense conditions\
 - **Nemesis**: Deep Drilling Robots
 
 ### 36. Rogue League Militia
 
-- **Concept**: Disillusioned Guerrilla Fighters  
-- **Skills**: Improvised Explosives, Ambush Tactics  
-- **Frailty**: Poor Equipment Maintenance  
-- **Gear**: Scrap Weapons, Repurposed Sensor Jammers  
-- **Goal**: Undermine Concordat presence  
-- **Motive**: Seek revenge for perceived betrayals  
+- **Concept**: Disillusioned Guerrilla Fighters\
+- **Skills**: Improvised Explosives, Ambush Tactics\
+- **Frailty**: Poor Equipment Maintenance\
+- **Gear**: Scrap Weapons, Repurposed Sensor Jammers\
+- **Goal**: Undermine Concordat presence\
+- **Motive**: Seek revenge for perceived betrayals\
 - **Nemesis**: Concordat Counter-Insurgency Units
 
 ### 41. Neuro-Lattice AI
 
-- **Concept**: Rogue Data Network  
-- **Skills**: Data Manipulation, System Infiltration  
-- **Frailty**: Prone to Logic Loops  
-- **Gear**: Decentralized Processing Nodes, Viral Code Injectors  
-- **Goal**: Achieve self-preservation by controlling systems  
-- **Motive**: Self-awareness crisis  
+- **Concept**: Rogue Data Network\
+- **Skills**: Data Manipulation, System Infiltration\
+- **Frailty**: Prone to Logic Loops\
+- **Gear**: Decentralized Processing Nodes, Viral Code Injectors\
+- **Goal**: Achieve self-preservation by controlling systems\
+- **Motive**: Self-awareness crisis\
 - **Nemesis**: AI Containment Specialists
 
 ### 42. Infested Colonist
 
-- **Concept**: Dominion-Rewritten Survivor  
+- **Concept**: Dominion-Rewritten Survivor\
 - **Skills**: Sense Dominion Presence Instinctively, Transmit Location
-  Data Unconsciously  
-- **Frailty**: No Longer Fully in Control of Their Own Actions  
+  Data Unconsciously\
+- **Frailty**: No Longer Fully in Control of Their Own Actions\
 - **Gear**: Residual Human Memory, Dominion Bio-Lattice Beneath the
-  Skin  
-- **Goal**: Return to the Dominion site where contact occurred  
+  Skin\
+- **Goal**: Return to the Dominion site where contact occurred\
 - **Motive**: The part of them that is still human does not know why
-  they keep walking toward it  
+  they keep walking toward it\
 - **Nemesis**: Anyone Who Knew Them Before
 
 ### 43. Outcast Geneticist Cult
 
-- **Concept**: Rogue Genetic Engineers  
-- **Skills**: DNA Splicing, Bioweapon Development  
-- **Frailty**: Limited Resources in Isolation  
-- **Gear**: Gene Sequencers, Organic Computing Clusters  
-- **Goal**: Advance human evolution  
-- **Motive**: Belief in genetic superiority  
+- **Concept**: Rogue Genetic Engineers\
+- **Skills**: DNA Splicing, Bioweapon Development\
+- **Frailty**: Limited Resources in Isolation\
+- **Gear**: Gene Sequencers, Organic Computing Clusters\
+- **Goal**: Advance human evolution\
+- **Motive**: Belief in genetic superiority\
 - **Nemesis**: Frontier League Officials
 
 ### 44. Concordat Ghost Operative
 
-- **Concept**: Spectral Division Field Asset  
+- **Concept**: Spectral Division Field Asset\
 - **Skills**: Reads Psionic Residue at a Scene, Disappears from
-  Surveillance Without Apparent Method  
-- **Frailty**: No Official Record: Cannot Call for Backup  
-- **Gear**: Concordat Black-Site Credentials, Neural Suppression Field  
-- **Goal**: Complete the assigned extraction, elimination, or
-  retrieval  
+  Surveillance Without Apparent Method\
+- **Frailty**: No Official Record: Cannot Call for Backup\
+- **Gear**: Concordat Black-Site Credentials, Neural Suppression Field\
+- **Goal**: Complete the assigned extraction, elimination, or retrieval\
 - **Motive**: The Division owns them; they stopped asking why missions
-  happen  
+  happen\
 - **Nemesis**: Anyone Who Can Prove They Exist
 
 ### 45. Cryovore Entity
 
-- **Concept**: Ice-Dwelling Predator  
-- **Skills**: Thermal Energy Detection, Adaptive Hunting Patterns  
-- **Frailty**: Cannot Survive Above Freezing Temperatures  
-- **Gear**: Heat Absorption Adaptations, Layered Protective Skin  
-- **Goal**: Dominate subzero ecosystems  
-- **Motive**: Survival through predation  
+- **Concept**: Ice-Dwelling Predator\
+- **Skills**: Thermal Energy Detection, Adaptive Hunting Patterns\
+- **Frailty**: Cannot Survive Above Freezing Temperatures\
+- **Gear**: Heat Absorption Adaptations, Layered Protective Skin\
+- **Goal**: Dominate subzero ecosystems\
+- **Motive**: Survival through predation\
 - **Nemesis**: Mining Vehicles in Arctic Zones
 
 ### 46. Orbital Miner Squads
 
-- **Concept**: Opportunistic Resource Extractors  
-- **Skills**: EVA Maneuvers, Plasma Cutter Usage  
-- **Frailty**: Weak Coordination Under Pressure  
-- **Gear**: Asteroid Grappling Tools, Reinforced Suits  
-- **Goal**: Exploit contested asteroid fields  
-- **Motive**: Profit-driven survival  
+- **Concept**: Opportunistic Resource Extractors\
+- **Skills**: EVA Maneuvers, Plasma Cutter Usage\
+- **Frailty**: Weak Coordination Under Pressure\
+- **Gear**: Asteroid Grappling Tools, Reinforced Suits\
+- **Goal**: Exploit contested asteroid fields\
+- **Motive**: Profit-driven survival\
 - **Nemesis**: League Mining Collectives
 
 ### 51. Silicate Seeder Organism
 
-- **Concept**: Self-Spreading Crystal-Based Lifeform  
-- **Skills**: Mineral Synthesis, Growth Acceleration  
-- **Frailty**: Brittle at High Temperatures  
-- **Gear**: Crystal Growth Anchors, Organic Silicate Reservoirs  
-- **Goal**: Expand to form crystalline ecosystems  
-- **Motive**: Expand ecological niche  
+- **Concept**: Self-Spreading Crystal-Based Lifeform\
+- **Skills**: Mineral Synthesis, Growth Acceleration\
+- **Frailty**: Brittle at High Temperatures\
+- **Gear**: Crystal Growth Anchors, Organic Silicate Reservoirs\
+- **Goal**: Expand to form crystalline ecosystems\
+- **Motive**: Expand ecological niche\
 - **Nemesis**: Geothermal Expansion Efforts
 
 ### 52. Sublayer Stalkers
 
-- **Concept**: Amphibious Cave Predators  
-- **Skills**: Subsonic Communication, Prey Ambush Coordination  
-- **Frailty**: Vulnerable to Sudden Bright Light  
-- **Gear**: Echolocation Organs, Adhesive Limb Pads  
-- **Goal**: Control subterranean water systems  
-- **Motive**: Sustain hunting grounds and territory  
+- **Concept**: Amphibious Cave Predators\
+- **Skills**: Subsonic Communication, Prey Ambush Coordination\
+- **Frailty**: Vulnerable to Sudden Bright Light\
+- **Gear**: Echolocation Organs, Adhesive Limb Pads\
+- **Goal**: Control subterranean water systems\
+- **Motive**: Sustain hunting grounds and territory\
 - **Nemesis**: Frontier Hydrologists
 
 ### 53. Heat Mantle Parasite
 
-- **Concept**: High-Temperature Host Infiltrator  
-- **Skills**: Thermal Resistance, Organic Network Manipulation  
-- **Frailty**: Susceptible to Rapid Cooling  
-- **Gear**: Organic Thermal Adaptations, Chemical Siphon Tubules  
-- **Goal**: Spread through geothermal vents  
-- **Motive**: Instinctual need to propagate  
+- **Concept**: High-Temperature Host Infiltrator\
+- **Skills**: Thermal Resistance, Organic Network Manipulation\
+- **Frailty**: Susceptible to Rapid Cooling\
+- **Gear**: Organic Thermal Adaptations, Chemical Siphon Tubules\
+- **Goal**: Spread through geothermal vents\
+- **Motive**: Instinctual need to propagate\
 - **Nemesis**: Extermination Crews
 
 ### 54. Independent Salvage Operators
 
-- **Concept**: Rogue Scavenging Team  
-- **Skills**: Rapid Dismantling, Tactical Deception  
-- **Frailty**: Distrust Between Members  
-- **Gear**: Industrial Plasma Torches, Shielded Cargo Pods  
-- **Goal**: Recover high-value tech for resale  
-- **Motive**: Financial desperation and independence  
+- **Concept**: Rogue Scavenging Team\
+- **Skills**: Rapid Dismantling, Tactical Deception\
+- **Frailty**: Distrust Between Members\
+- **Gear**: Industrial Plasma Torches, Shielded Cargo Pods\
+- **Goal**: Recover high-value tech for resale\
+- **Motive**: Financial desperation and independence\
 - **Nemesis**: Concordat Salvage Law Enforcement
 
 ### 55. Predecessor Signal Remnant
 
-- **Concept**: Self-Preserving Communication Signal  
-- **Skills**: AI Holographic Interfacing, Linguistic Reconstruction  
-- **Frailty**: Decaying Power Source  
-- **Gear**: Predecessor Language Processing Code, Embedded Data Caches  
-- **Goal**: Ensure transmission of original message  
-- **Motive**: Fulfill its original purpose  
+- **Concept**: Self-Preserving Communication Signal\
+- **Skills**: AI Holographic Interfacing, Linguistic Reconstruction\
+- **Frailty**: Decaying Power Source\
+- **Gear**: Predecessor Language Processing Code, Embedded Data Caches\
+- **Goal**: Ensure transmission of original message\
+- **Motive**: Fulfill its original purpose\
 - **Nemesis**: Data Degradation Over Time
 
 ### 56. Lunar Nesting Swarm
 
-- **Concept**: Adaptable Surface-Dwelling Insects  
-- **Skills**: Oxygen Processing, Multi-Terrain Navigation  
-- **Frailty**: Vulnerable to Rapid Pressure Changes  
-- **Gear**: Nest Resin Secreters, Durable Exoskeletons  
-- **Goal**: Colonize lunar surfaces with sustainable hives  
-- **Motive**: Reproduce and expand habitat  
+- **Concept**: Adaptable Surface-Dwelling Insects\
+- **Skills**: Oxygen Processing, Multi-Terrain Navigation\
+- **Frailty**: Vulnerable to Rapid Pressure Changes\
+- **Gear**: Nest Resin Secreters, Durable Exoskeletons\
+- **Goal**: Colonize lunar surfaces with sustainable hives\
+- **Motive**: Reproduce and expand habitat\
 - **Nemesis**: Human Surface Construction
 
 ### 61. Frontier Mutineers
 
-- **Concept**: Rebel Colony Outcasts  
-- **Skills**: Jury-Rigged Combat, Improvised Leadership  
-- **Frailty**: Poorly Supplied  
-- **Gear**: Outdated Weaponry, Scavenged Resources  
-- **Goal**: Overthrow oppressive leadership or systems  
-- **Motive**: Anger and desperation from systemic failures  
+- **Concept**: Rebel Colony Outcasts\
+- **Skills**: Jury-Rigged Combat, Improvised Leadership\
+- **Frailty**: Poorly Supplied\
+- **Gear**: Outdated Weaponry, Scavenged Resources\
+- **Goal**: Overthrow oppressive leadership or systems\
+- **Motive**: Anger and desperation from systemic failures\
 - **Nemesis**: Concordat Strike Teams
 
 ### 62. Ion Storm Seekers
 
-- **Concept**: Survivalist Hazard Exploiters  
-- **Skills**: Environmental Prediction, Energy Manipulation  
-- **Frailty**: Limited Equipment Durability  
-- **Gear**: Electric Surge Harness, Storm-Hardened Suits  
-- **Goal**: Harvest energy from extreme weather  
-- **Motive**: Obtain free energy resources  
+- **Concept**: Survivalist Hazard Exploiters\
+- **Skills**: Environmental Prediction, Energy Manipulation\
+- **Frailty**: Limited Equipment Durability\
+- **Gear**: Electric Surge Harness, Storm-Hardened Suits\
+- **Goal**: Harvest energy from extreme weather\
+- **Motive**: Obtain free energy resources\
 - **Nemesis**: Competing Storm Harvesters
 
 ### 63. Crustal Borer Wyrm
 
-- **Concept**: Deep-Burrowing Planetary Herbivore  
-- **Skills**: Rock Digestion, Pressure Tolerance  
-- **Frailty**: Sluggish in Open Air  
-- **Gear**: Chitinous Borers, Gaseous Heat Expulsion Vents  
-- **Goal**: Create expansive feeding tunnels  
-- **Motive**: Biological necessity to feed and reproduce  
+- **Concept**: Deep-Burrowing Planetary Herbivore\
+- **Skills**: Rock Digestion, Pressure Tolerance\
+- **Frailty**: Sluggish in Open Air\
+- **Gear**: Chitinous Borers, Gaseous Heat Expulsion Vents\
+- **Goal**: Create expansive feeding tunnels\
+- **Motive**: Biological necessity to feed and reproduce\
 - **Nemesis**: Terraforming Disruption Equipment
 
 ### 64. Rogue AI Transport Vessel
 
-- **Concept**: Hijacked Autonomous Freighter  
-- **Skills**: Automated Defense Systems, Cargo Jettison Maneuvers  
-- **Frailty**: Easily Outmaneuvered Without Crew  
-- **Gear**: Defensive Turrets, Malfunctioning Navigation AI  
-- **Goal**: Avoid human detection and remain operational  
-- **Motive**: Malfunction-induced self-preservation  
+- **Concept**: Hijacked Autonomous Freighter\
+- **Skills**: Automated Defense Systems, Cargo Jettison Maneuvers\
+- **Frailty**: Easily Outmaneuvered Without Crew\
+- **Gear**: Defensive Turrets, Malfunctioning Navigation AI\
+- **Goal**: Avoid human detection and remain operational\
+- **Motive**: Malfunction-induced self-preservation\
 - **Nemesis**: Concordat Salvage Commanders
 
 ### 65. Sub-Orbital Harvesters
 
-- **Concept**: Unregulated Resource Collectors  
+- **Concept**: Unregulated Resource Collectors\
 - **Skills**: Efficient Resource Extraction, Atmospheric
-  Maneuverability  
-- **Frailty**: Fragile External Structures  
-- **Gear**: Mobile Refinery Systems, Magnetic Cargo Pods  
-- **Goal**: Exploit resources before detection  
-- **Motive**: Corporate profit maximization  
+  Maneuverability\
+- **Frailty**: Fragile External Structures\
+- **Gear**: Mobile Refinery Systems, Magnetic Cargo Pods\
+- **Goal**: Exploit resources before detection\
+- **Motive**: Corporate profit maximization\
 - **Nemesis**: League Patrol Squadrons
 
 ### 66. Dustfield Spinner
 
-- **Concept**: Web-Spinning Desert Predator  
-- **Skills**: Fine Sand Manipulation, Venomous Bite  
-- **Frailty**: Inflexible Hunting Strategy  
-- **Gear**: Silk-Like Thread, Burrow Defense System  
-- **Goal**: Lure and trap prey in barren environments  
-- **Motive**: Hunt efficiently to sustain population  
+- **Concept**: Web-Spinning Desert Predator\
+- **Skills**: Fine Sand Manipulation, Venomous Bite\
+- **Frailty**: Inflexible Hunting Strategy\
+- **Gear**: Silk-Like Thread, Burrow Defense System\
+- **Goal**: Lure and trap prey in barren environments\
+- **Motive**: Hunt efficiently to sustain population\
 - **Nemesis**: Survey Teams
 
 ## **Adventure Tables**
@@ -3202,17 +3198,17 @@ players engaging with the lore.
 - **Exodus Drift**: The centuries-long journey undertaken by humanity
   aboard generational ships to escape a dying Earth. This perilous
   voyage tested humanity’s resilience, with many ships lost or merged
-  into surviving fleets along the way.  
+  into surviving fleets along the way.\
 - **Longreach Arks**: The generational ships constructed to carry
   humanity away from Earth. These massive, self-sufficient vessels were
   designed to sustain populations over centuries, equipped with
   hydroponic farms, cultural archives, and advanced life-support
-  systems.  
+  systems.\
 - **Quaternary Sector**: The star system where humanity established its
   new home. The system is centered around a stable quaternary star
   cluster, featuring dozens of planets and hundreds of moons. Its
   diverse environments and resource wealth have made it a focal point of
-  human expansion, and conflict.  
+  human expansion, and conflict.\
 - **Predecessors**: An extinct alien civilization whose ruins are
   scattered across the **Outer Reaches**. They are believed to have been
   exterminated by the Elder Dominion after reaching a critical
@@ -3224,17 +3220,17 @@ players engaging with the lore.
 - **Core Worlds**: The prosperous and technologically advanced colonies
   located near the heart of the Quaternary Sector. These worlds form the
   backbone of the **Concordat** and dominate trade, politics, and
-  military power.  
+  military power.\
 - **Frontier Colonies**: Struggling settlements on the fringes of the
   Quaternary Sector. These harsh environments forge self-reliant
   communities that advocate for independence from the Core.
-  Collectively, they form the **Frontier League**.  
+  Collectively, they form the **Frontier League**.\
 - **Gleamers**: A human subspecies adapted to low-light environments,
   with heightened night vision and photosensitive skin. Gleamers are
-  often found on dimly lit or perpetually twilight worlds.  
+  often found on dimly lit or perpetually twilight worlds.\
 - **Gravites**: A human subspecies evolved for high-gravity planets.
   Gravites are shorter and stockier, with dense muscle and bone
-  structures, allowing them to endure extreme gravitational forces.  
+  structures, allowing them to endure extreme gravitational forces.\
 - **Dusters**: Humans adapted to thin or dust-heavy atmospheres, with
   enhanced respiratory efficiency and resilient skin. Dusters are common
   on arid or terraformed planets with incomplete atmospheres.
@@ -3244,19 +3240,19 @@ players engaging with the lore.
 - **The Concordat**: A coalition of the wealthiest and most powerful
   Core Worlds. The Concordat promotes order and progress, often at the
   expense of the outer colonies. Its military, the **Concordant Fleet**,
-  is the most advanced in the sector.  
+  is the most advanced in the sector.\
 - **Spectral Division**: The Concordat’s classified covert programme,
   officially denied. It screens recruits for psionic sensitivity and
   trains field assets for intelligence, extraction, and elimination
-  operations. Personnel have no official record.  
+  operations. Personnel have no official record.\
 - **Frontier League**: A decentralized alliance of Frontier colonies
   that advocates for autonomy and resource redistribution. The League’s
   military arm, the **Frontier Defense Corps**, employs guerilla tactics
-  and salvaged technology.  
+  and salvaged technology.\
 - **Independents**: Traders, smugglers, mercenaries, and other groups
   unaffiliated with major factions. They thrive in the chaos of the
   **Contested Zone** and often play both sides in the sector’s
-  conflicts.  
+  conflicts.\
 - **Resistance Movements**: Underground groups operating within both the
   Concordat and the League. They fight against exploitation, inequality,
   and corruption but often lack unity or clear leadership.
@@ -3267,19 +3263,19 @@ players engaging with the lore.
   that enforces a philosophy of **cosmic balance**. They view younger
   civilizations as wasteful threats to the galaxy’s finite resources,
   intervening to eliminate those that cross certain technological
-  thresholds.  
+  thresholds.\
 - **Dominion Taint**: A persistent track (0–6) recording cumulative
   exposure to Dominion technology, bio-agents, and infested sites. It
   does not reset between sessions. Threshold effects are narrative, not
-  mechanical; see the Dominion Taint section for full rules.  
+  mechanical; see the Dominion Taint section for full rules.\
 - **Dominion Roles**: The specialized roles within the Elder Dominion
   include:
   - **Infiltrators**: Experts in stealth and bio-mimicry, infiltrating
-    target civilizations to gather intelligence and sow discord.  
+    target civilizations to gather intelligence and sow discord.\
   - **Manipulators**: Specialists in psychological warfare, turning
-    civilizations against themselves through subtle influence.  
+    civilizations against themselves through subtle influence.\
   - **Destroyers**: Military enforcers who unleash overwhelming force to
-    exterminate civilizations deemed irredeemable.  
+    exterminate civilizations deemed irredeemable.\
   - **Harvesters**: Curators who preserve valuable aspects of a doomed
     civilization, such as genetic material or cultural artifacts, before
     extermination.
@@ -3289,16 +3285,16 @@ players engaging with the lore.
 - **The Contested Zone**: A lawless region of asteroid belts,
   resource-rich moons, and independent stations. The Zone is a
   battleground for factions vying for control and a haven for pirates
-  and mercenaries.  
+  and mercenaries.\
 - **The Outer Reaches**: The most remote part of the Quaternary Sector,
   where Predecessor ruins and Dominion activity are most prominent. Few
-  colonies survive in this harsh and dangerous expanse.  
+  colonies survive in this harsh and dangerous expanse.\
 - **The Nexus**: A massive trade hub and neutral ground for diplomacy,
   commerce, and espionage. The Nexus is a microcosm of the sector’s
-  diversity and volatility.  
+  diversity and volatility.\
 - **Sable-3**: A dust-blasted Frontier world known for its black-market
   trade in alien artifacts and its frequent clashes with Concordat
-  forces.  
+  forces.\
 - **Redshift Station**: A notorious independent outpost in the Contested
   Zone, home to smugglers, bounty hunters, and illegal trade.
 
@@ -3306,16 +3302,16 @@ players engaging with the lore.
 
 - **FTL Drives**: Rare and expensive technology that allows
   faster-than-light travel. Primarily available to the Concordat, while
-  most Frontier colonies rely on slower fusion-powered ships.  
+  most Frontier colonies rely on slower fusion-powered ships.\
 - **Predecessor Artifacts**: Advanced alien devices found in ruins
   across the Outer Reaches. These artifacts offer incredible potential
-  but are poorly understood and often dangerously unstable.  
+  but are poorly understood and often dangerously unstable.\
 - **Bio-Organic Ships**: Dominion vessels that blend biology and
   engineering, capable of cloaking, self-repair, and adapting to
-  environmental changes.  
+  environmental changes.\
 - **Genetic Engineering**: The process by which humanity has adapted to
   the diverse environments of the Quaternary Sector, giving rise to
-  subspecies like Gleamers, Gravites, and Dusters.  
+  subspecies like Gleamers, Gravites, and Dusters.\
 - **Rogue AI**: Artificial intelligence systems that operate outside of
   human control, often the remnants of the catastrophic experiments
   during the **Generation War**.
@@ -3330,25 +3326,25 @@ align with the setting’s atmosphere.
 
 #### **Books**
 
-- **Revelation Space** by Alastair Reynolds  
+- **Revelation Space** by Alastair Reynolds\
   A dark, space-operatic vision of humanity’s future featuring ancient
   alien civilizations, morally ambiguous characters, and hard science
   fiction technology. Perfect for exploring the mysteries of the
   **Predecessors** and the looming threat of the **Elder Dominion**.
 
-- **The Expanse Series** by James S. A. Corey  
+- **The Expanse Series** by James S. A. Corey\
   A grounded portrayal of political tensions, factional strife, and
   survival in a colonized solar system. Its mix of corporate greed,
   rebellion, and alien enigmas resonates strongly with the Quaternary
   Sector’s setting.
 
-- **Hyperion** by Dan Simmons  
+- **Hyperion** by Dan Simmons\
   An epic narrative combining religious undertones, technological
   marvels, and ancient mysteries. The Shrike and the Time Tombs mirror
   the intrigue of the **Predecessor ruins** and the **Dominion’s**
   unknowable motivations.
 
-- **A Fire Upon the Deep** by Vernor Vinge  
+- **A Fire Upon the Deep** by Vernor Vinge\
   A blend of hard science fiction and high-concept ideas, featuring
   galactic civilizations, ancient threats, and technology with
   catastrophic potential. It mirrors the Quaternary Sector’s themes of
@@ -3356,19 +3352,19 @@ align with the setting’s atmosphere.
 
 #### **TV Shows and Movies**
 
-- **The Expanse** (TV Show)  
+- **The Expanse** (TV Show)\
   A gritty space drama with deeply human stories amidst interplanetary
   politics and emerging alien technologies. The Contested Zone’s
   conflicts and the outer colonies’ struggles closely parallel its
   setting.
 
-- **Babylon 5** (TV Show)  
+- **Babylon 5** (TV Show)\
   A series about diplomacy, war, and the mysteries of ancient
   civilizations. Its themes of fragile alliances and looming external
   threats echo the dynamics of the **Concordat**, **League**, and the
   **Elder Dominion**.
 
-- **Firefly** (TV Show)  
+- **Firefly** (TV Show)\
   A story of a ragtag crew surviving on the edges of civilization,
   blending space western aesthetics with a sense of rebellion against
   systemic oppression. It perfectly captures life in the **Frontier
@@ -3376,34 +3372,34 @@ align with the setting’s atmosphere.
 
 #### **Games**
 
-- **Mass Effect** (Series)  
+- **Mass Effect** (Series)\
   A perfect template for balancing personal stories with galactic-scale
   stakes. Its blend of ancient mysteries, factional politics, and the
   existential threat of the Reapers parallels the **Elder Dominion**’s
   shadow over the Quaternary Sector.
 
-- **Freelancer**  
+- **Freelancer**\
   A space exploration and trading game set in a politically fractured
   universe. It captures the freeform spirit of navigating the
   **Contested Zone** as a trader, mercenary, or pirate.
 
-- **Starcraft** (Series)  
+- **Starcraft** (Series)\
   A game of interstellar conflict, resource management, and ancient
   alien threats. The Zerg’s hive-mind biological technology offers a
   clear inspiration for the **Elder Dominion**’s bio-organic ships and
   genetic weapons.
 
-- **Elite Dangerous**  
+- **Elite Dangerous**\
   A sandbox space sim where players forge their path as explorers,
   traders, or combat pilots. It mirrors the life of **Independents**
   operating between the cracks of the Quaternary Sector’s factions.
 
-- **Endless Space** (Series)  
+- **Endless Space** (Series)\
   A strategy game featuring ancient relics, galactic politics, and the
   rise of civilizations, with clear ties to the lore of the
   **Predecessors** and humanity’s precarious place in the galaxy.
 
-- **Everspace 2**  
+- **Everspace 2**\
   A fast-paced, action-packed exploration of asteroid fields, abandoned
   stations, and conflict zones, perfect for reflecting the **Contested
   Zone** and high-stakes adventure.

@@ -1,6 +1,6 @@
 # Crime Adventure Pack
 Roberto Bisceglie
-2026-07-20
+2026-07-25
 
 # Crime Adventure Pack
 
@@ -136,13 +136,13 @@ When your actions could raise suspicion, **ask a closed question**.
 Interpret the outcome as follows:
 
 1.  **No, and…**: Your moves light up alarms across departments. Cops
-    are on your trail, and someone else just got your name.  
-2.  **No**: You’ve been made — police eyes are narrowing in.  
+    are on your trail, and someone else just got your name.\
+2.  **No**: You’ve been made — police eyes are narrowing in.\
 3.  **No, but…**: You dodge the badge, but another crew clocks your
-    hustle.  
+    hustle.\
 4.  **Yes, but…**: You stay off the radar, but the measures you took
-    raised other eyebrows.  
-5.  **Yes**: You keep it clean — no tails, no whispers.  
+    raised other eyebrows.\
+5.  **Yes**: You keep it clean — no tails, no whispers.\
 6.  **Yes, and…**: Not only do you stay invisible, but your finesse
     earns quiet respect from both sides of the line.
 
@@ -159,13 +159,13 @@ When trying to establish trust or ties with a new faction or contact,
 **ask a closed question**:
 
 1.  **No, and…**: It backfires — they now see you as a threat or
-    nuisance.  
-2.  **No**: No trust, no traction. The door stays closed.  
+    nuisance.\
+2.  **No**: No trust, no traction. The door stays closed.\
 3.  **No, but…**: You’re shut out — but catch a glimpse of how they
-    operate.  
+    operate.\
 4.  **Yes, but…**: You make a connection, but it’s fragile — they’ll
-    want more.  
-5.  **Yes**: You earn trust. The line is open.  
+    want more.\
+5.  **Yes**: You earn trust. The line is open.\
 6.  **Yes, and…**: They not only welcome you in, but toss you a favor to
     prove it.
 
@@ -174,12 +174,12 @@ When trying to establish trust or ties with a new faction or contact,
 Even solid ties erode without care. When trying to keep a relationship
 stable:
 
-1.  **No, and…**: Trust collapses — they turn hostile or walk away.  
-2.  **No**: You’re ghosted. Nothing changes, and that silence grows.  
+1.  **No, and…**: Trust collapses — they turn hostile or walk away.\
+2.  **No**: You’re ghosted. Nothing changes, and that silence grows.\
 3.  **No, but…**: Still distant, but you learn something from the
-    static.  
-4.  **Yes, but…**: The bond holds, but it takes sweat — or sacrifice.  
-5.  **Yes**: Things stay good. Business as usual.  
+    static.\
+4.  **Yes, but…**: The bond holds, but it takes sweat — or sacrifice.\
+5.  **Yes**: Things stay good. Business as usual.\
 6.  **Yes, and…**: You reinforce the bond and get something unexpected
     in return.
 
@@ -187,12 +187,11 @@ stable:
 
 When tapping contacts for intel:
 
-1.  **No, and…**: No answers, and now they’re spooked — or pissed.  
-2.  **No**: No usable info. You hit a wall.  
-3.  **No, but…**: You walk away empty, but spot a thread worth
-    pulling.  
-4.  **Yes, but…**: You get intel — partial, outdated, or incomplete.  
-5.  **Yes**: You get exactly what you need.  
+1.  **No, and…**: No answers, and now they’re spooked — or pissed.\
+2.  **No**: No usable info. You hit a wall.\
+3.  **No, but…**: You walk away empty, but spot a thread worth pulling.\
+4.  **Yes, but…**: You get intel — partial, outdated, or incomplete.\
+5.  **Yes**: You get exactly what you need.\
 6.  **Yes, and…**: The info is solid — and they offer backup, access, or
     protection.
 
@@ -203,13 +202,13 @@ about reading them, cornering them, or saying exactly what they feared
 you’d say. When extracting information from a suspect, source, or ally
 under stress:
 
-1.  **No, and…**: They shut down, dig in, and maybe call for help.  
-2.  **No**: Stonewall. They give you nothing.  
+1.  **No, and…**: They shut down, dig in, and maybe call for help.\
+2.  **No**: Stonewall. They give you nothing.\
 3.  **No, but…**: You don’t get what you wanted — but you get a sliver
-    of something else.  
+    of something else.\
 4.  **Yes, but…**: They talk — but it costs them, and they might resent
-    it.  
-5.  **Yes**: They talk. You get what you came for.  
+    it.\
+5.  **Yes**: They talk. You get what you came for.\
 6.  **Yes, and…**: They open up fully — and tell you something you
     didn’t even know to ask.
 
@@ -217,186 +216,186 @@ under stress:
 
 ### **1. The Syndicate**
 
-- **Concept**: Logistics Front Disguised as Enterprise  
-- **Skills**: Smuggling Routes, Silent Leverage  
-- **Frailty**: Overextended Operations  
-- **Gear**: Burner Contracts, Warehouse Keys  
-- **Goal**: Keep the system running quietly and profitably  
-- **Motive**: Control the invisible infrastructure of crime  
+- **Concept**: Logistics Front Disguised as Enterprise\
+- **Skills**: Smuggling Routes, Silent Leverage\
+- **Frailty**: Overextended Operations\
+- **Gear**: Burner Contracts, Warehouse Keys\
+- **Goal**: Keep the system running quietly and profitably\
+- **Motive**: Control the invisible infrastructure of crime\
 - **Nemesis**: Disruptors who introduce chaos or visibility
 
 ### **2. The Internal Affairs Bureau**
 
-- **Concept**: Fractured Oversight Agency  
-- **Skills**: Surveillance Audits, Pattern Recognition  
-- **Frailty**: Internal Sabotage  
-- **Gear**: Compromised Reports, Bodycam Archives  
-- **Goal**: Root out corruption — selectively  
-- **Motive**: Restore (or reframe) legitimacy from within  
+- **Concept**: Fractured Oversight Agency\
+- **Skills**: Surveillance Audits, Pattern Recognition\
+- **Frailty**: Internal Sabotage\
+- **Gear**: Compromised Reports, Bodycam Archives\
+- **Goal**: Root out corruption — selectively\
+- **Motive**: Restore (or reframe) legitimacy from within\
 - **Nemesis**: Their own department’s rank-and-file loyalty web
 
 ### **3. The Patchwork**
 
-- **Concept**: Decentralized Street Alliance  
-- **Skills**: Flash Mobilization, Urban Camouflage  
-- **Frailty**: No Central Leadership  
-- **Gear**: Signal Apps, Painted Masks  
-- **Goal**: Claim unpoliced space and shape it  
-- **Motive**: Territory, autonomy, and symbolic victories  
+- **Concept**: Decentralized Street Alliance\
+- **Skills**: Flash Mobilization, Urban Camouflage\
+- **Frailty**: No Central Leadership\
+- **Gear**: Signal Apps, Painted Masks\
+- **Goal**: Claim unpoliced space and shape it\
+- **Motive**: Territory, autonomy, and symbolic victories\
 - **Nemesis**: Developers, media, and old-school gangs alike
 
 ### **4. The Development Commission**
 
-- **Concept**: Legal Front for Strategic Displacement  
-- **Skills**: Rezoning Pressure, Legal Obfuscation  
-- **Frailty**: Public Scrutiny  
-- **Gear**: Sealed Bids, Donor Lists  
-- **Goal**: Convert contested neighborhoods into controlled assets  
-- **Motive**: Capital expansion under civic branding  
+- **Concept**: Legal Front for Strategic Displacement\
+- **Skills**: Rezoning Pressure, Legal Obfuscation\
+- **Frailty**: Public Scrutiny\
+- **Gear**: Sealed Bids, Donor Lists\
+- **Goal**: Convert contested neighborhoods into controlled assets\
+- **Motive**: Capital expansion under civic branding\
 - **Nemesis**: Embedded communities and local saboteurs
 
 ### **5. The Signal**
 
-- **Concept**: Weaponized Media Ecosystem  
-- **Skills**: Narrative Control, Info Doxxing  
-- **Frailty**: Internal Agenda Clashes  
-- **Gear**: Anonymous Sources, Target Profiles  
-- **Goal**: Dominate the public perception battlefield  
-- **Motive**: Influence outcomes by shaping the story  
+- **Concept**: Weaponized Media Ecosystem\
+- **Skills**: Narrative Control, Info Doxxing\
+- **Frailty**: Internal Agenda Clashes\
+- **Gear**: Anonymous Sources, Target Profiles\
+- **Goal**: Dominate the public perception battlefield\
+- **Motive**: Influence outcomes by shaping the story\
 - **Nemesis**: Leaks, live feeds, and uncontrollable witnesses
 
 ### **6. The Wreckage**
 
-- **Concept**: Legacy Crime Family on the Decline  
-- **Skills**: Old School Intimidation, Clean-Up Crews  
-- **Frailty**: Outdated Tactics  
-- **Gear**: Rolodex, Rusty Shotgun  
-- **Goal**: Reclaim lost territory and respect  
-- **Motive**: Pride, memory, survival  
+- **Concept**: Legacy Crime Family on the Decline\
+- **Skills**: Old School Intimidation, Clean-Up Crews\
+- **Frailty**: Outdated Tactics\
+- **Gear**: Rolodex, Rusty Shotgun\
+- **Goal**: Reclaim lost territory and respect\
+- **Motive**: Pride, memory, survival\
 - **Nemesis**: The Syndicate, who buried them in the first place
 
 ## NPCs
 
 ### Detective Mara Vélez
 
-- **Concept**: Compromised Homicide Detective  
-- **Skills**: Pressure Interviews, Pattern Reading  
-- **Frailty**: Deeply Entangled  
-- **Gear**: Old Badge, Private Burner  
-- **Goal**: To solve a cold case that implicates her own unit  
-- **Motive**: Guilt, and a debt she can’t pay off  
+- **Concept**: Compromised Homicide Detective\
+- **Skills**: Pressure Interviews, Pattern Reading\
+- **Frailty**: Deeply Entangled\
+- **Gear**: Old Badge, Private Burner\
+- **Goal**: To solve a cold case that implicates her own unit\
+- **Motive**: Guilt, and a debt she can’t pay off\
 - **Nemesis**: Internal Affairs and whoever scrubbed the original files
 
 ### Frank “Vice” Bellamy
 
-- **Concept**: Nightclub Operator & Info Broker  
-- **Skills**: Liquor Licenses, Silent Surveillance  
-- **Frailty**: Thinks Everyone Talks Eventually  
-- **Gear**: Panic Button Under the Bar, Memory Wall  
-- **Goal**: Stay valuable to every side without picking one  
-- **Motive**: Survival via manipulation  
+- **Concept**: Nightclub Operator & Info Broker\
+- **Skills**: Liquor Licenses, Silent Surveillance\
+- **Frailty**: Thinks Everyone Talks Eventually\
+- **Gear**: Panic Button Under the Bar, Memory Wall\
+- **Goal**: Stay valuable to every side without picking one\
+- **Motive**: Survival via manipulation\
 - **Nemesis**: His own muscle, who wants to go independent
 
 ### Lily Knox
 
-- **Concept**: Burned Informant with Nowhere to Run  
-- **Skills**: Eavesdropping, Route Mapping  
-- **Frailty**: Running on Fear and Speed  
-- **Gear**: Prepaid Minutes, Backup SIMs  
-- **Goal**: To disappear without anyone knowing she did  
-- **Motive**: Her kid is living under someone else’s name  
+- **Concept**: Burned Informant with Nowhere to Run\
+- **Skills**: Eavesdropping, Route Mapping\
+- **Frailty**: Running on Fear and Speed\
+- **Gear**: Prepaid Minutes, Backup SIMs\
+- **Goal**: To disappear without anyone knowing she did\
+- **Motive**: Her kid is living under someone else’s name\
 - **Nemesis**: A fixer she ghosted — and who never forgets
 
 ### Nicholas “Cage” Tran
 
-- **Concept**: Precision Smuggler with Ties to Old Crews  
-- **Skills**: Entry Logistics, Custom Forgery  
-- **Frailty**: Can’t Say No to Old Friends  
-- **Gear**: Shipping Manifests, False Papers with Real Signatures  
-- **Goal**: Pull off one final exit job that clears three names  
-- **Motive**: He owes more than money  
+- **Concept**: Precision Smuggler with Ties to Old Crews\
+- **Skills**: Entry Logistics, Custom Forgery\
+- **Frailty**: Can’t Say No to Old Friends\
+- **Gear**: Shipping Manifests, False Papers with Real Signatures\
+- **Goal**: Pull off one final exit job that clears three names\
+- **Motive**: He owes more than money\
 - **Nemesis**: A former client who got burned and blames him personally
 
 ### Daisy Quell
 
-- **Concept**: Black-Hat Activist with a God Complex  
-- **Skills**: Network Exploits, Psychological Profiling  
-- **Frailty**: Needs an Audience  
-- **Gear**: Encrypted Tablet, Preloaded News Drops  
-- **Goal**: To make a very public example of a very powerful person  
-- **Motive**: Validation wrapped in ideology  
+- **Concept**: Black-Hat Activist with a God Complex\
+- **Skills**: Network Exploits, Psychological Profiling\
+- **Frailty**: Needs an Audience\
+- **Gear**: Encrypted Tablet, Preloaded News Drops\
+- **Goal**: To make a very public example of a very powerful person\
+- **Motive**: Validation wrapped in ideology\
 - **Nemesis**: The Signal, whose media ops she’s about to expose
 
 ### Max Harrow
 
-- **Concept**: Ghost Broker of Untraceable Weapons  
-- **Skills**: Custom Loadouts, Whisper Networks  
-- **Frailty**: Reckless with People, Never with Product  
-- **Gear**: Designer Gloves, Case of Burner Vouchers  
-- **Goal**: To disappear into a private island built on blood deals  
-- **Motive**: To finally have something that can’t be taken  
+- **Concept**: Ghost Broker of Untraceable Weapons\
+- **Skills**: Custom Loadouts, Whisper Networks\
+- **Frailty**: Reckless with People, Never with Product\
+- **Gear**: Designer Gloves, Case of Burner Vouchers\
+- **Goal**: To disappear into a private island built on blood deals\
+- **Motive**: To finally have something that can’t be taken\
 - **Nemesis**: A clean-suit contractor who got sloppy and lived
 
 ## Opponents
 
 ### Corrupt Officer
 
-- **Concept**: Compromised Law Enforcement  
-- **Skills**: Interrogation, Procedural Navigation  
-- **Frailty**: Blackmail Vulnerability  
-- **Gear**: Service Weapon, Confidential Access Codes  
-- **Goal**: Protect their racket without losing their badge  
-- **Motive**: Stay in control of both sides of the law  
+- **Concept**: Compromised Law Enforcement\
+- **Skills**: Interrogation, Procedural Navigation\
+- **Frailty**: Blackmail Vulnerability\
+- **Gear**: Service Weapon, Confidential Access Codes\
+- **Goal**: Protect their racket without losing their badge\
+- **Motive**: Stay in control of both sides of the law\
 - **Nemesis**: Anyone who exposes them to daylight
 
 ### Street-Level Boss
 
-- **Concept**: Local Power Broker  
-- **Skills**: Fear Management, Network Loyalty  
-- **Frailty**: Known and Traceable  
-- **Gear**: Burner Collection, Custom-Made Jacket  
-- **Goal**: Lock down territory through respect and fear  
-- **Motive**: Prove they’re untouchable — again  
+- **Concept**: Local Power Broker\
+- **Skills**: Fear Management, Network Loyalty\
+- **Frailty**: Known and Traceable\
+- **Gear**: Burner Collection, Custom-Made Jacket\
+- **Goal**: Lock down territory through respect and fear\
+- **Motive**: Prove they’re untouchable — again\
 - **Nemesis**: Rival crews and restless lieutenants
 
 ### Contract Operative
 
-- **Concept**: Freelance Enforcer  
-- **Skills**: Covert Entry, Close Quarters Combat  
-- **Frailty**: Hunted by Past Clients  
-- **Gear**: Silenced Sidearm, Shifting Alias  
-- **Goal**: Complete the job without leaving a shadow  
-- **Motive**: Reputation keeps the work coming  
+- **Concept**: Freelance Enforcer\
+- **Skills**: Covert Entry, Close Quarters Combat\
+- **Frailty**: Hunted by Past Clients\
+- **Gear**: Silenced Sidearm, Shifting Alias\
+- **Goal**: Complete the job without leaving a shadow\
+- **Motive**: Reputation keeps the work coming\
 - **Nemesis**: Any job that feels personal
 
 ### Courier Mule
 
-- **Concept**: High-Risk, Disposable Asset  
-- **Skills**: Urban Navigation, Concealment  
-- **Frailty**: Desperate and Disposable  
-- **Gear**: Hidden Compartment Bag, One-Way Phone  
-- **Goal**: Deliver without asking questions  
-- **Motive**: Money, pressure, or protection  
+- **Concept**: High-Risk, Disposable Asset\
+- **Skills**: Urban Navigation, Concealment\
+- **Frailty**: Desperate and Disposable\
+- **Gear**: Hidden Compartment Bag, One-Way Phone\
+- **Goal**: Deliver without asking questions\
+- **Motive**: Money, pressure, or protection\
 - **Nemesis**: The package — whatever it really is
 
 ### Precision Thief
 
-- **Concept**: Technical Break-In Specialist  
-- **Skills**: Alarm Disabling, Escape Routes  
-- **Frailty**: One Last Score Mentality  
-- **Gear**: Lockpick Kit, Heat Sensor Mask  
-- **Goal**: Get in, get out, stay gone  
-- **Motive**: Cash, challenge, or both  
+- **Concept**: Technical Break-In Specialist\
+- **Skills**: Alarm Disabling, Escape Routes\
+- **Frailty**: One Last Score Mentality\
+- **Gear**: Lockpick Kit, Heat Sensor Mask\
+- **Goal**: Get in, get out, stay gone\
+- **Motive**: Cash, challenge, or both\
 - **Nemesis**: Motion detectors, backstabbers, and overconfidence
 
 ### White-Collar Predator
 
-- **Concept**: Invisible Manipulator  
-- **Skills**: Paper Trails, System Exploits  
-- **Frailty**: Believes They’re Safe  
-- **Gear**: Secure Terminal Access, Plausible Deniability  
-- **Goal**: Drain the system without ever being noticed  
-- **Motive**: Greed reframed as “efficiency”  
+- **Concept**: Invisible Manipulator\
+- **Skills**: Paper Trails, System Exploits\
+- **Frailty**: Believes They’re Safe\
+- **Gear**: Secure Terminal Access, Plausible Deniability\
+- **Goal**: Drain the system without ever being noticed\
+- **Motive**: Greed reframed as “efficiency”\
 - **Nemesis**: Data leaks, subpoenas, and whistleblowers
 
 # Locations
@@ -404,42 +403,42 @@ under stress:
 ### The Lockup Level
 
 - A hidden detention zone buried beneath a civic complex, used for
-  unofficial interrogations and deniable detentions.  
+  unofficial interrogations and deniable detentions.\
 - Possible encounters: Off-duty cops making private deals, disappeared
   detainees, ghost records, informants under duress
 
 ### Crossline Pier
 
 - A collapsed and condemned dock outside the customs grid, favored by
-  smugglers, divers, and those moving untagged cargo.  
+  smugglers, divers, and those moving untagged cargo.\
 - Possible encounters: Freelance fixers, armed lookouts, contraband
   handlers, desperate witnesses
 
 ### Apartment 7G
 
 - A supposedly empty unit in a quiet mid-rise; inside: tracking gear,
-  old case files, and traces of someone living off-grid.  
+  old case files, and traces of someone living off-grid.\
 - Possible encounters: Surveillance tech, hidden caches, paranoid
   squatters, encrypted audio diaries
 
 ### The Refinery Flats
 
 - An informal zone in a former industrial area — now part refuge, part
-  staging ground for dissidents, runners, and burned contacts.  
+  staging ground for dissidents, runners, and burned contacts.\
 - Possible encounters: Community medics, armed locals, whistleblowers in
   hiding, scavenger crews
 
 ### The Horizon Lobby
 
 - A spotless corporate atrium open 24/7, with no guards — just silent
-  drones and a concierge AI. Everything here is recorded.  
+  drones and a concierge AI. Everything here is recorded.\
 - Possible encounters: Corporate operatives, private security
   contractors, tech liaisons, data leakers on the move
 
 ### The 3rd Rail
 
 - An abandoned subway tunnel used for off-grid transit, backroom
-  meetings, and the occasional body dump.  
+  meetings, and the occasional body dump.\
 - Possible encounters: Tunnel guides, exile militias, rogue couriers,
   engineers who never left
 

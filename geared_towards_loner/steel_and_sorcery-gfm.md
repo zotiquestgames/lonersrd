@@ -1,6 +1,6 @@
 # Loner: Steel & Sorcery
 Roberto Bisceglie
-2026-07-20
+2026-07-25
 
 # Loner: Steel & Sorcery
 
@@ -132,80 +132,80 @@ storytelling opportunities:
 
 #### **The Age of Heroes**
 
-*(~5000 ET – ~0 PT)*  
+*(~5000 ET – ~0 PT)*\
 A mythical epoch of unparalleled glory and divine intervention.
 
 - **5200 ET – The Founding of Zhara**: Under the watch of god-kings,
   Zhara is raised atop volcanic slopes, its obsidian towers a tribute to
   divine will. Myths claim its sorcerer-priests tamed the volcano
-  through blood magic.  
+  through blood magic.\
 - **5100 ET – The Titans’ Fall**: A war between gods and Titans reshapes
   Khor’Dara. The Abyssal Rift and Singing Peaks are believed to have
-  formed from the fallen Titans’ colossal bodies.  
+  formed from the fallen Titans’ colossal bodies.\
 - **4800 ET – The Pact of the Verdant Abyss**: Elders of the Ironleaf
   Clans forge a mysterious agreement with the Forest King, ensuring
-  their survival in the Weeping Forest.  
+  their survival in the Weeping Forest.\
 - **4500 ET – The Rise of the Skycallers**: The nomadic tribes of the
   Wailing Steppes unify under shamans who claim to channel the wind’s
-  power.  
+  power.\
 - **4300 ET – Ashira Windrider Tames the Thunderbeast**: A legendary
   Skycaller warrior bonds with a colossal beast to repel an invasion of
-  the steppes.  
+  the steppes.\
 - **4100 ET – Ley Line Carving**: Sorcerers manipulate the earth’s
   magical veins, creating power sites like the Veil of Muon. This
-  practice accelerates environmental instability.  
+  practice accelerates environmental instability.\
 - **4000 ET – Kael the Unyielding’s Siege of Khemru**: Kael leads an
   army against the necromancer-kings, breaking their chains over the
   enslaved. His Spear of the Skycaller is lost in the aftermath.
 
 #### **The Fall of Empires**
 
-*(0 PT – ~1500 PT)*  
+*(0 PT – ~1500 PT)*\
 The collapse of civilizations ushers in chaos and decay.
 
 - **Year 0 PT – The Binding of the Titans**: The last echoes of the
   Titans’ influence wane. This marks the start of the Post-Titan Age,
-  when humans rise to dominate the continent.  
+  when humans rise to dominate the continent.\
 - **100 PT – The Curse of the Sunken Crown**: Rival necromancer-kings of
   Khemru annihilate each other in a ritualistic duel, sinking parts of
-  the city into the swamp. Their undead servants roam unchecked.  
+  the city into the swamp. Their undead servants roam unchecked.\
 - **400 PT – The River Wars**: City-states like Lunhai and Khemru clash
   over control of the Riverlands of Nurim. These wars disrupt trade
-  routes and leave the delta fractured into warring fiefdoms.  
+  routes and leave the delta fractured into warring fiefdoms.\
 - **600 PT – The Drought of the Scorched Wastes**: A century-long
   drought ravages the fertile plains, transforming them into the
   Scorched Wastes. This event is attributed to failed rituals performed
-  by Zhara’s sorcerer-priests.  
+  by Zhara’s sorcerer-priests.\
 - **850 PT – The Collapse of Lunhai’s Golden Age**: Corruption and the
   rise of the cult of the Drowned God destabilize Lunhai, leading to
-  civil unrest and the city’s descent into decadence.  
+  civil unrest and the city’s descent into decadence.\
 - **1200 PT – The Charnel Pact Emerges**: Outcasts desecrate ancient
   burial grounds, unlocking forbidden magics. The Charnel Pact becomes a
   feared force, wielding corrupted undead armies.
 
 #### **The Dark Age**
 
-*(~1500 PT – Present Day)*  
+*(~1500 PT – Present Day)*\
 A time of decay and survival, where history fades into myth.
 
 - **1500 PT – The Shadowing of Sorcery**: Following countless magical
   disasters, sorcery becomes feared and distrusted. Wild magic zones
-  like the Veil of Muon are avoided, and practitioners are hunted.  
+  like the Veil of Muon are avoided, and practitioners are hunted.\
 - **1600 PT – The Founding of the Ember Wolves**: Kaerath the Burned
   unites exiled mercenaries, creating a nomadic force infamous for its
-  scorched-earth tactics.  
+  scorched-earth tactics.\
 - **1700 PT – The Abyssal Rift Awakens**: Explorers report eerie
   activity within the Rift, including glowing fungi and predatory
   creatures. Many vanish, fueling rumors of a lost civilization stirring
-  within.  
+  within.\
 - **1800 PT – The Rise of the Forest King**: The Forest King’s influence
   spreads beyond the Verdant Abyss, with whispers of its wrath reaching
   even the Riverlands. Entire caravans disappear without trace in the
-  Weeping Forest.  
+  Weeping Forest.\
 - **1900 PT – The Eclipse Prophecy Surfaces**: Priests of Zhara proclaim
   the imminent **Eclipse of Khor’Dara**, foretelling a time when
   barriers between realms will shatter, unleashing horrors across the
-  land.  
+  land.\
 - **1950 PT – Present Day**: Civilization remains fractured. The
   city-states clutch at fading glory, while tribal clans battle for
   dominance in the wilderness. Heroes rise, carrying echoes of the past,
@@ -1127,7 +1127,7 @@ narrative prompts and influence interactions with the world.
 Whenever the character performs a morally significant action, assign a
 **Morality Tag** that represents their choice.
 
-Examples:  
+Examples:\
 - *“Merciful Executioner”* (spared a foe but left them crippled) -
 *“Blood-Soaked Avenger”* (took violent revenge) - *“Oathbreaker”*
 (betrayed a solemn vow) - *“Guardian of the Weak”* (defended the
@@ -1245,17 +1245,17 @@ recovering from narrative consequences of past events.
 Roll the Oracle to determine the effectiveness of recovery efforts:
 
 - **Yes, and…**: Fully recover and gain a beneficial Tag (e.g.,
-  *“Resilient”* or *“Hardened Survivor”*).  
+  *“Resilient”* or *“Hardened Survivor”*).\
 - **Yes**: Remove one Frailty Tag or mitigate a significant consequence
-  (e.g., healing a serious wound or clearing a *“Cursed”* condition).  
+  (e.g., healing a serious wound or clearing a *“Cursed”* condition).\
 - **Yes, but…**: Recovery succeeds, but at a cost (e.g., an unexpected
   delay, additional resources spent, or a lingering minor effect like
-  *“Sore Limb”*).  
+  *“Sore Limb”*).\
 - **No, but…**: Recovery is incomplete—gain partial relief, but the
   injury persists in a diminished form (e.g., *“Weakened Arm”* becomes
-  *“Sore Limb”*).  
+  *“Sore Limb”*).\
 - **No**: Recovery fails, leaving the injury or condition unchanged,
-  consuming resources without results.  
+  consuming resources without results.\
 - **No, and…**: Recovery fails, and the injury worsens or introduces new
   complications (e.g., gaining an additional Frailty Tag like
   *“Lingering Pain”* or aggravating an existing condition).
@@ -1757,7 +1757,7 @@ wield it with scars of their arrogance or desperation.
 #### Social Structures
 
 The societies of Khor’Dara reflect the harsh realities of survival, each
-adapted to their environment in unique ways:  
+adapted to their environment in unique ways:\
 - **Tribal Societies**: Tribes are often small, tight-knit groups, their
 cohesion ensured by bonds of blood, shared struggle, or spiritual favor.
 Leadership is rarely hereditary; instead, it is claimed by strength,
@@ -1765,14 +1765,14 @@ cunning, or an individual’s connection to the divine. Challenges to
 leadership are common, often resolved through ritualized combat or
 grueling trials. Those who fail to contribute—whether through weakness,
 betrayal, or laziness—are exiled, left to wander the wilderness or join
-the ranks of marauding outcasts.  
+the ranks of marauding outcasts.\
 - **City-States**: By contrast, city-states like Zhara or Khemru are
 rigidly hierarchical. Nobles and priest-kings sit at the top, enforcing
 their will through soldiers and bureaucrats. Below them, merchants wield
 power through wealth and trade, while laborers toil endlessly to support
 the cities’ grandeur. Slaves and outcasts form the bottom tier, their
 lives often forfeit to feed the insatiable ambitions of the ruling
-class.  
+class.\
 - **Cults and Outsiders**: Outside these structures lie outcast
 factions, scavenger tribes, and wandering mystics. Many are remnants of
 fallen civilizations or groups who defied social norms, eking out
@@ -1780,13 +1780,13 @@ precarious existences on the fringes of Khor’Dara.
 
 #### Survival Hierarchies
 
-Each tribe or settlement defines its hierarchy by what it values most:  
+Each tribe or settlement defines its hierarchy by what it values most:\
 - **Strength**: Warriors rise to prominence in societies that value
 might above all else. Among the Skycallers and the Ironleaf Clans,
-prowess in battle or the hunt earns leadership and respect.  
+prowess in battle or the hunt earns leadership and respect.\
 - **Cunning**: In regions like the Riverlands, where survival often
 hinges on strategy and guile, leaders are those who can outwit rivals
-and secure resources.  
+and secure resources.\
 - **Divine Favor**: In the Children of Khemru and many city-states,
 spiritual authority dominates. Shamans and priests claim their place by
 interpreting omens, commanding magic, or earning the gods’ blessings.
@@ -1798,20 +1798,20 @@ spiritually charged societies.
 #### Warrior Traditions
 
 Khor’Dara’s warriors are brutal pragmatists, their techniques honed by
-centuries of hardship and conflict:  
+centuries of hardship and conflict:\
 - **Guerilla Tactics**: The Ironleaf Clans strike like phantoms from the
 shadows, vanishing into the trees before retaliation is possible. They
 use their enchanted wooden weapons with deadly precision, exploiting
-their intimate knowledge of the forest.  
+their intimate knowledge of the forest.\
 - **Mounted Combat**: The Skycallers dominate the steppes with their
 bone-tipped spears and swift, sure-footed mounts. Their riders are
 trained from childhood, bonding with their horses in a sacred ceremony
-believed to be blessed by the wind itself.  
+believed to be blessed by the wind itself.\
 - **Necromantic Forces**: The Children of Khemru supplement their mortal
 soldiers with legions of undead, who march tirelessly through the swamps
 to enforce the will of their kings. However, their true strength lies in
 their ability to sow terror—facing an unkillable enemy often breaks
-their opponents before battle begins.  
+their opponents before battle begins.\
 - **Ritual Duels**: Across Khor’Dara, disputes are often settled through
 duels, which serve both as displays of prowess and as sacred acts of
 justice. These duels are rarely to the death, though the losing party
@@ -1880,13 +1880,13 @@ Khor’Dara’s fractured politics have birthed a thriving culture of
 mercenary companies, each with its own creed, reputation, and price.
 These bands range from disciplined legions to ragtag groups of
 cutthroats, their services available to anyone who can pay. Some of the
-most feared alliances include:  
+most feared alliances include:\
 - **The Black Talons**: Elite sellswords clad in blackened bronze, known
 for their unswerving loyalty to contracts. Their banner, marked with a
-clawed gauntlet, strikes fear into any battlefield.  
+clawed gauntlet, strikes fear into any battlefield.\
 - **The Ember Wolves**: A nomadic band infamous for their scorched-earth
 tactics, their leader, **Kaerath the Burned**, is said to wield a
-flaming blade forged in Zhara.  
+flaming blade forged in Zhara.\
 - **The Ghosts of Nurim**: An enigmatic group that operates along the
 Riverlands, their warriors blend into the mist, striking without warning
 before vanishing as if they were never there.
@@ -1895,15 +1895,14 @@ before vanishing as if they were never there.
 
 In Khor’Dara, power is a fragile thing, and those who wield it must do
 so with cunning. Nobles, priest-kings, and rebel leaders alike engage in
-constant games of subterfuge:  
+constant games of subterfuge:\
 - **Poison** is the weapon of choice among Zhara’s merchant lords, their
 feasts as deadly as any battlefield. Cups are often tested by tasters,
-though not all poisons leave traces—or claim their victims
-immediately.  
+though not all poisons leave traces—or claim their victims immediately.\
 - **Blackmail** fuels the intrigues of Lunhai, where even the most
 debauched noble fears the exposure of their darkest secrets. Courtesans,
 spies, and servants often wield influence far greater than their
-station, trading whispers for gold or favors.  
+station, trading whispers for gold or favors.\
 - **Assassination** is commonplace in Khemru, where necromancers use
 their arcane arts to send shadowy specters or venomous curses after
 their rivals. A sudden death is rarely questioned in a city where life
@@ -1914,16 +1913,16 @@ and death are but tools of power.
 Beneath the gilded towers and festering streets of Khor’Dara’s cities
 lies a hidden world of smugglers, thieves, and cultists. These
 underground networks thrive on the chaos above, shaping the destinies of
-the continent in ways unseen.  
+the continent in ways unseen.\
 - **The Silk Veil**: A smugglers’ syndicate that operates along Lunhai’s
 canals, their members recognizable by the translucent scarves they wear.
 They specialize in contraband like rare silks, narcotics, and cursed
-artifacts, often trading with rebel groups.  
+artifacts, often trading with rebel groups.\
 - **The Shadow Guild**: Zhara’s premier thieves’ guild, their network
 extends into every corner of the city. From burglary to espionage, no
 crime is beyond their reach. They are rumored to answer to a single
 figure known only as **The Mask**, whose identity is fiercely
-protected.  
+protected.\
 - **The Charnel Pact**: A cult operating in Khemru’s ruins, worshiping
 death itself as a deity. Their members desecrate burial sites to harvest
 relics and forbidden magics, often working as mercenaries or assassins
@@ -1980,12 +1979,12 @@ often gives rise to entities and phenomena that threaten mortal lives:
   their own power, their minds shattered or their bodies warped into
   monstrous forms. Some wander aimlessly, leaving destruction in their
   wake, while others deliberately spread chaos, viewing it as a natural
-  extension of their newfound nature.  
+  extension of their newfound nature.\
 - **Spirit-Bonded Predators**: In regions like the Spine of Kharn or the
   Verdant Abyss, predators have been known to bond with elemental or
   otherworldly spirits. These creatures are faster, stronger, and more
   cunning than their mundane counterparts, making them nearly impossible
-  to kill through conventional means.  
+  to kill through conventional means.\
 - **Cursed Zones**: Certain places, often marked by ancient tragedies or
   failed rituals, have become permanently warped by residual magic. In
   these zones, the rules of reality unravel: time loops endlessly,
@@ -2024,13 +2023,12 @@ the arcane. Yet this knowledge often demands a terrible price:
 - **Eldritch Tomes**: Books bound in human skin or etched into obsidian
   tablets contain spells, prophecies, and histories long forgotten.
   Reading these texts often induces madness, as the words twist and
-  writhe on the page, seeming to speak directly into the reader’s
-  mind.  
+  writhe on the page, seeming to speak directly into the reader’s mind.\
 - **Artifacts of Power**: Items like the **Opal Mask** or the **Blood
   Chalice** grant immense abilities but corrupt their wielders, draining
   their life force or twisting their bodies. These relics are highly
   sought after by sorcerers and rulers alike, though few who obtain them
-  survive unscathed.  
+  survive unscathed.\
 - **Enigmatic Cults**: Hidden sects dedicate their lives to guarding—or
   exploiting—this forbidden knowledge. Some act as caretakers, ensuring
   it remains buried, while others seek to unlock its full potential, no
@@ -2115,12 +2113,12 @@ a mystery, often guarded by ancient traps and custodians.
   artifact known as the **Luminarch**, a golden orb that radiates light
   capable of banishing even the darkest sorcery. The orb, however, can
   only be wielded by those who pass the trials of the temple, which test
-  both strength and virtue.  
+  both strength and virtue.\
 - **Hollow Guardians**: Towering statues of stone and bronze that stand
   vigil over ancient labyrinths, these automatons awaken when intruders
   draw near. Their origins are unknown, but they are thought to be
   constructs of an elder race that sought to preserve its secrets for
-  eternity.  
+  eternity.\
 - **The Glyph-Laden Doors**: Massive stone gates etched with glowing
   runes are said to block access to the heart of the Abyssal Rift.
   Scholars theorize that opening them would unleash a power capable of

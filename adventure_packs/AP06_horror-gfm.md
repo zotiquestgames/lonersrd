@@ -1,6 +1,6 @@
 # Horror Adventure Pack
 Roberto Bisceglie
-2026-07-20
+2026-07-25
 
 # Horror Adventure Pack
 
@@ -145,7 +145,7 @@ control.
 
 - When confronted by a terrifying situation — a creature, a location, an
   event — and your character is trying to resist panic, keep moving, or
-  push through, **treat it as a Conflict**.  
+  push through, **treat it as a Conflict**.\
 - Roll as usual and apply the **Harm rules** — but instead of taking
   physical damage, **Fear reduces your Luck**.
 - Tags like *Composed Under Pressure* or *Panics in Silence* apply as
@@ -185,238 +185,238 @@ is deeper than fear — it is existential.
 
 ### **Occult Incident Response Unit**
 
-- **Concept**: Sanitizing Bureaucrats  
-- **Skills**: Suppression, Surveillance  
-- **Frailty**: Internal Mistrust  
-- **Gear**: Burned Credentials, Disposable Phone  
-- **Goal**: Erase all evidence of supernatural activity  
-- **Motive**: Order through secrecy  
+- **Concept**: Sanitizing Bureaucrats\
+- **Skills**: Suppression, Surveillance\
+- **Frailty**: Internal Mistrust\
+- **Gear**: Burned Credentials, Disposable Phone\
+- **Goal**: Erase all evidence of supernatural activity\
+- **Motive**: Order through secrecy\
 - **Nemesis**: Whistleblowers and rogue agents
 
 ### **The Bleached Veil**
 
-- **Concept**: Esoteric Analysts  
-- **Skills**: Signal Decoding, Ritual Science  
-- **Frailty**: Fringe Obsession  
-- **Gear**: EM Dowsing Kit, Neuro-Calcified Notes  
-- **Goal**: Translate the unexplainable  
-- **Motive**: Salvation through understanding  
+- **Concept**: Esoteric Analysts\
+- **Skills**: Signal Decoding, Ritual Science\
+- **Frailty**: Fringe Obsession\
+- **Gear**: EM Dowsing Kit, Neuro-Calcified Notes\
+- **Goal**: Translate the unexplainable\
+- **Motive**: Salvation through understanding\
 - **Nemesis**: Traditional researchers and suppressors
 
 ### **The Binding Faith**
 
-- **Concept**: Hidden Congregation  
-- **Skills**: Indoctrination, Blood Rituals  
-- **Frailty**: Doctrinal Conflict  
-- **Gear**: Annotated Scripture, Bone Key  
-- **Goal**: Prepare the world for assimilation  
-- **Motive**: Acceptance through submission  
+- **Concept**: Hidden Congregation\
+- **Skills**: Indoctrination, Blood Rituals\
+- **Frailty**: Doctrinal Conflict\
+- **Gear**: Annotated Scripture, Bone Key\
+- **Goal**: Prepare the world for assimilation\
+- **Motive**: Acceptance through submission\
 - **Nemesis**: Hunters and defectors
 
 ### **The Warden’s Lantern**
 
-- **Concept**: Ancestral Watchers  
-- **Skills**: Spirit Binding, Folk Rites  
-- **Frailty**: Stuck in the Past  
-- **Gear**: Lantern Sigil Coin, Brass Ward  
-- **Goal**: Keep ancient horrors contained  
-- **Motive**: Duty beyond the grave  
+- **Concept**: Ancestral Watchers\
+- **Skills**: Spirit Binding, Folk Rites\
+- **Frailty**: Stuck in the Past\
+- **Gear**: Lantern Sigil Coin, Brass Ward\
+- **Goal**: Keep ancient horrors contained\
+- **Motive**: Duty beyond the grave\
 - **Nemesis**: Modern agencies and skeptics
 
 ### **The Lost Hand**
 
-- **Concept**: Vanishing Survivors  
-- **Skills**: Urban Camouflage, Secret Routes  
-- **Frailty**: Paranoia  
-- **Gear**: Whisper Stone, Binder of Obituaries  
-- **Goal**: Preserve hidden truths  
-- **Motive**: Survival through memory  
+- **Concept**: Vanishing Survivors\
+- **Skills**: Urban Camouflage, Secret Routes\
+- **Frailty**: Paranoia\
+- **Gear**: Whisper Stone, Binder of Obituaries\
+- **Goal**: Preserve hidden truths\
+- **Motive**: Survival through memory\
 - **Nemesis**: Cult recruiters and city sweeps
 
 ### **The Chimera Syndicate**
 
-- **Concept**: Corporate Predators  
-- **Skills**: Acquisition, Human Engineering  
-- **Frailty**: Fragmented Cells  
-- **Gear**: Black Glove Credchip, Stabilized Occulite  
-- **Goal**: Monetize the paranormal  
-- **Motive**: Power through possession  
+- **Concept**: Corporate Predators\
+- **Skills**: Acquisition, Human Engineering\
+- **Frailty**: Fragmented Cells\
+- **Gear**: Black Glove Credchip, Stabilized Occulite\
+- **Goal**: Monetize the paranormal\
+- **Motive**: Power through possession\
 - **Nemesis**: Rebels and idealists
 
 ## NPCs
 
 ### **Dr. Lenora Voss**
 
-- **Concept**: Calculating Biotheorist  
-- **Skills**: Pathological Curiosity, Threshold Analysis  
-- **Frailty**: Detached Morality  
-- **Gear**: Sealed Notebook, Ritual-Singed Lab Coat  
-- **Goal**: To catalog and manipulate anomaly-host interactions  
-- **Motive**: Legacy over lives  
+- **Concept**: Calculating Biotheorist\
+- **Skills**: Pathological Curiosity, Threshold Analysis\
+- **Frailty**: Detached Morality\
+- **Gear**: Sealed Notebook, Ritual-Singed Lab Coat\
+- **Goal**: To catalog and manipulate anomaly-host interactions\
+- **Motive**: Legacy over lives\
 - **Nemesis**: Former students who saw what she became
 
 ### **Detective Wade Riker**
 
-- **Concept**: Burned-Out Cop  
-- **Skills**: Urban Intuition, Cold Read  
-- **Frailty**: Self-Medicating  
-- **Gear**: Rusted Revolver, Tattered Memo Pad  
+- **Concept**: Burned-Out Cop\
+- **Skills**: Urban Intuition, Cold Read\
+- **Frailty**: Self-Medicating\
+- **Gear**: Rusted Revolver, Tattered Memo Pad\
 - **Goal**: To find the link between cold cases and “unexplainable
-  patterns”  
-- **Motive**: Redemption or ruin — whichever comes first  
+  patterns”\
+- **Motive**: Redemption or ruin — whichever comes first\
 - **Nemesis**: Internal Affairs, and something that knows his name
 
 ### **Harlow Briggs**
 
-- **Concept**: Hardened Survivor  
-- **Skills**: Improvised Defense, Quiet Movement  
-- **Frailty**: Night Terrors  
-- **Gear**: Crowbar, Map Marked in Blood  
-- **Goal**: To warn others before the next thing wakes up  
-- **Motive**: A promise made in a burning house  
+- **Concept**: Hardened Survivor\
+- **Skills**: Improvised Defense, Quiet Movement\
+- **Frailty**: Night Terrors\
+- **Gear**: Crowbar, Map Marked in Blood\
+- **Goal**: To warn others before the next thing wakes up\
+- **Motive**: A promise made in a burning house\
 - **Nemesis**: Cultists who remember her escape
 
 ### **Sister Mireille**
 
-- **Concept**: Smiling Heretic  
-- **Skills**: Charisma, Sigil Craft  
-- **Frailty**: Blind Devotion  
-- **Gear**: Bone-Handled Knife, Prayerbook with Missing Pages  
-- **Goal**: To open the path to her “beautiful silence”  
-- **Motive**: Salvation through surrender  
+- **Concept**: Smiling Heretic\
+- **Skills**: Charisma, Sigil Craft\
+- **Frailty**: Blind Devotion\
+- **Gear**: Bone-Handled Knife, Prayerbook with Missing Pages\
+- **Goal**: To open the path to her “beautiful silence”\
+- **Motive**: Salvation through surrender\
 - **Nemesis**: Apostates who fled the final sermon
 
 ### **Mayor Ellis Blackthorne**
 
-- **Concept**: Compromised Official  
-- **Skills**: Public Dismissal, Legal Evasion  
-- **Frailty**: Parasitic Dealings  
-- **Gear**: Encrypted Device, Monogrammed Flask  
-- **Goal**: To keep the anomaly contract going — quietly  
-- **Motive**: Personal gain through denial  
+- **Concept**: Compromised Official\
+- **Skills**: Public Dismissal, Legal Evasion\
+- **Frailty**: Parasitic Dealings\
+- **Gear**: Encrypted Device, Monogrammed Flask\
+- **Goal**: To keep the anomaly contract going — quietly\
+- **Motive**: Personal gain through denial\
 - **Nemesis**: Journalists and insiders who got too close
 
 ### **Milo “Knuckle” Carr**
 
-- **Concept**: Unstable Enforcer  
-- **Skills**: Brutal Strength, Fear Tactics  
-- **Frailty**: Uncontrolled Rage  
-- **Gear**: Bloodied Hammer, Surveillance Earbud  
+- **Concept**: Unstable Enforcer\
+- **Skills**: Brutal Strength, Fear Tactics\
+- **Frailty**: Uncontrolled Rage\
+- **Gear**: Bloodied Hammer, Surveillance Earbud\
 - **Goal**: To wipe out a “list” of those who crossed the wrong
-  syndicate  
-- **Motive**: Obedience and ego  
+  syndicate\
+- **Motive**: Obedience and ego\
 - **Nemesis**: An ex-target who fought back and vanished
 
 ## Creatures
 
 ### **Hollow Man**
 
-- **Concept**: Faceless Stalker  
-- **Skills**: Silent Pursuit, Memory Distortion  
-- **Frailty**: Must be seen to be banished  
-- **Goal**: To erase and replace the identities of others  
-- **Motive**: Hunger for shape and self  
+- **Concept**: Faceless Stalker\
+- **Skills**: Silent Pursuit, Memory Distortion\
+- **Frailty**: Must be seen to be banished\
+- **Goal**: To erase and replace the identities of others\
+- **Motive**: Hunger for shape and self\
 - **Nemesis**: Survivors who remember the faces he stole
 
 ### **Bloodroot**
 
-- **Concept**: Parasitic Flora  
-- **Skills**: Body Invasion, Camouflage  
-- **Frailty**: Fire and salt  
-- **Goal**: To seed itself in living hosts  
-- **Motive**: Survival through propagation  
+- **Concept**: Parasitic Flora\
+- **Skills**: Body Invasion, Camouflage\
+- **Frailty**: Fire and salt\
+- **Goal**: To seed itself in living hosts\
+- **Motive**: Survival through propagation\
 - **Nemesis**: Herbalists who still keep old warding lore
 
 ### **The Murmuring**
 
-- **Concept**: Whispering Presence  
-- **Skills**: Psychic Overwhelm, Hallucination  
-- **Frailty**: Isolation and silence  
-- **Goal**: To drive victims into self-destruction  
-- **Motive**: It feeds on attention and belief  
+- **Concept**: Whispering Presence\
+- **Skills**: Psychic Overwhelm, Hallucination\
+- **Frailty**: Isolation and silence\
+- **Goal**: To drive victims into self-destruction\
+- **Motive**: It feeds on attention and belief\
 - **Nemesis**: Mediums who refuse to listen
 
 ### **Shamble Host**
 
-- **Concept**: Corpse Colony  
-- **Skills**: Regeneration, Swarm Logic  
-- **Frailty**: Disruption of hive core  
-- **Goal**: To expand territory with new bodies  
-- **Motive**: Collective preservation instinct  
+- **Concept**: Corpse Colony\
+- **Skills**: Regeneration, Swarm Logic\
+- **Frailty**: Disruption of hive core\
+- **Goal**: To expand territory with new bodies\
+- **Motive**: Collective preservation instinct\
 - **Nemesis**: Fire crews who salt their burn zones
 
 ### **The Folded**
 
-- **Concept**: Temporal Aberration  
-- **Skills**: Time Looping, Reality Slippage  
-- **Frailty**: Anchored time relics  
-- **Goal**: To collapse linear time around its nest  
-- **Motive**: Desperation to escape its own paradox  
+- **Concept**: Temporal Aberration\
+- **Skills**: Time Looping, Reality Slippage\
+- **Frailty**: Anchored time relics\
+- **Goal**: To collapse linear time around its nest\
+- **Motive**: Desperation to escape its own paradox\
 - **Nemesis**: Watchers who mark their loops in ink and scars
 
 ### **The Hunger**
 
-- **Concept**: Invisible Devourer  
-- **Skills**: Soundless Movement, Flesh Stripping  
-- **Frailty**: Cannot cross lines of ash  
-- **Goal**: To feed  
-- **Motive**: Pure consumption instinct  
+- **Concept**: Invisible Devourer\
+- **Skills**: Soundless Movement, Flesh Stripping\
+- **Frailty**: Cannot cross lines of ash\
+- **Goal**: To feed\
+- **Motive**: Pure consumption instinct\
 - **Nemesis**: Ritualists who burn the old thresholds
 
 ## Locations
 
 ### **The Hollow Hotel**
 
-- A once-opulent hotel, now sagging with time and secrets.  
+- A once-opulent hotel, now sagging with time and secrets.\
 - Hallways stretch longer than they should. Lights flicker even when the
-  power’s off.  
-- Some rooms are still occupied. None are checked in.  
+  power’s off.\
+- Some rooms are still occupied. None are checked in.\
 - **Possible encounters**: Specter, Cultist, Concierge who remembers too
   much, Hidden guest with no ID, Bellhop who’s been here too long,
   Dripping suitcase that wasn’t there before
 
 ### **The Grieving Woods**
 
-- A forest where the wind whispers names you know.  
-- Footpaths vanish. Animal calls never sound quite right.  
-- Sometimes, the trees bleed sap that smells like rust.  
+- A forest where the wind whispers names you know.\
+- Footpaths vanish. Animal calls never sound quite right.\
+- Sometimes, the trees bleed sap that smells like rust.\
 - **Possible encounters**: Werebeast, Shadow Fiend, Lost hiker who
   should be dead, Hermit with burned maps, Park ranger with the wrong
   eyes, Ritual site still warm
 
 ### **Ashridge Manor**
 
-- A mansion sealed by time and bad memory.  
+- A mansion sealed by time and bad memory.\
 - Its wings are larger inside than out, and the mirrors don’t follow
-  your movements.  
-- The cellar has doors no owner ever mentioned.  
+  your movements.\
+- The cellar has doors no owner ever mentioned.\
 - **Possible encounters**: Vampiric Noble, Specter, Cultist, Inheritor
   with gaps in her past, Caretaker who never aged, Portrait that changes
   when no one looks
 
 ### **Gravelight Cemetery**
 
-- A graveyard where names wear off faster than stone.  
-- The air always smells of turned earth, even in frost.  
-- Someone leaves fresh flowers on graves no one remembers.  
+- A graveyard where names wear off faster than stone.\
+- The air always smells of turned earth, even in frost.\
+- Someone leaves fresh flowers on graves no one remembers.\
 - **Possible encounters**: Specter, Cultist, Grave robber who buries
   instead of stealing, Mourner with empty eyes, Caretaker who speaks to
   the soil, Priest who lost his faith but not his rites
 
 ### **The Deep Verge Facility**
 
-- An isolated lab hidden behind blank coordinates.  
-- Every hallway looks the same. Some lead to different years.  
-- The server room hums like it’s thinking.  
+- An isolated lab hidden behind blank coordinates.\
+- Every hallway looks the same. Some lead to different years.\
+- The server room hums like it’s thinking.\
 - **Possible encounters**: Infected, Mad scientist, Janitor who knows
   too much, Technician with missing time, Security agent who doesn’t
   blink, Survivor kept alive by the machinery
 
 ### **St. Arda’s Asylum (Condemned)**
 
-- Once a towering institution, now a tangle of ruin and rust.  
-- Files remain, but the ink fades if you read them twice.  
-- Some padded cells have scratch marks on the *outside*.  
+- Once a towering institution, now a tangle of ruin and rust.\
+- Files remain, but the ink fades if you read them twice.\
+- Some padded cells have scratch marks on the *outside*.\
 - **Possible encounters**: Specter, Cultist, Former nurse who still
   makes rounds, Patient who never left, Archivist with redacted
   memories, Phantom doctor calling old codes through broken speakers

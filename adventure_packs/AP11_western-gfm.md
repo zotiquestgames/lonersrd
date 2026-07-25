@@ -1,6 +1,6 @@
 # Western Adventure Pack
 Roberto Bisceglie
-2026-07-20
+2026-07-25
 
 # Western Adventure Pack
 
@@ -145,15 +145,15 @@ only if someone’s watching.
 
 **Wanted Levels:**
 
-1.  **Unknown** – You’re a nobody. Free to roam.  
+1.  **Unknown** – You’re a nobody. Free to roam.\
 2.  **Petty Criminal** – You’ve stolen, lied, or trespassed. Some folks
-    might take note.  
+    might take note.\
 3.  **Notorious Outlaw** – There’s a poster with your face on it
-    somewhere.  
+    somewhere.\
 4.  **Infamous Gang Leader** – You’re a known threat. Most towns will
-    refuse you service or shoot on sight.  
+    refuse you service or shoot on sight.\
 5.  **Public Enemy** – Your name spreads faster than your horse can
-    ride. You’re hunted.  
+    ride. You’re hunted.\
 6.  **Legendary Outlaw** – You’re a living myth. The law wants your
     head. So does half the territory.
 
@@ -172,7 +172,7 @@ without apology.
 - Harsh conditions (drought, dust storms, blizzards) may impose
   penalties or force checks to continue travel or avoid Frailty Tags.
 
-> **Example:**  
+> **Example:**\
 > You’re stranded on the mesa. No water, no shade. After a day’s travel,
 > you gain the tag `Parched`. Keep it until you find water. If `Parched`
 > is still active and you fail a survival check, gain `Delirious` or
