@@ -1,6 +1,6 @@
 # Loner: Steel & Sorcery
 Roberto Bisceglie
-2026-07-25
+2026-07-31
 
 # Loner: Steel & Sorcery
 
