@@ -95,6 +95,51 @@ h1 { font-family: "Raleway", sans-serif; font-weight: 900; }
 h2, h3 { font-family: "Raleway", sans-serif; font-weight: 800; }
 h4 { font-family: "Raleway", sans-serif; font-weight: 700; }
 
+// "Other Formats" links get moved into #quarto-margin-sidebar by
+// assets/format-links-top.html. On mobile, #quarto-margin-sidebar is a grid
+// item of #quarto-content.page-columns (grid-column: body-end/page-end), so
+// overriding its own grid-column just reshuffles it within the grid — it
+// still renders as a narrow right-hand strip. Break the grid entirely
+// instead: #quarto-margin-sidebar sits *before* <main id=
+// "quarto-document-content"> in the DOM, so falling back to normal block
+// flow naturally stacks it as a full-width column above the article body.
+@media (max-width: 991.98px) {
+  #quarto-content.page-columns {
+    display: block !important;
+  }
+
+  #quarto-margin-sidebar {
+    display: block !important;
+    position: static !important;
+    width: 100% !important;
+  }
+
+  #quarto-margin-sidebar > *:not(.quarto-alternate-formats) {
+    display: none !important;
+  }
+
+  .quarto-alternate-formats {
+    display: block !important;
+    width: 100% !important;
+    margin-bottom: 2rem !important;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #dee2e6;
+  }
+
+  .quarto-alternate-formats ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .quarto-alternate-formats li a {
+    padding: 0.5rem 0;
+    display: inline-block;
+  }
+}
+
 // Footer mirrors navbar
 .nav-footer {
   background-color: #000000;
