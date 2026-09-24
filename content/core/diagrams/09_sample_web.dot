@@ -1,0 +1,29 @@
+digraph sample_web {
+    root = YOU;
+    layout = twopi; 
+    
+    // Aumenta la distanza radiale (in pollici) tra il centro e l'anello esterno
+    ranksep = 2.5;
+    // Impedisce attivamente la sovrapposizione dei nodi e del testo
+    overlap = false;
+
+    label = "SAMPLE WEB";
+    labelloc = "t";
+    fontname = "Permanent Marker";
+
+    node [shape="rect", style = "", fontname="Permanent Marker", fontsize=12];
+    edge [shape="rect", fontname="Permanent Marker", fontsize=12, dir="none"];
+
+    YOU [label = "YOU"];
+    SEL [label = "Sel Varn\n(Rival -> Ally)\nknows your secret"];
+    RO [label = "Agent Ro\n(Lost)\nburied at Site K"];
+    EZRA [label = "Ezra\n(Ambivalent)\nsaid they'd come back"];
+    MALEK [label = "\"Father\" Malek\n(Symbolic)\nrepresents your shame"];
+    CLEANSER [label = "The Cleanser\n(Nemesis)\nthinks you're a threat\nto containment"];
+
+    YOU -> SEL;
+    YOU -> RO;
+    YOU -> EZRA;
+    YOU -> MALEK;
+    YOU -> CLEANSER;
+}

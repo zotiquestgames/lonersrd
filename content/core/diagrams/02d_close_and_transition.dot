@@ -1,0 +1,19 @@
+digraph scene_breakdown {
+    label = "4. CLOSE AND TRANSITION";
+    labelloc="t";
+    fontname="Permanent Marker";
+    node [shape="rect", style = "", 
+    fontname="Permanent Marker", fontsize=12, width=3];
+    edge [shape="rect", fontname="Permanent Marker", fontsize=12];
+
+
+    cs41 [label = "SCENE END CONDITION MET?\n(resolved / blocked / abandoned)"];
+    cs42 [label = "NOTE THE OUTCOME"];
+    cs43 [label = "ROLL SCENE TRANSITION (1d6)"];
+    cs44 [label = "CONTINUE THE SCENE"];
+
+    cs41 -> cs42 [label = "Yes"];
+    cs42 -> cs43;
+    cs41 -> cs44 [label = "No"];
+    cs44 -> cs41 [style="dashed", label = "next action"];
+}

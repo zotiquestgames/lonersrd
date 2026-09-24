@@ -1,0 +1,59 @@
+digraph scene_loop {
+    label = "THE SCENE LOOP";
+    labelloc="t";
+    fontname="Permanent Marker";
+    node [shape="rect", style = "",
+    fontname="Permanent Marker", fontsize=12];
+    edge [shape="rect", fontname="Permanent Marker", fontsize=12];
+
+    subgraph cluster_0 {
+        label = "1. SET YOUR EXPECTATION";
+        cs01 [label = "CONSIDER PROTAGONIST'S TRAITS"];
+        cs02 [label = "DETERMINE PROTAGONIST'S ACTION"];
+        cs03 [label = "PREDICT WORLD'S REACTION"];
+
+        cs01 -> cs02 -> cs03;
+    }
+
+    subgraph cluster_1 {
+        label = "2. TEST THE UNCERTAINTY";
+        cs11 [label = "UNCERTAIN OR OVERCONFIDENT?"];
+        cs12 [label = "ASK THE ORACLE"];
+        cs13 [label = "RESOLVE CONTEXTUALLY"];
+        cs14 [label = "CONSIDER INVOLVED TAGS"];
+        cs15 [label = "ADVANTAGE"];
+        cs16 [label = "DISADVANTAGE"];
+
+        cs11 -> cs12 [label="Yes"];
+        cs11 -> cs13 [label="No"];
+        cs12 -> cs14;
+        cs14 -> cs15 [label = "Prevalent\nPositives"];
+        cs14 -> cs16 [label = "Prevalent\nNegatives"];
+    }
+
+    subgraph cluster_2 {
+        label = "3. INTERPRET THE RESULT";
+        cs31 [label = "ANSWER MEETS YOUR EXPECTATIONS?"];
+        cs32 [label = "CONSIDER THE CONTEXT"];
+        cs33 [label = "EXAMINE THE ANSWER"];
+        cs34 [label = "SUBVERT YOUR EXPECTATIONS"];
+        cs35 [label = "FOLLOW YOUR EXPECTATIONS"];
+
+        cs32 -> cs33 -> cs31;
+        cs31 -> cs35 [label = "Yes"];
+        cs31 -> cs34 [label = "No"];
+    }
+
+    subgraph cluster_3 {
+        label = "4. CLOSE AND TRANSITION";
+        cs41 [label = "SCENE END CONDITION MET?\n(resolved / blocked / abandoned)"];
+        cs42 [label = "NOTE THE OUTCOME"];
+        cs43 [label = "ROLL SCENE TRANSITION (1d6)"];
+        cs44 [label = "CONTINUE THE SCENE"];
+
+        cs41 -> cs42 [label = "Yes"];
+        cs42 -> cs43;
+        cs41 -> cs44 [label = "No"];
+        cs44 -> cs41 [style="dashed", label = "next action"];
+    }
+}

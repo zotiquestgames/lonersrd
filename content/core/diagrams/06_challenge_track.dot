@@ -1,0 +1,37 @@
+digraph challenge_track {
+    label = "CHALLENGE TRACKS";
+    labelloc="t";
+    fontname="Permanent Marker";
+    node [shape="rect", fontname="Permanent Marker", fontsize=12];
+    edge [fontname="Permanent Marker", fontsize=12];
+    dpi=300;
+    bgcolor=white;
+
+    ct1 [label = "IS ADVANCING THE CHALLENGE\nTHE SCENE'S STATED PURPOSE?"];
+    ct2 [label = "NO TRACK UPDATE"];
+    ct3 [label = "TAKE THE SCENE'S\nMAIN ORACLE RESULT"];
+    ct4 [label = "YES, AND...\nMark 2 boxes"];
+    ct5 [label = "YES / YES, BUT...\nMark 1 box"];
+    ct6 [label = "NO, BUT...\nNo change"];
+    ct7 [label = "NO / NO, AND...\nErase 1 box"];
+    ct8 [label = "ALL 4 BOXES FILLED?"];
+    ct9 [label = "CHALLENGE RESOLVES\n(no final roll)"];
+    ct10 [label = "NEXT SCENE"];
+    ct11 [label = "HOLDING LEVERAGE?\nSpend to convert erase\ninto no change"];
+
+    ct1 -> ct2 [label = "No"];
+    ct1 -> ct3 [label = "Yes"];
+    ct3 -> ct4;
+    ct3 -> ct5;
+    ct3 -> ct6;
+    ct3 -> ct7;
+    ct7 -> ct11 [style="dashed", label = "optional"];
+    ct11 -> ct6 [style="dashed"];
+    {rank=same; ct4; ct5; ct6; ct7};
+    ct4 -> ct8;
+    ct5 -> ct8;
+    ct6 -> ct8;
+    ct7 -> ct8;
+    ct8 -> ct9 [label = "Yes"];
+    ct8 -> ct10 [label = "No"];
+}

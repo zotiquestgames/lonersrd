@@ -1,0 +1,21 @@
+digraph harm_and_luck {
+    label = "HARM & LUCK";
+    labelloc="t";
+    fontname="Permanent Marker";
+    node [shape="rect", fontname="Permanent Marker", fontsize=12];
+    edge [fontname="Permanent Marker", fontsize=12];
+    dpi=300;
+    bgcolor=white;
+
+    hl1 [label = "ASK THE ORACLE\n(PROTAGONIST'S POV)"];
+    hl2 [label = "APPLY LUCK DAMAGE\nYes, and... → deal 3\nYes... → deal 2\nYes, but... → deal 1\nNo, but... → take 1\nNo... → take 2\nNo, and... → take 3"];
+    hl3 [label = "NARRATE CONSEQUENCES\nASSIGN A TAG IF LASTING"];
+    hl4 [label = "IS EITHER SIDE\nAT 0 LUCK?"];
+    hl5 [label = "CONFLICT ENDS\nINTERPRET CONSEQUENCES"];
+
+    hl1 -> hl2;
+    hl2 -> hl3;
+    hl3 -> hl4;
+    hl4 -> hl5 [label = "Yes"];
+    hl4 -> hl1 [xlabel = "No", style=dashed];
+}

@@ -1,0 +1,29 @@
+digraph relationship_map {
+    // Imposta il nodo YOU come centro esatto
+    root = YOU;
+    layout = twopi; 
+    
+    // Distanza radiale e prevenzione delle sovrapposizioni
+    ranksep = 1.8;
+    overlap = false;
+
+    label = "RELATIONSHIP MAP";
+    labelloc = "t";
+    fontname = "Permanent Marker";
+
+    node [shape="rect", style = "", fontname="Permanent Marker", fontsize=12];
+    edge [shape="rect", fontname="Permanent Marker", fontsize=12, dir="none"];
+
+    YOU [label = "YOU"];
+    LOST [label = "LOST"];
+    SYMBOLIC [label = "SYMBOLIC"];
+    NEMESIS [label = "NEMESIS"];
+    ALLY [label = "ALLY"];
+    RIVAL [label = "RIVAL"];
+
+    YOU -> LOST;
+    YOU -> SYMBOLIC;
+    YOU -> NEMESIS;
+    YOU -> ALLY;
+    YOU -> RIVAL;
+}
