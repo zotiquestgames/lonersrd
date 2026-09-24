@@ -4,20 +4,24 @@ Regenerates, from the raw source-of-truth files under content/:
      content/'s folder structure exactly)
   2. _sidebar-auto.yml, the website.sidebar nav (merged into _quarto.yml via
      metadata-files)
-  3. diagrams/ at the repo root, copied straight from content/diagrams/
+  3. diagrams/ at the repo root, merged from every content/**/diagrams/
+     folder found (upstream nests one per section/subsection -- currently
+     content/core/diagrams and content/core/legacy/diagrams -- and where
+     they live has moved before and will again)
 
 Why this exists: content/ is the target of an external sync (a GitHub Action
-in the private zotiquestgames/loner repo copies its docs/ folder here, one
-folder per section: core/, adventure_packs/, geared_towards_loner/, each
-with its own legacy/ subfolder where applicable, plus diagrams/). That sync
-only ever touches content/**, so it can never destroy the Quarto front
-matter, font-paths, typst template wiring, or navigation below -- those are
-re-derived every time this script runs. In particular, a new file dropped
-into a known collection folder (see COLLECTIONS below) automatically gets a
-sidebar entry (appended after the curated, hand-ordered items) instead of
-being an orphan page. Relative diagrams/ image paths are also normalized
-per-file depth (see normalize_diagram_paths) since upstream's source keeps
-reintroducing whatever variant is wrong for a given file's location.
+in the private zotiquestgames/loner repo copies its docs/ folder here
+verbatim). That sync only ever touches content/**, so it can never destroy
+the Quarto front matter, font-paths, typst template wiring, or navigation
+below -- those are re-derived every time this script runs. In particular, a
+new file dropped into a known collection folder (see COLLECTIONS below)
+automatically gets a sidebar entry (appended after the curated, hand-ordered
+items) instead of being an orphan page. Relative diagrams/ image paths are
+also normalized per-file depth (see normalize_diagram_paths) since
+upstream's source keeps reintroducing whatever variant is wrong for a given
+file's location, and every diagrams/ folder anywhere under content/ is
+merged into one flat, root-level diagrams/ (see sync_diagrams_merged) to
+match what normalize_diagram_paths points every document at.
 
 Runs automatically as a Quarto project pre-render step (see _quarto.yml),
 so everything is fresh before `quarto render` / `preview` / `publish`.
@@ -309,8 +313,8 @@ def generate_sidebar():
 
 def sync_dir_verbatim(rel_dir):
     """Copies a content/<rel_dir>/ tree to <rel_dir>/ at the repo root as-is
-    (no front matter) -- used for diagrams/ and for non-.md assets (images
-    etc.) sitting alongside a collection's documents."""
+    (no front matter) -- used for non-.md assets (images etc.) sitting
+    alongside a collection's documents."""
     src_dir = CONTENT / rel_dir
     if not src_dir.exists():
         return
@@ -323,6 +327,28 @@ def sync_dir_verbatim(rel_dir):
         dest = dest_dir / rel
         dest.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(src, dest)
+
+
+def sync_diagrams_merged():
+    """Merges every content/**/diagrams/ folder (upstream nests one per
+    section/subsection, e.g. content/core/diagrams,
+    content/core/legacy/diagrams -- the exact set has moved before and will
+    again) into a single diagrams/ at the repo root, flat, since
+    normalize_diagram_paths always points every document at one shared
+    top-level diagrams/ regardless of which section it lives in. Stale
+    entries from a previous layout are wiped first so removed/renamed
+    upstream files can't linger."""
+    dest_dir = ROOT / "diagrams"
+    if dest_dir.exists():
+        shutil.rmtree(dest_dir)
+    dest_dir.mkdir(parents=True, exist_ok=True)
+    for src_dir in sorted(CONTENT.rglob("diagrams")):
+        if not src_dir.is_dir():
+            continue
+        for src in src_dir.iterdir():
+            if src.is_dir() or src.name.startswith("."):
+                continue
+            shutil.copyfile(src, dest_dir / src.name)
 
 
 def sync_collection_assets():
@@ -367,7 +393,7 @@ def main():
         dest.write_text(fm + body, encoding="utf-8")
         print(f"OK  {rel}")
 
-    sync_dir_verbatim("diagrams")
+    sync_diagrams_merged()
     sync_collection_assets()
     generate_sidebar()
 
