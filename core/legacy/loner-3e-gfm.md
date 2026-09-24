@@ -1,6 +1,6 @@
 # Loner - Core Rules 3rd Edition
 Roberto Bisceglie
-2026-07-31
+2026-09-24
 
 # Loner - Core Rules 3rd Edition
 
@@ -469,7 +469,7 @@ Both methods serve **different play styles**, but together they create a
 Once you’ve set up the **first scene**, start playing! The Oracle will
 guide what happens next, shaping the twists and surprises along the way.
 
-![](../diagrams/get_started.png)
+![](../../diagrams/get_started.png)
 
 ## Keep the Action in Motion
 
@@ -498,7 +498,7 @@ At first, you may want to follow this structure deliberately, but with
 practice, it will become second nature — allowing the story to flow
 naturally.
 
-![](../diagrams/scene_breakdown.png)
+![](../../diagrams/scene_breakdown.png)
 
 ## Identify Your Expectations
 
@@ -709,7 +709,7 @@ numbers, Tags describe why a situation is easy or difficult.\
 ✅ **Prevents excessive stacking** – One strong Advantage or
 Disadvantage is enough to shift the outcome.
 
-![](../diagrams/consulting_oracle.png)
+![](../../diagrams/consulting_oracle.png)
 
 ## Interpreting the Oracle
 
@@ -996,7 +996,7 @@ detail you want:
 drives unexpected outcomes, but Luck-based conflicts rely on direct dice
 rolls.
 
-![](../diagrams/conflicts.png)
+![](../../diagrams/conflicts.png)
 
 ### Resolving Conflicts by Key Actions
 
