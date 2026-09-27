@@ -1,6 +1,6 @@
 # world_builders_guide
 Roberto Bisceglie
-2026-09-24
+2026-09-27
 
 ﻿# Loner 4e: World Builder’s Guide
 

@@ -1,6 +1,6 @@
 # Loner: Norse Saga
 Roberto Bisceglie
-2026-09-24
+2026-09-27
 
 # Loner: Norse Saga
 
