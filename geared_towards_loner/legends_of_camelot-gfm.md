@@ -1,6 +1,6 @@
 # Legends of Camelot
 Roberto Bisceglie
-2026-09-27
+2026-10-01
 
 # Legends of Camelot
 
