@@ -31,7 +31,7 @@ website:
       - text: "Home"
         href: index.qmd
       - text: "Core Rules"
-        href: core/loner-3e.md
+        href: core/loner-4e.md
       - text: "Adventure Packs"
         href: adventure_packs/AP01_fantasy.md
       - text: "Geared Towards Loner"
