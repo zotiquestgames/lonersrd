@@ -1,0 +1,3027 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.19">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Roberto Bisceglie">
+<meta name="dcterms.date" content="2026-10-20">
+
+<title>Loner 4e: Character Emulator – Loner SRD</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-b266d71eaa7a375c7b9dba7afc68d5ec.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-c419c615cdf6d5e175adf8994d4b2490.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-b266d71eaa7a375c7b9dba7afc68d5ec.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&amp;family=Raleway:wght@700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+  @import url('https://fonts.cdnfonts.com/css/takota');
+</style>
+
+
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Loner SRD</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../core/loner-4e.html" aria-current="page"> 
+<span class="menu-text">Core Rules</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../adventure_packs/AP01_fantasy.html"> 
+<span class="menu-text">Adventure Packs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../geared_towards_loner/kwaidan_revised.html"> 
+<span class="menu-text">Geared Towards Loner</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/zotiquestgames/lonersrd"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../core/loner_companion.html">SRD</a></li><li class="breadcrumb-item"><a href="../core/character_emulator.html">Loner 4e: Character Emulator</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">SRD</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/loner_companion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Companion</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/character_builders_guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Character Builder’s Guide</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/world_builders_guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">World Builder’s Guide</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/the_path_not_taken.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Path Not Taken</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/cinematic_action.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cinematic Action</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/character_emulator.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Loner 4e: Character Emulator</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/loner-4e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Loner 4e: Core Rules</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/tales_and_tumbles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">For Kids</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Legacy Core Rules</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/legacy/loner-1e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 1e (legacy)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/legacy/loner-2e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Core Rules 2e (legacy)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/legacy/character_builders_guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Loner: Character Builder’s Guide</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/legacy/loner-3e.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Loner - Core Rules 3rd Edition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/legacy/loner_companion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Loner Companion</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../core/legacy/world_builders_guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Loner: World Builder’s Guide</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Adventure Packs</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP01_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fantasy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP02_space.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Space Sci-Fi Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP03_superheroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Superheroes Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP04_crime.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Crime Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP05_mystery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mystery Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP06_horror.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Horror Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP07_action_adventure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Action Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP08_spy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP09_postapoc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Post-Apocalyptic Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP10_pirates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pirates Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP11_western.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Western Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/AP12_cyberpunk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cyberpunk Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Adventure Packs (Legacy 2e)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP01_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fantasy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP02_space.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Space Sci-Fi Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP03_superheroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Superheroes Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP04_crime.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Crime Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP05_mystery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mystery Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP06_horror.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Horror Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP07_action_adventure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Action Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP08_spy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spy Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP09_postapoc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Post-Apocalyptic Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP10_pirates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pirates Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP11_western.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Western Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../adventure_packs/legacy/AP12_cyberpunk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cyberpunk Adventure Pack</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/legacy/kwaidan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan!</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">Geared Towards Loner games</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/kwaidan_revised.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan! (Revised)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/cog_compass.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cog &amp; Compass</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/mech_requiem.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mech: Requiem</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/legends_of_camelot.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Legends of Camelot</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/pulp_adventures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pulp Adventures!</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/steel_and_sorcery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Steel &amp; Sorcery</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/dungeoneer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dungeoneer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/spacer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spacer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/arabian_nights_adventures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Arabian Nights Adventures</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/cozy_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cozy Fantasy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/savage_blades_of_xylandra.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Savage Blades of Xylandra</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/pulp_heroes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pulp Heroes!</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/the_shattered_reach.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Shattered Reach</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/galaxy_drifter.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Galaxy Drifter</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/urban_fantasy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Urban Fantasy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/norse_saga.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Norse Saga</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/cthulhu.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cthulhu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/paranormal_files.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Paranormal Files</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/rocketpunk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Loner: Rocketpunk</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+ <span class="menu-text">Geared Towards Loner games (Legacy)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../geared_towards_loner/legacy/kwaidan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kwaidan!</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#loner-4e-character-emulator" id="toc-loner-4e-character-emulator" class="nav-link active" data-scroll-target="#loner-4e-character-emulator">Loner 4e: Character Emulator</a>
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a>
+  <ul class="collapse">
+  <li><a href="#what-this-book-is" id="toc-what-this-book-is" class="nav-link" data-scroll-target="#what-this-book-is">What This Book Is</a></li>
+  <li><a href="#what-it-isnt" id="toc-what-it-isnt" class="nav-link" data-scroll-target="#what-it-isnt">What It Isn’t</a></li>
+  <li><a href="#two-tags" id="toc-two-tags" class="nav-link" data-scroll-target="#two-tags">Two Tags</a></li>
+  <li><a href="#what-you-need" id="toc-what-you-need" class="nav-link" data-scroll-target="#what-you-need">What You Need</a></li>
+  <li><a href="#who-this-is-for" id="toc-who-this-is-for" class="nav-link" data-scroll-target="#who-this-is-for">Who This Is For</a></li>
+  <li><a href="#how-to-use-it" id="toc-how-to-use-it" class="nav-link" data-scroll-target="#how-to-use-it">How to Use It</a></li>
+  <li><a href="#table-index" id="toc-table-index" class="nav-link" data-scroll-target="#table-index">Table Index</a></li>
+  </ul></li>
+  <li><a href="#the-triage" id="toc-the-triage" class="nav-link" data-scroll-target="#the-triage">The Triage</a></li>
+  <li><a href="#quick-build-npcs" id="toc-quick-build-npcs" class="nav-link" data-scroll-target="#quick-build-npcs">Quick-Build NPCs</a>
+  <ul class="collapse">
+  <li><a href="#example-quick-build" id="toc-example-quick-build" class="nav-link" data-scroll-target="#example-quick-build">📌 Example: Quick-Build</a></li>
+  </ul></li>
+  <li><a href="#conversation" id="toc-conversation" class="nav-link" data-scroll-target="#conversation">Conversation</a>
+  <ul class="collapse">
+  <li><a href="#example-conversation" id="toc-example-conversation" class="nav-link" data-scroll-target="#example-conversation">📌 Example: Conversation</a></li>
+  </ul></li>
+  <li><a href="#npc-voice" id="toc-npc-voice" class="nav-link" data-scroll-target="#npc-voice">NPC Voice</a>
+  <ul class="collapse">
+  <li><a href="#example-npc-voice" id="toc-example-npc-voice" class="nav-link" data-scroll-target="#example-npc-voice">📌 Example: NPC Voice</a></li>
+  </ul></li>
+  <li><a href="#character" id="toc-character" class="nav-link" data-scroll-target="#character">Character</a>
+  <ul class="collapse">
+  <li><a href="#example-character" id="toc-example-character" class="nav-link" data-scroll-target="#example-character">📌 Example: Character</a></li>
+  </ul></li>
+  <li><a href="#group-dynamics" id="toc-group-dynamics" class="nav-link" data-scroll-target="#group-dynamics">Group Dynamics</a>
+  <ul class="collapse">
+  <li><a href="#the-group-tag" id="toc-the-group-tag" class="nav-link" data-scroll-target="#the-group-tag">The Group Tag</a></li>
+  <li><a href="#breaking-out" id="toc-breaking-out" class="nav-link" data-scroll-target="#breaking-out">Breaking Out</a></li>
+  <li><a href="#two-foreground-npcs" id="toc-two-foreground-npcs" class="nav-link" data-scroll-target="#two-foreground-npcs">Two Foreground NPCs</a></li>
+  </ul></li>
+  <li><a href="#factions-as-actors" id="toc-factions-as-actors" class="nav-link" data-scroll-target="#factions-as-actors">Factions as Actors</a>
+  <ul class="collapse">
+  <li><a href="#the-faction-beat" id="toc-the-faction-beat" class="nav-link" data-scroll-target="#the-faction-beat">The Faction Beat</a></li>
+  </ul></li>
+  <li><a href="#cast-twists" id="toc-cast-twists" class="nav-link" data-scroll-target="#cast-twists">Cast Twists</a>
+  <ul class="collapse">
+  <li><a href="#example-cast-twists" id="toc-example-cast-twists" class="nav-link" data-scroll-target="#example-cast-twists">📌 Example: Cast Twists</a></li>
+  </ul></li>
+  <li><a href="#the-cast-list" id="toc-the-cast-list" class="nav-link" data-scroll-target="#the-cast-list">The Cast List</a>
+  <ul class="collapse">
+  <li><a href="#example-the-cast-list" id="toc-example-the-cast-list" class="nav-link" data-scroll-target="#example-the-cast-list">📌 Example: The Cast List</a></li>
+  </ul></li>
+  <li><a href="#npc-memory-continuity" id="toc-npc-memory-continuity" class="nav-link" data-scroll-target="#npc-memory-continuity">NPC Memory &amp; Continuity</a>
+  <ul class="collapse">
+  <li><a href="#example-npc-memory-continuity" id="toc-example-npc-memory-continuity" class="nav-link" data-scroll-target="#example-npc-memory-continuity">📌 Example: NPC Memory &amp; Continuity</a></li>
+  </ul></li>
+  <li><a href="#genre-notes" id="toc-genre-notes" class="nav-link" data-scroll-target="#genre-notes">Genre Notes</a>
+  <ul class="collapse">
+  <li><a href="#noir" id="toc-noir" class="nav-link" data-scroll-target="#noir">Noir</a></li>
+  <li><a href="#heist" id="toc-heist" class="nav-link" data-scroll-target="#heist">Heist</a></li>
+  <li><a href="#cosmic-horror" id="toc-cosmic-horror" class="nav-link" data-scroll-target="#cosmic-horror">Cosmic Horror</a></li>
+  <li><a href="#fantasy" id="toc-fantasy" class="nav-link" data-scroll-target="#fantasy">Fantasy</a></li>
+  <li><a href="#cyberpunk" id="toc-cyberpunk" class="nav-link" data-scroll-target="#cyberpunk">Cyberpunk</a></li>
+  <li><a href="#post-apocalyptic" id="toc-post-apocalyptic" class="nav-link" data-scroll-target="#post-apocalyptic">Post-Apocalyptic</a></li>
+  <li><a href="#western" id="toc-western" class="nav-link" data-scroll-target="#western">Western</a></li>
+  <li><a href="#where-these-tools-recede" id="toc-where-these-tools-recede" class="nav-link" data-scroll-target="#where-these-tools-recede">Where These Tools Recede</a></li>
+  </ul></li>
+  <li><a href="#worked-examples" id="toc-worked-examples" class="nav-link" data-scroll-target="#worked-examples">Worked Examples</a>
+  <ul class="collapse">
+  <li><a href="#noir-infiltration" id="toc-noir-infiltration" class="nav-link" data-scroll-target="#noir-infiltration">Noir Infiltration</a></li>
+  <li><a href="#cyberpunk-extraction" id="toc-cyberpunk-extraction" class="nav-link" data-scroll-target="#cyberpunk-extraction">Cyberpunk Extraction</a></li>
+  </ul></li>
+  <li><a href="#appendix-judgment-calls" id="toc-appendix-judgment-calls" class="nav-link" data-scroll-target="#appendix-judgment-calls">Appendix: Judgment Calls</a></li>
+  <li><a href="#appendix-quick-reference" id="toc-appendix-quick-reference" class="nav-link" data-scroll-target="#appendix-quick-reference">Appendix: Quick Reference</a></li>
+  <li><a href="#appendix-the-cast-list-sheet" id="toc-appendix-the-cast-list-sheet" class="nav-link" data-scroll-target="#appendix-the-cast-list-sheet">Appendix: The Cast List Sheet</a></li>
+  <li><a href="#license" id="toc-license" class="nav-link" data-scroll-target="#license">License</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/zotiquestgames/lonersrd/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="character_emulator.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="character_emulator.odt"><i class="bi bi-file"></i>OpenOffice</a></li><li><a href="character_emulator.epub"><i class="bi bi-file"></i>ePub</a></li><li><a href="character_emulator-gfm.md"><i class="bi bi-file-code"></i>Github (GFM)</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../core/loner_companion.html">SRD</a></li><li class="breadcrumb-item"><a href="../core/character_emulator.html">Loner 4e: Character Emulator</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Loner 4e: Character Emulator</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Roberto Bisceglie </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 20, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="loner-4e-character-emulator" class="level1">
+<h1>Loner 4e: Character Emulator</h1>
+<p><em>Oracle procedures for what NPCs say, what they do, and how you keep track of them.</em></p>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>An NPC who matters gets the same Oracle the Protagonist does. This book is the procedure for that.</p>
+<section id="what-this-book-is" class="level3">
+<h3 class="anchored" data-anchor-id="what-this-book-is">What This Book Is</h3>
+<p><strong><em>Character Emulator</em></strong> is a supplement for <em>Loner</em>. It requires the <em>Loner</em> core rules and nothing else. It adds no new dice, no stat blocks, and no second resolution system. It gives you procedure for a gap the core rules leave to judgment: what an NPC says, what an NPC does on their own, and how to handle several NPCs at once without turning a scene into a string of individual rolls.</p>
+<p>Everything here runs on what you already have: tags, Advantage and Disadvantage, the Twist Counter, the Promotion Rule, Relationships, Meanwhile, and the Living World.</p>
+</section>
+<section id="what-it-isnt" class="level3">
+<h3 class="anchored" data-anchor-id="what-it-isnt">What It Isn’t</h3>
+<p><strong>A replacement for Meanwhile.</strong> Meanwhile gives the world a turn when the Scene Transition comes up 6. The tools here give one NPC a turn whenever the fiction asks for it. Both can run in the same session.</p>
+<p><strong>A cast-building exercise.</strong> Nothing here asks for prep. Every tool triggers in the moment, when an NPC’s words or actions are uncertain. Quick-Build exists for the NPCs you didn’t see coming.</p>
+<p><strong>A mandate to roll for every NPC.</strong> Loner runs on judgment first and the Oracle where judgment runs out. Most NPCs in most scenes need no tag and no roll. A door gets blocked, a clerk waves someone through, and the fiction has already said so. Reach for a tool when you catch yourself inventing a reaction that nothing established supports. If you roll for every NPC on screen, a rules-light game becomes a subsystem.</p>
+<p><strong>Mandatory.</strong> Every tool in this book is optional, the same way Challenge Tracks, Leverage, and the Status Track are optional in the core rules. Use what a story needs and skip the rest.</p>
+</section>
+<section id="two-tags" class="level3">
+<h3 class="anchored" data-anchor-id="two-tags">Two Tags</h3>
+<p>The whole book runs on two tags that an NPC may carry besides their Concept.</p>
+<ul>
+<li><strong>Agenda</strong>: what they want right now. It decides what they do.</li>
+<li><strong>Disposition</strong>: their stance toward the Protagonist. It decides how they answer. It is a different thing from a relationship tag. A relationship tag sits on the Protagonist’s sheet and has to be earned in play. Disposition belongs to the NPC and can be assigned on sight.</li>
+</ul>
+<p>An NPC needs neither tag until a tool asks for one.</p>
+<p>This book also uses the name <strong>Promotion Rule</strong> for the core rule <em>When to Promote a Tag to a Character</em>: if something matters once, keep it as plain tags, and if it keeps showing up or pushes back against the Protagonist, promote it.</p>
+<blockquote class="blockquote">
+<p><strong>If you own the other guides.</strong> The Minimalist NPC Profile in the <em>World Builder’s Guide</em> uses the same Agenda and calls Disposition “Relationship”. The Want in the <em>Character Builder’s Guide</em> is an Agenda. Neither book is required here.</p>
+</blockquote>
+</section>
+<section id="what-you-need" class="level3">
+<h3 class="anchored" data-anchor-id="what-you-need">What You Need</h3>
+<p>The <em>Loner</em> core rules, the dice you already use, and one sheet of paper for the Cast List. The D66 tables use two of your d6: read the first as tens and the second as units.</p>
+</section>
+<section id="who-this-is-for" class="level3">
+<h3 class="anchored" data-anchor-id="who-this-is-for">Who This Is For</h3>
+<p>Players whose sessions lean on dialogue, interrogation, negotiation, or an opposition with a will of its own, and who have noticed themselves writing both sides of those scenes freehand.</p>
+</section>
+<section id="how-to-use-it" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-use-it">How to Use It</h3>
+<p>Read <strong>The Triage</strong> first. Take the rest in any order.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Chapter</th>
+<th>The question it answers</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>The Triage</td>
+<td>Does this NPC need a tool at all?</td>
+</tr>
+<tr class="even">
+<td>Quick-Build NPCs</td>
+<td>Who is this person I didn’t plan for?</td>
+</tr>
+<tr class="odd">
+<td>Conversation</td>
+<td>What do they say?</td>
+</tr>
+<tr class="even">
+<td>NPC Voice</td>
+<td>How do they sound?</td>
+</tr>
+<tr class="odd">
+<td>Character</td>
+<td>What do they do on their own?</td>
+</tr>
+<tr class="even">
+<td>Group Dynamics</td>
+<td>What do several of them do together?</td>
+</tr>
+<tr class="odd">
+<td>Factions as Actors</td>
+<td>What does their organization do while nobody is watching?</td>
+</tr>
+<tr class="even">
+<td>Cast Twists</td>
+<td>What happens when a Twist fires on an NPC?</td>
+</tr>
+<tr class="odd">
+<td>The Cast List</td>
+<td>Where do I keep all of this between scenes?</td>
+</tr>
+<tr class="even">
+<td>NPC Memory &amp; Continuity</td>
+<td>What do they carry back from last time?</td>
+</tr>
+<tr class="odd">
+<td>Genre Notes</td>
+<td>Which tool carries which kind of story?</td>
+</tr>
+</tbody>
+</table>
+<p>The chapters are additive. Start with one tool and add another when a story asks for it. Two worked examples at the end run every tool start to finish.</p>
+</section>
+<section id="table-index" class="level3">
+<h3 class="anchored" data-anchor-id="table-index">Table Index</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Table</th>
+<th>Chapter</th>
+<th>Use it to</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Concept (D66)</td>
+<td>Quick-Build NPCs</td>
+<td>Name who an unplanned NPC is</td>
+</tr>
+<tr class="even">
+<td>Agenda (D66)</td>
+<td>Quick-Build NPCs</td>
+<td>Decide what they want right now</td>
+</tr>
+<tr class="odd">
+<td>Disposition (D66)</td>
+<td>Quick-Build NPCs</td>
+<td>Set their stance and what they know</td>
+</tr>
+<tr class="even">
+<td>Voice (D66)</td>
+<td>NPC Voice</td>
+<td>Give them a verbal signature</td>
+</tr>
+<tr class="odd">
+<td>Faction Concept (D66)</td>
+<td>Factions as Actors</td>
+<td>Name what kind of organization this is</td>
+</tr>
+<tr class="even">
+<td>Cast Twists (2d6)</td>
+<td>Cast Twists</td>
+<td>Resolve a Twist that lands on an NPC</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="the-triage" class="level2">
+<h2 class="anchored" data-anchor-id="the-triage">The Triage</h2>
+<blockquote class="blockquote">
+<p><strong>Start here.</strong> Every other chapter assumes you have sorted the scene’s NPCs first. It takes two questions and no dice.</p>
+</blockquote>
+<p>Sort before you roll. When a scene opens, or when someone new walks into it, place each NPC in one of three tiers. Ask in order:</p>
+<ol type="1">
+<li><strong>Can they change how this scene goes?</strong> No: <strong>Dressing</strong>. Stop here.</li>
+<li><strong>Does the scene turn on what one of them in particular does?</strong> No: <strong>Background</strong>. Yes: <strong>Foreground</strong>.</li>
+</ol>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tier</th>
+<th>Tags</th>
+<th>Rolls</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Dressing</td>
+<td>None</td>
+<td>Never</td>
+<td>The crowd, the other diners, traffic</td>
+</tr>
+<tr class="even">
+<td>Background</td>
+<td>One shared Group tag</td>
+<td>Only as a group</td>
+<td>The guard detail, the office pool, the night shift</td>
+</tr>
+<tr class="odd">
+<td>Foreground</td>
+<td>Agenda, plus Disposition if they talk</td>
+<td>Individually, with Conversation or Character</td>
+<td>The guard captain, the executive who called the meeting</td>
+</tr>
+</tbody>
+</table>
+<p>A single NPC goes through the same two questions. A lone night watchman who could raise the alarm is Background with a tag of his own until the scene turns on him.</p>
+<p>Most scenes produce zero or one Foreground NPC. Two is the practical ceiling. If a third person’s actions matter as much, the scene has become two scenes sharing a room. Split it.</p>
+<p><strong>Tiers move during a scene.</strong> A Background NPC who gets named, gets addressed directly, or breaks from the group becomes Foreground on the spot. A Foreground NPC whose part is over drops back.</p>
+<p><strong>Tiers are not promotion.</strong> A tier lasts one scene. The Promotion Rule looks across scenes: an NPC who keeps showing up or pushes back earns a place on the Cast List.</p>
+<p><strong>The default is no roll.</strong> If a guard’s Agenda is <em>Protect the vault</em> and someone walks toward the vault door, he stops them. A tag that already answers the question needs no dice. The tools below are for the moment when two answers are both plausible and you would otherwise pick the one you prefer.</p>
+<hr>
+</section>
+<section id="quick-build-npcs" class="level2">
+<h2 class="anchored" data-anchor-id="quick-build-npcs">Quick-Build NPCs</h2>
+<blockquote class="blockquote">
+<p><strong>Optional module.</strong> Use this chapter to generate an NPC you didn’t plan for, mid-scene, from three D66 tables.</p>
+</blockquote>
+<p>Roll for the NPC you didn’t plan for instead of freezing the scene. Three D66 tables give you a Concept, an Agenda, and a Disposition in under a minute. Skip any table where you already know the answer.</p>
+<p><strong>Concept</strong>: roll D66.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">D66</th>
+<th>Concept</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">11</td>
+<td>Weary Informant</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">12</td>
+<td>Ambitious Enforcer</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">13</td>
+<td>Paranoid Bureaucrat</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">14</td>
+<td>Loyal Retainer</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">15</td>
+<td>Opportunistic Specialist</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">16</td>
+<td>Idealistic Gatekeeper</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">21</td>
+<td>Burned-Out Fixer</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">22</td>
+<td>Soft-Spoken Zealot</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">23</td>
+<td>Silent Courier</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">24</td>
+<td>Reluctant Collaborator</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">25</td>
+<td>Grieving Widow(er)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">26</td>
+<td>Calculating Broker</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">31</td>
+<td>Nervous Clerk</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">32</td>
+<td>Hardened Veteran</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">33</td>
+<td>Charming Con Artist</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">34</td>
+<td>Overworked Medic</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">35</td>
+<td>Disgraced Officer</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">36</td>
+<td>Faithful Servant</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">41</td>
+<td>Restless Deserter</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">42</td>
+<td>Cunning Smuggler</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">43</td>
+<td>Devoted Caretaker</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">44</td>
+<td>Bitter Rival</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">45</td>
+<td>Untested Recruit</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">46</td>
+<td>Weathered Guide</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">51</td>
+<td>Vengeful Survivor</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">52</td>
+<td>Ambivalent Witness</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">53</td>
+<td>Proud Craftsperson</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">54</td>
+<td>Frightened Lookout</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">55</td>
+<td>Stoic Sentinel</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">56</td>
+<td>Desperate Debtor</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">61</td>
+<td>Quiet Fanatic</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">62</td>
+<td>Jaded Negotiator</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">63</td>
+<td>Eager Apprentice</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">64</td>
+<td>Ruthless Climber</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">65</td>
+<td>Wounded Idealist</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">66</td>
+<td>Unreadable Stranger</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Agenda</strong>: roll D66. This is what they want right now, and the tag Character consults.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">D66</th>
+<th>Agenda</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">11</td>
+<td>Protect a secret</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">12</td>
+<td>Expose a lie</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">13</td>
+<td>Escape a debt</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">14</td>
+<td>Acquire a resource</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">15</td>
+<td>Silence a witness</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">16</td>
+<td>Reclaim their position</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">21</td>
+<td>Avenge a betrayal</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">22</td>
+<td>Undermine a rival</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">23</td>
+<td>Locate a missing person</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">24</td>
+<td>Cover up a mistake</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">25</td>
+<td>Secure their family’s safety</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">26</td>
+<td>Prove their loyalty</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">31</td>
+<td>Recruit an ally</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">32</td>
+<td>Sabotage a plan</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">33</td>
+<td>Delay an outcome</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">34</td>
+<td>Confess something long buried</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">35</td>
+<td>Negotiate a truce</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">36</td>
+<td>Steal something valuable</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">41</td>
+<td>Warn someone in danger</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">42</td>
+<td>Discredit an authority</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">43</td>
+<td>Preserve a tradition</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">44</td>
+<td>Finish the job and go home</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">45</td>
+<td>Collect what they’re owed</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">46</td>
+<td>Broker a deal</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">51</td>
+<td>Shield someone weaker</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">52</td>
+<td>Climb the hierarchy</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">53</td>
+<td>Disappear without a trace</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">54</td>
+<td>Force a confrontation</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">55</td>
+<td>Retrieve a stolen item</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">56</td>
+<td>Maintain the status quo</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">61</td>
+<td>Find out who talked</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">62</td>
+<td>Manipulate the Protagonist</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">63</td>
+<td>Survive the day</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">64</td>
+<td>Honor a promise</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">65</td>
+<td>Abandon their post</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">66</td>
+<td>Seize an opportunity</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Disposition</strong>: roll D66. This is their stance toward the Protagonist, and the tag Conversation consults. Here the two digits cross instead of picking one line. The tens digit sets their <strong>Stance</strong>: how they feel about the Protagonist. The units digit sets their <strong>Awareness</strong>: how much they know about what the Protagonist is after.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Tens</th>
+<th>Stance</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td>Openly hostile</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td>Wary but civil</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td>Indifferent</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td>Cautiously helpful</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td>Eager to please</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td>Secretly conflicted</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Units</th>
+<th>Awareness</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td>Knows nothing useful</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td>Knows a fragment, secondhand or incomplete</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td>Believes something false, and nobody has corrected them</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td>Knows the basics, nothing beyond</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td>Knows more than they’re letting on</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td>Knows the whole picture</td>
+</tr>
+</tbody>
+</table>
+<p>The two halves do different jobs. <strong>Stance modifies the roll</strong>: it grants Advantage or Disadvantage like any tag. <strong>Awareness shapes the answer</strong>: it limits what a Yes can contain. An NPC can be hostile and well-informed, or friendly and wrong.</p>
+<p>A roll of 53 is <em>Eager to please, believes something false</em>: friendly, helpful, and confidently pointing the Protagonist in the wrong direction. A roll of 42 is <em>Cautiously helpful, knows a fragment</em>: willing to talk, with little worth extracting.</p>
+<p>If a combination reads oddly, such as an <em>Idealistic Gatekeeper</em> whose Agenda is <em>Silence a witness</em>, treat it as source material to interpret. It is the same rule as the Inspiration Tables: read the result back into what the scene has already established.</p>
+<p>Not every NPC needs all three. A guard who blocks a door needs a Concept and an Agenda. Someone the Protagonist is about to talk to needs a Disposition too. Someone who matters more than once goes on the Cast List.</p>
+<section id="example-quick-build" class="level3">
+<h3 class="anchored" data-anchor-id="example-quick-build">📌 Example: Quick-Build</h3>
+<blockquote class="blockquote">
+<p>Zahra rounds a corner into an office she expected to be empty. Concept: <em>Paranoid Bureaucrat</em>. Agenda: <em>Cover up a mistake</em>. That is enough to run the scene. A paranoid bureaucrat caught at his desk after hours with something to hide reacts very differently from a specialist protecting a secret. Disposition isn’t rolled yet. He hasn’t spoken.</p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="conversation" class="level2">
+<h2 class="anchored" data-anchor-id="conversation">Conversation</h2>
+<blockquote class="blockquote">
+<p><strong>Optional module.</strong> Use this chapter when a scene’s main action is dialogue and the NPC’s answer is in doubt.</p>
+</blockquote>
+<p>The Oracle answers for the NPC, so you don’t write both sides of the exchange. If what they’d say is obvious from their Concept and the situation, say it and move on. Save the roll for the answer that is in doubt.</p>
+<p><strong>Setup</strong>: the NPC needs a Disposition. Roll it on the Quick-Build table or write one tag that captures their stance right now: <em>Suspicious of Outsiders</em>, <em>Owes Her and Resents It</em>, <em>Grieving and Short-Tempered</em>. Update or replace it as the conversation shifts.</p>
+<p><strong>Resolve by beat, not by line.</strong> A beat is a topic: a question asked, a request made, an attempt to get information, agreement, access, or a favor. Frame it as a closed question, oriented so that <em>Yes</em> is the outcome the Protagonist wants. Small talk, follow-ups, and restating the same request don’t get new rolls. Stay in the beat until the topic changes.</p>
+<p><strong>Roll normally.</strong> The Disposition grants Advantage when it supports the question and Disadvantage when it opposes it. The Protagonist’s own tags apply as in any roll, and opposing tags cancel as usual. A <em>Trusted Informant</em> relationship tag on the Protagonist’s sheet cancels a <em>Wary</em> Disposition on the NPC, and that is the correct result: trust earned earlier is paying for caution now.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Result</th>
+<th>The NPC…</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Yes, and…</td>
+<td>Answers fully, and volunteers something the Protagonist didn’t ask for.</td>
+</tr>
+<tr class="even">
+<td>Yes…</td>
+<td>Answers straight.</td>
+</tr>
+<tr class="odd">
+<td>Yes, but…</td>
+<td>Answers, but it costs something: a favor owed, a partial truth, a detail that complicates things.</td>
+</tr>
+<tr class="even">
+<td>No, but…</td>
+<td>Refuses or deflects, but the refusal reveals something.</td>
+</tr>
+<tr class="odd">
+<td>No…</td>
+<td>Refuses. The topic is closed.</td>
+</tr>
+<tr class="even">
+<td>No, and…</td>
+<td>Refuses and reacts badly: ends the conversation, hardens their Disposition, or alerts someone.</td>
+</tr>
+</tbody>
+</table>
+<p>A Yes is only as good as what they know. If their Awareness is <em>Knows a fragment</em>, a <em>Yes, and…</em> delivers the fragment and something extra, not the whole picture.</p>
+<p>Equal dice add 1 to the Twist Counter as usual.</p>
+<p><strong>Reopening a closed topic</strong> takes a new approach: different leverage, a different promise, a different threat. That is a new beat and a new roll. If the same topic comes up <strong>No</strong> twice, treat it as a Dead End. Stop asking this NPC and ask the core question instead: <em>“Does something or someone point toward a new way forward?”</em></p>
+<p><strong>Leverage and Relationships</strong> apply without modification. Bank a <em>Yes, and…</em> as Leverage to spend later in the same pursuit. Assign or update a relationship tag when the scene closes, not mid-conversation.</p>
+<section id="example-conversation" class="level3">
+<h3 class="anchored" data-anchor-id="example-conversation">📌 Example: Conversation</h3>
+<blockquote class="blockquote">
+<p>Zahra needs to know who hired the men following her. The informant is tagged <em>Scared of Being Seen Talking</em>. She frames it: “Does he tell me who hired them?” The tag opposes her. Disadvantage: 2 Risk Dice against 1 Chance Die. Result: No, but… He won’t say the name, but his eyes go to the door every time she says “Cartwright Holdings.” No answer, and a thread to pull.</p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="npc-voice" class="level2">
+<h2 class="anchored" data-anchor-id="npc-voice">NPC Voice</h2>
+<blockquote class="blockquote">
+<p><strong>Optional module.</strong> Use this chapter to give a speaking NPC a consistent verbal signature. It never changes a roll.</p>
+</blockquote>
+<p>Conversation resolves what an NPC decides to say. Voice gives them a consistent way of saying it, without writing dialogue in advance.</p>
+<p><strong>When to roll</strong>: once, the first time an NPC speaks. Keep the result for as long as they’re around. A tic that shows up once is flavor. A tic that shows up every time is a signature.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 57%">
+<col style="width: 42%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">D66</th>
+<th>Voice</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">11</td>
+<td>Never uses your name. Always a title or a nickname.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">12</td>
+<td>Answers questions with another question.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">13</td>
+<td>Trails off before finishing a sentence.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">14</td>
+<td>Repeats the last few words you said back at you.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">15</td>
+<td>Speaks in short, clipped sentences. No wasted words.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">16</td>
+<td>Overexplains. Buries the point in detail.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">21</td>
+<td>Uses technical jargon even when it isn’t needed.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">22</td>
+<td>Switches languages or dialects mid-sentence.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">23</td>
+<td>Laughs at things that aren’t funny.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">24</td>
+<td>Goes quiet when the topic turns personal.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">25</td>
+<td>Talks about themselves in the third person.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">26</td>
+<td>Apologizes constantly, even for things that aren’t their fault.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">31</td>
+<td>Uses old slang. Sounds a decade out of place.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">32</td>
+<td>Ends every statement as if it were a question.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">33</td>
+<td>Punctuates sentences with a nervous habit: tapping, cracking knuckles.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">34</td>
+<td>Quotes someone else instead of speaking plainly.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">35</td>
+<td>Never finishes an insult. Lets it hang.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">36</td>
+<td>Speaks slowly, like every word costs something.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">41</td>
+<td>Talks over the Protagonist. Rarely lets a sentence finish.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">42</td>
+<td>Whispers even when there’s no reason to.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">43</td>
+<td>Uses formal address no matter how well they know you.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">44</td>
+<td>Curses fluently and constantly, whatever the company.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">45</td>
+<td>Mishears things on purpose to buy time.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">46</td>
+<td>Speaks with unsettling calm regardless of the situation.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">51</td>
+<td>Refers to a past version of themselves as if it were someone else.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">52</td>
+<td>Uses silence as a weapon. Makes you fill the gap.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">53</td>
+<td>Corrects small details obsessively and misses the big picture.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">54</td>
+<td>Sounds rehearsed, as if they practiced this conversation already.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">55</td>
+<td>Speaks freely only when no one else is listening.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">56</td>
+<td>Speaks in absolutes: always, never, everyone, no one.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">61</td>
+<td>Talks to someone who isn’t there, briefly, then catches themselves.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">62</td>
+<td>Uses the Protagonist’s own words against them.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">63</td>
+<td>Addresses the room, never the person asking.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">64</td>
+<td>Announces what they’re about to say before they say it.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">65</td>
+<td>Answers before you finish asking.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">66</td>
+<td>Talks in the plural: we think, we would prefer.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Voice is flavor.</strong> A Voice result never grants Advantage or Disadvantage. It changes how a <em>Yes, and…</em> or a <em>No, but…</em> gets narrated, and nothing about whether it happens.</p>
+<p><strong>A Background group can share one Voice result</strong> the same way it shares a Group tag. A crowd then sounds like one texture instead of a dozen improvised voices. A member who moves to Foreground gets their own roll.</p>
+<p>If a result doesn’t fit the scene’s tone, reroll once, then keep what you get. A poorly fitting tic is often more interesting than a perfect one.</p>
+<section id="example-npc-voice" class="level3">
+<h3 class="anchored" data-anchor-id="example-npc-voice">📌 Example: NPC Voice</h3>
+<blockquote class="blockquote">
+<p>The informant from the Conversation example gets a Voice roll the moment he opens his mouth: 24, goes quiet when the topic turns personal. That is why “Cartwright Holdings” gets a glance at the door instead of a denial. The tic was on the table before the beat resolved, and the <em>No, but…</em> gave it somewhere to land.</p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="character" class="level2">
+<h2 class="anchored" data-anchor-id="character">Character</h2>
+<blockquote class="blockquote">
+<p><strong>Optional module.</strong> Use this chapter when an NPC has to act on their own and their next move isn’t obvious.</p>
+</blockquote>
+<p>This is for action mid-scene. Dialogue goes to Conversation. It is the second step of Meanwhile, an Oracle question about what someone else does, made available any time instead of only on a Scene Transition 6.</p>
+<p><strong>Setup</strong>: the NPC needs an Agenda. Roll it on the Quick-Build table or write it.</p>
+<p><strong>Procedure</strong>: when the NPC’s next move isn’t obvious from what’s established, frame a closed question from <em>their</em> side, oriented so that <em>Yes</em> means they advance their Agenda.</p>
+<p><strong>The Agenda frames the question. It does not modify the roll.</strong> An Agenda always supports its own pursuit, so counting it would hand every NPC Advantage on every move. Advantage and Disadvantage come from everything else that is true: the NPC’s Concept, a condition on them, the state of the scene, the position the Protagonist has put them in. A captain with his target pinned down has Advantage. A captain whose squad just scattered has Disadvantage. With nothing relevant, roll plain.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Result</th>
+<th>The NPC…</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Yes, and…</td>
+<td>Acts decisively, and the move opens a complication or an opening for someone else.</td>
+</tr>
+<tr class="even">
+<td>Yes…</td>
+<td>Acts as expected and advances their Agenda.</td>
+</tr>
+<tr class="odd">
+<td>Yes, but…</td>
+<td>Acts, but exposes themselves or pays for it.</td>
+</tr>
+<tr class="even">
+<td>No, but…</td>
+<td>Holds, but shows their intent.</td>
+</tr>
+<tr class="odd">
+<td>No…</td>
+<td>Holds position. No move.</td>
+</tr>
+<tr class="even">
+<td>No, and…</td>
+<td>Backs off entirely. Their Agenda shifts or the opportunity is gone.</td>
+</tr>
+</tbody>
+</table>
+<p>For the Protagonist, a <em>Yes</em> here is usually bad news. The question belongs to the NPC.</p>
+<p>Equal dice add 1 to the Twist Counter as usual. When the result changes what the NPC wants, update their Agenda on the spot, the same way Meanwhile updates tags.</p>
+<p><strong>The result decides what they attempt, not whether it beats the Protagonist.</strong> Character tells you that the captain closes in. Whether he lays a hand on Zahra is her question to ask, or a Conflict to run. Rolls against the Protagonist stay player-facing, as the core rules require, and Character is never used inside Harm &amp; Luck.</p>
+<p><strong>Promotion still applies.</strong> If you run this for the same NPC scene after scene, they have crossed the Promotion Rule threshold. Put them on the Cast List.</p>
+<section id="example-character" class="level3">
+<h3 class="anchored" data-anchor-id="example-character">📌 Example: Character</h3>
+<blockquote class="blockquote">
+<p>Zahra is pinned behind a loading dock. The guard captain, Agenda <em>Take Her Alive for Questioning</em>, hasn’t moved yet. “Does he close in now?” Zahra has nowhere to go, and that supports the move. Advantage: 2 Chance Dice against 1 Risk Die. Yes, but… He moves in, but he is shouting orders to do it, and the noise gives Zahra a half-second to work with. Whether she uses it is her roll.</p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="group-dynamics" class="level2">
+<h2 class="anchored" data-anchor-id="group-dynamics">Group Dynamics</h2>
+<blockquote class="blockquote">
+<p><strong>Optional module.</strong> Use this chapter when several NPCs share a scene and one roll should answer for all of them.</p>
+</blockquote>
+<p>Conversation and Character assume one NPC. A checkpoint with three guards or a boardroom of six executives breaks that assumption. Roll for every guard and one scene costs six Oracle calls before anyone has spoken. The Triage already sorted them. This chapter covers what a Background group does with its one tag.</p>
+<section id="the-group-tag" class="level3">
+<h3 class="anchored" data-anchor-id="the-group-tag">The Group Tag</h3>
+<p>Everyone in a Background group shares a single tag, the same way a location or a vehicle carries one Concept instead of a full sheet: <em>The Guards Are On High Alert</em>, <em>The Board Is Skeptical of the Pitch</em>. One roll answers for all of them. The tag works in two directions.</p>
+<ul>
+<li><strong>The Protagonist acts on the group.</strong> Ask an ordinary Oracle question from the Protagonist’s side. The Group tag grants Advantage or Disadvantage like any other tag.</li>
+<li><strong>The group acts on its own.</strong> Run Character, with the Group tag standing in for the Agenda. It frames the question and does not modify the roll.</li>
+</ul>
+<p>Update the Group tag when the group’s state changes. The updated tag is in play at once.</p>
+<section id="example-group-dynamics" class="level4">
+<h4 class="anchored" data-anchor-id="example-group-dynamics">📌 Example: Group Dynamics</h4>
+<blockquote class="blockquote">
+<p>Zahra approaches a checkpoint. Three guards, tagged as a unit: <em>On Edge After Last Week’s Bombing</em>. She is the one acting, so the question is hers: “Do they wave me through?” The tag opposes her. Disadvantage. No, but… They stop her, but it’s procedure: a bag check, not an arrest. One roll, three guards, and the scene keeps moving.</p>
+</blockquote>
+</section>
+</section>
+<section id="breaking-out" class="level3">
+<h3 class="anchored" data-anchor-id="breaking-out">Breaking Out</h3>
+<p>When one member of the group distinguishes themselves, defies the group’s stance, or gets named and addressed directly, move them to Foreground. Give them their own Agenda and run Conversation or Character for that individual from then on. The Group tag stays in place for everyone else.</p>
+</section>
+<section id="two-foreground-npcs" class="level3">
+<h3 class="anchored" data-anchor-id="two-foreground-npcs">Two Foreground NPCs</h3>
+<p>When two Foreground NPCs are active in the same beat, resolve them one at a time. The first roll often answers the second question. If the guard captain orders his squad to stand down, you don’t need a roll to learn whether the squad stands down. Roll for the second NPC only if their reaction to the first result is still open.</p>
+<hr>
+</section>
+</section>
+<section id="factions-as-actors" class="level2">
+<h2 class="anchored" data-anchor-id="factions-as-actors">Factions as Actors</h2>
+<blockquote class="blockquote">
+<p><strong>Optional module.</strong> Use this chapter when an organization acts on the Protagonist between scenes.</p>
+</blockquote>
+<p>Character resolves what a person does. This chapter resolves what an organization does when nobody from it is in the room: a corporation, a cult, a government office, a crime family. Group Dynamics covers the guards standing in front of the Protagonist. This covers the memo that gets sent, the audit that gets opened, the retaliation that lands three days later.</p>
+<p><strong>Give the faction a Concept and an Agenda</strong>, exactly like an NPC. Roll the Agenda on the Quick-Build table: <em>Reclaim their position</em> or <em>Cover up a mistake</em> reads the same for an institution as for a person. Concept doesn’t transfer as cleanly, so use the table below.</p>
+<p><strong>Faction Concept</strong>: roll D66.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">D66</th>
+<th>Faction Concept</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">11</td>
+<td>Overextended Cartel</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">12</td>
+<td>Fracturing Alliance</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">13</td>
+<td>Zealous Regulatory Body</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">14</td>
+<td>Insular Guild</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">15</td>
+<td>Predatory Conglomerate</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">16</td>
+<td>Crumbling Bureaucracy</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">21</td>
+<td>Ascendant Sect</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">22</td>
+<td>Entrenched Old Guard</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">23</td>
+<td>Shadow Syndicate</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">24</td>
+<td>Reform Movement</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">25</td>
+<td>Paranoid Intelligence Office</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">26</td>
+<td>Debt-Ridden Enterprise</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">31</td>
+<td>Militant Order</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">32</td>
+<td>Opportunistic Startup</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">33</td>
+<td>Compromised Watchdog</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">34</td>
+<td>Isolationist Enclave</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">35</td>
+<td>Expansionist Regime</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">36</td>
+<td>Struggling Cooperative</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">41</td>
+<td>Corrupt Ministry</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">42</td>
+<td>Underground Network</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">43</td>
+<td>Overreaching Monopoly</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">44</td>
+<td>Fading Dynasty</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">45</td>
+<td>Radicalized Splinter Group</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">46</td>
+<td>Bloated Corporation</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">51</td>
+<td>Vengeful Remnant</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">52</td>
+<td>Secretive Cabal</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">53</td>
+<td>Populist Uprising</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">54</td>
+<td>Aging Institution</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">55</td>
+<td>Ruthless Consortium</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">56</td>
+<td>Desperate Coalition</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">61</td>
+<td>Patient Creditor</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">62</td>
+<td>Hungry Street Crew</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">63</td>
+<td>Wounded Empire</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">64</td>
+<td>Fractured Council</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">65</td>
+<td>Unaccountable Agency</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">66</td>
+<td>Unreadable Front</td>
+</tr>
+</tbody>
+</table>
+<p>A faction gets a Disposition only once it has dealt with the Protagonist directly. Until then, its Concept and Agenda carry it.</p>
+<section id="the-faction-beat" class="level3">
+<h3 class="anchored" data-anchor-id="the-faction-beat">The Faction Beat</h3>
+<p>A <strong>Faction Beat</strong> is one Character roll for an organization, made between scenes.</p>
+<p><strong>When</strong>: at a Scene Transition, and only if the scene that just closed touched the faction’s interests. Make at most one Faction Beat per transition. If two factions qualify, pick the one the scene hit harder. On a Meanwhile result, the Faction Beat is how you resolve the first step when the party holding power is an organization and its next move isn’t obvious.</p>
+<p><strong>How</strong>: frame a closed question from the faction’s side, oriented so that <em>Yes</em> means it advances its Agenda. As with Character, the Agenda frames the question and does not modify the roll. Advantage and Disadvantage come from the faction’s Concept and from what the last scene did to it. A <em>Bloated Corporation</em> is slow to respond. A faction that just lost its inside man is weaker than it was yesterday.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Result</th>
+<th>The Faction…</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Yes, and…</td>
+<td>Acts decisively, and the move is public at once: a raid, a statement, a takeover.</td>
+</tr>
+<tr class="even">
+<td>Yes…</td>
+<td>Acts as expected and advances its Agenda somewhere off-screen.</td>
+</tr>
+<tr class="odd">
+<td>Yes, but…</td>
+<td>Acts, but the move costs it something or opens a gap the Protagonist can use.</td>
+</tr>
+<tr class="even">
+<td>No, but…</td>
+<td>Holds, but a sign of its intent leaks out.</td>
+</tr>
+<tr class="odd">
+<td>No…</td>
+<td>Holds. Nothing changes before the next scene.</td>
+</tr>
+<tr class="even">
+<td>No, and…</td>
+<td>Backs off. Its Agenda shifts, it fractures internally, or it loses ground to a rival.</td>
+</tr>
+</tbody>
+</table>
+<p>Equal dice add 1 to the Twist Counter as usual. If the Twist fires here, the faction is the NPC for Cast Twists purposes.</p>
+<p><strong>The result is discovered, not narrated live.</strong> A Character result plays out in the scene as it happens. A Faction Beat’s result is something the Protagonist runs into afterward: a headline, a door that wasn’t locked before, a new face at a checkpoint. Write the result in the faction’s Last Seen field and reveal it when the fiction gives you a natural moment.</p>
+<p><strong>From Background group to faction</strong>: when a group’s employer keeps mattering across scenes, give the employer its own Cast row. The Group tag covers who is in the room. The faction covers what is moving behind them.</p>
+<section id="example-factions-as-actors" class="level4">
+<h4 class="anchored" data-anchor-id="example-factions-as-actors">📌 Example: Factions as Actors</h4>
+<blockquote class="blockquote">
+<p>Zahra tripped the alarm on the records floor, and the scene closes. That touched Cartwright Holdings directly, so it gets a Faction Beat. Concept: <em>Predatory Conglomerate</em>. Agenda: <em>Bury the Leak Before It Reaches the Press</em>. “Does Cartwright move against her before her next scene?” It now has her face on camera, and that supports the move. Advantage. Yes, and… It acts, and the move is public: a local paper runs a piece naming Zahra as a corporate saboteur. She learns it two scenes later, from a stranger’s phone screen on the train.</p>
+</blockquote>
+<hr>
+</section>
+</section>
+</section>
+<section id="cast-twists" class="level2">
+<h2 class="anchored" data-anchor-id="cast-twists">Cast Twists</h2>
+<blockquote class="blockquote">
+<p><strong>Optional module.</strong> Use this chapter when the Twist Counter fills on a roll about an NPC.</p>
+</blockquote>
+<p>The standard Twist Table speaks for the wider fiction: a third party appears, the location changes, an object ends the scene. When the Twist Counter fills on a roll about an NPC, you may let the Twist belong to that NPC and roll here instead.</p>
+<p><strong>Trigger</strong>: identical to the core rule. The Twist Counter reaches 3. If the roll that filled it came from a tool in this book, use this table. Otherwise use the standard Twist Table.</p>
+<p><strong>The doubles still answer the question.</strong> Read them as <em>Yes, but…</em> and resolve that answer first, as the core rules do. Then the Twist lands on top of it.</p>
+<p>Roll 2d6, one die for each column.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 40%">
+<col style="width: 30%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">D6</th>
+<th>What Changes</th>
+<th>How It Lands</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td>Their Agenda escalates</td>
+<td>Right now, before anyone is ready</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td>Their Agenda reverses</td>
+<td>And it drags someone else in</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td>Their Disposition hardens</td>
+<td>But it costs them</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td>Their Disposition softens</td>
+<td>And it exposes something they meant to hide</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td>A hidden Agenda surfaces</td>
+<td>And it touches the Protagonist’s past</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td>Someone else steps in</td>
+<td>In a way nobody saw coming, them included</td>
+</tr>
+</tbody>
+</table>
+<p>Read the two halves as one beat and interpret it in the context of the scene. <em>Their Disposition hardens, and it exposes something they meant to hide</em>: the goodwill is gone, and in dropping it they let slip a grudge they’d been sitting on. <em>Someone else steps in, right now</em>: whoever is arriving is already in the room.</p>
+<p>If the NPC has no Disposition yet, a Disposition result gives them one. If they have no Agenda, an Agenda result does the same.</p>
+<p>The Counter resets once the Twist resolves. Twist Intensity applies as in the core rules: read how much pressure the scene has built before you interpret. Any Leverage you hold expires, as with every Twist.</p>
+<p><strong>Conversation or Character</strong>: the same result reads differently depending on the tool that triggered it. In a Conversation beat, <em>their Agenda escalates</em> means they stop deflecting and start demanding or threatening. In a Character beat, it means they stop waiting and act before the Protagonist is ready.</p>
+<p><strong>In a group scene</strong>: if the roll was about a Foreground NPC, the Twist lands on their own tags. If it was about a Background group, it lands on the Group tag. <em>Someone else steps in</em> reads well there: a member steps out of the crowd, and is Foreground from the moment they act.</p>
+<p><strong>Someone else steps in, and the Cast List has a candidate</strong>: check the Cast List before you invent a stranger. If an existing entry’s Agenda already points at this scene, that NPC steps in. Run their arrival as a Character beat. Their Agenda can target the NPC already in the scene as easily as it targets the Protagonist.</p>
+<p><strong>A hidden Agenda surfaces, and promotion</strong>: this result is often the clearest sign that an NPC has crossed the Promotion Rule threshold. Consider adding them to the Cast List on the spot.</p>
+<section id="example-cast-twists" class="level3">
+<h3 class="anchored" data-anchor-id="example-cast-twists">📌 Example: Cast Twists</h3>
+<blockquote class="blockquote">
+<p>Zahra’s third question to the informant: “Did the order come from inside Cartwright?” Equal dice, with the Counter already at 2. Yes, but… He nods, but he won’t say who gave it. The Counter fills. Roll: 5 and 3. <em>A hidden Agenda surfaces, but it costs them.</em> He hasn’t been stalling out of fear alone. He is the one who told Cartwright Holdings where to find her, and he has just admitted it to the person he sold out. That wasn’t available to ask about a beat ago. It is now.</p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="the-cast-list" class="level2">
+<h2 class="anchored" data-anchor-id="the-cast-list">The Cast List</h2>
+<blockquote class="blockquote">
+<p><strong>Optional module.</strong> Use this chapter to keep recurring NPCs’ tags between scenes and sessions.</p>
+</blockquote>
+<p>The other tools update tags mid-scene. Without a place to keep them, the updates are gone when the scene ends, and the next time that NPC shows up you rebuild their Agenda from memory. <strong>The Cast List</strong> is a single running sheet, one row per NPC who has crossed the Promotion Rule threshold.</p>
+<p><strong>When an NPC gets a row</strong>: when they keep showing up, or when they push back against the Protagonist. One-scene NPCs stay as plain tags and never reach the Cast List.</p>
+<p><strong>What a row holds</strong>:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Contents</th>
+<th>Updated by</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Name &amp; Concept</td>
+<td>One line, set at creation</td>
+<td>Rarely changes</td>
+</tr>
+<tr class="even">
+<td>Voice</td>
+<td>Their verbal signature, if rolled</td>
+<td>Never</td>
+</tr>
+<tr class="odd">
+<td>Agenda</td>
+<td>What they want now</td>
+<td>Character, Faction Beats, Cast Twists</td>
+</tr>
+<tr class="even">
+<td>Disposition</td>
+<td>Their stance toward the Protagonist</td>
+<td>Conversation, Cast Twists</td>
+</tr>
+<tr class="odd">
+<td>Relationship</td>
+<td>The Protagonist’s tag for them, if one has been earned</td>
+<td>Relationships (core rules)</td>
+</tr>
+<tr class="even">
+<td>Last Seen</td>
+<td>One line: where, and what changed</td>
+<td>Every appearance</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Disposition and Relationship are different tags.</strong> Disposition is theirs. Relationship is the Protagonist’s. An NPC can be <em>Wary but civil</em> on the Cast List while the Protagonist’s sheet carries <em>Trusted Informant</em>. That gap is often where the next scene comes from.</p>
+<p><strong>A row or a full sheet?</strong> A row is the light form of promotion, and for most NPCs it is all you need. Write the full character sheet from the core rules when you need Skills, Frailty, Gear, and Luck, which usually means a Conflict is coming. For an NPC who has both, the row’s Agenda is their Goal as it stands today, and the row stays as your index.</p>
+<p><strong>Read it any time. Write it when the scene closes.</strong> Check a row before a reappearance or when a Cast Twist asks for a candidate. Resolve beats as normal, then update the rows at the end of the scene. The core rules ask the same discipline for relationship tags.</p>
+<p><strong>Retiring an entry</strong>: when an NPC’s thread closes because they are dead, gone, or resolved, strike the row and keep it. A struck entry is cheap continuity. A later Cast Twist can reach for a name already on the page instead of inventing one.</p>
+<p><strong>The Living World checkpoint gets shorter.</strong> The core rules ask you, at the end of an adventure, to note for each meaningful NPC whether the relationship shifted, what they want now, and whether they are still in play. With a Cast List, those answers are already in the rows. The Living World step becomes a read-through that catches anyone you skipped.</p>
+<section id="example-the-cast-list" class="level3">
+<h3 class="anchored" data-anchor-id="example-the-cast-list">📌 Example: The Cast List</h3>
+<blockquote class="blockquote">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name &amp; Concept</th>
+<th>Voice</th>
+<th>Agenda</th>
+<th>Disposition</th>
+<th>Relationship</th>
+<th>Last Seen</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tobias Wethern, Loyal Informant</td>
+<td>Goes quiet when it turns personal</td>
+<td>Protect his real source</td>
+<td>Cautiously helpful, knows more than he’s letting on</td>
+<td>Trusted Informant</td>
+<td>Session 4. Gave up a name, flinched when asked for a second</td>
+</tr>
+<tr class="even">
+<td>Cartwright Holdings, Predatory Conglomerate</td>
+<td>none</td>
+<td>Bury the leak before it reaches the press</td>
+<td>none yet</td>
+<td>none yet</td>
+<td>Session 4. Sent the men who followed Zahra</td>
+</tr>
+</tbody>
+</table>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="npc-memory-continuity" class="level2">
+<h2 class="anchored" data-anchor-id="npc-memory-continuity">NPC Memory &amp; Continuity</h2>
+<blockquote class="blockquote">
+<p><strong>Optional module.</strong> Use this chapter when a recurring NPC returns and what they carry from last time matters.</p>
+</blockquote>
+<p>The Cast List tells you what is currently true. This chapter covers what an NPC brings back with them when they reappear.</p>
+<p><strong>Before the scene opens</strong>, read the returning NPC’s Last Seen field and decide whether they raise it or leave it unspoken. Most of the time their Agenda and Disposition make that obvious. Decide and move on.</p>
+<p><strong>A Last Seen entry has to be specific to be useful.</strong> “Gave up a name, flinched when asked for a second” supports a reappearance scene on its own. “Was talked to” doesn’t. Write the field the way you’d want to read it three sessions from now, cold.</p>
+<p><strong>Referenced or acted on</strong>: an NPC can mention what happened without having changed because of it. That is color. An NPC whose Agenda is different because of what happened carries a standing consequence, and it should already be in their Cast row.</p>
+<p><strong>How They Remember It</strong>: roll this at most once per reappearance, and only when their version of events matters to the scene. Ask: <em>“Do they remember it the way it happened?”</em> A tag that would color the memory, such as a grudge, a fondness, or wounded pride, grants Advantage or Disadvantage as usual.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Result</th>
+<th>They remember it…</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Yes, and…</td>
+<td>Accurately, and they have thought about it since. They bring something new to it.</td>
+</tr>
+<tr class="even">
+<td>Yes…</td>
+<td>Accurately.</td>
+</tr>
+<tr class="odd">
+<td>Yes, but…</td>
+<td>Accurately, but only their own part of it.</td>
+</tr>
+<tr class="even">
+<td>No, but…</td>
+<td>Distorted, bigger or smaller than it was, but the feeling behind it is true.</td>
+</tr>
+<tr class="odd">
+<td>No…</td>
+<td>Wrong. They hold a version that didn’t happen.</td>
+</tr>
+<tr class="even">
+<td>No, and…</td>
+<td>Wrong, and they have already acted on the mistake.</td>
+</tr>
+</tbody>
+</table>
+<p>Equal dice add 1 to the Twist Counter as usual.</p>
+<blockquote class="blockquote">
+<p><strong>If you own the <em>Character Builder’s Guide</em>.</strong> This is its Unreliable Memory question, “Is this memory accurate?”, asked about the NPC instead of the Protagonist.</p>
+</blockquote>
+<p><strong>If an NPC’s version contradicts the Protagonist’s</strong>, let both stand until something in play resolves it. Which version is true is a question the story can answer later.</p>
+<section id="example-npc-memory-continuity" class="level3">
+<h3 class="anchored" data-anchor-id="example-npc-memory-continuity">📌 Example: NPC Memory &amp; Continuity</h3>
+<blockquote class="blockquote">
+<p>Tobias Wethern reappears three sessions after giving up a name and flinching at the request for a second. His Disposition says he’d raise it, so he does. Does he remember it the way it happened? His tag <em>Ashamed of What He Gave Up</em> opposes that. Disadvantage. No, but… Distorted, with a true feeling behind it. He opens with “You didn’t have to push that hard,” and casts himself as the one who was cornered. He was the one holding information back. The shame is real. The story around it isn’t, and nobody corrects it on the spot.</p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="genre-notes" class="level2">
+<h2 class="anchored" data-anchor-id="genre-notes">Genre Notes</h2>
+<blockquote class="blockquote">
+<p><strong>Optional module.</strong> Use this chapter to calibrate the tools for a specific kind of fiction.</p>
+</blockquote>
+<p>The tools are genre-neutral. What shifts by genre is which tool carries the scene, how you read ambiguous results, and what Agenda and Disposition tags tend to look like. These notes cover genres whose tension comes from not knowing what someone will do.</p>
+<section id="noir" class="level3">
+<h3 class="anchored" data-anchor-id="noir">Noir</h3>
+<p><strong>Conversation carries the genre.</strong> Interrogation and negotiation are the plot. Character sees less use, because most opposition acts through what it says.</p>
+<ul>
+<li>Read <strong>No, but…</strong> generously. A door in noir is rarely closed. It is expensive to open. Favor the “refusal reveals something” half of that result.</li>
+<li>Disposition tags skew toward <em>Evasive</em> and <em>Playing an Angle</em>. Open hostility is rare, because everyone is protecting something.</li>
+<li><em>A hidden Agenda surfaces</em> is the genre’s signature beat. When a Cast Twist roll reads flat for the scene, take that result instead.</li>
+</ul>
+</section>
+<section id="heist" class="level3">
+<h3 class="anchored" data-anchor-id="heist">Heist</h3>
+<p><strong>Group Dynamics carries the genre.</strong> The opposition is guards, marks, and staff, almost always Background. Character answers one question again and again: is the plan still on schedule.</p>
+<ul>
+<li>Keep the Foreground bar high. A heist where every guard moves to Foreground turns into a firefight. The one guard who notices something should be rare.</li>
+<li>Run the Group tag as the plan’s pressure gauge. <em>The Floor Is Routine</em> shifting to <em>The Floor Is On Edge</em> tells you how the job is going.</li>
+<li>When a Group tag would escalate twice in the same job, move someone out of the group: the one guard who is now hunting the crew.</li>
+</ul>
+</section>
+<section id="cosmic-horror" class="level3">
+<h3 class="anchored" data-anchor-id="cosmic-horror">Cosmic Horror</h3>
+<p><strong>Character carries the genre</strong>, and carries it strangely. What you emulate is often not a person. An Agenda for a thing that wants nothing a human would recognize is the point of the exercise.</p>
+<ul>
+<li>Build Agendas around indifference or incomprehension: <em>Doesn’t Register Her as a Threat</em>, <em>Wants the Ritual Completed and Nothing Else</em>. A hostile tag makes the horror legible. An indifferent one doesn’t.</li>
+<li><strong>The horror sits in the Yes results.</strong> A <em>Yes, and…</em> on a Conversation beat, where it answers and answers fully, is often more unsettling than a refusal.</li>
+<li>Reroll Voice results that read as quirky. The genre wants a voice that is <em>wrong</em>. “Speaks with unsettling calm regardless of the situation” does more work here than a nervous tic.</li>
+</ul>
+</section>
+<section id="fantasy" class="level3">
+<h3 class="anchored" data-anchor-id="fantasy">Fantasy</h3>
+<p><strong>Conversation and Character share the genre evenly.</strong> NPCs split between what they say (court intrigue, oaths, prophecy) and what they do (a knight’s charge, a sorcerer’s ritual).</p>
+<ul>
+<li>Agendas built on oaths create their own tension. A broken oath needs no roll: the fiction has already decided. Rewrite the NPC’s Agenda and Disposition on the spot.</li>
+<li>Disposition tags skew formal: <em>Bound by Fealty</em>, <em>Owed a Life-Debt</em>. Feudal and mythic settings run on obligation more than personality.</li>
+<li><em>A hidden Agenda surfaces</em> suits a Nemesis reveal. The loyal knight who serves the prophecy instead of the crown is the genre’s oldest turn, and it still works.</li>
+</ul>
+</section>
+<section id="cyberpunk" class="level3">
+<h3 class="anchored" data-anchor-id="cyberpunk">Cyberpunk</h3>
+<p><strong>Conversation, Group Dynamics, and Factions split the genre.</strong> Fixers, informants, and corporate handlers talk. Security details and drone swarms act as Background. Character on a single NPC sees the least use.</p>
+<ul>
+<li>Disposition tags run on leverage more than feeling: <em>Owes the Protagonist a Favor</em>, <em>Reports to Someone Else</em>. Ask what the NPC’s employer would think before you ask what the NPC wants.</li>
+<li>The Group tag for corporate security escalates visibly and often: <em>Standard Patrol</em>, then <em>Facility Locked Down</em>, then <em>Extraction Team Inbound</em>. Cyberpunk opposition scales in tiers.</li>
+<li><em>A hidden Agenda surfaces</em> often means the employer has changed. Give that organization its own Cast row and a Faction Beat.</li>
+</ul>
+</section>
+<section id="post-apocalyptic" class="level3">
+<h3 class="anchored" data-anchor-id="post-apocalyptic">Post-Apocalyptic</h3>
+<p><strong>Character carries the genre.</strong> Scarcity makes every NPC’s next move a survival calculation. What they say in Conversation usually narrates a decision already made.</p>
+<ul>
+<li>Build Agendas around resources: <em>Needs Medicine for Someone</em>, <em>Guards the Last Working Well</em>. Even a hostile Agenda should trace back to something concrete they lack.</li>
+<li>Read <strong>No, and…</strong> literally more often than elsewhere. An NPC who backs off with nothing may not survive the week.</li>
+<li>Give scavenger bands and raider packs a Group tag with a resource state, <em>Low on Ammo</em> or <em>Recently Fed</em>, and let it drift with the situation.</li>
+</ul>
+</section>
+<section id="western" class="level3">
+<h3 class="anchored" data-anchor-id="western">Western</h3>
+<p><strong>Conversation and Character alternate scene by scene.</strong> The negotiation is Conversation. The standoff after it is Character.</p>
+<ul>
+<li>Disposition tags run on reputation: <em>Heard What You Did in Redstone</em>, <em>Doesn’t Believe the Rumors</em>. An NPC’s stance is often set before they meet the Protagonist.</li>
+<li><em>Someone else steps in</em> is the genre’s classic beat: the duel interrupted by a third gun.</li>
+<li>Prefer blunt Concept results, such as <em>Weathered Guide</em> or <em>Bitter Rival</em>. Reroll anything ornate.</li>
+</ul>
+</section>
+<section id="where-these-tools-recede" class="level3">
+<h3 class="anchored" data-anchor-id="where-these-tools-recede">Where These Tools Recede</h3>
+<p>Some games are about running a procedure: a dungeon crawl, a mecha loadout. Depth of cast is not what those games are for. Quick-Build covers what they need. Skip the Cast List for anyone who isn’t carrying the story, and let Character resolve as a single roll.</p>
+<hr>
+</section>
+</section>
+<section id="worked-examples" class="level2">
+<h2 class="anchored" data-anchor-id="worked-examples">Worked Examples</h2>
+<section id="noir-infiltration" class="level3">
+<h3 class="anchored" data-anchor-id="noir-infiltration">Noir Infiltration</h3>
+<p><strong>Framing</strong>: Zahra breaks into a Cartwright Holdings records floor after hours, looking for the shipping manifests that tie the company to the men who followed her. <em>Where</em>: a quiet records floor at midnight, HVAC drone, one cleaning cart. <em>Who</em>: unknown yet. <em>What</em>: copy the manifests and get out.</p>
+<p><strong>Triage</strong>: a cleaning crew is working the far end with headphones in. Can they change how the scene goes? No.&nbsp;<strong>Dressing</strong>. Security is doing rounds. Can they change the scene? Yes. Does it turn on one person in particular? Not yet. <strong>Background</strong>, with a Group tag: <em>Routine Rounds</em>.</p>
+<p><strong>Beat 1, standard Oracle</strong>: “Does Zahra find the manifests in the first cabinet she checks?” No, but… They aren’t there, but a labeled folder points to a second archive room.</p>
+<p><strong>Beat 2, the Group tag</strong>: the rounds are due, and the question is Zahra’s: “Does the patrol pass without noticing anything?” <em>Routine Rounds</em> describes the patrol without favoring either side. Plain roll. No, but… The supervisor stops. She hasn’t seen Zahra, but she has seen the open cabinet drawer.</p>
+<p><strong>Breaking out</strong>: the scene now turns on what one person does. The supervisor moves to <strong>Foreground</strong>. Quick-Build: Concept 35, <em>Disgraced Officer</em>. Agenda 16, <em>Reclaim their position</em>.</p>
+<p><strong>Beat 3, Character</strong>: “Does she search the floor herself instead of calling it in?” Catching an intruder alone would advance her Agenda. Her Concept supports it: a disgraced officer can’t afford another false alarm on her record. Advantage. Yes, but… She searches, but she does it alone and without telling the desk. One opponent, not a team.</p>
+<p><strong>Beat 4, Conversation</strong>: Zahra steps out and tries a cover story. The supervisor needs a Disposition now. Roll 24: <em>Wary but civil, knows the basics</em>. She knows nobody is scheduled on this floor tonight. “Does she accept the story?” Her Stance opposes it. Disadvantage. The dice land equal, with the Counter at 2. Yes, but… She accepts the badge for the moment, but she wants to walk Zahra down to the desk to confirm it. The Counter fills.</p>
+<p><strong>Cast Twist</strong>: roll 3 and 2. <em>Their Disposition hardens, and it drags someone else in.</em> The scene has been building pressure since the open drawer, so the Twist lands hard. Halfway to the elevator she changes her mind and thumbs her radio. Two guards are on their way up. Her Disposition is now <em>Openly hostile</em>.</p>
+<p><strong>Group tag update</strong>: <em>Routine Rounds</em> becomes <em>Floor Locked Down</em>. No roll. The tag already says what the rest of the floor does. Zahra runs.</p>
+<p><strong>Closing</strong>: the goal is blocked. Zahra has the second-archive lead, no manifests, and a building that knows someone was here. The scene closes. Roll the Scene Transition as usual.</p>
+<p><strong>Cast update</strong>: the supervisor pushed back, so she gets a row.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name &amp; Concept</th>
+<th>Voice</th>
+<th>Agenda</th>
+<th>Disposition</th>
+<th>Relationship</th>
+<th>Last Seen</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Reyes, Disgraced Officer</td>
+<td>not rolled</td>
+<td>Reclaim her position, now by finding who was on her floor</td>
+<td>Openly hostile, knows the basics</td>
+<td>none yet</td>
+<td>Records floor. Called in the alarm. Saw Zahra’s face, doesn’t know what she was after</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="cyberpunk-extraction" class="level3">
+<h3 class="anchored" data-anchor-id="cyberpunk-extraction">Cyberpunk Extraction</h3>
+<p>Cyberpunk is where Conversation, Group Dynamics, and Factions as Actors do the most combined work, so this example uses all three, plus the two chapters the first example skipped: NPC Voice and NPC Memory &amp; Continuity.</p>
+<p><strong>Framing</strong>: Mireille Okafor needs root access to Solvane Dynamics’ internal directory to prove that a mid-level executive falsified safety data. <em>Where</em>: a server closet in a building Solvane leases, three floors below a noodle bar. <em>Who</em>: her fixer, Doss, and whoever is working the night shift. <em>What</em>: get in, copy the directory, get out clean.</p>
+<p><strong>Cast check, Memory</strong>: Doss already has a row. <em>Doss, Weary Informant. Agenda: Clear his debt to Solvane before they collect another way. Disposition: Cautiously helpful. Relationship: Fixer Who Delivers. Last Seen: the Harbor job. Alarm tripped early, both got out, he lost his cut.</em> His version of the Harbor job matters tonight, so it gets a roll. “Does he remember it the way it happened?” No tag bears on it. Plain roll. No… Wrong. In his version, she tripped the alarm. He opens with it.</p>
+<p><strong>NPC Voice</strong>: Doss has never had a Voice roll, so he gets one now: 43, uses formal address no matter how well they know you. He has called her “Ms.&nbsp;Okafor” since the day they met.</p>
+<p><strong>Beat 1, standard Oracle</strong>: “Does the closet’s badge reader still run last month’s firmware?” No, but… It has been patched, but the update log names the person who did it. A name for another day.</p>
+<p><strong>Beat 2, Conversation</strong>: Mireille pushes Doss for a passkey he’s holding back. “Does he hand it over?” <em>Cautiously helpful</em> supports it. Advantage. Yes, but… He hands it over, but he wants paid now, not when the job clears.</p>
+<p><strong>Beat 3, the Group tag</strong>: the night shift can change this scene, and no one of them in particular matters yet. <strong>Background</strong>, tagged <em>Running Behind on Rounds</em>. A tech wanders toward the closet, and the question is Mireille’s: “Does he walk past?” The tag supports it. Advantage. Yes… He walks past. Nobody leaves the group, and the scene moves on.</p>
+<p><strong>Beat 4, Character</strong>: a guard stops at the closet door while Mireille is elbow-deep in the rack. Doss is the one standing outside. From his side, with his Agenda: “Does he give her up to square his debt?” She paid him ten minutes ago, and that opposes the move. Disadvantage. The dice land equal, with the Counter at 2. Yes, but… He starts to. “Ms.&nbsp;Okafor is” gets out of his mouth, and now the guard knows Doss is part of whatever this is. The Counter fills.</p>
+<p><strong>Cast Twist</strong>: roll 6 and 6. <em>Someone else steps in, in a way nobody saw coming, them included.</em> Nothing on the Cast List points at this closet tonight, so it’s a new face. A courier walks into the corridor, asks for Doss by name, and holds out an envelope with Solvane’s collections seal on it. The courier did not expect a guard. Everyone freezes, and Mireille finishes the copy.</p>
+<p><strong>Closing</strong>: the goal is resolved. Mireille has the directory. The scene closes. Roll the Scene Transition as usual.</p>
+<p><strong>Faction Beat</strong>: the scene hit Solvane directly, so it gets one. Concept: <em>Bloated Corporation</em>. Agenda: <em>Protect the Falsified Data</em>. “Does Solvane trace the breach to Mireille before her next scene?” A bloated corporation is slow, and that opposes the move. Disadvantage. No, but… It holds, but a sign of intent leaks: the badge log from Beat 1 is flagged for audit, and Doss’s account is frozen pending a conversation. Mireille will find out when he calls her.</p>
+<p><strong>Cast update</strong>: Doss’s row gets his Voice, a new Disposition, and a new Last Seen. Mireille heard him start to say her name, so her relationship tag changes too. Solvane has pushed back and gets a row. The courier acted, which makes them Foreground for the next scene, with a Quick-Build waiting.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name &amp; Concept</th>
+<th>Voice</th>
+<th>Agenda</th>
+<th>Disposition</th>
+<th>Relationship</th>
+<th>Last Seen</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Doss, Weary Informant</td>
+<td>Formal address, always</td>
+<td>Clear his debt to Solvane before they collect another way</td>
+<td>Secretly conflicted</td>
+<td>Fixer Who Almost Sold Me</td>
+<td>Server closet. Started to give her up, a guard heard it. Solvane’s courier found him there</td>
+</tr>
+<tr class="even">
+<td>Solvane Dynamics, Bloated Corporation</td>
+<td>none</td>
+<td>Protect the falsified data</td>
+<td>none yet</td>
+<td>none yet</td>
+<td>After the closet job. Badge log flagged for audit, Doss’s account frozen. Not yet revealed</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="appendix-judgment-calls" class="level2">
+<h2 class="anchored" data-anchor-id="appendix-judgment-calls">Appendix: Judgment Calls</h2>
+<p>Short answers to the edge cases that come up once the tools are in use.</p>
+<p><strong>An NPC has no tags, and the scene needs a reaction.</strong> If the fiction answers, use the fiction. If two reactions are equally plausible and you notice yourself choosing, Quick-Build them on the spot, mid-beat if that is when the need shows up.</p>
+<p><strong>A Background group and a faction both apply.</strong> Use the Group tag for what happens in the room now. Use the faction for what the organization does once the room empties. Guards run on tonight’s Group tag. Their employer gets a Faction Beat at the Scene Transition.</p>
+<p><strong>Two Cast rows contradict each other.</strong> Trust the more recent one and treat the contradiction as fiction. An Agenda can shift without a Cast Twist. Update the row when you notice it happened.</p>
+<p><strong>A Character result would hurt the Protagonist directly.</strong> The result sets the attempt. The outcome is the Protagonist’s roll or a Conflict.</p>
+<p><strong>A Meanwhile scene and a Faction Beat fall on the same Scene Transition.</strong> They are the same turn. Run Meanwhile, and use the Faction Beat for its first step if the power-holder is an organization. Don’t run both.</p>
+<p><strong>The extra rolls are firing Twists too often.</strong> Doubles come up on one roll in six, whatever the dice pool, so more rolls mean more Twists. If the pace is too hot, you are rolling for NPCs the fiction could have answered. Go back to the Triage.</p>
+<p><strong>When should you not roll at all?</strong> Most of the time. The default state for any NPC is no tag, no roll, and plain description, exactly as it was before you owned this book. Nothing here should end with the Protagonist rolling for the cat.</p>
+<hr>
+</section>
+<section id="appendix-quick-reference" class="level2">
+<h2 class="anchored" data-anchor-id="appendix-quick-reference">Appendix: Quick Reference</h2>
+<p><strong>The Triage</strong></p>
+<ol type="1">
+<li>Can they change how this scene goes? No: Dressing.</li>
+<li>Does the scene turn on what one of them does? No: Background (one Group tag). Yes: Foreground.</li>
+</ol>
+<p><strong>The Tools</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tool</th>
+<th>Needs</th>
+<th>Question framed from</th>
+<th>Yes means</th>
+<th>Modified by</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Conversation</td>
+<td>Disposition</td>
+<td>The Protagonist’s side</td>
+<td>The Protagonist gets what they asked for</td>
+<td>Disposition, Protagonist’s tags</td>
+</tr>
+<tr class="even">
+<td>Character</td>
+<td>Agenda</td>
+<td>The NPC’s side</td>
+<td>The NPC advances their Agenda</td>
+<td>Concept, conditions, the scene. Never the Agenda</td>
+</tr>
+<tr class="odd">
+<td>Group tag, acted on</td>
+<td>Group tag</td>
+<td>The Protagonist’s side</td>
+<td>The Protagonist gets what they want</td>
+<td>Group tag, Protagonist’s tags</td>
+</tr>
+<tr class="even">
+<td>Group tag, acting</td>
+<td>Group tag</td>
+<td>The group’s side</td>
+<td>The group does what its tag points to</td>
+<td>Circumstances. Never the Group tag</td>
+</tr>
+<tr class="odd">
+<td>Faction Beat</td>
+<td>Concept, Agenda</td>
+<td>The faction’s side</td>
+<td>The faction advances its Agenda</td>
+<td>Concept, what the last scene did to it</td>
+</tr>
+<tr class="even">
+<td>How They Remember It</td>
+<td>Last Seen</td>
+<td>Neutral</td>
+<td>The memory is accurate</td>
+<td>Tags that color the memory</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Limits</strong></p>
+<ul>
+<li>One roll per beat. A beat is a topic or a move.</li>
+<li>One Voice roll per NPC, ever.</li>
+<li>One Faction Beat per Scene Transition, at most.</li>
+<li>One memory roll per reappearance, at most.</li>
+<li>Rolls against the Protagonist stay player-facing. No tool here runs inside Harm &amp; Luck.</li>
+</ul>
+<p><strong>Twists</strong>: equal dice always add 1 to the Counter. At 3, resolve the <em>Yes, but…</em>, then roll the Cast Twist table if the roll was about an NPC.</p>
+<hr>
+</section>
+<section id="appendix-the-cast-list-sheet" class="level2">
+<h2 class="anchored" data-anchor-id="appendix-the-cast-list-sheet">Appendix: The Cast List Sheet</h2>
+<p>A blank version of the table from The Cast List. Add a row when an NPC crosses the Promotion Rule threshold. When their thread closes, strike the row and keep it.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name &amp; Concept</th>
+<th>Voice</th>
+<th>Agenda</th>
+<th>Disposition</th>
+<th>Relationship</th>
+<th>Last Seen</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="license" class="level2">
+<h2 class="anchored" data-anchor-id="license">License</h2>
+<p>Loner 4e: Character Emulator</p>
+<p>© 2026 Roberto Bisceglie</p>
+<p>This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var sidebar = document.getElementById("quarto-margin-sidebar");
+  var formats = document.querySelector(".quarto-alternate-formats");
+  if (sidebar && formats) {
+    sidebar.insertBefore(formats, sidebar.firstChild);
+  }
+
+  // Rename "Typst" label to "PDF"
+  document.querySelectorAll(".quarto-alternate-formats a").forEach(function (a) {
+    a.childNodes.forEach(function (node) {
+      if (node.nodeType === Node.TEXT_NODE && node.textContent.trim() === "Typst") {
+        node.textContent = "PDF";
+      }
+    });
+  });
+});
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/zotiquestgames\.github\.io\/lonersrd\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2021-2026 <a href="https://zotiquestgames.com">Roberto Bisceglie</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/zotiquestgames/lonersrd/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

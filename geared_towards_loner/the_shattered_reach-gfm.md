@@ -1,6 +1,6 @@
 # The Shattered Reach
 Roberto Bisceglie
-2026-10-01
+2026-10-20
 
 # The Shattered Reach
 

@@ -1,6 +1,6 @@
 # character_builders_guide
 Roberto Bisceglie
-2026-10-01
+2026-10-20
 
 ﻿# Loner 4e: Character Builder’s Guide
 
