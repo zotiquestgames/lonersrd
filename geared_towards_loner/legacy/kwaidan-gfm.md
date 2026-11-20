@@ -1,6 +1,6 @@
 # Kwaidan!
 Roberto Bisceglie
-2026-10-29
+2026-11-20
 
 # Kwaidan!
 

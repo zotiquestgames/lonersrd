@@ -1,6 +1,6 @@
 # loner_companion
 Roberto Bisceglie
-2026-10-29
+2026-11-20
 
 ﻿# Loner 4e: Companion
 

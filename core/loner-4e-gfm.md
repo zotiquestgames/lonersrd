@@ -1,6 +1,6 @@
 # Loner 4e: Core Rules
 Roberto Bisceglie
-2026-10-29
+2026-11-20
 
 # Loner 4e: Core Rules
 

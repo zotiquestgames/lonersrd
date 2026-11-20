@@ -1,6 +1,6 @@
 # Loner - Core Rules 1st Edition (Legacy)
 Roberto Bisceglie
-2026-10-29
+2026-11-20
 
 # Loner (1st Edition)
 
