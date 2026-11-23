@@ -1,6 +1,6 @@
 # Loner: Cthulhu!
 Roberto Bisceglie
-2026-11-20
+2026-11-23
 
 # Loner: Cthulhu!
 

@@ -1,6 +1,6 @@
 # Loner - Core Rules 3rd Edition
 Roberto Bisceglie
-2026-11-20
+2026-11-23
 
 # Loner - Core Rules 3rd Edition
 

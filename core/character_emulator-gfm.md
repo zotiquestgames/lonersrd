@@ -1,6 +1,6 @@
 # Loner 4e: Character Emulator
 Roberto Bisceglie
-2026-11-20
+2026-11-23
 
 # Loner 4e: Character Emulator
 
@@ -34,6 +34,8 @@ whenever the fiction asks for it. Both can run in the same session.
 **A cast-building exercise.** Nothing here asks for prep. Every tool
 triggers in the moment, when an NPC’s words or actions are uncertain.
 Quick-Build exists for the NPCs you didn’t see coming.
+
+
 
 **A mandate to roll for every NPC.** Loner runs on judgment first and
 the Oracle where judgment runs out. Most NPCs in most scenes need no tag
@@ -100,8 +102,8 @@ Read **The Triage** first. Take the rest in any order.
 | Genre Notes | Which tool carries which kind of story? |
 
 The chapters are additive. Start with one tool and add another when a
-story asks for it. Two worked examples at the end run every tool start
-to finish.
+story asks for it. Two examples at the end run every tool start to
+finish.
 
 ### Table Index
 
@@ -278,7 +280,9 @@ much they know about what the Protagonist is after.
 The two halves do different jobs. **Stance modifies the roll**: it
 grants Advantage or Disadvantage like any tag. **Awareness shapes the
 answer**: it limits what a Yes can contain. An NPC can be hostile and
-well-informed, or friendly and wrong.
+well-informed, or friendly and wrong. *Secretly conflicted* grants
+neither: roll plain. When the dice come up equal, the side they hide
+shows in what they say or do, on top of the *Yes, but…*.
 
 A roll of 53 is *Eager to please, believes something false*: friendly,
 helpful, and confidently pointing the Protagonist in the wrong
@@ -352,9 +356,10 @@ Equal dice add 1 to the Twist Counter as usual.
 
 **Reopening a closed topic** takes a new approach: different leverage, a
 different promise, a different threat. That is a new beat and a new
-roll. If the same topic comes up **No** twice, treat it as a Dead End.
-Stop asking this NPC and ask the core question instead: *“Does something
-or someone point toward a new way forward?”*
+roll. If the same topic comes up **No** or **No, and…** twice, treat it
+as a Dead End. A *No, but…* gives something, so it does not count. Stop
+asking this NPC and ask the core question instead: *“Does something or
+someone point toward a new way forward?”*
 
 **Leverage and Relationships** apply without modification. Bank a *Yes,
 and…* as Leverage to spend later in the same pursuit. Assign or update a
@@ -687,8 +692,9 @@ Counter fills on a roll about an NPC, you may let the Twist belong to
 that NPC and roll here instead.
 
 **Trigger**: identical to the core rule. The Twist Counter reaches 3. If
-the roll that filled it came from a tool in this book, use this table.
-Otherwise use the standard Twist Table.
+the roll that filled it was about an NPC, use this table: a roll with
+one of this book’s tools, or the Protagonist’s own roll against a named
+NPC or a Group tag. Otherwise use the standard Twist Table.
 
 **The doubles still answer the question.** Read them as *Yes, but…* and
 resolve that answer first, as the core rules do. Then the Twist lands on
@@ -728,6 +734,8 @@ before the Protagonist is ready.
 lands on their own tags. If it was about a Background group, it lands on
 the Group tag. *Someone else steps in* reads well there: a member steps
 out of the crowd, and is Foreground from the moment they act.
+
+
 
 **Someone else steps in, and the Cast List has a candidate**: check the
 Cast List before you invent a stranger. If an existing entry’s Agenda
@@ -809,7 +817,7 @@ skipped.
 
 > | Name & Concept | Voice | Agenda | Disposition | Relationship | Last Seen |
 > |----|----|----|----|----|----|
-> | Tobias Wethern, Loyal Informant | Goes quiet when it turns personal | Protect his real source | Cautiously helpful, knows more than he’s letting on | Trusted Informant | Session 4. Gave up a name, flinched when asked for a second |
+> | Tobias Wethern, Loyal Informant | Goes quiet when it turns personal | Stay useful to both sides | Secretly conflicted, knows more than he’s letting on | Informant Who Sold Me Out | Session 4. Admitted he told Cartwright where to find her. Gave up a name, flinched when asked for a second |
 > | Cartwright Holdings, Predatory Conglomerate | none | Bury the leak before it reaches the press | none yet | none yet | Session 4. Sent the men who followed Zahra |
 
 ------------------------------------------------------------------------
@@ -838,9 +846,10 @@ it should already be in their Cast row.
 
 **How They Remember It**: roll this at most once per reappearance, and
 only when their version of events matters to the scene. Ask: *“Do they
-remember it the way it happened?”* A tag that would color the memory,
-such as a grudge, a fondness, or wounded pride, grants Advantage or
-Disadvantage as usual.
+remember it the way it happened?”* The question is neutral on purpose: a
+memory is on nobody’s side, so Yes means accurate, not good for the
+Protagonist. A tag that would color the memory, such as a grudge, a
+fondness, or wounded pride, grants Advantage or Disadvantage as usual.
 
 | Result | They remember it… |
 |----|----|
@@ -864,13 +873,14 @@ the story can answer later.
 ### 📌 Example: NPC Memory & Continuity
 
 > Tobias Wethern reappears three sessions after giving up a name and
-> flinching at the request for a second. His Disposition says he’d raise
-> it, so he does. Does he remember it the way it happened? His tag
-> *Ashamed of What He Gave Up* opposes that. Disadvantage. No, but…
-> Distorted, with a true feeling behind it. He opens with “You didn’t
-> have to push that hard,” and casts himself as the one who was
-> cornered. He was the one holding information back. The shame is real.
-> The story around it isn’t, and nobody corrects it on the spot.
+> flinching at the request for a second. His Disposition is conflicted,
+> and the conflict wants out, so he raises it. Does he remember it the
+> way it happened? His tag *Ashamed of What He Gave Up* opposes that.
+> Disadvantage. No, but… Distorted, with a true feeling behind it. He
+> opens with “You didn’t have to push that hard,” and casts himself as
+> the one who was cornered. He was the one holding information back. The
+> shame is real. The story around it isn’t, and nobody corrects it on
+> the spot.
 
 ------------------------------------------------------------------------
 
@@ -974,6 +984,8 @@ decision already made.
   state, *Low on Ammo* or *Recently Fed*, and let it drift with the
   situation.
 
+
+
 ### Western
 
 **Conversation and Character alternate scene by scene.** The negotiation
@@ -996,7 +1008,7 @@ the story, and let Character resolve as a single roll.
 
 ------------------------------------------------------------------------
 
-## Worked Examples
+## Examples
 
 ### Noir Infiltration
 
@@ -1072,6 +1084,8 @@ floors below a noodle bar. *Who*: her fixer, Doss, and whoever is
 working the night shift. *What*: get in, copy the directory, get out
 clean.
 
+
+
 **Cast check, Memory**: Doss already has a row. *Doss, Weary Informant.
 Agenda: Clear his debt to Solvane before they collect another way.
 Disposition: Cautiously helpful. Relationship: Fixer Who Delivers. Last
@@ -1139,7 +1153,7 @@ Quick-Build waiting.
 
 ------------------------------------------------------------------------
 
-## Appendix: Judgment Calls
+## Appendix A: Judgment Calls
 
 Short answers to the edge cases that come up once the tools are in use.
 
@@ -1177,7 +1191,7 @@ rolling for the cat.
 
 ------------------------------------------------------------------------
 
-## Appendix: Quick Reference
+## Appendix B: Quick Reference
 
 **The Triage**
 
@@ -1199,7 +1213,8 @@ rolling for the cat.
 **Limits**
 
 - One roll per beat. A beat is a topic or a move.
-- One Voice roll per NPC, ever.
+- One Voice result per NPC: reroll as the chapter allows, then keep it
+  for good.
 - One Faction Beat per Scene Transition, at most.
 - One memory roll per reappearance, at most.
 - Rolls against the Protagonist stay player-facing. No tool here runs
@@ -1211,7 +1226,7 @@ NPC.
 
 ------------------------------------------------------------------------
 
-## Appendix: The Cast List Sheet
+## Appendix C: The Cast List Sheet
 
 A blank version of the table from The Cast List. Add a row when an NPC
 crosses the Promotion Rule threshold. When their thread closes, strike
