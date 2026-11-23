@@ -215,6 +215,8 @@ Roll for the NPC you didn't plan for instead of freezing the scene. Three D66 ta
 
 The two halves do different jobs. **Stance modifies the roll**: it grants Advantage or Disadvantage like any tag. **Awareness shapes the answer**: it limits what a Yes can contain. An NPC can be hostile and well-informed, or friendly and wrong. *Secretly conflicted* grants neither: roll plain. When the dice come up equal, the side they hide shows in what they say or do, on top of the *Yes, but...*.
 
+{{< pagebreak >}}
+
 A roll of 53 is *Eager to please, believes something false*: friendly, helpful, and confidently pointing the Protagonist in the wrong direction. A roll of 42 is *Cautiously helpful, knows a fragment*: willing to talk, with little worth extracting.
 
 If a combination reads oddly, such as an *Idealistic Gatekeeper* whose Agenda is *Silence a witness*, treat it as source material to interpret. It is the same rule as the Inspiration Tables: read the result back into what the scene has already established.
@@ -535,7 +537,7 @@ The other tools update tags mid-scene. Without a place to keep them, the updates
 
 **Retiring an entry**: when an NPC's thread closes because they are dead, gone, or resolved, strike the row and keep it. A struck entry is cheap continuity. A later Cast Twist can reach for a name already on the page instead of inventing one.
 
-**The Living World checkpoint gets shorter.** The core rules ask you, at the end of an adventure, to note for each meaningful NPC whether the relationship shifted, what they want now, and whether they are still in play. With a Cast List, those answers are already in the rows. The Living World step becomes a read-through that catches anyone you skipped.
+**The Living World checkpoint gets shorter.** At the end of an adventure the core rules ask three things about each NPC who played a part: has the relationship shifted, what do they want now, are they still in play. With a Cast List, those answers are already in the rows. The Living World step becomes a read-through that catches anyone you skipped.
 
 ### 📌 Example: The Cast List
 
@@ -704,6 +706,8 @@ Cyberpunk is where Conversation, Group Dynamics, and Factions as Actors do the m
 **Cast Twist**: roll 6 and 6. *Someone else steps in, in a way nobody saw coming, them included.* Nothing on the Cast List points at this closet tonight, so it's a new face. A courier walks into the corridor, asks for Doss by name, and holds out an envelope with Solvane's collections seal on it. The courier did not expect a guard. Everyone freezes, and Mireille finishes the copy.
 
 **Closing**: the goal is resolved. Mireille has the directory. The scene closes. Roll the Scene Transition as usual.
+
+{{< pagebreak >}}
 
 **Faction Beat**: the scene hit Solvane directly, so it gets one. Concept: *Bloated Corporation*. Agenda: *Protect the Falsified Data*. "Does Solvane trace the breach to Mireille before her next scene?" A bloated corporation is slow, and that opposes the move. Disadvantage. No, but... It holds, but a sign of intent leaks: the badge log from Beat 1 is flagged for audit, and Doss's account is frozen pending a conversation. Mireille will find out when he calls her.
 
