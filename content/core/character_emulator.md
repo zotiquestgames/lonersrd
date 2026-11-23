@@ -213,7 +213,7 @@ Roll for the NPC you didn't plan for instead of freezing the scene. Three D66 ta
 | 5 | Knows more than they're letting on |
 | 6 | Knows the whole picture |
 
-The two halves do different jobs. **Stance modifies the roll**: it grants Advantage or Disadvantage like any tag. **Awareness shapes the answer**: it limits what a Yes can contain. An NPC can be hostile and well-informed, or friendly and wrong.
+The two halves do different jobs. **Stance modifies the roll**: it grants Advantage or Disadvantage like any tag. **Awareness shapes the answer**: it limits what a Yes can contain. An NPC can be hostile and well-informed, or friendly and wrong. *Secretly conflicted* grants neither: roll plain. When the dice come up equal, the side they hide shows in what they say or do, on top of the *Yes, but...*.
 
 A roll of 53 is *Eager to please, believes something false*: friendly, helpful, and confidently pointing the Protagonist in the wrong direction. A roll of 42 is *Cautiously helpful, knows a fragment*: willing to talk, with little worth extracting.
 
@@ -252,7 +252,7 @@ A Yes is only as good as what they know. If their Awareness is *Knows a fragment
 
 Equal dice add 1 to the Twist Counter as usual.
 
-**Reopening a closed topic** takes a new approach: different leverage, a different promise, a different threat. That is a new beat and a new roll. If the same topic comes up **No** twice, treat it as a Dead End. Stop asking this NPC and ask the core question instead: *"Does something or someone point toward a new way forward?"*
+**Reopening a closed topic** takes a new approach: different leverage, a different promise, a different threat. That is a new beat and a new roll. If the same topic comes up **No** or **No, and...** twice, treat it as a Dead End. A *No, but...* gives something, so it does not count. Stop asking this NPC and ask the core question instead: *"Does something or someone point toward a new way forward?"*
 
 **Leverage and Relationships** apply without modification. Bank a *Yes, and...* as Leverage to spend later in the same pursuit. Assign or update a relationship tag when the scene closes, not mid-conversation.
 
@@ -471,7 +471,7 @@ Equal dice add 1 to the Twist Counter as usual. If the Twist fires here, the fac
 
 The standard Twist Table speaks for the wider fiction: a third party appears, the location changes, an object ends the scene. When the Twist Counter fills on a roll about an NPC, you may let the Twist belong to that NPC and roll here instead.
 
-**Trigger**: identical to the core rule. The Twist Counter reaches 3. If the roll that filled it came from a tool in this book, use this table. Otherwise use the standard Twist Table.
+**Trigger**: identical to the core rule. The Twist Counter reaches 3. If the roll that filled it was about an NPC, use this table: a roll with one of this book's tools, or the Protagonist's own roll against a named NPC or a Group tag. Otherwise use the standard Twist Table.
 
 **The doubles still answer the question.** Read them as *Yes, but...* and resolve that answer first, as the core rules do. Then the Twist lands on top of it.
 
@@ -541,7 +541,7 @@ The other tools update tags mid-scene. Without a place to keep them, the updates
 
 > | Name & Concept | Voice | Agenda | Disposition | Relationship | Last Seen |
 > |---|---|---|---|---|---|
-> | Tobias Wethern, Loyal Informant | Goes quiet when it turns personal | Protect his real source | Cautiously helpful, knows more than he's letting on | Trusted Informant | Session 4. Gave up a name, flinched when asked for a second |
+> | Tobias Wethern, Loyal Informant | Goes quiet when it turns personal | Stay useful to both sides | Secretly conflicted, knows more than he's letting on | Informant Who Sold Me Out | Session 4. Admitted he told Cartwright where to find her. Gave up a name, flinched when asked for a second |
 > | Cartwright Holdings, Predatory Conglomerate | none | Bury the leak before it reaches the press | none yet | none yet | Session 4. Sent the men who followed Zahra |
 
 ---
@@ -558,7 +558,7 @@ The Cast List tells you what is currently true. This chapter covers what an NPC 
 
 **Referenced or acted on**: an NPC can mention what happened without having changed because of it. That is color. An NPC whose Agenda is different because of what happened carries a standing consequence, and it should already be in their Cast row.
 
-**How They Remember It**: roll this at most once per reappearance, and only when their version of events matters to the scene. Ask: *"Do they remember it the way it happened?"* A tag that would color the memory, such as a grudge, a fondness, or wounded pride, grants Advantage or Disadvantage as usual.
+**How They Remember It**: roll this at most once per reappearance, and only when their version of events matters to the scene. Ask: *"Do they remember it the way it happened?"* The question is neutral on purpose: a memory is on nobody's side, so Yes means accurate, not good for the Protagonist. A tag that would color the memory, such as a grudge, a fondness, or wounded pride, grants Advantage or Disadvantage as usual.
 
 | Result | They remember it... |
 |---|---|
@@ -577,7 +577,7 @@ Equal dice add 1 to the Twist Counter as usual.
 
 ### 📌 Example: NPC Memory & Continuity
 
-> Tobias Wethern reappears three sessions after giving up a name and flinching at the request for a second. His Disposition says he'd raise it, so he does. Does he remember it the way it happened? His tag *Ashamed of What He Gave Up* opposes that. Disadvantage. No, but... Distorted, with a true feeling behind it. He opens with "You didn't have to push that hard," and casts himself as the one who was cornered. He was the one holding information back. The shame is real. The story around it isn't, and nobody corrects it on the spot.
+> Tobias Wethern reappears three sessions after giving up a name and flinching at the request for a second. His Disposition is conflicted, and the conflict wants out, so he raises it. Does he remember it the way it happened? His tag *Ashamed of What He Gave Up* opposes that. Disadvantage. No, but... Distorted, with a true feeling behind it. He opens with "You didn't have to push that hard," and casts himself as the one who was cornered. He was the one holding information back. The shame is real. The story around it isn't, and nobody corrects it on the spot.
 
 ---
 
@@ -757,7 +757,7 @@ Short answers to the edge cases that come up once the tools are in use.
 **Limits**
 
 - One roll per beat. A beat is a topic or a move.
-- One Voice roll per NPC, ever.
+- One Voice result per NPC: reroll as the chapter allows, then keep it for good.
 - One Faction Beat per Scene Transition, at most.
 - One memory roll per reappearance, at most.
 - Rolls against the Protagonist stay player-facing. No tool here runs inside Harm & Luck.
