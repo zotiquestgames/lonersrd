@@ -284,6 +284,8 @@ well-informed, or friendly and wrong. *Secretly conflicted* grants
 neither: roll plain. When the dice come up equal, the side they hide
 shows in what they say or do, on top of the *Yes, but…*.
 
+
+
 A roll of 53 is *Eager to please, believes something false*: friendly,
 helpful, and confidently pointing the Protagonist in the wrong
 direction. A roll of 42 is *Cautiously helpful, knows a fragment*:
@@ -806,12 +808,11 @@ dead, gone, or resolved, strike the row and keep it. A struck entry is
 cheap continuity. A later Cast Twist can reach for a name already on the
 page instead of inventing one.
 
-**The Living World checkpoint gets shorter.** The core rules ask you, at
-the end of an adventure, to note for each meaningful NPC whether the
-relationship shifted, what they want now, and whether they are still in
-play. With a Cast List, those answers are already in the rows. The
-Living World step becomes a read-through that catches anyone you
-skipped.
+**The Living World checkpoint gets shorter.** At the end of an adventure
+the core rules ask three things about each NPC who played a part: has
+the relationship shifted, what do they want now, are they still in play.
+With a Cast List, those answers are already in the rows. The Living
+World step becomes a read-through that catches anyone you skipped.
 
 ### 📌 Example: The Cast List
 
@@ -1131,6 +1132,8 @@ freezes, and Mireille finishes the copy.
 
 **Closing**: the goal is resolved. Mireille has the directory. The scene
 closes. Roll the Scene Transition as usual.
+
+
 
 **Faction Beat**: the scene hit Solvane directly, so it gets one.
 Concept: *Bloated Corporation*. Agenda: *Protect the Falsified Data*.
