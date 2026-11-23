@@ -18,6 +18,8 @@ Everything here runs on what you already have: tags, Advantage and Disadvantage,
 
 **A cast-building exercise.** Nothing here asks for prep. Every tool triggers in the moment, when an NPC's words or actions are uncertain. Quick-Build exists for the NPCs you didn't see coming.
 
+{{< pagebreak >}}
+
 **A mandate to roll for every NPC.** Loner runs on judgment first and the Oracle where judgment runs out. Most NPCs in most scenes need no tag and no roll. A door gets blocked, a clerk waves someone through, and the fiction has already said so. Reach for a tool when you catch yourself inventing a reaction that nothing established supports. If you roll for every NPC on screen, a rules-light game becomes a subsystem.
 
 **Mandatory.** Every tool in this book is optional, the same way Challenge Tracks, Leverage, and the Status Track are optional in the core rules. Use what a story needs and skip the rest.
@@ -61,7 +63,7 @@ Read **The Triage** first. Take the rest in any order.
 | NPC Memory & Continuity | What do they carry back from last time? |
 | Genre Notes | Which tool carries which kind of story? |
 
-The chapters are additive. Start with one tool and add another when a story asks for it. Two worked examples at the end run every tool start to finish.
+The chapters are additive. Start with one tool and add another when a story asks for it. Two examples at the end run every tool start to finish.
 
 ### Table Index
 
@@ -494,6 +496,8 @@ The Counter resets once the Twist resolves. Twist Intensity applies as in the co
 
 **In a group scene**: if the roll was about a Foreground NPC, the Twist lands on their own tags. If it was about a Background group, it lands on the Group tag. *Someone else steps in* reads well there: a member steps out of the crowd, and is Foreground from the moment they act.
 
+{{< pagebreak >}}
+
 **Someone else steps in, and the Cast List has a candidate**: check the Cast List before you invent a stranger. If an existing entry's Agenda already points at this scene, that NPC steps in. Run their arrival as a Character beat. Their Agenda can target the NPC already in the scene as easily as it targets the Protagonist.
 
 **A hidden Agenda surfaces, and promotion**: this result is often the clearest sign that an NPC has crossed the Promotion Rule threshold. Consider adding them to the Cast List on the spot.
@@ -631,6 +635,8 @@ The tools are genre-neutral. What shifts by genre is which tool carries the scen
 - Read **No, and...** literally more often than elsewhere. An NPC who backs off with nothing may not survive the week.
 - Give scavenger bands and raider packs a Group tag with a resource state, *Low on Ammo* or *Recently Fed*, and let it drift with the situation.
 
+{{< pagebreak >}}
+
 ### Western
 
 **Conversation and Character alternate scene by scene.** The negotiation is Conversation. The standoff after it is Character.
@@ -645,7 +651,7 @@ Some games are about running a procedure: a dungeon crawl, a mecha loadout. Dept
 
 ---
 
-## Worked Examples
+## Examples
 
 ### Noir Infiltration
 
@@ -681,6 +687,8 @@ Cyberpunk is where Conversation, Group Dynamics, and Factions as Actors do the m
 
 **Framing**: Mireille Okafor needs root access to Solvane Dynamics' internal directory to prove that a mid-level executive falsified safety data. *Where*: a server closet in a building Solvane leases, three floors below a noodle bar. *Who*: her fixer, Doss, and whoever is working the night shift. *What*: get in, copy the directory, get out clean.
 
+{{< pagebreak >}}
+
 **Cast check, Memory**: Doss already has a row. *Doss, Weary Informant. Agenda: Clear his debt to Solvane before they collect another way. Disposition: Cautiously helpful. Relationship: Fixer Who Delivers. Last Seen: the Harbor job. Alarm tripped early, both got out, he lost his cut.* His version of the Harbor job matters tonight, so it gets a roll. "Does he remember it the way it happened?" No tag bears on it. Plain roll. No... Wrong. In his version, she tripped the alarm. He opens with it.
 
 **NPC Voice**: Doss has never had a Voice roll, so he gets one now: 43, uses formal address no matter how well they know you. He has called her "Ms. Okafor" since the day they met.
@@ -708,7 +716,7 @@ Cyberpunk is where Conversation, Group Dynamics, and Factions as Actors do the m
 
 ---
 
-## Appendix: Judgment Calls
+## Appendix A: Judgment Calls
 
 Short answers to the edge cases that come up once the tools are in use.
 
@@ -728,7 +736,7 @@ Short answers to the edge cases that come up once the tools are in use.
 
 ---
 
-## Appendix: Quick Reference
+## Appendix B: Quick Reference
 
 **The Triage**
 
@@ -758,7 +766,7 @@ Short answers to the edge cases that come up once the tools are in use.
 
 ---
 
-## Appendix: The Cast List Sheet
+## Appendix C: The Cast List Sheet
 
 A blank version of the table from The Cast List. Add a row when an NPC crosses the Promotion Rule threshold. When their thread closes, strike the row and keep it.
 
