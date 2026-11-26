@@ -100,7 +100,7 @@ In *Loner: Celtic Fantasy* Non-Playing Characters (NPCs), Foes, Organizations, M
 
 Your Protagonist is described by some fixed traits:
 
-- **Name**: The name should be iconic and consistent with the tone and setting of the story.
+- **Name**: The name should be iconic and consistent with the tone and setting of the story. The Surnames table gives the forms for a man; a woman takes *Nic* for *Mac* and *Ní* for *Ó*, softening the next letter: *Mac Suibhne* becomes *Nic Shuibhne*, *Ó Briain* becomes *Ní Bhriain*.
 - **Concept**: A concise description of the character's profession, background, and abilities. The best are adjective-noun pairings, like *"Truth-Bound Fili"* or *"Landless Fianna"*. In this game the noun usually comes from your **Origin**, one of six Celtic archetypes that also supplies your Skills, Frailty, and Gear tables.
 - **Skills** (x2): Abilities not necessarily character-specific but not characteristics common to all. *"Brave"* is not a skill, *"Spear-Dancer"* is.
 - **Frailty**: Something that could potentially get in the way of the character, either physically, mentally, or socially.
