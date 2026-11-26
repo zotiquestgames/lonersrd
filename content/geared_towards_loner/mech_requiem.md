@@ -665,6 +665,8 @@ At the end of the current scene sometimes you will be clear about the direction 
 
 To answer an Open-Ended question, roll 1d6 once on each of the following tables (roll at least a verb and a noun, adjectives are optional).
 
+#### Verbs
+
 | Verbs |     1    |    2    |    3    |     4    |    5    |    6    |
 |:-----:|:--------:|:------:|:-------:|:--------:|:-------:|:-------:|
 |   1   |  command  |  navigate |   hack   |  deploy  |   fortify  |  salvage |
@@ -675,6 +677,8 @@ To answer an Open-Ended question, roll 1d6 once on each of the following tables 
 |   6   |   patrol  |  demand |   detect  |    encrypt   |  mobilize | annihilate |
 
 
+#### Adjectives
+
 | Adjectives |      1      |       2       |     3     |       4       |      5      |     6     |
 |:----------:|:-----------:|:-------------:|:---------:|:-------------:|:-----------:|:---------:|
 |      1     |   armored   |     faulty    |  encrypted  |     scarce    |    reinforced    | strategic |
@@ -684,6 +688,8 @@ To answer an Open-Ended question, roll 1d6 once on each of the following tables 
 |      5     |    silent    |     hostile    |   elusive  |   volatile   |    integral   |    delayed   |
 |      6     | fortified |    commanding   | hazardous |    massive   |  aggressive  |  resilient |
 
+
+#### Nouns
 
 | Nouns |      1     |    2    |    3   |    4   |     5     |     6    |
 |:-----:|:----------:|:-------:|:------:|:------:|:---------:|:--------:|
