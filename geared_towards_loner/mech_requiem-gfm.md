@@ -817,6 +817,8 @@ table:
 To answer an Open-Ended question, roll 1d6 once on each of the following
 tables (roll at least a verb and a noun, adjectives are optional).
 
+#### Verbs
+
 | Verbs |    1     |      2      |      3      |    4     |      5      |     6      |
 |:-----:|:--------:|:-----------:|:-----------:|:--------:|:-----------:|:----------:|
 |   1   | command  |  navigate   |    hack     |  deploy  |   fortify   |  salvage   |
@@ -826,6 +828,8 @@ tables (roll at least a verb and a noun, adjectives are optional).
 |   5   | confront |    adapt    |  establish  | assemble | prioritize  | integrate  |
 |   6   |  patrol  |   demand    |   detect    | encrypt  |  mobilize   | annihilate |
 
+#### Adjectives
+
 | Adjectives |     1     |     2      |     3      |     4     |      5      |      6      |
 |:----------:|:---------:|:----------:|:----------:|:---------:|:-----------:|:-----------:|
 |     1      |  armored  |   faulty   | encrypted  |  scarce   | reinforced  |  strategic  |
@@ -834,6 +838,8 @@ tables (roll at least a verb and a noun, adjectives are optional).
 |     4      |   sleek   |  obsolete  | stabilized |  modular  |  adaptive   |    harsh    |
 |     5      |  silent   |  hostile   |  elusive   | volatile  |  integral   |   delayed   |
 |     6      | fortified | commanding | hazardous  |  massive  | aggressive  |  resilient  |
+
+#### Nouns
 
 | Nouns |     1     |     2     |      3      |    4     |      5       |       6       |
 |:-----:|:---------:|:---------:|:-----------:|:--------:|:------------:|:-------------:|
