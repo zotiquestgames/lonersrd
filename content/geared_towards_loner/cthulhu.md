@@ -358,7 +358,7 @@ Over time, investigators learn to work with their altered mental states rather t
 
 ### The Price of Truth
 
-Each investigation leaves permanent marks on your psyche. Note whether your Sanity Track has ever reached *Broken*: that mark follows your investigator into every case that follows. The more you have seen, the harder it becomes to maintain conventional perspectives, but the more capable you become of perceiving cosmic truths.
+Each investigation leaves permanent marks on your psyche. Note on your sheet whether your Sanity Track has ever reached *Broken*: if it has, the *Disturbed* tag can never be fully removed (see Permanent marks), in this case and in every case that follows. The more you have seen, the harder it becomes to maintain conventional perspectives, but the more capable you become of perceiving cosmic truths.
 
 **Remember:** Madness in cosmic horror isn't punishment; it's transformation. Your character doesn't become less capable of investigation; they become a different kind of investigator, one who sees reality from angles that stable minds cannot comprehend.
 
