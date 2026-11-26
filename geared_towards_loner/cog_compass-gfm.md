@@ -877,7 +877,7 @@ might own, command, or encounter.
 | 5 | Entertainment Systems | Emergency Response Systems | Propaganda Broadcasters | Deep Sea Recovery Gear | Mercenary Quarters | Experimental Labs |
 | 6 | Siege Weapons | Wilderness Survival Kits | Elite Guard Quarters | Massive Storage | Command Center | High-Atmosphere Communications |
 
-### Frailties
+#### Frailties
 
 |  | 1 | 2 | 3 | 4 | 5 | 6 |
 |----|----|----|----|----|----|----|
