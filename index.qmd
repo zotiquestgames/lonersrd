@@ -25,7 +25,7 @@ format-links: false
 
 **Loner** is a minimalist solo game that will allow you to have amazing adventures in any genre and setting with two pairs of dice and only your imagination as the limit!
 
-Based on [Freeform Universal](https://www.perilplanet.com/freeform-universal/), this revised second edition is the result of player feedback and is designed to introduce even the neophyte to solo RPG.
+Based on [Freeform Universal](https://www.perilplanet.com/freeform-universal/), this fourth edition is the result of player feedback and is designed to introduce even the neophyte to solo RPG.
 
 Complete with tips, diagrams and examples, you can dive into endless worlds of adventure in a few minutes.
 
@@ -45,7 +45,7 @@ Loner is a product of [**Zotiquest Games**](https://zotiquestgames.com)
 
 The complete text of *Loner*, free and in full.
 
-[Read the Core Rules](core/loner-3e.md){.btn .btn-outline-primary .mt-3}
+[Read the Core Rules](core/loner-4e.md){.btn .btn-outline-primary .mt-3}
 :::
 :::
 
