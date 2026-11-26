@@ -1,6 +1,6 @@
 # Loner: Character Builder’s Guide
 Roberto Bisceglie
-2026-11-23
+2026-11-26
 
 # Loner: Character Builder’s Guide
 

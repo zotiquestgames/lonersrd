@@ -1,6 +1,6 @@
 # Loner: Pulp Heroes
 Roberto Bisceglie
-2026-11-23
+2026-11-26
 
 # Loner: Pulp Heroes
 
