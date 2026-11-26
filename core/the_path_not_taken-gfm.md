@@ -1043,14 +1043,44 @@ does, but how time itself changes the meaning of those actions.
 > Use this table when a twist in time disrupts the expected path. Roll
 > d66 to select a result, or pick one that fits the scene.
 
-|  | 1 | 2 | 3 | 4 | 5 | 6 |
-|----|----|----|----|----|----|----|
-| 1 | A version of you passes by | You glimpse someone dead—alive | You lose time (missing hours) | A previous scene replays nearby | A loop resets—but you’re not ready | An NPC recognizes you wrongly |
-| 2 | You speak before you think | Time skips ahead mid-scene | You say something you never knew | Your tag changes mid-dialogue | Someone else quotes your past words | A voice speaks from another loop |
-| 3 | Your reflection doesn’t match | An item disappears from your pack | You remember a life that isn’t yours | A mark appears on your body | You see the same event twice | The Oracle contradicts itself |
-| 4 | A Time Ghost interrupts the scene | A flash of two timelines merging | Your shadow moves independently | You feel a tag being rewritten | An NPC splits into two roles | A decision was made without you |
-| 5 | Your memory is challenged | You switch emotional tags suddenly | A past enemy offers help | A Fixed Point flickers briefly | Someone warns you not to leap again | You act without choosing to |
-| 6 | A paradox starts to form | A character erases as you speak | The environment loops a sound/image | A relationship tag fractures | A duplicate of you appears | Time halts. Everything waits. |
+| d66 | Twist Effect                         |
+|-----|--------------------------------------|
+| 11  | A version of you passes by           |
+| 12  | You speak before you think           |
+| 13  | Your reflection doesn’t match        |
+| 14  | A Time Ghost interrupts the scene    |
+| 15  | Your memory is challenged            |
+| 16  | A paradox starts to form             |
+| 21  | You glimpse someone dead—alive       |
+| 22  | Time skips ahead mid-scene           |
+| 23  | An item disappears from your pack    |
+| 24  | A flash of two timelines merging     |
+| 25  | You switch emotional tags suddenly   |
+| 26  | A character erases as you speak      |
+| 31  | You lose time (missing hours)        |
+| 32  | You say something you never knew     |
+| 33  | You remember a life that isn’t yours |
+| 34  | Your shadow moves independently      |
+| 35  | A past enemy offers help             |
+| 36  | The environment loops a sound/image  |
+| 41  | A previous scene replays nearby      |
+| 42  | Your tag changes mid-dialogue        |
+| 43  | A mark appears on your body          |
+| 44  | You feel a tag being rewritten       |
+| 45  | A Fixed Point flickers briefly       |
+| 46  | A relationship tag fractures         |
+| 51  | A loop resets—but you’re not ready   |
+| 52  | Someone else quotes your past words  |
+| 53  | You see the same event twice         |
+| 54  | An NPC splits into two roles         |
+| 55  | Someone warns you not to leap again  |
+| 56  | A duplicate of you appears           |
+| 61  | An NPC recognizes you wrongly        |
+| 62  | A voice speaks from another loop     |
+| 63  | The Oracle contradicts itself        |
+| 64  | A decision was made without you      |
+| 65  | You act without choosing to          |
+| 66  | Time halts. Everything waits.        |
 
 > Tip: If a twist dramatically alters an NPC, location, or timeline
 > rule, consider updating the Time-Web or adding a ✶ mark.

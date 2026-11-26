@@ -524,9 +524,10 @@ reality from a different perspective.
 
 ### The Price of Truth
 
-Each investigation leaves permanent marks on your psyche. Note whether
-your Sanity Track has ever reached *Broken*: that mark follows your
-investigator into every case that follows. The more you have seen, the
+Each investigation leaves permanent marks on your psyche. Note on your
+sheet whether your Sanity Track has ever reached *Broken*: if it has,
+the *Disturbed* tag can never be fully removed (see Permanent marks), in
+this case and in every case that follows. The more you have seen, the
 harder it becomes to maintain conventional perspectives, but the more
 capable you become of perceiving cosmic truths.
 
