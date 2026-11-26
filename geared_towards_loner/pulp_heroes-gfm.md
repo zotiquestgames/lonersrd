@@ -1373,27 +1373,6 @@ show up again in future adventures.
 | 65 | Religious Organization Treasury - Spiritual institution with charity fund embezzlement records |
 | 66 | International Trade Company - Commerce business with foreign espionage documentation |
 
-#### Document Types
-
-| D66 | Document Type |
-|----|----|
-| 11 | Financial Ledger - Accounting records showing illegal money movement |
-| 12 | Correspondence Files - Personal letters revealing criminal relationships |
-| 13 | Contract Agreement - Legal documents outlining illegal business arrangements |
-| 14 | Photograph Collection - Visual evidence of criminal activities or blackmail material |
-| 15 | Meeting Minutes - Official records of conspiracy planning sessions |
-| 16 | Property Deed - Real estate ownership documents with fraudulent transfers |
-| 21 | Medical Records - Healthcare documentation covering up suspicious deaths |
-| 22 | Employee Roster - Personnel lists revealing criminal organization structure |
-| 23 | Shipping Manifest - Cargo documentation concealing smuggling operations |
-| 24 | Legal Brief - Court documents showing case fixing or judicial corruption |
-| 25 | Insurance Policy - Coverage documents with suspicious beneficiary changes |
-| 26 | Government Permit - Official authorization obtained through bribery |
-| 31 | Personal Diary - Private journal documenting criminal activities and plans |
-| 32 | Bank Statement - Financial records showing suspicious deposits and withdrawals |
-| 33 | Travel Itinerary - Transportation schedules for criminal operation timing |
-| 34 | \## Adventure Tables (Expanded) |
-
 ### Locations
 
 #### City Districts
