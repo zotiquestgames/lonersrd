@@ -174,7 +174,10 @@ characters too! A **faerie queen**, a **blood-cursed sword**, and a
 Your Protagonist is described by some fixed traits:
 
 - **Name**: The name should be iconic and consistent with the tone and
-  setting of the story.
+  setting of the story. The Surnames table gives the forms for a man; a
+  woman takes *Nic* for *Mac* and *Ní* for *Ó*, softening the next
+  letter: *Mac Suibhne* becomes *Nic Shuibhne*, *Ó Briain* becomes *Ní
+  Bhriain*.
 - **Concept**: A concise description of the character’s profession,
   background, and abilities. The best are adjective-noun pairings, like
   *“Truth-Bound Fili”* or *“Landless Fianna”*. In this game the noun
